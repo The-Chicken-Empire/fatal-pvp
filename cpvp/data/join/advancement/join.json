@@ -1,0 +1,10 @@
+{
+  "criteria": {
+    "spawn": {
+      "trigger": "minecraft:location"
+    }
+  },
+  "rewards": {
+    "function": "join:join"
+  }
+}

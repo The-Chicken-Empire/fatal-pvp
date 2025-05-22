@@ -1,0 +1,5 @@
+teamrule
+0.batorowa
+1.2team
+2.3team
+3.4team

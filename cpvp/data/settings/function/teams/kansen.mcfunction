@@ -1,0 +1,9 @@
+execute if entity @s[tag=!kansen] run tag @s add kansen2
+execute if entity @s[tag=kansen] run tag @s add player
+execute if entity @s[tag=kansen] run tag @s remove kansen
+execute if entity @s[tag=kansen2] run tag @s add kansen
+execute if entity @s[tag=kansen2] run tag @s remove player
+execute if entity @s[tag=!kansen] run tellraw @p {"color":"white","text":"プレイヤーになりました"}
+execute if entity @s[tag=kansen] run tellraw @p {"color":"white","text":"観戦者になりました"}
+execute if entity @s[tag=!kansen] run team join kansen
+execute if entity @s[tag=kansen] run team leave @s

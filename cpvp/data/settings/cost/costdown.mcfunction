@@ -1,0 +1,2 @@
+scoreboard players remove $maxcost itemcost 1
+tellraw @a [{"color":"white","text":"現在の"},{"color":"red","text":"最大コスト"},{"color":"white","text":"は"},{"color":"green","score":{"name":"$maxcost","objective":"itemcost"}},{"color":"white","text":"です"}]
