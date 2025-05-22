@@ -13,17 +13,17 @@
     ターミナルで以下のコマンドを打ちます
 
     ``` clone.sh
-    // 一つ前のディレクトリに移動
+    # 一つ前のディレクトリに移動
     cd ../
 
-    // clone先のフォルダが空である必要があるので一旦datapacksフォルダを削除
-    // datapacksの中身を消したくない場合は一旦他の場所に移すか下の方法を使う！
+    # clone先のフォルダが空である必要があるので一旦datapacksフォルダを削除
+    # datapacksの中身を消したくない場合は一旦他の場所に移すか下の方法を使う！
     rm -rf datapacks
 
-    // git cloneする
+    # git cloneする
     git clone https://github.com/The-Chicken-Empire/fatal-pvp datapacks
 
-    // datapacksフォルダにカレントディレクトリを移動
+    # datapacksフォルダにカレントディレクトリを移動
     cd datapacks
     ```
 
@@ -32,16 +32,17 @@
     既に作成したdatapackが別であったり、なんかできない！って場合は以下の手順も試してみてください（カレントディレクトリは同様にdatapacksフォルダとします）
 
     ``` remote_add.sh
-    // git initでgitリポジトリとして登録します。
+    # git initでgitリポジトリとして登録します。
     git init
 
-    // このリポジトリをリモートに設定します
+    # このリポジトリをリモートに設定します
     git remote add origin https://github.com/The-Chicken-Empire/fatal-pvp
 
-    // git fetch してリモートの内容をローカルにダウンロードしてきます
-    git fetch
+    # git fetch originをしてリモートの内容をローカルにダウンロードしてきます
+    git fetch origin
 
-    // mainブランチに移れば変更を取り込める
+    # mainブランチにcheckoutするとローカルにmainブランチが作成される
+    # git merge origin/mainだとmasterが作成されちゃうのでなんか面倒
     git checkout main
     ```
 
@@ -50,10 +51,10 @@
 詳しくはgitについて調べてください。自分も人に説明できるほど詳しくないです。  
 
     ``` delete_branch.sh
-    // 新しいブランチを作る
+    # 新しいブランチを作る
     git branch <新しいブランチの名前>
 
-    // ブランチを移動する
+    # ブランチを移動する
     git checkout <作成したブランチ>
     ```
 
