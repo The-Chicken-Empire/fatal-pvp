@@ -1,0 +1,14 @@
+{
+"function": "minecraft:copy_custom_data",
+  "source": {
+    "type": "minecraft:storage",
+    "source": "cpvp:system"
+  },
+  "ops": [
+    {
+      "source": "tmp.cooltime",
+      "target": "cpvp.cooltime",
+      "op": "replace"
+    }
+  ]
+}

@@ -1,4 +1,5 @@
 #scoreboard players add $timer timer 1
+function system:cooltime/tick
 
 effect give @a resistance 5 10 true
 execute if score $phase main matches 1..3 run function system:timer
