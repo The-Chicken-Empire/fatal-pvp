@@ -2,9 +2,9 @@
 #
 # アイテム使用時に使う
 # CTを確認する
-# @input string slot itemコマンドで指定できるもの
+# @input int slot スロット番号
 #
-# @within item:**
+# @within items:**
 # @within system:**
 
 # スロット番号を取ってくるデータに変換
