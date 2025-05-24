@@ -1,12 +1,9 @@
-tellraw @a loaded
-execute as @a at @a run playsound minecraft:block.amethyst_block.break master @s
 
 scoreboard objectives add random dummy
 scoreboard objectives add sneak minecraft.custom:minecraft.sneak_time
 
 scoreboard objectives add deathtimer dummy
 scoreboard objectives add deathsentence dummy
-
 
 #system
 scoreboard objectives add settings dummy
@@ -93,4 +90,9 @@ scoreboard objectives add maxeng dummy
 scoreboard objectives add eng dummy
 scoreboard objectives add stats dummy
 
+#todo: あとでsystem:load作ってまとめる
 function system:cooltime/load
+
+# load完了通知
+tellraw @a loaded
+execute as @a at @a run playsound minecraft:block.amethyst_block.break master @s
