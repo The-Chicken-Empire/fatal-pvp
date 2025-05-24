@@ -18,7 +18,7 @@
                     "perkitem": 1,
                     "regularitem": 1,
                     "stats": {
-                      "maxhp": 2,
+                      "maxhp": 20,
                       "maxmp": 2,
                       "mr": 2,
                       "physicaldef": 2,

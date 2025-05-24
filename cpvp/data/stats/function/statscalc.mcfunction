@@ -63,6 +63,11 @@ data remove storage cpvp:stats $dummy
 execute if predicate stats:hot8perkitem run data modify storage cpvp:stats $dummy set from entity @s Inventory[{Slot:8b}]
 function stats:statscalc2
 
+#hp/mpの初期値処理
+scoreboard players operation @s maxhp += $400 main
+scoreboard players operation @s maxmp += $100 main
+
+
 #没
 #execute store result score @s statsmath run data get storage cpvp:statsmath $temp.equipment.offhand.components.minecraft:custom_data.cpvp-mr
 #scoreboard players operation @s mr += @s statsmath
