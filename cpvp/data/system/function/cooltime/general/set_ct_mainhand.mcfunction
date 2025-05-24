@@ -4,7 +4,7 @@
 # CTを設定する
 # @input int cooltime クールタイム
 #
-# @within item:**
+# @within items:**
 # @within system:**
 
 #実行時間とCTをストレージに取得

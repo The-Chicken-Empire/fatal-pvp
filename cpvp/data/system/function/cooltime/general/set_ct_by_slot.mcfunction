@@ -3,9 +3,9 @@
 # アイテム使用時に使う
 # CTを設定する
 # @input int cooltime クールタイム
-# @input string slot itemコマンドで指定できるもの
+# @input int slot スロット番号
 #
-# @within item:**
+# @within items:**
 # @within system:**
 
 #実行時間とCTをストレージに取得
