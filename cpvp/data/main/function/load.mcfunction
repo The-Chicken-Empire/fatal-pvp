@@ -75,13 +75,13 @@ scoreboard objectives add mp dummy
 scoreboard objectives add maxhp dummy
 scoreboard objectives add maxmp dummy
 scoreboard objectives add mr dummy
-scoreboard objectives add normaldef dummy
+scoreboard objectives add physicaldef dummy
 scoreboard objectives add magicdef dummy
 scoreboard objectives add meleedef dummy
 scoreboard objectives add rangedef dummy
 scoreboard objectives add vit dummy
 scoreboard objectives add speed dummy
-scoreboard objectives add normaldmg dummy
+scoreboard objectives add physicaldmg dummy
 scoreboard objectives add magicdmg dummy
 scoreboard objectives add meleedmg dummy
 scoreboard objectives add rangedmg dummy

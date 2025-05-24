@@ -10,9 +10,9 @@ data remove storage cpvp:stats $dummy
 execute store result score $dummy mr run data get storage cpvp:stats $dummy.components.minecraft:custom_data.cpvp.stats.mr
 scoreboard players operation @s mr += $dummy mr
 data remove storage cpvp:stats $dummy
-#normaldef
-execute store result score $dummy normaldef run data get storage cpvp:stats $dummy.components.minecraft:custom_data.cpvp.stats.normaldef
-scoreboard players operation @s normaldef += $dummy normaldef
+#physicaldef
+execute store result score $dummy physicaldef run data get storage cpvp:stats $dummy.components.minecraft:custom_data.cpvp.stats.physicaldef
+scoreboard players operation @s physicaldef += $dummy physicaldef
 data remove storage cpvp:stats $dummy
 #magicdef
 execute store result score $dummy magicdef run data get storage cpvp:stats $dummy.components.minecraft:custom_data.cpvp.stats.magicdef
@@ -34,9 +34,9 @@ data remove storage cpvp:stats $dummy
 execute store result score $dummy vit run data get storage cpvp:stats $dummy.components.minecraft:custom_data.cpvp.stats.vit
 scoreboard players operation @s vit += $dummy vit
 data remove storage cpvp:stats $dummy
-#normaldmg
-execute store result score $dummy normaldmg run data get storage cpvp:stats $dummy.components.minecraft:custom_data.cpvp.stats.normaldmg
-scoreboard players operation @s normaldmg += $dummy normaldmg
+#physicaldmg
+execute store result score $dummy physicaldmg run data get storage cpvp:stats $dummy.components.minecraft:custom_data.cpvp.stats.physicaldmg
+scoreboard players operation @s physicaldmg += $dummy physicaldmg
 data remove storage cpvp:stats $dummy
 #magicdmg
 execute store result score $dummy magicdmg run data get storage cpvp:stats $dummy.components.minecraft:custom_data.cpvp.stats.magicdmg
@@ -61,9 +61,4 @@ data remove storage cpvp:stats $dummy
 #maxeng
 execute store result score $dummy maxeng run data get storage cpvp:stats $dummy.components.minecraft:custom_data.cpvp.stats.maxeng
 scoreboard players operation @s maxeng += $dummy maxeng
-data remove storage cpvp:stats $dummy
-
-#maxeng
-execute store result score $dummy maxeng run data get storage cpvp:stats $dummy.components.minecraft:custom_data.cpvp.itemcost
-scoreboard players operation @s itemcost += $dummy itemcost
 data remove storage cpvp:stats $dummy
