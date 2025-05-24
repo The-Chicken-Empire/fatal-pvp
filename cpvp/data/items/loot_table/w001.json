@@ -1,0 +1,237 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:carrot_on_a_stick",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_data": {
+                  "cpvp": {
+                    "id": {
+                      "weapon": 1
+                    },
+                    "mainhanditem": 1,
+                    "regularitem": 1,
+                    "cost": 5
+                  }
+                },
+                "minecraft:unbreakable": {},
+                "minecraft:tooltip_display": {
+                  "hidden_components": [
+                    "minecraft:attribute_modifiers",
+                    "minecraft:unbreakable"
+                  ]
+                },
+                "minecraft:attribute_modifiers": [
+                  {
+                    "type": "minecraft:attack_damage",
+                    "id": "minecraft:attack_damage",
+                    "amount": 6,
+                    "operation": "add_value",
+                    "slot": "mainhand"
+                  },
+                  {
+                    "type": "minecraft:attack_speed",
+                    "id": "attack_speed",
+                    "amount": -2.5,
+                    "operation": "add_value",
+                    "slot": "mainhand"
+                  }
+                ]
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "text": "アイテムコスト",
+                  "extra": [
+                    {
+                      "text": " : ",
+                      "extra": [
+                        {
+                          "text": "5",
+                          "type": "text",
+                          "color": "red"
+                        }
+                      ],
+                      "color": "white",
+                      "italic": false
+                    }
+                  ],
+                  "color": "light_purple",
+                  "italic": false
+                },
+                {
+                  "text": "ダメージ",
+                  "extra": [
+                    {
+                      "text": " : ",
+                      "extra": [
+                        {
+                          "text": "6",
+                          "extra": [
+                            {
+                              "text": " - ",
+                              "extra": [
+                                {
+                                  "text": "物理",
+                                  "extra": [
+                                    {
+                                      "text": "/",
+                                      "extra": [
+                                        {
+                                          "text": "近距離",
+                                          "color": "red",
+                                          "italic": false
+                                        }
+                                      ],
+                                      "color": "white",
+                                      "italic": false
+                                    }
+                                  ],
+                                  "color": "gold",
+                                  "italic": false
+                                }
+                              ],
+                              "color": "white",
+                              "italic": false
+                            }
+                          ],
+                          "color": "gold",
+                          "italic": false
+                        }
+                      ],
+                      "color": "white",
+                      "italic": false
+                    }
+                  ],
+                  "color": "red",
+                  "italic": false
+                },
+                {
+                  "text": "攻撃速度",
+                  "extra": [
+                    {
+                      "text": " : ",
+                      "extra": [
+                        {
+                          "text": "1.5",
+                          "color": "gold"
+                        }
+                      ],
+                      "color": "white"
+                    }
+                  ],
+                  "color": "yellow",
+                  "italic": false
+                },
+                "",
+                {
+                  "text": "--",
+                  "extra": [
+                    {
+                      "text": " 告撃",
+                      "extra": [
+                        {
+                          "text": " --",
+                          "color": "white",
+                          "italic": false
+                        }
+                      ],
+                      "color": "red"
+                    }
+                  ],
+                  "color": "white",
+                  "italic": false
+                },
+                {
+                  "text": "一秒間",
+                  "extra": [
+                    {
+                      "text": "攻撃力上昇2",
+                      "extra": [
+                        {
+                          "text": "を得る。",
+                          "color": "white"
+                        }
+                      ],
+                      "color": "red"
+                    }
+                  ],
+                  "color": "white",
+                  "italic": false
+                },
+                {
+                  "text": "効果中に近接攻撃を命中させた時、CTを9秒短縮する。",
+                  "color": "white",
+                  "italic": false
+                },
+                {
+                  "text": "消費MP",
+                  "type": "text",
+                  "extra": [
+                    {
+                      "text": " : ",
+                      "extra": [
+                        {
+                          "text": "10",
+                          "extra": [
+                            {
+                              "text": " クールタイム",
+                              "extra": [
+                                {
+                                  "text": " : ",
+                                  "extra": [
+                                    {
+                                      "text": "10秒",
+                                      "color": "green",
+                                      "italic": false
+                                    }
+                                  ],
+                                  "color": "white",
+                                  "italic": false
+                                }
+                              ],
+                              "color": "dark_aqua",
+                              "italic": false
+                            }
+                          ],
+                          "color": "green"
+                        }
+                      ],
+                      "color": "white",
+                      "italic": false
+                    }
+                  ],
+                  "color": "blue",
+                  "italic": false
+                }
+              ],
+              "mode": "replace_all"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "無法の連刃",
+                "color": "red",
+                "bold": true,
+                "italic": false
+              }
+            }
+          ],
+          "conditions": []
+        }
+      ],
+      "functions": [],
+      "conditions": []
+    }
+  ],
+  "functions": []
+}
