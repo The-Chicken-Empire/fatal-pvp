@@ -16,7 +16,8 @@
                     "id": {
                       "magic": 1
                     },
-                    "mainhanditem": 1
+                    "mainhanditem": 1,
+                    "regularitem": 1
                   }
                 }
               }
@@ -182,7 +183,7 @@
                 },
                 "",
                 {
-                  "text": "「...何?このボール...?」",
+                  "text": "「...何?この...ボール...?」",
                   "type": "text",
                   "color": "dark_gray"
                 },

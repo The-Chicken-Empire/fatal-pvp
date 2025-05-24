@@ -16,7 +16,8 @@
                     "id": {
                       "weapon": 1
                     },
-                    "mainhanditem": 1
+                    "mainhanditem": 1,
+                    "regularitem": 1
                   }
                 },
                 "minecraft:unbreakable": {},
