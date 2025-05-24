@@ -17,7 +17,8 @@
                       "weapon": 1
                     },
                     "mainhanditem": 1,
-                    "regularitem": 1
+                    "regularitem": 1,
+                    "cost": 5
                   }
                 },
                 "minecraft:unbreakable": {},
