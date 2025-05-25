@@ -19,7 +19,7 @@
                     "regularitem": 1,
                     "stats": {
                       "maxhp": 20,
-                      "maxmp": 2,
+                      "maxmp": 200,
                       "mr": 2,
                       "physicaldef": 2,
                       "magicdef": 2,
