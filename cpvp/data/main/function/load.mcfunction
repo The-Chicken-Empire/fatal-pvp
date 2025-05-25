@@ -31,6 +31,7 @@ scoreboard objectives add selecteditemA dummy
 scoreboard objectives add selecteditemB dummy
 scoreboard objectives add itemcost dummy
 scoreboard objectives add itemcount dummy
+scoreboard objectives add mpcost dummy
 
 #star shard
 scoreboard objectives add Cstar dummy
