@@ -188,6 +188,25 @@
               "italic": false
             },
             "",
+            {
+              "text": "使用可能部位",
+              "extra": [
+                {
+                  "text": " : ",
+                  "extra": [
+                    {
+                      "text": "メインハンド",
+                      "color": "dark_green"
+                    }
+                  ],
+                  "color": "white",
+                  "italic": false
+                }
+              ],
+              "color": "dark_green",
+              "italic": false
+            },
+            "",
             "",
             {
               "text": "「...何?このボール...?」",

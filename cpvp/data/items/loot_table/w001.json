@@ -17,8 +17,8 @@
                       "weapon": 1
                     },
                     "mainhanditem": 1,
-                    "regularitem": 1,
-                    "cost": 5
+                    "cost": 5,
+                    "regularitem": 1
                   }
                 },
                 "minecraft:unbreakable": {},
@@ -31,14 +31,14 @@
                 "minecraft:attribute_modifiers": [
                   {
                     "type": "minecraft:attack_damage",
-                    "id": "minecraft:attack_damage",
+                    "id": "w001",
                     "amount": 6,
                     "operation": "add_value",
                     "slot": "mainhand"
                   },
                   {
                     "type": "minecraft:attack_speed",
-                    "id": "attack_speed",
+                    "id": "w001",
                     "amount": -2.5,
                     "operation": "add_value",
                     "slot": "mainhand"
@@ -184,7 +184,7 @@
                           "text": "10",
                           "extra": [
                             {
-                              "text": " クールタイム",
+                              "text": "  クールタイム",
                               "extra": [
                                 {
                                   "text": " : ",
@@ -211,6 +211,24 @@
                     }
                   ],
                   "color": "blue",
+                  "italic": false
+                },
+                "",
+                {
+                  "text": "使用可能部位",
+                  "extra": [
+                    {
+                      "text": " : ",
+                      "extra": [
+                        {
+                          "text": "メインハンド",
+                          "color": "dark_green"
+                        }
+                      ],
+                      "color": "white"
+                    }
+                  ],
+                  "color": "dark_green",
                   "italic": false
                 }
               ],

@@ -1,0 +1,161 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:feather"
+        }
+      ],
+      "functions": [
+        {
+          "function": "minecraft:set_components",
+          "components": {
+            "minecraft:custom_data": {
+              "cpvp": {
+                "regularitem": 1,
+                "offhanditem": 1,
+                "id": {
+                  "offhand": 1
+                },
+                "stats": {
+                  "agi": 2,
+                  "speed": 10
+                },
+                "cost": 6
+              }
+            },
+            "minecraft:tooltip_display": {
+              "hidden_components": [
+                "minecraft:attribute_modifiers"
+              ]
+            },
+            "minecraft:attribute_modifiers": [
+              {
+                "type": "minecraft:gravity",
+                "id": "o001",
+                "amount": -0.3,
+                "operation": "add_multiplied_total",
+                "slot": "offhand"
+              },
+              {
+                "type": "minecraft:jump_strength",
+                "id": "o001",
+                "amount": 0.2,
+                "operation": "add_value",
+                "slot": "offhand"
+              },
+              {
+                "type": "minecraft:safe_fall_distance",
+                "id": "o001",
+                "amount": 3,
+                "operation": "add_value",
+                "slot": "offhand"
+              }
+            ],
+            "minecraft:max_stack_size": 1
+          }
+        },
+        {
+          "function": "minecraft:set_name",
+          "name": {
+            "text": "自由の翼",
+            "bold": true,
+            "italic": false
+          }
+        },
+        {
+          "function": "minecraft:set_lore",
+          "lore": [
+            {
+              "text": "アイテムコスト",
+              "extra": [
+                {
+                  "text": " : ",
+                  "extra": [
+                    {
+                      "text": "6",
+                      "color": "dark_red"
+                    }
+                  ],
+                  "color": "white",
+                  "italic": false
+                }
+              ],
+              "color": "light_purple",
+              "italic": false
+            },
+            {
+              "text": "移動速度",
+              "extra": [
+                {
+                  "text": " : ",
+                  "extra": [
+                    {
+                      "text": "+10%"
+                    }
+                  ],
+                  "color": "white"
+                }
+              ],
+              "color": "white",
+              "italic": false
+            },
+            "",
+            {
+              "text": "--",
+              "extra": [
+                {
+                  "text": " アンチグラビティー ",
+                  "extra": [
+                    {
+                      "text": "--",
+                      "color": "white",
+                      "italic": false
+                    }
+                  ],
+                  "color": "dark_purple"
+                }
+              ],
+              "color": "white",
+              "italic": false
+            },
+            {
+              "text": "オフハンドに持つことで少しだけ重力を無視できる。",
+              "color": "white",
+              "italic": false
+            },
+            "",
+            {
+              "text": "使用可能部位",
+              "extra": [
+                {
+                  "text": " : ",
+                  "extra": [
+                    {
+                      "text": "オフハンド",
+                      "color": "dark_green"
+                    }
+                  ],
+                  "color": "white",
+                  "italic": false
+                }
+              ],
+              "color": "dark_green",
+              "italic": false
+            },
+            "",
+            "",
+            {
+              "text": "「この鳥籠から抜け出そうぜ?」",
+              "color": "dark_gray"
+            }
+          ],
+          "mode": "replace_all"
+        }
+      ],
+      "conditions": []
+    }
+  ]
+}

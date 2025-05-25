@@ -355,6 +355,26 @@
                   "italic": false
                 },
                 "",
+                {
+                  "text": "使用可能部位",
+                  "extra": [
+                    {
+                      "text": " : ",
+                      "extra": [
+                        {
+                          "text": "ホットバー",
+                          "color": "dark_green",
+                          "italic": false
+                        }
+                      ],
+                      "color": "white",
+                      "italic": false
+                    }
+                  ],
+                  "color": "dark_green",
+                  "italic": false
+                },
+                "",
                 "",
                 {
                   "text": "「元々これはなんだったんだ？」",
