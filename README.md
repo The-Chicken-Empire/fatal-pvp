@@ -21,7 +21,7 @@
     rm -rf datapacks
 
     # git cloneする
-    git clone https://github.com/The-Chicken-Empire/fatal-pvp datapacks
+    git clone --recursive https://github.com/The-Chicken-Empire/fatal-pvp datapacks
 
     # datapacksフォルダにカレントディレクトリを移動
     cd datapacks

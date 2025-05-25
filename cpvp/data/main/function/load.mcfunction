@@ -19,6 +19,7 @@ scoreboard players set $20 main 20
 scoreboard players set $400 main 400
 scoreboard players set $100 main 100
 scoreboard players set $10000 main 10000
+scoreboard players set $1000000000 main 1000000000
 bossbar add timer [{"color":"white","italic":false,"text":"ゲーム開始まで後"},{"color":"aqua","italic":false,"score":{"name":"$timersec","objective":"main"}},{"color":"white","italic":false,"text":"秒です"}]
 bossbar set minecraft:timer style notched_10
 bossbar add gametimer aaa
@@ -92,3 +93,5 @@ scoreboard objectives add agi dummy
 scoreboard objectives add maxeng dummy
 scoreboard objectives add eng dummy
 scoreboard objectives add stats dummy
+
+function system:cooltime/load
