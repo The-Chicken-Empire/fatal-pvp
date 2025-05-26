@@ -18,8 +18,8 @@
                     "perkitem": 1,
                     "regularitem": 1,
                     "stats": {
-                      "maxhp": 2,
-                      "maxmp": 2,
+                      "maxhp": 20,
+                      "maxmp": 200,
                       "mr": 2,
                       "physicaldef": 2,
                       "magicdef": 2,
@@ -352,6 +352,26 @@
                     }
                   ],
                   "color": "white",
+                  "italic": false
+                },
+                "",
+                {
+                  "text": "使用可能部位",
+                  "extra": [
+                    {
+                      "text": " : ",
+                      "extra": [
+                        {
+                          "text": "ホットバー",
+                          "color": "dark_green",
+                          "italic": false
+                        }
+                      ],
+                      "color": "white",
+                      "italic": false
+                    }
+                  ],
+                  "color": "dark_green",
                   "italic": false
                 },
                 "",
