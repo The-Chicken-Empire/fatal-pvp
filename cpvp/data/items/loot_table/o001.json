@@ -20,8 +20,10 @@
                   "offhand": 1
                 },
                 "stats": {
-                  "agi": 2,
-                  "speed": 10
+                  "offhand": {
+                    "agi": 2,
+                    "speed": 10
+                  }
                 },
                 "cost": 6
               }
@@ -97,6 +99,25 @@
                     }
                   ],
                   "color": "white"
+                }
+              ],
+              "color": "white",
+              "italic": false
+            },
+            {
+              "text": "回避率",
+              "extra": [
+                {
+                  "text": " : ",
+                  "extra": [
+                    {
+                      "text": "+2%",
+                      "color": "white",
+                      "italic": false
+                    }
+                  ],
+                  "color": "white",
+                  "italic": false
                 }
               ],
               "color": "white",
