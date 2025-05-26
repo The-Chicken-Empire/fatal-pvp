@@ -68,7 +68,7 @@ execute if predicate stats:hot8perkitem run function stats:statscalc2
 scoreboard players operation @s maxhp += $400 main
 scoreboard players operation @s maxmp += $10000 main
 #speed処理
-execute store result storage cpvp:stats speed float 1 run scoreboard players get @s speed
+execute store result storage cpvp:stats speed float 0.01 run scoreboard players get @s speed
 function stats:speed with storage cpvp:stats
 data modify storage cpvp:stats speed set value 0
 #没
