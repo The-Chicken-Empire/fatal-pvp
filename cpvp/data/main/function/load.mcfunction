@@ -24,6 +24,7 @@ scoreboard players set $20 main 20
 scoreboard players set $400 main 400
 scoreboard players set $100 main 100
 scoreboard players set $10000 main 10000
+scoreboard players set $1000000000 main 1000000000
 bossbar add timer [{"color":"white","italic":false,"text":"ゲーム開始まで後"},{"color":"aqua","italic":false,"score":{"name":"$timersec","objective":"main"}},{"color":"white","italic":false,"text":"秒です"}]
 bossbar set minecraft:timer style notched_10
 bossbar add gametimer aaa
@@ -36,6 +37,7 @@ scoreboard objectives add selecteditemA dummy
 scoreboard objectives add selecteditemB dummy
 scoreboard objectives add itemcost dummy
 scoreboard objectives add itemcount dummy
+scoreboard objectives add mpcost dummy
 
 #star shard
 scoreboard objectives add Cstar dummy
@@ -80,13 +82,13 @@ scoreboard objectives add mp dummy
 scoreboard objectives add maxhp dummy
 scoreboard objectives add maxmp dummy
 scoreboard objectives add mr dummy
-scoreboard objectives add normaldef dummy
+scoreboard objectives add physicaldef dummy
 scoreboard objectives add magicdef dummy
 scoreboard objectives add meleedef dummy
 scoreboard objectives add rangedef dummy
 scoreboard objectives add vit dummy
 scoreboard objectives add speed dummy
-scoreboard objectives add normaldmg dummy
+scoreboard objectives add physicaldmg dummy
 scoreboard objectives add magicdmg dummy
 scoreboard objectives add meleedmg dummy
 scoreboard objectives add rangedmg dummy
@@ -96,6 +98,7 @@ scoreboard objectives add agi dummy
 scoreboard objectives add maxeng dummy
 scoreboard objectives add eng dummy
 scoreboard objectives add stats dummy
+
 
 
 
@@ -117,3 +120,5 @@ scoreboard objectives add rangedmg_buff dummy
 scoreboard objectives add cc_buff dummy
 scoreboard objectives add agi_buff dummy
 scoreboard objectives add maxeng_buff dummy
+
+function system:cooltime/load

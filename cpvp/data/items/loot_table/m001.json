@@ -1,0 +1,250 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:carrot_on_a_stick",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_data": {
+                  "cpvp": {
+                    "id": {
+                      "magic": 1
+                    },
+                    "mainhanditem": 1,
+                    "regularitem": 1,
+                    "cost": 3
+                  }
+                },
+                "minecraft:unbreakable": {},
+                "minecraft:tooltip_display": {
+                  "hidden_components": [
+                    "minecraft:unbreakable"
+                  ]
+                }
+              }
+            }
+          ],
+          "conditions": []
+        }
+      ],
+      "functions": [
+        {
+          "function": "minecraft:set_name",
+          "name": {
+            "text": "スプラッシュボム",
+            "color": "aqua",
+            "bold": true,
+            "italic": false
+          }
+        },
+        {
+          "function": "minecraft:set_lore",
+          "lore": [
+            {
+              "text": "アイテムコスト",
+              "extra": [
+                {
+                  "text": " : ",
+                  "extra": [
+                    {
+                      "text": "3",
+                      "color": "yellow"
+                    }
+                  ],
+                  "color": "white",
+                  "italic": false
+                }
+              ],
+              "color": "light_purple",
+              "italic": false
+            },
+            "",
+            {
+              "text": "--",
+              "extra": [
+                {
+                  "text": " スプラッシュボム ",
+                  "extra": [
+                    {
+                      "text": "--",
+                      "color": "white",
+                      "italic": false
+                    }
+                  ],
+                  "color": "aqua",
+                  "italic": false
+                }
+              ],
+              "color": "white",
+              "italic": false
+            },
+            {
+              "text": "放物線を描き飛んでいく圧縮された",
+              "extra": [
+                {
+                  "text": "水の球",
+                  "color": "aqua",
+                  "italic": false
+                }
+              ],
+              "color": "white",
+              "italic": false
+            },
+            {
+              "text": "少し経つと破裂し、周囲の敵にそれなりのダメージを与える",
+              "color": "white",
+              "italic": false
+            },
+            {
+              "text": "消費MP",
+              "extra": [
+                {
+                  "text": " : ",
+                  "extra": [
+                    {
+                      "text": "18 ",
+                      "extra": [
+                        {
+                          "text": "クールタイム",
+                          "extra": [
+                            {
+                              "text": " : ",
+                              "extra": [
+                                {
+                                  "text": "10秒",
+                                  "color": "green",
+                                  "italic": false
+                                }
+                              ],
+                              "color": "white",
+                              "italic": false
+                            }
+                          ],
+                          "color": "dark_aqua",
+                          "italic": false
+                        }
+                      ],
+                      "color": "green",
+                      "italic": false
+                    }
+                  ],
+                  "color": "white",
+                  "italic": false
+                }
+              ],
+              "color": "blue",
+              "italic": false
+            },
+            {
+              "text": "ダメージ",
+              "extra": [
+                {
+                  "text": " : ",
+                  "extra": [
+                    {
+                      "text": "14",
+                      "extra": [
+                        {
+                          "text": " - ",
+                          "extra": [
+                            {
+                              "text": "魔法",
+                              "extra": [
+                                {
+                                  "text": "/",
+                                  "extra": [
+                                    {
+                                      "text": "遠距離",
+                                      "color": "blue",
+                                      "italic": false
+                                    }
+                                  ],
+                                  "color": "white",
+                                  "italic": false
+                                }
+                              ],
+                              "color": "dark_purple",
+                              "italic": false
+                            }
+                          ],
+                          "color": "white",
+                          "italic": false
+                        }
+                      ],
+                      "color": "gold",
+                      "italic": false
+                    }
+                  ],
+                  "color": "white",
+                  "italic": false
+                }
+              ],
+              "color": "red",
+              "italic": false
+            },
+            "",
+            {
+              "text": "使用可能部位",
+              "extra": [
+                {
+                  "text": " : ",
+                  "extra": [
+                    {
+                      "text": "メインハンド",
+                      "color": "dark_green"
+                    }
+                  ],
+                  "color": "white",
+                  "italic": false
+                }
+              ],
+              "color": "dark_green",
+              "italic": false
+            },
+            "",
+            "",
+            {
+              "text": "「...何?このボール...?」",
+              "color": "dark_gray",
+              "italic": true
+            },
+            {
+              "text": "「...ーー!?ァ",
+              "extra": [
+                {
+                  "text": "XXXXXX",
+                  "extra": [
+                    {
+                      "text": "」",
+                      "color": "dark_gray",
+                      "italic": true,
+                      "obfuscated": false
+                    }
+                  ],
+                  "color": "dark_gray",
+                  "italic": true,
+                  "obfuscated": true
+                }
+              ],
+              "color": "dark_gray",
+              "italic": true
+            },
+            "",
+            {
+              "text": "          ...静寂に包まれた",
+              "color": "dark_gray",
+              "italic": true
+            }
+          ],
+          "mode": "replace_all"
+        }
+      ]
+    }
+  ],
+  "functions": []
+}

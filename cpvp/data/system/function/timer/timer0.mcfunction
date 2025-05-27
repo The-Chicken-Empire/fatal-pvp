@@ -1,0 +1,2 @@
+execute if score $timer main matches ..0 if score $phase main matches 1 run function system:phase/phase1/start
+execute if score $timer main matches ..0 if score $phase main matches 2 run function system:phase/phase2/open

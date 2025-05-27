@@ -1,17 +1,6 @@
 {
     "pack": {
         "pack_format": 69,
-        "description": [
-            {
-                "translate": "gm4_pb.pack.1",
-                "fallback": "Datapack for Evergrowth"
-            },
-            "\n",
-            {
-                "translate": "gm4_pb.pack.2",
-                "fallback": "Evergrowth - a Gamemode 4 puzzle map",
-                "color": "#4AA0C7"
-            }
-        ]
+        "description": "cpvp"
     }
 }
