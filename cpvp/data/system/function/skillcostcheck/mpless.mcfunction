@@ -1,5 +1,4 @@
 #いるもの
-tag @s remove useskill
 execute as @s at @s run playsound block.fire.extinguish master @s ~ ~ ~ 1 2
 #要らない物
 execute store result score $dummy random run random value 1..100

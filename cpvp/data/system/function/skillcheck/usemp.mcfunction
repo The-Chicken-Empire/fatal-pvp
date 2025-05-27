@@ -1,1 +1,0 @@
-scoreboard players operation @s mp -= @s mpcost
