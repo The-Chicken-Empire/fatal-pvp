@@ -1,0 +1,28 @@
+{
+  "function": "minecraft:set_lore",
+  "lore": [
+    [
+      {
+        "text": "-- テンプレートスキル --",
+        "color": "white",
+        "italic": false
+      }
+    ],
+    [
+      {
+        "text": "これは例です",
+        "color": "white",
+        "italic": false
+      }
+    ],
+    [
+      {
+        "text": "ダメージ : 1",
+        "color": "white",
+        "italic": false
+      }
+    ],
+    ""
+  ],
+  "mode": "append"
+}

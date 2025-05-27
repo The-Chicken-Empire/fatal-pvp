@@ -1,0 +1,14 @@
+{
+  "function": "minecraft:set_custom_data",
+  "tag": {
+    "cpvp": {
+      "stats": {
+        "mainhand": {
+          "agi": 10,
+          "maxhp": 100
+        }
+      },
+      "mainhanditem": 1
+    }
+  }
+}

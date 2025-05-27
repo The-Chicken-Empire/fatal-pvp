@@ -1,0 +1,15 @@
+{
+  "function": "minecraft:set_lore",
+  "lore": [
+    [
+      {
+        "text": "アイテムコスト : "
+      },
+      {
+        "text": "2"
+      }
+    ],
+    ""
+  ],
+  "mode": "append"
+}
