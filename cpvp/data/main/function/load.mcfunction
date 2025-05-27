@@ -11,6 +11,11 @@ scoreboard objectives add deathsentence dummy
 #system
 scoreboard objectives add settings dummy
 scoreboard objectives add main dummy
+scoreboard objectives add counter dummy
+scoreboard objectives add counter2 dummy
+scoreboard objectives add counter3 dummy
+scoreboard objectives add counter4 dummy
+scoreboard objectives add counter5 dummy
 scoreboard objectives add timer dummy
 scoreboard players set $0 main 0
 scoreboard players set $2 main 2
@@ -91,3 +96,24 @@ scoreboard objectives add agi dummy
 scoreboard objectives add maxeng dummy
 scoreboard objectives add eng dummy
 scoreboard objectives add stats dummy
+
+
+
+
+#buff用
+scoreboard objectives add maxhp_buff dummy
+scoreboard objectives add maxmp_buff dummy
+scoreboard objectives add mr_buff dummy
+scoreboard objectives add physicaldef_buff dummy
+scoreboard objectives add magicdef_buff dummy
+scoreboard objectives add meleedef_buff dummy
+scoreboard objectives add rangedef_buff dummy
+scoreboard objectives add vit_buff dummy
+scoreboard objectives add speed_buff dummy
+scoreboard objectives add physicaldmg_buff dummy
+scoreboard objectives add magicdmg_buff dummy
+scoreboard objectives add meleedmg_buff dummy
+scoreboard objectives add rangedmg_buff dummy
+scoreboard objectives add cc_buff dummy
+scoreboard objectives add agi_buff dummy
+scoreboard objectives add maxeng_buff dummy

@@ -1,0 +1,1 @@
+execute if data storage buff: temp[{id:$(id)}]
