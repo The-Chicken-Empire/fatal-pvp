@@ -52,5 +52,11 @@ scoreboard players operation @s damagetaken /= $10000 main
 #変換
 scoreboard players operation @s damage = @s damagetaken
 scoreboard players reset @s damagetaken
-
+#tag解除
+tag @s remove physicaldamage
+tag @s remove magicdamage
+tag @s remove meleedamage
+tag @s remove rangedamage
+tag @s remove specialdamage
+#damage処理
 function damage:damage

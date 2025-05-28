@@ -1,5 +1,5 @@
 tellraw @a loaded
-execute as @a at @a run playsound minecraft:block.amethyst_block.break master @s
+execute as @a at @s run playsound block.amethyst_block.break master @s ~ ~ ~ 1 1 0
 
 scoreboard objectives add random dummy
 scoreboard objectives add sneak minecraft.custom:minecraft.sneak_time
@@ -33,6 +33,14 @@ scoreboard objectives add selecteditemB dummy
 scoreboard objectives add itemcost dummy
 scoreboard objectives add itemcount dummy
 scoreboard objectives add mpcost dummy
+scoreboard objectives add X dummy
+scoreboard objectives add Y dummy
+scoreboard objectives add Z dummy
+scoreboard objectives add carrotuse minecraft.used:minecraft.carrot_on_a_stick
+scoreboard objectives add owner dummy
+scoreboard objectives add ownerteam dummy
+#skillで出したarmor stand/marker用のscoreboard
+scoreboard objectives add skills dummy
 
 #star shard
 scoreboard objectives add Cstar dummy
