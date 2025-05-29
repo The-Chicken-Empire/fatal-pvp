@@ -46,8 +46,15 @@ scoreboard objectives add skills dummy
 scoreboard objectives add Cstar dummy
 
 #teams
+scoreboard objectives add alives dummy
+scoreboard objectives modify alives displayautoupdate true
+scoreboard objectives modify alives displayname {"color":"white","text":"生存者数"}
 scoreboard objectives add teamrule dummy
 scoreboard objectives add teamscore dummy
+scoreboard players display name $red alives {"color":"red","text":red}
+scoreboard players display name $blue alives {"color":"blue","text":blue}
+scoreboard players display name $green alives {"color":"green","text":green}
+scoreboard players display name $yellow alives {"color":"yellow","text":yellow}
 team add solo
 team add red
 team add blue
@@ -101,5 +108,11 @@ scoreboard objectives add agi dummy
 scoreboard objectives add maxeng dummy
 scoreboard objectives add eng dummy
 scoreboard objectives add stats dummy
+scoreboard objectives add displayhpA dummy
+scoreboard objectives add displayhpB dummy
+scoreboard objectives add displaymp dummy
+scoreboard objectives add displaymaxhpA dummy
+scoreboard objectives add displaymaxhpB dummy
+scoreboard objectives add displaymaxmp dummy
 
 function system:cooltime/load
