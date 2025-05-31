@@ -4,6 +4,10 @@
 #不吉な予感 与ダメージ減少 lv*10%
 #試練の予感 クリティカル確率上昇 lv*2%
 
+#reset
+scoreboard players set $damagecalc damagecalc 0
+scoreboard players set $damagecalc2 damagecalc 0
+
 #与ダメージ者damage処理
 execute if entity @s[tag=victim,tag=magicdamage] run scoreboard players operation $damagecalc damagecalc += @a[tag=atker,limit=1] magicdmg
 execute if entity @s[tag=victim,tag=physicaldamage] run scoreboard players operation $damagecalc damagecalc += @a[tag=atker,limit=1] physicaldmg
@@ -52,5 +56,11 @@ scoreboard players operation @s damagetaken /= $10000 main
 #変換
 scoreboard players operation @s damage = @s damagetaken
 scoreboard players reset @s damagetaken
-
+#tag解除
+tag @s remove physicaldamage
+tag @s remove magicdamage
+tag @s remove meleedamage
+tag @s remove rangedamage
+tag @s remove specialdamage
+#damage処理
 function damage:damage

@@ -8,3 +8,5 @@ scoreboard players add @a[team=blue] teamscore 2
 scoreboard players add @a[team=green] teamscore 3
 scoreboard players add @a[team=yellow] teamscore 4
 tellraw @a [{"color":"white","text":"チームルールが"},{"color":"yellow","text":"4チーム"},{"color":"white","text":"に設定されました"}]
+tellraw @a {"color":"white","text":"チームを振り分けました"}
+execute as @a at @s run playsound ui.button.click master @s ~ ~ ~ 1 1.5 1

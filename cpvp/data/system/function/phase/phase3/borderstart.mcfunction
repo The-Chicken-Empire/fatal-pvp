@@ -4,3 +4,4 @@ execute at @e[tag=border_marker] run worldborder center ~ ~
 worldborder set 150 0
 worldborder set 15 10
 kill @e[tag=border_marker]
+bossbar set gametimer visible false
