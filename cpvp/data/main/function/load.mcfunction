@@ -88,6 +88,7 @@ scoreboard objectives add teams dummy
 #stats
 scoreboard objectives add statscalc dummy
 scoreboard objectives add hp dummy
+scoreboard objectives add hp2 dummy
 scoreboard objectives add mp dummy
 scoreboard objectives add maxhp dummy
 scoreboard objectives add maxmp dummy
