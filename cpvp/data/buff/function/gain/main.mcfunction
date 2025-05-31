@@ -1,9 +1,9 @@
 #初期処理
-scoreboard players reset #counter2
-execute store result score #counter counter run data get storage buff: gain.id
-#execute if score #counter counter matches ..20 run say a
-execute unless score #counter counter matches 20.. run function buff:gain/init
-scoreboard players reset #counter
+scoreboard players reset #buff-counter2
+execute store result score #buff-counter counter run data get storage buff: gain.id
+#execute if score #buff-counter counter matches ..20 run say a
+execute unless score #buff-counter counter matches 20.. run function buff:gain/init
+scoreboard players reset #buff-counter
 
 #時間とレベルの処理
 
@@ -23,6 +23,6 @@ function buff:gain/addbonus with storage buff: gain
 
 
 tag @e[tag=buffer] remove buffer
-scoreboard players reset #counter
+scoreboard players reset #buffcounter
 
 data remove storage buff: gain
