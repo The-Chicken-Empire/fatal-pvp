@@ -1,5 +1,5 @@
 tellraw @a loaded
-execute as @a at @a run playsound minecraft:block.amethyst_block.break master @s
+execute as @a at @s run playsound block.amethyst_block.break master @s ~ ~ ~ 1 1 0
 
 scoreboard objectives add random dummy
 scoreboard objectives add sneak minecraft.custom:minecraft.sneak_time
@@ -33,13 +33,28 @@ scoreboard objectives add selecteditemB dummy
 scoreboard objectives add itemcost dummy
 scoreboard objectives add itemcount dummy
 scoreboard objectives add mpcost dummy
+scoreboard objectives add X dummy
+scoreboard objectives add Y dummy
+scoreboard objectives add Z dummy
+scoreboard objectives add carrotuse minecraft.used:minecraft.carrot_on_a_stick
+scoreboard objectives add owner dummy
+scoreboard objectives add ownerteam dummy
+#skillで出したarmor stand/marker用のscoreboard
+scoreboard objectives add skills dummy
 
 #star shard
 scoreboard objectives add Cstar dummy
 
 #teams
+scoreboard objectives add alives dummy
+scoreboard objectives modify alives displayautoupdate true
+scoreboard objectives modify alives displayname {"color":"white","text":"生存者数"}
 scoreboard objectives add teamrule dummy
 scoreboard objectives add teamscore dummy
+scoreboard players display name $red alives {"color":"red","text":red}
+scoreboard players display name $blue alives {"color":"blue","text":blue}
+scoreboard players display name $green alives {"color":"green","text":green}
+scoreboard players display name $yellow alives {"color":"yellow","text":yellow}
 team add solo
 team add red
 team add blue
@@ -93,5 +108,11 @@ scoreboard objectives add agi dummy
 scoreboard objectives add maxeng dummy
 scoreboard objectives add eng dummy
 scoreboard objectives add stats dummy
+scoreboard objectives add displayhpA dummy
+scoreboard objectives add displayhpB dummy
+scoreboard objectives add displaymp dummy
+scoreboard objectives add displaymaxhpA dummy
+scoreboard objectives add displaymaxhpB dummy
+scoreboard objectives add displaymaxmp dummy
 
 function system:cooltime/load

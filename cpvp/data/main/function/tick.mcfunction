@@ -20,8 +20,11 @@ execute as @a[predicate=cstar:uncstarcharge] run scoreboard players reset @s Cst
 scoreboard players set @a sneak 0
 
 #1秒
-scoreboard players add $1s timer 1
-execute if score $1s timer matches 20 run function system:timer/1s
+scoreboard players add $3s timer 1
+execute if score $3s timer matches 60.. run function system:timer/3s
+#10tick
+scoreboard players add $10tick timer 1
+execute if score $10tick timer matches 10.. run function system:timer/10tick
 
 #selecteditem変更時の処理
 execute as @a store result score @s selecteditemA run data get entity @s SelectedItemSlot
@@ -33,3 +36,7 @@ execute as @a store result score @s selecteditemB run data get entity @s Selecte
 execute as @a if score @s hp > @s maxhp run scoreboard players operation @s hp = @s maxhp
 execute as @a if score @s mp > @s maxmp run scoreboard players operation @s mp = @s maxmp
 execute as @a if score @s eng > @s maxeng run scoreboard players operation @s eng = @s maxeng
+
+#skills
+function items:tick
+execute as @a run function system:actionbar/actionbar
