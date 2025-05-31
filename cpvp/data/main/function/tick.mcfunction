@@ -33,3 +33,18 @@ execute as @a store result score @s selecteditemB run data get entity @s Selecte
 execute as @a if score @s hp > @s maxhp run scoreboard players operation @s hp = @s maxhp
 execute as @a if score @s mp > @s maxmp run scoreboard players operation @s mp = @s maxmp
 execute as @a if score @s eng > @s maxeng run scoreboard players operation @s eng = @s maxeng
+
+
+
+
+
+
+
+
+
+
+
+
+
+#bafunoshori
+function buff:tick/main
