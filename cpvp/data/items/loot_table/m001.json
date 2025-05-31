@@ -84,10 +84,17 @@
               "italic": false
             },
             {
-              "text": "放物線を描き飛んでいく圧縮された",
+              "text": "右クリックする事で圧縮された",
               "extra": [
                 {
                   "text": "水の球",
+                  "extra": [
+                    {
+                      "text": "を投げる",
+                      "color": "white",
+                      "italic": false
+                    }
+                  ],
                   "color": "aqua",
                   "italic": false
                 }
