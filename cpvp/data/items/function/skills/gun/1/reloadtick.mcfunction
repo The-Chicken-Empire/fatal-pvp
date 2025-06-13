@@ -1,0 +1,1 @@
+execute unless predicate items:bullet if score @s gunreload matches 20.. run function items:skills/bullet/0/check {function:"items:skills/gun/1/reload"}

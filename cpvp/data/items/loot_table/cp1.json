@@ -1,0 +1,175 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather_chestplate",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:trim": {
+                  "material": "minecraft:diamond",
+                  "pattern": "minecraft:dune"
+                },
+                "minecraft:dyed_color": 13107455,
+                "minecraft:custom_data": {
+                  "cpvp": {
+                    "cost": 3,
+                    "regularitem": 1,
+                    "chestplate": 1,
+                    "id": {
+                      "chestplate": 1
+                    },
+                    "stats": {
+                      "chestplate": {
+                        "maxeng": 10,
+                        "mr": 5,
+                        "magicdef": 10
+                      }
+                    }
+                  }
+                },
+                "minecraft:unbreakable": {},
+                "minecraft:tooltip_display": {
+                  "hidden_components": [
+                    "minecraft:unbreakable",
+                    "minecraft:trim",
+                    "minecraft:dyed_color",
+                    "minecraft:attribute_modifiers"
+                  ]
+                },
+                "minecraft:attribute_modifiers": [
+                  {
+                    "type": "minecraft:armor",
+                    "id": "chestplate1",
+                    "amount": 0,
+                    "operation": "add_value",
+                    "slot": "body"
+                  }
+                ]
+              }
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "Rスーツ",
+                "type": "text",
+                "color": "dark_purple",
+                "bold": true,
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "text": "アイテムコスト",
+                  "extra": [
+                    {
+                      "text": " : ",
+                      "color": "white",
+                      "italic": false
+                    },
+                    {
+                      "text": "3",
+                      "color": "gold",
+                      "italic": false
+                    }
+                  ],
+                  "color": "light_purple",
+                  "italic": false
+                },
+                {
+                  "text": "MP回復力",
+                  "extra": [
+                    {
+                      "text": " : ",
+                      "color": "white",
+                      "italic": false
+                    },
+                    {
+                      "text": "+5%",
+                      "color": "gold",
+                      "italic": false
+                    }
+                  ],
+                  "color": "aqua",
+                  "italic": false
+                },
+                {
+                  "text": "魔法防御力",
+                  "extra": [
+                    {
+                      "text": " : ",
+                      "color": "white",
+                      "italic": false
+                    },
+                    {
+                      "text": "+10%",
+                      "color": "gold",
+                      "italic": false
+                    }
+                  ],
+                  "color": "dark_purple",
+                  "italic": false
+                },
+                {
+                  "text": "最大充電",
+                  "extra": [
+                    {
+                      "text": " : ",
+                      "color": "white",
+                      "italic": false
+                    },
+                    {
+                      "text": "+10",
+                      "color": "gold",
+                      "italic": false
+                    }
+                  ],
+                  "color": "yellow",
+                  "italic": false
+                },
+                "",
+                {
+                  "text": "使用可能部位",
+                  "extra": [
+                    {
+                      "text": " : ",
+                      "color": "white",
+                      "italic": false
+                    },
+                    {
+                      "text": "チェストプレート",
+                      "color": "dark_green",
+                      "italic": false
+                    }
+                  ],
+                  "color": "dark_green",
+                  "italic": false
+                },
+                "",
+                "",
+                {
+                  "text": "...10を20にするもの?",
+                  "color": "dark_gray",
+                  "italic": true
+                },
+                {
+                  "text": "はて...何の話をしているのか...",
+                  "color": "dark_gray",
+                  "italic": true
+                }
+              ],
+              "mode": "replace_all"
+            }
+          ],
+          "conditions": []
+        }
+      ]
+    }
+  ]
+}

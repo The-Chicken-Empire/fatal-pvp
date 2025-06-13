@@ -1,0 +1,51 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:carrot_on_a_stick",
+          "functions": []
+        }
+      ],
+      "functions": [
+        {
+          "function": "minecraft:set_components",
+          "components": {
+            "minecraft:custom_data": {
+              "cpvp": {
+                "bullets": 0,
+                "id": {
+                  "gun": 1
+                }
+              }
+            },
+            "minecraft:unbreakable": {},
+            "minecraft:tooltip_display": {
+              "hidden_components": [
+                "minecraft:unbreakable"
+              ]
+            }
+          }
+        },
+        {
+          "function": "minecraft:set_name",
+          "name": {
+            "text": "ハンドガン",
+            "extra": [
+              {
+                "text": " [未装填]",
+                "bold": false,
+                "italic": false
+              }
+            ],
+            "color": "white",
+            "bold": true,
+            "italic": false
+          }
+        }
+      ]
+    }
+  ]
+}
