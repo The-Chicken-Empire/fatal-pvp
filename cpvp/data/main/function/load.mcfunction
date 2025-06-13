@@ -39,6 +39,10 @@ scoreboard objectives add Z dummy
 scoreboard objectives add carrotuse minecraft.used:minecraft.carrot_on_a_stick
 scoreboard objectives add owner dummy
 scoreboard objectives add ownerteam dummy
+scoreboard objectives add batorowawin dummy
+scoreboard objectives add teamwin dummy
+scoreboard objectives add totalwin dummy
+scoreboard objectives add bulletcheck dummy
 #skillで出したarmor stand/marker用のscoreboard
 scoreboard objectives add skills dummy
 
@@ -115,5 +119,12 @@ scoreboard objectives add displaymp dummy
 scoreboard objectives add displaymaxhpA dummy
 scoreboard objectives add displaymaxhpB dummy
 scoreboard objectives add displaymaxmp dummy
+#後から移動
+scoreboard players set @a eng 0
+
+#items
+scoreboard objectives add gunreload dummy
+#bulletcout
+scoreboard objectives add handgun dummy
 
 function system:cooltime/load
