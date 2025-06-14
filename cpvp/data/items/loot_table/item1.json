@@ -109,6 +109,24 @@
                   "italic": false
                 },
                 "",
+                {
+                  "text": "使用可能部位",
+                  "extra": [
+                    {
+                      "text": " : ",
+                      "color": "white",
+                      "italic": false
+                    },
+                    {
+                      "text": "メインハンド",
+                      "color": "dark_green",
+                      "italic": false
+                    }
+                  ],
+                  "color": "dark_green",
+                  "italic": false
+                },
+                "",
                 "",
                 {
                   "text": "KP、俺は死亡診断書を偽造する",
