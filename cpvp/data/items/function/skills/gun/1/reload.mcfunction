@@ -23,7 +23,7 @@ function items:skills/bullet/bulletcheck
 #銃種をstorageに保存
 data modify storage name gun set value {"bold":true,"color":"white","italic":false,"text":"ハンドガン"}
 #こっからはitem modifyでどうにかする
-item modify entity @s weapon.mainhand items:gunname
+item modify entity @s weapon.mainhand items:1/gunname
 #音
 execute at @s run playsound block.shulker_box.close player @s ~ ~ ~ 1 2 0
 #reset
