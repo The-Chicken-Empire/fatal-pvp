@@ -43,6 +43,8 @@ scoreboard objectives add batorowawin dummy
 scoreboard objectives add teamwin dummy
 scoreboard objectives add totalwin dummy
 scoreboard objectives add bulletcheck dummy
+scoreboard objectives add meleeattacker dummy
+scoreboard objectives add damageresist minecraft.custom:minecraft.damage_resisted
 #skillで出したarmor stand/marker用のscoreboard
 scoreboard objectives add skills dummy
 
