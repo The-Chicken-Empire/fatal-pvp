@@ -9,7 +9,6 @@ execute as @a if predicate items:g1reload run function items:skills/gun/1/reload
 execute as @a if predicate items:g1 if score @s carrotuse matches 1.. run function items:skills/gun/1/check
 ##magic
 #1 スプラッシュボム
-execute as @a if predicate items:m1 if score @s carrotuse matches 1.. at @s run function items:skills/magic/1/check
 execute as @e if entity @s[tag=splashbomb] run function items:skills/magic/1/tick
 ##item
 #1 死亡診断書

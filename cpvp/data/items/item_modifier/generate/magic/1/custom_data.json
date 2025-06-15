@@ -1,0 +1,21 @@
+{
+  "function": "minecraft:set_custom_data",
+  "tag": {
+    "cpvp": {
+      "id": 1,
+      "item_type": "magic",
+      "mainhand": {
+        "triggers": [
+          "right_click"
+        ]
+      },
+      "offhand": {
+        "triggers": [
+          "right_click"
+        ]
+      },
+      "regularitem": 1,
+      "classitem": 0
+    }
+  }
+}
