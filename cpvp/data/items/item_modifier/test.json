@@ -1,8 +1,0 @@
-{
-  "function": "minecraft:set_lore",
-  "lore": [
-    "test"
-  ],
-  "mode": "append",
-  "conditions": []
-}

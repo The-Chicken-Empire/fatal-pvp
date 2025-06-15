@@ -1,0 +1,2 @@
+execute anchored eyes if entity @e[type=item,limit=1,sort=nearest,distance=..3] run data modify entity @e[type=item,limit=1,sort=nearest,distance=..3] Owner set from entity @s UUID
+execute anchored eyes if entity @e[type=item,limit=1,sort=nearest,distance=..3] run data modify entity @e[type=item,limit=1,sort=nearest,distance=..3] PickupDelay set value 0

@@ -1,0 +1,24 @@
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "flags": {
+      "is_sneaking": true
+    },
+    "equipment": {
+      "mainhand": {
+        "items": "minecraft:carrot_on_a_stick",
+        "predicates": {
+          "minecraft:custom_data": {
+            "cpvp": {
+              "bullets": 0,
+              "id": {
+                "gun": 1
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
