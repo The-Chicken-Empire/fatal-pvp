@@ -1,0 +1,52 @@
+[
+  {
+    "function": "minecraft:set_name",
+    "entity": "this",
+    "name": {
+      "storage": "name",
+      "nbt": "gun",
+      "interpret": true,
+      "extra": [
+        {
+          "text": " 《",
+          "color": "white",
+          "bold": false,
+          "italic": false
+        },
+        {
+          "storage": "name",
+          "nbt": "bullet",
+          "interpret": true
+        },
+        {
+          "text": "》",
+          "color": "white",
+          "bold": false,
+          "italic": false
+        },
+        {
+          "text": "〈",
+          "color": "white",
+          "bold": false,
+          "italic": false
+        },
+        {
+          "score": {
+            "objective": "handgun",
+            "name": "@s"
+          },
+          "color": "gold",
+          "bold": true,
+          "italic": false
+        },
+        {
+          "text": "〉",
+          "color": "white",
+          "bold": false,
+          "italic": false
+        }
+      ]
+    },
+    "conditions": []
+  }
+]

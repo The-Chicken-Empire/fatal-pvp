@@ -44,6 +44,12 @@ scoreboard objectives add Z dummy
 scoreboard objectives add carrotuse minecraft.used:minecraft.carrot_on_a_stick
 scoreboard objectives add owner dummy
 scoreboard objectives add ownerteam dummy
+scoreboard objectives add batorowawin dummy
+scoreboard objectives add teamwin dummy
+scoreboard objectives add totalwin dummy
+scoreboard objectives add bulletcheck dummy
+scoreboard objectives add meleeattacker dummy
+scoreboard objectives add damageresist minecraft.custom:minecraft.damage_resisted
 #skillで出したarmor stand/marker用のscoreboard
 scoreboard objectives add skills dummy
 
@@ -93,6 +99,7 @@ scoreboard objectives add teams dummy
 #stats
 scoreboard objectives add statscalc dummy
 scoreboard objectives add hp dummy
+scoreboard objectives add hp2 dummy
 scoreboard objectives add mp dummy
 scoreboard objectives add maxhp dummy
 scoreboard objectives add maxmp dummy
@@ -119,6 +126,13 @@ scoreboard objectives add displaymp dummy
 scoreboard objectives add displaymaxhpA dummy
 scoreboard objectives add displaymaxhpB dummy
 scoreboard objectives add displaymaxmp dummy
+#後から移動
+scoreboard players set @a eng 0
+
+#items
+scoreboard objectives add gunreload dummy
+#bulletcout
+scoreboard objectives add handgun dummy
 
 
 

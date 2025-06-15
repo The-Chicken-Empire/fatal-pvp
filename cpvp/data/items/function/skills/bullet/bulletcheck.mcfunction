@@ -1,0 +1,1 @@
+execute if score $dummy bulletcheck matches 0 run data modify storage name bullet set value {"bold":true,"color":"dark_purple","italic":false,"text":"魔力弾"}

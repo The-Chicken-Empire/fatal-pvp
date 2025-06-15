@@ -4,6 +4,10 @@ function system:cooltime/tick
 #常時耐性
 effect give @a resistance 5 10 true
 
+#tick始めdamage処理
+execute if entity @a[scores={damageresist=1..},tag=!meleevictim] as @a[scores={damageresist=1..},tag=!meleevictim] run function damage:naturaldamage
+execute if entity @a[scores={damageresist=1..},tag=meleevictim] as @a[scores={damageresist=1..},tag=meleevictim] run function system:melee/getattacker
+
 #タイマー処理
 #phase 0-lobby 1-lobby.timer起動 2-start.開始前 3-開始 3.5-star配布 4-収縮開始 5-終了
 execute if score $phase main matches 1..3 run function system:timer/timer
@@ -43,5 +47,16 @@ execute as @a if score @s eng > @s maxeng run scoreboard players operation @s en
 function buff:tick/main
 
 #skills
+
 function items:tick
 execute as @a run function system:actionbar/actionbar
+
+function items:skills/tick
+execute as @a[scores={maxeng=..0}] run function system:actionbar/actionbar
+execute as @a[scores={maxeng=1..}] run function system:actionbar/actionbar2
+
+
+#sth
+execute as @a run function sth:sth3
+execute as @a unless score @s hp = @s hp2 run function sth:sth
+execute as @a run scoreboard players operation @s hp2 = @s hp
