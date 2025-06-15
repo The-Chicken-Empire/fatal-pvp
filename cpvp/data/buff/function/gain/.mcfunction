@@ -1,4 +1,5 @@
-
+execute if entity @s[type=player] run function buff:system/please_p with entity @s
+execute if entity @s[type=!player] run function buff:system/please_e with entity @s
 
 
 

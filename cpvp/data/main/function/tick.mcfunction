@@ -39,7 +39,6 @@ execute as @a if score @s eng > @s maxeng run scoreboard players operation @s en
 
 
 
-
 #bafunoshori
 function buff:tick/main
 
