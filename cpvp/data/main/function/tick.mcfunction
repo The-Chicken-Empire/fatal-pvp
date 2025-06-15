@@ -41,6 +41,9 @@ execute as @a if score @s hp > @s maxhp run scoreboard players operation @s hp =
 execute as @a if score @s mp > @s maxmp run scoreboard players operation @s mp = @s maxmp
 execute as @a if score @s eng > @s maxeng run scoreboard players operation @s eng = @s maxeng
 
+# アイテム系
+function items:tick
+
 #skills
 function items:skills/tick
 execute as @a[scores={maxeng=..0}] run function system:actionbar/actionbar
