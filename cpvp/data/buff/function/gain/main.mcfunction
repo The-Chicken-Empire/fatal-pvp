@@ -19,7 +19,9 @@ data modify storage buff: temp append from storage buff: gain
 execute if entity @s[type=player] run function buff:gain/player with entity @s
 execute if entity @s[type=!player] run function buff:gain/entity with entity @s
 
-function buff:gain/addbonus with storage buff: gain
+execute if data storage buff: gain.buffcontent[0] run data modify storage buff: content set from storage buff: gain.buffcontent
+execute if data storage buff: gain.buffcontent[0] run data modify storage buff: aeae.aeae set from storage buff: content[0][0]
+execute if data storage buff: gain.buffcontent[0] run function buff:gain/addbonus with storage buff: aeae
 
 
 tag @e[tag=buffer] remove buffer

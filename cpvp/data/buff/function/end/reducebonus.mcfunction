@@ -5,7 +5,7 @@ execute store result score #buff-counter1224 counter3 run data get storage buff:
 scoreboard players operation #buff-counter1224 counter += #buff-counter1224 counter3
 
 
-$scoreboard players operation @s $(aeae)_buff += #buff-counter1224 counter
+$scoreboard players operation @s $(aeae)_buff -= #buff-counter1224 counter
 
 
 

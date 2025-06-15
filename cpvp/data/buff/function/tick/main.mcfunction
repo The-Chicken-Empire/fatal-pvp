@@ -1,3 +1,3 @@
 
 
-execute as @a at @s run function buff:tick/
+execute as @a at @s run function buff:tick/ with entity @s
