@@ -1,0 +1,10 @@
+{
+  "function": "minecraft:set_name",
+  "name": [
+    {
+      "text": "テストアイテム",
+      "color": "white",
+      "italic": false
+    }
+  ]
+}

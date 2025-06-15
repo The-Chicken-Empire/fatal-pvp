@@ -1,0 +1,29 @@
+{
+  "function": "minecraft:set_custom_data",
+  "tag": {
+    "cpvp": {
+      "id": {
+        "weapon": 0
+      },
+      "mainhand": {
+        "stats": {
+          "maxhp": 10,
+          "maxmp": 20,
+          "vit": 20,
+          "mr": -20,
+          "rangedef": 5,
+          "magicdmg": -5,
+          "agi": 1
+        },
+        "triggers": [
+          "tick",
+          "attack",
+          "attacked",
+          "kill"
+        ]
+      },
+      "regularitem": 1,
+      "classitem": 0
+    }
+  }
+}
