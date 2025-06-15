@@ -38,7 +38,7 @@ execute as @a if score @s mp > @s maxmp run scoreboard players operation @s mp =
 execute as @a if score @s eng > @s maxeng run scoreboard players operation @s eng = @s maxeng
 
 #skills
-function items:tick
+function items:skills/tick
 execute as @a[scores={maxeng=..0}] run function system:actionbar/actionbar
 execute as @a[scores={maxeng=1..}] run function system:actionbar/actionbar2
 
