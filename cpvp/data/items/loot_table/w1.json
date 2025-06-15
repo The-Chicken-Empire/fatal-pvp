@@ -152,6 +152,16 @@
                   "italic": false
                 },
                 {
+                  "text": "右クリック",
+                  "color": "yellow",
+                  "italic": false
+                },
+                {
+                  "text": "効果中に近接攻撃を命中させた時、CTを9秒短縮する。",
+                  "color": "white",
+                  "italic": false
+                },
+                {
                   "text": "一秒間",
                   "extra": [
                     {
@@ -165,11 +175,6 @@
                       "color": "red"
                     }
                   ],
-                  "color": "white",
-                  "italic": false
-                },
-                {
-                  "text": "効果中に近接攻撃を命中させた時、CTを9秒短縮する。",
                   "color": "white",
                   "italic": false
                 },

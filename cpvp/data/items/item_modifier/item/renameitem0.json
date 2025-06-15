@@ -1,0 +1,37 @@
+{
+  "function": "minecraft:set_name",
+  "entity": "this",
+  "name": {
+    "storage": "dummy",
+    "nbt": "rename",
+    "source": "storage",
+    "interpret": true,
+    "extra": [
+      {
+        "text": " "
+      },
+      {
+        "storage": "dummy",
+        "nbt": "durability",
+        "color": "dark_gray",
+        "bold": true,
+        "italic": false,
+        "strikethrough": true
+      },
+      {
+        "text": "/",
+        "color": "dark_gray",
+        "bold": true,
+        "italic": false,
+        "strikethrough": true
+      },
+      {
+        "nbt": "maxdurability",
+        "storage": "dummy",
+        "color": "dark_gray",
+        "bold": true,
+        "strikethrough": true
+      }
+    ]
+  }
+}

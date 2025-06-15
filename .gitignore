@@ -2,3 +2,6 @@
 MACOSX
 *.zip
 cpvp/data/stats/function/memo.txt
+cpvp/data/system/function/saya.mcfunction
+cpvp/data/items/advancement/test.json
+cpvp/data/test

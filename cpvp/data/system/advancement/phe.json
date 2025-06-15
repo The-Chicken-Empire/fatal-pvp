@@ -1,0 +1,15 @@
+{
+  "criteria": {
+    "aa": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:player"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "system:melee/phe"
+  }
+}

@@ -84,7 +84,12 @@
               "italic": false
             },
             {
-              "text": "右クリックする事で圧縮された",
+              "text": "右クリック",
+              "color": "yellow",
+              "italic": false
+            },
+            {
+              "text": "圧縮された",
               "extra": [
                 {
                   "text": "水の球",

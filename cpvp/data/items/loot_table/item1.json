@@ -1,0 +1,155 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:carrot_on_a_stick",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_data": {
+                  "cpvp": {
+                    "regularitem": 1,
+                    "id": {
+                      "item": 1
+                    },
+                    "mainhanditem": 1,
+                    "cost": 1,
+                    "durability": 1,
+                    "maxdurability": 1
+                  }
+                },
+                "minecraft:unbreakable": {},
+                "minecraft:tooltip_display": {
+                  "hidden_components": [
+                    "minecraft:unbreakable"
+                  ]
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "死亡診断書",
+                "extra": [
+                  {
+                    "text": " 1/1",
+                    "color": "green"
+                  }
+                ],
+                "color": "gray",
+                "bold": true,
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "text": "アイテムコスト",
+                  "extra": [
+                    {
+                      "text": " : ",
+                      "color": "white",
+                      "italic": false
+                    },
+                    {
+                      "text": "1",
+                      "color": "dark_green"
+                    }
+                  ],
+                  "color": "light_purple",
+                  "italic": false
+                },
+                "",
+                {
+                  "text": "-- ",
+                  "extra": [
+                    {
+                      "text": "製作",
+                      "extra": [
+                        {
+                          "text": ":",
+                          "color": "white"
+                        },
+                        {
+                          "text": "死亡診断書",
+                          "color": "gray"
+                        },
+                        {
+                          "text": " --",
+                          "color": "white",
+                          "italic": false
+                        }
+                      ],
+                      "color": "gray",
+                      "italic": false
+                    }
+                  ],
+                  "color": "white"
+                },
+                {
+                  "text": "右クリック",
+                  "color": "yellow",
+                  "italic": false
+                },
+                {
+                  "text": "死亡診断書",
+                  "extra": [
+                    {
+                      "text": "を偽造し、自身の死亡ログをチャットに流す。",
+                      "color": "white",
+                      "italic": false
+                    }
+                  ],
+                  "color": "gray",
+                  "italic": false
+                },
+                "",
+                {
+                  "text": "使用可能部位",
+                  "extra": [
+                    {
+                      "text": " : ",
+                      "color": "white",
+                      "italic": false
+                    },
+                    {
+                      "text": "メインハンド",
+                      "color": "dark_green",
+                      "italic": false
+                    }
+                  ],
+                  "color": "dark_green",
+                  "italic": false
+                },
+                "",
+                "",
+                {
+                  "text": "KP、俺は死亡診断書を偽造する",
+                  "color": "dark_gray",
+                  "italic": true
+                },
+                {
+                  "text": "〈製作〉 05 → 02 成功 クリティカル",
+                  "color": "dark_gray",
+                  "bold": false,
+                  "italic": true
+                },
+                {
+                  "text": "完璧な死亡診断書の作成に成功しました",
+                  "color": "dark_gray",
+                  "italic": true
+                }
+              ],
+              "mode": "replace_all"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
