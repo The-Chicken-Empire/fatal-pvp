@@ -1,5 +1,4 @@
 #mp減少
-say a
 scoreboard players operation @s mp -= @s mpcost
 #tag付与
 execute rotated as @s run summon marker ^ ^ ^-2 {Tags:["tmp"]}
@@ -25,3 +24,7 @@ execute store result entity @e[tag=splashbomb,sort=nearest,limit=1] Motion[2] do
 kill @e[tag=tmp]
 #投擲音
 playsound entity.snowball.throw master @a ~ ~ ~ 1 1 0
+#ct
+#execute store result storage example: tmp.cooltime int 1 run function ct:keisan
+execute if data storage cpvp:triggers/right_click {slot:"mainhand"} run function system:cooltime/general/set_ct_mainhand {cooltime:200}
+execute if data storage cpvp:triggers/right_click {slot:"offhand"} run function system:cooltime/general/set_ct_by_slot {cooltime:200, slot:-106}

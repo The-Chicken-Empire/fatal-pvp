@@ -1,0 +1,34 @@
+{
+  "function": "minecraft:set_name",
+  "entity": "this",
+  "name": {
+    "storage": "dummy",
+    "nbt": "rename",
+    "source": "storage",
+    "interpret": true,
+    "extra": [
+      {
+        "text": " "
+      },
+      {
+        "storage": "dummy",
+        "nbt": "durability",
+        "color": "green",
+        "bold": true,
+        "italic": false
+      },
+      {
+        "text": "/",
+        "color": "green",
+        "bold": true,
+        "italic": false
+      },
+      {
+        "nbt": "maxdurability",
+        "storage": "dummy",
+        "color": "green",
+        "bold": true
+      }
+    ]
+  }
+}

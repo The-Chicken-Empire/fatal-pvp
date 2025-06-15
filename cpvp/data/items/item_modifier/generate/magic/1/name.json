@@ -1,0 +1,10 @@
+{
+  "function": "minecraft:set_name",
+  "name": [
+    {
+      "text": "スプラッシュボム",
+      "color": "white",
+      "italic": false
+    }
+  ]
+}

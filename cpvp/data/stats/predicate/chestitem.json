@@ -7,7 +7,7 @@
         "predicates": {
           "minecraft:custom_data": {
             "cpvp": {
-              "offhanditem": 1
+              "chestplate": 1
             }
           }
         }
