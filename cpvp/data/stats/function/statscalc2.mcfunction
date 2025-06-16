@@ -46,3 +46,6 @@ scoreboard players operation @s agi += $dummy agi
 #maxeng
 execute store result score $dummy maxeng run data get storage cpvp:stats $dummy.maxeng
 scoreboard players operation @s maxeng += $dummy maxeng
+#bonusattackspeed
+execute store result score $dummy bonusattackspeed run data get storage cpvp:stats $dummy.bonusattackspeed
+scoreboard players operation @s bonusattackspeed += $dummy bonusattackspeed

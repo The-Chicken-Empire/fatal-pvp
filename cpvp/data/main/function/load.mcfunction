@@ -114,6 +114,8 @@ scoreboard objectives add cc dummy
 scoreboard objectives add agi dummy
 scoreboard objectives add maxeng dummy
 scoreboard objectives add eng dummy
+scoreboard objectives add attackspeed dummy
+scoreboard objectives add bonusattackspeed dummy
 scoreboard objectives add stats dummy
 scoreboard objectives add displayhpA dummy
 scoreboard objectives add displayhpB dummy

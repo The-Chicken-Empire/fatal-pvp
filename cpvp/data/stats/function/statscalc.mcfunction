@@ -14,7 +14,13 @@ scoreboard players set @s rangedmg 0
 scoreboard players set @s cc 0
 scoreboard players set @s agi 0
 scoreboard players set @s maxeng 0
+scoreboard players set @s attackspeed 0
+scoreboard players set @s bonusattackspeed 0
 scoreboard players set $dummy statscalc 0
+
+#attackspeed処理
+execute unless data entity @s SelectedItem.components."minecraft:custom_data".cpvp.stats.attackspeed run scoreboard players set @s attackspeed 400
+execute if data entity @s SelectedItem.components."minecraft:custom_data".cpvp.stats.attackspeed run execute store result score @s attackspeed run data get entity @s SelectedItem.components."minecraft:custom_data".cpvp.stats.attackspeed
 
 data modify storage cpvp:stats $stats set from entity @s
 data remove storage cpvp:stats $dummy
@@ -71,7 +77,14 @@ scoreboard players operation @s mr += $100 main
 #speed処理
 execute store result storage cpvp:stats speed float 0.01 run scoreboard players get @s speed
 function stats:speed with storage cpvp:stats
-data modify storage cpvp:stats speed set value 0
+data remove storage cpvp:stats speed
+#attackspeed処理
+scoreboard players add @s bonusattackspeed 100
+scoreboard players operation @s attackspeed *= @s bonusattackspeed
+scoreboard players operation @s attackspeed /= $100 main
+execute store result storage cpvp:stats attackspeed float 0.01 run scoreboard players get @s attackspeed
+function stats:attackspeed with storage cpvp:stats
+data remove storage cpvp:stats attackspeed
 #没
 #execute store result score @s statsmath run data get storage cpvp:statsmath $temp.equipment.offhand.components.minecraft:custom_data.cpvp-mr
 #scoreboard players operation @s mr += @s statsmath
