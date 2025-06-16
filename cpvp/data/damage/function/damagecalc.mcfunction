@@ -41,9 +41,10 @@ scoreboard players operation $damagecalc2 damagecalc += $100 main
 
 #agi処理
 execute store result score $dummy random run random value 1..100
-execute if score $dummy random <= @s agi run scoreboard players set @s damagetaken 0
 execute if score $dummy random <= @s agi at @s run playsound entity.breeze.wind_burst master @a ~ ~ ~ 1 1.5
 execute if score $dummy random <= @s agi run particle minecraft:white_smoke ~ ~1 ~ 0.1 0.8 0.1 0.2 20
+execute if score $dummy random <= @s agi run function damage:avoid
+execute if score $dummy random <= @s agi run return fail
 
 #crit処理
 execute if score @s damagetaken < $0 main run function damage:critical
@@ -56,11 +57,14 @@ scoreboard players operation @s damagetaken /= $10000 main
 #変換
 scoreboard players operation @s damage = @s damagetaken
 scoreboard players reset @s damagetaken
+#damage処理
+function damage:damage
 #tag解除
 tag @s remove physicaldamage
 tag @s remove magicdamage
 tag @s remove meleedamage
 tag @s remove rangedamage
 tag @s remove specialdamage
-#damage処理
-function damage:damage
+#終了
+tag @a remove atker
+tag @a remove victim

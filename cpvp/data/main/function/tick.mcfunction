@@ -30,6 +30,11 @@ execute if score $3s timer matches 60.. run function system:timer/3s
 scoreboard players add $10tick timer 1
 execute if score $10tick timer matches 10.. run function system:timer/10tick
 
+#afterdamage
+execute as @a[scores={afterdamage=0..100}] run scoreboard players add @s afterdamage 1
+execute as @a[scores={afterdamage=101..}] run scoreboard players set @s attacker -1
+execute as @a[scores={afterdamage=101..}] run scoreboard players set @s afterdamage -1
+
 #selecteditem変更時の処理
 execute as @a store result score @s selecteditemA run data get entity @s SelectedItemSlot
 execute as @a run scoreboard players operation @s selecteditemA -= @s selecteditemB

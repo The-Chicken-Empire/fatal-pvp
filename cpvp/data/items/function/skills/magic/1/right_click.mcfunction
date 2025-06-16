@@ -1,6 +1,5 @@
 #CTcheck
 execute if data storage cpvp:triggers/right_click {slot:"mainhand"} store result score $check main run function system:cooltime/general/check_ct_mainhand
-execute if data storage cpvp:triggers/right_click {slot:"offhand"} store result score $check main run function system:cooltime/general/check_ct_by_slot {slot:-106}
 execute unless score $check main matches 1 run function system:cooltime/general/ct_fail
 execute unless score $check main matches 1 run return fail
 scoreboard players reset $check main

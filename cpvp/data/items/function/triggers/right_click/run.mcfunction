@@ -2,5 +2,5 @@
 #
 # 
 #
-# @within items:tick
+# @within items:triggers/right_click/check
 $function items:skills/$(item_type)/$(id)/right_click

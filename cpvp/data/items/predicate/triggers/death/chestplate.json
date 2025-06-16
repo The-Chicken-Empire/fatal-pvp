@@ -2,15 +2,16 @@
   "condition": "minecraft:entity_properties",
   "entity": "this",
   "predicate": {
-    "flags": {
-      "is_sneaking": true
-    },
-    "slots": {
-      "weapon.offhand": {
+    "equipment": {
+      "chest": {
         "predicates": {
           "minecraft:custom_data": {
             "cpvp": {
-              "bullets": 1
+              "chestplate": {
+                "triggers":[
+                  "death"
+                ]
+              }
             }
           }
         }

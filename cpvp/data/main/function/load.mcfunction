@@ -45,6 +45,8 @@ scoreboard objectives add totalwin dummy
 scoreboard objectives add bulletcheck dummy
 scoreboard objectives add meleeattacker dummy
 scoreboard objectives add damageresist minecraft.custom:minecraft.damage_resisted
+scoreboard objectives add attacker dummy
+scoreboard objectives add afterdamage dummy
 #skillで出したarmor stand/marker用のscoreboard
 scoreboard objectives add skills dummy
 
@@ -123,6 +125,7 @@ scoreboard objectives add displaymp dummy
 scoreboard objectives add displaymaxhpA dummy
 scoreboard objectives add displaymaxhpB dummy
 scoreboard objectives add displaymaxmp dummy
+scoreboard objectives add absorption dummy
 #後から移動
 scoreboard players set @a eng 0
 
