@@ -56,6 +56,10 @@ execute as @a if score @s eng > @s maxeng run scoreboard players operation @s en
 
 # アイテム系
 function items:tick
+# スキル用marker用score
+execute if entity @e[tag=skillmarker] as @e[tag=skillmarker] run scoreboard players add @s skills 1
+# スキルmarker用tickファイル
+execute if entity @e[tag=skillmarker] as @e[tag=skillmarker] run function items:markertick
 
 #actionbar
 execute as @a[scores={maxeng=..0,absorption=..0}] run function system:actionbar/actionbar
