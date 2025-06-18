@@ -76,6 +76,26 @@ execute if predicate stats:hot8perkitem run function stats:statscalc2
 scoreboard players operation @s maxhp += $400 main
 scoreboard players operation @s maxmp += $10000 main
 scoreboard players operation @s mr += $100 main
+#buffの処理
+scoreboard players operation @s maxhp += @s maxhp_buff
+scoreboard players operation @s maxmp += @s maxmp_buff
+scoreboard players operation @s mr += @s mr_buff
+scoreboard players operation @s physicaldef += @s physicaldef_buff
+scoreboard players operation @s physicaldmg += @s physicaldmg
+scoreboard players operation @s magicdef += @s magicdef_buff
+scoreboard players operation @s magicdmg += @s magicdmg_buff
+scoreboard players operation @s meleedef += @s meleedef_buff
+scoreboard players operation @s rangedef += @s rangedef_buff
+scoreboard players operation @s speed += @s speed_buff
+scoreboard players operation @s vit += @s vit_buff
+scoreboard players operation @s cc += @s cc_buff
+scoreboard players operation @s agi += @s agi_buff
+scoreboard players operation @s maxeng += @s maxeng_buff
+scoreboard players operation @s damage += @s damage_buff
+scoreboard players operation @s defence += @s defence_buff
+
+
+
 #speed処理
 execute store result storage cpvp:stats speed float 0.01 run scoreboard players get @s speed
 function stats:speed with storage cpvp:stats

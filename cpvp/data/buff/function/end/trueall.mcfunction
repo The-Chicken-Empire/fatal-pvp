@@ -1,0 +1,1 @@
+function buff:end/trueall2 with entity @s

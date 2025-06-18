@@ -18,4 +18,4 @@ execute unless data entity @a[tag=atker,limit=1] SelectedItem.components."minecr
 tag @s add meleedamage
 function damage:damagecalc
 #回復
-data modify entity @s Health set value 1000
+data modify entity @s[tag=victim] Health set value 1000

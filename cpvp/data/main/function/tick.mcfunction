@@ -54,6 +54,17 @@ execute as @a if score @s hp > @s maxhp run scoreboard players operation @s hp =
 execute as @a if score @s mp > @s maxmp run scoreboard players operation @s mp = @s maxmp
 execute as @a if score @s eng > @s maxeng run scoreboard players operation @s eng = @s maxeng
 
+
+
+
+#bafunoshori
+function buff:tick/main
+
+#skills
+
+
+function items:skills/tick
+
 # アイテム系
 function items:tick
 # スキル用marker用score
@@ -61,11 +72,10 @@ execute if entity @e[tag=skillmarker] as @e[tag=skillmarker] run scoreboard play
 # スキルmarker用tickファイル
 execute if entity @e[tag=skillmarker] as @e[tag=skillmarker] run function items:markertick
 
+
 #actionbar
-execute as @a[scores={maxeng=..0,absorption=..0}] run function system:actionbar/actionbar
-execute as @a[scores={maxeng=1..,absorption=..0}] run function system:actionbar/actionbar2
-execute as @a[scores={maxeng=..0,absorption=1..}] run function system:actionbar/actionbar3
-execute as @a[scores={maxeng=1..,absorption=1..}] run function system:actionbar/actionbar4
+execute as @a run function system:actionbar/
+
 
 #sth
 execute as @a if score @s absorption matches 1.. run effect give @s absorption 1 0 true

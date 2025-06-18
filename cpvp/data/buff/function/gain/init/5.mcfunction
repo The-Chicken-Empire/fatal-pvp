@@ -1,0 +1,1 @@
+$data modify storage buff: temp[{id:$(id)}].actionbar2 append value {"text":"$(level)","font":"buff/level"}
