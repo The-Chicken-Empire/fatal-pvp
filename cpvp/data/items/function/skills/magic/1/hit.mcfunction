@@ -6,6 +6,3 @@ tag @s add rangedamage
 scoreboard players set @s damagetaken 140
 #計算
 function damage:damagecalc
-#終了
-tag @a remove atker
-tag @a remove victim

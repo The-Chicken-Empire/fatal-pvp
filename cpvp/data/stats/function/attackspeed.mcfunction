@@ -1,0 +1,1 @@
+$ttribute @s minecraft:attack_speed base set $(attackspeed)

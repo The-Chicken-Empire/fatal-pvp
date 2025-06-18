@@ -1,6 +1,10 @@
 #scoreboard players add $timer timer 1
 function system:cooltime/tick
 
+#初期処理
+execute if entity @e[type=#main:non_player,tag=!entity,limit=1] as @e[type=#main:non_player,tag=!entity] run tag @s add entity
+execute if entity @e[tag=!initialized,type=#main:entity_require_id,limit=1] as @e[tag=!initialized,type=#main:entity_require_id] run function system:initialize
+
 #常時耐性
 effect give @a resistance 5 10 true
 
@@ -20,6 +24,9 @@ execute if score $phase main matches 3 if score $ifstar settings matches 1 if sc
 execute as @a[predicate=cstar:cstarcharge] run function cstar:cstarcharge
 execute as @a[predicate=cstar:uncstarcharge] run scoreboard players reset @s Cstar
 
+#銃の弾捨て処理
+execute if entity @a[predicate=items:gun/dropbullet,limit=1] as @a[predicate=items:gun/dropbullet] unless data entity @s equipment.offhand.components."minecraft:custom_data".cpvp.bullet run function items:skills/gun/dropbullet with entity @s equipment.offhand.components."minecraft:custom_data".cpvp
+
 #?
 scoreboard players set @a sneak 0
 
@@ -30,10 +37,16 @@ execute if score $3s timer matches 60.. run function system:timer/3s
 scoreboard players add $10tick timer 1
 execute if score $10tick timer matches 10.. run function system:timer/10tick
 
+#afterdamage
+execute as @e[scores={afterdamage=0..100}] run scoreboard players add @s afterdamage 1
+execute as @e[scores={afterdamage=101..}] run scoreboard players set @s attacker -1
+execute as @e[scores={afterdamage=101..}] run scoreboard players set @s afterdamage -1
+
 #selecteditem変更時の処理
 execute as @a store result score @s selecteditemA run data get entity @s SelectedItemSlot
 execute as @a run scoreboard players operation @s selecteditemA -= @s selecteditemB
 execute as @a unless score @s selecteditemA matches 0 run function system:invchange
+execute as @a if score @s gunreload matches 1.. unless score @s selecteditemA matches 0 run scoreboard players set @s gunreload 0
 execute as @a store result score @s selecteditemB run data get entity @s SelectedItemSlot
 
 #hp/mp/engの上限値チェック
@@ -43,14 +56,20 @@ execute as @a if score @s eng > @s maxeng run scoreboard players operation @s en
 
 # アイテム系
 function items:tick
+# スキル用marker用score
+execute if entity @e[tag=skillmarker] as @e[tag=skillmarker] run scoreboard players add @s skills 1
+# スキルmarker用tickファイル
+execute if entity @e[tag=skillmarker] as @e[tag=skillmarker] run function items:markertick
 
-#skills
-function items:skills/tick
-execute as @a[scores={maxeng=..0}] run function system:actionbar/actionbar
-execute as @a[scores={maxeng=1..}] run function system:actionbar/actionbar2
-
+#actionbar
+execute as @a[scores={maxeng=..0,absorption=..0}] run function system:actionbar/actionbar
+execute as @a[scores={maxeng=1..,absorption=..0}] run function system:actionbar/actionbar2
+execute as @a[scores={maxeng=..0,absorption=1..}] run function system:actionbar/actionbar3
+execute as @a[scores={maxeng=1..,absorption=1..}] run function system:actionbar/actionbar4
 
 #sth
+execute as @a if score @s absorption matches 1.. run effect give @s absorption 1 0 true
+execute as @a unless score @s absorption matches 1.. run effect clear @s absorption
 execute as @a run function sth:sth3
 execute as @a unless score @s hp = @s hp2 run function sth:sth
 execute as @a run scoreboard players operation @s hp2 = @s hp

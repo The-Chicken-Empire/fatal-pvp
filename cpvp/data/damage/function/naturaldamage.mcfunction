@@ -4,4 +4,4 @@ scoreboard players reset @s damageresist
 #ダメージ計算
 
 #damage
-function damage:damage
+function damage:naturaldamage2
