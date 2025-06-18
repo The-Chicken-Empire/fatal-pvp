@@ -1,3 +1,5 @@
+#音
+execute at @s run playsound entity.player.hurt player @s ~ ~ ~ 1 1 1
 #攻撃主取り消し
 scoreboard players reset @s attacker
 scoreboard players set @s afterdamage -1
@@ -16,3 +18,13 @@ execute if score @s hp matches 1.. if entity @a[tag=atker,limit=1] run function 
 #死亡処理
 execute if score @s[type=player] hp matches ..0 run function system:death
 execute if score @s[type=!player] hp matches ..0 run function system:entitydeath
+#tag解除
+tag @s remove physicaldamage
+tag @s remove magicdamage
+tag @s remove meleedamage
+tag @s remove rangedamage
+tag @s remove specialdamage
+tag @s remove critical
+#終了
+tag @a remove atker
+tag @a remove victim
