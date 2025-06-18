@@ -1,0 +1,19 @@
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "equipment": {
+      "mainhand": {
+        "items": "minecraft:carrot_on_a_stick",
+        "predicates": {
+          "minecraft:custom_data": {
+            "cpvp": {
+              "id": 1,
+              "item_type": "gun"
+            }
+          }
+        }
+      }
+    }
+  }
+}

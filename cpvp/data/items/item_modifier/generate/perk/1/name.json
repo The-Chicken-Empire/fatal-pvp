@@ -1,0 +1,10 @@
+{
+  "function": "minecraft:set_name",
+  "name": [
+    {
+      "text": "風化した何か",
+      "color": "gray",
+      "italic": false
+    }
+  ]
+}

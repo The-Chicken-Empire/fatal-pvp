@@ -1,0 +1,14 @@
+{
+  "function": "minecraft:set_lore",
+  "lore": [
+    [],
+    [
+      {
+        "text": "草を食みたい",
+        "color": "dark_gray",
+        "italic": true
+      }
+    ]
+  ],
+  "mode": "append"
+}

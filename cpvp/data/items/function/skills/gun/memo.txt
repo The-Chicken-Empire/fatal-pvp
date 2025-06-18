@@ -1,9 +1,9 @@
 bulletname:弾丸名
-bulletid:弾丸id銃側
-width:当たり判定 多分弾丸しか実装しないから使われない
-bulletcount:弾丸数 銃側依存
+bullet:弾丸id 銃側
+width:当たり判定 弾丸側
+bulletcount(score):弾丸数 銃側
 speed:弾速 0.1block/tick どっちも
 damage:火力 どっちも
 range:距離 多分どっちも
-type:属性
-armorshred:防具貫通率
+type:属性 弾丸側
+armorshred:防具貫通率 わからん

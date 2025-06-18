@@ -1,0 +1,1 @@
+$function items:skills/bullet/$(bullet)/check with storage tmp info

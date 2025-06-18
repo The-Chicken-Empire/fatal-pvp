@@ -2,9 +2,8 @@
   "function": "minecraft:set_custom_data",
   "tag": {
     "cpvp": {
-      "id": {
-        "weapon": 0
-      },
+      "id": 0,
+      "item_type": "weapon",
       "mainhand": {
         "stats": {
           "maxhp": 10,

@@ -1,0 +1,10 @@
+{
+  "function": "minecraft:set_name",
+  "name": [
+    {
+      "text": "魔法テスト",
+      "color": "white",
+      "italic": false
+    }
+  ]
+}

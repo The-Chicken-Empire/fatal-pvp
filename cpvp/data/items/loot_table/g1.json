@@ -15,7 +15,7 @@
           "components": {
             "minecraft:custom_data": {
               "cpvp": {
-                "bullets": 0,
+                "bulletscount": 0,
                 "id": {
                   "gun": 1
                 }

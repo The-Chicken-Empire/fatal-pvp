@@ -1,0 +1,34 @@
+{
+  "criteria": {
+    "req": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "mainhand": {
+              "predicates": {
+                "minecraft:custom_data": {
+                  "cpvp": {
+                    "skills": [
+                      {
+                        "slots": [
+                          "mainhand"
+                        ],
+                        "trigger": [
+                          "attack"
+                        ]
+                      }
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "items:test"
+  }
+}
