@@ -56,13 +56,3 @@ scoreboard players operation @s damage = @s damagetaken
 scoreboard players reset @s damagetaken
 #damage処理
 function damage:damage
-#tag解除
-tag @s remove physicaldamage
-tag @s remove magicdamage
-tag @s remove meleedamage
-tag @s remove rangedamage
-tag @s remove specialdamage
-tag @s remove critical
-#終了
-tag @a remove atker
-tag @a remove victim
