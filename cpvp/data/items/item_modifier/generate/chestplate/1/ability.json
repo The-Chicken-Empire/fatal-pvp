@@ -1,0 +1,31 @@
+{
+  "function": "minecraft:set_lore",
+  "lore": [
+    []
+    ,
+    [
+      {
+        "text": "-- ",
+        "color": "white",
+        "italic": false
+      },
+      {
+        "text": "ここにability名",
+        "color": "white",
+        "italic": false
+      },
+      {
+        "text": " --",
+        "color": "white",
+        "italic": false
+      }
+    ],
+    [
+      {
+        "text": "ここからability説明",
+        "italic": false
+      }
+    ]
+  ],
+  "mode": "append"
+}
