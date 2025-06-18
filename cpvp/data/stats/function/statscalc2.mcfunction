@@ -8,6 +8,9 @@ scoreboard players operation @s maxmp += $dummy maxmp
 execute store result score $dummy mr run data get storage cpvp:stats $dummy.mr
 scoreboard players operation @s mr += $dummy mr
 #physicaldef
+execute store result score $dummy defence run data get storage cpvp:stats $dummy.defence
+scoreboard players operation @s defence += $dummy defence
+#physicaldef
 execute store result score $dummy physicaldef run data get storage cpvp:stats $dummy.physicaldef
 scoreboard players operation @s physicaldef += $dummy physicaldef
 #magicdef
@@ -25,6 +28,9 @@ scoreboard players operation @s speed += $dummy speed
 #vit
 execute store result score $dummy vit run data get storage cpvp:stats $dummy.vit
 scoreboard players operation @s vit += $dummy vit
+#damage
+execute store result score $dummy damage run data get storage cpvp:stats $dummy.damage
+scoreboard players operation @s damage += $dummy damage
 #physicaldmg
 execute store result score $dummy physicaldmg run data get storage cpvp:stats $dummy.physicaldmg
 scoreboard players operation @s physicaldmg += $dummy physicaldmg

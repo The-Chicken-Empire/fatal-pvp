@@ -1,4 +1,4 @@
-tellraw @a loaded
+tellraw @a reloaded
 execute as @a at @s run playsound block.amethyst_block.break master @s ~ ~ ~ 1 1 0
 
 scoreboard objectives add random dummy
@@ -9,6 +9,9 @@ scoreboard objectives add deathsentence dummy
 
 
 #system
+scoreboard objectives add tmp dummy
+scoreboard objectives add ID dummy
+execute unless score $init ID matches -2147483648..2147483647 run scoreboard players set $init ID 0
 scoreboard objectives add settings dummy
 scoreboard objectives add main dummy
 scoreboard objectives add timer dummy
@@ -101,12 +104,14 @@ scoreboard objectives add mp dummy
 scoreboard objectives add maxhp dummy
 scoreboard objectives add maxmp dummy
 scoreboard objectives add mr dummy
+scoreboard objectives add defence dummy
 scoreboard objectives add physicaldef dummy
 scoreboard objectives add magicdef dummy
 scoreboard objectives add meleedef dummy
 scoreboard objectives add rangedef dummy
 scoreboard objectives add vit dummy
 scoreboard objectives add speed dummy
+scoreboard objectives add damage dummy
 scoreboard objectives add physicaldmg dummy
 scoreboard objectives add magicdmg dummy
 scoreboard objectives add meleedmg dummy

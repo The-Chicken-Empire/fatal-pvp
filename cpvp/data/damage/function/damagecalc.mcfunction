@@ -13,11 +13,15 @@ execute if entity @s[tag=victim,tag=magicdamage] run scoreboard players operatio
 execute if entity @s[tag=victim,tag=physicaldamage] run scoreboard players operation $damagecalc damagecalc += @a[tag=atker,limit=1] physicaldmg
 execute if entity @s[tag=victim,tag=meleedamage] run scoreboard players operation $damagecalc damagecalc += @a[tag=atker,limit=1] meleedmg
 execute if entity @s[tag=victim,tag=rangedamage] run scoreboard players operation $damagecalc damagecalc += @a[tag=atker,limit=1] rangedmg
+scoreboard players operation $damagecalc damagecalc += @a[tag=atker,limit=1] damage
 #被ダメージ者defence処理
 execute if entity @s[tag=victim,tag=magicdamage] run scoreboard players operation $damagecalc damagecalc -= @s magicdef
 execute if entity @s[tag=victim,tag=physicaldamage] run scoreboard players operation $damagecalc damagecalc -= @s physicaldef
 execute if entity @s[tag=victim,tag=meleedamage] run scoreboard players operation $damagecalc damagecalc -= @s meleedef
 execute if entity @s[tag=victim,tag=rangedamage] run scoreboard players operation $damagecalc damagecalc -= @s rangedef
+scoreboard players operation $damagecalc damagecalc -= @s defence
+#特殊ダメージ処理
+execute if entity @s[tag=victim,tag=specialdamage] run scoreboard players operation $damagecalc damagecalc /= $2 main
 
 #最大def処理
 execute if score $damagecalc damagecalc matches ..20 run scoreboard players set $damagecalc damagecalc 20

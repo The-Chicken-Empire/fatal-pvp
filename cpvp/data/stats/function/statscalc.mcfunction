@@ -1,12 +1,14 @@
 scoreboard players set @s maxhp 0
 scoreboard players set @s maxmp 0
 scoreboard players set @s mr 0
+scoreboard players set @s defence 0
 scoreboard players set @s physicaldef 0
 scoreboard players set @s magicdef 0
 scoreboard players set @s meleedef 0
 scoreboard players set @s rangedef 0
 scoreboard players set @s speed 0
 scoreboard players set @s vit 0
+scoreboard players set @s damage 0
 scoreboard players set @s physicaldmg 0
 scoreboard players set @s magicdmg 0
 scoreboard players set @s meleedmg 0
