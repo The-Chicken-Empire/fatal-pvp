@@ -18,7 +18,15 @@ scoreboard objectives add counter4 dummy
 scoreboard objectives add counter5 dummy
 scoreboard objectives add timer dummy
 scoreboard players set $0 main 0
+scoreboard players set $1 main 1
 scoreboard players set $2 main 2
+scoreboard players set $3 main 3
+scoreboard players set $4 main 4
+scoreboard players set $5 main 5
+scoreboard players set $6 main 6
+scoreboard players set $7 main 7
+scoreboard players set $8 main 8
+scoreboard players set $9 main 9
 scoreboard players set $10 main 10
 scoreboard players set $20 main 20
 scoreboard players set $400 main 400

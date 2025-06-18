@@ -1,5 +1,7 @@
 $execute store result score #buff-counter41412 counter3 run data get storage buff: temp[{id:$(id)}].duration
 execute store result score #buff-counter41412 counter4 run data get storage buff: modify.duration
 scoreboard players operation #buff-counter41412 counter3 += #buff-counter41412 counter4
+execute if score #buff-counter41412 counter matches ..-1 run scoreboard players set #buff-counter41412 counter 0
 
 $execute store result storage buff: temp[{id:$(id)}].duration int 1 run scoreboard players get #buff-counter41412 counter3
+

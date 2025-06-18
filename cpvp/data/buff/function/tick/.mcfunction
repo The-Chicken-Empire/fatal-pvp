@@ -2,6 +2,7 @@ execute if entity @s[type=player] run function buff:system/please_p with entity 
 execute if entity @s[type=!player] run function buff:system/please_e with entity @s
 
 
+
 execute if data storage buff: temp[0] run function buff:tick/execute
 
 execute if data storage buff: temp2 run data modify storage buff: temp set from storage buff: temp2

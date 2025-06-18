@@ -4,10 +4,16 @@ $execute store result score #buff-counter41412 counter5 run data get storage buf
 scoreboard players operation #buff-counter41412 counter5 -= #buff-counter41412 counter
 execute if score #buff-counter41412 counter5 < #buff-counter41412 counter2 run scoreboard players operation #buff-counter41412 counter2 = #buff-counter41412 counter5
 scoreboard players operation #buff-counter41412 counter += #buff-counter41412 counter2
+execute if score #buff-counter41412 counter matches ..0 run scoreboard players set #buff-counter41412 counter 1
 
 $execute store result storage buff: temp[{id:$(id)}].level int 1 run scoreboard players get #buff-counter41412 counter
 
 
+$data modify storage buff: temp[{id:$(id)}].actionbar2 set value [{"text":"\uB018","font":"space"}]
+$execute if score #buff-counter41412 counter matches 100.. run data modify storage buff: temp[{id:$(id)}].actionbar2 append value {"text":"+99","font":"buff/level"}
+$execute if score #buff-counter41412 counter matches 10..99 run data modify storage buff: temp[{id:$(id)}].actionbar2 append value {"text":"\uC006","font":"space"}
+$execute if score #buff-counter41412 counter matches 1..9 run data modify storage buff: temp[{id:$(id)}].actionbar2 append value {"text":"\uC0012","font":"space"}
+$execute if score #buff-counter41412 counter matches 10..99 run function buff:gain/init/5 with storage buff: temp[{id:$(id)}]
 
 
 

@@ -8,4 +8,4 @@ data modify storage buff: modify.level set value 2
 data modify storage buff: modify.duration set value 100000
 #数字分だけ効果時間が延びる。マイナスなら減る。
 
-function buff:modify/id {id:0}
+function buff:modify/all
