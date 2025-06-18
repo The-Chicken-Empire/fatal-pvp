@@ -1,0 +1,406 @@
+{
+	"criteria": {
+			"non_player": {
+					"trigger": "entity_hurt_player",
+					"conditions": {
+							"damage": {
+									"source_entity": {
+											"nbt": "{Tags:entity}"
+									}
+							}
+					}
+			},
+			"0-0": {
+					"trigger": "entity_hurt_player",
+					"conditions": {
+							"damage": {
+									"source_entity": {
+											"nbt": "{Tags:[\"ID0.0\"]}"
+									}
+							}
+					}
+			},
+			"0-1": {
+					"trigger": "entity_hurt_player",
+					"conditions": {
+							"damage": {
+									"source_entity": {
+											"nbt": "{Tags:[\"ID0.1\"]}"
+									}
+							}
+					}
+			},
+			"1-0": {
+					"trigger": "entity_hurt_player",
+					"conditions": {
+							"damage": {
+									"source_entity": {
+											"nbt": "{Tags:[\"ID1.0\"]}"
+									}
+							}
+					}
+			},
+			"1-1": {
+					"trigger": "entity_hurt_player",
+					"conditions": {
+							"damage": {
+									"source_entity": {
+											"nbt": "{Tags:[\"ID1.1\"]}"
+									}
+							}
+					}
+			},
+			"2-0": {
+					"trigger": "entity_hurt_player",
+					"conditions": {
+							"damage": {
+									"source_entity": {
+											"nbt": "{Tags:[\"ID2.0\"]}"
+									}
+							}
+					}
+			},
+			"2-1": {
+					"trigger": "entity_hurt_player",
+					"conditions": {
+							"damage": {
+									"source_entity": {
+											"nbt": "{Tags:[\"ID2.1\"]}"
+									}
+							}
+					}
+			},
+			"3-0": {
+					"trigger": "entity_hurt_player",
+					"conditions": {
+							"damage": {
+									"source_entity": {
+											"nbt": "{Tags:[\"ID3.0\"]}"
+									}
+							}
+					}
+			},
+			"3-1": {
+					"trigger": "entity_hurt_player",
+					"conditions": {
+							"damage": {
+									"source_entity": {
+											"nbt": "{Tags:[\"ID3.1\"]}"
+									}
+							}
+					}
+			},
+			"4-0": {
+					"trigger": "entity_hurt_player",
+					"conditions": {
+							"damage": {
+									"source_entity": {
+											"nbt": "{Tags:[\"ID4.0\"]}"
+									}
+							}
+					}
+			},
+			"4-1": {
+					"trigger": "entity_hurt_player",
+					"conditions": {
+							"damage": {
+									"source_entity": {
+											"nbt": "{Tags:[\"ID4.1\"]}"
+									}
+							}
+					}
+			},
+			"5-0": {
+					"trigger": "entity_hurt_player",
+					"conditions": {
+							"damage": {
+									"source_entity": {
+											"nbt": "{Tags:[\"ID5.0\"]}"
+									}
+							}
+					}
+			},
+			"5-1": {
+					"trigger": "entity_hurt_player",
+					"conditions": {
+							"damage": {
+									"source_entity": {
+											"nbt": "{Tags:[\"ID5.1\"]}"
+									}
+							}
+					}
+			},
+			"6-0": {
+					"trigger": "entity_hurt_player",
+					"conditions": {
+							"damage": {
+									"source_entity": {
+											"nbt": "{Tags:[\"ID6.0\"]}"
+									}
+							}
+					}
+			},
+			"6-1": {
+					"trigger": "entity_hurt_player",
+					"conditions": {
+							"damage": {
+									"source_entity": {
+											"nbt": "{Tags:[\"ID6.1\"]}"
+									}
+							}
+					}
+			},
+			"7-0": {
+					"trigger": "entity_hurt_player",
+					"conditions": {
+							"damage": {
+									"source_entity": {
+											"nbt": "{Tags:[\"ID7.0\"]}"
+									}
+							}
+					}
+			},
+			"7-1": {
+					"trigger": "entity_hurt_player",
+					"conditions": {
+							"damage": {
+									"source_entity": {
+											"nbt": "{Tags:[\"ID7.1\"]}"
+									}
+							}
+					}
+			},
+			"8-0": {
+					"trigger": "entity_hurt_player",
+					"conditions": {
+							"damage": {
+									"source_entity": {
+											"nbt": "{Tags:[\"ID8.0\"]}"
+									}
+							}
+					}
+			},
+			"8-1": {
+					"trigger": "entity_hurt_player",
+					"conditions": {
+							"damage": {
+									"source_entity": {
+											"nbt": "{Tags:[\"ID8.1\"]}"
+									}
+							}
+					}
+			},
+			"9-0": {
+					"trigger": "entity_hurt_player",
+					"conditions": {
+							"damage": {
+									"source_entity": {
+											"nbt": "{Tags:[\"ID9.0\"]}"
+									}
+							}
+					}
+			},
+			"9-1": {
+					"trigger": "entity_hurt_player",
+					"conditions": {
+							"damage": {
+									"source_entity": {
+											"nbt": "{Tags:[\"ID9.1\"]}"
+									}
+							}
+					}
+			},
+			"10-0": {
+					"trigger": "entity_hurt_player",
+					"conditions": {
+							"damage": {
+									"source_entity": {
+											"nbt": "{Tags:[\"ID10.0\"]}"
+									}
+							}
+					}
+			},
+			"10-1": {
+					"trigger": "entity_hurt_player",
+					"conditions": {
+							"damage": {
+									"source_entity": {
+											"nbt": "{Tags:[\"ID10.1\"]}"
+									}
+							}
+					}
+			},
+			"11-0": {
+					"trigger": "entity_hurt_player",
+					"conditions": {
+							"damage": {
+									"source_entity": {
+											"nbt": "{Tags:[\"ID11.0\"]}"
+									}
+							}
+					}
+			},
+			"11-1": {
+					"trigger": "entity_hurt_player",
+					"conditions": {
+							"damage": {
+									"source_entity": {
+											"nbt": "{Tags:[\"ID11.1\"]}"
+									}
+							}
+					}
+			},
+			"12-0": {
+					"trigger": "entity_hurt_player",
+					"conditions": {
+							"damage": {
+									"source_entity": {
+											"nbt": "{Tags:[\"ID12.0\"]}"
+									}
+							}
+					}
+			},
+			"12-1": {
+					"trigger": "entity_hurt_player",
+					"conditions": {
+							"damage": {
+									"source_entity": {
+											"nbt": "{Tags:[\"ID12.1\"]}"
+									}
+							}
+					}
+			},
+			"13-0": {
+					"trigger": "entity_hurt_player",
+					"conditions": {
+							"damage": {
+									"source_entity": {
+											"nbt": "{Tags:[\"ID13.0\"]}"
+									}
+							}
+					}
+			},
+			"13-1": {
+					"trigger": "entity_hurt_player",
+					"conditions": {
+							"damage": {
+									"source_entity": {
+											"nbt": "{Tags:[\"ID13.1\"]}"
+									}
+							}
+					}
+			},
+			"14-0": {
+					"trigger": "entity_hurt_player",
+					"conditions": {
+							"damage": {
+									"source_entity": {
+											"nbt": "{Tags:[\"ID14.0\"]}"
+									}
+							}
+					}
+			},
+			"14-1": {
+					"trigger": "entity_hurt_player",
+					"conditions": {
+							"damage": {
+									"source_entity": {
+											"nbt": "{Tags:[\"ID14.1\"]}"
+									}
+							}
+					}
+			},
+			"15-0": {
+					"trigger": "entity_hurt_player",
+					"conditions": {
+							"damage": {
+									"source_entity": {
+											"nbt": "{Tags:[\"ID15.0\"]}"
+									}
+							}
+					}
+			},
+			"15-1": {
+					"trigger": "entity_hurt_player",
+					"conditions": {
+							"damage": {
+									"source_entity": {
+											"nbt": "{Tags:[\"ID15.1\"]}"
+									}
+							}
+					}
+			}
+	},
+	"requirements": [
+			[
+				"non_player"
+			],
+			[
+					"0-0",
+					"0-1"
+			],
+			[
+					"1-0",
+					"1-1"
+			],
+			[
+					"2-0",
+					"2-1"
+			],
+			[
+					"3-0",
+					"3-1"
+			],
+			[
+					"4-0",
+					"4-1"
+			],
+			[
+					"5-0",
+					"5-1"
+			],
+			[
+					"6-0",
+					"6-1"
+			],
+			[
+					"7-0",
+					"7-1"
+			],
+			[
+					"8-0",
+					"8-1"
+			],
+			[
+					"9-0",
+					"9-1"
+			],
+			[
+					"10-0",
+					"10-1"
+			],
+			[
+					"11-0",
+					"11-1"
+			],
+			[
+					"12-0",
+					"12-1"
+			],
+			[
+					"13-0",
+					"13-1"
+			],
+			[
+					"14-0",
+					"14-1"
+			],
+			[
+					"15-0",
+					"15-1"
+			]
+	],
+  "rewards": {
+    "function": "system:entity/check_attacker/check"
+  }
+}

@@ -50,6 +50,8 @@ scoreboard objectives add meleeattacker dummy
 scoreboard objectives add damageresist minecraft.custom:minecraft.damage_resisted
 scoreboard objectives add attacker dummy
 scoreboard objectives add afterdamage dummy
+scoreboard objectives add dummydamageA dummy
+scoreboard objectives add dummydamageB dummy
 #skillで出したarmor stand/marker用のscoreboard
 scoreboard objectives add skills dummy
 

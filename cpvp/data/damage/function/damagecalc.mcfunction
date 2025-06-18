@@ -23,9 +23,6 @@ scoreboard players operation $damagecalc damagecalc -= @s defence
 #特殊ダメージ処理
 execute if entity @s[tag=victim,tag=specialdamage] run scoreboard players operation $damagecalc damagecalc /= $2 main
 
-#最大def処理
-execute if score $damagecalc damagecalc matches ..20 run scoreboard players set $damagecalc damagecalc 20
-
 #effect処理
 execute store result score $dummy2 damagecalc run data get entity @a[tag=atker,limit=1] active_effects[{id:"minecraft:hero_of_the_village"}].amplifier
 scoreboard players operation $damagecalc2 damagecalc += $dummy2 damagecalc
@@ -38,6 +35,10 @@ scoreboard players operation $damagecalc2 damagecalc -= $dummy2 damagecalc
 
 #倍率調整
 scoreboard players operation $damagecalc damagecalc += $100 main
+
+#最大def処理
+execute if score $damagecalc damagecalc matches ..20 run scoreboard players set $damagecalc damagecalc 20
+
 scoreboard players operation $damagecalc2 damagecalc *= $10 main
 #特殊ダメージのeffect半減処理
 execute if entity @s[tag=victim,tag=specialdamage] run scoreboard players operation $damagecalc2 damagecalc /= $2 main
@@ -51,8 +52,7 @@ execute if score $dummy random <= @s agi run function damage:avoid
 execute if score $dummy random <= @s agi run return fail
 
 #crit処理
-execute if score @s damagetaken < $0 main run function damage:critical
-
+function damage:critical
 
 #100倍*2->1/10000
 scoreboard players operation @s damagetaken *= $damagecalc damagecalc
@@ -69,6 +69,7 @@ tag @s remove magicdamage
 tag @s remove meleedamage
 tag @s remove rangedamage
 tag @s remove specialdamage
+tag @s remove critical
 #終了
 tag @a remove atker
 tag @a remove victim
