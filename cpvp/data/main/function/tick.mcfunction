@@ -74,10 +74,8 @@ execute if entity @e[tag=skillmarker] as @e[tag=skillmarker] run function items:
 
 
 #actionbar
-execute as @a[scores={maxeng=..0,absorption=..0}] run function system:actionbar/actionbar
-execute as @a[scores={maxeng=1..,absorption=..0}] run function system:actionbar/actionbar2
-execute as @a[scores={maxeng=..0,absorption=1..}] run function system:actionbar/actionbar3
-execute as @a[scores={maxeng=1..,absorption=1..}] run function system:actionbar/actionbar4
+execute as @a run function system:actionbar/
+
 
 #sth
 execute as @a if score @s absorption matches 1.. run effect give @s absorption 1 0 true

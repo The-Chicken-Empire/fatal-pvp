@@ -4,7 +4,7 @@ execute if data storage buff: check.buffcontent[0] run function buff:end/reduceb
 function stats:statscalc
 function buff:end/function with storage buff: check
 
-data modify storage buff: customdata set from storage buff: check.customdata
+data modify storage buff: customdata set from storage buff: check
 $data remove storage buff: temp[{id:$(id)}]
 
 execute if entity @s[type=player] run function buff:gain/player with entity @s

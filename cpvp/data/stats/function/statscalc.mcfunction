@@ -91,7 +91,8 @@ scoreboard players operation @s vit += @s vit_buff
 scoreboard players operation @s cc += @s cc_buff
 scoreboard players operation @s agi += @s agi_buff
 scoreboard players operation @s maxeng += @s maxeng_buff
-
+scoreboard players operation @s damage += @s damage_buff
+scoreboard players operation @s defence += @s defence_buff
 
 
 

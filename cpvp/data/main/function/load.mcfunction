@@ -177,5 +177,7 @@ scoreboard objectives add rangedmg_buff dummy
 scoreboard objectives add cc_buff dummy
 scoreboard objectives add agi_buff dummy
 scoreboard objectives add maxeng_buff dummy
+scoreboard objectives add defence_buff dummy
+scoreboard objectives add damage_buff dummy
 
 function system:cooltime/load

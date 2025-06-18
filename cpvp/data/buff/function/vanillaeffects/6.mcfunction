@@ -15,7 +15,7 @@ data modify storage buff: gain.buffcontent set value []
 #リストには[増やすstats,1レベルごとの増加量,レベルに関係ない増加量]をつっこむ。
 #初期値なし
 
-data modify storage buff: gain.functiontick set value "cpvp:buff/vanillaeffects/6tick"
+data modify storage buff: gain.functiontick set value "buff:vanillaeffects/6tick"
 #バフが付与されている間毎ティック実行するファンクションです。初期値なし
 #data modify storage buff: gain.functionwhenexpired set value "aaa:aaa/aaa"
 #バフの効果が着れたときに実行するファンクションです。初期値なし

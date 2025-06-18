@@ -6,7 +6,7 @@
 data modify storage buff: gain.maxlevel set value 3333
 #バフの最大レベルです。初期値1
 #効果時間です 1秒は20です。-1なら永続です。初期値-1
-data modify storage buff: gain.buffcontent set value [["speed",-15,0]]
+#data modify storage buff: gain.buffcontent set value [["speed",-15,0]]
 #バフにステータス上昇効果がある場合はここに突っ込んでください。
 #最大体力:maxhp 最大mp:maxmp マナリゲネ:mr 物理耐性:phyisicaldef 魔法耐性:magicdef
 #近接耐性:meleedef 遠隔耐性:rangedef 回復量:vit 移動速度:speed
@@ -16,7 +16,7 @@ data modify storage buff: gain.buffcontent set value [["speed",-15,0]]
 #初期値なし
 #バフが付与されている間毎ティック実行するファンクションです。初期値なし
 #data modify storage buff: gain.functionwhenexpired set value "aaa:aaa/aaa"
-data modify storage buff: gain.functiontick set value "cpvp:buff/vanillaeffects/12tick"
+data modify storage buff: gain.functiontick set value "buff:vanillaeffects/12tick"
 #バフの効果が着れたときに実行するファンクションです。初期値なし
 #data modify storage buff: gain.customdata set value []
 #格納したいデータがあったら格納しといてください。
