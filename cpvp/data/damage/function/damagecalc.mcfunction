@@ -24,14 +24,7 @@ scoreboard players operation $damagecalc damagecalc -= @s defence
 execute if entity @s[tag=victim,tag=specialdamage] run scoreboard players operation $damagecalc damagecalc /= $2 main
 
 #effect処理
-execute store result score $dummy2 damagecalc run data get entity @a[tag=atker,limit=1] active_effects[{id:"minecraft:hero_of_the_village"}].amplifier
-scoreboard players operation $damagecalc2 damagecalc += $dummy2 damagecalc
-execute store result score $dummy2 damagecalc run data get entity @a[tag=atker,limit=1] active_effects[{id:"minecraft:hbad_omen"}].amplifier
-scoreboard players operation $damagecalc2 damagecalc -= $dummy2 damagecalc
-execute store result score $dummy2 damagecalc run data get entity @s active_effects[{id:"minecraft:unluck"}].amplifier
-scoreboard players operation $damagecalc2 damagecalc += $dummy2 damagecalc
-execute store result score $dummy2 damagecalc run data get entity @s active_effects[{id:"minecraft:luck"}].amplifier
-scoreboard players operation $damagecalc2 damagecalc -= $dummy2 damagecalc
+function damage:effects/
 
 #倍率調整
 scoreboard players operation $damagecalc damagecalc += $100 main
@@ -63,13 +56,3 @@ scoreboard players operation @s damage = @s damagetaken
 scoreboard players reset @s damagetaken
 #damage処理
 function damage:damage
-#tag解除
-tag @s remove physicaldamage
-tag @s remove magicdamage
-tag @s remove meleedamage
-tag @s remove rangedamage
-tag @s remove specialdamage
-tag @s remove critical
-#終了
-tag @a remove atker
-tag @a remove victim

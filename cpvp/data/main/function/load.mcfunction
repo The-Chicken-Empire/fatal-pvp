@@ -14,9 +14,22 @@ scoreboard objectives add ID dummy
 execute unless score $init ID matches -2147483648..2147483647 run scoreboard players set $init ID 0
 scoreboard objectives add settings dummy
 scoreboard objectives add main dummy
+scoreboard objectives add counter dummy
+scoreboard objectives add counter2 dummy
+scoreboard objectives add counter3 dummy
+scoreboard objectives add counter4 dummy
+scoreboard objectives add counter5 dummy
 scoreboard objectives add timer dummy
 scoreboard players set $0 main 0
+scoreboard players set $1 main 1
 scoreboard players set $2 main 2
+scoreboard players set $3 main 3
+scoreboard players set $4 main 4
+scoreboard players set $5 main 5
+scoreboard players set $6 main 6
+scoreboard players set $7 main 7
+scoreboard players set $8 main 8
+scoreboard players set $9 main 9
 scoreboard players set $10 main 10
 scoreboard players set $20 main 20
 scoreboard players set $400 main 400
@@ -142,5 +155,29 @@ scoreboard players set @a eng 0
 scoreboard objectives add gunreload dummy
 #bulletcout
 scoreboard objectives add handgun dummy
+
+
+
+
+
+#buff用
+scoreboard objectives add maxhp_buff dummy
+scoreboard objectives add maxmp_buff dummy
+scoreboard objectives add mr_buff dummy
+scoreboard objectives add physicaldef_buff dummy
+scoreboard objectives add magicdef_buff dummy
+scoreboard objectives add meleedef_buff dummy
+scoreboard objectives add rangedef_buff dummy
+scoreboard objectives add vit_buff dummy
+scoreboard objectives add speed_buff dummy
+scoreboard objectives add physicaldmg_buff dummy
+scoreboard objectives add magicdmg_buff dummy
+scoreboard objectives add meleedmg_buff dummy
+scoreboard objectives add rangedmg_buff dummy
+scoreboard objectives add cc_buff dummy
+scoreboard objectives add agi_buff dummy
+scoreboard objectives add maxeng_buff dummy
+scoreboard objectives add defence_buff dummy
+scoreboard objectives add damage_buff dummy
 
 function system:cooltime/load
