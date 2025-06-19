@@ -15,7 +15,11 @@ scoreboard players operation @s damagetaken -= $tmp tmp
 scoreboard players reset $tmp tmp
 execute if data entity @a[tag=atker,limit=1] SelectedItem.components."minecraft:custom_data".cpvp.magicweapon run tag @s add magicdamage
 execute unless data entity @a[tag=atker,limit=1] SelectedItem.components."minecraft:custom_data".cpvp.magicweapon run tag @s add physicaldamage
-tag @s add meleedamage
+execute if entity @e[tag=atker,advancements={system:projectile=false}] run tag @s add meleedamage
+execute if entity @e[tag=atker,advancements={system:projectile=true}] run tag @s add rangedamage
+#攻撃判定
+execute as @e[tag=atker] run function items:triggers/attack/check
+
 function damage:damagecalc
 #回復
 data modify entity @s[tag=victim] Health set value 1000
