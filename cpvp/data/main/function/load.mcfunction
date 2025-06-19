@@ -153,10 +153,11 @@ scoreboard players set @a eng 0
 
 #items
 scoreboard objectives add gunreload dummy
-#bulletcout
+#bulletcount
 scoreboard objectives add handgun dummy
 
-
+#固有item用score
+scoreboard objectives add offhand2 dummy
 
 
 
