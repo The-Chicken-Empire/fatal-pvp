@@ -1,0 +1,18 @@
+{
+  "function": "minecraft:set_custom_data",
+  "tag": {
+    "cpvp": {
+      "durability": 2,
+      "maxdurability": 2,
+      "id": 3,
+      "item_type": "magic",
+      "mainhand": {
+        "triggers": [
+          "right_click"
+        ]
+      },
+      "regularitem": 1,
+      "classitem": 0
+    }
+  }
+}

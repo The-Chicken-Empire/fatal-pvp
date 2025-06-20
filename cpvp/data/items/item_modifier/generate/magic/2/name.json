@@ -1,0 +1,10 @@
+{
+  "function": "minecraft:set_name",
+  "name": [
+    {
+      "text": "観察眼",
+      "color": "dark_aqua",
+      "italic": false
+    }
+  ]
+}

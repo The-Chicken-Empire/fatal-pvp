@@ -1,7 +1,7 @@
 {
   "function": "minecraft:set_lore",
   "lore": [
-    []
+    [""]
     ,
     [
       {
@@ -22,8 +22,16 @@
     ],
     [
       {
-        "text": "ここからability説明",
-        "italic": false
+        "text": "発動検知",
+        "italic": false,
+        "color":"green"
+      }
+    ],
+    [
+      {
+        "text": "cost",
+        "italic": false,
+        "color":"white"
       }
     ]
   ],

@@ -1,0 +1,14 @@
+{
+  "function": "minecraft:set_lore",
+  "lore": [
+    
+    [
+      {
+        "text": "ーー勝機!",
+        "color": "dark_gray",
+        "italic": true
+      }
+    ]
+  ],
+  "mode": "append"
+}

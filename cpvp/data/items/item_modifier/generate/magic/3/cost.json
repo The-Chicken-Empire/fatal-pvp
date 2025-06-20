@@ -1,12 +1,10 @@
 {
   "function": "minecraft:set_lore",
   "lore": [
-    [""]
-    ,
     [
       {
-        "text": "使用可能部位",
-        "color": "dark_green",
+        "text": "アイテムコスト",
+        "color": "light_purple",
         "italic": false
       },
       {
@@ -15,12 +13,14 @@
         "italic": false
       },
       {
-        "text": "チェストプレート",
-        "color": "dark_green",
+        "text": "5",
+        "color": "red",
         "italic": false
       }
     ],
-    [""]
+    [
+      ""
+    ]
   ],
   "mode": "append"
 }

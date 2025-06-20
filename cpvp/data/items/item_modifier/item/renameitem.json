@@ -14,20 +14,17 @@
         "storage": "dummy",
         "nbt": "durability",
         "color": "green",
-        "bold": true,
         "italic": false
       },
       {
         "text": "/",
         "color": "green",
-        "bold": true,
         "italic": false
       },
       {
         "nbt": "maxdurability",
         "storage": "dummy",
-        "color": "green",
-        "bold": true
+        "color": "green"
       }
     ]
   }

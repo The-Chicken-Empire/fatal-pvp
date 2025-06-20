@@ -2,7 +2,7 @@
 scoreboard players operation @s mp -= @s mpcost
 #tag付与
 execute rotated as @s run summon marker ^ ^ ^-2 {Tags:["tmp"]}
-summon armor_stand ~ ~ ~ {Invulnerable:1b,Small:1b,Invisible:1b,Tags:["splashbomb","skillmarker"],DisabledSlots:4144959,equipment:{head:{id:"minecraft:sea_lantern",count:1,components:{"minecraft:enchantment_glint_override":true}}}}
+summon armor_stand ~ ~ ~ {Invulnerable:1b,Small:1b,Invisible:1b,Tags:["splashbomb","skillmarker"],DisabledSlots:4144959}
 execute anchored eyes as @e[tag=splashbomb,sort=nearest,limit=1] run tp @s ^ ^ ^ ~ ~
 scoreboard players operation @e[tag=splashbomb,sort=nearest,limit=1] owner = @s playerdata
 scoreboard players operation @e[tag=splashbomb,sort=nearest,limit=1] ownerteam = @s teamscore

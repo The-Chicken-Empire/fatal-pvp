@@ -1,0 +1,105 @@
+{
+  "function": "minecraft:set_lore",
+  "lore": [
+    [
+      {
+        "text": "-- ",
+        "color": "white",
+        "italic": false
+      },
+      {
+        "text": "情報開示命令",
+        "color": "dark_blue",
+        "italic": false
+      },
+      {
+        "text": " --",
+        "color": "white",
+        "italic": false
+      }
+    ],
+    [
+      {
+        "text": "右クリック",
+        "italic": false,
+        "color":"yellow"
+      }
+    ],
+    [
+      {
+        "text": "消費MP",
+        "italic": false,
+        "color":"blue"
+      },
+      {
+        "text": " : ",
+        "italic": false,
+        "color":"white"
+      },
+      {
+        "text": "30",
+        "italic": false,
+        "color":"green"
+      },
+      {
+        "text": " ",
+        "italic": false,
+        "color":"white"
+      },
+      {
+        "text": "クールタイム",
+        "italic": false,
+        "color":"dark_aqua"
+      },
+      {
+        "text": " : ",
+        "italic": false,
+        "color":"white"
+      },
+      {
+        "text": "30秒",
+        "italic": false,
+        "color":"green"
+      }
+    ],
+    [
+      {
+        "text": "10m以内に存在する",
+        "italic": false,
+        "color":"white"
+      },
+      {
+        "text": "全てのentity",
+        "italic": false,
+        "color":"yellow",
+        "underlined": true
+      },
+      {
+        "text": "の",
+        "italic": false,
+        "color":"white"
+      },
+      {
+        "text": "HP",
+        "italic": false,
+        "color":"dark_red"
+      },
+      {
+        "text": "と",
+        "italic": false,
+        "color":"white"
+      },
+      {
+        "text": "MP",
+        "italic": false,
+        "color":"aqua"
+      },
+      {
+        "text": "の情報を表示する",
+        "italic": false,
+        "color":"white"
+      }
+    ]
+  ],
+  "mode": "append"
+}
