@@ -62,9 +62,6 @@ function buff:tick/main
 
 #skills
 
-
-function items:skills/tick
-
 # アイテム系
 function items:tick
 # スキル用marker用score
@@ -76,6 +73,8 @@ execute if entity @e[tag=skillmarker] as @e[tag=skillmarker] run function items:
 #actionbar
 execute as @a run function system:actionbar/
 
+#is projectile
+advancement revoke @a only system:projectile
 
 #sth
 execute as @a if score @s absorption matches 1.. run effect give @s absorption 1 0 true

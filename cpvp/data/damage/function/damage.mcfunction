@@ -1,3 +1,5 @@
+#音
+execute at @s run playsound entity.player.hurt player @s ~ ~ ~ 1 1 1
 #攻撃主取り消し
 scoreboard players reset @s attacker
 scoreboard players set @s afterdamage -1

@@ -1,0 +1,21 @@
+{
+  "function": "minecraft:set_lore",
+  "lore": [
+    
+    [
+      {
+        "text": "さあ、君の全てを見せてくれ",
+        "color": "dark_gray",
+        "italic": true
+      }
+    ],
+    [
+      {
+        "text": "ーーああ、拒否権はないよ。",
+        "color": "dark_gray",
+        "italic": true
+      }
+    ]
+  ],
+  "mode": "append"
+}

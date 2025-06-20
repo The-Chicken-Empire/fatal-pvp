@@ -1,7 +1,7 @@
 {
   "function": "minecraft:set_lore",
   "lore": [
-    []
+    [""]
     ,
     [
       {
@@ -19,7 +19,8 @@
         "color": "dark_green",
         "italic": false
       }
-    ]
+    ],
+    [""]
   ],
   "mode": "append"
 }

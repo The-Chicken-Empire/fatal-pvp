@@ -14,3 +14,6 @@ scoreboard players set @a[tag=player] eng 0
 effect clear @a[tag=player]
 
 scoreboard players set $phase main 3
+
+#固有item用
+function system:reset/start
