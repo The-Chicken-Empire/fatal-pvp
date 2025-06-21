@@ -21,55 +21,55 @@ scoreboard players set @s bonusattackspeed 0
 scoreboard players set $dummy statscalc 0
 
 #attackspeed処理
-execute unless data entity @s SelectedItem.components."minecraft:custom_data".cpvp.stats.attackspeed run scoreboard players set @s attackspeed 400
-execute if data entity @s SelectedItem.components."minecraft:custom_data".cpvp.stats.attackspeed run execute store result score @s attackspeed run data get entity @s SelectedItem.components."minecraft:custom_data".cpvp.stats.attackspeed
+execute unless data entity @s SelectedItem.components."minecraft:custom_data".cpvp.mainhand.stats.attackspeed run scoreboard players set @s attackspeed 400
+execute if data entity @s SelectedItem.components."minecraft:custom_data".cpvp.mainhand.stats.attackspeed run execute store result score @s attackspeed run data get entity @s SelectedItem.components."minecraft:custom_data".cpvp.mainhand.stats.attackspeed
 
 data modify storage cpvp:stats $stats set from entity @s
 data remove storage cpvp:stats $dummy
 
-execute if predicate stats:mainhanditem run data modify storage cpvp:stats $dummy set from storage cpvp:stats $stats.SelectedItem.components.minecraft:custom_data.cpvp.stats.mainhand
+execute if predicate stats:mainhanditem run data modify storage cpvp:stats $dummy set from storage cpvp:stats $stats.SelectedItem.components.minecraft:custom_data.cpvp.mainhand.stats
 execute if predicate stats:mainhanditem run function stats:statscalc2
 data remove storage cpvp:stats $dummy
-execute if predicate stats:offhanditem run data modify storage cpvp:stats $dummy set from storage cpvp:stats $stats.equipment.offhand.components.minecraft:custom_data.cpvp.stats.offhand
+execute if predicate stats:offhanditem run data modify storage cpvp:stats $dummy set from storage cpvp:stats $stats.equipment.offhand.components.minecraft:custom_data.cpvp.offhand.stats
 execute if predicate stats:offhanditem run function stats:statscalc2
 data remove storage cpvp:stats $dummy
-execute if predicate stats:headitem run data modify storage cpvp:stats $dummy set from storage cpvp:stats $stats.equipment.head.components.minecraft:custom_data.cpvp.stats.helmet
+execute if predicate stats:headitem run data modify storage cpvp:stats $dummy set from storage cpvp:stats $stats.equipment.head.components.minecraft:custom_data.cpvp.helmet.stats
 execute if predicate stats:headitem run function stats:statscalc2
 data remove storage cpvp:stats $dummy
-execute if predicate stats:chestitem run data modify storage cpvp:stats $dummy set from storage cpvp:stats $stats.equipment.chest.components.minecraft:custom_data.cpvp.stats.chestplate
+execute if predicate stats:chestitem run data modify storage cpvp:stats $dummy set from storage cpvp:stats $stats.equipment.chest.components.minecraft:custom_data.cpvp.chestplate.stats
 execute if predicate stats:chestitem run function stats:statscalc2
 data remove storage cpvp:stats $dummy
-execute if predicate stats:legsitem run data modify storage cpvp:stats $dummy set from storage cpvp:stats $stats.equipment.legs.components.minecraft:custom_data.cpvp.stats.leggings
+execute if predicate stats:legsitem run data modify storage cpvp:stats $dummy set from storage cpvp:stats $stats.equipment.legs.components.minecraft:custom_data.cpvp.leggings.stats
 execute if predicate stats:legsitem run function stats:statscalc2
 data remove storage cpvp:stats $dummy
-execute if predicate stats:feetitem run data modify storage cpvp:stats $dummy set from storage cpvp:stats $stats.equipment.feet.components.minecraft:custom_data.cpvp.stats.boots
+execute if predicate stats:feetitem run data modify storage cpvp:stats $dummy set from storage cpvp:stats $stats.equipment.feet.components.minecraft:custom_data.cpvp.boots.stats
 execute if predicate stats:feetitem run function stats:statscalc2
 data remove storage cpvp:stats $dummy
-execute if predicate stats:hot0perkitem run data modify storage cpvp:stats $dummy set from storage cpvp:stats $stats.Inventory[{Slot:0b}].components.minecraft:custom_data.cpvp.stats.perk
+execute if predicate stats:hot0perkitem run data modify storage cpvp:stats $dummy set from storage cpvp:stats $stats.Inventory[{Slot:0b}].components.minecraft:custom_data.cpvp.hotbar.stats
 execute if predicate stats:hot0perkitem run function stats:statscalc2
 data remove storage cpvp:stats $dummy
-execute if predicate stats:hot1perkitem run data modify storage cpvp:stats $dummy set from storage cpvp:stats $stats.Inventory[{Slot:1b}].components.minecraft:custom_data.cpvp.stats.perk
+execute if predicate stats:hot1perkitem run data modify storage cpvp:stats $dummy set from storage cpvp:stats $stats.Inventory[{Slot:1b}].components.minecraft:custom_data.cpvp.hotbar.stats
 execute if predicate stats:hot1perkitem run function stats:statscalc2
 data remove storage cpvp:stats $dummy
-execute if predicate stats:hot2perkitem run data modify storage cpvp:stats $dummy set from storage cpvp:stats $stats.Inventory[{Slot:2b}].components.minecraft:custom_data.cpvp.stats.perk
+execute if predicate stats:hot2perkitem run data modify storage cpvp:stats $dummy set from storage cpvp:stats $stats.Inventory[{Slot:2b}].components.minecraft:custom_data.cpvp.hotbar.stats
 execute if predicate stats:hot2perkitem run function stats:statscalc2
 data remove storage cpvp:stats $dummy
-execute if predicate stats:hot3perkitem run data modify storage cpvp:stats $dummy set from storage cpvp:stats $stats.Inventory[{Slot:3b}].components.minecraft:custom_data.cpvp.stats.perk
+execute if predicate stats:hot3perkitem run data modify storage cpvp:stats $dummy set from storage cpvp:stats $stats.Inventory[{Slot:3b}].components.minecraft:custom_data.cpvp.hotbar.stats
 execute if predicate stats:hot3perkitem run function stats:statscalc2
 data remove storage cpvp:stats $dummy
-execute if predicate stats:hot4perkitem run data modify storage cpvp:stats $dummy set from storage cpvp:stats $stats.Inventory[{Slot:4b}].components.minecraft:custom_data.cpvp.stats.perk
+execute if predicate stats:hot4perkitem run data modify storage cpvp:stats $dummy set from storage cpvp:stats $stats.Inventory[{Slot:4b}].components.minecraft:custom_data.cpvp.hotbar.stats
 execute if predicate stats:hot4perkitem run function stats:statscalc2
 data remove storage cpvp:stats $dummy
-execute if predicate stats:hot5perkitem run data modify storage cpvp:stats $dummy set from storage cpvp:stats $stats.Inventory[{Slot:5b}].components.minecraft:custom_data.cpvp.stats.perk
+execute if predicate stats:hot5perkitem run data modify storage cpvp:stats $dummy set from storage cpvp:stats $stats.Inventory[{Slot:5b}].components.minecraft:custom_data.cpvp.hotbar.stats
 execute if predicate stats:hot5perkitem run function stats:statscalc2
 data remove storage cpvp:stats $dummy
-execute if predicate stats:hot6perkitem run data modify storage cpvp:stats $dummy set from storage cpvp:stats $stats.Inventory[{Slot:6b}].components.minecraft:custom_data.cpvp.stats.perk
+execute if predicate stats:hot6perkitem run data modify storage cpvp:stats $dummy set from storage cpvp:stats $stats.Inventory[{Slot:6b}].components.minecraft:custom_data.cpvp.hotbar.stats
 execute if predicate stats:hot6perkitem run function stats:statscalc2
 data remove storage cpvp:stats $dummy
-execute if predicate stats:hot7perkitem run data modify storage cpvp:stats $dummy set from storage cpvp:stats $stats.Inventory[{Slot:7b}].components.minecraft:custom_data.cpvp.stats.perk
+execute if predicate stats:hot7perkitem run data modify storage cpvp:stats $dummy set from storage cpvp:stats $stats.Inventory[{Slot:7b}].components.minecraft:custom_data.cpvp.hotbar.stats
 execute if predicate stats:hot7perkitem run function stats:statscalc2
 data remove storage cpvp:stats $dummy
-execute if predicate stats:hot8perkitem run data modify storage cpvp:stats $dummy set from storage cpvp:stats $stats.Inventory[{Slot:8b}].components.minecraft:custom_data.cpvp.stats.perk
+execute if predicate stats:hot8perkitem run data modify storage cpvp:stats $dummy set from storage cpvp:stats $stats.Inventory[{Slot:8b}].components.minecraft:custom_data.cpvp.hotbar.stats
 execute if predicate stats:hot8perkitem run function stats:statscalc2
 
 #hp/mpの初期値処理

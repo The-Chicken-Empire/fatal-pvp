@@ -7,7 +7,7 @@
         "predicates": {
           "minecraft:custom_data": {
             "cpvp": {
-              "boots": 1
+              "item_type": "boots"
             }
           }
         }

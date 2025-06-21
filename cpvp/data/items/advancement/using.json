@@ -1,0 +1,21 @@
+{
+  "criteria": {
+    "instaconsume": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "item": {
+          "predicates": {
+            "minecraft:custom_data": {
+              "cpvp": {
+                "regularitem": 1
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "items:triggers/using/check"
+  }
+}

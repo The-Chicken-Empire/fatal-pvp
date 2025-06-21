@@ -1,12 +1,11 @@
 tellraw @a reloaded
 execute as @a at @s run playsound block.amethyst_block.break master @s ~ ~ ~ 1 1 0
+execute as @a run function system:inventoryrefill
 
 scoreboard objectives add random dummy
 scoreboard objectives add sneak minecraft.custom:minecraft.sneak_time
-
 scoreboard objectives add deathtimer dummy
 scoreboard objectives add deathsentence dummy
-
 
 #system
 scoreboard objectives add tmp dummy
@@ -148,17 +147,24 @@ scoreboard objectives add displaymaxmp dummy
 scoreboard objectives add absorption dummy
 execute as @a unless score @s absorption matches -2147483648..2147483647 run scoreboard players set @s absorption 0
 execute as @a unless score @s maxeng matches -2147483648..2147483647 run scoreboard players set @s maxeng 0
+scoreboard objectives add eye minecraft.used:minecraft.ender_eye
 #後から移動
 scoreboard players set @a eng 0
 
 #items
+#durabilitycheck
+
 scoreboard objectives add gunreload dummy
 #bulletcount
 scoreboard objectives add handgun dummy
 
 #固有item用score
-scoreboard objectives add offhand2 dummy
-
+scoreboard objectives add perk2 dummy
+scoreboard players set @a perk2 0
+scoreboard objectives add perk2-2 dummy
+scoreboard players set @a perk2-2 0
+scoreboard objectives add perk2-3 dummy
+scoreboard players set @a perk2-3 0
 
 
 #buff用
