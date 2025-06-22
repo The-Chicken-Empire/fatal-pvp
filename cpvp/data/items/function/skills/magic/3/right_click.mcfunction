@@ -14,7 +14,7 @@ scoreboard players reset $check main
 tag @s add magic3
 scoreboard players reset $tmp tmp
 execute as @e[distance=..10] unless score @s teamscore = @a[tag=magic3,limit=1] teamscore run scoreboard players add $tmp tmp 1
-scoreboard players set @s mpcost 30
+scoreboard players set @s mpcost 3000
 execute store result score $check main run function system:skillcostcheck/skillcostcheck
 #起動/失敗
 execute if score $check main matches 1 if score $tmp tmp matches 1.. run function items:skills/magic/3/active

@@ -1,5 +1,6 @@
 #scoreboard players add $timer timer 1
 function system:cooltime/tick
+execute as @a run function system:pickupitem
 
 #初期処理
 execute if entity @e[type=#main:non_player,tag=!entity,limit=1] as @e[type=#main:non_player,tag=!entity] run tag @s add entity
@@ -83,3 +84,8 @@ execute as @a unless score @s absorption matches 1.. run effect clear @s absorpt
 execute as @a run function sth:sth3
 execute as @a unless score @s hp = @s hp2 run function sth:sth
 execute as @a run scoreboard players operation @s hp2 = @s hp
+
+item replace entity @a player.crafting.0 with air 1
+item replace entity @a player.crafting.1 with air 1
+item replace entity @a player.crafting.2 with air 1
+item replace entity @a player.crafting.3 with air 1

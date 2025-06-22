@@ -1,0 +1,42 @@
+[
+{
+  "function": "minecraft:set_custom_data",
+  "tag": {
+    "cpvp": {
+      "id": 2,
+      "item_type": "perk",
+      "hotbar": {
+        "stats": {
+          "damage": 25,
+          "defence": -25
+        },
+        "triggers": [
+          "kill"
+        ]
+      },
+      "mainhand": {
+        "triggers": [
+          "using"
+        ]
+      },
+      "regularitem": 1,
+      "classitem": 0
+    }
+  }
+},
+{
+  "function": "minecraft:set_name",
+  "name": [
+    {
+      "text": "蛮勇の魂玉",
+      "color": "dark_red",
+      "italic": false
+    },
+    {
+      "text": " lv5",
+      "color": "red",
+      "italic": false
+    }
+  ]
+}
+]

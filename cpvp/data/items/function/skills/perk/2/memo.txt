@@ -1,0 +1,11 @@
+lvupdata 片方条件換算 kill=片方15s
+lv1 3s 60 white
+lv2 7s 140 green
+lv3 12s 240 yellow
+lv4 18s 360 gold
+lv5 25s 500 red
+lv6 33s 660 dark red
+lv7 42s 840 dark blue
+lv8 52s 1040 dark purple
+lv9 63s 1260 dark gray
+lv10 80s 1600 black

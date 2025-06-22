@@ -1,0 +1,28 @@
+{
+  "function": "minecraft:set_lore",
+  "lore": [
+    
+    [
+      {
+        "text": "KP、俺は死亡診断書を偽造する",
+        "color": "dark_gray",
+        "italic": true
+      }
+    ],
+    [
+      {
+        "text": "〈製作〉 05 → 02 成功 クリティカル",
+        "color": "dark_gray",
+        "italic": true
+      }
+    ],
+    [
+      {
+        "text": "完璧な死亡診断書の作成に成功しました",
+        "color": "dark_gray",
+        "italic": true
+      }
+    ]
+  ],
+  "mode": "append"
+}

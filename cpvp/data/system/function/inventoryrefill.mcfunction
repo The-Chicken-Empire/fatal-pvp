@@ -77,4 +77,6 @@ execute if items entity @s inventory.25 *[custom_data~{cpvp:{regularitem:1b}}] r
 execute if items entity @s inventory.25 * run data remove storage inventory inventory.[0]
 execute if items entity @s inventory.26 *[custom_data~{cpvp:{regularitem:1b}}] run function system:inventoryrefill/i26 with storage inventory inventory.[0].components."minecraft:custom_data".cpvp
 execute if items entity @s inventory.26 * run data remove storage inventory inventory.[0]
+item replace block 0 0 0 container.0 from entity @s player.cursor
+function system:inventoryrefill/cursor with block 0 0 0 Items.[0].components."minecraft:custom_data".cpvp
 setblock 0 0 0 air replace
