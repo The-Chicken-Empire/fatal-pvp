@@ -64,6 +64,7 @@ scoreboard objectives add attacker dummy
 scoreboard objectives add afterdamage dummy
 scoreboard objectives add dummydamageA dummy
 scoreboard objectives add dummydamageB dummy
+scoreboard objectives add using dummy
 #skillで出したarmor stand/marker用のscoreboard
 scoreboard objectives add skills dummy
 

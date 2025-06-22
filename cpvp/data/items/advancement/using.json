@@ -16,6 +16,6 @@
     }
   },
   "rewards": {
-    "function": "items:triggers/using/check"
+    "function": "items:using"
   }
 }
