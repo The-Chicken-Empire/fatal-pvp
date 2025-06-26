@@ -1,0 +1,21 @@
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "slots": {
+      "hotbar.2": {
+        "predicates": {
+          "minecraft:custom_data": {
+            "cpvp": {
+              "hotbar": {
+                "triggers":[
+                  "attacked2"
+                ]
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
