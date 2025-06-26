@@ -66,6 +66,12 @@ scoreboard objectives add afterdamage dummy
 scoreboard objectives add dummydamageA dummy
 scoreboard objectives add dummydamageB dummy
 scoreboard objectives add using dummy
+scoreboard objectives add engcost dummy
+scoreboard objectives add hpcost dummy
+scoreboard players set @a mpcost 0
+scoreboard players set @a hpcost 0
+scoreboard players set @a engcost 0
+
 #skillで出したarmor stand/marker用のscoreboard
 scoreboard objectives add skills dummy
 

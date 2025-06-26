@@ -8,6 +8,10 @@
 scoreboard players set $damagecalc damagecalc 0
 scoreboard players set $damagecalc2 damagecalc 0
 
+#damage1trigger
+execute as @e[tag=atker] run function items:triggers/attack1/check
+execute as @e[tag=victim] run function items:triggers/attacked1/check
+
 #agi処理
 execute store result score $dummy random run random value 1..100
 execute if score $dummy random <= @s agi at @s run playsound entity.breeze.wind_burst master @a ~ ~ ~ 1 1.5
