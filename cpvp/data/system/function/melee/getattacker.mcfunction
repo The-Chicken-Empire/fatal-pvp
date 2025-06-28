@@ -11,8 +11,6 @@ execute if entity @e[tag=atker,advancements={system:projectile=true}] run tag @s
 tag @e[tag=atker,tag=magicweapon] remove magicweapon
 #ダメージ計算
 scoreboard players operation @s damagetaken = @s damageresist
-#攻撃判定
-execute as @e[tag=atker] run function items:triggers/attack/check
 
 function damage:damagecalc
 scoreboard players reset @s damageresist

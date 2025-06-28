@@ -1,2 +1,1 @@
-attribute @s minecraft:movement_speed modifier remove speed
-$attribute @s minecraft:movement_speed modifier add speed $(speed) add_multiplied_base
+$attribute @s minecraft:movement_speed base set $(speed)

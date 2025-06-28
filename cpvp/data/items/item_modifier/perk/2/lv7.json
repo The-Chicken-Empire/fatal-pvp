@@ -1,0 +1,54 @@
+[
+{
+  "function": "minecraft:set_custom_data",
+  "tag": {
+    "cpvp": {
+      "id": 2,
+      "item_type": "perk",
+      "hotbar": {
+        "stats": {
+          "damage": 35,
+          "defence": -35
+        },
+        "triggers": [
+          "kill"
+        ]
+      },
+      "mainhand": {
+        "triggers": [
+          "using"
+        ]
+      },
+      "regularitem": 1,
+      "classitem": 0
+    }
+  }
+},
+{
+  "function": "minecraft:set_name",
+  "name": [
+    {
+      "text": "蛮勇の魂玉",
+      "color": "dark_aqua",
+      "italic": false
+    },
+    {
+      "text": " lv7",
+      "color": "dark_blue",
+      "italic": false
+    }
+  ]
+},  {
+    "function": "minecraft:set_components",
+    "components": {
+      "minecraft:enchantments": {
+        "minecraft:power": 10
+      },
+      "minecraft:tooltip_display": {
+        "hidden_components": [
+          "minecraft:enchantments"
+        ]
+      }
+    }
+  }
+]

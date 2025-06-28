@@ -1,12 +1,11 @@
 tellraw @a reloaded
 execute as @a at @s run playsound block.amethyst_block.break master @s ~ ~ ~ 1 1 0
+execute as @a run function system:inventoryrefill
 
 scoreboard objectives add random dummy
 scoreboard objectives add sneak minecraft.custom:minecraft.sneak_time
-
 scoreboard objectives add deathtimer dummy
 scoreboard objectives add deathsentence dummy
-
 
 #system
 scoreboard objectives add tmp dummy
@@ -32,6 +31,7 @@ scoreboard players set $8 main 8
 scoreboard players set $9 main 9
 scoreboard players set $10 main 10
 scoreboard players set $20 main 20
+scoreboard players set $200 main 200
 scoreboard players set $400 main 400
 scoreboard players set $100 main 100
 scoreboard players set $10000 main 10000
@@ -65,6 +65,13 @@ scoreboard objectives add attacker dummy
 scoreboard objectives add afterdamage dummy
 scoreboard objectives add dummydamageA dummy
 scoreboard objectives add dummydamageB dummy
+scoreboard objectives add using dummy
+scoreboard objectives add engcost dummy
+scoreboard objectives add hpcost dummy
+scoreboard players set @a mpcost 0
+scoreboard players set @a hpcost 0
+scoreboard players set @a engcost 0
+
 #skillで出したarmor stand/marker用のscoreboard
 scoreboard objectives add skills dummy
 
@@ -148,18 +155,28 @@ scoreboard objectives add displaymaxmp dummy
 scoreboard objectives add absorption dummy
 execute as @a unless score @s absorption matches -2147483648..2147483647 run scoreboard players set @s absorption 0
 execute as @a unless score @s maxeng matches -2147483648..2147483647 run scoreboard players set @s maxeng 0
+scoreboard objectives add eye minecraft.used:minecraft.ender_eye
 #後から移動
 scoreboard players set @a eng 0
 
 #items
+#durabilitycheck
+
 scoreboard objectives add gunreload dummy
 #bulletcount
 scoreboard objectives add handgun dummy
 
 #固有item用score
-scoreboard objectives add offhand2 dummy
-
-
+scoreboard objectives add perk2 dummy
+scoreboard players set @a perk2 0
+scoreboard objectives add perk2-2 dummy
+scoreboard players set @a perk2-2 0
+scoreboard objectives add perk2-3 dummy
+scoreboard players set @a perk2-3 0
+scoreboard objectives add weapon3 dummy
+scoreboard players set @a weapon3 0
+scoreboard objectives add weapon3-2 dummy
+scoreboard players set @a weapon3-2 0
 
 #buff用
 scoreboard objectives add maxhp_buff dummy

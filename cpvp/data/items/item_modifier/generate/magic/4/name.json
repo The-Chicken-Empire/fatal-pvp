@@ -1,0 +1,15 @@
+{
+  "function": "minecraft:set_name",
+  "name": [
+    {
+      "text": "死亡診断書",
+      "color": "gray",
+      "italic": false
+    },
+    {
+      "text": " 1/1",
+      "color": "green",
+      "italic": false
+    }
+  ]
+}
