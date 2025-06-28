@@ -7,7 +7,7 @@
         "predicates": {
           "minecraft:custom_data": {
             "cpvp": {
-              "helmet": 1
+              "item_type": "helmet"
             }
           }
         }

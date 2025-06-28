@@ -1,0 +1,15 @@
+{
+  "function": "minecraft:set_name",
+  "name": [
+    {
+      "text": "蛮勇の魂玉",
+      "color": "dark_red",
+      "italic": false
+    },
+    {
+      "text": " lv0",
+      "color": "gray",
+      "italic": false
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "function": "minecraft:set_lore",
+  "lore": [
+    [
+      {
+        "text": "-- ",
+        "color": "white",
+        "italic": false
+      },
+      {
+        "text": "ライトウェイト",
+        "color": "white",
+        "italic": false
+      },
+      {
+        "text": " --",
+        "color": "white",
+        "italic": false
+      }
+    ],
+    [
+      {
+        "text": "常時",
+        "italic": false,
+        "color":"yellow"
+      }
+    ],
+    [
+      {
+        "text": "自身に掛かる重力を軽減する",
+        "italic": false,
+        "color":"white"
+      }
+    ]
+  ],
+  "mode": "append"
+}

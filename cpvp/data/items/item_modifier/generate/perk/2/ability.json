@@ -1,0 +1,147 @@
+{
+  "function": "minecraft:set_lore",
+  "lore": [
+    [
+      {
+        "text": "-- ",
+        "color": "white",
+        "italic": false
+      },
+      {
+        "text": "魂極贄",
+        "color": "dark_red",
+        "italic": false
+      },
+      {
+        "text": " --",
+        "color": "white",
+        "italic": false
+      }
+    ],
+    [
+      {
+        "text": "右クリック",
+        "italic": false,
+        "color":"yellow"
+      }
+    ],
+    [
+      {
+        "text": "「30m以内に味方playerが居ない」",
+        "italic": false,
+        "color":"yellow"
+      },
+      {
+         "text": "又は",
+        "italic": false,
+        "color":"white"
+      },
+      {
+        "text": "「20m以内に敵playerが居る」",
+        "italic": false,
+        "color":"yellow"
+      },
+      {
+        "text": "状態で右クリックを押している間(重複可能)",
+        "italic": false,
+        "color":"white"
+      }
+    ],
+    [
+      {
+        "text": "又はホットバーに入れた状態で敵を",
+        "italic": false,
+        "color": "white"
+      },
+      {
+        "text": "キル",
+        "italic": false,
+        "color": "red"
+      },
+      {
+        "text": "した時に",
+        "italic": false,
+        "color": "white"
+      }
+    ],
+    [
+      {
+        "text": "ゲージが貯まり、一定量貯まるとアイテムの",
+        "italic": false,
+        "color": "white"
+      },
+      {
+        "text": "レベル",
+        "italic": false,
+        "color": "red"
+      },
+      {
+        "text": "が1上がる(最大10)",
+        "italic": false,
+        "color": "white"
+      }
+    ],
+    [
+      {
+        "text": "1レベル毎に",
+        "italic": false,
+        "color": "white"
+      },
+      {
+        "text": "攻撃力",
+        "italic": false,
+        "color": "red"
+      },
+      {
+        "text": "が",
+        "italic": false,
+        "color": "white"
+      },
+      {
+        "text": "+5",
+        "italic": false,
+        "color": "gold"
+      },
+      {
+        "text": "、",
+        "italic": false,
+        "color": "white"
+      },
+      {
+        "text": "防御力",
+        "italic": false,
+        "color": "blue"
+      },
+      {
+        "text": "が",
+        "italic": false,
+        "color": "white"
+      },
+      {
+        "text": "-5",
+        "italic": false,
+        "color": "gold"
+      },
+      {
+        "text": "される",
+        "italic": false,
+        "color": "white"
+      }
+    ],
+    [
+      {
+        "text": "この効果はホットバーに入れているだけで発動する",
+        "italic": false,
+        "color": "white"
+      }
+    ],
+    [
+      {
+        "text": "1レベル毎に要求時間は多くなる",
+        "italic": false,
+        "color": "white"
+      }
+    ]
+  ],
+  "mode": "append"
+}

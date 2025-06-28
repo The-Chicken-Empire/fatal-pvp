@@ -1,0 +1,13 @@
+{
+  "function": "minecraft:set_lore",
+  "lore": [
+    [
+      {
+        "text": "「あマジか終わるのかクソが知らん知らん知らん」",
+        "color": "dark_gray",
+        "italic": true
+      }
+    ]
+  ],
+  "mode": "append"
+}

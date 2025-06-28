@@ -1,0 +1,36 @@
+{
+  "function": "minecraft:set_lore",
+  "lore": [
+    [
+      {
+        "text": "旅する魔道具師F",
+        "color": "dark_gray",
+        "italic": true
+      },
+      {
+        "text": "yua",
+        "color": "dark_gray",
+        "italic": true,
+        "obfuscated": true
+      },
+      {
+        "text": "が片手間で作った一品",
+        "color": "dark_gray",
+        "italic": true
+      }
+    ],
+    [
+      {
+        "text": "この魔道具は色々な人の手に渡ったが、",
+        "color": "dark_gray",
+        "italic": true
+      },
+      {
+        "text": "使いこなせたのは一人だけだった",
+        "color": "dark_gray",
+        "italic": true
+      }
+    ]
+  ],
+  "mode": "append"
+}

@@ -16,7 +16,8 @@
         "minecraft:unbreakable",
         "minecraft:dyed_color",
         "minecraft:trim",
-        "minecraft:attribute_modifiers"
+        "minecraft:attribute_modifiers",
+        "dyed_color"
       ]
     },
     "minecraft:trim": {

@@ -1,0 +1,29 @@
+{
+  "function": "minecraft:set_components",
+  "components": {
+    "minecraft:attribute_modifiers": [
+      {
+        "type": "minecraft:armor",
+        "id": "minecraft:boots1",
+        "amount": 0,
+        "operation": "add_value",
+        "slot": "feet"
+      }
+    ],
+    "minecraft:unbreakable": {},
+    "minecraft:tooltip_display": {
+      "hidden_components": [
+        "minecraft:unbreakable",
+        "minecraft:dyed_color",
+        "minecraft:trim",
+        "minecraft:attribute_modifiers",
+        "dyed_color"
+      ]
+    },
+    "minecraft:trim": {
+      "material": "minecraft:netherite",
+      "pattern": "minecraft:tide"
+    },
+    "minecraft:dyed_color": 15132390
+  }
+}

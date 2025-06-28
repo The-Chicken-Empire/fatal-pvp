@@ -1,0 +1,34 @@
+{
+  "function": "minecraft:set_lore",
+  "lore": [
+    [
+      {
+        "text": "人々はこの剣を「魔剣」と言った",
+        "color": "dark_gray",
+        "italic": true
+      }
+    ],
+    [
+      {
+        "text": "否、これは魔力が通りやすいだけのただの剣だ",
+        "color": "dark_gray",
+        "italic": true
+      }
+    ],
+    [
+      {
+        "text": "だが、それでも、本物の「魔剣」には程遠くとも",
+        "color": "dark_gray",
+        "italic": true
+      }
+    ],
+    [
+      {
+        "text": "それが弱いということは有り得ない",
+        "color": "dark_gray",
+        "italic": true
+      }
+    ]
+  ],
+  "mode": "append"
+}
