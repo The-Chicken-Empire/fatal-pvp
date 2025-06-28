@@ -13,6 +13,7 @@ scoreboard players reset $check tmp
 execute if data storage durabilitycheck trigger store result score $check main run function items:skills/item/durabilitycheck with storage durabilitycheck
 execute unless data storage durabilitycheck trigger run scoreboard players set $check main 1
 execute unless score $check main matches 1 run function items:skills/item/durability0
+data remove storage durabilitycheck trigger
 execute unless score $check main matches 1 run return 0
 scoreboard players reset $check main
 #MPcheck
@@ -32,5 +33,4 @@ execute unless score $check tmp matches 1 run function system:skillcostcheck/eng
 execute unless score $check tmp matches 1 run return 0
 scoreboard players reset $check tmp
 #終わり
-data remove storage durabilitycheck trigger
 return 1
