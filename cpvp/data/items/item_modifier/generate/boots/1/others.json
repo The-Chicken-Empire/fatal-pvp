@@ -4,10 +4,10 @@
     "minecraft:attribute_modifiers": [
       {
         "type": "minecraft:armor",
-        "id": "minecraft:chestplate1",
+        "id": "minecraft:boots1",
         "amount": 0,
         "operation": "add_value",
-        "slot": "chest"
+        "slot": "feet"
       }
     ],
     "minecraft:unbreakable": {},
@@ -21,9 +21,9 @@
       ]
     },
     "minecraft:trim": {
-      "material": "minecraft:diamond",
-      "pattern": "minecraft:dune"
+      "material": "minecraft:netherite",
+      "pattern": "minecraft:tide"
     },
-    "minecraft:dyed_color": 13107455
+    "minecraft:dyed_color": 15132390
   }
 }

@@ -1,8 +1,6 @@
 {
   "function": "minecraft:set_lore",
   "lore": [
-    [""]
-    ,
     [
       {
         "text": "-- ",
@@ -10,7 +8,7 @@
         "italic": false
       },
       {
-        "text": "ここにability名",
+        "text": "時間跳躍",
         "color": "white",
         "italic": false
       },
@@ -22,16 +20,16 @@
     ],
     [
       {
-        "text": "発動検知",
+        "text": "被攻撃時",
         "italic": false,
         "color":"yellow"
       }
     ],
     [
       {
-        "text": "cost",
-        "italic": false,
-        "color":"white"
+        "text": "残り時間を1~3秒短縮する",
+        "color": "white",
+        "italic": false
       }
     ]
   ],

@@ -1,0 +1,10 @@
+{
+  "function": "minecraft:set_name",
+  "name": [
+    {
+      "text": "Warden Helmet",
+      "color": "light_purple",
+      "italic": false
+    }
+  ]
+}

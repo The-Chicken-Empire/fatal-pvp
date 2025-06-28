@@ -6,7 +6,7 @@ scoreboard players set @s physicaldef 0
 scoreboard players set @s magicdef 0
 scoreboard players set @s meleedef 0
 scoreboard players set @s rangedef 0
-scoreboard players set @s speed 0
+scoreboard players set @s speed 100
 scoreboard players set @s vit 0
 scoreboard players set @s damage 0
 scoreboard players set @s physicaldmg 0
@@ -17,7 +17,7 @@ scoreboard players set @s cc 0
 scoreboard players set @s agi 0
 scoreboard players set @s maxeng 0
 scoreboard players set @s attackspeed 0
-scoreboard players set @s bonusattackspeed 0
+scoreboard players set @s bonusattackspeed 100
 scoreboard players set $dummy statscalc 0
 
 #attackspeed処理
@@ -94,20 +94,17 @@ scoreboard players operation @s maxeng += @s maxeng_buff
 scoreboard players operation @s damage += @s damage_buff
 scoreboard players operation @s defence += @s defence_buff
 
-
-
+#statscalc1trigger
+function items:triggers/statscalc1/check
+#statscalc2trigger
+function items:triggers/statscalc2/check
 #speed処理
-execute store result storage cpvp:stats speed float 0.01 run scoreboard players get @s speed
+execute store result storage cpvp:stats speed float 0.001 run scoreboard players get @s speed
 function stats:speed with storage cpvp:stats
 data remove storage cpvp:stats speed
 #attackspeed処理
-scoreboard players add @s bonusattackspeed 100
 scoreboard players operation @s attackspeed *= @s bonusattackspeed
 scoreboard players operation @s attackspeed /= $100 main
 execute store result storage cpvp:stats attackspeed float 0.01 run scoreboard players get @s attackspeed
 function stats:attackspeed with storage cpvp:stats
 data remove storage cpvp:stats attackspeed
-#没
-#execute store result score @s statsmath run data get storage cpvp:statsmath $temp.equipment.offhand.components.minecraft:custom_data.cpvp-mr
-#scoreboard players operation @s mr += @s statsmath
-#execute store result score @s statsmath run data get storage cpvp:statsmath $temp.equipment.offhand.components.minecraft:custom_data.cpvp-mr
