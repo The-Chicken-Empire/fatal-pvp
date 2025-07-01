@@ -199,3 +199,4 @@ scoreboard objectives add defence_buff dummy
 scoreboard objectives add damage_buff dummy
 
 function system:cooltime/load
+setblock 0 0 0 shulker_box
