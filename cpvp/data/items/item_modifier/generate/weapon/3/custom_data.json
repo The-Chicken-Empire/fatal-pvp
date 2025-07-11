@@ -16,7 +16,8 @@
         ]
       },
       "regularitem": 1,
-      "classitem": 0
+      "classitem": 0,
+      "custommeleelog": 1
     }
   }
 }

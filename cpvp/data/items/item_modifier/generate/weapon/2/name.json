@@ -1,0 +1,10 @@
+{
+  "function": "minecraft:set_name",
+  "name": [
+    {
+      "text": "小刀「惨劇」",
+      "color": "dark_red",
+      "italic": false
+    }
+  ]
+}

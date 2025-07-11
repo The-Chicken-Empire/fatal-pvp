@@ -4,5 +4,5 @@
 #
 # @within system:entity/check_attacked
 
-execute if entity @a[tag=atker,advancements={system:entity/phe={14-0 = true}}] as @s[tag=ID14.0] run function system:entity/check_attacked/check_number_15
-execute if entity @a[tag=atker,advancements={system:entity/phe={14-1 = true}}] as @s[tag=ID14.1] run function system:entity/check_attacked/check_number_15
+execute if entity @a[tag=atkertmp,advancements={system:entity/phe={14-0 = true}}] as @s[tag=ID14.0] run function system:entity/check_attacked/check_number_15
+execute if entity @a[tag=atkertmp,advancements={system:entity/phe={14-1 = true}}] as @s[tag=ID14.1] run function system:entity/check_attacked/check_number_15
