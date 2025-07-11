@@ -1,0 +1,98 @@
+{
+  "function": "minecraft:set_lore",
+  "lore": [
+    [
+      {
+        "text": "-- ",
+        "color": "white",
+        "italic": false
+      },
+      {
+        "text": "廻生",
+        "color": "yellow",
+        "italic": false
+      },
+      {
+        "text": " --",
+        "color": "white",
+        "italic": false
+      }
+    ],
+    [
+      {
+        "text": "死亡",
+        "italic": false,
+        "color":"yellow"
+      }
+    ],
+    [
+      {
+        "text": "消費充電",
+        "italic": false,
+        "color":"yellow"
+      },
+      {
+        "text": " : ",
+        "italic": false,
+        "color": "white"
+      },
+      {
+        "text": "15",
+        "italic": false,
+        "color":"green"
+      },
+      {
+        "text": " ",
+        "italic": false
+      },
+      {
+        "text": "クールタイム",
+        "italic": false,
+        "color":"dark_aqua"
+      },
+      {
+        "text": " : ",
+        "italic": false,
+        "color": "white"
+      },
+      {
+        "text": "20秒",
+        "italic": false,
+        "color":"green"
+      }
+    ],
+    [
+      {
+        "text": "HP",
+        "color": "red",
+        "italic": false
+      },
+      {
+        "text": "が0以下になった時、",
+        "color": "white",
+        "italic": false
+      },
+      {
+        "text": "HP",
+        "color": "red",
+        "italic": false
+      },
+      {
+        "text": "1で耐え、",
+        "color": "white",
+        "italic": false
+      },
+      {
+        "text": "緩衝体力",
+        "color": "gold",
+        "italic": false
+      },
+      {
+        "text": "を15得る",
+        "color": "white",
+        "italic": false
+      }
+    ]
+  ],
+  "mode": "append"
+}

@@ -8,7 +8,7 @@
 scoreboard players set $damagecalc damagecalc 0
 scoreboard players set $damagecalc2 damagecalc 0
 
-#damage1trigger
+#damage1trigger とにかくhitした時
 execute as @e[tag=atker] run function items:triggers/attack1/check
 execute as @e[tag=victim] run function items:triggers/attacked1/check
 
@@ -19,24 +19,24 @@ execute if score $dummy random <= @s agi run particle minecraft:white_smoke ~ ~1
 execute if score $dummy random <= @s agi run function damage:avoid
 execute if score $dummy random <= @s agi run return fail
 
-#damage2trigger
+#damage2trigger 軽減とか上昇とか
 execute as @e[tag=atker] run function items:triggers/attack2/check
 execute as @e[tag=victim] run function items:triggers/attacked2/check
 
 #与ダメージ者damage処理
-execute if entity @s[tag=victim,tag=magicdamage] run scoreboard players operation $damagecalc damagecalc += @a[tag=atker,limit=1] magicdmg
-execute if entity @s[tag=victim,tag=physicaldamage] run scoreboard players operation $damagecalc damagecalc += @a[tag=atker,limit=1] physicaldmg
-execute if entity @s[tag=victim,tag=meleedamage] run scoreboard players operation $damagecalc damagecalc += @a[tag=atker,limit=1] meleedmg
-execute if entity @s[tag=victim,tag=rangedamage] run scoreboard players operation $damagecalc damagecalc += @a[tag=atker,limit=1] rangedmg
+execute if entity @s[tag=victim,tag=magicdamagetmp] run scoreboard players operation $damagecalc damagecalc += @a[tag=atker,limit=1] magicdmg
+execute if entity @s[tag=victim,tag=physicaldamagetmp] run scoreboard players operation $damagecalc damagecalc += @a[tag=atker,limit=1] physicaldmg
+execute if entity @s[tag=victim,tag=meleedamagetmp] run scoreboard players operation $damagecalc damagecalc += @a[tag=atker,limit=1] meleedmg
+execute if entity @s[tag=victim,tag=rangedamagetmp] run scoreboard players operation $damagecalc damagecalc += @a[tag=atker,limit=1] rangedmg
 scoreboard players operation $damagecalc damagecalc += @a[tag=atker,limit=1] damage
 #被ダメージ者defence処理
-execute if entity @s[tag=victim,tag=magicdamage] run scoreboard players operation $damagecalc damagecalc -= @s magicdef
-execute if entity @s[tag=victim,tag=physicaldamage] run scoreboard players operation $damagecalc damagecalc -= @s physicaldef
-execute if entity @s[tag=victim,tag=meleedamage] run scoreboard players operation $damagecalc damagecalc -= @s meleedef
-execute if entity @s[tag=victim,tag=rangedamage] run scoreboard players operation $damagecalc damagecalc -= @s rangedef
+execute if entity @s[tag=victim,tag=magicdamagetmp] run scoreboard players operation $damagecalc damagecalc -= @s magicdef
+execute if entity @s[tag=victim,tag=physicaldamagetmp] run scoreboard players operation $damagecalc damagecalc -= @s physicaldef
+execute if entity @s[tag=victim,tag=meleedamagetmp] run scoreboard players operation $damagecalc damagecalc -= @s meleedef
+execute if entity @s[tag=victim,tag=rangedamagetmp] run scoreboard players operation $damagecalc damagecalc -= @s rangedef
 scoreboard players operation $damagecalc damagecalc -= @s defence
 #特殊ダメージ処理
-execute if entity @s[tag=victim,tag=specialdamage] run scoreboard players operation $damagecalc damagecalc /= $2 main
+execute if entity @s[tag=victim,tag=specialdamagetmp] run scoreboard players operation $damagecalc damagecalc /= $2 main
 
 #effect処理
 function damage:effects/
@@ -49,7 +49,7 @@ execute if score $damagecalc damagecalc matches ..20 run scoreboard players set 
 
 scoreboard players operation $damagecalc2 damagecalc *= $10 main
 #特殊ダメージのeffect半減処理
-execute if entity @s[tag=victim,tag=specialdamage] run scoreboard players operation $damagecalc2 damagecalc /= $2 main
+execute if entity @s[tag=victim,tag=specialdamagetmp] run scoreboard players operation $damagecalc2 damagecalc /= $2 main
 scoreboard players operation $damagecalc2 damagecalc += $100 main
 
 

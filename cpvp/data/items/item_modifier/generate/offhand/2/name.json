@@ -1,0 +1,10 @@
+{
+  "function": "minecraft:set_name",
+  "name": [
+    {
+      "text": "不死のトーテムv2.0",
+      "color": "yellow",
+      "italic": false
+    }
+  ]
+}

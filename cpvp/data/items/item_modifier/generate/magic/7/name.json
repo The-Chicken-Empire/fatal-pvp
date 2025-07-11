@@ -1,0 +1,10 @@
+{
+  "function": "minecraft:set_name",
+  "name": [
+    {
+      "text": "Giselle's Core",
+      "color": "blue",
+      "italic": false
+    }
+  ]
+}

@@ -6,8 +6,8 @@
       "item_type": "perk",
       "hotbar": {
         "stats": {
-          "maxhp": 2,
-          "maxmp": 2,
+          "maxhp": 20,
+          "maxmp": 200,
           "vit": 2,
           "mr": 2,
           "physicaldef": 2,

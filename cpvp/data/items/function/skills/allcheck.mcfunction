@@ -4,10 +4,17 @@ execute unless score @s mpcost matches -2147483648..2147483647 run scoreboard pl
 execute unless score @s hpcost matches -2147483648..2147483647 run scoreboard players set @s hpcost 0
 execute unless score @s engcost matches -2147483648..2147483647 run scoreboard players set @s engcost 0
 #CTcheck
-execute if data storage cpvp:triggers/right_click {slot:"mainhand"}
-execute store result score $check tmp run function system:cooltime/general/check_ct_mainhand
+execute unless data storage cpvp:system skillslot store result score $check tmp run function system:cooltime/general/check_ct_mainhand
+execute if data storage cpvp:system skillslot{slot:"offhand"} store result score $check tmp run function system:cooltime/general/check_ct_offhand
+execute if data storage cpvp:system skillslot{slot:"helmet"} store result score $check tmp run function system:cooltime/general/check_ct_helmet
+execute if data storage cpvp:system skillslot{slot:"chestplate"} store result score $check tmp run function system:cooltime/general/check_ct_chestplate
+execute if data storage cpvp:system skillslot{slot:"leggings"} store result score $check tmp run function system:cooltime/general/check_ct_leggings
+execute if data storage cpvp:system skillslot{slot:"boots"} store result score $check tmp run function system:cooltime/general/check_ct_boots
+#パークとかよくわかんないからあと
 execute unless score $check tmp matches 1 run function system:cooltime/general/ct_fail
+data remove storage cpvp:system skillslot
 execute unless score $check tmp matches 1 run return 0
+execute if data storage cpvp:system unfail run return run data remove storage cpvp:system unfail
 scoreboard players reset $check tmp
 #durability
 execute if data storage durabilitycheck trigger store result score $check main run function items:skills/item/durabilitycheck with storage durabilitycheck
@@ -23,12 +30,12 @@ execute unless score $check tmp matches 1 run return 0
 scoreboard players reset $check tmp
 #hp
 #もし体力足りなければ死ぬ設定ならitemのcustomdata.cpvpに
-execute store result score $check tmp run function system:skillcostcheck/mpcheck
+execute store result score $check tmp run function system:skillcostcheck/hpcheck
 execute unless score $check tmp matches 1 run function system:skillcostcheck/hpless
 execute unless score $check tmp matches 1 run return 0
 scoreboard players reset $check tmp
 #eng
-execute store result score $check tmp run function system:skillcostcheck/mpcheck
+execute store result score $check tmp run function system:skillcostcheck/engcheck
 execute unless score $check tmp matches 1 run function system:skillcostcheck/engless
 execute unless score $check tmp matches 1 run return 0
 scoreboard players reset $check tmp
