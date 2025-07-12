@@ -1,0 +1,1 @@
+tellraw @a [{italic:false,selector:"@s"},{color:"white",italic:false,text:"は"},{italic:false,selector:"@a[tag=tmpkiller,limit=1]"},{color:"white",italic:false,text:"の"},{color:"dark_red",italic:false,text:"小刀「惨劇」"},{color:"white",italic:false,text:"によって鮮赤に染まった"}]

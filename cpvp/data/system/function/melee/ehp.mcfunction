@@ -1,2 +1,2 @@
-tag @s add meleevictim
+tag @s add meleevictimtmp
 advancement revoke @s only system:ehp

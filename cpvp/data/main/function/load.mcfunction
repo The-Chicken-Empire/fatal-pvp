@@ -60,6 +60,7 @@ scoreboard objectives add teamwin dummy
 scoreboard objectives add totalwin dummy
 scoreboard objectives add bulletcheck dummy
 scoreboard objectives add meleeattacker dummy
+scoreboard objectives add meleevictim dummy
 scoreboard objectives add damageresist minecraft.custom:minecraft.damage_resisted
 scoreboard objectives add attacker dummy
 scoreboard objectives add afterdamage dummy
@@ -71,6 +72,7 @@ scoreboard objectives add hpcost dummy
 scoreboard players set @a mpcost 0
 scoreboard players set @a hpcost 0
 scoreboard players set @a engcost 0
+scoreboard objectives add attackerdata dummy
 
 #skillで出したarmor stand/marker用のscoreboard
 scoreboard objectives add skills dummy
@@ -177,6 +179,12 @@ scoreboard objectives add weapon3 dummy
 scoreboard players set @a weapon3 0
 scoreboard objectives add weapon3-2 dummy
 scoreboard players set @a weapon3-2 0
+scoreboard objectives add leggings1victim dummy
+scoreboard objectives add leggings1damage dummy
+scoreboard objectives add magic7timer dummy
+scoreboard players set @a magic7timer 0
+scoreboard objectives add magic7tank dummy
+scoreboard players set @a magic7tank 0
 
 #buff用
 scoreboard objectives add maxhp_buff dummy
@@ -199,4 +207,9 @@ scoreboard objectives add defence_buff dummy
 scoreboard objectives add damage_buff dummy
 
 function system:cooltime/load
+
+
+
+#仮
+
 setblock 0 0 0 shulker_box

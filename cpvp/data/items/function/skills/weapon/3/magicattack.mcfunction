@@ -1,4 +1,4 @@
-tag @e[tag=victim] add magicdamage
+tag @e[tag=victim] add magicdamagetmp
 scoreboard players remove @s weapon3-2 1
 
 execute if score @s weapon3-2 matches 1..4 at @s run playsound minecraft:block.glass.break master @a ~ ~ ~ 1 2 1

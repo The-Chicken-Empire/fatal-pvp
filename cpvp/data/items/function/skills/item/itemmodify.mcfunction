@@ -6,11 +6,11 @@ execute store result score $durability main run data get storage dummy item.cpvp
 scoreboard players remove $durability main 1
 execute store result storage dummy durability int 1 run scoreboard players get $durability main
 #data replace
-setblock 0 250 0 minecraft:shulker_box{lock:{items:"barrier",count:1}} replace
-item replace block 0 250 0 container.0 from entity @s weapon.mainhand
-data modify block 0 250 0 Items.[0].components."minecraft:custom_data".cpvp.durability set from storage dummy durability
+setblock 0 0 0 minecraft:shulker_box{lock:{items:"barrier",count:1}} replace
+item replace block 0 0 0 container.0 from entity @s weapon.mainhand
+data modify block 0 0 0 Items.[0].components."minecraft:custom_data".cpvp.durability set from storage dummy durability
 item replace entity @s weapon.mainhand from block 0 250 0 container.0
-setblock 0 250 0 air replace
+setblock 0 0 0 air replace
 #最大耐久を参照
 execute store result storage dummy maxdurability int 1 run data get storage dummy item.cpvp.maxdurability
 #rename

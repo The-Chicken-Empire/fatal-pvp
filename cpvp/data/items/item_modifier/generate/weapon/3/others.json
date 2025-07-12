@@ -25,9 +25,11 @@
     ],
     "minecraft:tooltip_display": {
       "hidden_components": [
-        "minecraft:attribute_modifiers"
+        "minecraft:attribute_modifiers",
+        "unbreakable"
       ]
     },
-    "minecraft:enchantment_glint_override": false
+    "minecraft:enchantment_glint_override": false,
+    "unbreakable": {}
   }
 }

@@ -1,0 +1,82 @@
+{
+  "function": "minecraft:set_lore",
+  "lore": [
+    [
+      {
+        "text": "-- ",
+        "color": "white",
+        "italic": false
+      },
+      {
+        "text": "共鳴",
+        "color": "dark_purple",
+        "italic": false
+      },
+      {
+        "text": " --",
+        "color": "white",
+        "italic": false
+      }
+    ],
+    [
+      {
+        "text": "被攻撃時",
+        "italic": false,
+        "color":"yellow"
+      }
+    ],
+    [
+      {
+        "text": "クールタイム",
+        "color": "dark_aqua",
+        "italic": false
+      },
+      {
+        "text": " : ",
+        "color": "white",
+        "italic": false
+      },
+      {
+        "text": "12秒",
+        "color": "green",
+        "italic": false
+      }
+    ]
+    ,
+    [
+      {
+        "text": "受けたダメージの",
+        "color": "white",
+        "italic": false
+      },
+      {
+        "text": "25%",
+        "color": "yellow",
+        "italic": false
+      },
+      {
+        "text": "を一秒後に",
+        "color": "white",
+        "italic": false
+      },
+      {
+        "text": "特殊ダメージ",
+        "color": "aqua",
+        "italic": false
+      },
+      {
+        "text": "で",
+        "color": "white",
+        "italic": false
+      }
+    ],
+    [
+      {
+        "text": "半径10m以内の敵Player全員に与える",
+        "color": "white",
+        "italic": false
+      }
+    ]
+  ],
+  "mode": "append"
+}

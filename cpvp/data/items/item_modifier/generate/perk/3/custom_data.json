@@ -1,0 +1,22 @@
+{
+  "function": "minecraft:set_custom_data",
+  "tag": {
+    "cpvp": {
+      "id": 3,
+      "item_type": "perk",
+      "hotbar": {
+        "stats": {
+          "meleedmg": 30,
+          "speed": 30,
+          "physicaldef": 10,
+          "magicdef": -10
+        },
+        "triggers": [
+          "statscalc2"
+        ]
+      },
+      "regularitem": 1,
+      "classitem": 0
+    }
+  }
+}

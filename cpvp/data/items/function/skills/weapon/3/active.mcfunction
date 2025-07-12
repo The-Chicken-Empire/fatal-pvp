@@ -5,7 +5,7 @@ scoreboard players operation @s mp -= @s mpcost
 #timer
 tag @s add weapon3
 execute as @e[type=marker,tag=weapon3] if score @s owner = @a[tag=weapon3,limit=1] playerdata run kill @s
-summon marker ~ ~ ~ {Tags:["skillmarker","weapon3"]}
+execute at @s run summon marker ~ ~ ~ {Tags:["skillmarker","weapon3"]}
 execute as @e[type=marker,tag=weapon3,limit=1,sort=nearest,tag=!tagged] run scoreboard players operation @s owner = @a[tag=weapon3,limit=1] playerdata
 execute as @e[type=marker,tag=weapon3,limit=1,sort=nearest] run tag @s add tagged
 

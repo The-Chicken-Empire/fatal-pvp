@@ -1,0 +1,1 @@
+tellraw @a [{italic:false,selector:"@s"},{color:"white",italic:false,text:"は"},{italic:false,selector:"@a[tag=tmpkiller,limit=1]"},{color:"white",italic:false,text:"の"},{color:"dark_aqua",italic:false,text:"ミスリルの剣"},{color:"white",italic:false,text:"で綺麗な断面図を晒した"}]

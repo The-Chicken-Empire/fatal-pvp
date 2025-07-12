@@ -4,5 +4,5 @@
 #
 # @public
 
-execute if entity @a[tag=atker,advancements={system:entity/phe={0-0 = true}}] as @s[tag=ID0.0] run function system:entity/check_attacked/check_number_1
-execute if entity @a[tag=atker,advancements={system:entity/phe={0-1 = true}}] as @s[tag=ID0.1] run function system:entity/check_attacked/check_number_1
+execute if entity @a[tag=atkertmp,advancements={system:entity/phe={0-0 = true}}] as @s[tag=ID0.0] run function system:entity/check_attacked/check_number_1
+execute if entity @a[tag=atkertmp,advancements={system:entity/phe={0-1 = true}}] as @s[tag=ID0.1] run function system:entity/check_attacked/check_number_1

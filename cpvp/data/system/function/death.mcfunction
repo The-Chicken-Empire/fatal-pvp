@@ -5,6 +5,11 @@ execute as @e if score @s owner = @a[tag=victim,limit=1] playerdata run kill @s
 #関節キル取り出し
 tag @s add tmpdied
 execute if score @s attacker matches 0.. as @a if score @s playerdata = @a[tag=tmpdied,limit=1] attacker run function system:kill
+
+#killlog
+execute store result storage cpvp:tmp tmp byte 1 run scoreboard players get @s playerdata
+function system:killlog/check1 with storage cpvp:tmp
+
 scoreboard players set @s afterdamage -1
 scoreboard players set @s attacker -1
 tag @s remove tmpdied

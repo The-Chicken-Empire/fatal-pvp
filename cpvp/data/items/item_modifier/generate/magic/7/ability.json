@@ -1,0 +1,75 @@
+{
+  "function": "minecraft:set_lore",
+  "lore": [
+    [
+      {
+        "text": "-- ",
+        "color": "white",
+        "italic": false
+      },
+      {
+        "text": "緊急用MP保管システム",
+        "color": "blue",
+        "italic": false
+      },
+      {
+        "text": " --",
+        "color": "white",
+        "italic": false
+      }
+    ],
+    [
+      {
+        "text": "ホットバーに所持/右クリック",
+        "italic": false,
+        "color":"yellow"
+      }
+    ],
+    [
+      {
+        "text": "ホットバーに所持している時、5秒毎に",
+        "color": "white",
+        "italic": false
+      },
+      {
+        "text": "MP",
+        "color": "aqua",
+        "italic": false
+      },
+      {
+        "text": "を",
+        "color": "white",
+        "italic": false
+      },
+      {
+        "text": "10",
+        "color": "yellow",
+        "italic": false
+      },
+      {
+        "text": "消費し、その半分の値をこのアイテムに貯蓄する (最大150MP)",
+        "color": "white",
+        "italic": false
+      }
+    ],
+    [
+      {
+        "text": "右クリック時に貯蓄された全ての",
+        "color": "white",
+        "italic": false
+      },
+      {
+        "text": "MP",
+        "color": "aqua",
+        "italic": false
+      },
+      {
+        "text": "を回収する",
+        "color": "white",
+        "italic": false
+      }
+    ]
+
+  ],
+  "mode": "append"
+}

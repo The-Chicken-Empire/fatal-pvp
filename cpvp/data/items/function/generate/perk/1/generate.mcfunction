@@ -17,6 +17,8 @@ item modify block 0 0 0 container.0 items:generate/perk/1/cost
 
 item modify block 0 0 0 container.0 items:generate/perk/1/stats
 
+item modify block 0 0 0 container.0 items:generate/perk/1/parts
+
 item modify block 0 0 0 container.0 items:generate/perk/1/flavor
 
 #アトリビュートなどを追加したい場合はコメントをはずしてファイルを作成する
