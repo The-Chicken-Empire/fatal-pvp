@@ -8,8 +8,8 @@
         "italic": false
       },
       {
-        "text": "廻生",
-        "color": "yellow",
+        "text": "太陽光発電",
+        "color": "red",
         "italic": false
       },
       {
@@ -20,51 +20,20 @@
     ],
     [
       {
-        "text": "死亡",
+        "text": "常時",
         "italic": false,
         "color":"yellow"
       }
     ],
     [
       {
-        "text": "消費充電",
-        "italic": false,
-        "color":"yellow"
-      },
-      {
-        "text": " : ",
-        "italic": false,
-        "color": "white"
-      },
-      {
-        "text": "15",
-        "italic": false,
-        "color":"green"
-      },
-      {
-        "text": " ",
+        "text": "自分の位置の",
+        "color": "white",
         "italic": false
       },
       {
-        "text": "クールタイム",
-        "italic": false,
-        "color":"dark_aqua"
-      },
-      {
-        "text": " : ",
-        "italic": false,
-        "color": "white"
-      },
-      {
-        "text": "20秒",
-        "italic": false,
-        "color":"green"
-      }
-    ],
-    [
-      {
-        "text": "HP",
-        "color": "red",
+        "text": "明るさ",
+        "color": "yellow",
         "italic": false
       },
       {
@@ -73,18 +42,23 @@
         "italic": false
       },
       {
-        "text": "0",
-        "color": "gold",
+        "text": "6",
+        "color": "yellow",
         "italic": false
       },
       {
-        "text": "以下になった時、",
+        "text": "以上の時",
         "color": "white",
         "italic": false
       },
       {
-        "text": "HP",
-        "color": "red",
+        "text": "充電",
+        "color": "yellow",
+        "italic": false
+      },
+      {
+        "text": "が20秒で",
+        "color": "white",
         "italic": false
       },
       {
@@ -93,17 +67,39 @@
         "italic": false
       },
       {
-        "text": "で耐え、",
+        "text": "貯まる",
+        "color": "white",
+        "italic": false
+      }
+    ],
+    [
+      {
+        "text": "明るさ",
+        "color": "yellow",
+        "italic": false
+      },
+      {
+        "text": "が",
         "color": "white",
         "italic": false
       },
       {
-        "text": "緩衝体力",
-        "color": "gold",
+        "text": "13",
+        "color": "yellow",
         "italic": false
       },
       {
-        "text": "を15得る",
+        "text": "以上の時貯まる速度が",
+        "color": "white",
+        "italic": false
+      },
+      {
+        "text": "2倍",
+        "color": "yellow",
+        "italic": false
+      },
+      {
+        "text": "になる",
         "color": "white",
         "italic": false
       }

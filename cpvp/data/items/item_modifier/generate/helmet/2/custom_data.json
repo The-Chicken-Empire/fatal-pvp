@@ -2,19 +2,18 @@
   "function": "minecraft:set_custom_data",
   "tag": {
     "cpvp": {
-      "id": 1,
+      "id": 2,
       "item_type": "helmet",
       "helmet": {
         "stats": {
-          "maxhp": 100
+          "maxmp": 2000,
+          "maxeng": 5
         },
         "triggers": [
-          "attack2",
-          "statscalc2"
+          "tick"
         ]
       },
-      "regularitem": 1,
-      "classitem": 0
+      "regularitem": 1
     }
   }
 }

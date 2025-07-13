@@ -1,0 +1,10 @@
+{
+  "function": "minecraft:set_name",
+  "name": [
+    {
+      "text": "届カヌ夢ノ到達点",
+      "color": "yellow",
+      "italic": false
+    }
+  ]
+}

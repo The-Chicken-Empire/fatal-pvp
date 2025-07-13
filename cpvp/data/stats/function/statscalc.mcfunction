@@ -108,3 +108,7 @@ scoreboard players operation @s attackspeed /= $100 main
 execute store result storage cpvp:stats attackspeed float 0.01 run scoreboard players get @s attackspeed
 function stats:attackspeed with storage cpvp:stats
 data remove storage cpvp:stats attackspeed
+
+#最低値
+execute if score @s maxhp matches ..0 run scoreboard players set @s maxhp 10
+execute if score @s maxmp matches ..0 run scoreboard players set @s maxmp 0

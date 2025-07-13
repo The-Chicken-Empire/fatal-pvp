@@ -39,12 +39,32 @@
         "italic": false
       },
       {
+        "text": "5",
+        "color": "gold",
+        "italic": false
+      },
+      {
+        "text": "毎に",
+        "color": "white",
+        "italic": false
+      },
+      {
         "text": "攻撃力",
         "color": "red",
         "italic": false
       },
       {
-        "text":"が1%増加する",
+        "text":"が",
+        "color": "white",
+        "italic": false
+      },
+      {
+        "text":"1%",
+        "color": "yellow",
+        "italic": false
+      },
+      {
+        "text":"増加する",
         "color": "white",
         "italic": false
       }

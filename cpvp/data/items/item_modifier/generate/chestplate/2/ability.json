@@ -8,8 +8,8 @@
         "italic": false
       },
       {
-        "text": "天与呪縛",
-        "color": "dark_gray",
+        "text": "心ト体ノ相違",
+        "color": "light_purple",
         "italic": false
       },
       {
@@ -27,9 +27,36 @@
     ],
     [
       {
-        "text": "最大MP",
+        "text": "ホットバーに存在する",
         "italic": false,
-        "color":"blue"
+        "color":"white"
+      },
+      {
+        "text": "魔法",
+        "italic": false,
+        "color":"dark_purple"
+      },
+      {
+        "text": "アイテムの数",
+        "italic": false,
+        "color":"white"
+      },
+      {
+        "text": "×4",
+        "italic": false,
+        "color":"yellow"
+      },
+      {
+        "text": "分",
+        "italic": false,
+        "color":"white"
+      }
+    ],
+    [
+      {
+        "text": "物理攻撃力",
+        "italic": false,
+        "color":"gold"
       },
       {
         "text": "が",
@@ -37,12 +64,7 @@
         "color":"white"
       },
       {
-        "text": "0",
-        "italic": false,
-        "color":"gold"
-      },
-      {
-        "text": "になる",
+        "text": "上昇する",
         "italic": false,
         "color":"white"
       }

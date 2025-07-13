@@ -185,6 +185,7 @@ scoreboard objectives add magic7timer dummy
 scoreboard players set @a magic7timer 0
 scoreboard objectives add magic7tank dummy
 scoreboard players set @a magic7tank 0
+scoreboard objectives add helmet2 dummy
 
 #buff用
 scoreboard objectives add maxhp_buff dummy

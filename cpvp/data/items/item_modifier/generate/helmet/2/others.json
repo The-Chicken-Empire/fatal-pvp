@@ -1,0 +1,27 @@
+{
+  "function": "minecraft:set_components",
+  "components": {
+    "minecraft:attribute_modifiers": [
+      {
+        "type": "minecraft:armor",
+        "id": "minecraft:helmet1",
+        "amount": 0,
+        "operation": "add_value",
+        "slot": "head"
+      }
+    ],
+    "minecraft:unbreakable": {},
+    "minecraft:tooltip_display": {
+      "hidden_components": [
+        "minecraft:unbreakable",
+        "minecraft:dyed_color",
+        "minecraft:trim",
+        "minecraft:attribute_modifiers"
+      ]
+    },
+    "minecraft:trim": {
+      "material": "minecraft:lapis",
+      "pattern": "minecraft:eye"
+    }
+  }
+}

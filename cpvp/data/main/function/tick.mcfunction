@@ -8,7 +8,6 @@ execute if entity @e[tag=!initialized,type=#main:entity_require_id,limit=1] as @
 
 #常時耐性
 effect give @a resistance 5 10 true
-effect give @a night_vision 30 10 true
 
 #tick始めdamage処理
 execute if entity @a[scores={damageresist=1..},tag=!meleevictimtmp2] as @a[scores={damageresist=1..},tag=!meleevictimtmp2] run function damage:naturaldamage
