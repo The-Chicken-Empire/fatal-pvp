@@ -4,10 +4,11 @@
 #不吉な予感 与ダメージ減少 lv*10%
 #試練の予感 クリティカル確率上昇 lv*2%
 
+
 #reset
 scoreboard players set $damagecalc damagecalc 0
 scoreboard players set $damagecalc2 damagecalc 0
-
+scoreboard players set $damageadd damagecalc 100
 #damage1trigger とにかくhitした時
 execute as @e[tag=atker] run function items:triggers/attack1/check
 execute as @e[tag=victim] run function items:triggers/attacked1/check
@@ -52,10 +53,12 @@ scoreboard players operation $damagecalc2 damagecalc *= $10 main
 execute if entity @s[tag=victim,tag=specialdamagetmp] run scoreboard players operation $damagecalc2 damagecalc /= $2 main
 scoreboard players operation $damagecalc2 damagecalc += $100 main
 
-
 #crit処理
 function damage:critical
 
+#ダメージ倍率+%
+scoreboard players operation @s[tag=vistim] damagetaken *= $damageadd damagecalc
+scoreboard players operation @s[tag=victim] damagetaken /= $100 main
 #100倍*2->1/10000
 scoreboard players operation @s damagetaken *= $damagecalc damagecalc
 scoreboard players operation @s damagetaken *= $damagecalc2 damagecalc
