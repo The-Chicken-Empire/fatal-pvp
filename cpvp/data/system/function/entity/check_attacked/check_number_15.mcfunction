@@ -9,6 +9,7 @@ execute if entity @a[tag=atkertmp,advancements={system:entity/phe={15-0 = true}}
 execute if entity @a[tag=atkertmp,advancements={system:entity/phe={15-1 = true}}] as @s[tag=ID15.1] run tag @s add victimtmp
 
 #damagecalc
+execute unless entity @s[tag=victimtmp] run return run say a
 scoreboard players set @s damagetaken 10000
 execute if entity @s[tag=victimtmp] store result score $tmp tmp run data get entity @s Health 10
 scoreboard players operation @s damagetaken -= $tmp tmp
@@ -21,8 +22,11 @@ execute if entity @e[tag=atkertmp,advancements={system:projectile=true}] run tag
 
 execute if entity @s[tag=victimtmp] run scoreboard players operation @s attackerdata = @e[tag=atkertmp,limit=1] playerdata
 tag @e remove atkertmp
+
+execute if entity @s[tag=victimtmp] run tag @s add meleeentity
+execute if entity @s[tag=victimtmp] run function damage:atkercheck
+
 #回復
 data modify entity @s[tag=victimtmp] Health set value 1000
 tag @s remove victimtmp
 
-function damage:atkercheck

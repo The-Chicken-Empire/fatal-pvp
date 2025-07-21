@@ -25,4 +25,5 @@ tag @a remove atkertmp
 tag @s remove attackerentity
 tag @a remove victimtmp
 
+tag @a[tag=victimtmp] add nodamagesound
 function damage:atkercheck

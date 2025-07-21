@@ -14,7 +14,7 @@
         "type": "minecraft:gravity",
         "id": "offhand1",
         "amount": -0.3,
-        "operation": "add_value",
+        "operation": "add_multiplied_total",
         "slot": "offhand"
       },
       {

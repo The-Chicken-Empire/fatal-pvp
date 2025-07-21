@@ -1,0 +1,1 @@
+$execute as @e[tag=bullet,type=marker,sort=nearest,limit=1] run function items:skills/bullet/$(bullet)/bulletstats

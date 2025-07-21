@@ -1,0 +1,10 @@
+{
+  "function": "minecraft:set_name",
+  "name": [
+    {
+      "text": "陰陽の腰当",
+      "color": "gray",
+      "italic": false
+    }
+  ]
+}

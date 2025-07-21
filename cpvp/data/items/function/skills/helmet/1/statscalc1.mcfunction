@@ -1,1 +1,0 @@
-scoreboard players operation @s speed /= $2 main

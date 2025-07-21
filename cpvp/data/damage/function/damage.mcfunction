@@ -1,5 +1,5 @@
 #音
-execute at @s run playsound entity.player.hurt player @s ~ ~ ~ 1 1 1
+execute unless entity @s[tag=nodamagesoundtmp] at @s run playsound entity.player.hurt player @s ~ ~ ~ 1 1 1
 #攻撃主取り消し
 scoreboard players reset @s attacker
 scoreboard players set @s afterdamage -1
@@ -9,6 +9,13 @@ execute if score @s absorption matches 1.. run function damage:absorption
 scoreboard players operation @s hp -= @s damage
 #デコイ処理
 execute if entity @s[tag=combatdummy] run function damage:combat_dummy
+#攻撃判定
+execute if entity @s[type=!player,tag=!meleeentity] store result score @s tmp run data get entity @s Health
+execute if entity @s[type=!player,tag=!meleeentity] run data modify entity @s Health set value 1000
+execute if entity @s[type=!player,tag=!meleeentity] run damage @s 1 fall
+execute if entity @s[type=!player,tag=!meleeentity] store result entity @s Health float 1 run scoreboard players get @s tmp
+scoreboard players reset @s tmp
+tag @s remove meleeentity
 #この辺りに死亡回避処理とか
 execute if score @s hp matches ..0 run function items:triggers/death/check
 #reset

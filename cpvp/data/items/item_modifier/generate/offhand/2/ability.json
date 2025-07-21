@@ -68,7 +68,17 @@
         "italic": false
       },
       {
-        "text": "が0以下になった時、",
+        "text": "が",
+        "color": "white",
+        "italic": false
+      },
+      {
+        "text": "0",
+        "color": "gold",
+        "italic": false
+      },
+      {
+        "text": "以下になった時、",
         "color": "white",
         "italic": false
       },
@@ -78,7 +88,12 @@
         "italic": false
       },
       {
-        "text": "1で耐え、",
+        "text": "1",
+        "color": "gold",
+        "italic": false
+      },
+      {
+        "text": "で耐え、",
         "color": "white",
         "italic": false
       },

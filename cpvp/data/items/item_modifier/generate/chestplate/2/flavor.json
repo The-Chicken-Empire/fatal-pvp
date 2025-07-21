@@ -1,0 +1,52 @@
+{
+  "function": "minecraft:set_lore",
+  "lore": [
+    [
+      {
+        "text": "World-O-1 T",
+        "color": "dark_gray",
+        "italic": true
+      },
+      {
+        "text": "salgrea",
+        "color": "dark_gray",
+        "italic": true,
+        "obfuscated": true
+      },
+      {
+        "text": "がその世界から抜け出す前の",
+        "color": "dark_gray",
+        "italic": true
+      }
+    ],
+    [
+      {
+        "text": "...遠く...遠く昔",
+        "color": "dark_gray",
+        "italic": true
+      }
+    ],
+    [
+      {
+        "text": "相棒を、魔法を夢見て...自らの身体を恨んだ",
+        "color": "dark_gray",
+        "italic": true
+      }
+    ],
+    [
+      {
+        "text": "それでも諦められなかった剣聖の、一つの到達点",
+        "color": "dark_gray",
+        "italic": true
+      }
+    ],
+    [
+      {
+        "text": "「ツァル？なんか全部間違ってると思うよ？」",
+        "color": "dark_gray",
+        "italic": true
+      }
+    ]
+  ],
+  "mode": "append"
+}

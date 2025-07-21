@@ -27,7 +27,12 @@
     ],
     [
       {
-        "text": "20%の確率でダメージが",
+        "text": "20%",
+        "color": "yellow",
+        "italic": false
+      },
+      {
+        "text": "の確率でダメージが",
         "color": "white",
         "italic": false
       },
