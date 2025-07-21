@@ -15,6 +15,7 @@ execute as @e[tag=victim] run function items:triggers/attacked1/check
 
 #agi処理
 execute store result score $dummy random run random value 1..100
+execute if entity @e[tag=victim,tag=unavoidable] run scoreboard players set $dummy random 10000
 execute if score $dummy random <= @s agi at @s run playsound entity.breeze.wind_burst master @a ~ ~ ~ 1 1.5
 execute if score $dummy random <= @s agi run particle minecraft:white_smoke ~ ~1 ~ 0.1 0.8 0.1 0.2 20
 execute if score $dummy random <= @s agi run function damage:avoid
@@ -57,7 +58,7 @@ scoreboard players operation $damagecalc2 damagecalc += $100 main
 function damage:critical
 
 #ダメージ倍率+%
-scoreboard players operation @s[tag=vistim] damagetaken *= $damageadd damagecalc
+scoreboard players operation @s[tag=victim] damagetaken *= $damageadd damagecalc
 scoreboard players operation @s[tag=victim] damagetaken /= $100 main
 #100倍*2->1/10000
 scoreboard players operation @s damagetaken *= $damagecalc damagecalc

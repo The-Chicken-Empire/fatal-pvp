@@ -25,4 +25,5 @@ tag @s remove meleevictimtmp2
 execute as @e[tag=meleeatkertmp3] run tag @s add meleeatker
 tag @a remove meleeatkertmp3
  
+tag @s add nodamagesound
 function damage:atkercheck

@@ -10,3 +10,6 @@ scoreboard players set @s weapon3 0
 scoreboard players set @s weapon3-2 0
 scoreboard players set @s magic7timer 0
 scoreboard players set @s magic7tank 0
+scoreboard players set @s offhand4-1 0
+scoreboard players set @s offhand4-2 0
+scoreboard players set @s offhand4-3 0

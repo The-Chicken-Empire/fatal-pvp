@@ -1,0 +1,10 @@
+{
+  "function": "minecraft:set_name",
+  "name": [
+    {
+      "text": "ガラスの靴",
+      "color": "aqua",
+      "italic": false
+    }
+  ]
+}

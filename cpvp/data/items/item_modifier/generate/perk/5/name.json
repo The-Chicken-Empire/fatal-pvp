@@ -1,0 +1,10 @@
+{
+  "function": "minecraft:set_name",
+  "name": [
+    {
+      "text": "力場装纏",
+      "color": "aqua",
+      "italic": false
+    }
+  ]
+}

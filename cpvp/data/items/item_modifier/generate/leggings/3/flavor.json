@@ -1,0 +1,24 @@
+{
+  "function": "minecraft:set_lore",
+  "lore": [
+    [
+      {
+        "text": "ああ..そうだ...あの場所を捨てた時から...",
+        "color": "dark_gray",
+        "italic": true
+      }],
+      [
+      {
+        "text": "俺達は、二人で存在する事が出来なくなったんだ",
+        "color": "dark_gray",
+        "italic": true
+      }],[
+      {
+        "text": "いつか...この呪縛すら消してやる",
+        "color": "dark_gray",
+        "italic": true
+      }
+    ]
+  ],
+  "mode": "append"
+}

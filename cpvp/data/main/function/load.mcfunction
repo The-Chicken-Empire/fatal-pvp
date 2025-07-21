@@ -73,6 +73,12 @@ scoreboard players set @a mpcost 0
 scoreboard players set @a hpcost 0
 scoreboard players set @a engcost 0
 scoreboard objectives add attackerdata dummy
+#銃system
+scoreboard objectives add bulletspeed dummy
+scoreboard objectives add bulletspeedtmp dummy
+scoreboard objectives add bulletrange dummy
+scoreboard objectives add bulletdamage dummy
+scoreboard objectives add bulletparticle dummy
 
 #skillで出したarmor stand/marker用のscoreboard
 scoreboard objectives add skills dummy
@@ -186,6 +192,9 @@ scoreboard players set @a magic7timer 0
 scoreboard objectives add magic7tank dummy
 scoreboard players set @a magic7tank 0
 scoreboard objectives add helmet2 dummy
+scoreboard objectives add offhand4-1 dummy
+scoreboard objectives add offhand4-2 dummy
+scoreboard objectives add offhand4-3 dummy
 
 #buff用
 scoreboard objectives add maxhp_buff dummy

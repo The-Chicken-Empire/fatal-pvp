@@ -4,7 +4,7 @@
     "minecraft:attribute_modifiers": [
       {
         "type": "minecraft:armor",
-        "id": "minecraft:chestplate1",
+        "id": "minecraft:chestplate2",
         "amount": 0,
         "operation": "add_value",
         "slot": "chest"

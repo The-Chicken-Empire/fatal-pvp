@@ -9,10 +9,15 @@ execute if entity @e[tag=!initialized,type=#main:entity_require_id,limit=1] as @
 #常時耐性
 effect give @a resistance 5 10 true
 
+#時間
+execute store result score $daytime main run time query daytime
+
 #tick始めdamage処理
 execute if entity @a[scores={damageresist=1..},tag=!meleevictimtmp2] as @a[scores={damageresist=1..},tag=!meleevictimtmp2] run function damage:naturaldamage
 execute if entity @a[scores={damageresist=1..},tag=meleevictimtmp2] as @a[scores={damageresist=1..},tag=meleevictimtmp2] run function system:melee/getattacker
 tag @e remove meleeatkertmp2
+#bullet
+execute if entity @e[tag=bullet] as @e[tag=bullet] at @s run function items:skills/bullet/bullettick
 
 #タイマー処理
 #phase 0-lobby 1-lobby.timer起動 2-start.開始前 3-開始 3.5-star配布 4-収縮開始 5-終了

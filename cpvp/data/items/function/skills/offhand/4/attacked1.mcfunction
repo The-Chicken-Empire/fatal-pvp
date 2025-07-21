@@ -1,0 +1,1 @@
+scoreboard players set @s offhand4-1 0
