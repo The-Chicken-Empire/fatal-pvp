@@ -103,7 +103,17 @@
         "italic": false
       },
       {
-        "text": "を15得る",
+        "text": "を",
+        "color": "white",
+        "italic": false
+      },
+      {
+        "text": "15",
+        "color": "gold",
+        "italic": false
+      },
+      {
+        "text": "得る",
         "color": "white",
         "italic": false
       }

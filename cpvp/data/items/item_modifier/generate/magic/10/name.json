@@ -1,0 +1,10 @@
+{
+  "function": "minecraft:set_name",
+  "name": [
+    {
+      "text": "Call the Otherworld",
+      "color": "dark_gray",
+      "italic": false
+    }
+  ]
+}

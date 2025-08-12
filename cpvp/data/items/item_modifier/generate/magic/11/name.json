@@ -1,0 +1,10 @@
+{
+  "function": "minecraft:set_name",
+  "name": [
+    {
+      "text": "アホリファイス",
+      "color": "dark_green",
+      "italic": false
+    }
+  ]
+}

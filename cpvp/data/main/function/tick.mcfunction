@@ -37,7 +37,7 @@ execute if entity @a[predicate=items:gun/dropbullet,limit=1] as @a[predicate=ite
 #?
 scoreboard players set @a sneak 0
 
-#1秒
+#3秒
 scoreboard players add $3s timer 1
 execute if score $3s timer matches 60.. run function system:timer/3s
 #10tick

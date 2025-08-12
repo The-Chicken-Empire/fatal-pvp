@@ -25,6 +25,8 @@ execute if score @s hp matches 1.. if entity @a[tag=atker,limit=1] run function 
 #死亡処理
 execute if score @s[type=player] hp matches ..0 run function system:death
 execute if score @s[type=!player] hp matches ..0 run function system:entitydeath
+#damaged
+execute unless score @s hp matches ..0 run function items:triggers/damaged/check
 
 #attackdata削除
 execute store result storage cpvp:tmp tmp byte 1 run scoreboard players get @s playerdata
