@@ -1,0 +1,24 @@
+{
+  "function": "minecraft:set_custom_data",
+  "tag": {
+    "cpvp": {
+      "id": 3,
+      "item_type": "chestplate",
+      "chestplate": {
+        "stats": {
+          "maxmp": 2000,
+          "physicaldef": 10,
+          "rangedef": 10,
+          "physicaldmg": 8,
+          "rangedmg": 8
+        },
+        "triggers": [
+          "damaged",
+          "attack2"
+        ]
+      },
+      "regularitem": 1,
+      "classitem": 1
+    }
+  }
+}

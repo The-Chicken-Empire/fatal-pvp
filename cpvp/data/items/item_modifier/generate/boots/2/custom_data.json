@@ -6,7 +6,7 @@
       "item_type": "boots",
       "boots": {
         "stats": {
-          "maxmp": 25,
+          "maxmp": 2500,
           "mr": 25,
           "defence": -25
         },

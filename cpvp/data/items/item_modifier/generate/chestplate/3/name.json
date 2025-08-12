@@ -1,0 +1,10 @@
+{
+  "function": "minecraft:set_name",
+  "name": [
+    {
+      "text": "忘却の彼方",
+      "color": "yellow",
+      "italic": false
+    }
+  ]
+}

@@ -17,3 +17,4 @@ scoreboard players set @s maxeng 0
 scoreboard players set @s attackspeed 400
 scoreboard players set @s bonusattackspeed 0
 scoreboard players set @s absorption 0
+tag @s add playing

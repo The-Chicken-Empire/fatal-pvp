@@ -1,0 +1,50 @@
+{
+  "function": "minecraft:set_lore",
+  "lore": [
+    [
+      {
+        "text": "T",
+        "color": "dark_gray",
+        "italic": true,
+        "obfuscated": true
+      },
+      {
+        "text": "を助けに空を斬って呑まれた馬鹿も...",
+        "color": "dark_gray",
+        "italic": true,
+        "obfuscated": false
+      }
+    ],
+    [
+      {
+        "text": "A",
+        "color": "dark_gray",
+        "italic": true,
+        "obfuscated": true
+      },
+      {
+        "text": "を想って魂すら捧げた阿呆も...",
+        "color": "dark_gray",
+        "italic": true,
+        "obfuscated": false
+      }
+    ],
+    [
+      {
+        "text": "皆...居なくなった　次は...最後は俺の番だ",
+        "color": "dark_gray",
+        "italic": true,
+        "obfuscated": false
+      }
+    ],
+    [
+      {
+        "text": "さあ、たった二人を逃がす為の最後の依頼だ",
+        "color": "dark_gray",
+        "italic": true,
+        "obfuscated": false
+      }
+    ]
+  ],
+  "mode": "append"
+}

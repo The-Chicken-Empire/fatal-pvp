@@ -41,7 +41,7 @@ scoreboard players operation @s magicdmg += $dummy magicdmg
 execute store result score $dummy meleedmg run data get storage cpvp:stats $dummy.meleedmg
 scoreboard players operation @s meleedmg += $dummy meleedmg
 #rangedmg
-execute store result score $dummy rangedmg run data get storage cpvp:stats $dummy.rangemg
+execute store result score $dummy rangedmg run data get storage cpvp:stats $dummy.rangedmg
 scoreboard players operation @s rangedmg += $dummy rangedmg
 #cc
 execute store result score $dummy cc run data get storage cpvp:stats $dummy.cc
