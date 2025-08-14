@@ -1,0 +1,10 @@
+{
+  "function": "minecraft:set_name",
+  "name": [
+    {
+      "text": "Lunar Stylet",
+      "color": "white",
+      "italic": false
+    }
+  ]
+}

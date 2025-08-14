@@ -1,0 +1,10 @@
+{
+  "function": "minecraft:set_name",
+  "name": [
+    {
+      "text": "ボロボロの兎のぬいぐるみ",
+      "color": "dark_purple",
+      "italic": false
+    }
+  ]
+}

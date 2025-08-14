@@ -1,0 +1,10 @@
+{
+  "function": "minecraft:set_name",
+  "name": [
+    {
+      "text": "無慈悲な射手のテレスコープ",
+      "color": "blue",
+      "italic": false
+    }
+  ]
+}

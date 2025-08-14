@@ -1,0 +1,21 @@
+{
+  "function": "minecraft:set_custom_data",
+  "tag": {
+    "cpvp": {
+      "id": 4,
+      "item_type": "weapon",
+      "mainhand": {
+        "stats": {
+          "attackspeed": 170,
+          "cc": 5
+        },
+        "triggers": [
+          "statscalc1",
+          "right_click"
+        ]
+      },
+      "regularitem": 1,
+      "classitem": 0
+    }
+  }
+}
