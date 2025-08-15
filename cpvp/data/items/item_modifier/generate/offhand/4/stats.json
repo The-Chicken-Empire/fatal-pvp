@@ -1,0 +1,24 @@
+{
+  "function": "minecraft:set_lore",
+  "lore": [
+    [
+      {
+        "text": "MP回復力",
+        "color": "aqua",
+        "italic": false
+      },
+      {
+        "text": " : ",
+        "color": "white",
+        "italic": false
+      },
+      {
+        "text": "+25%",
+        "color": "gold",
+        "italic": false
+      }
+    ],
+    [{"text": ""}]
+  ],
+  "mode": "append"
+}

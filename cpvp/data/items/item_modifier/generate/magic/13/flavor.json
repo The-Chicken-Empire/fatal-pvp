@@ -1,0 +1,36 @@
+{
+  "function": "minecraft:set_lore",
+  "lore": [
+    [
+      {
+        "text": "残された時間時間は少なく",
+        "color": "dark_gray",
+        "italic": true
+      }
+    ],
+    [
+      {
+        "text": "壊れていく世界で、最後の一人は何を想う",
+        "color": "dark_gray",
+        "italic": true
+      }
+    ],
+    [
+      {
+        "text": "ーーWorld-O-0 忘却処理...完了",
+        "color": "dark_gray",
+        "italic": true,
+        "obfuscated": false
+      }
+    ],
+    [
+      {
+        "text": "...二名の脱界を確認 管理者に報告されます",
+        "color": "dark_gray",
+        "italic": true,
+        "obfuscated": false
+      }
+    ]
+  ],
+  "mode": "append"
+}

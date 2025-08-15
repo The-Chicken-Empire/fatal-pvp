@@ -1,0 +1,9 @@
+execute if items entity @s hotbar.0 *[custom_data~{cpvp:{item_type:"magic"}}] run scoreboard players add @s physicaldmg 4
+execute if items entity @s hotbar.1 *[custom_data~{cpvp:{item_type:"magic"}}] run scoreboard players add @s physicaldmg 4
+execute if items entity @s hotbar.2 *[custom_data~{cpvp:{item_type:"magic"}}] run scoreboard players add @s physicaldmg 4
+execute if items entity @s hotbar.3 *[custom_data~{cpvp:{item_type:"magic"}}] run scoreboard players add @s physicaldmg 4
+execute if items entity @s hotbar.4 *[custom_data~{cpvp:{item_type:"magic"}}] run scoreboard players add @s physicaldmg 4
+execute if items entity @s hotbar.5 *[custom_data~{cpvp:{item_type:"magic"}}] run scoreboard players add @s physicaldmg 4
+execute if items entity @s hotbar.6 *[custom_data~{cpvp:{item_type:"magic"}}] run scoreboard players add @s physicaldmg 4
+execute if items entity @s hotbar.7 *[custom_data~{cpvp:{item_type:"magic"}}] run scoreboard players add @s physicaldmg 4
+execute if items entity @s hotbar.8 *[custom_data~{cpvp:{item_type:"magic"}}] run scoreboard players add @s physicaldmg 4

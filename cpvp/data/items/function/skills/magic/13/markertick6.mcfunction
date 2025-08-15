@@ -1,0 +1,2 @@
+execute if score @s skills matches 1 run data modify entity @s transformation set value {right_rotation:[0f,0f,-0.415f,1f],scale:[0f,0f,0f],left_rotation:[1f,0f,0f,1f],translation:[0f,0f,0f]}
+execute if score @s skills matches 7 run kill @s

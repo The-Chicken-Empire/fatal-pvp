@@ -11,5 +11,6 @@ scoreboard players set @s magicdef 0
 scoreboard players set @s meleedef 0
 scoreboard players set @s rangedef 0
 scoreboard players set @s absorption 0
-attribute @s max_health base set 1000
-data modify entity @s Health set value 1000
+execute if entity @s[tag=combatdummy] run attribute @s max_health base set 1000
+execute if entity @s[tag=combatdummy] run data modify entity @s Health set value 1000
+tag @s add playing

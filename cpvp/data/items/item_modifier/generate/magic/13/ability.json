@@ -1,0 +1,145 @@
+{
+  "function": "minecraft:set_lore",
+  "lore": [
+    [
+      {
+        "text": "-- ",
+        "color": "white",
+        "italic": false
+      },
+      {
+        "text": "オルタナティブエンド",
+        "color": "red",
+        "italic": false
+      },
+      {
+        "text": " --",
+        "color": "white",
+        "italic": false
+      }
+    ],
+    [
+      {
+        "text": "右クリック",
+        "italic": false,
+        "color":"yellow"
+      }
+    ],
+    [
+      {
+        "text": "消費MP",
+        "italic": false,
+        "color":"blue"
+      },
+      {
+        "text": " : ",
+        "italic": false,
+        "color":"white"
+      },
+      {
+        "text": "14 ",
+        "italic": false,
+        "color":"green"
+      },
+      {
+        "text": "クールタイム",
+        "italic": false,
+        "color":"dark_aqua"
+      },
+      {
+        "text": " : ",
+        "italic": false,
+        "color":"white"
+      },
+      {
+        "text": "13秒",
+        "italic": false,
+        "color":"green"
+      }
+    ],
+    [
+      {
+        "text": "ダメージ",
+        "color": "red",
+        "italic": false
+      },
+      {
+        "text": " : ",
+        "color": "white",
+        "italic": false
+      },
+      {
+        "text": "3×7",
+        "color": "gold",
+        "italic": false
+      },
+      {
+        "text": " - ",
+        "color": "white",
+        "italic": false
+      },
+      {
+        "text": "物理",
+        "color": "gold",
+        "italic": false
+      },
+      {
+        "text": "/",
+        "color": "white",
+        "italic": false
+      },
+      {
+        "text": "遠距離",
+        "color": "blue",
+        "italic": false
+      }
+    ],
+    [
+      {
+        "text": "前方に剣を投擲し、着弾点又は着弾したプレイヤーを",
+        "color": "white",
+        "italic": false
+      },
+      {
+        "text": "マーク",
+        "color": "red",
+        "italic": false
+      },
+      {
+        "text": "する",
+        "color": "white",
+        "italic": false
+      }
+    ],
+    [
+      {
+        "text": "二秒間何にも着弾しなかった場合、剣の座標を",
+        "color": "white",
+        "italic": false
+      },
+      {
+        "text": "マーク",
+        "color": "red",
+        "italic": false
+      },
+      {
+        "text": "する",
+        "color": "white",
+        "italic": false
+      }
+    ],
+    [
+      {
+        "text": "マーク",
+        "color": "red",
+        "italic": false
+      },
+      {
+        "text": "した座標又はプレイヤーに6本の剣を飛ばす",
+        "color": "white",
+        "italic": false
+      }
+    ]
+  ],
+  "mode": "append"
+}

@@ -1,0 +1,1 @@
+execute if score @s skills matches 10.. run kill @s 

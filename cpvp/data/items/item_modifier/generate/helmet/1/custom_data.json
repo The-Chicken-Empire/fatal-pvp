@@ -9,7 +9,7 @@
           "maxhp": 100
         },
         "triggers": [
-          "statscalc1",
+          "attack2",
           "statscalc2"
         ]
       },

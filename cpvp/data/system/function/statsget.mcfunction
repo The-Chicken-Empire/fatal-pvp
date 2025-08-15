@@ -1,0 +1,17 @@
+tellraw @s {text:"-----"}
+tellraw @s [{color:"light_purple",text:"回復力"},{color:"white",text:" : "},{color:"gold",score:{name:"@s",objective:vit}}]
+tellraw @s [{color:"aqua",text:"MP回復力"},{color:"white",text:" : "},{color:"gold",score:{name:"@s",objective:mr}}]
+tellraw @s [{color:"dark_red",text:"攻撃力"},{color:"white",text:" : "},{color:"gold",score:{name:"@s",objective:damage}}]
+tellraw @s [{color:"dark_blue",text:"防御力"},{color:"white",text:" : "},{color:"gold",score:{name:"@s",objective:defence}}]
+tellraw @s [{color:"white",text:"移動速度"},{color:"white",text:" : "},{color:"gold",score:{name:"@s",objective:speed}}]
+tellraw @s [{color:"yellow",text:"会心率"},{color:"white",text:" : "},{color:"gold",score:{name:"@s",objective:cc}}]
+tellraw @s [{color:"white",text:"回避率"},{color:"white",text:" : "},{color:"gold",score:{name:"@s",objective:agi}}]
+tellraw @s [{color:"gold",text:"物理防御力"},{color:"white",text:" : "},{color:"gold",score:{name:"@s",objective:physicaldef}}]
+tellraw @s [{color:"gold",text:"物理攻撃力"},{color:"white",text:" : "},{color:"gold",score:{name:"@s",objective:physicaldmg}}]
+tellraw @s [{color:"dark_purple",text:"魔法防御力"},{color:"white",text:" : "},{color:"gold",score:{name:"@s",objective:magicdef}}]
+tellraw @s [{color:"dark_purple",text:"魔法攻撃力"},{color:"white",text:" : "},{color:"gold",score:{name:"@s",objective:magicdmg}}]
+tellraw @s [{color:"red",text:"近距離攻撃力"},{color:"white",text:" : "},{color:"gold",score:{name:"@s",objective:meleedmg}}]
+tellraw @s [{color:"red",text:"近距離防御力"},{color:"white",text:" : "},{color:"gold",score:{name:"@s",objective:meleedef}}]
+tellraw @s [{color:"blue",text:"遠距離攻撃力"},{color:"white",text:" : "},{color:"gold",score:{name:"@s",objective:rangedmg}}]
+tellraw @s [{color:"blue",text:"遠距離防御力"},{color:"white",text:" : "},{color:"gold",score:{name:"@s",objective:rangedef}}]
+tellraw @s {text:"-----"}

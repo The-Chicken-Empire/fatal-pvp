@@ -27,24 +27,49 @@
     ],
     [
       {
-        "text": "移動速度が半減する",
+        "text": "移動速度が半減する代わりに",
         "color": "white",
         "italic": false
       }
     ],
     [
       {
-        "text": "移動速度5%毎に",
+        "text": "移動速度",
         "color": "white",
         "italic": false
       },
       {
-        "text": "攻撃力",
+        "text": "5%",
+        "color": "gold",
+        "italic": false
+      },
+      {
+        "text": "毎に",
+        "color": "white",
+        "italic": false
+      },
+      {
+        "text": "与える",
+        "color": "white",
+        "italic": false
+      },
+      {
+        "text": "ダメージ",
         "color": "red",
         "italic": false
       },
       {
-        "text":"が1%増加する",
+        "text":"が",
+        "color": "white",
+        "italic": false
+      },
+      {
+        "text":"1%",
+        "color": "yellow",
+        "italic": false
+      },
+      {
+        "text":"増加する",
         "color": "white",
         "italic": false
       }

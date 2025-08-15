@@ -2,14 +2,15 @@
   "condition": "minecraft:entity_properties",
   "entity": "this",
   "predicate": {
-    "equipment": {
-      "mainhand": {
-        "items": "minecraft:carrot_on_a_stick",
+    "slots": {
+      "hotbar.1": {
         "predicates": {
           "minecraft:custom_data": {
             "cpvp": {
-              "id": {
-                "item": 1
+              "hotbar": {
+                "triggers":[
+                  "damaged"
+                ]
               }
             }
           }

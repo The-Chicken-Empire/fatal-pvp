@@ -82,7 +82,7 @@ scoreboard players operation @s maxhp += @s maxhp_buff
 scoreboard players operation @s maxmp += @s maxmp_buff
 scoreboard players operation @s mr += @s mr_buff
 scoreboard players operation @s physicaldef += @s physicaldef_buff
-scoreboard players operation @s physicaldmg += @s physicaldmg
+scoreboard players operation @s physicaldmg += @s physicaldmg_buff
 scoreboard players operation @s magicdef += @s magicdef_buff
 scoreboard players operation @s magicdmg += @s magicdmg_buff
 scoreboard players operation @s meleedef += @s meleedef_buff
@@ -109,3 +109,7 @@ scoreboard players operation @s attackspeed /= $100 main
 execute store result storage cpvp:stats attackspeed float 0.01 run scoreboard players get @s attackspeed
 function stats:attackspeed with storage cpvp:stats
 data remove storage cpvp:stats attackspeed
+
+#最低値
+execute if score @s maxhp matches ..0 run scoreboard players set @s maxhp 10
+execute if score @s maxmp matches ..0 run scoreboard players set @s maxmp 0

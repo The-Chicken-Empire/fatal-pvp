@@ -43,6 +43,7 @@ bossbar add gametimer aaa
 scoreboard objectives add playerdata dummy
 scoreboard objectives add damagetaken dummy
 scoreboard objectives add damagecalc dummy
+scoreboard objectives add penetrate dummy
 scoreboard objectives add damage dummy
 scoreboard objectives add sth dummy
 scoreboard objectives add selecteditemA dummy
@@ -74,6 +75,12 @@ scoreboard players set @a mpcost 0
 scoreboard players set @a hpcost 0
 scoreboard players set @a engcost 0
 scoreboard objectives add attackerdata dummy
+#銃system
+scoreboard objectives add bulletspeed dummy
+scoreboard objectives add bulletspeedtmp dummy
+scoreboard objectives add bulletrange dummy
+scoreboard objectives add bulletdamage dummy
+scoreboard objectives add bulletparticle dummy
 
 #skillで出したarmor stand/marker用のscoreboard
 scoreboard objectives add skills dummy
@@ -170,6 +177,13 @@ scoreboard objectives add gunreload dummy
 scoreboard objectives add handgun dummy
 
 #固有item用score
+scoreboard objectives add markerid dummy
+execute unless score $number markerid matches -2147483648..2147483647 run scoreboard players set $number markerid 0
+#汎用
+scoreboard objectives add target dummy
+scoreboard objectives add counting dummy
+scoreboard objectives add counting2 dummy
+
 scoreboard objectives add perk2 dummy
 scoreboard players set @a perk2 0
 scoreboard objectives add perk2-2 dummy
@@ -186,6 +200,25 @@ scoreboard objectives add magic7timer dummy
 scoreboard players set @a magic7timer 0
 scoreboard objectives add magic7tank dummy
 scoreboard players set @a magic7tank 0
+scoreboard objectives add helmet2 dummy
+scoreboard objectives add offhand4-1 dummy
+scoreboard objectives add offhand4-2 dummy
+scoreboard objectives add offhand4-3 dummy
+scoreboard objectives add magic10 dummy
+execute unless score $number magic10 matches -2147483648..2147483647 run scoreboard players set $number magic10 0
+scoreboard objectives add magic10-2 dummy
+scoreboard objectives add magic10-4 dummy
+scoreboard objectives add magic11 dummy
+scoreboard objectives add magic12 dummy
+scoreboard objectives add magic12-2 dummy
+scoreboard objectives add magic12-3 dummy
+scoreboard objectives add magic12-4 dummy
+scoreboard objectives add magic13 dummy
+scoreboard objectives add magic13-2 dummy
+scoreboard objectives add magic13-3 dummy
+scoreboard objectives add magic13-4 dummy
+scoreboard objectives add magic13markID1 dummy
+scoreboard objectives add magic13markID2 dummy
 
 #buff用
 scoreboard objectives add maxhp_buff dummy

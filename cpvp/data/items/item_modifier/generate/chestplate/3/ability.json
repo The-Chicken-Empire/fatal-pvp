@@ -1,0 +1,176 @@
+{
+  "function": "minecraft:set_lore",
+  "lore": [
+    [
+      {
+        "text": "-- ",
+        "color": "white",
+        "italic": false
+      },
+      {
+        "text": "The otherside of love",
+        "color": "aqua",
+        "italic": false
+      },
+      {
+        "text": " --",
+        "color": "white",
+        "italic": false
+      }
+    ],
+    [
+      {
+        "text": "攻撃的中時",
+        "italic": false,
+        "color":"yellow"
+      }
+    ],
+    [
+      {
+        "text": "ダメージ",
+        "color": "red",
+        "italic": false
+      },
+      {
+        "text": " : ",
+        "color": "white",
+        "italic": false
+      },
+      {
+        "text": "6",
+        "color": "gold",
+        "italic": false
+      },
+      {
+        "text": " - ",
+        "color": "white",
+        "italic": false
+      },
+      {
+        "text": "物理",
+        "color": "gold",
+        "italic": false
+      },
+      {
+        "text": "/",
+        "color": "white",
+        "italic": false
+      },
+      {
+        "text": "遠距離",
+        "color": "blue",
+        "italic": false
+      }
+    ],
+    [
+      {
+        "text": "物理",
+        "color": "gold",
+        "italic": false
+      },
+      {
+        "text": "+",
+        "color": "yellow",
+        "italic": false
+      },
+      {
+        "text": "遠距離",
+        "color": "blue",
+        "italic": false
+      },
+      {
+        "text": "の攻撃的中時、40%の確率で",
+        "color": "white",
+        "italic": false
+      }
+    ],
+    [
+      {
+        "text": "相手近くに剣を召喚し、飛ばす",
+        "color": "white",
+        "italic": false
+      }
+    ],
+    [
+      {
+        "text": "-- ",
+        "color": "white",
+        "italic": false
+      },
+      {
+        "text": "Forget me not",
+        "italic": false,
+        "color":"aqua"
+      },
+      {
+        "text": "-- ",
+        "color": "white",
+        "italic": false
+      }
+    ],
+    [
+      {
+        "text": "被ダメージ時",
+        "italic": false,
+        "color":"yellow"
+      }
+    ],
+    [
+      {
+        "text": "クールタイム",
+        "italic": false,
+        "color":"dark_aqua"
+      },
+      {
+        "text": " : ",
+        "italic": false,
+        "color":"white"
+      },
+      {
+        "text": "60秒",
+        "italic": false,
+        "color":"green"
+      }
+    ],
+    [
+      {
+        "text": "HP",
+        "color": "red",
+        "italic": false
+      },
+      {
+        "text": "が30%以下になった時、",
+        "italic": false,
+        "color":"white"
+      }
+    ],
+    [
+      {
+        "text": "HP",
+        "color": "red",
+        "italic": false
+      },
+      {
+        "text": "を3秒かけて",
+        "color": "white",
+        "italic": false
+      },
+      {
+        "text": "15",
+        "color": "gold",
+        "italic": false
+      },
+      {
+        "text": "回復",
+        "color": "light_purple",
+        "italic": false
+      },
+      {
+        "text": "する",
+        "color": "white",
+        "italic": false
+      }
+    ]
+  ],
+  "mode": "append"
+}

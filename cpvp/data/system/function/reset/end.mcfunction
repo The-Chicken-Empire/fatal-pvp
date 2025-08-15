@@ -6,3 +6,6 @@ execute as @a run function items:skills/perk/2/reset
 
 #magic7
 execute as @a run function items:skills/magic/7/reset
+
+#offhand4
+execute as @a run function items:skills/offhand/4/reset

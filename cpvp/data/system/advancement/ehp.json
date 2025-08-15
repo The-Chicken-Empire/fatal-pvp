@@ -2,7 +2,9 @@
   "criteria": {
     "aa": {
       "trigger": "minecraft:entity_hurt_player",
-      "conditions": {}
+      "conditions": {
+        
+      }
     }
   },
   "rewards": {
