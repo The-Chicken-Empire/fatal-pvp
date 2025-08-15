@@ -1,0 +1,2 @@
+$execute if entity @s[type=player] run data modify storage effect: player[{id:$(UUID)}].effects set from storage effect: tmp
+$execute if entity @s[type=!player] run data modify storage effect: entity[{id:$(UUID)}].effects set from storage effect: tmp

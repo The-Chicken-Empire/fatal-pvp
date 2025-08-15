@@ -61,7 +61,7 @@ execute as @a if score @s eng > @s maxeng run scoreboard players operation @s en
 
 
 #bafunoshori
-function buff:tick/main
+execute as @a run function effects:system/tick/
 
 #skills
 

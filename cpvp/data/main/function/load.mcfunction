@@ -19,6 +19,7 @@ scoreboard objectives add counter3 dummy
 scoreboard objectives add counter4 dummy
 scoreboard objectives add counter5 dummy
 scoreboard objectives add timer dummy
+scoreboard players set $-1 main -1
 scoreboard players set $0 main 0
 scoreboard players set $1 main 1
 scoreboard players set $2 main 2
