@@ -1,1 +1,0 @@
-$data modify storage cpvp:system entity[{id:$(UUID)}].buff set from storage buff: temp

@@ -1,0 +1,1 @@
+execute if entity @s[tag=legs-2-avoid-succeed] at @s run function items:skills/leggings/2/attack

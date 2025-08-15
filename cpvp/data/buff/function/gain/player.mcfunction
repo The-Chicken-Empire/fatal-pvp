@@ -1,1 +1,0 @@
-$data modify storage cpvp:system player[{id:$(UUID)}].buff set from storage buff: temp
