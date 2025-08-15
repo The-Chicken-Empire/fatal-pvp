@@ -218,6 +218,7 @@ scoreboard objectives add magic13-3 dummy
 scoreboard objectives add magic13-4 dummy
 scoreboard objectives add magic13markID1 dummy
 scoreboard objectives add magic13markID2 dummy
+scoreboard objectives add weapon4 dummy
 
 #buff用
 scoreboard objectives add maxhp_buff dummy

@@ -17,7 +17,13 @@ item modify block 0 0 0 container.0 items:generate/weapon/4/cost
 
 item modify block 0 0 0 container.0 items:generate/weapon/4/stats
 
+item modify block 0 0 0 container.0 items:generate/weapon/4/ability
+
+item modify block 0 0 0 container.0 items:generate/weapon/4/parts
+
 item modify block 0 0 0 container.0 items:generate/weapon/4/flavor
+
+item modify block 0 0 0 container.0 items:generate/weapon/4/others
 
 #アトリビュートなどを追加したい場合はコメントをはずしてファイルを作成する
 #item modify block 0 0 0 container.0 items:generate/weapon/4/others

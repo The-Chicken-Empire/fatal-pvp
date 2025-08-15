@@ -24,7 +24,11 @@ execute if entity @s[tag=magic13deletemark] run function items:skills/magic/13/m
 execute if entity @s[tag=magic14,scores={skills=15..}] run function items:skills/magic/14/markertick
 execute if entity @s[tag=magic14item] run function items:skills/magic/14/markertick2
 ##weapon
+#3
 execute if entity @s[tag=weapon3] run function items:skills/weapon/3/markertick
+#4
+execute if entity @s[tag=weapon4] run function items:skills/weapon/4/markertick
+
 ##chestplate
 execute if entity @s[tag=cp3d] run function items:skills/chestplate/3/markertick
 execute if entity @s[tag=cp3a] run function items:skills/chestplate/3/markertick2

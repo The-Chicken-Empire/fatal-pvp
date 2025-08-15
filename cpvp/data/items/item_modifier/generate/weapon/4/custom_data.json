@@ -10,8 +10,9 @@
           "cc": 5
         },
         "triggers": [
-          "statscalc1",
-          "right_click"
+          "right_click",
+          "attack2",
+          "attack3"
         ]
       },
       "regularitem": 1,
