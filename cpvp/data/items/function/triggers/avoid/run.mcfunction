@@ -1,0 +1,1 @@
+$function items:skills/$(item_type)/$(id)/avoid

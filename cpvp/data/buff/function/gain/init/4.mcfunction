@@ -1,1 +1,0 @@
-$data modify storage buff: gain.actionbar2 append value {"text":"$(level)","font":"buff/level"}
