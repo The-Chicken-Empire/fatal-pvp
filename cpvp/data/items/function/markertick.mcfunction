@@ -20,8 +20,14 @@ execute if entity @s[tag=magic13callmarker] run function items:skills/magic/13/m
 execute if entity @s[tag=magic13markplayer] run function items:skills/magic/13/markertick2
 execute if entity @s[tag=magic13-2] run function items:skills/magic/13/markertick5
 execute if entity @s[tag=magic13deletemark] run function items:skills/magic/13/markertick6
+#15
+execute if entity @s[tag=magic15] run function items:skills/magic/15/markertick
+execute if entity @s[tag=magic15-2] run function items:skills/magic/15/markertick2
 ##weapon
+#3
 execute if entity @s[tag=weapon3] run function items:skills/weapon/3/markertick
+#6
+execute if entity @s[tag=weapon6] run function items:skills/weapon/6/markertick
 ##chestplate
 execute if entity @s[tag=cp3d] run function items:skills/chestplate/3/markertick
 execute if entity @s[tag=cp3a] run function items:skills/chestplate/3/markertick2

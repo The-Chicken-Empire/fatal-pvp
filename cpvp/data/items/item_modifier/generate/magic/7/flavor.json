@@ -3,57 +3,7 @@
   "lore": [
     [
       {
-        "text": "World-O-1 A",
-        "color": "dark_gray",
-        "italic": true
-      },
-      {
-        "text": "lfix",
-        "color": "dark_gray",
-        "italic": true,
-        "obfuscated": true
-      },
-      {
-        "text": "作 現世記憶保存機構-IV 『Giselle』のコアの一部",
-        "color": "dark_gray",
-        "italic": true
-      }
-    ],
-    [
-      {
-        "text": "監査ログ一部",
-        "color": "dark_gray",
-        "italic": true
-      }
-    ],
-    [
-      {
-        "text": "ーー記憶保存完了処理... 世界観測システム...正常 テスト版-運命改変回路...正常",
-        "color": "dark_gray",
-        "italic": true
-      }
-    ],
-    [
-      {
-        "text": "世界記憶...ERROR システムのコアが存在しません 管理者へ送信...ERROR 接続が存在しません",
-        "color": "dark_gray",
-        "italic": true
-      }
-    ],
-    [
-      {
-        "text": "再度実行...ERR",
-        "color": "dark_gray",
-        "italic": true
-      },
-      {
-        "text": "OR SYSTEM OVERRIDE BY X ",
-        "color": "dark_gray",
-        "italic": true,
-        "obfuscated": true
-      },
-      {
-        "text": "再度実行... 正常 終了処理が完了しました 60gf後に再度実行されます",
+        "text": "A作 現世記憶保存機構-IV 『Giselle』のコアの一部",
         "color": "dark_gray",
         "italic": true
       }

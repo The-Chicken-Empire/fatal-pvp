@@ -1,0 +1,20 @@
+{
+  "function": "minecraft:set_lore",
+  "lore": [
+    [
+      {
+        "text": "とある名前すらない世界で旅人Fが見つけた生物の殻",
+        "color": "dark_gray",
+        "italic": true
+      }
+    ],
+    [
+      {
+        "text": "だが必要ない為虚空間に捨てられ、ここに流れ着いた",
+        "color": "dark_gray",
+        "italic": true
+      }
+    ]
+  ],
+  "mode": "append"
+}

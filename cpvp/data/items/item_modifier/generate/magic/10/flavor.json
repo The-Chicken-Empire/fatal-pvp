@@ -3,7 +3,7 @@
   "lore": [
     [
       {
-        "text": "これは異世界を呼び出す神代の魔法だ",
+        "text": "異世界を呼び出す神代の魔法",
         "color": "dark_gray",
         "italic": true
       }
@@ -11,27 +11,6 @@
     [
       {
         "text": "あくまで呼ぶだけで門の機能はない",
-        "color": "dark_gray",
-        "italic": true
-      }
-    ],
-    [
-      {
-        "text": "...それは神以外に使うことは出来ない",
-        "color": "dark_gray",
-        "italic": true
-      }
-    ],
-    [
-      {
-        "text": "逆説的に、使える者は神となり得る",
-        "color": "dark_gray",
-        "italic": true
-      }
-    ],
-    [
-      {
-        "text": "...その存在が消えなければ",
         "color": "dark_gray",
         "italic": true
       }

@@ -10,5 +10,5 @@ data modify entity @s teleport_duration set value 1
 data modify entity @s transformation set value {right_rotation:[0f,0f,0f,1f],scale:[3f,3f,3f],left_rotation:[0f,0f,2.4f,1f],translation:[0f,0f,0f]}
 execute at @s facing entity @a[tag=magic12tmp] eyes run tp @s ~ ~ ~ ~ 0
 #owner
-scoreboard players operation @s owner = @e[type=marker,tag=magic12,limit=1] owner
-scoreboard players operation @s ownerteam = @e[type=marker,tag=magic12,limit=1] ownerteam
+scoreboard players operation @s owner = @a[tag=magic12tmp,limit=1] playerdata
+scoreboard players operation @s teamscore = @a[tag=magic12tmp,limit=1] teamscore
