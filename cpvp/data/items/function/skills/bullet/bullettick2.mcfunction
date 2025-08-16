@@ -4,7 +4,7 @@ tp @s ^ ^ ^0.1
 function items:skills/bullet/hitcheck
 
 #他の色々
-execute unless block ~ ~ ~ #air run return run kill @s
+execute unless block ~ ~ ~ #main:air run return run kill @s
 scoreboard players add @s bulletparticle 1
 execute if score @s bulletparticle matches 6.. run function items:skills/bullet/bulletparticle
 scoreboard players remove @s bulletrange 1

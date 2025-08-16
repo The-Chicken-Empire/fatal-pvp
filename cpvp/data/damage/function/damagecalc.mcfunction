@@ -83,6 +83,10 @@ scoreboard players operation @s damagetaken /= $10000 main
 execute as @e[tag=atker] run function items:triggers/attack3/check
 execute as @e[tag=victim] run function items:triggers/attacked3/check
 
+#ダメージ上限
+execute if score $maxdamage damagecalc matches -2147483648..2147483647 if score @s damagetaken > $maxdamage damagecalc run scoreboard players operation @s damagetaken = $maxdamage damagecalc
+scoreboard players reset $maxdamage damagecalc
+
 #変換
 scoreboard players operation @s damage = @s damagetaken
 scoreboard players reset @s damagetaken
