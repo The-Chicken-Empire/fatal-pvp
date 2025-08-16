@@ -1,1 +1,0 @@
-$data modify storage buff: gain.actionbar append value {"text":"\u000$(id)","font":"buff/"}

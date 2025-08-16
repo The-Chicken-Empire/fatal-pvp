@@ -77,6 +77,7 @@ scoreboard players operation @s maxhp += $400 main
 scoreboard players operation @s maxmp += $10000 main
 scoreboard players operation @s mr += $100 main
 #buffの処理
+
 scoreboard players operation @s maxhp += @s maxhp_buff
 scoreboard players operation @s maxmp += @s maxmp_buff
 scoreboard players operation @s mr += @s mr_buff
