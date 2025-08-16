@@ -8,6 +8,8 @@ scoreboard objectives add deathtimer dummy
 scoreboard objectives add deathsentence dummy
 
 #system
+scoreboard objectives add entitydata dummy
+execute unless score $base entitydata matches -2147483648..2147483647 run scoreboard players set $base entitydata 1
 scoreboard objectives add tmp dummy
 scoreboard objectives add ID dummy
 execute unless score $init ID matches -2147483648..2147483647 run scoreboard players set $init ID 0
@@ -75,6 +77,7 @@ scoreboard players set @a mpcost 0
 scoreboard players set @a hpcost 0
 scoreboard players set @a engcost 0
 scoreboard objectives add attackerdata dummy
+scoreboard objectives add getdamage dummy
 #銃system
 scoreboard objectives add bulletspeed dummy
 scoreboard objectives add bulletspeedtmp dummy

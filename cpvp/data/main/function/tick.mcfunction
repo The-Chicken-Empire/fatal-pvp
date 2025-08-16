@@ -8,6 +8,7 @@ execute if entity @e[tag=!initialized,type=#main:entity_require_id,limit=1] as @
 
 #常時耐性
 effect give @a resistance 5 10 true
+effect give @a saturation 5 10 true
 
 #時間
 execute store result score $daytime main run time query daytime

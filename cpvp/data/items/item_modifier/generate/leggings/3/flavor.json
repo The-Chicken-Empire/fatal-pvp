@@ -12,13 +12,7 @@
         "text": "俺達は、二人で存在する事が出来なくなったんだ",
         "color": "dark_gray",
         "italic": true
-      }],[
-      {
-        "text": "いつか...この呪縛すら消してやる",
-        "color": "dark_gray",
-        "italic": true
-      }
-    ]
+      }]
   ],
   "mode": "append"
 }

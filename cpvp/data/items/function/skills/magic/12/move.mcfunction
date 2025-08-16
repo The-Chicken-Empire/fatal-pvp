@@ -1,5 +1,5 @@
-execute at @s positioned ~ ~-2 ~ unless block ~ ~ ~ #air run playsound item.trident.hit_ground block @a[distance=..7] ~ ~ ~ 1 1.5 1
-execute at @s positioned ~ ~-2 ~ unless block ~ ~ ~ #air run return run tag @s add stop
+execute at @s positioned ~ ~-2 ~ unless block ~ ~ ~ #main:air run playsound item.trident.hit_ground block @a[distance=..7] ~ ~ ~ 1 1.5 1
+execute at @s positioned ~ ~-2 ~ unless block ~ ~ ~ #main:air run return run tag @s add stop
 
 
 scoreboard players set @s magic12-2 30

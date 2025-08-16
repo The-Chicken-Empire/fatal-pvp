@@ -3,28 +3,7 @@
   "lore": [
     [
       {
-        "text": "とある屋敷で悲鳴が聞こえると通報があった",
-        "color": "dark_gray",
-        "italic": true
-      }
-    ],
-    [
-      {
-        "text": "警察が到着した時には物音一つしなかった",
-        "color": "dark_gray",
-        "italic": true
-      }
-    ],
-    [
-      {
-        "text": "入った直後から血痕があった事から想像出来た事だが...",
-        "color": "dark_gray",
-        "italic": true
-      }
-    ],
-    [
-      {
-        "text": "広間全体が鮮赤に染まっていた。その中央で...",
+        "text": "鮮赤に染まっている広間の中央で...",
         "color": "dark_gray",
         "italic": true
       }
