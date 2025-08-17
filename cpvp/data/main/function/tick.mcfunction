@@ -7,7 +7,7 @@ execute if entity @e[type=#main:non_player,tag=!entity,limit=1] as @e[type=#main
 execute if entity @e[tag=!initialized,type=#main:entity_require_id,limit=1] as @e[tag=!initialized,type=#main:entity_require_id] run function system:initialize
 
 #常時耐性
-effect give @a resistance 5 10 true
+effect give @a resistance 42315 10 true
 effect give @a saturation 5 10 true
 
 #時間
