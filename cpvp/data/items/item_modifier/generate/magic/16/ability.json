@@ -1,0 +1,154 @@
+{
+  "function": "minecraft:set_lore",
+  "lore": [
+    [
+      {
+        "text": "-- ",
+        "color": "white",
+        "italic": false
+      },
+      {
+        "text": "過去の爆弾",
+        "color": "red",
+        "italic": false
+      },
+      {
+        "text": " --",
+        "color": "white",
+        "italic": false
+      }
+    ],
+    [
+      {
+        "text": "右クリック",
+        "italic": false,
+        "color":"yellow"
+      }
+    ],
+    [
+      {
+        "text": "消費MP",
+        "italic": false,
+        "color":"blue"
+      },
+      {
+        "text": " : ",
+        "italic": false,
+        "color":"white"
+      },
+      {
+        "text": "24 ",
+        "italic": false,
+        "color":"green"
+      },
+      {
+        "text": "クールタイム",
+        "italic": false,
+        "color":"dark_aqua"
+      },
+      {
+        "text": " : ",
+        "italic": false,
+        "color":"white"
+      },
+      {
+        "text": "80秒",
+        "italic": false,
+        "color":"green"
+      }
+    ],
+    [
+      {
+        "text": "ダメージ",
+        "color": "red",
+        "italic": false
+      },
+      {
+        "text": " : ",
+        "color": "white",
+        "italic": false
+      },
+      {
+        "text": "20",
+        "color": "gold",
+        "italic": false
+      },
+      {
+        "text": " - ",
+        "color": "white",
+        "italic": false
+      },
+      {
+        "text": "特殊",
+        "color": "aqua",
+        "italic": false
+      },
+      {
+        "text": "/",
+        "color": "white",
+        "italic": false
+      },
+      {
+        "text": "遠距離",
+        "color": "blue",
+        "italic": false
+      }
+    ],
+    [
+      {
+        "text": "自分の座標に60秒後に起爆する",
+        "color": "white",
+        "italic": false
+      },
+      {
+        "text": "爆弾",
+        "color": "red",
+        "italic": false
+      },
+      {
+        "text": "を設置する",
+        "color": "white",
+        "italic": false
+      }
+    ],
+    [
+      {
+        "text": "爆弾",
+        "color": "red",
+        "italic": false
+      },
+      {
+        "text": "は設置後10秒間光り続け、その後透明になる",
+        "color": "white",
+        "italic": false
+      }
+    ],
+    [
+      {
+        "text": "起爆時、周囲の",
+        "color": "white",
+        "italic": false
+      },
+      {
+        "text": "全てのentity",
+        "color": "yellow",
+        "italic": false,
+        "underlined": true
+      },
+      {
+        "text": "にダメージを与える",
+        "color": "white",
+        "italic": false
+      }
+    ],
+    [
+      {
+        "text": "この攻撃は回避できない",
+        "color": "yellow",
+        "italic": false,
+        "bold": true
+      }
+    ]
+  ],
+  "mode": "append"
+}
