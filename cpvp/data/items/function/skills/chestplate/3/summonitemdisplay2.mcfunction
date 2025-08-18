@@ -11,7 +11,7 @@ data modify entity @s teleport_duration set value 1
 data modify entity @s transformation set value {right_rotation:[0,0f,-0.415f,1f],scale:[0.75f,0.75f,0.75f],left_rotation:[1f,0f,0f,1f],translation:[0f,0f,0f]}
 #score
 scoreboard players operation @s owner = @e[tag=cp3tmp3,limit=1] owner
-scoreboard players operation @s ownerteam = @e[tag=cp3tmp3,limit=1] ownerteam
+scoreboard players operation @s teamscore = @e[tag=cp3tmp3,limit=1] teamscore
 scoreboard players set @s counting2 5
 #方向
 execute at @s rotated as @e[tag=cp3tmp3,limit=1] run tp @s ~ ~ ~ ~ ~

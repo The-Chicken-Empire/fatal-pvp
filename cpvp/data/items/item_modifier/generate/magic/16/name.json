@@ -1,0 +1,10 @@
+{
+  "function": "minecraft:set_name",
+  "name": [
+    {
+      "text": "忘れた頃に",
+      "color": "red",
+      "italic": false
+    }
+  ]
+}

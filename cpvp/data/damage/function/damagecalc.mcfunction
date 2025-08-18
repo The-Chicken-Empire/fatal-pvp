@@ -23,6 +23,7 @@ execute if score $dummy random <= @s agi at @s run playsound entity.breeze.wind_
 execute if score $dummy random <= @s agi run particle minecraft:white_smoke ~ ~1 ~ 0.1 0.8 0.1 0.2 20
 execute if score $dummy random <= @s agi run function damage:avoid
 execute if score $dummy random <= @s agi run return fail
+tag @s remove unavoidable
 
 #damage2trigger 軽減とか上昇とか
 execute as @e[tag=atker] run function items:triggers/attack2/check
