@@ -23,7 +23,7 @@ execute if score #effect-counter4113 counter2 <= #effect-counter4113 counter run
 
 execute if data storage effect: data.content[0] run data modify storage effect: data.unti set from storage effect: data.content[0][0]
 execute if data storage effect: data.content[0] run function effects:system/modify/stats with storage effect: data
-function stats:statscalc
+
 
 $execute store result score #effect-counter4113 counter run data get storage effect: tmp[{id:$(id)}].level
 $execute store result score #effect-counter4113 counter3 run data get storage effect: tmp[{id:$(id)}].duration
@@ -36,6 +36,6 @@ $execute store result storage effect: tmp[{id:$(id)}].duration int 1 run scorebo
 
 
 function effects:system/operation/return with entity @s
-
+function stats:statscalc
 data remove storage effect: q[0]
 function effects:q/s

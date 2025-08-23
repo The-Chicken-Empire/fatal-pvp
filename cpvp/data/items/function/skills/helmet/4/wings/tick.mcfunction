@@ -6,8 +6,9 @@ execute if entity @s[predicate=items:helmet/4/sprint] as @e[tag=seraph_wing,tag=
 execute if entity @s[predicate=items:helmet/4/sprint] as @e[tag=seraph_wing,tag=!seraph_wing.sprinting] run function items:skills/helmet/4/wings/tick4
 execute if entity @s[predicate=!items:helmet/4/sprint] as @e[tag=seraph_wing] run function items:skills/helmet/4/wings/tick3
 
-execute unless predicate items:helmet/4/w_s anchored eyes rotated ~ 22.5 run tp @e[tag=cp.this,limit=1] ^ ^-0.2 ^-0.3 ~ ~
-execute if predicate items:helmet/4/w_s anchored eyes rotated ~ 0 run tp @e[tag=cp.this,limit=1] ^ ^0.4 ^0.2 ~ ~
+execute unless predicate items:helmet/4/w_s anchored eyes positioned ^ ^-0.2 ^-0.3 rotated ~ 22.5 as @e[tag=cp.this,limit=1] run tp @s ^ ^ ^ ~ ~
+
+execute if predicate items:helmet/4/w_s anchored eyes positioned ^ ^0.4 ^0.2 rotated ~ 0 as @e[tag=cp.this,limit=1] run tp @s ^ ^ ^ ~ ~
 
 
 
