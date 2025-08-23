@@ -4,13 +4,13 @@ scoreboard players operation @s mp -= @s mpcost
 
 tag @s add cp.this
 
-summon marker ~ ~ ~ {Tags:["seraph_overload","skillmarker","cp.tmp","seraph_overload_bullet"]}
+summon item_display ~ ~ ~ {Tags:["seraph_overload","skillmarker","cp.tmp","seraph_overload_bullet"]}
 scoreboard players operation @e[tag=cp.tmp] owner = @s playerdata
 scoreboard players operation @e[tag=cp.tmp] ownerteam = @s teamscore
 execute anchored eyes positioned ^ ^ ^ run tp @e[tag=cp.tmp] ~ ~ ~ ~ ~
 
 execute anchored eyes run playsound minecraft:entity.breeze.death master @a ^ ^ ^2 4 0.5
-execute anchored eyes run playsound minecraft:entity.breeze.death master @a ^ ^ ^2 4 0
+#execute anchored eyes run playsound minecraft:entity.breeze.death master @a ^ ^ ^2 4 0
 execute anchored eyes run playsound minecraft:entity.breeze.death master @a ^ ^ ^2 4 0.8
 
 
