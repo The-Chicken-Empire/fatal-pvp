@@ -33,6 +33,7 @@ execute unless score @s hp matches ..0 run function items:triggers/damaged/check
 execute store result storage cpvp:tmp tmp byte 1 run scoreboard players get @s playerdata
 function system:attackdata/remove with storage cpvp:tmp
 data remove storage cpvp:tmp tmp
+data remove storage atktrigger: hage
 
 #tag解除
 #tag @s remove physicaldamage

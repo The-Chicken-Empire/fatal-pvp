@@ -12,7 +12,6 @@ execute store result score #effect-counter4113 counter5 run data get storage eff
 $execute store result score #effect-counter4113 counter run data get storage effect: tmp[{id:$(id)}].level
 
 execute store result score #effect-counter4113 counter2 run data get storage effect: q[0].level 1
-tellraw @a {"score":{"name":"#effect-counter4113","objective":"counter2"}}
 scoreboard players operation #effect-counter4113 counter5 -= #effect-counter4113 counter
 execute if score #effect-counter4113 counter5 < #effect-counter4113 counter2 run scoreboard players operation #effect-counter4113 counter2 = #effect-counter4113 counter5
 

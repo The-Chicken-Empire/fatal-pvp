@@ -1,0 +1,163 @@
+{
+  "function": "minecraft:set_lore",
+  "lore": [
+    [
+      {
+        "text": "-- ",
+        "color": "white",
+        "italic": false
+      },
+      {
+        "text": "悠久の慈悲",
+        "color": "yellow",
+        "italic": false
+      },
+      {
+        "text": " --",
+        "color": "white",
+        "italic": false
+      }
+    ],
+    [
+      {
+        "text": "常時",
+        "italic": false,
+        "color":"yellow"
+      }
+    ],
+    [
+      {
+        "text": "ゲーム開始から40秒以内に死亡した場合、",
+        "color": "white",
+        "italic": false
+      }
+    ],
+    [
+      {
+        "text": "翼",
+        "color": "yellow",
+        "italic": false
+      },
+      {
+        "text": "を40得て体力を全回復する。",
+        "color": "white",
+        "italic": false
+      }
+    ],
+    [
+      {
+        "text": "翼",
+        "color": "yellow",
+        "italic": false
+      },
+      {
+        "text": "が30以下の時、",
+        "color": "white",
+        "italic": false
+      },
+      {
+        "text": "旧約の烙印",
+        "color": "dark_purple",
+        "italic": false
+      },
+      {
+        "text": "の効果を得る。",
+        "color": "white",
+        "italic": false
+      }
+    ],
+    [
+      {
+        "text": "翼",
+        "color": "yellow",
+        "italic": false
+      },
+      {
+        "text": "が31以上の時、",
+        "color": "white",
+        "italic": false
+      },
+      {
+        "text": "新約の加護",
+        "color": "yellow",
+        "italic": false
+      },
+      {
+        "text": "の効果を得る。",
+        "color": "white",
+        "italic": false
+      }
+    ],
+    [
+      {"text":""}
+    ],
+    [
+      {
+        "text": "-- ",
+        "color": "white",
+        "italic": false
+      },
+      {
+        "text": "旧約の烙印",
+        "color": "dark_purple",
+        "italic": false
+      },
+      {
+        "text": " --",
+        "color": "white",
+        "italic": false
+      }
+    ],
+    [
+      {
+        "text":"視界が非常に悪くなる。",
+        "color": "white",
+        "italic": false
+      }],[
+      {
+        "text":"旧約スキルが使用可能。",
+        "color": "white",
+        "italic": false
+      }],[
+      {
+        "text":"全てのステータスが0.9倍になる。",
+        "color": "white",
+        "italic": false
+      }
+    ],
+    [
+      {"text":""}
+    ],
+    [
+      {
+        "text": "-- ",
+        "color": "white",
+        "italic": false
+      },
+      {
+        "text": "新約の加護",
+        "color": "yellow",
+        "italic": false
+      },
+      {
+        "text": " --",
+        "color": "white",
+        "italic": false
+      }
+    ],
+    [
+      {
+        "text":"旧約スキルと新約スキルが使用可能。",
+        "color": "white",
+        "italic": false
+      }],[
+      {
+        "text":"全てのステータスが1.15倍になる。",
+        "color": "white",
+        "italic": false
+      }
+    ]
+
+  ],
+  "mode": "append"
+}

@@ -1,0 +1,299 @@
+{
+  "function": "minecraft:set_lore",
+  "lore": [
+    [
+      {
+        "text": "-- ",
+        "color": "white",
+        "italic": false
+      },
+      {
+        "text": "オーバーロードエグゼキューション",
+        "color": "red",
+        "italic": false
+      },
+      {
+        "text": " --",
+        "color": "white",
+        "italic": false
+      }
+    ],
+    [
+      {
+        "text": "右クリック",
+        "italic": false,
+        "color":"yellow"
+      }
+    ],
+    [
+      {
+        "text": "消費MP",
+        "italic": false,
+        "color":"blue"
+      },
+      {
+        "text": " : ",
+        "italic": false,
+        "color":"white"
+      },
+      {
+        "text": "3~6 ",
+        "italic": false,
+        "color":"green"
+      },
+      {
+        "text": "クールタイム",
+        "italic": false,
+        "color":"dark_aqua"
+      },
+      {
+        "text": " : ",
+        "italic": false,
+        "color":"white"
+      },
+      {
+        "text": "2~4秒",
+        "italic": false,
+        "color":"green"
+      }
+    ],
+    [
+      {
+        "text": "ダメージ",
+        "color": "red",
+        "italic": false
+      },
+      {
+        "text": " : ",
+        "color": "white",
+        "italic": false
+      },
+      {
+        "text": "1~2×4",
+        "color": "gold",
+        "italic": false
+      },
+      {
+        "text": " - ",
+        "color": "white",
+        "italic": false
+      },
+      {
+        "text": "物理",
+        "color": "gold",
+        "italic": false
+      },
+      {
+        "text": "/",
+        "color": "white",
+        "italic": false
+      },
+      {
+        "text": "遠距離",
+        "color": "blue",
+        "italic": false
+      }
+    ],
+    [
+      {
+        "text": "鋭利な弾丸を形成し、発射する。",
+        "color": "white",
+        "italic": false
+      }
+    ],
+    [
+      {
+        "text": "命中せずに着弾した場合、着弾地点に地雷を設置する。",
+        "color": "white",
+        "italic": false
+      }
+    ],
+    [
+      {
+        "text": "この地雷は、2m以内に敵がいると炸裂する。",
+        "color": "white",
+        "italic": false
+      }
+    ],
+    [
+      {
+        "text": "このスキルでダメージを与えた時、自身は",
+        "color": "white",
+        "italic": false
+      },
+      {
+        "text": "翼",
+        "color": "yellow",
+        "italic": false
+      },
+      {
+        "text": "を得て、",
+        "color": "white",
+        "italic": false
+      }
+    ],
+    [
+      {
+        "text": "相手は5秒間被ダメージが1%(最大40%)増加する。",
+        "color": "white",
+        "italic": false
+      }
+    ],
+    [
+      {
+        "text": "旧約の烙印",
+        "color": "dark_purple",
+        "italic": false
+      },
+      {
+        "text": "が発動している時、",
+        "color": "white",
+        "italic": false
+      }
+    ],
+    [
+      {
+        "text": "このスキルに消費MPとCTが大きく減少する。",
+        "color": "white",
+        "italic": false
+      }
+    ],
+    [
+      {
+        "text": "",
+        "color": "white",
+        "italic": false
+      }
+    ],
+    [
+      {
+        "text": "-- ",
+        "color": "white",
+        "italic": false
+      },
+      {
+        "text": "イグザルテッドセラフィエル・エンボヂメントオブジエンドオブアポカリプス",
+        "color": "dark_red",
+        "italic": false
+      },
+      {
+        "text": " --",
+        "color": "white",
+        "italic": false
+      }
+    ],
+    [
+      {
+        "text": "スニーク+右クリック",
+        "italic": false,
+        "color":"yellow"
+      }
+    ],
+    [
+      {
+        "text": "消費MP",
+        "italic": false,
+        "color":"blue"
+      },
+      {
+        "text": " : ",
+        "italic": false,
+        "color":"white"
+      },
+      {
+        "text": "15 ",
+        "italic": false,
+        "color":"green"
+      },
+      {
+        "text": "クールタイム",
+        "italic": false,
+        "color":"dark_aqua"
+      },
+      {
+        "text": " : ",
+        "italic": false,
+        "color":"white"
+      },
+      {
+        "text": "15秒",
+        "italic": false,
+        "color":"green"
+      }
+    ],
+    [
+      {
+        "text": "ダメージ",
+        "color": "red",
+        "italic": false
+      },
+      {
+        "text": " : ",
+        "color": "white",
+        "italic": false
+      },
+      {
+        "text": "0.25~4x10~160",
+        "color": "gold",
+        "italic": false
+      },
+      {
+        "text": " - ",
+        "color": "white",
+        "italic": false
+      },
+      {
+        "text": "物理",
+        "color": "gold",
+        "italic": false
+      },
+      {
+        "text": "/",
+        "color": "white",
+        "italic": false
+      },
+      {
+        "text": "遠距離",
+        "color": "blue",
+        "italic": false
+      }
+    ],
+    [
+      {
+        "text": "翼",
+        "color": "yellow",
+        "italic": false
+      },
+      {
+        "text": "を全消費し、銃身をキャノンに変化させ、",
+        "color": "white",
+        "italic": false
+      }
+    ],
+    [
+      {
+        "text": "軌跡の上にあるものを焼身へと帰す光線を放つ。",
+        "color": "white",
+        "italic": false
+      }
+    ],
+    [
+      {
+        "text": "消費した",
+        "color": "white",
+        "italic": false
+      },
+      {
+        "text": "翼",
+        "color": "yellow",
+        "italic": false
+      },
+      {
+        "text": "の4乗に比例して攻撃力と持続時間が延びる。",
+        "color": "white",
+        "italic": false
+      }
+    ]
+  ],
+  "mode": "append"
+}
