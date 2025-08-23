@@ -25,6 +25,10 @@ execute if entity @s[tag=magic15] run function items:skills/magic/15/markertick
 execute if entity @s[tag=magic15-2] run function items:skills/magic/15/markertick2
 #17
 execute if entity @s[tag=seraph_overload] run function items:skills/magic/17/skill1/tick
+#15
+execute if entity @s[tag=magic16] run function items:skills/magic/16/markertick
+execute if entity @s[tag=magic16-2] run function items:skills/magic/16/markertick2
+execute if entity @s[tag=magic16-3] run function items:skills/magic/16/markertick3
 ##weapon
 #3
 execute if entity @s[tag=weapon3] run function items:skills/weapon/3/markertick

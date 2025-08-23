@@ -1,0 +1,1 @@
+execute if score @s skills matches 200 run kill @s

@@ -1,0 +1,10 @@
+{
+  "function": "minecraft:set_name",
+  "name": [
+    {
+      "text": "小さな勇気",
+      "color": "yellow" ,
+      "italic": false
+    }
+  ]
+}

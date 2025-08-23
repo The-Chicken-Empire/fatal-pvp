@@ -1,10 +1,5 @@
 #scoreboard players add $timer timer 1
 function system:cooltime/tick
-execute as @a run function system:pickupitem
-
-#初期処理
-execute if entity @e[type=#main:non_player,tag=!entity,limit=1] as @e[type=#main:non_player,tag=!entity] run tag @s add entity
-execute if entity @e[tag=!initialized,type=#main:entity_require_id,limit=1] as @e[tag=!initialized,type=#main:entity_require_id] run function system:initialize
 
 #常時耐性
 effect give @a resistance 42315 10 true
@@ -62,8 +57,8 @@ execute as @a if score @s hp > @s maxhp run scoreboard players operation @s hp =
 execute as @a if score @s mp > @s maxmp run scoreboard players operation @s mp = @s maxmp
 execute as @a if score @s eng > @s maxeng run scoreboard players operation @s eng = @s maxeng
 
-
-
+#item
+execute if entity @e[type=item,tag=!skillmarker] as @e[type=item,tag=!skillmarker] run data modify entity @s PickupDelay set value 0
 
 #bafunoshori
 execute as @a run function effects:system/tick/

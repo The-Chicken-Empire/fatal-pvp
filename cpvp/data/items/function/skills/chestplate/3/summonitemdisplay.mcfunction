@@ -9,7 +9,7 @@ data modify entity @s transformation set value {right_rotation:[0f,0f,0f,1f],sca
 scoreboard players set @s skills -1
 #owner
 scoreboard players operation @s owner = @a[tag=cp3tmp2,limit=1] playerdata
-scoreboard players operation @s ownerteam = @a[tag=cp3tmp2,limit=1] teamscore
+scoreboard players operation @s teamscore = @a[tag=cp3tmp2,limit=1] teamscore
 
 #角度
 execute at @s run tp @s ~ ~1 ~

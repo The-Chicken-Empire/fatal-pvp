@@ -9,7 +9,7 @@ tag @e remove specialdamagetmp
 tag @e remove nodamagesoundtmp
 execute if entity @s[tag=physicaldamage] run tag @s add physicaldamagetmp
 execute if entity @s[tag=magicdamage] run tag @s add magicdamagetmp
-execute if entity @s[tag=specialdamage] run tag @s add pspecialdamagetmp
+execute if entity @s[tag=specialdamage] run tag @s add specialdamagetmp
 execute if entity @s[tag=meleedamage] run tag @s add meleedamagetmp
 execute if entity @s[tag=rangedamage] run tag @s add rangedamagetmp
 execute if entity @s[tag=nodamagesound] run tag @s add nodamagesoundtmp
