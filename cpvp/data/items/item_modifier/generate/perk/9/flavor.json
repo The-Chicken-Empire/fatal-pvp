@@ -1,0 +1,27 @@
+{
+  "function": "minecraft:set_lore",
+  "lore": [
+    [
+      {
+        "text":"「私は...何もしなかった。」",
+        "color":"dark_gray",
+        "italic":true
+      }
+    ],
+    [
+      {
+        "text": "「私は他者よりも生き残るだけの価値があったのだよ。」",
+        "color": "dark_gray",
+        "italic": true
+      }
+    ],
+    [
+      {
+        "text": "そうでなければならないんだ。",
+        "color": "black",
+        "italic": true
+      }
+    ]
+  ],
+  "mode": "append"
+}

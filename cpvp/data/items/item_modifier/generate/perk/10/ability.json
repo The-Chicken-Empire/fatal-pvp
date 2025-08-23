@@ -1,0 +1,73 @@
+{
+  "function": "minecraft:set_lore",
+  "lore": [
+    [
+      {
+        "text": "-- ",
+        "color": "white",
+        "italic": false
+      },
+      {
+        "text": "敵意",
+        "color": "dark_red",
+        "italic": false
+      },
+      {
+        "text": " --",
+        "color": "white",
+        "italic": false
+      }
+    ],
+    [
+      {
+        "text": "攻撃的中時",
+        "color":"yellow",
+        "italic": false
+      }
+    ],
+    [
+      {
+        "text": "対象の",
+        "color": "white",
+        "italic": false
+      },
+      {
+        "text":"現在体力",
+        "color":"red",
+        "italic":false
+      },
+      {
+        "text": "と自身が行った攻撃に対応する属性の",
+        "color": "white",
+        "italic": false
+      },
+      {
+        "text":"防御力",
+        "color":"dark_blue",
+        "italic":false
+      },
+      {
+        "text":"が自分より高い敵に対し、",
+        "color":"white",
+        "italic":false
+      },
+      {
+        "text":"ダメージ量",
+        "color":"red",
+        "italic":false
+      },
+      {
+        "text":"+30%",
+        "color":"gold",
+        "italic":false
+      },
+      {
+        "text":"。",
+        "color":"white",
+        "italic":false
+      }
+    ]
+    
+  ],
+  "mode": "append"
+}

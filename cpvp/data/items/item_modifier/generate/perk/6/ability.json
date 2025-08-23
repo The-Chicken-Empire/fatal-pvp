@@ -1,0 +1,53 @@
+{
+  "function": "minecraft:set_lore",
+  "lore": [
+    [
+      {
+        "text": "-- ",
+        "color": "white",
+        "italic": false
+      },
+      {
+        "text": "次。",
+        "color": "dark_blue",
+        "italic": false
+      },
+      {
+        "text": " --",
+        "color": "white",
+        "italic": false
+      }
+    ],
+    [
+      {
+        "text": "プレイヤー討伐時",
+        "color":"yellow",
+        "italic": false
+      }
+    ],
+    [
+      {
+        "text": "対象から32m以内にいる最も体力の低い敵1人を30秒間発光させ、",
+        "color": "white",
+        "italic": false
+      },
+      {
+        "text":"防御力",
+        "color":"dark_blue",
+        "italic":false
+      },
+      {
+        "text":"-20%",
+        "color":"gold",
+        "italic":false
+      },
+      {
+        "text":"。",
+        "color":"white",
+        "italic":false
+      }
+    ]
+    
+  ],
+  "mode": "append"
+}
