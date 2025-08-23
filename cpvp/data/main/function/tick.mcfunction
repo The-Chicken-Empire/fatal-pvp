@@ -2,7 +2,7 @@
 function system:cooltime/tick
 
 #常時耐性
-effect give @a resistance 5 10 true
+effect give @a resistance 42315 10 true
 effect give @a saturation 5 10 true
 
 #時間

@@ -23,6 +23,8 @@ execute if entity @s[tag=magic13deletemark] run function items:skills/magic/13/m
 #15
 execute if entity @s[tag=magic15] run function items:skills/magic/15/markertick
 execute if entity @s[tag=magic15-2] run function items:skills/magic/15/markertick2
+#17
+execute if entity @s[tag=seraph_overload] run function items:skills/magic/17/skill1/tick
 #15
 execute if entity @s[tag=magic16] run function items:skills/magic/16/markertick
 execute if entity @s[tag=magic16-2] run function items:skills/magic/16/markertick2
@@ -32,6 +34,9 @@ execute if entity @s[tag=magic16-3] run function items:skills/magic/16/markertic
 execute if entity @s[tag=weapon3] run function items:skills/weapon/3/markertick
 #6
 execute if entity @s[tag=weapon6] run function items:skills/weapon/6/markertick
+##helemt
+#4
+execute if entity @s[tag=seraph_wing] run function items:skills/helmet/4/wings/auau
 ##chestplate
 execute if entity @s[tag=cp3d] run function items:skills/chestplate/3/markertick
 execute if entity @s[tag=cp3a] run function items:skills/chestplate/3/markertick2

@@ -1,0 +1,29 @@
+{
+  "function": "minecraft:set_lore",
+  "lore": [
+    [
+      {
+        "text": "天使が普遍的にもつ印章にして恩恵。",
+        "color": "dark_gray",
+        "italic": true
+      }],[
+      {
+        "text": "その天使が持つ力が強いほどその輝きは強くなる",
+        "color": "dark_gray",
+        "italic": true
+      }],[
+      {
+        "text": "翼を纏うにつれてその力は更なる進化を遂げ、",
+        "color": "dark_gray",
+        "italic": true
+      }],[
+      {
+        "text": "限界を超え研がれた狂気は遍くを貫く。",
+        "color": "dark_gray",
+        "italic": true
+      }
+      
+    ]
+  ],
+  "mode": "append"
+}

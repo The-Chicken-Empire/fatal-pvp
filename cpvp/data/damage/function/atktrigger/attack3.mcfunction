@@ -1,0 +1,1 @@
+$execute at @s run function items:skills/$(itemtype)/$(id)/atktrigger/attack3/$(atktype)

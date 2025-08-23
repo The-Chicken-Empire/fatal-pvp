@@ -9,6 +9,7 @@ scoreboard players set $damageadd damagecalc 100
 #damage1trigger とにかくhitした時
 execute as @e[tag=atker] run function items:triggers/attack1/check
 execute as @e[tag=victim] run function items:triggers/attacked1/check
+execute as @e[tag=atker] run function damage:atktrigger/attack1 with storage atktrigger: hage
 
 #agi処理
 execute store result score $dummy random run random value 1..100
@@ -23,6 +24,7 @@ tag @s remove unavoidable
 #damage2trigger 軽減とか上昇とか
 execute as @e[tag=atker] run function items:triggers/attack2/check
 execute as @e[tag=victim] run function items:triggers/attacked2/check
+execute as @e[tag=atker] run function damage:atktrigger/attack2 with storage atktrigger: hage
 
 #与ダメージ者damage処理
 execute if entity @s[tag=victim,tag=magicdamagetmp] run scoreboard players operation $damagecalcatk damagecalc += @a[tag=atker,limit=1] magicdmg
@@ -78,6 +80,7 @@ scoreboard players operation @s damagetaken /= $10000 main
 #damage3trigger
 execute as @e[tag=atker] run function items:triggers/attack3/check
 execute as @e[tag=victim] run function items:triggers/attacked3/check
+execute as @e[tag=atker] run function damage:atktrigger/attack3 with storage atktrigger: hage
 
 #ダメージ上限
 execute if score $maxdamage damagecalc matches -2147483648..2147483647 if score @s damagetaken > $maxdamage damagecalc run scoreboard players operation @s damagetaken = $maxdamage damagecalc
