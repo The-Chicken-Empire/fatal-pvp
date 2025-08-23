@@ -69,9 +69,9 @@ execute as @a run function effects:system/tick/
 function items:tick
 scoreboard players set @a using 0
 # スキル用marker用score
-execute if entity @e[tag=skillmarker] as @e[tag=skillmarker] run scoreboard players add @s skills 1
+execute if entity @e[tag=skillmarker,limit=1] as @e[tag=skillmarker] run scoreboard players add @s skills 1
 # スキルmarker用tickファイル
-execute if entity @e[tag=skillmarker] as @e[tag=skillmarker] at @s run function items:markertick
+execute if entity @e[tag=skillmarker,limit=1] as @e[tag=skillmarker] at @s run function items:markertick
 
 
 #actionbar

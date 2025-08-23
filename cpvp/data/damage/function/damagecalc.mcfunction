@@ -1,9 +1,3 @@
-#幸運 被ダメージ軽減 lv*10%
-#不運 被ダメージ増加 lv*10%
-#村の英雄 与ダメージ増加 lv*10%
-#不吉な予感 与ダメージ減少 lv*10%
-#試練の予感 クリティカル確率上昇 lv*2%
-
 
 #reset
 scoreboard players set $damagecalc damagecalc 0
@@ -19,6 +13,7 @@ execute as @e[tag=victim] run function items:triggers/attacked1/check
 #agi処理
 execute store result score $dummy random run random value 1..100
 execute if entity @e[tag=victim,tag=unavoidable] run scoreboard players set $dummy random 10000
+execute as @a[tag=unavoidable,tag=victim] at @s run playsound block.trial_spawner.ambient_ominous block @s ~ ~ ~ 1 2 1
 execute if score $dummy random <= @s agi at @s run playsound entity.breeze.wind_burst master @a ~ ~ ~ 1 1.5
 execute if score $dummy random <= @s agi run particle minecraft:white_smoke ~ ~1 ~ 0.1 0.8 0.1 0.2 20
 execute if score $dummy random <= @s agi run function damage:avoid

@@ -3,3 +3,5 @@ execute if score @a[tag=atker,limit=1] cc >= $dummy random run scoreboard player
 execute if score @a[tag=atker,limit=1] cc >= $dummy random at @s run playsound minecraft:entity.zombie.break_wooden_door master @a ~ ~ ~ 1 0.8
 execute if score @a[tag=atker,limit=1] cc >= $dummy random at @s run particle block{block_state:"minecraft:redstone_block"} ~ ~1 ~ 0.1 0.8 0.1 1 20 normal
 execute if score @a[tag=atker,limit=1] cc >= $dummy random run tag @s add critical
+
+execute if entity @e[tag=victim,tag=critical] as @e[tag=atker,limit=1] run function items:triggers/critical/check

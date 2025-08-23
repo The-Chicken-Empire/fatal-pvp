@@ -1,0 +1,21 @@
+{
+  "function": "minecraft:set_custom_data",
+  "tag": {
+    "cpvp": {
+      "id": 5,
+      "item_type": "helmet",
+      "helmet": {
+        "stats": {
+          "physicaldmg": 10,
+          "mr": 10,
+          "bonusattackspeed": 10
+        },
+        "triggers": [
+          "tick",
+          "critical"
+        ]
+      },
+      "regularitem": 1
+    }
+  }
+}

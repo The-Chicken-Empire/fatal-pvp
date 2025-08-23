@@ -1,0 +1,29 @@
+{
+  "function": "minecraft:set_components",
+  "components": {
+    "max_stack_size": 1,
+    "minecraft:attribute_modifiers": [
+      {
+        "type": "minecraft:attack_damage",
+        "id": "offhand9",
+        "amount": 0,
+        "operation": "add_value",
+        "slot": "mainhand"
+      },
+      {
+        "type": "attack_speed",
+        "id": "offhand9",
+        "amount": 0,
+        "operation": "add_value",
+        "slot": "mainhand"
+      }
+    ],
+    "minecraft:tooltip_display": {
+      "hidden_components": [
+        "minecraft:attribute_modifiers",
+        "unbreakable"
+      ]
+    },
+    "unbreakable": {}
+  }
+}

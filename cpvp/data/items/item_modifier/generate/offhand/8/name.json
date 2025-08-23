@@ -1,0 +1,10 @@
+{
+  "function": "minecraft:set_name",
+  "name": [
+    {
+      "text": "彼方より殺意を込めて",
+      "color": "aqua" ,
+      "italic": false
+    }
+  ]
+}

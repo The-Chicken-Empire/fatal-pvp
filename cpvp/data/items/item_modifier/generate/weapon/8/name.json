@@ -1,0 +1,10 @@
+{
+  "function": "minecraft:set_name",
+  "name": [
+    {
+      "text": "Sword of A.D.",
+      "color": "dark_blue",
+      "italic": false
+    }
+  ]
+}

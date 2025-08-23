@@ -1,0 +1,10 @@
+{
+  "function": "minecraft:set_name",
+  "name": [
+    {
+      "text": "翡翠色の道筋",
+      "color": "green",
+      "italic": false
+    }
+  ]
+}
