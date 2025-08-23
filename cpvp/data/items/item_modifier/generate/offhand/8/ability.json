@@ -1,0 +1,74 @@
+{
+  "function": "minecraft:set_lore",
+  "lore": [
+    [
+      {
+        "text": "-- ",
+        "color": "white",
+        "italic": false
+      },
+      {
+        "text": "避けてくれるなよ？",
+        "color": "dark_aqua",
+        "italic": false
+      },
+      {
+        "text": " --",
+        "color": "white",
+        "italic": false
+      }
+    ],
+    [
+      {
+        "text": "攻撃時",
+        "italic": false,
+        "color":"yellow"
+      }
+    ],
+    [
+      {
+        "text": "自身の",
+        "color": "white",
+        "italic": false
+      },
+      {
+        "text": "HP",
+        "color": "red",
+        "italic": false
+      },
+      {
+        "text": "が",
+        "color": "white",
+        "italic": false
+      },
+      {
+        "text": "50%",
+        "color": "yellow",
+        "italic": false
+      },
+      {
+        "text": "未満の時、",
+        "color": "white",
+        "italic": false
+      }
+    ],
+    [
+      {
+        "text": "自身の攻撃全てに",
+        "color": "white",
+        "italic": false
+      },
+      {
+        "text": "回避不可",
+        "color": "dark_gray",
+        "italic": false
+      },
+      {
+        "text": "を付与する",
+        "color": "white",
+        "italic": false
+      }
+    ]
+  ],
+  "mode": "append"
+}

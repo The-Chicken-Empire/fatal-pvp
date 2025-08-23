@@ -1,0 +1,1 @@
+item modify entity @s armor.legs items:leggings/4/false

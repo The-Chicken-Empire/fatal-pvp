@@ -1,0 +1,86 @@
+{
+  "function": "minecraft:set_lore",
+  "lore": [
+    [
+      {
+        "text": "-- ",
+        "color": "white",
+        "italic": false
+      },
+      {
+        "text": "私が失くした愛を",
+        "italic": false,
+        "color":"dark_blue"
+      },
+      {
+        "text": "-- ",
+        "color": "white",
+        "italic": false
+      }
+    ],
+    [
+      {
+        "text": "常時",
+        "italic": false,
+        "color":"yellow"
+      }
+    ],
+    [
+      {
+        "text": "装備",
+        "color": "yellow",
+        "italic": false
+      },
+      {
+        "text": " : ",
+        "italic": false,
+        "color":"white"
+      },
+      {
+        "text": "『蒼黒の傷跡』",
+        "color": "dark_blue",
+        "italic": false
+      },
+      {
+        "text": "を装備時、",
+        "italic": false,
+        "color":"white"
+      }
+    ],
+    [
+      {
+        "text": "MP回復力",
+        "color": "aqua",
+        "italic": false
+      },
+      {
+        "text": " : ",
+        "color": "white",
+        "italic": false
+      },
+      {
+        "text": "+15%",
+        "color": "gold",
+        "italic": false
+      }
+    ],
+    [
+      {
+        "text": "最大充電",
+        "color": "yellow",
+        "italic": false
+      },
+      {
+        "text": " : ",
+        "color": "white",
+        "italic": false
+      },
+      {
+        "text": "+5",
+        "color": "gold",
+        "italic": false
+      }
+    ]
+  ],
+  "mode": "append"
+}
