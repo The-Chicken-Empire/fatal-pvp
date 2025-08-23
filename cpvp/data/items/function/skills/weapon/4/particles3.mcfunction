@@ -1,4 +1,5 @@
 ##演出
+tag @s add weapon4tmp
 playsound entity.player.attack.sweep player @a ~ ~ ~ 1 1.1
 playsound minecraft:block.amethyst_block.chime block @a ~ ~ ~ 10 0.7
 particle end_rod ~ ~-1 ~ 0.25 3 0.25 0.05 100 force
@@ -165,4 +166,5 @@ execute positioned ^-1.62 ^ ^-1.18 positioned ~-0.5 ~-0.5 ~-0.5 if entity @e[tag
 execute positioned ^-1.18 ^ ^-1.62 positioned ~-0.5 ~-0.5 ~-0.5 if entity @e[tag=playing,dx=0] as @e[tag=playing,dx=0] unless score @s teamscore = @e[tag=weapon4tmp,limit=1] teamscore run function items:skills/weapon/4/hit2
 execute positioned ^-0.62 ^ ^-1.9 positioned ~-0.5 ~-0.5 ~-0.5 if entity @e[tag=playing,dx=0] as @e[tag=playing,dx=0] unless score @s teamscore = @e[tag=weapon4tmp,limit=1] teamscore run function items:skills/weapon/4/hit2
 ##weapon4victmpを削除(詳しくはhit.mcfunction)
+tag @s remove weapon4tmp
 execute if entity @e[tag=weapon4victmp] run tag @e remove weapon4victmp

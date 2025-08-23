@@ -28,6 +28,9 @@ execute if entity @s[tag=magic14item] run function items:skills/magic/14/markert
 execute if entity @s[tag=weapon3] run function items:skills/weapon/3/markertick
 #4
 execute if entity @s[tag=weapon4] run function items:skills/weapon/4/markertick
+execute if entity @s[tag=weapon4-5] run function items:skills/weapon/4/markertick2
+#5
+execute if entity @s[tag=w5marker] run function items:skills/weapon/5/markertick
 
 ##chestplate
 execute if entity @s[tag=cp3d] run function items:skills/chestplate/3/markertick

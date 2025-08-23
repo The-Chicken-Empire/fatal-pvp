@@ -27,6 +27,43 @@
     ],
     [
       {
+        "text": "消費MP",
+        "italic": false,
+        "color":"blue"
+      },
+      {
+        "text": " : ",
+        "italic": false,
+        "color":"white"
+      },
+      {
+        "text": "16",
+        "italic": false,
+        "color":"green"
+      },
+      {
+        "text":" ",
+        "color":"white",
+        "italic":false
+      },
+      {
+        "text": "クールタイム",
+        "italic": false,
+        "color":"dark_aqua"
+      },
+      {
+        "text": " : ",
+        "italic": false,
+        "color":"white"
+      },
+      {
+        "text": "16秒",
+        "italic": false,
+        "color":"green"
+      }
+    ],
+    [
+      {
         "text": "周囲に小規模な爆発を起こす、人参型の爆弾を大量にばら撒く。",
         "color": "white",
         "italic": false

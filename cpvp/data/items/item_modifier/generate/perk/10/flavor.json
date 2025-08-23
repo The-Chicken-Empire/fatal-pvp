@@ -1,0 +1,20 @@
+{
+  "function": "minecraft:set_lore",
+  "lore": [
+    [
+      {
+        "text":"なぜそれだけの幸福を得ておきながら、辛そうな顔ができるのだ。",
+        "color":"dark_gray",
+        "italic":true
+      }
+    ],
+    [
+      {
+        "text": "なぜのうのうと生きていられるのだ。",
+        "color": "dark_gray",
+        "italic": true
+      }
+    ]
+  ],
+  "mode": "append"
+}

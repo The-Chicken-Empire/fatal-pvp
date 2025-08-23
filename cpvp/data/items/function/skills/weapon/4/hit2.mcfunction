@@ -7,7 +7,7 @@ scoreboard players operation @s attackerdata = @e[tag=weapon4tmp,limit=1] player
 tag @s add physicaldamage
 tag @s add meleedamage
 #damage量
-scoreboard players set @s damagetaken 40
+scoreboard players set @s damagetaken 30
 
 #attackercheck
 function damage:atkercheck

@@ -1,0 +1,10 @@
+{
+  "function": "minecraft:set_name",
+  "name": [
+    {
+      "text": "紅く染まった包帯",
+      "color": "red",
+      "italic": false
+    }
+  ]
+}

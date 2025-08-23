@@ -4,7 +4,7 @@
     "minecraft:attribute_modifiers": [
       {
         "type": "minecraft:attack_damage",
-        "id": "weapon3",
+        "id": "weapon4",
         "amount": 3.0,
         "operation": "add_value",
         "slot": "mainhand"

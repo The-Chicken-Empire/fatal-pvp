@@ -1,0 +1,82 @@
+{
+  "function": "minecraft:set_lore",
+  "lore": [
+    [
+      ""
+    ],
+    [
+      {
+        "text": "-- ",
+        "color": "white",
+        "italic": false
+      },
+      {
+        "text": "枯れた涙の代わりに流れる汚血",
+        "color": "red",
+        "italic": false
+      },
+      {
+        "text": " --",
+        "color": "white",
+        "italic": false
+      }
+    ],
+    [
+      {
+        "text": "味方死亡時",
+        "italic": false,
+        "color":"yellow"
+      }
+    ],
+    [
+      {
+        "text": "最大体力",
+        "color": "red",
+        "italic": false
+      },
+      {
+        "text": "の",
+        "color": "white",
+        "italic": false
+      },
+      {
+        "text": "10%",
+        "color": "gold",
+        "italic": false
+      },
+      {
+        "text": "だけ",
+        "color": "white",
+        "italic": false
+      },
+      {
+        "text": "体力",
+        "color": "red",
+        "italic": false
+      },
+      {
+        "text": "を回復する。",
+        "color": "white",
+        "italic": false
+      }
+    ],
+    [
+      {
+        "text": "戦闘していない時間が長引くと、自身の",
+        "color": "white",
+        "italic": false
+      },
+      {
+        "text": "体力",
+        "color": "red",
+        "italic": false
+      },
+      {
+        "text": "が少しずつ減り始める。",
+        "color": "white",
+        "italic": false
+      }
+    ]
+  ],
+  "mode": "append"
+}

@@ -1,0 +1,2 @@
+execute if entity @s[tag=physicaldamagetmp] if score @s physicaldef > @e[tag=atker,limit=1] physicaldef run scoreboard players add $damageadd damagecalc 30
+execute if entity @s[tag=magicdamagetmp] if score @s magicdef > @e[tag=atker,limit=1] magicdef run scoreboard players add $damageadd damagecalc 30

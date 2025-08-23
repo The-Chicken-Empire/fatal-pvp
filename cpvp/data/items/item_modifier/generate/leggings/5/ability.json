@@ -1,0 +1,39 @@
+{
+  "function": "minecraft:set_lore",
+  "lore": [
+    [
+      {
+        "text": "-- ",
+        "color": "white",
+        "italic": false
+      },
+      {
+        "text": "忍び歩き",
+        "color": "white",
+        "italic": false
+      },
+      {
+        "text": " --",
+        "color": "white",
+        "italic": false
+      }
+    ],
+    [
+      {
+        "text": "シフト中発動",
+        "italic": false,
+        "color":"yellow"
+      }
+    ],
+    [
+      {
+        "text": "移動速度が通常の歩きと同じ速度になる。",
+        "color": "white",
+        "italic": false
+      }
+    ],
+    [""]
+  ],
+
+  "mode": "append"
+}
