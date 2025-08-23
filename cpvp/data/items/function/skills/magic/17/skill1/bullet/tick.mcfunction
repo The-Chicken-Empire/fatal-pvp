@@ -5,4 +5,4 @@ execute at @s run function items:skills/magic/17/skill1/bullet/tp
 tag @s remove cp.tmp
 execute if entity @s[tag=cp.remove] run return run kill
 
-execute if score @s counter matches 100.. run function items:skills/magic/17/skill1/mine/set
+execute if score @s counter matches 100.. run kill
