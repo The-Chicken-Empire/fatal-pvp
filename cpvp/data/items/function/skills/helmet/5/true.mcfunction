@@ -1,0 +1,1 @@
+item modify entity @s armor.head items:helmet/5/true

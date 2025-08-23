@@ -8,6 +8,9 @@ scoreboard objectives add deathtimer dummy
 scoreboard objectives add deathsentence dummy
 
 #system
+gamerule naturalRegeneration false
+scoreboard objectives add entitydata dummy
+execute unless score $base entitydata matches -2147483648..2147483647 run scoreboard players set $base entitydata 1
 scoreboard objectives add tmp dummy
 scoreboard objectives add ID dummy
 execute unless score $init ID matches -2147483648..2147483647 run scoreboard players set $init ID 0
@@ -32,6 +35,7 @@ scoreboard players set $8 main 8
 scoreboard players set $9 main 9
 scoreboard players set $10 main 10
 scoreboard players set $20 main 20
+scoreboard players set $23 main 23
 scoreboard players set $200 main 200
 scoreboard players set $400 main 400
 scoreboard players set $100 main 100
@@ -76,6 +80,7 @@ scoreboard players set @a mpcost 0
 scoreboard players set @a hpcost 0
 scoreboard players set @a engcost 0
 scoreboard objectives add attackerdata dummy
+scoreboard objectives add getdamage dummy
 #銃system
 scoreboard objectives add bulletspeed dummy
 scoreboard objectives add bulletspeedtmp dummy
@@ -220,7 +225,15 @@ scoreboard objectives add magic13-3 dummy
 scoreboard objectives add magic13-4 dummy
 scoreboard objectives add magic13markID1 dummy
 scoreboard objectives add magic13markID2 dummy
+
 scoreboard objectives add weapon4 dummy
+
+scoreboard objectives add weapon8 dummy
+scoreboard players set @a weapon8 0
+scoreboard objectives add weapon7 dummy
+scoreboard players set @a weapon8 0
+scoreboard objectives add offhand9 dummy
+
 
 #buff用
 scoreboard objectives add maxhp_buff dummy

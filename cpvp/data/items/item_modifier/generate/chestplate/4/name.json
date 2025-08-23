@@ -1,0 +1,10 @@
+{
+  "function": "minecraft:set_name",
+  "name": [
+    {
+      "text": "深紅に染まった心",
+      "color": "dark_red",
+      "italic": false
+    }
+  ]
+}

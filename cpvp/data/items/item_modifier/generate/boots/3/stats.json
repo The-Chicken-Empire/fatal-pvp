@@ -1,0 +1,63 @@
+{
+  "function": "minecraft:set_lore",
+  "lore": [
+    [
+      {
+        "text": "物理防御力",
+        "color": "gold",
+        "italic": false
+      },
+      {
+        "text": " : ",
+        "color": "white",
+        "italic": false
+      },
+      {
+        "text": "+12%",
+        "color": "gold",
+        "italic": false
+      }
+    ],
+    [
+      {
+        "text": "回避率",
+        "color": "white",
+        "italic": false
+      },
+      {
+        "text": " : ",
+        "color": "white",
+        "italic": false
+      },
+      {
+        "text": "-4%",
+        "color": "gold",
+        "italic": false
+      }
+    ],
+    [
+      ""
+    ],
+    [
+      {
+        "text": "ノックバック耐性",
+        "color": "green",
+        "italic": false
+      },
+      {
+        "text": " : ",
+        "color": "white",
+        "italic": false
+      },
+      {
+        "text": "+50%",
+        "color": "gold",
+        "italic": false
+      }
+    ],
+    [
+      ""
+    ]
+  ],
+  "mode": "append"
+}

@@ -1,9 +1,3 @@
-#幸運 被ダメージ軽減 lv*10%
-#不運 被ダメージ増加 lv*10%
-#村の英雄 与ダメージ増加 lv*10%
-#不吉な予感 与ダメージ減少 lv*10%
-#試練の予感 クリティカル確率上昇 lv*2%
-
 
 #reset
 scoreboard players set $damagecalc damagecalc 0
@@ -15,18 +9,22 @@ scoreboard players set $damageadd damagecalc 100
 #damage1trigger とにかくhitした時
 execute as @e[tag=atker] run function items:triggers/attack1/check
 execute as @e[tag=victim] run function items:triggers/attacked1/check
+execute as @e[tag=atker] run function damage:atktrigger/attack1 with storage atktrigger: hage
 
 #agi処理
 execute store result score $dummy random run random value 1..100
 execute if entity @e[tag=victim,tag=unavoidable] run scoreboard players set $dummy random 10000
+execute as @a[tag=unavoidable,tag=victim] at @s run playsound block.trial_spawner.ambient_ominous block @s ~ ~ ~ 1 2 1
 execute if score $dummy random <= @s agi at @s run playsound entity.breeze.wind_burst master @a ~ ~ ~ 1 1.5
 execute if score $dummy random <= @s agi run particle minecraft:white_smoke ~ ~1 ~ 0.1 0.8 0.1 0.2 20
 execute if score $dummy random <= @s agi run function damage:avoid
 execute if score $dummy random <= @s agi run return fail
+tag @s remove unavoidable
 
 #damage2trigger 軽減とか上昇とか
 execute as @e[tag=atker] run function items:triggers/attack2/check
 execute as @e[tag=victim] run function items:triggers/attacked2/check
+execute as @e[tag=atker] run function damage:atktrigger/attack2 with storage atktrigger: hage
 
 #与ダメージ者damage処理
 execute if entity @s[tag=victim,tag=magicdamagetmp] run scoreboard players operation $damagecalcatk damagecalc += @a[tag=atker,limit=1] magicdmg
@@ -82,6 +80,11 @@ scoreboard players operation @s damagetaken /= $10000 main
 #damage3trigger
 execute as @e[tag=atker] run function items:triggers/attack3/check
 execute as @e[tag=victim] run function items:triggers/attacked3/check
+execute as @e[tag=atker] run function damage:atktrigger/attack3 with storage atktrigger: hage
+
+#ダメージ上限
+execute if score $maxdamage damagecalc matches -2147483648..2147483647 if score @s damagetaken > $maxdamage damagecalc run scoreboard players operation @s damagetaken = $maxdamage damagecalc
+scoreboard players reset $maxdamage damagecalc
 
 #変換
 scoreboard players operation @s damage = @s damagetaken

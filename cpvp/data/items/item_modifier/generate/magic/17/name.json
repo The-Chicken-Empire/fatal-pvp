@@ -1,0 +1,10 @@
+{
+  "function": "minecraft:set_name",
+  "name": [
+    {
+      "text": "緋想天の虹穿ち",
+      "color": "yellow",
+      "italic": false
+    }
+  ]
+}

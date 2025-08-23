@@ -6,3 +6,4 @@ execute at @s run playsound block.enchantment_table.use player @s ~ ~ ~ 0.5 0.5 
 execute at @s run particle happy_villager ~ ~1 ~ 0.4 1.2 0.4 0.2 25 normal
 
 tag @s remove cp3tmp
+function system:cooltime/general/set_ct_chestplate {cooltime:1200}

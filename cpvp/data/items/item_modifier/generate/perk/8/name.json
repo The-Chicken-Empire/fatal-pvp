@@ -1,0 +1,10 @@
+{
+  "function": "minecraft:set_name",
+  "name": [
+    {
+      "text": "未開の外殻",
+      "color": "light_purple",
+      "italic": false
+    }
+  ]
+}

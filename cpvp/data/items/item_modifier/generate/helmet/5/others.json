@@ -1,0 +1,22 @@
+{
+  "function": "minecraft:set_components",
+  "components": {
+    "max_stack_size": 1,
+    "enchantment_glint_override": false,
+    "minecraft:unbreakable": {},
+    "minecraft:tooltip_display": {
+      "hidden_components": [
+        "minecraft:unbreakable",
+        "minecraft:dyed_color",
+        "minecraft:trim",
+        "minecraft:attribute_modifiers",
+        "dyed_color"
+      ]
+    },
+    "equippable": {
+      "slot": "head",
+      "equip_sound": "minecraft:item.armor.equip_leather",
+      "swappable": true
+    }
+  }
+}

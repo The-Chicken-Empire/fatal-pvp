@@ -14,22 +14,6 @@
         "color": "dark_gray",
         "italic": true
       }
-    ],
-    [
-      {
-        "text": "ーーWorld-O-0 忘却処理...完了",
-        "color": "dark_gray",
-        "italic": true,
-        "obfuscated": false
-      }
-    ],
-    [
-      {
-        "text": "...二名の脱界を確認 管理者に報告されます",
-        "color": "dark_gray",
-        "italic": true,
-        "obfuscated": false
-      }
     ]
   ],
   "mode": "append"

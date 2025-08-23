@@ -1,0 +1,1 @@
+function effects:system/gain/ {id:2,duration:100,level:1}

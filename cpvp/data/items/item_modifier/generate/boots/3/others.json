@@ -1,0 +1,35 @@
+{
+  "function": "minecraft:set_components",
+  "components": {
+    "minecraft:attribute_modifiers": [
+      {
+        "type": "minecraft:armor",
+        "id": "minecraft:boots3",
+        "amount": 0,
+        "operation": "add_value",
+        "slot": "feet"
+      },
+      {
+        "type": "minecraft:knockback_resistance",
+        "id": "minecraft:boots3",
+        "amount": 5,
+        "operation": "add_value",
+        "slot": "feet"
+      }
+    ],
+    "minecraft:unbreakable": {},
+    "minecraft:tooltip_display": {
+      "hidden_components": [
+        "minecraft:unbreakable",
+        "minecraft:dyed_color",
+        "minecraft:trim",
+        "minecraft:attribute_modifiers",
+        "dyed_color"
+      ]
+    },
+    "minecraft:trim": {
+      "material": "minecraft:emerald",
+      "pattern": "minecraft:coast"
+    }
+  }
+}

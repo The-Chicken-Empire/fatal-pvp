@@ -1,0 +1,10 @@
+{
+  "function": "minecraft:set_name",
+  "name": [
+    {
+      "text": "熾天の神環",
+      "color": "yellow",
+      "italic": false
+    }
+  ]
+}

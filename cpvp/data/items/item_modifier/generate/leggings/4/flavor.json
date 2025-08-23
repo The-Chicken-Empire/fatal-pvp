@@ -1,0 +1,20 @@
+{
+  "function": "minecraft:set_lore",
+  "lore": [
+    [
+      {
+        "text": "君と歩んだ旅路は...長くも、苦しくもあった",
+        "color": "dark_gray",
+        "italic": true
+      }
+    ],
+      [
+      {
+        "text": "...それでも、楽しかったんだ",
+        "color": "dark_gray",
+        "italic": true
+      }
+    ]
+  ],
+  "mode": "append"
+}

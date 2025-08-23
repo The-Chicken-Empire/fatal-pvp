@@ -19,3 +19,6 @@ scoreboard players set @s magic7tank 0
 scoreboard players set @s offhand4-1 0
 scoreboard players set @s offhand4-2 0
 scoreboard players set @s offhand4-3 0
+
+
+function system:initialize

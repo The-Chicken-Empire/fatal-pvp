@@ -12,13 +12,14 @@ execute if entity @s[tag=combatdummy] run function damage:combat_dummy
 #攻撃判定
 execute if entity @s[type=!player,tag=!meleeentity] store result score @s tmp run data get entity @s Health
 execute if entity @s[type=!player,tag=!meleeentity] run data modify entity @s Health set value 1000
-execute if entity @s[type=!player,tag=!meleeentity] run damage @s 1 fall
+execute if entity @s[type=!player,tag=!meleeentity] run damage @s 1 cactus
 execute if entity @s[type=!player,tag=!meleeentity] store result entity @s Health float 1 run scoreboard players get @s tmp
 scoreboard players reset @s tmp
 tag @s remove meleeentity
 #この辺りに死亡回避処理とか
 execute if score @s hp matches ..0 run function items:triggers/death/check
 #reset
+scoreboard players operation $tmp getdamage = @s damage
 scoreboard players set @s damage 0
 #攻撃主取り出し
 execute if score @s hp matches 1.. if entity @a[tag=atker,limit=1] run function damage:getatker
@@ -32,6 +33,7 @@ execute unless score @s hp matches ..0 run function items:triggers/damaged/check
 execute store result storage cpvp:tmp tmp byte 1 run scoreboard players get @s playerdata
 function system:attackdata/remove with storage cpvp:tmp
 data remove storage cpvp:tmp tmp
+data remove storage atktrigger: hage
 
 #tag解除
 #tag @s remove physicaldamage

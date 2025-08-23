@@ -7,3 +7,4 @@ tag @s remove magicdamage
 tag @s remove meleedamage
 tag @s remove rangedamage
 tag @s remove specialdamage
+data remove storage atktrigger: hage

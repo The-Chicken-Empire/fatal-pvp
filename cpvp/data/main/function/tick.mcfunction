@@ -1,13 +1,9 @@
 #scoreboard players add $timer timer 1
 function system:cooltime/tick
-execute as @a run function system:pickupitem
-
-#初期処理
-execute if entity @e[type=#main:non_player,tag=!entity,limit=1] as @e[type=#main:non_player,tag=!entity] run tag @s add entity
-execute if entity @e[tag=!initialized,type=#main:entity_require_id,limit=1] as @e[tag=!initialized,type=#main:entity_require_id] run function system:initialize
 
 #常時耐性
-effect give @a resistance 5 10 true
+effect give @a resistance 42315 10 true
+effect give @a saturation 5 10 true
 
 #時間
 execute store result score $daytime main run time query daytime
@@ -61,8 +57,8 @@ execute as @a if score @s hp > @s maxhp run scoreboard players operation @s hp =
 execute as @a if score @s mp > @s maxmp run scoreboard players operation @s mp = @s maxmp
 execute as @a if score @s eng > @s maxeng run scoreboard players operation @s eng = @s maxeng
 
-
-
+#item
+execute if entity @e[type=item,tag=!skillmarker] as @e[type=item,tag=!skillmarker] run data modify entity @s PickupDelay set value 0
 
 #bafunoshori
 execute as @a run function effects:system/tick/
@@ -73,9 +69,9 @@ execute as @a run function effects:system/tick/
 function items:tick
 scoreboard players set @a using 0
 # スキル用marker用score
-execute if entity @e[tag=skillmarker] as @e[tag=skillmarker] run scoreboard players add @s skills 1
+execute if entity @e[tag=skillmarker,limit=1] as @e[tag=skillmarker] run scoreboard players add @s skills 1
 # スキルmarker用tickファイル
-execute if entity @e[tag=skillmarker] as @e[tag=skillmarker] at @s run function items:markertick
+execute if entity @e[tag=skillmarker,limit=1] as @e[tag=skillmarker] at @s run function items:markertick
 
 
 #actionbar

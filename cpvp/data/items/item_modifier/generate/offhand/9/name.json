@@ -1,0 +1,10 @@
+{
+  "function": "minecraft:set_name",
+  "name": [
+    {
+      "text": "限界生活",
+      "color": "white" ,
+      "italic": false
+    }
+  ]
+}

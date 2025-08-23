@@ -1,0 +1,13 @@
+[
+    {
+        "function": "set_item",
+        "item": "red_carpet"
+    },
+    {
+        "function": "set_components",
+        "components": {
+            "enchantment_glint_override": true
+        }
+    }
+
+]

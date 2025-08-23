@@ -1,4 +1,6 @@
 tellraw @s {text:"-----"}
+tellraw @s [{color:"red",text:"最大HP"},{color:"white",text:" : "},{color:"gold",score:{name:"@s",objective:maxhp}}]
+tellraw @s [{color:"blue",text:"最大MP"},{color:"white",text:" : "},{color:"gold",score:{name:"@s",objective:maxmp}}]
 tellraw @s [{color:"light_purple",text:"回復力"},{color:"white",text:" : "},{color:"gold",score:{name:"@s",objective:vit}}]
 tellraw @s [{color:"aqua",text:"MP回復力"},{color:"white",text:" : "},{color:"gold",score:{name:"@s",objective:mr}}]
 tellraw @s [{color:"dark_red",text:"攻撃力"},{color:"white",text:" : "},{color:"gold",score:{name:"@s",objective:damage}}]
@@ -14,4 +16,5 @@ tellraw @s [{color:"red",text:"近距離攻撃力"},{color:"white",text:" : "},{
 tellraw @s [{color:"red",text:"近距離防御力"},{color:"white",text:" : "},{color:"gold",score:{name:"@s",objective:meleedef}}]
 tellraw @s [{color:"blue",text:"遠距離攻撃力"},{color:"white",text:" : "},{color:"gold",score:{name:"@s",objective:rangedmg}}]
 tellraw @s [{color:"blue",text:"遠距離防御力"},{color:"white",text:" : "},{color:"gold",score:{name:"@s",objective:rangedef}}]
+tellraw @s [{color:"yellow",text:"攻撃速度"},{color:"white",text:" : "},{color:"gold",score:{name:"@s",objective:bonusattackspeed}}]
 tellraw @s {text:"-----"}

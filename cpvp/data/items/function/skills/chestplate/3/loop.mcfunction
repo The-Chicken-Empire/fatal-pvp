@@ -1,10 +1,9 @@
 scoreboard players set $tmp tmp 0
 
 #hit
-execute at @s positioned ^ ^ ^0.4 positioned ~-0.02 ~-0.02 ~-0.02 as @a[gamemode=!spectator,dx=1,dy=1,dz=1] positioned ~-0.96 ~-0.96 ~-0.96 if entity @s[dx=1,dy=1,dz=1] unless score @s teamscore = @e[tag=cp3tmp5,limit=1] ownerteam run function items:skills/chestplate/3/hit
-execute at @s positioned ^ ^ ^0.4 positioned ~-0.02 ~-0.02 ~-0.02 as @e[type=!player,dx=1,dy=1,dz=1] positioned ~-0.96 ~-0.96 ~-0.96 if entity @s unless score @s[dx=1,dy=1,dz=1] ownerteam = @e[tag=cp3tmp5,limit=1] ownerteam run function items:skills/chestplate/3/hit
+execute at @s positioned ^ ^ ^0.4 positioned ~-0.02 ~-0.02 ~-0.02 as @e[tag=playing,dx=1,dy=1,dz=1,limit=1] positioned ~-0.96 ~-0.96 ~-0.96 if entity @s unless score @s[dx=1,dy=1,dz=1] teamscore = @e[tag=cp3tmp5,limit=1] teamscore run function items:skills/chestplate/3/hit
 
-execute at @s unless block ^ ^ ^0.4 #air run scoreboard players set $tmp tmp 1
+execute at @s unless block ^ ^ ^0.4 #main:air run scoreboard players set $tmp tmp 1
 execute if score $tmp tmp matches 1.. run particle glow ~ ~ ~ 0 0 0 1 5 normal
 execute if score $tmp tmp matches 1.. run return run kill @s
 

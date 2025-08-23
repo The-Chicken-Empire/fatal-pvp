@@ -1,0 +1,1 @@
+$execute if data storage cpvp:entitydata ignore[{player:$(check)}] run scoreboard players set $check tmp 1
