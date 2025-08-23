@@ -1,0 +1,1 @@
+execute as @e[tag=victim] if score @s hp > @e[tag=atker,limit=1] hp run function items:skills/perk/10/damageincrease

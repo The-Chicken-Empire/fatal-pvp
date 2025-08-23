@@ -1,0 +1,11 @@
+{
+  "function": "minecraft:set_components",
+  "components": {
+    "equippable":
+      {
+      "slot":"head",
+      "equip_sound":"minecraft:entity.spider.step",
+      "swappable":true
+      }
+  }
+}

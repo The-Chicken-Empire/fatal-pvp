@@ -1,0 +1,11 @@
+{
+  "function": "minecraft:set_name",
+  "name": [
+    {
+      "text": "血濡れた薙刀",
+      "color": "dark_red",
+      "italic": false,
+      "bold":true
+    }
+  ]
+}

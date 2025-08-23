@@ -1,0 +1,17 @@
+{
+  "function": "minecraft:set_custom_data",
+  "tag": {
+    "cpvp": {
+      "id": 6,
+      "item_type": "helmet",
+      "helmet": {
+        "stats": {},
+        "triggers": [
+          "tick"
+        ]
+      },
+      "regularitem": 1,
+      "classitem":1
+    }
+  }
+}
