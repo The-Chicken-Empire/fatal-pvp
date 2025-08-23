@@ -8,6 +8,7 @@ scoreboard objectives add deathtimer dummy
 scoreboard objectives add deathsentence dummy
 
 #system
+gamerule naturalRegeneration false
 scoreboard objectives add entitydata dummy
 execute unless score $base entitydata matches -2147483648..2147483647 run scoreboard players set $base entitydata 1
 scoreboard objectives add tmp dummy
@@ -223,6 +224,11 @@ scoreboard objectives add magic13-3 dummy
 scoreboard objectives add magic13-4 dummy
 scoreboard objectives add magic13markID1 dummy
 scoreboard objectives add magic13markID2 dummy
+scoreboard objectives add weapon8 dummy
+scoreboard players set @a weapon8 0
+scoreboard objectives add weapon7 dummy
+scoreboard players set @a weapon8 0
+scoreboard objectives add offhand9 dummy
 
 #buff用
 scoreboard objectives add maxhp_buff dummy

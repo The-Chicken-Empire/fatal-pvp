@@ -1,0 +1,75 @@
+{
+  "function": "minecraft:set_lore",
+  "lore": [
+    [
+      {
+        "text": "-- ",
+        "color": "white",
+        "italic": false
+      },
+      {
+        "text": "永遠の戦友",
+        "italic": false,
+        "color":"dark_red"
+      },
+      {
+        "text": "-- ",
+        "color": "white",
+        "italic": false
+      }
+    ],
+    [
+      {
+        "text": "攻撃的中時",
+        "italic": false,
+        "color":"yellow"
+      }
+    ],
+    [
+      {
+        "text": "装備",
+        "color": "yellow",
+        "italic": false
+      },
+      {
+        "text": " : ",
+        "italic": false,
+        "color":"white"
+      },
+      {
+        "text": "『深紅に染まった心』",
+        "color": "dark_red",
+        "italic": false
+      },
+      {
+        "text": "を装備時、",
+        "italic": false,
+        "color":"white"
+      }
+    ],
+    [
+      {
+        "text": "クリティカル時",
+        "color": "yellow",
+        "italic": false
+      },
+      {
+        "text": "、ダメージを",
+        "color": "white",
+        "italic": false
+      },
+      {
+        "text": "+30%",
+        "color": "yellow",
+        "italic": false
+      }
+      ,
+      {
+        "text": "する",
+        "color": "white",
+        "italic": false
+      }
+    ]
+  ],
+  "mode": "append"
+}

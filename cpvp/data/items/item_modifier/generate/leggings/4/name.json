@@ -1,0 +1,10 @@
+{
+  "function": "minecraft:set_name",
+  "name": [
+    {
+      "text": "蒼黒の傷跡",
+      "color": "dark_blue",
+      "italic": false
+    }
+  ]
+}

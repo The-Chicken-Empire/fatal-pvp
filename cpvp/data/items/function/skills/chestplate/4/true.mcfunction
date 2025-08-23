@@ -1,0 +1,1 @@
+item modify entity @s armor.chest items:chestplate/4/true

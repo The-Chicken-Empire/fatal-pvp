@@ -1,0 +1,13 @@
+[
+    {
+        "function": "set_item",
+        "item": "orange_carpet"
+    },
+    {
+        "function": "set_components",
+        "components": {
+            "enchantment_glint_override": false
+        }
+    }
+
+]

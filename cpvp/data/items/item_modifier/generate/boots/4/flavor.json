@@ -1,0 +1,20 @@
+{
+  "function": "minecraft:set_lore",
+  "lore": [
+    [
+      {
+        "text": "会ったことはなくとも",
+        "color": "dark_gray",
+        "italic": true
+      }
+    ],
+      [
+      {
+        "text": "貴方は私の目標であった",
+        "color": "dark_gray",
+        "italic": true
+      }
+    ]
+  ],
+  "mode": "append"
+}

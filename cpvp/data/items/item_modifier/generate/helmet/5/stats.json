@@ -1,0 +1,60 @@
+{
+  "function": "minecraft:set_lore",
+  "lore": [
+    [
+      {
+        "text": "物理攻撃力",
+        "color": "gold",
+        "italic": false
+      },
+      {
+        "text": " : ",
+        "color": "white",
+        "italic": false
+      },
+      {
+        "text": "+10%",
+        "color": "gold",
+        "italic": false
+      }
+    ],
+    [
+      {
+        "text": "MP回復力",
+        "color": "aqua",
+        "italic": false
+      },
+      {
+        "text": " : ",
+        "color": "white",
+        "italic": false
+      },
+      {
+        "text": "+10%",
+        "color": "gold",
+        "italic": false
+      }
+    ],
+    [
+      {
+        "text": "攻撃速度",
+        "color": "yellow",
+        "italic": false
+      },
+      {
+        "text": " : ",
+        "color": "white",
+        "italic": false
+      },
+      {
+        "text": "+10%",
+        "color": "gold",
+        "italic": false
+      }
+    ],
+    [
+      ""
+    ]
+  ],
+  "mode": "append"
+}
