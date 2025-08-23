@@ -61,6 +61,7 @@ execute as @a if score @s eng > @s maxeng run scoreboard players operation @s en
 execute if entity @e[type=item,tag=!skillmarker] as @e[type=item,tag=!skillmarker] run data modify entity @s PickupDelay set value 0
 
 #bafunoshori
+execute as @e[tag=playing,type=!player] run function effects:system/tick/
 execute as @a run function effects:system/tick/
 
 #skills
