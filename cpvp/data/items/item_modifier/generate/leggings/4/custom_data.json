@@ -8,7 +8,7 @@
         "stats": {
           "maxmp": 3000,
           "defence": 7,
-          "magicdmg": 5
+          "magicdmg": 10
         },
         "triggers": [
           "tick",

@@ -1,0 +1,10 @@
+{
+  "function": "minecraft:set_name",
+  "name": [
+    {
+      "text": "腕前",
+      "color": "#74003a",
+      "italic": false
+    }
+  ]
+}

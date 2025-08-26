@@ -90,7 +90,7 @@
       {
         "text": "攻撃力",
         "italic": false,
-        "color": "red"
+        "color": "dark_red"
       },
       {
         "text": "が",
@@ -110,7 +110,7 @@
       {
         "text": "防御力",
         "italic": false,
-        "color": "blue"
+        "color": "dark_blue"
       },
       {
         "text": "が",

@@ -6,7 +6,7 @@
       "item_type": "perk",
       "hotbar": {
         "stats": {
-          "maxhp": -20
+          "maxhp": -50
         },
         "triggers": [
           "attacked3"
