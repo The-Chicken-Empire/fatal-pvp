@@ -53,3 +53,8 @@ execute if entity @s[tag=cp3a] run function items:skills/chestplate/3/markertick
 execute if entity @s[tag=cp3a2] run function items:skills/chestplate/3/markertick3
 ##leggings
 execute if entity @s[tag=leggings1] run function items:skills/leggings/1/markertick
+##perk
+#perk11
+execute if entity @s[tag=perk11] run function items:skills/perk/11/markertick
+#perk13
+execute if entity @s[tag=perk13] run function items:skills/perk/13/markertick
