@@ -1,0 +1,10 @@
+{
+  "function": "minecraft:set_name",
+  "name": [
+    {
+      "text": "魂奪の薙鎌",
+      "color": "dark_red",
+      "italic": false
+    }
+  ]
+}

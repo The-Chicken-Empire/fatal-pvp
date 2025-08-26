@@ -1,7 +1,15 @@
 {
   "function": "minecraft:set_components",
   "components": {
-    "minecraft:attribute_modifiers": [],
+    "minecraft:attribute_modifiers": [
+      {
+        "type": "minecraft:armor",
+        "id": "minecraft:helmet1",
+        "amount": 0,
+        "operation": "add_value",
+        "slot": "feet"
+      }
+    ],
     "minecraft:unbreakable": {},
     "minecraft:tooltip_display": {
       "hidden_components": [
@@ -11,14 +19,6 @@
         "minecraft:attribute_modifiers"
       ]
     },
-    "minecraft:custom_model_data": 
-    {"strings":["seraph_head"]},
-    "equippable":
-      {
-      "slot":"head",
-      "equip_sound":"minecraft:entity.spider.step",
-      "swappable":true
-      }
+    "minecraft:dyed_color":15883544
   }
-  
 }

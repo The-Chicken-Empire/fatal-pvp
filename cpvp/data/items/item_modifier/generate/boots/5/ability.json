@@ -8,8 +8,8 @@
         "italic": false
       },
       {
-        "text": "悠久の慈悲",
-        "color": "yellow",
+        "text": "Warden's Pride",
+        "color": "dark_red",
         "italic": false
       },
       {
@@ -27,47 +27,53 @@
     ],
     [
       {
-        "text": "[翼]",
-        "color": "yellow",
-        "italic": false
-      },
-      {
-        "text": "が30以下の時、",
+        "text": "移動速度が半減する代わりに",
         "color": "white",
         "italic": false
       }
     ],
     [
       {
-        "text":"視界が非常に悪くなる。",
+        "text": "移動速度",
         "color": "white",
         "italic": false
-      }],[
+      },
       {
-        "text":"全てのステータスが0.9倍になる。",
+        "text": "5%",
+        "color": "gold",
+        "italic": false
+      },
+      {
+        "text": "毎に",
         "color": "white",
         "italic": false
-      }
-    ],
-    [
+      },
       {
-        "text": "[翼]",
+        "text": "与える",
+        "color": "white",
+        "italic": false
+      },
+      {
+        "text": "ダメージ",
+        "color": "red",
+        "italic": false
+      },
+      {
+        "text":"が",
+        "color": "white",
+        "italic": false
+      },
+      {
+        "text":"1%",
         "color": "yellow",
         "italic": false
       },
       {
-        "text": "が31以上の時、",
-        "color": "white",
-        "italic": false
-      }
-    ],[
-      {
-        "text":"全てのステータスが1.15倍になる。",
+        "text":"増加する",
         "color": "white",
         "italic": false
       }
     ]
-
   ],
   "mode": "append"
 }

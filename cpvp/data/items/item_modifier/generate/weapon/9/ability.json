@@ -8,7 +8,27 @@
         "italic": false
       },
       {
-        "text": "オーバーロードエグゼキューション",
+        "text": "簒奪の天使",
+        "color": "dark_red",
+        "italic": false
+      },
+      {
+        "text": " --",
+        "color": "white",
+        "italic": false
+      }
+    ],
+    [{"text":"相手の防御力が高いほど与ダメージが増加する。","color":"white","italic": false}],
+    [{"text":"この武器でダメージを与えた時、","color":"white","italic": false},{"text":"[翼]]","color":"yellow","italic": false},{"text":"与ダメージの40%分だけ体力を回復する。","color":"white","italic": false}],
+    [{"text":""}],
+    [
+      {
+        "text": "-- ",
+        "color": "white",
+        "italic": false
+      },
+      {
+        "text": "ライフリーピング",
         "color": "red",
         "italic": false
       },
@@ -37,7 +57,7 @@
         "color":"white"
       },
       {
-        "text": "3/6 ",
+        "text": "6 ",
         "italic": false,
         "color":"green"
       },
@@ -52,7 +72,7 @@
         "color":"white"
       },
       {
-        "text": "3/6秒",
+        "text": "8秒",
         "italic": false,
         "color":"green"
       }
@@ -69,7 +89,7 @@
         "italic": false
       },
       {
-        "text": "1.5×4/2×4",
+        "text": "5",
         "color": "gold",
         "italic": false
       },
@@ -95,66 +115,27 @@
       }
     ],
     [
-      {"text":"[翼]","color":"yellow","italic": false},
       {
-        "text": "が30以下の時、消費MPとCTが大きく減少する。",
+        "text": "鎌を複製して投擲する。",
         "color": "white",
         "italic": false
       }
     ],
     [
       {
-        "text": "鋭利な弾丸を形成し、発射する。",
+        "text": "鎌はあらゆるものを貫通しながら飛行し、",
         "color": "white",
         "italic": false
       }
     ],
     [
       {
-        "text": "命中せずに着弾した場合、着弾地点に地雷を設置する。",
+        "text": "Uターンして手元に戻ってくる。",
         "color": "white",
         "italic": false
       }
     ],
-    [
-      {
-        "text": "この地雷は、3m以内に敵がいると炸裂する。",
-        "color": "white",
-        "italic": false
-      }
-    ],
-    [
-      {
-        "text": "このスキルでダメージを与えた時、自身は",
-        "color": "white",
-        "italic": false
-      },
-      {
-        "text": "翼",
-        "color": "yellow",
-        "italic": false
-      },
-      {
-        "text": "を得て、",
-        "color": "white",
-        "italic": false
-      }
-    ],
-    [
-      {
-        "text": "相手は2.5秒間被ダメージが2%(最大16%)増加する。",
-        "color": "white",
-        "italic": false
-      }
-    ],
-    
-    [
-      {
-        "text": "",
-        "color": "white",
-        "italic": false
-      }
-    ],
+        [{"text":""}],
     [
       {
         "text": "-- ",
@@ -162,8 +143,8 @@
         "italic": false
       },
       {
-        "text": "イグザルテッドセラフィエル・エンボヂメントオブジエンドオブアポカリプス",
-        "color": "dark_red",
+        "text": "ライフリーピング",
+        "color": "red",
         "italic": false
       },
       {
@@ -174,11 +155,24 @@
     ],
     [
       {
-        "text": "スニーク+右クリック",
+        "text": "右クリック",
         "italic": false,
         "color":"yellow"
       }
     ],
+    [
+      {
+        "text": "[翼]",
+        "color": "yellow",
+        "italic": false
+      },
+      {
+        "text": "が31以上の時に発動可能",
+        "color": "green",
+        "italic": false
+      }
+    ],
+    
     [
       {
         "text": "消費MP",
@@ -191,7 +185,7 @@
         "color":"white"
       },
       {
-        "text": "15 ",
+        "text": "10 ",
         "italic": false,
         "color":"green"
       },
@@ -206,7 +200,22 @@
         "color":"white"
       },
       {
-        "text": "15秒",
+        "text": "12秒",
+        "italic": false,
+        "color":"green"
+      },
+      {
+        "text": "[翼]",
+        "italic": false,
+        "color":"yellow"
+      },
+      {
+        "text": " : ",
+        "italic": false,
+        "color":"white"
+      },
+      {
+        "text": "12",
         "italic": false,
         "color":"green"
       }
@@ -223,7 +232,7 @@
         "italic": false
       },
       {
-        "text": "0.25~4x10~160",
+        "text": "6",
         "color": "gold",
         "italic": false
       },
@@ -250,36 +259,21 @@
     ],
     [
       {
-        "text": "翼",
-        "color": "yellow",
-        "italic": false
-      },
-      {
-        "text": "を全消費し、銃身をキャノンに変化させ、",
+        "text": "鎌を複製して投擲する。",
         "color": "white",
         "italic": false
       }
     ],
     [
       {
-        "text": "軌跡の上にあるものを焼身へと帰す光線を放つ。",
+        "text": "鎌は自身の周囲を周回し、接触したものを裁断する。",
         "color": "white",
         "italic": false
       }
     ],
     [
       {
-        "text": "消費した",
-        "color": "white",
-        "italic": false
-      },
-      {
-        "text": "翼",
-        "color": "yellow",
-        "italic": false
-      },
-      {
-        "text": "の4乗に比例して攻撃力と持続時間が延びる。",
+        "text": "5回攻撃した時、消滅する。",
         "color": "white",
         "italic": false
       }
