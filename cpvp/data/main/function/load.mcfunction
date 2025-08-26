@@ -229,6 +229,10 @@ scoreboard players set @a weapon8 0
 scoreboard objectives add weapon7 dummy
 scoreboard players set @a weapon8 0
 scoreboard objectives add offhand9 dummy
+scoreboard objectives add perk11 dummy
+scoreboard players set @a perk11 0
+scoreboard objectives add perk13 dummy
+scoreboard players set @a perk13 0
 
 #buff用
 scoreboard objectives add maxhp_buff dummy

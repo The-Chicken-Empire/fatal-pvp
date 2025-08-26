@@ -1,0 +1,19 @@
+{
+  "function": "minecraft:set_custom_data",
+  "tag": {
+    "cpvp": {
+      "id": 13,
+      "item_type": "perk",
+      "hotbar": {
+        "stats": {
+          "maxeng": 5
+        },
+        "triggers": [
+          "tick",
+          "attack2"
+        ]
+      },
+      "regularitem": 1
+    }
+  }
+}

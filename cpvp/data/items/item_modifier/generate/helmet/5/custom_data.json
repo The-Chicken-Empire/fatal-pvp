@@ -7,8 +7,8 @@
       "helmet": {
         "stats": {
           "physicaldmg": 10,
-          "mr": 10,
-          "bonusattackspeed": 10
+          "mr": 20,
+          "bonusattackspeed": 20
         },
         "triggers": [
           "tick",

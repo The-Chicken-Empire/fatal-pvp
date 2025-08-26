@@ -1,0 +1,10 @@
+{
+  "function": "minecraft:set_name",
+  "name": [
+    {
+      "text": "標的",
+      "color": "#e44f21",
+      "italic": false
+    }
+  ]
+}

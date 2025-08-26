@@ -42,11 +42,15 @@ execute if entity @s[tag=victim,tag=meleedamagetmp] run scoreboard players opera
 execute if entity @s[tag=victim,tag=rangedamagetmp] run scoreboard players operation $damagecalcdef damagecalc += @s rangedef
 scoreboard players operation $damagecalcdef damagecalc += @s defence
 #防御貫通
+#手前でvictim側に penetrate scoreを突っ込む
+
 scoreboard players set $penetrate damagecalc 100
 scoreboard players operation $penetrate damagecalc -= @s penetrate
 execute if score $penetrate damagecalc matches ..0 run scoreboard players set $penetrate damagecalc 0
 scoreboard players operation $damagecalcdef damagecalc *= $penetrate damagecalc
 scoreboard players operation $damagecalcdef damagecalc /= $100 main
+
+scoreboard players set @s penetrate 0
 
 scoreboard players operation $damagecalc damagecalc -= $damagecalcdef damagecalc
 #特殊ダメージ処理
