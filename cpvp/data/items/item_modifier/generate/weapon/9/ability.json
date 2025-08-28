@@ -19,7 +19,8 @@
       }
     ],
     [{"text":"相手の防御力が高いほど与ダメージが増加する。","color":"white","italic": false}],
-    [{"text":"この武器でダメージを与えた時、","color":"white","italic": false},{"text":"[翼]]","color":"yellow","italic": false},{"text":"与ダメージの40%分だけ体力を回復する。","color":"white","italic": false}],
+    [{"text":"この武器でダメージを与えた時、","color":"white","italic": false},{"text":"[翼]","color":"yellow","italic": false},{"text":"を2得る","color":"white","italic":false}],
+    [{"text":"与ダメージの40%分だけ体力を回復する。","color":"white","italic": false}],
     [{"text":""}],
     [
       {
@@ -205,7 +206,7 @@
         "color":"green"
       },
       {
-        "text": "[翼]",
+        "text": " [翼]",
         "italic": false,
         "color":"yellow"
       },

@@ -1,0 +1,10 @@
+{
+  "function": "minecraft:set_name",
+  "name": [
+    {
+      "text": "裁縫セット",
+      "color": "dark_red",
+      "italic": false
+    }
+  ]
+}
