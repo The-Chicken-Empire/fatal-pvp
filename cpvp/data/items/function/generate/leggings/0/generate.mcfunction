@@ -18,6 +18,6 @@ item modify block 0 0 0 container.0 items:generate/leggings/0/cost
 item modify block 0 0 0 container.0 items:generate/leggings/0/stats
 
 item modify block 0 0 0 container.0 items:generate/leggings/0/flavor
-aaaa
+
 #アトリビュートなどを追加したい場合はコメントをはずしてファイルを作成する
 #item modify block 0 0 0 container.0 items:generate/leggings/0/others
