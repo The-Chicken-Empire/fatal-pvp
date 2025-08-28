@@ -1,0 +1,10 @@
+{
+  "function": "minecraft:set_name",
+  "name": [
+    {
+      "text": "test",
+      "color": "white",
+      "italic": false
+    }
+  ]
+}
