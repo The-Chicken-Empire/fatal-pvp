@@ -1,0 +1,10 @@
+{
+  "function": "minecraft:set_name",
+  "name": [
+    {
+      "text": "身躱しの装衣",
+      "color": "white",
+      "italic": false
+    }
+  ]
+}
