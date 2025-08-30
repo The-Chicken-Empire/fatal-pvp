@@ -8,8 +8,8 @@
         "italic": false
       },
       {
-        "text": "ここにability名",
-        "color": "white",
+        "text": "回避性能",
+        "color": "blue",
         "italic": false
       },
       {
@@ -20,21 +20,14 @@
     ],
     [
       {
-        "text": "発動検知",
-        "italic": false,
-        "color": "yellow"
-      }
-    ],
-    [
-      {
-        "text": "cost",
+        "text": "回避のロールを2回行えるようになる。",
         "italic": false,
         "color": "white"
       }
     ],
     [
       {
-        "text": "内容",
+        "text": "回避不可を無効化する。",
         "italic": false,
         "color": "white"
       }
