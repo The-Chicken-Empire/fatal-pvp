@@ -177,7 +177,7 @@ function items:generate/magic/18/generate
 data modify storage cpvp:tmp gui.item set from block 0 0 0 Items[0]
 data modify storage cpvp:tmp gui.item.Slot set value 17b
 data modify storage gui_maker: input.addpage_enderchest.Items append from storage cpvp:tmp gui.item
-data modify storage gui_maker: input.addpage_enderchest.Items{Slot: 23b} set value {components: {'minecraft:custom_name': '次のページへ', 'minecraft:custom_data': {gui_maker: {trigger_function: "gui_maker:general/move_page_by_tag {tag:'magic2'}", trigger_item: 1b}}}, count: 1, Slot: 23b, id: 'minecraft:arrow'}
+data modify storage gui_maker: input.addpage_enderchest.Items[{Slot: 23b}] set value {components: {'minecraft:custom_name': '次のページへ', 'minecraft:custom_data': {gui_maker: {trigger_function: "gui_maker:general/move_page_by_tag {tag:'magic2'}", trigger_item: 1b}}}, count: 1, Slot: 23b, id: 'minecraft:arrow'}
 function gui_maker:general/addpage_enderchest
 
 #magic2
