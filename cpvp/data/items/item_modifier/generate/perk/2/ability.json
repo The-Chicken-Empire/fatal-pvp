@@ -40,7 +40,8 @@
         "text": "「20m以内に敵playerが居る」",
         "italic": false,
         "color":"yellow"
-      },
+      }]
+      ,[
       {
         "text": "状態で右クリックを押している間(重複可能)",
         "italic": false,
@@ -98,7 +99,7 @@
         "color": "white"
       },
       {
-        "text": "+5",
+        "text": "+5%",
         "italic": false,
         "color": "gold"
       },
@@ -118,7 +119,7 @@
         "color": "white"
       },
       {
-        "text": "-5",
+        "text": "-5%",
         "italic": false,
         "color": "gold"
       },

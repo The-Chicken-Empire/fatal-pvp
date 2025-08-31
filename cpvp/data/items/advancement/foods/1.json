@@ -5,7 +5,7 @@
       "conditions": {
         "item": {
           "items": "minecraft:dark_oak_trapdoor",
-          "components": {
+          "predicates": {
             "minecraft:custom_data": {
               "cpvp": {
                 "id": 1,
