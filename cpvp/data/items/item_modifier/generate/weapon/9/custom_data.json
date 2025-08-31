@@ -6,7 +6,7 @@
       "item_type": "weapon",
       "mainhand": {
         "stats": {
-          "attackspeed": 200
+          "attackspeed": 160
         },
         "triggers": [
           "right_click"

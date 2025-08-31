@@ -8,7 +8,7 @@
         "italic": false
       },
       {
-        "text": "悠久の慈悲",
+        "text": "新約の加護",
         "color": "yellow",
         "italic": false
       },
@@ -20,51 +20,40 @@
     ],
     [
       {
-        "text": "常時",
+        "text": "全てのステータスが30倍になる。",
         "italic": false,
-        "color":"yellow"
+        "color":"white"
       }
-    ],
+    ],[{"text":""}],
     [
       {
-        "text": "[翼]",
-        "color": "yellow",
+        "text": "-- ",
+        "color": "white",
         "italic": false
       },
       {
-        "text": "が30以下の時、",
-        "color": "white",
-        "italic": false
-      }
-    ],
-    [
-      {
-        "text":"視界が非常に悪くなる。",
-        "color": "white",
-        "italic": false
-      }],[
-      {
-        "text":"全てのステータスが0.9倍になる。",
-        "color": "white",
-        "italic": false
-      }
-    ],
-    [
-      {
-        "text": "[翼]",
-        "color": "yellow",
+        "text": "旧約の烙印",
+        "color": "dark_purple",
         "italic": false
       },
       {
-        "text": "が31以上の時、",
+        "text": " --",
         "color": "white",
         "italic": false
       }
-    ],[
+    ],
+    [
       {
-        "text":"全てのステータスが1.15倍になる。",
-        "color": "white",
-        "italic": false
+        "text": "視界が非常に悪くなる。",
+        "italic": false,
+        "color":"white"
+      }
+    ],
+    [
+      {
+        "text": "全てのステータスが0.05倍になる。",
+        "italic": false,
+        "color":"white"
       }
     ]
 

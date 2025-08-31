@@ -3,21 +3,28 @@
   "lore": [
     [
       {
-        "text": "命を刈り取る形をしている。",
+        "text": "叩かれた聖鉄で模られた白銀の刃は、",
         "color": "dark_gray",
         "italic": true
       }
     ],
     [
       {
-        "text": "正直、この文言はでかい鎌の武器が好きな人が",
+        "text": "切り裂いた身に宿った魂を意のままに刈り取る。",
         "color": "dark_gray",
         "italic": true
       }
     ],
     [
       {
-        "text": "必ず使う言い回しだと思うんだよね。",
+        "text": "刈り取られた魂は、純粋な無意識の塊に精錬され、",
+        "color": "dark_gray",
+        "italic": true
+      }
+    ],
+    [
+      {
+        "text": "新たな輪廻を紡ぐ担い手となり、時空を超える。",
         "color": "dark_gray",
         "italic": true
       }
