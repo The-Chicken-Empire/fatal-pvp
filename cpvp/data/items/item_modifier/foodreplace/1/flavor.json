@@ -1,0 +1,14 @@
+{
+  "function": "minecraft:set_lore",
+  "lore": [
+    
+    [
+      {
+        "text": "一般的なチョコレート。一般的過ぎる位だ。",
+        "color": "dark_gray",
+        "italic": true
+      }
+    ]
+  ],
+  "mode": "append"
+}

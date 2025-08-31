@@ -1,7 +1,7 @@
 data modify storage inventory inventory set from entity @s Inventory
 execute at @s run playsound minecraft:block.glass.break player @a ~ ~ ~ 1 0.5 1
 scoreboard players set @s weapon3 0
-setblock 0 0 0 shulker_box replace
+
 execute if items entity @s weapon.offhand *[custom_data~{cpvp:{regularitem:1b,item_type:"weapon",id:3b}}] run function items:skills/weapon/3/search/offhand with entity @s equipment.offhand.components."minecraft:custom_data".cpvp
 execute if items entity @s hotbar.0 *[custom_data~{cpvp:{regularitem:1b,item_type:"weapon",id:3b}}] run function items:skills/weapon/3/search/h0 with storage inventory inventory.[0].components."minecraft:custom_data".cpvp
 execute if items entity @s hotbar.0 * run data remove storage inventory inventory.[0]
@@ -78,4 +78,3 @@ execute if items entity @s inventory.26 * run data remove storage inventory inve
 item replace block 0 0 0 container.0 from entity @s player.cursor
 function items:skills/weapon/3/search/cursor with block 0 0 0 Items.[0].components."minecraft:custom_data".cpvp
 data remove storage inventory inventory
-setblock 0 0 0 air replace

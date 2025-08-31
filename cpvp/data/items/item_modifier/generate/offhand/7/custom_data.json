@@ -1,0 +1,21 @@
+{
+  "function": "minecraft:set_custom_data",
+  "tag": {
+    "cpvp": {
+      "id": 7,
+      "item_type": "offhand",
+      "offhand": {
+        "triggers": [
+          "tick",
+          "kill"
+        ],
+        "stats": 
+          {
+            "damage": 7
+          }
+        
+      },
+      "regularitem": 1
+    }
+  }
+}

@@ -10,7 +10,6 @@ execute as @e[type=marker,tag=weapon3,limit=1,sort=nearest,tag=!tagged] run scor
 execute as @e[type=marker,tag=weapon3,limit=1,sort=nearest] run tag @s add tagged
 
 #modify
-setblock 0 0 0 shulker_box replace
 item replace block 0 0 0 container.0 from entity @s weapon.mainhand
 item modify block 0 0 0 container.0 items:weapon/3/magiced
 data modify block 0 0 0 Items.[0].components."minecraft:custom_data" merge value {cpvp:{magiced:1b}}

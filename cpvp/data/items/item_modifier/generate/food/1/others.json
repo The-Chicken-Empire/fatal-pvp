@@ -2,9 +2,9 @@
   "function": "minecraft:set_components",
   "components": {
     "minecraft:consumable": {
-      "consume_seconds": 2147483647,
-      "animation": "block",
-      "sound": "minecraft:intentionally_empty",
+      "consume_seconds": 3,
+      "animation": "eat",
+      "sound": "block.dripstone_block.fall",
       "has_consume_particles": false
     }
   }

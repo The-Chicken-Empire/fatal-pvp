@@ -51,7 +51,7 @@ scoreboard objectives add playerdata dummy
 scoreboard objectives add damagetaken dummy
 scoreboard objectives add damagecalc dummy
 scoreboard objectives add penetrate dummy
-scoreboard objectives add damage dummy
+scoreboard objectives add damagepoint dummy
 scoreboard objectives add sth dummy
 scoreboard objectives add selecteditemA dummy
 scoreboard objectives add selecteditemB dummy
@@ -239,6 +239,9 @@ scoreboard objectives add perk11 dummy
 scoreboard players set @a perk11 0
 scoreboard objectives add perk13 dummy
 scoreboard players set @a perk13 0
+scoreboard objectives add offhand7 dummy
+scoreboard objectives add offhand7-2 dummy
+
 
 
 #buff用

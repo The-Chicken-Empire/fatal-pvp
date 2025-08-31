@@ -223,40 +223,6 @@
       }
     ],
     [
-      {
-        "text": "会心率",
-        "color": "yellow",
-        "italic": false
-      },
-      {
-        "text": " : ",
-        "color": "white",
-        "italic": false
-      },
-      {
-        "text": "+2%",
-        "color": "gold",
-        "italic": false
-      }
-    ],
-    [
-      {
-        "text": "回避率",
-        "color": "white",
-        "italic": false
-      },
-      {
-        "text": " : ",
-        "color": "white",
-        "italic": false
-      },
-      {
-        "text": "+2%",
-        "color": "gold",
-        "italic": false
-      }
-    ],
-    [
       ""
     ]
   ],
