@@ -37,12 +37,11 @@
         "color":"white"
       },
       {
-        "text": "+10",
+        "text": "+10 ",
         "italic": false,
         "color":"green"
       }
-    ],
-    [
+    ,
       {
         "text": "MP",
         "italic": false,
