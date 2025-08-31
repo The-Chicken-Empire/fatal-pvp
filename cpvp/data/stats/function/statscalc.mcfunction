@@ -103,6 +103,8 @@ scoreboard players operation @s maxmp += $10000 main
 scoreboard players operation @s mr += $100 main
 scoreboard players operation @s speed += $100 main
 scoreboard players operation @s bonusattackspeed += $100 main
+#helm1ねじこみ
+execute if items entity @s armor.head *[custom_data~{cpvp:{id:1b,item_type:"helmet"}}] run function items:skills/helmet/1/scalc
 #speed処理
 execute store result storage cpvp:stats speed float 0.001 run scoreboard players get @s speed
 function stats:speed with storage cpvp:stats

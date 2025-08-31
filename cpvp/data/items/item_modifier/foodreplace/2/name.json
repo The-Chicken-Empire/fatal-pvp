@@ -1,0 +1,10 @@
+{
+  "function": "minecraft:set_name",
+  "name": [
+    {
+      "text": "濃厚豚骨豚無双",
+      "color": "dark_red",
+      "italic": false
+    }
+  ]
+}
