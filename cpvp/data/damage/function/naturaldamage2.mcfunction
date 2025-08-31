@@ -1,9 +1,9 @@
 #緩衝体力処理
 execute if score @s absorption matches 1.. run function damage:absorption
 #体力減少
-scoreboard players operation @s hp -= @s damage
+scoreboard players operation @s hp -= @s damagepoint
 #reset
-scoreboard players set @s damage 0
+scoreboard players set @s damagepoint 0
 #この辺りに死亡回避処理とか
 execute if score @s hp matches ..0 run function items:triggers/death/check
 #damaged

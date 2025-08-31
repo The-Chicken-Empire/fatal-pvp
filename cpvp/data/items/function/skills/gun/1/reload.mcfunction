@@ -8,11 +8,9 @@ data modify storage tmp gundata.cpvp merge from storage tmp bullet
 data modify storage tmp gundata.cpvp.bullets set value 1b
 item modify entity @s weapon.mainhand items:gun/gundata
 #item replace
-setblock 0 0 0 minecraft:shulker_box{lock:{items:"barrier",count:1}} replace
 item replace block 0 0 0 container.0 from entity @s weapon.mainhand
 data modify block 0 0 0 Items.[0].components."minecraft:custom_data" set from storage tmp gundata
 item replace entity @s weapon.mainhand from block 0 0 0 container.0
-setblock 0 0 0 air replace
 
 #弾数 銃によって変わる
 scoreboard players set @s handgun 8

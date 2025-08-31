@@ -1,0 +1,22 @@
+{
+  "function": "minecraft:set_components",
+  "components": {
+    "max_stack_size":1,
+    "minecraft:attribute_modifiers": [
+      {
+        "type": "minecraft:attack_damage",
+        "id": "weapon8",
+        "amount": 4.5,
+        "operation": "add_value",
+        "slot": "mainhand"
+      }
+    ],
+    "minecraft:tooltip_display": {
+      "hidden_components": [
+        "minecraft:attribute_modifiers",
+        "unbreakable"
+      ]
+    },
+    "unbreakable": {}
+  }
+}

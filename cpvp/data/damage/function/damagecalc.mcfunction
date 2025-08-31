@@ -86,12 +86,15 @@ execute as @e[tag=atker] run function items:triggers/attack3/check
 execute as @e[tag=victim] run function items:triggers/attacked3/check
 execute as @e[tag=atker] run function damage:atktrigger/attack3 with storage atktrigger: hage
 
+#　ほ　か
+execute if entity @s[tag=victim,tag=magic19buff] run function items:skills/magic/19/counter
+
 #ダメージ上限
 execute if score $maxdamage damagecalc matches -2147483648..2147483647 if score @s damagetaken > $maxdamage damagecalc run scoreboard players operation @s damagetaken = $maxdamage damagecalc
 scoreboard players reset $maxdamage damagecalc
 
 #変換
-scoreboard players operation @s damage = @s damagetaken
+scoreboard players operation @s damagepoint = @s damagetaken
 scoreboard players reset @s damagetaken
 #damage処理
 function damage:damage

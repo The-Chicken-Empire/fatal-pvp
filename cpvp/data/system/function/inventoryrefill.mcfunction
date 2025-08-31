@@ -1,5 +1,5 @@
 data modify storage inventory inventory set from entity @s Inventory
-setblock 0 0 0 shulker_box replace
+
 execute if items entity @s weapon.offhand *[custom_data~{cpvp:{regularitem:1b}}] run function system:inventoryrefill/offhand with entity @s equipment.offhand.components."minecraft:custom_data".cpvp
 execute if items entity @s armor.head *[custom_data~{cpvp:{regularitem:1b}}] run function system:inventoryrefill/helmet with entity @s equipment.head.components."minecraft:custom_data".cpvp
 execute if items entity @s armor.chest *[custom_data~{cpvp:{regularitem:1b}}] run function system:inventoryrefill/chestplate with entity @s equipment.chest.components."minecraft:custom_data".cpvp
@@ -79,4 +79,3 @@ execute if items entity @s inventory.26 *[custom_data~{cpvp:{regularitem:1b}}] r
 execute if items entity @s inventory.26 * run data remove storage inventory inventory.[0]
 item replace block 0 0 0 container.0 from entity @s player.cursor
 function system:inventoryrefill/cursor with block 0 0 0 Items.[0].components."minecraft:custom_data".cpvp
-setblock 0 0 0 air replace
