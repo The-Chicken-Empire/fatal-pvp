@@ -177,18 +177,17 @@ function items:generate/magic/18/generate
 data modify storage cpvp:tmp gui.item set from block 0 0 0 Items[0]
 data modify storage cpvp:tmp gui.item.Slot set value 17b
 data modify storage gui_maker: input.addpage_enderchest.Items append from storage cpvp:tmp gui.item
-data modify storage gui_maker: input.addpage_enderchest.Items{Slot: 23b} set value {components: {'minecraft:custom_name': '次のページへ', 'minecraft:custom_data': {gui_maker: {trigger_function: 'gui_maker:general/move_page_by_tag {tag:'magic2'}', trigger_item: 1b}}}, count: 1, Slot: 23b, id: 'minecraft:allow'}
+data modify storage gui_maker: input.addpage_enderchest.Items{Slot: 23b} set value {components: {'minecraft:custom_name': '次のページへ', 'minecraft:custom_data': {gui_maker: {trigger_function: 'gui_maker:general/move_page_by_tag {tag:"magic2"}', trigger_item: 1b}}}, count: 1, Slot: 23b, id: 'minecraft:allow'}
 function gui_maker:general/addpage_enderchest
 
 #magic2
 data modify storage gui_maker: input.addpage_enderchest.tag set value magic2
 data modify storage gui_maker: input.addpage_enderchest.Items set from storage cpvp:tmp gui.display
-data modify storage gui_maker: input.addpage_enderchest.Items[{Slot: 21b}] set value {components: {'minecraft:custom_name': '前のページへ', 'minecraft:custom_data': {gui_maker: {trigger_function: 'gui_maker:general/move_page_by_tag {tag:'magic1'}', trigger_item: 1b}}}, count: 1, Slot: 21b, id: 'minecraft:allow'}
+data modify storage gui_maker: input.addpage_enderchest.Items[{Slot: 21b}] set value {components: {'minecraft:custom_name': '前のページへ', 'minecraft:custom_data': {gui_maker: {trigger_function: 'gui_maker:general/move_page_by_tag {tag:"magic1"}', trigger_item: 1b}}}, count: 1, Slot: 21b, id: 'minecraft:allow'}
 function items:generate/magic/19/generate
 data modify storage cpvp:tmp gui.item set from block 0 0 0 Items[0]
 data modify storage cpvp:tmp gui.item.Slot set value 0b
 data modify storage gui_maker: input.addpage_enderchest.Items append from storage cpvp:tmp gui.item
-data modify storage gui_maker: input.addpage_enderchest.Items[{Slot: 21b}] set value {components: {'minecraft:custom_name': '前のページへ', 'minecraft:custom_data': {gui_maker: {trigger_function: 'gui_maker:general/move_page_by_tag {tag:'magic1'}', trigger_item: 1b}}}, count: 1, Slot: 21b, id: 'minecraft:allow'}
 function gui_maker:general/addpage_enderchest
 
 #perk1
