@@ -1,0 +1,1 @@
+effect give @s hunger infinite 0 true

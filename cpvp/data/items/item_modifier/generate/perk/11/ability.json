@@ -49,7 +49,7 @@
       },
       {
         "text": "魔法",
-        "color": "gold",
+        "color": "dark_purple",
         "italic": false
       },
       {
@@ -59,7 +59,7 @@
       },
       {
         "text": "遠距離",
-        "color": "red",
+        "color": "blue",
         "italic": false
       }
     ],
@@ -119,7 +119,7 @@
         "color":"white"
       },
       {
-        "text": "水晶呪 lv3",
+        "text": "[水晶呪:3]",
         "italic": false,
         "color":"#37d7ff"
       },

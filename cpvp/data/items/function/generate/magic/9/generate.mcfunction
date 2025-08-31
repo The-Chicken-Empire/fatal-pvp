@@ -25,4 +25,4 @@ item modify block 0 0 0 container.0 items:generate/magic/9/parts
 item modify block 0 0 0 container.0 items:generate/magic/9/flavor
 
 #アトリビュートなどを追加したい場合はコメントをはずしてファイルを作成する
-#item modify block 0 0 0 container.0 items:generate/magic/9/others
+item modify block 0 0 0 container.0 items:generate/magic/9/others

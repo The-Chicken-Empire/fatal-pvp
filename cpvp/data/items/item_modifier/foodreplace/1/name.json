@@ -1,0 +1,10 @@
+{
+  "function": "minecraft:set_name",
+  "name": [
+    {
+      "text": "チョコレート",
+      "color": "#723d00",
+      "italic": false
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "function": "minecraft:set_name",
+  "name": [
+    {
+      "text": "Artifact",
+      "color": "#6ee65f",
+      "italic": false
+    }
+  ]
+}

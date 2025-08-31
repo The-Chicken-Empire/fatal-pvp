@@ -1,0 +1,143 @@
+{
+  "function": "minecraft:set_lore",
+  "lore": [
+    [{"text":""}],
+    [
+      {
+        "text": "-- ",
+        "color": "white",
+        "italic": false
+      },
+      {
+        "text": "見通した未来の死界",
+        "color": "#0a82f3",
+        "italic": false
+      },
+      {
+        "text": " --",
+        "color": "white",
+        "italic": false
+      }
+    ],
+    [
+      {
+        "text": "右クリック",
+        "italic": false,
+        "color":"yellow"
+      }
+    ],
+    [
+      {
+        "text": "消費MP",
+        "italic": false,
+        "color":"blue"
+      },
+      {
+        "text": " : ",
+        "italic": false,
+        "color":"white"
+      },
+      {
+        "text": "13 ",
+        "italic": false,
+        "color":"green"
+      },
+      {
+        "text": "クールタイム",
+        "italic": false,
+        "color":"dark_aqua"
+      },
+      {
+        "text": " : ",
+        "italic": false,
+        "color":"white"
+      },
+      {
+        "text": "20秒",
+        "italic": false,
+        "color":"green"
+      }
+    ],
+    [
+      {
+        "text": "三秒間、",
+        "color": "white",
+        "italic": false
+      },
+      {
+        "text": "防御力",
+        "color": "dark_blue",
+        "italic": false
+      },
+      {
+        "text": ":",
+        "color": "white",
+        "italic": false
+      },
+      {
+        "text": "+100% ",
+        "color": "gold",
+        "italic": false
+      },
+      {
+        "text": "攻撃力",
+        "color": "dark_red",
+        "italic": false
+      },
+      {
+        "text": ":",
+        "color": "white",
+        "italic": false
+      },
+      {
+        "text": "-100% ",
+        "color": "gold",
+        "italic": false
+      },
+      {
+        "text": "移動速度",
+        "color": "white",
+        "italic": false
+      },
+      {
+        "text": ":",
+        "color": "white",
+        "italic": false
+      },
+      {
+        "text": "-300% ",
+        "color": "gold",
+        "italic": false
+      },
+      {
+        "text": "ジャンプ不可",
+        "color": "gray",
+        "italic": false
+      },
+      {
+        "text": "を得る",
+        "color": "white",
+        "italic": false
+      }
+    ],
+    [
+      {
+        "text": "その間に攻撃を受けた場合、攻撃主に",
+        "color": "white",
+        "italic": false
+      },
+      {
+        "text": "[水晶呪:2]",
+        "color": "aqua",
+        "italic": false
+      },
+      {
+        "text": "を5秒付与する",
+        "color": "white",
+        "italic": false
+      }
+      
+    ]
+  ],
+  "mode": "append"
+}
