@@ -1,0 +1,79 @@
+{
+  "function": "minecraft:set_lore",
+  "lore": [
+    [
+      {
+        "text": "-- ",
+        "color": "white",
+        "italic": false
+      },
+      {
+        "text": "Warden's Pride",
+        "color": "dark_red",
+        "italic": false
+      },
+      {
+        "text": " --",
+        "color": "white",
+        "italic": false
+      }
+    ],
+    [
+      {
+        "text": "常時",
+        "italic": false,
+        "color":"yellow"
+      }
+    ],
+    [
+      {
+        "text": "移動速度が半減する代わりに",
+        "color": "white",
+        "italic": false
+      }
+    ],
+    [
+      {
+        "text": "移動速度",
+        "color": "white",
+        "italic": false
+      },
+      {
+        "text": "5%",
+        "color": "gold",
+        "italic": false
+      },
+      {
+        "text": "毎に",
+        "color": "white",
+        "italic": false
+      },
+      {
+        "text": "与える",
+        "color": "white",
+        "italic": false
+      },
+      {
+        "text": "ダメージ",
+        "color": "red",
+        "italic": false
+      },
+      {
+        "text":"が",
+        "color": "white",
+        "italic": false
+      },
+      {
+        "text":"1%",
+        "color": "yellow",
+        "italic": false
+      },
+      {
+        "text":"増加する",
+        "color": "white",
+        "italic": false
+      }
+    ]
+  ],
+  "mode": "append"
+}

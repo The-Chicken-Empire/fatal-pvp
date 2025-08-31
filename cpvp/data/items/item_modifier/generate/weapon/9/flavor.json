@@ -1,0 +1,27 @@
+{
+  "function": "minecraft:set_lore",
+  "lore": [
+    [
+      {
+        "text": "命を刈り取る形をしている。",
+        "color": "dark_gray",
+        "italic": true
+      }
+    ],
+    [
+      {
+        "text": "正直、この文言はでかい鎌の武器が好きな人が",
+        "color": "dark_gray",
+        "italic": true
+      }
+    ],
+    [
+      {
+        "text": "必ず使う言い回しだと思うんだよね。",
+        "color": "dark_gray",
+        "italic": true
+      }
+    ]
+  ],
+  "mode": "append"
+}
