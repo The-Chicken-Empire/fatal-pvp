@@ -18,9 +18,7 @@
           "magicdmg": 2,
           "meleedmg": 2,
           "rangedmg": 2,
-          "speed": 2,
-          "cc": 2,
-          "agi": 2
+          "speed": 2
         },
         "triggers": []
       },

@@ -1,4 +1,4 @@
-setblock 0 0 0 shulker_box replace
+
 function items:generate/perk/2/generate
 item modify block 0 0 0 container.0 items:perk/2/lv5
 

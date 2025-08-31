@@ -3,6 +3,10 @@
 #execute if entity @s[tag=magic1] run function items:skills/magic/1/markertick
 #5
 execute if entity @s[tag=magic5] run function items:skills/magic/5/markertick
+#9
+execute if entity @s[tag=magic9] run function items:skills/magic/9/markertick
+execute if entity @s[tag=magic9-2] run function items:skills/magic/9/markertick2
+execute if entity @s[tag=magic9-3] run function items:skills/magic/9/markertick3
 #10
 execute if entity @s[tag=magic10] run function items:skills/magic/10/markertick
 execute if entity @s[tag=magic10ctplayer] run function items:skills/magic/10/markertick2
@@ -34,6 +38,8 @@ execute if entity @s[tag=seraph_feather2] run function items:skills/magic/17/ski
 execute if entity @s[tag=magic16] run function items:skills/magic/16/markertick
 execute if entity @s[tag=magic16-2] run function items:skills/magic/16/markertick2
 execute if entity @s[tag=magic16-3] run function items:skills/magic/16/markertick3
+#19
+execute if entity @s[tag=magic19] run function items:skills/magic/19/markertick
 ##weapon
 #3
 execute if entity @s[tag=weapon3] run function items:skills/weapon/3/markertick
@@ -44,6 +50,11 @@ execute if entity @s[tag=weapon4-5] run function items:skills/weapon/4/markertic
 execute if entity @s[tag=w5marker] run function items:skills/weapon/5/markertick
 #6
 execute if entity @s[tag=weapon6] run function items:skills/weapon/6/markertick
+##offhand
+#7
+execute if entity @s[tag=offhand7-2] run function items:skills/offhand/7/markertick
+execute if entity @s[tag=offhand7-3] run function items:skills/offhand/7/markertick2
+execute if entity @s[tag=offhand7-4] run function items:skills/offhand/7/markertick3
 ##helemt
 #4
 execute if entity @s[tag=seraph_wing] run function items:skills/helmet/4/wings/auau

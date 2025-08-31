@@ -37,7 +37,7 @@
         "color":"white"
       },
       {
-        "text": "3~6 ",
+        "text": "3/6 ",
         "italic": false,
         "color":"green"
       },
@@ -52,7 +52,7 @@
         "color":"white"
       },
       {
-        "text": "2~4秒",
+        "text": "3/6秒",
         "italic": false,
         "color":"green"
       }
@@ -69,7 +69,7 @@
         "italic": false
       },
       {
-        "text": "1.5~2×4",
+        "text": "1.5×4/2×4",
         "color": "gold",
         "italic": false
       },
@@ -91,6 +91,14 @@
       {
         "text": "遠距離",
         "color": "blue",
+        "italic": false
+      }
+    ],
+    [
+      {"text":"[翼]","color":"yellow","italic": false},
+      {
+        "text": "が30以下の時、消費MPとCTが大きく減少する。",
+        "color": "white",
         "italic": false
       }
     ],
@@ -134,30 +142,12 @@
     ],
     [
       {
-        "text": "相手は3秒間被ダメージが2%(最大40%)増加する。",
+        "text": "相手は2.5秒間被ダメージが2%(最大16%)増加する。",
         "color": "white",
         "italic": false
       }
     ],
-    [
-      {
-        "text": "旧約の烙印",
-        "color": "dark_purple",
-        "italic": false
-      },
-      {
-        "text": "が発動している時、",
-        "color": "white",
-        "italic": false
-      }
-    ],
-    [
-      {
-        "text": "このスキルに消費MPとCTが大きく減少する。",
-        "color": "white",
-        "italic": false
-      }
-    ],
+    
     [
       {
         "text": "",

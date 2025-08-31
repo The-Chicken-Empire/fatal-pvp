@@ -2,7 +2,7 @@ tag @e remove atker
 tag @e remove victim
 
 #変換
-scoreboard players operation @s damage = @s damageresist
+scoreboard players operation @s damagepoint = @s damageresist
 scoreboard players reset @s damageresist
 #ダメージ計算
 

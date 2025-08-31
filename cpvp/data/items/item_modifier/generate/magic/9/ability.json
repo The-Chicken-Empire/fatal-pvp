@@ -101,7 +101,7 @@
         "italic": false
       },
       {
-        "text": "自分の現在HPの20%",
+        "text": "(自分の現在HP÷3)",
         "color": "yellow",
         "italic": false
       },
@@ -148,19 +148,19 @@
         "italic": false
       },
       {
-        "text": "50",
+        "text": "50%",
         "color": "gold",
         "italic": false
       },
       {
-        "text": "減少させる",
+        "text": "低下させる",
         "color": "white",
         "italic": false
       }
     ],
     [
       {
-        "text": "さらに、攻撃が当たった時周囲の10m以内の敵に、効果の半分を",
+        "text": "さらに、攻撃的中時周囲の12m以内の全ての敵に、効果の半分を",
         "color": "white",
         "italic": false
       },
@@ -170,7 +170,7 @@
         "italic": false
       },
       {
-        "text": "する(最大3回)",
+        "text": "する",
         "color": "white",
         "italic": false
       }

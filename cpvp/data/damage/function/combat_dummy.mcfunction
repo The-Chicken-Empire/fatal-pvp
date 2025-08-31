@@ -1,8 +1,8 @@
 #小数点
 scoreboard players reset @s dummydamageA
 scoreboard players reset @s dummydamageB
-scoreboard players operation @s dummydamageA = @s damage
-scoreboard players operation @s dummydamageB = @s damage
+scoreboard players operation @s dummydamageA = @s damagepoint
+scoreboard players operation @s dummydamageB = @s damagepoint
 scoreboard players operation @s dummydamageA /= $10 main
 scoreboard players operation @s dummydamageB %= $10 main
 #属性
@@ -14,7 +14,7 @@ execute if entity @s[tag=physicaldamagetmp,tag=!magicdamagetmp,tag=rangedamagetm
 execute if entity @s[tag=magicdamagetmp,tag=!physicaldamagetmp,tag=rangedamagetmp] run tellraw @a[tag=atker,limit=1,sort=nearest] [{"color":"yellow","italic":false,"text":"与ダメージ"},{"color":"white","italic":false,"text":" : "},{"color":"red","italic":false,"score":{"name":"@s","objective":"dummydamageA"}},{"color":"red","italic":false,"text":"."},{"color":"red","italic":false,"score":{"name":"@s","objective":"dummydamageB"}},{"color":"white","italic":false,"text":" - "},{"color":"dark_purple","italic":false,"text":"魔法"},{"color":"white","italic":false,"text":"/"},{"color":"blue","italic":false,"text":"遠距離"}]
 execute if entity @s[tag=magicdamagetmp,tag=physicaldamagetmp,tag=rangedamagetmp] run tellraw @a[tag=atker,limit=1,sort=nearest] [{"color":"yellow","italic":false,"text":"与ダメージ"},{"color":"white","italic":false,"text":" : "},{"color":"red","italic":false,"score":{"name":"@s","objective":"dummydamageA"}},{"color":"red","italic":false,"text":"."},{"color":"red","italic":false,"score":{"name":"@s","objective":"dummydamageB"}},{"color":"white","italic":false,"text":" - "},{"color":"gold","italic":false,"text":"物理"},{"color":"white","italic":false,"text":"＆"},{"color":"dark_purple","italic":false,"text":"魔法"},{"color":"white","italic":false,"text":"/"},{"color":"blue","italic":false,"text":"遠距離"}]
 execute if entity @s[tag=specialdamagetmp,tag=rangedamagetmp] run tellraw @a[tag=atker,limit=1,sort=nearest] [{"color":"yellow","italic":false,"text":"与ダメージ"},{"color":"white","italic":false,"text":" : "},{"color":"red","italic":false,"score":{"name":"@s","objective":"dummydamageA"}},{"color":"red","italic":false,"text":"."},{"color":"red","italic":false,"score":{"name":"@s","objective":"dummydamageB"}},{"color":"white","italic":false,"text":" - "},{"color":"aqua","italic":false,"text":"特殊"},{"color":"white","italic":false,"text":"/"},{"color":"blue","italic":false,"text":"遠距離"}]
-execute if entity @s[tag=!specialdamage,tag=!rangedamagetmp,tag=!magicdamagetmp,tag=!physicaldamagetmp] run tellraw @a[tag=atker,limit=1,sort=nearest] [{"color":"yellow","italic":false,"text":"与ダメージ"},{"color":"white","italic":false,"text":" : "},{"color":"red","italic":false,"score":{"name":"@s","objective":"dummydamageA"}},{"color":"red","italic":false,"text":"."},{"color":"red","italic":false,"score":{"name":"@s","objective":"dummydamageB"}},{"color":"white","italic":false,"text":" - "},{"color":"aqua","italic":false,"text":"状態異常"}]
+execute if entity @s[tag=!specialdamagetmp,tag=!rangedamagetmp,tag=!magicdamagetmp,tag=!physicaldamagetmp] run tellraw @a[tag=atker,limit=1,sort=nearest] [{"color":"yellow","italic":false,"text":"与ダメージ"},{"color":"white","italic":false,"text":" : "},{"color":"red","italic":false,"score":{"name":"@s","objective":"dummydamageA"}},{"color":"red","italic":false,"text":"."},{"color":"red","italic":false,"score":{"name":"@s","objective":"dummydamageB"}},{"color":"white","italic":false,"text":" - "},{"color":"aqua","italic":false,"text":"状態異常"}]
 #クリティカル
 execute if entity @s[tag=critical] run tellraw @a[tag=atker,limit=1,sort=nearest] {"bold":true,"color":"yellow","italic":false,"text":"クリティカル！"}
 scoreboard players set @s hp 1000
