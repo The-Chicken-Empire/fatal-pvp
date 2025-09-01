@@ -50,6 +50,7 @@ scoreboard players operation $penetrate damagecalc -= @s penetrate
 execute if score $penetrate damagecalc matches ..0 run scoreboard players set $penetrate damagecalc 0
 scoreboard players operation $damagecalcdef damagecalc *= $penetrate damagecalc
 scoreboard players operation $damagecalcdef damagecalc /= $100 main
+
 scoreboard players set @s penetrate 0
 
 scoreboard players operation $damagecalc damagecalc -= $damagecalcdef damagecalc

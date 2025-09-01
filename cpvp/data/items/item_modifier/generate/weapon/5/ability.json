@@ -149,131 +149,16 @@
     ],
     [
       {
-        "text":"このスキルで敵討伐時、半径24m以内の最寄りの味方一人に",
+        "text":"このスキルで敵討伐時、半径16m以内の味方の",
         "color":"white",
         "italic":false
       }
     ],
     [
       {
-        "text":"移動速度",
+        "text":"最もコストが高いスキルのクールダウンをリセットする。",
         "color":"white",
         "italic":false
-      },
-      {
-        "text":"+20%",
-        "color":"gold",
-        "italic":false
-      },
-      {
-        "text":"、",
-        "color":"white",
-        "italic":false
-      },
-      {
-        "text":"攻撃力",
-        "color":"red",
-        "italic":false
-      },
-      {
-        "text":"+15%",
-        "color":"gold",
-        "italic":false
-      },
-      {
-        "text":"を20秒間付与する。",
-        "color":"white",
-        "italic":false
-      }
-    ],
-    [
-      {
-        "text":"-- ",
-        "color":"white",
-        "italic":false
-      },
-      {
-        "text":"赤嵐旋風",
-        "color":"red",
-        "italic":false
-      },
-      {
-        "text":" --",
-        "color":"white",
-        "italic":false
-      }
-    ],
-    [
-      {
-        "text":"[覇道独歩]",
-        "color":"dark_red",
-        "italic":false
-      },
-      {
-        "text":"を保有している状態で右クリック",
-        "color":"yellow",
-        "italic":false
-      }
-    ],
-    [
-      {
-        "text": "消費MP",
-        "italic": false,
-        "color":"blue"
-      },
-      {
-        "text": " : ",
-        "italic": false,
-        "color":"white"
-      },
-      {
-        "text": "12",
-        "italic": false,
-        "color":"green"
-      },
-      {
-        "text":" ",
-        "color":"white",
-        "italic":false
-      },
-      {
-        "text": "クールタイム",
-        "italic": false,
-        "color":"dark_aqua"
-      },
-      {
-        "text": " : ",
-        "italic": false,
-        "color":"white"
-      },
-      {
-        "text": "16秒",
-        "italic": false,
-        "color":"green"
-      }
-    ],
-    [
-      {
-        "text":"薙刀を構え、道を拒むものを全て薙ぎ払いながら前方に進撃する。",
-        "color":"white",
-        "italic":false
-      }
-    ],
-    [
-      {
-        "text":"スキル的中時、対象に",
-        "color":"white",
-        "italic":false
-      },
-      {
-        "text":"出血3",
-        "color":"dark_red",
-        "italic":false
-      },
-      {
-        "text":"を10秒付与する。",
-        "italic":false,
-        "color":"white"
       }
     ]
   ],
