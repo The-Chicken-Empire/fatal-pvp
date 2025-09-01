@@ -65,23 +65,6 @@
       }
     ],
     [
-      {
-        "text":"防御貫通率",
-        "color":"aqua",
-        "italic":false
-      },
-      {
-        "text": " : ",
-        "color": "white",
-        "italic": false
-      },
-      {
-        "text": "+50%",
-        "color": "gold",
-        "italic": false
-      }
-    ],
-    [
       ""
     ]
   ],
