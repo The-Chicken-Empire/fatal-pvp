@@ -2,6 +2,8 @@ tellraw @a reloaded
 execute as @a at @s run playsound block.amethyst_block.break master @s ~ ~ ~ 1 1 0
 execute as @a run function system:inventoryrefill
 
+setblock 0 0 0 shulker_box
+
 scoreboard objectives add random dummy
 scoreboard objectives add sneak minecraft.custom:minecraft.sneak_time
 scoreboard objectives add deathtimer dummy
@@ -49,7 +51,7 @@ scoreboard objectives add playerdata dummy
 scoreboard objectives add damagetaken dummy
 scoreboard objectives add damagecalc dummy
 scoreboard objectives add penetrate dummy
-scoreboard objectives add damage dummy
+scoreboard objectives add damagepoint dummy
 scoreboard objectives add sth dummy
 scoreboard objectives add selecteditemA dummy
 scoreboard objectives add selecteditemB dummy
@@ -233,6 +235,13 @@ scoreboard players set @a weapon8 0
 scoreboard objectives add weapon7 dummy
 scoreboard players set @a weapon8 0
 scoreboard objectives add offhand9 dummy
+scoreboard objectives add perk11 dummy
+scoreboard players set @a perk11 0
+scoreboard objectives add perk13 dummy
+scoreboard players set @a perk13 0
+scoreboard objectives add offhand7 dummy
+scoreboard objectives add offhand7-2 dummy
+
 
 
 #buff用
@@ -256,9 +265,9 @@ scoreboard objectives add defence_buff dummy
 scoreboard objectives add damage_buff dummy
 
 function system:cooltime/load
+function system:gui/load
 
 
 
 #仮
 
-setblock 0 0 0 shulker_box

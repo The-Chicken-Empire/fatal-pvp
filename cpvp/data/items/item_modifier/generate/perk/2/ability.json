@@ -40,7 +40,8 @@
         "text": "「20m以内に敵playerが居る」",
         "italic": false,
         "color":"yellow"
-      },
+      }]
+      ,[
       {
         "text": "状態で右クリックを押している間(重複可能)",
         "italic": false,
@@ -90,7 +91,7 @@
       {
         "text": "攻撃力",
         "italic": false,
-        "color": "red"
+        "color": "dark_red"
       },
       {
         "text": "が",
@@ -98,7 +99,7 @@
         "color": "white"
       },
       {
-        "text": "+5",
+        "text": "+5%",
         "italic": false,
         "color": "gold"
       },
@@ -110,7 +111,7 @@
       {
         "text": "防御力",
         "italic": false,
-        "color": "blue"
+        "color": "dark_blue"
       },
       {
         "text": "が",
@@ -118,7 +119,7 @@
         "color": "white"
       },
       {
-        "text": "-5",
+        "text": "-5%",
         "italic": false,
         "color": "gold"
       },

@@ -2,7 +2,7 @@
 
 data modify storage effect: data.id set value 26
 #idです。他の人と被らないようにしろ。※>>>必須<<<
-data modify storage effect: data.maxlevel set value 20
+data modify storage effect: data.maxlevel set value 8
 #バフの最大レベルです。初期値1
 data modify storage effect: data.content set value [["defence",-2,0]]
 #バフにステータス上昇効果がある場合はここに突っ込んでください。

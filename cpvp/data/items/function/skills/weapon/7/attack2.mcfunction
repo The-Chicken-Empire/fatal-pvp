@@ -6,7 +6,7 @@ scoreboard players operation $tmp2 tmp = @s weapon7
 scoreboard players operation $tmp tmp *= $20 main
 scoreboard players operation $tmp2 tmp *= $10 main
 scoreboard players operation $damageadd damagecalc += $tmp tmp
-scoreboard players operation $penetrate damagecalc += $tmp2 tmp
+scoreboard players operation @e[tag=victim,limit=1] penetrate += $tmp2 tmp
 
 scoreboard players reset $tmp tmp
 scoreboard players reset $tmp2 tmp

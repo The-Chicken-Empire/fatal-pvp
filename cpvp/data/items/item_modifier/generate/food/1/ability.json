@@ -1,6 +1,63 @@
 {
   "function": "minecraft:set_lore",
   "lore": [
+    [
+      {
+        "text": "食事CT",
+        "italic": false,
+        "color":"gold"
+      },
+      {
+        "text": " : ",
+        "italic": false,
+        "color":"white"
+      },
+      {
+        "text": "25秒",
+        "italic": false,
+        "color":"yellow"
+      }
+    ],
+    [
+      {
+        "text": "",
+        "italic": false,
+        "color":"green"
+      }
+    ],
+    [
+      {
+        "text": "HP",
+        "italic": false,
+        "color":"red"
+      },
+      {
+        "text": ":",
+        "italic": false,
+        "color":"white"
+      },
+      {
+        "text": "+10 ",
+        "italic": false,
+        "color":"green"
+      }
+    ,
+      {
+        "text": "MP",
+        "italic": false,
+        "color":"aqua"
+      },
+      {
+        "text": ":",
+        "italic": false,
+        "color":"white"
+      },
+      {
+        "text": "+8",
+        "italic": false,
+        "color":"green"
+      }
+    ]
   ],
   "mode": "append"
 }

@@ -19,6 +19,16 @@ execute unless data entity @a[tag=atkertmp,limit=1] SelectedItem.components."min
 execute if entity @e[tag=atkertmp,advancements={system:projectile=false}] run tag @s add meleedamage
 execute if entity @e[tag=atkertmp,advancements={system:projectile=true}] run tag @s add rangedamage
 
+data modify storage atktrigger: hage set value {itemtype:magic,id:1,atktype:melee}
+execute if entity @e[tag=atkertmp,advancements={system:projectile=false}] run data modify storage atktrigger: hage.atktype set value melee
+execute if entity @e[tag=atkertmp,advancements={system:projectile=false}] store result storage atktrigger: hage.id int 1 run data get entity @a[tag=atkertmp,limit=1] SelectedItem.components."minecraft:custom_data".cpvp.id
+execute if entity @e[tag=atkertmp,advancements={system:projectile=false}] run data modify storage atktrigger: hage.itemtype set from entity @a[tag=atkertmp,limit=1] SelectedItem.components."minecraft:custom_data".cpvp.item_type
+execute if entity @e[tag=atkertmp,advancements={system:projectile=true}] run data modify storage atktrigger: hage.atktype set value shot
+
+
+
+
+
 
 execute if entity @s[tag=victimtmp] run scoreboard players operation @s attackerdata = @e[tag=atkertmp,limit=1] playerdata
 tag @e remove atkertmp

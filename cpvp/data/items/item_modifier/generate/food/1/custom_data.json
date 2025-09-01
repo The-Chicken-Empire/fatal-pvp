@@ -5,12 +5,8 @@
       "id": 1,
       "item_type": "food",
       "mainhand": {
-        "triggers": [
-          "using"
-        ]
       },
-      "regularitem": 1,
-      "classitem": 0
+      "regularitem": 1
     }
   }
 }

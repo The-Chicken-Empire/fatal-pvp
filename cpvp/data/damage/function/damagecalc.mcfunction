@@ -13,6 +13,7 @@ execute as @e[tag=atker] run function damage:atktrigger/attack1 with storage atk
 
 #agi処理
 execute store result score $dummy random run random value 1..100
+execute if items entity @s armor.chest iron_chestplate[custom_data~{cpvp:{id:6}}] run function items:skills/chestplate/6/
 execute if entity @e[tag=victim,tag=unavoidable] run scoreboard players set $dummy random 10000
 execute as @a[tag=unavoidable,tag=victim] at @s run playsound block.trial_spawner.ambient_ominous block @s ~ ~ ~ 1 2 1
 execute if score $dummy random <= @s agi at @s run playsound entity.breeze.wind_burst master @a ~ ~ ~ 1 1.5
@@ -42,11 +43,15 @@ execute if entity @s[tag=victim,tag=meleedamagetmp] run scoreboard players opera
 execute if entity @s[tag=victim,tag=rangedamagetmp] run scoreboard players operation $damagecalcdef damagecalc += @s rangedef
 scoreboard players operation $damagecalcdef damagecalc += @s defence
 #防御貫通
+#手前でvictim側に penetrate scoreを突っ込む
+
 scoreboard players set $penetrate damagecalc 100
 scoreboard players operation $penetrate damagecalc -= @s penetrate
 execute if score $penetrate damagecalc matches ..0 run scoreboard players set $penetrate damagecalc 0
 scoreboard players operation $damagecalcdef damagecalc *= $penetrate damagecalc
 scoreboard players operation $damagecalcdef damagecalc /= $100 main
+scoreboard players set @s penetrate 0
+
 scoreboard players set @s penetrate 0
 
 scoreboard players operation $damagecalc damagecalc -= $damagecalcdef damagecalc
@@ -83,12 +88,15 @@ execute as @e[tag=atker] run function items:triggers/attack3/check
 execute as @e[tag=victim] run function items:triggers/attacked3/check
 execute as @e[tag=atker] run function damage:atktrigger/attack3 with storage atktrigger: hage
 
+#　ほ　か
+execute if entity @s[tag=victim,tag=magic19buff] run function items:skills/magic/19/counter
+
 #ダメージ上限
 execute if score $maxdamage damagecalc matches -2147483648..2147483647 if score @s damagetaken > $maxdamage damagecalc run scoreboard players operation @s damagetaken = $maxdamage damagecalc
 scoreboard players reset $maxdamage damagecalc
 
 #変換
-scoreboard players operation @s damage = @s damagetaken
+scoreboard players operation @s damagepoint = @s damagetaken
 scoreboard players reset @s damagetaken
 #damage処理
 function damage:damage

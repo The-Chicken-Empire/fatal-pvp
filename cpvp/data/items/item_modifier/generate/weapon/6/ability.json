@@ -69,7 +69,7 @@
         "italic": false
       },
       {
-        "text": "(3~7)×3",
+        "text": "5~10",
         "color": "gold",
         "italic": false
       },
@@ -96,17 +96,12 @@
     ],
     [
       {
-        "text": "前方に突進し、通った敵にダメージを与え、反転しもう二度突進する",
+        "text": "1.5秒後に前方に突進し、通った敵にダメージを与え、的中時対象に",
         "color": "white",
         "italic": false
       }
     ],
     [
-      {
-        "text": "三段目の攻撃的中時、対象に",
-        "color": "white",
-        "italic": false
-      },
       {
         "text": "出血2",
         "color": "dark_red",
