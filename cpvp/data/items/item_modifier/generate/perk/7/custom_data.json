@@ -1,0 +1,21 @@
+{
+  "function": "minecraft:set_custom_data",
+  "tag": {
+    "cpvp": {
+      "id": 7,
+      "item_type": "perk",
+      "hotbar": {
+        "stats": {
+          "maxhp": 70,
+          "speed": 7,
+          "maxeng": 7,
+          "agi": 7,
+          "cc": 7,
+          "defence": 7,
+          "damage": 7
+        }
+      },
+      "regularitem": 1
+    }
+  }
+}

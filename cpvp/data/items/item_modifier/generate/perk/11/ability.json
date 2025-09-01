@@ -1,0 +1,151 @@
+{
+  "function": "minecraft:set_lore",
+  "lore": [
+    [{"text": ""}],
+    [
+      {
+        "text": "-- ",
+        "color": "white",
+        "italic": false
+      },
+      {
+        "text": "始まりのない未知筋",
+        "color": "#5b16dd",
+        "italic": false
+      },
+      {
+        "text": " --",
+        "color": "white",
+        "italic": false
+      }
+    ],
+    [
+      {
+        "text": "常時",
+        "italic": false,
+        "color":"yellow"
+      }
+    ],
+    [
+      {
+        "text": "ダメージ",
+        "color": "red",
+        "italic": false
+      },
+      {
+        "text": " : ",
+        "color": "white",
+        "italic": false
+      },
+      {
+        "text": "3~15",
+        "color": "gold",
+        "italic": false
+      },
+      {
+        "text": " - ",
+        "color": "white",
+        "italic": false
+      },
+      {
+        "text": "魔法",
+        "color": "dark_purple",
+        "italic": false
+      },
+      {
+        "text": "/",
+        "color": "white",
+        "italic": false
+      },
+      {
+        "text": "遠距離",
+        "color": "blue",
+        "italic": false
+      }
+    ],
+    [
+      {
+        "text": "8秒に一度自身の座標に",
+        "italic": false,
+        "color":"white"
+      },
+      {
+        "text": "水晶",
+        "italic": false,
+        "color":"#5b16dd"
+      },
+      {
+        "text": "を設置し、触れた敵にダメージを与える ",
+        "italic": false,
+        "color":"white"
+      }
+    ], 
+    [
+      {
+        "text": "水晶",
+        "italic": false,
+        "color":"#5b16dd"
+      },
+      {
+        "text": "は5秒経つ度に成長し、成長段階に応じてダメージが増加する",
+        "italic": false,
+        "color":"white"
+      }
+    ],
+    [
+      {
+        "text": "最大まで成長した",
+        "italic": false,
+        "color":"white"
+      },
+      {
+        "text": "水晶",
+        "italic": false,
+        "color":"#5b16dd"
+      },
+      {
+        "text": "に触れた敵には追加で",
+        "italic": false,
+        "color":"white"
+      },
+      {
+        "text": "デバフ",
+        "italic": false,
+        "color":"dark_purple"
+      },
+      {
+        "text": ":",
+        "italic": false,
+        "color":"white"
+      },
+      {
+        "text": "[水晶呪:3]",
+        "italic": false,
+        "color":"#37d7ff"
+      },
+      {
+        "text": "を10秒与える",
+        "italic": false,
+        "color":"white"
+      }
+    ],
+    [
+      {
+        "text": "最大まで成長した",
+        "italic": false,
+        "color":"white"
+      },
+      {
+        "text": "水晶",
+        "italic": false,
+        "color":"#5b16dd"
+      },
+      {
+        "text": "は10秒後に消滅する",
+        "italic": false,
+        "color":"white"
+      }
+    ]
+  ],
+  "mode": "append"
+}

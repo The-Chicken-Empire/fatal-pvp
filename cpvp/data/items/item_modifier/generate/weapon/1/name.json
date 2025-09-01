@@ -1,0 +1,10 @@
+{
+  "function": "minecraft:set_name",
+  "name": [
+    {
+      "text": "メンタルクラッシャー",
+      "color": "#1666fc",
+      "italic": false
+    }
+  ]
+}

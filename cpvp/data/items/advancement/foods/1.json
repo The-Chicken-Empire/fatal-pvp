@@ -1,0 +1,23 @@
+{
+  "criteria": {
+    "eat": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": "minecraft:dark_oak_trapdoor",
+          "predicates": {
+            "minecraft:custom_data": {
+              "cpvp": {
+                "id": 1,
+                "item_type": "food"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "items:skills/food/1/check"
+  }
+}

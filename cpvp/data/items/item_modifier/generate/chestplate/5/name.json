@@ -1,0 +1,10 @@
+{
+  "function": "minecraft:set_name",
+  "name": [
+    {
+      "text": "名誉ない上龍胸板",
+      "color": "gold",
+      "italic": false
+    }
+  ]
+}
