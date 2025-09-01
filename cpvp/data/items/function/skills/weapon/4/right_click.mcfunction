@@ -6,7 +6,7 @@ execute if score @s mp >= @s mpcost if entity @e[tag=weapon4-5] as @e[tag=weapon
 tag @s remove w4checktmp
 
 #消費mp設定
-scoreboard players set @s mpcost 1400
+scoreboard players set @s mpcost 600
 #CTcheck
 execute if data storage cpvp:triggers/right_click {slot:"mainhand"} store result score $check main run function items:skills/allcheck
 execute if score $check main matches 1.. run function items:skills/weapon/4/active
