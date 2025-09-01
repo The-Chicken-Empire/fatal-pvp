@@ -6,7 +6,7 @@ scoreboard players set @s physicaldef 0
 scoreboard players set @s magicdef 0
 scoreboard players set @s meleedef 0
 scoreboard players set @s rangedef 0
-scoreboard players set @s speed 100
+scoreboard players set @s speed 0
 scoreboard players set @s vit 0
 scoreboard players set @s damage 0
 scoreboard players set @s physicaldmg 0
@@ -17,7 +17,7 @@ scoreboard players set @s cc 0
 scoreboard players set @s agi 0
 scoreboard players set @s maxeng 0
 scoreboard players set @s attackspeed 0
-scoreboard players set @s bonusattackspeed 100
+scoreboard players set @s bonusattackspeed 0
 scoreboard players set $dummy statscalc 0
 
 #attackspeed処理
@@ -72,10 +72,7 @@ data remove storage cpvp:stats $dummy
 execute if predicate stats:hot8perkitem run data modify storage cpvp:stats $dummy set from storage cpvp:stats $stats.Inventory[{Slot:8b}].components.minecraft:custom_data.cpvp.hotbar.stats
 execute if predicate stats:hot8perkitem run function stats:statscalc2
 
-#hp/mpの初期値処理
-scoreboard players operation @s maxhp += $400 main
-scoreboard players operation @s maxmp += $10000 main
-scoreboard players operation @s mr += $100 main
+
 #buffの処理
 
 scoreboard players operation @s maxhp += @s maxhp_buff
@@ -100,6 +97,13 @@ execute if score @s stats_modifier.addexist matches 1 run function system:stats_
 
 #statscalc1trigger
 function items:triggers/statscalc1/check
+
+#hp/mpの初期値処理
+scoreboard players operation @s maxhp += $400 main
+scoreboard players operation @s maxmp += $10000 main
+scoreboard players operation @s mr += $100 main
+scoreboard players operation @s speed += $100 main
+scoreboard players operation @s bonusattackspeed += $100 main
 
 # stats_modifierの処理。modifierのうち乗算するもの(基礎値に対する乗算と最終乗算)
 execute if score @s stats_modifier.addmultexist matches 1 run function system:stats_modifier/statscalc/addmult
