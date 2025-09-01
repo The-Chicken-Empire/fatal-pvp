@@ -52,8 +52,6 @@ scoreboard players operation $damagecalcdef damagecalc *= $penetrate damagecalc
 scoreboard players operation $damagecalcdef damagecalc /= $100 main
 scoreboard players set @s penetrate 0
 
-scoreboard players set @s penetrate 0
-
 scoreboard players operation $damagecalc damagecalc -= $damagecalcdef damagecalc
 #特殊ダメージ処理
 execute if entity @s[tag=victim,tag=specialdamagetmp] run scoreboard players operation $damagecalc damagecalc /= $2 main
