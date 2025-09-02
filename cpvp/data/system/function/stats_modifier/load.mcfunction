@@ -1,0 +1,80 @@
+#> system:stats_modifier/load
+#
+#
+#
+# @within main:load
+
+# リセット処理
+function system:stats_modifier/reset
+
+# 加算 (flat)
+scoreboard objectives add stats_modifier_add_maxhp dummy
+scoreboard objectives add stats_modifier_add_maxmp dummy
+scoreboard objectives add stats_modifier_add_mr dummy
+scoreboard objectives add stats_modifier_add_defence dummy
+scoreboard objectives add stats_modifier_add_physicaldef dummy
+scoreboard objectives add stats_modifier_add_magicdef dummy
+scoreboard objectives add stats_modifier_add_meleedef dummy
+scoreboard objectives add stats_modifier_add_rangedef dummy
+scoreboard objectives add stats_modifier_add_speed dummy
+scoreboard objectives add stats_modifier_add_vit dummy
+scoreboard objectives add stats_modifier_add_damage dummy
+scoreboard objectives add stats_modifier_add_physicaldmg dummy
+scoreboard objectives add stats_modifier_add_magicdmg dummy
+scoreboard objectives add stats_modifier_add_meleedmg dummy
+scoreboard objectives add stats_modifier_add_rangedmg dummy
+scoreboard objectives add stats_modifier_add_cc dummy
+scoreboard objectives add stats_modifier_add_agi dummy
+scoreboard objectives add stats_modifier_add_maxeng dummy
+scoreboard objectives add stats_modifier_add_attackspeed dummy
+scoreboard objectives add stats_modifier_add_bonusattackspeed dummy
+
+# 加算合計を倍率に適用 (additive multiplier)
+scoreboard objectives add stats_modifier_addmult_maxhp dummy
+scoreboard objectives add stats_modifier_addmult_maxmp dummy
+scoreboard objectives add stats_modifier_addmult_mr dummy
+scoreboard objectives add stats_modifier_addmult_defence dummy
+scoreboard objectives add stats_modifier_addmult_physicaldef dummy
+scoreboard objectives add stats_modifier_addmult_magicdef dummy
+scoreboard objectives add stats_modifier_addmult_meleedef dummy
+scoreboard objectives add stats_modifier_addmult_rangedef dummy
+scoreboard objectives add stats_modifier_addmult_speed dummy
+scoreboard objectives add stats_modifier_addmult_vit dummy
+scoreboard objectives add stats_modifier_addmult_damage dummy
+scoreboard objectives add stats_modifier_addmult_physicaldmg dummy
+scoreboard objectives add stats_modifier_addmult_magicdmg dummy
+scoreboard objectives add stats_modifier_addmult_meleedmg dummy
+scoreboard objectives add stats_modifier_addmult_rangedmg dummy
+scoreboard objectives add stats_modifier_addmult_cc dummy
+scoreboard objectives add stats_modifier_addmult_agi dummy
+scoreboard objectives add stats_modifier_addmult_maxeng dummy
+scoreboard objectives add stats_modifier_addmult_attackspeed dummy
+scoreboard objectives add stats_modifier_addmult_bonusattackspeed dummy
+
+# 乗算 (multiplicative)
+scoreboard objectives add stats_modifier_mult_maxhp dummy
+scoreboard objectives add stats_modifier_mult_maxmp dummy
+scoreboard objectives add stats_modifier_mult_mr dummy
+scoreboard objectives add stats_modifier_mult_defence dummy
+scoreboard objectives add stats_modifier_mult_physicaldef dummy
+scoreboard objectives add stats_modifier_mult_magicdef dummy
+scoreboard objectives add stats_modifier_mult_meleedef dummy
+scoreboard objectives add stats_modifier_mult_rangedef dummy
+scoreboard objectives add stats_modifier_mult_speed dummy
+scoreboard objectives add stats_modifier_mult_vit dummy
+scoreboard objectives add stats_modifier_mult_damage dummy
+scoreboard objectives add stats_modifier_mult_physicaldmg dummy
+scoreboard objectives add stats_modifier_mult_magicdmg dummy
+scoreboard objectives add stats_modifier_mult_meleedmg dummy
+scoreboard objectives add stats_modifier_mult_rangedmg dummy
+scoreboard objectives add stats_modifier_mult_cc dummy
+scoreboard objectives add stats_modifier_mult_agi dummy
+scoreboard objectives add stats_modifier_mult_maxeng dummy
+scoreboard objectives add stats_modifier_mult_attackspeed dummy
+scoreboard objectives add stats_modifier_mult_bonusattackspeed dummy
+
+# 最小のstats_modifierの終了タイミング
+scoreboard objectives add stats_modifier.minexpiration dummy
+scoreboard objectives add stats_modifier.addexist dummy
+scoreboard objectives add stats_modifier.addmultexist dummy
+scoreboard objectives add stats_modifier.multexist dummy

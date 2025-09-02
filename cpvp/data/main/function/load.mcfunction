@@ -267,7 +267,7 @@ scoreboard objectives add bonusattackspeed_buff dummy
 
 function system:cooltime/load
 function system:gui/load
-
+function system:stats_modifier/load
 
 
 #仮
