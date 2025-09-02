@@ -1,1 +1,1 @@
-function effects:effects/19/tick2 with storage effect: tmp2
+effect give @s darkness 2 0 true

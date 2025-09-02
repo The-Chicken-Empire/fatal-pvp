@@ -1,5 +1,6 @@
 #scoreboard players add $timer timer 1
 function system:cooltime/tick
+function system:stats_modifier/tick
 
 #常時耐性
 effect give @a resistance 42315 10 true

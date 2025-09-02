@@ -1,0 +1,78 @@
+{
+  "function": "minecraft:set_lore",
+  "lore": [
+    [
+      {
+        "text": "食事CT",
+        "italic": false,
+        "color":"gold"
+      },
+      {
+        "text": " : ",
+        "italic": false,
+        "color":"white"
+      },
+      {
+        "text": "60秒",
+        "italic": false,
+        "color":"yellow"
+      }
+    ],
+    [
+      {
+        "text": "",
+        "italic": false,
+        "color":"green"
+      }
+    ],
+    [
+      {
+        "text": "HP",
+        "italic": false,
+        "color":"red"
+      },
+      {
+        "text": ":",
+        "italic": false,
+        "color":"white"
+      },
+      {
+        "text": "+20 ",
+        "italic": false,
+        "color":"green"
+      }
+    ],
+    [
+      {
+        "text": "",
+        "italic": false,
+        "color":"red"
+      }
+    ],
+    [
+      {
+        "text": "--",
+        "italic": false,
+        "color":"white"
+      },
+      {
+        "text": " うっひょ～～！ ",
+        "italic": false,
+        "color":"red"
+      },
+      {
+        "text": "--",
+        "italic": false,
+        "color":"white"
+      }
+    ],
+    [
+      {
+        "text": "3種類の効果の中から1つを得る。",
+        "italic": false,
+        "color":"white"
+      }
+    ]
+  ],
+  "mode": "append"
+}

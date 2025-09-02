@@ -25,7 +25,7 @@ data remove storage effect: tntn
 
 execute store result score #effect-counter8787 counter2 run data get storage effect: tmp[0].duration 0.05
 execute if score #effect-counter8787 counter2 matches 100.. run data modify storage effect: actionbar append value [{"text":"\uB018","font":"space"},{"text":"+99","font":"effect/duration"}]
-execute if score #effect-counter8787 counter2 matches -1 run data modify storage effect: actionbar append value '{"text":"\uB011","font":"space"},{"text":"∞","font":"effect/duration"},{"text":"\uC005","font":"space"}'
+#execute if score #effect-counter8787 counter2 matches -1 run data modify storage effect: actionbar append value '{"text":"\uB011","font":"space"},{"text":"∞","font":"effect/duration"},{"text":"\uC005","font":"space"}'
 
 execute store result storage effect: tntn int 1 run scoreboard players get #effect-counter8787 counter2
 execute if score #effect-counter8787 counter2 matches 10..99 run function system:actionbar/effect/10_99 with storage effect:

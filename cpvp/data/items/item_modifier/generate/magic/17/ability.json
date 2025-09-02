@@ -69,7 +69,7 @@
         "italic": false
       },
       {
-        "text": "1.5×4/2×4",
+        "text": "2.3×3/2×4",
         "color": "gold",
         "italic": false
       },
@@ -125,7 +125,7 @@
     ],
     [
       {
-        "text": "このスキルでダメージを与えた時、自身は",
+        "text": "このスキルでダメージを与えた時、",
         "color": "white",
         "italic": false
       },
@@ -135,14 +135,7 @@
         "italic": false
       },
       {
-        "text": "を得て、",
-        "color": "white",
-        "italic": false
-      }
-    ],
-    [
-      {
-        "text": "相手は2.5秒間被ダメージが2%(最大16%)増加する。",
+        "text": "を得る。",
         "color": "white",
         "italic": false
       }

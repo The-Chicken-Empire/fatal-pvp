@@ -1,0 +1,10 @@
+{
+  "function": "minecraft:set_name",
+  "name": [
+    {
+      "text": "生存本能",
+      "color": "#fd0000",
+      "italic": false
+    }
+  ]
+}

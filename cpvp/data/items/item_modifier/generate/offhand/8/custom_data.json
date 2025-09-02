@@ -7,12 +7,7 @@
       "offhand": {
         "triggers": [
           "attack1"
-        ],
-        "stats": 
-          {
-          "physicaldmg": 5,
-          "cc": 3
-          }
+        ]
         
       },
       "regularitem": 1
