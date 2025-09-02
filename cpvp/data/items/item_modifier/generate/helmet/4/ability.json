@@ -20,7 +20,21 @@
     ],
     [
       {
-        "text": "全てのステータスが30倍になる。",
+        "text": "視認範囲外にいる敵を攻撃した時、",
+        "italic": false,
+        "color":"white"
+      }
+    ],
+    [
+      {
+        "text": "攻撃がかなり強化される。",
+        "italic": false,
+        "color":"white"
+      }
+    ],
+    [
+      {
+        "text": "全てのステータスが100倍になる。",
         "italic": false,
         "color":"white"
       }
@@ -51,7 +65,7 @@
     ],
     [
       {
-        "text": "全てのステータスが0.05倍になる。",
+        "text": "全てのステータスが0.01倍になる。",
         "italic": false,
         "color":"white"
       }

@@ -263,6 +263,7 @@ scoreboard objectives add agi_buff dummy
 scoreboard objectives add maxeng_buff dummy
 scoreboard objectives add defence_buff dummy
 scoreboard objectives add damage_buff dummy
+scoreboard objectives add bonusattackspeed_buff dummy
 
 function system:cooltime/load
 function system:gui/load

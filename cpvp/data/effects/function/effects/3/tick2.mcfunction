@@ -1,1 +1,1 @@
-$effect give @s jump_boost 1 $(level)
+$effect give @s jump_boost 1 $(tmp) true

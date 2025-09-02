@@ -1,1 +1,1 @@
-scoreboard players add @e[tag=victim,limit=1] penetrate 200
+function effects:system/modify/ {id:23,duration:-1,level:2}

@@ -91,6 +91,7 @@ scoreboard players operation @s agi += @s agi_buff
 scoreboard players operation @s maxeng += @s maxeng_buff
 scoreboard players operation @s damage += @s damage_buff
 scoreboard players operation @s defence += @s defence_buff
+scoreboard players operation @s bonusattackspeed += @s bonusattackspeed_buff
 
 #statscalc1trigger
 function items:triggers/statscalc1/check
