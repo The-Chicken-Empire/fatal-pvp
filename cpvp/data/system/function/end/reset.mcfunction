@@ -1,5 +1,8 @@
 #bossbar解除
 bossbar set gametimer visible false
+#死亡回数スコア除去
+scoreboard players set @a playerdeathcount 0
+scoreboard players set @a allydeathcount 0
 #tag削除
 tag @a remove alive
 #自動設定
