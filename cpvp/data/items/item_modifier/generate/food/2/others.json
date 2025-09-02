@@ -2,11 +2,12 @@
   "function": "minecraft:set_components",
   "components": {
     "minecraft:consumable": {
-      "consume_seconds": 2,
-      "animation": "eat",
-      "sound": "block.dripstone_block.fall",
+      "consume_seconds": 4,
+      "animation": "drink",
+      "sound": "entity.generic.drink",
       "has_consume_particles": false
     },
+    "custom_model_data": {"strings": ["food2"]},
     "max_stack_size": 2
   }
 }

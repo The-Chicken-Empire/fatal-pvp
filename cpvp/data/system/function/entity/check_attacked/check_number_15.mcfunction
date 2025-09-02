@@ -32,8 +32,8 @@ execute if entity @e[tag=atkertmp,advancements={system:projectile=true}] run dat
 
 execute if entity @s[tag=victimtmp] run scoreboard players operation @s attackerdata = @e[tag=atkertmp,limit=1] playerdata
 tag @e remove atkertmp
-
 execute if entity @s[tag=victimtmp] run tag @s add meleeentity
+execute if entity @s[tag=victimtmp] run tag @s add meleevictim
 execute if entity @s[tag=victimtmp] run function damage:atkercheck
 
 #回復
