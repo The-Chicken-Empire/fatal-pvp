@@ -92,10 +92,11 @@ scoreboard players operation @s maxeng += @s maxeng_buff
 scoreboard players operation @s damage += @s damage_buff
 scoreboard players operation @s defence += @s defence_buff
 
+# stats_modifierの処理。modifierのうち数値増加部分のみ
+execute if score @s stats_modifier.addexist matches 1 run function system:stats_modifier/statscalc/add
+
 #statscalc1trigger
 function items:triggers/statscalc1/check
-#statscalc2trigger
-function items:triggers/statscalc2/check
 
 #hp/mpの初期値処理
 scoreboard players operation @s maxhp += $400 main
@@ -103,8 +104,14 @@ scoreboard players operation @s maxmp += $10000 main
 scoreboard players operation @s mr += $100 main
 scoreboard players operation @s speed += $100 main
 scoreboard players operation @s bonusattackspeed += $100 main
-#helm1ねじこみ
-execute if items entity @s armor.head *[custom_data~{cpvp:{id:1b,item_type:"helmet"}}] run function items:skills/helmet/1/scalc
+
+# stats_modifierの処理。modifierのうち乗算するもの(基礎値に対する乗算と最終乗算)
+execute if score @s stats_modifier.addmultexist matches 1 run function system:stats_modifier/statscalc/addmult
+execute if score @s stats_modifier.multexist matches 1 run function system:stats_modifier/statscalc/mult
+
+#statscalc2trigger
+function items:triggers/statscalc2/check
+
 #speed処理
 execute store result storage cpvp:stats speed float 0.001 run scoreboard players get @s speed
 function stats:speed with storage cpvp:stats
