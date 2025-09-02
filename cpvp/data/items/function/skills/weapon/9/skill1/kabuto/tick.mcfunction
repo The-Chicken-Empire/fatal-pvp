@@ -4,4 +4,4 @@ execute if score @s counter matches 20 at @s run function items:skills/weapon/9/
 execute if score @s counter matches 23 at @s run function items:skills/weapon/9/skill1/kabuto/jakin
 
 
-execute if score @s counter matches 40.. run kill
+execute if score @s counter matches 40.. run function items:skills/weapon/9/skill1/kabuto/kill

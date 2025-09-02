@@ -13,7 +13,7 @@
         "italic": false
       },
       {
-        "text": "+2",
+        "text": "+3",
         "color": "gold",
         "italic": false
       }
@@ -30,7 +30,7 @@
         "italic": false
       },
       {
-        "text": "+10",
+        "text": "+3",
         "color": "gold",
         "italic": false
       }
@@ -47,7 +47,7 @@
         "italic": false
       },
       {
-        "text": "+5",
+        "text": "+3%",
         "color": "gold",
         "italic": false
       }
@@ -64,7 +64,7 @@
         "italic": false
       },
       {
-        "text": "+5",
+        "text": "+3%",
         "color": "gold",
         "italic": false
       }
@@ -81,7 +81,7 @@
         "italic": false
       },
       {
-        "text": "+5",
+        "text": "+3%",
         "color": "gold",
         "italic": false
       }
@@ -98,7 +98,7 @@
         "italic": false
       },
       {
-        "text": "+5",
+        "text": "+3%",
         "color": "gold",
         "italic": false
       }
@@ -115,7 +115,7 @@
         "italic": false
       },
       {
-        "text": "+5",
+        "text": "+3%",
         "color": "gold",
         "italic": false
       }
@@ -132,24 +132,7 @@
         "italic": false
       },
       {
-        "text": "+2",
-        "color": "gold",
-        "italic": false
-      }
-    ],
-    [
-      {
-        "text": "最大充電",
-        "color": "yellow",
-        "italic": false
-      },
-      {
-        "text": " : ",
-        "color": "white",
-        "italic": false
-      },
-      {
-        "text": "+3",
+        "text": "+3%",
         "color": "gold",
         "italic": false
       }
