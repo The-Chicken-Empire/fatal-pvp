@@ -1,13 +1,12 @@
-say m2
+
 scoreboard players reset #effect-counter4113
 $execute store result score #effect-counter4113 counter run data get storage effect: tmp[{id:$(id)}].duration
 execute store result score #effect-counter4113 counter2 run data get storage effect: q[0].duration
 scoreboard players operation #effect-counter4113 counter *= $-1 main
-execute unless score #effect-counter4113 counter matches 1 run say ae
 execute unless score #effect-counter4113 counter matches 1 if score #effect-counter4113 counter2 <= #effect-counter4113 counter run return run function effects:system/modify/modify_remove with storage effect: q[0]
 
 
-say m
+
 
 execute store result score #effect-counter4113 counter5 run data get storage effect: data.maxlevel
 
