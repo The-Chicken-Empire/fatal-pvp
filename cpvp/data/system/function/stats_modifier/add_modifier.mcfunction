@@ -28,7 +28,7 @@ scoreboard players reset $stats_modifier.success main
 
 # modifierのid生成
 execute unless data storage cpvp:stats_modifier input.add_modifier.id run function system:stats_modifier/add_modifier/generate_id
-execute if data storage cpvp:stats_modifier input.add_modifier.id run data modify storage cpvp:system tmp.data.id set from storage cpvp:stats_modifier input.add_modifier.id
+execute if data storage cpvp:stats_modifier input.add_modifier.id run data modify storage cpvp:stats_modifier tmp.data.id set from storage cpvp:stats_modifier input.add_modifier.id
 
 # 終了時刻を計算し、プレイヤのmin_expirationに設定
 scoreboard players operation $tmp1 main = $stats_modifier.counter main
