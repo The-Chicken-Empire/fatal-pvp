@@ -20,3 +20,11 @@ title @s title {"bold":true,"color":"white","text":"You died!"}
 execute at @s run playsound block.beacon.deactivate master @a ~ ~ ~ 1 0.8 1
 scoreboard players operation @s hp = @s maxhp
 scoreboard players operation @s mp = @s maxmp
+
+#プレイヤーにプレイヤー死亡回数(playerdeathcount)を1加算
+scoreboard players add @a playerdeathcount 1
+
+#味方プレイヤーに味方死亡回数(allydeathcount)を1加算
+tag @s add deathcounttmp
+execute as @a if score @a[tag=deathcounttmp,limit=1] teamscore = @s teamscore run function system:allydeath
+tag @s remove deathcounttmp
