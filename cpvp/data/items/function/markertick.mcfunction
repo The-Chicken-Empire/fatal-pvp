@@ -52,6 +52,7 @@ execute if entity @s[tag=w5marker] run function items:skills/weapon/5/markertick
 execute if entity @s[tag=weapon6] run function items:skills/weapon/6/markertick
 #9
 execute if entity @s[tag=seraph_kabuto] at @s run function items:skills/weapon/9/skill1/kabuto/tick
+execute if entity @s[tag=seraph_jajaja] at @s run function items:skills/weapon/9/skill1/kabuto/tick2
 ##offhand
 #7
 execute if entity @s[tag=offhand7-2] run function items:skills/offhand/7/markertick
