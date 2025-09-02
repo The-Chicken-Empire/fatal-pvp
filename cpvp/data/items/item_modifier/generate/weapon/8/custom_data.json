@@ -9,9 +9,13 @@
           "attackspeed": 70
         },
         "triggers": [
-          "tick",
           "attack1",
           "notinhotbar"
+        ]
+      },
+      "hotbar":{
+        "triggers":[
+          "tick"
         ]
       },
       "regularitem": 1,
