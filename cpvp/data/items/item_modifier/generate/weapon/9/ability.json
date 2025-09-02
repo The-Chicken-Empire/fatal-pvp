@@ -18,8 +18,7 @@
         "italic": false
       }
     ],
-    [{"text":"相手の防御力が高いほど与ダメージが増加する。","color":"white","italic": false}],
-    [{"text":"この武器でダメージを与えた時、","color":"white","italic": false},{"text":"[翼]","color":"yellow","italic": false},{"text":"を2得る","color":"white","italic":false}],
+    [{"text":"この武器でダメージを与えた時、","color":"white","italic": false},{"text":"[翼]","color":"yellow","italic": false},{"text":"を4得、","color":"white","italic":false}],
     [{"text":"与ダメージの40%分だけ体力を回復する。","color":"white","italic": false}],
     [{"text":""}],
     [
@@ -29,7 +28,7 @@
         "italic": false
       },
       {
-        "text": "ライフリーピング",
+        "text": "窮天兜穿ち",
         "color": "red",
         "italic": false
       },
@@ -58,7 +57,7 @@
         "color":"white"
       },
       {
-        "text": "6 ",
+        "text": "10 ",
         "italic": false,
         "color":"green"
       },
@@ -73,7 +72,7 @@
         "color":"white"
       },
       {
-        "text": "8秒",
+        "text": "12秒",
         "italic": false,
         "color":"green"
       }
@@ -90,7 +89,7 @@
         "italic": false
       },
       {
-        "text": "5",
+        "text": "3×6",
         "color": "gold",
         "italic": false
       },
@@ -110,28 +109,28 @@
         "italic": false
       },
       {
-        "text": "遠距離",
-        "color": "blue",
+        "text": "近距離",
+        "color": "red",
         "italic": false
       }
     ],
     [
       {
-        "text": "鎌を複製して投擲する。",
+        "text": "前方に突進する。",
         "color": "white",
         "italic": false
       }
     ],
     [
       {
-        "text": "鎌はあらゆるものを貫通しながら飛行し、",
+        "text": "突進後1秒以内に敵へこの武器で近接攻撃を",
         "color": "white",
         "italic": false
       }
     ],
     [
       {
-        "text": "Uターンして手元に戻ってくる。",
+        "text": "命中させると、跳躍攻撃に派生する。",
         "color": "white",
         "italic": false
       }
@@ -144,7 +143,7 @@
         "italic": false
       },
       {
-        "text": "ライフリーピング",
+        "text": "迅円槍・オービタル",
         "color": "red",
         "italic": false
       },
@@ -156,24 +155,11 @@
     ],
     [
       {
-        "text": "右クリック",
+        "text": "スニーク＋右クリック",
         "italic": false,
         "color":"yellow"
       }
     ],
-    [
-      {
-        "text": "[翼]",
-        "color": "yellow",
-        "italic": false
-      },
-      {
-        "text": "が31以上の時に発動可能",
-        "color": "green",
-        "italic": false
-      }
-    ],
-    
     [
       {
         "text": "消費MP",
@@ -233,7 +219,7 @@
         "italic": false
       },
       {
-        "text": "6",
+        "text": "5",
         "color": "gold",
         "italic": false
       },

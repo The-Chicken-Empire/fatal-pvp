@@ -91,6 +91,7 @@ scoreboard players operation @s agi += @s agi_buff
 scoreboard players operation @s maxeng += @s maxeng_buff
 scoreboard players operation @s damage += @s damage_buff
 scoreboard players operation @s defence += @s defence_buff
+scoreboard players operation @s bonusattackspeed += @s bonusattackspeed_buff
 
 # stats_modifierの処理。modifierのうち数値増加部分のみ
 execute if score @s stats_modifier.addexist matches 1 run function system:stats_modifier/statscalc/add

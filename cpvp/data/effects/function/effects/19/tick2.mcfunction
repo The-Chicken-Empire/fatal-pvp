@@ -1,1 +1,0 @@
-effect give @s darkness 2 0
