@@ -5,7 +5,7 @@ data modify storage effect: tmp[-1].level set from storage effect: q[0].level
 data modify storage effect: tmp[-1].duration set from storage effect: q[0].duration
 data modify storage effect: tmp[-1].buffer set from storage effect: q[0].buffer
 
-
+say g
 
 
 data modify storage effect: tmp[-1].buff set from storage effect: data.isbuff

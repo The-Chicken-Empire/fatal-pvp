@@ -1,4 +1,4 @@
-
+say r
 $function effects:effects/$(id)/remove
 
 $execute store result score #effect-counter4113 counter2 run data get storage effect: tmp[{id:$(id)}].level 1
