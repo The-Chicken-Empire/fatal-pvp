@@ -83,6 +83,11 @@ scoreboard players set @a hpcost 0
 scoreboard players set @a engcost 0
 scoreboard objectives add attackerdata dummy
 scoreboard objectives add getdamage dummy
+scoreboard objectives add allydeathcount dummy
+scoreboard objectives add playerdeathcount dummy
+scoreboard players set @a allydeathcount 0
+scoreboard players set @a playerdeathcount 0
+
 #銃system
 scoreboard objectives add bulletspeed dummy
 scoreboard objectives add bulletspeedtmp dummy
@@ -265,6 +270,7 @@ scoreboard objectives add agi_buff dummy
 scoreboard objectives add maxeng_buff dummy
 scoreboard objectives add defence_buff dummy
 scoreboard objectives add damage_buff dummy
+scoreboard objectives add bonusattackspeed_buff dummy
 
 function system:cooltime/load
 function system:gui/load

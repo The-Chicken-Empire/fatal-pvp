@@ -1,4 +1,4 @@
-execute store result storage effect: tmp2.duration int 0.9999999 run data get storage effect: tmp2.duration
+execute unless data storage effect: {tmp2:{duration:-1}} store result storage effect: tmp2.duration int 0.9999999 run data get storage effect: tmp2.duration
 $function effects:effects/$(id)/tick
 $execute if data storage effect: {tmp2:{duration:0}} run function effects:system/remove/ {id:$(id)}
 

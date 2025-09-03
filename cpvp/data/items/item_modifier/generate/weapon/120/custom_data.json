@@ -1,0 +1,33 @@
+{
+  "function": "minecraft:set_custom_data",
+  "tag": {
+    "cpvp": {
+      "cost": 4,
+      "id": 120,
+      "item_type": "weapon",
+      "mainhand": {
+        "stats": {
+          "attackspeed": 1,
+          "maxhp": 10,
+          "maxmp": 20,
+          "vit": 20,
+          "mr": -20,
+          "rangedef": 5,
+          "magicdmg": -5,
+          "agi": 1,
+          "bonusattackspeed": 1
+        },
+        "triggers": [
+          "tick",
+          "attack1",
+          "attacked1",
+          "kill",
+          "equip",
+          "unequip"
+        ]
+      },
+      "regularitem": 1,
+      "classitem": 0
+    }
+  }
+}

@@ -5,5 +5,6 @@ execute if entity @s[type=!player] store result storage effect: q[-1].owner int 
 execute if entity @s[type=player] run data modify storage effect: q[-1].player set value 1b
 execute if entity @s[type=!player] run data modify storage effect: q[-1].entity set value 1b
 execute store result storage effect: q[-1].buffer int 1 run scoreboard players get @a[tag=buffer,limit=1] playerdata
+tag @a[tag=buffer] remove buffer
 
 execute if data storage effect: {oh:0b} run function effects:q/

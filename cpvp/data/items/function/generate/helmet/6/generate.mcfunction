@@ -11,7 +11,7 @@ item modify block 0 0 0 container.0 items:generate/helmet/6/item
 
 item modify block 0 0 0 container.0 items:generate/helmet/6/name
 
-# item modify block 0 0 0 container.0 items:generate/helmet/6/custom_data
+item modify block 0 0 0 container.0 items:generate/helmet/6/custom_data
 
 # item modify block 0 0 0 container.0 items:generate/helmet/6/cost
 

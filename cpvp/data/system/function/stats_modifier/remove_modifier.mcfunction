@@ -19,13 +19,13 @@ data modify storage cpvp:stats_modifier tmp.id set from storage cpvp:stats_modif
 function system:stats_modifier/remove_modifier/remove with storage cpvp:stats_modifier tmp
 
 # 削除失敗した場合
-execute unless score $stats_modifier.success main matches 1 run tellraw @s {"color": "red", "text": "関数system:stats_modifier/remove_modifierでmodifierの削除に失敗しました"}
+execute unless score $stats_modifier.success main matches 1.. run tellraw @s {"color": "red", "text": "関数system:stats_modifier/remove_modifierでmodifierの削除に失敗しました"}
 
 # stats_modifierの計算
-execute if score $stats_modifier.success main matches 1 run function system:stats_modifier/calculate
+execute if score $stats_modifier.success main matches 1.. run function system:stats_modifier/calculate
 
 # statsの再計算
-execute if score $stats_modifier.success main matches 1 run function stats:statscalc
+execute if score $stats_modifier.success main matches 1.. run function stats:statscalc
 
 # リセット
 data remove storage cpvp:stats_modifier input

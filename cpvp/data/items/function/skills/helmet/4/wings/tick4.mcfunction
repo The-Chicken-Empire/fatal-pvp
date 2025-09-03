@@ -1,6 +1,6 @@
 scoreboard players set @s counter 90
 
-scoreboard players add @s counter2 1000
+scoreboard players add @s counter2 3000
 execute if score @s counter2 matches 5000.. run tag @s remove seraph_wing.sprinting
 execute if score @s counter2 matches 5000.. run scoreboard players set @s counter2 5000
 data modify storage tmp: tmp set value {axis:[0f,1f,0f],angle:0f}
