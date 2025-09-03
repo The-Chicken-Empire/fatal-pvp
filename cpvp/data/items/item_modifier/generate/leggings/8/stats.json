@@ -1,0 +1,74 @@
+{
+  "function": "minecraft:set_lore",
+  "lore": [
+    [
+      {
+        "text": "最大MP",
+        "color": "blue",
+        "italic": false
+      },
+      {
+        "text": " : ",
+        "color": "white",
+        "italic": false
+      },
+      {
+        "text": "+18",
+        "color": "gold",
+        "italic": false
+      }
+    ],
+    [
+      {
+        "text": "魔法攻撃力",
+        "color": "dark_purple",
+        "italic": false
+      },
+      {
+        "text": " : ",
+        "color": "white",
+        "italic": false
+      },
+      {
+        "text": "+15%",
+        "color": "gold",
+        "italic": false
+      }
+    ],
+    [
+      {
+        "text": "魔法防御力",
+        "color": "dark_purple",
+        "italic": false
+      },
+      {
+        "text": " : ",
+        "color": "white",
+        "italic": false
+      },
+      {
+        "text": "+10%",
+        "color": "gold",
+        "italic": false
+      }
+    ],
+    [
+      {
+        "text": "物理防御力",
+        "color": "gold",
+        "italic": false
+      },
+      {
+        "text": " : ",
+        "color": "white",
+        "italic": false
+      },
+      {
+        "text": "+5%",
+        "color": "gold",
+        "italic": false
+      }
+    ]
+  ],
+  "mode": "append"
+}
