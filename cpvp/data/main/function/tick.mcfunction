@@ -2,6 +2,14 @@
 function system:cooltime/tick
 function system:stats_modifier/tick
 
+#インベントリ、selecteditem変更時の処理
+execute as @a[advancements={system:invchange=true}] run function system:invchange
+execute as @a store result score @s selecteditemA run data get entity @s SelectedItemSlot
+execute as @a run scoreboard players operation @s selecteditemA -= @s selecteditemB
+execute as @a unless score @s selecteditemA matches 0 run function system:invchange
+execute as @a if score @s gunreload matches 1.. unless score @s selecteditemA matches 0 run scoreboard players set @s gunreload 0
+execute as @a store result score @s selecteditemB run data get entity @s SelectedItemSlot
+
 #常時耐性
 effect give @a resistance 42315 10 true
 effect give @a saturation 5 10 true
@@ -45,13 +53,6 @@ execute if score $10tick timer matches 10.. run function system:timer/10tick
 execute as @e[scores={afterdamage=0..100}] run scoreboard players add @s afterdamage 1
 execute as @e[scores={afterdamage=101..}] run scoreboard players set @s attacker -1
 execute as @e[scores={afterdamage=101..}] run scoreboard players set @s afterdamage -1
-
-#selecteditem変更時の処理
-execute as @a store result score @s selecteditemA run data get entity @s SelectedItemSlot
-execute as @a run scoreboard players operation @s selecteditemA -= @s selecteditemB
-execute as @a unless score @s selecteditemA matches 0 run function system:invchange
-execute as @a if score @s gunreload matches 1.. unless score @s selecteditemA matches 0 run scoreboard players set @s gunreload 0
-execute as @a store result score @s selecteditemB run data get entity @s SelectedItemSlot
 
 #hp/mp/engの上限値チェック
 execute as @a if score @s hp > @s maxhp run scoreboard players operation @s hp = @s maxhp
