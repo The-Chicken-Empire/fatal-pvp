@@ -4,7 +4,7 @@
     "minecraft:attribute_modifiers": [
       {
         "type": "minecraft:sneaking_speed",
-        "id": "minecraft:leggings5",
+        "id": "minecraft:leggings",
         "amount": 1,
         "operation": "add_value",
         "slot": "legs"

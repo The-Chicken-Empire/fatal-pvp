@@ -4,7 +4,7 @@
     "minecraft:attribute_modifiers": [
       {
         "type": "minecraft:armor",
-        "id": "minecraft:boots4",
+        "id": "minecraft:boots",
         "amount": 0,
         "operation": "add_value",
         "slot": "legs"

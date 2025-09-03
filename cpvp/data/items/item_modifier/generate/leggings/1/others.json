@@ -4,14 +4,14 @@
     "minecraft:attribute_modifiers": [
       {
         "type": "minecraft:armor",
-        "id": "minecraft:leggings1",
+        "id": "minecraft:leggings",
         "amount": 0,
         "operation": "add_value",
         "slot": "legs"
       },
       {
         "type": "minecraft:knockback_resistance",
-        "id": "minecraft:leggings1",
+        "id": "minecraft:leggings",
         "amount": 0,
         "operation": "add_value",
         "slot": "legs"
