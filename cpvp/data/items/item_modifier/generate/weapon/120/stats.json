@@ -3,6 +3,23 @@
   "lore": [
     [
       {
+        "text": "攻撃速度",
+        "color": "yellow",
+        "italic": false
+      },
+      {
+        "text": " : ",
+        "color": "white",
+        "italic": false
+      },
+      {
+        "text": "1",
+        "color": "gold",
+        "italic": false
+      }
+    ],
+    [
+      {
         "text": "最大HP",
         "color": "red",
         "italic": false
@@ -107,6 +124,23 @@
       {
         "text": "回避率",
         "color": "white",
+        "italic": false
+      },
+      {
+        "text": " : ",
+        "color": "white",
+        "italic": false
+      },
+      {
+        "text": "+1%",
+        "color": "gold",
+        "italic": false
+      }
+    ],
+    [
+      {
+        "text": "攻撃速度",
+        "color": "yellow",
         "italic": false
       },
       {

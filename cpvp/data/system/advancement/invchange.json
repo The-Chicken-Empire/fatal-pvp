@@ -3,8 +3,5 @@
     "spawn": {
       "trigger": "minecraft:inventory_changed"
     }
-  },
-  "rewards": {
-    "function": "system:invchange"
   }
 }
