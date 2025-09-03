@@ -6,4 +6,3 @@
 
 
 $function items:skills/$(item_type)/$(id)/unequip
-say unequipped
