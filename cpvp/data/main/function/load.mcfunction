@@ -232,6 +232,8 @@ scoreboard objectives add magic13-3 dummy
 scoreboard objectives add magic13-4 dummy
 scoreboard objectives add magic13markID1 dummy
 scoreboard objectives add magic13markID2 dummy
+scoreboard objectives add offhand6 dummy
+scoreboard players set @e offhand6 0
 
 scoreboard objectives add weapon4 dummy
 

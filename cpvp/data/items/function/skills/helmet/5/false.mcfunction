@@ -1,1 +1,1 @@
-item modify entity @s armor.head items:helmet/5/false
+item modify entity @s armor.head items:skills/helmet/5/false

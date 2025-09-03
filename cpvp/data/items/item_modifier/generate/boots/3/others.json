@@ -4,14 +4,14 @@
     "minecraft:attribute_modifiers": [
       {
         "type": "minecraft:armor",
-        "id": "minecraft:boots3",
+        "id": "minecraft:boots",
         "amount": 0,
         "operation": "add_value",
         "slot": "feet"
       },
       {
         "type": "minecraft:knockback_resistance",
-        "id": "minecraft:boots3",
+        "id": "minecraft:boots",
         "amount": 5,
         "operation": "add_value",
         "slot": "feet"

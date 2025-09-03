@@ -4,7 +4,7 @@
     "minecraft:attribute_modifiers": [
       {
         "type": "minecraft:armor",
-        "id": "minecraft:helmet2",
+        "id": "minecraft:helmet",
         "amount": 0,
         "operation": "add_value",
         "slot": "head"

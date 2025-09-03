@@ -1,6 +1,6 @@
 
 function items:generate/perk/2/generate
-item modify block 0 0 0 container.0 items:perk/2/lv8
+item modify block 0 0 0 container.0 items:skills/perk/2/lv8
 
 
 execute if items entity @s hotbar.0 *[custom_data~{cpvp:{id:2b,item_type:"perk"}}] run item replace entity @s hotbar.0 from block 0 0 0 container.0

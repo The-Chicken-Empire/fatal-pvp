@@ -75,8 +75,8 @@
     ],
     [
         {
-        "text": "-夜-",
-        "color": "dark_blue",
+        "text": "-昼-",
+        "color": "yellow",
         "italic": false
         }
     ],
@@ -92,7 +92,7 @@
         "italic": false
       },
       {
-        "text": "-30%",
+        "text": "+30%",
         "color": "gold",
         "italic": false
       }
@@ -109,41 +109,7 @@
         "italic": false
       },
       {
-        "text": "-20%",
-        "color": "gold",
-        "italic": false
-      }
-    ],
-    [
-      {
-        "text": "攻撃力",
-        "color": "dark_red",
-        "italic": false
-      },
-      {
-        "text": " : ",
-        "color": "white",
-        "italic": false
-      },
-      {
-        "text": "+20%",
-        "color": "gold",
-        "italic": false
-      }
-    ],
-    [
-      {
-        "text": "移動速度",
-        "color": "white",
-        "italic": false
-      },
-      {
-        "text": " : ",
-        "color": "white",
-        "italic": false
-      },
-      {
-        "text": "+20%",
+        "text": "+10%",
         "color": "gold",
         "italic": false
       }
@@ -224,8 +190,7 @@
         "text": "ああ..そうだ...あの場所を捨てた時から...",
         "color": "dark_gray",
         "italic": true
-      }],
-      [
+      }],[
       {
         "text": "俺達は、二人で存在する事が出来なくなったんだ",
         "color": "dark_gray",
@@ -243,9 +208,9 @@
 {
     "function": "set_components",
     "components": {
-        "minecraft:dyed_color": 0,
+        "minecraft:dyed_color": 16777215,
     "minecraft:trim": {
-      "material": "minecraft:quartz",
+      "material": "minecraft:netherite",
       "pattern": "minecraft:snout"
     },
     
@@ -275,7 +240,6 @@
       ]
     }
     }
-    
 },
 {
   "function": "minecraft:set_custom_data",
@@ -288,15 +252,13 @@
           "maxhp": 3,
           "physicaldef": 6,
           "magicdef": 6,
-          "vit": -30,
-          "defence": -20,
-          "damage": 20,
-          "speed": 20
+          "vit": 30,
+          "defence": 10
         },
         "triggers": [
           "tick"
         ],
-        "night": 1
+        "day": 1
       },
       "regularitem": 1
     }

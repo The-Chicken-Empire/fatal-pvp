@@ -1,0 +1,19 @@
+{
+  "function": "minecraft:set_custom_data",
+  "tag": {
+    "cpvp": {
+      "id": 8,
+      "item_type": "helmet",
+      "helmet": {
+        "stats": {
+          "magicdmg": 15,
+          "magicdef": 10,
+          "vit": 15
+        },
+        "triggers": [
+        ]
+      },
+      "regularitem": 1
+    }
+  }
+}

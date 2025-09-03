@@ -1,1 +1,1 @@
-item modify entity @s armor.feet items:boots/4/true
+item modify entity @s armor.feet items:skills/boots/4/true
