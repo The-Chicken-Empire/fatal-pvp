@@ -34,13 +34,14 @@ execute store result storage effect: tmp[-1].duration int 1 run scoreboard playe
 
 data modify storage effect: tmp[-1].buffer set from storage effect: q[0].buffer
 
+scoreboard players operation #effect-counter4113 counter2 = #effect-counter47481 counter
 scoreboard players reset #effect-counter47481
 
 
 data modify storage effect: tmp[-1].buff set from storage effect: data.isbuff
 execute if data storage effect: {data:{invisible:1b}} run data modify storage effect: tmp[-1].invisible set value 1b
 
-execute store result score #effect-counter4113 counter2 run data get storage effect: q[0].level 1
+#execute store result score #effect-counter4113 counter2 run data get storage effect: q[0].level 1
 execute if data storage effect: data.content[0] run data modify storage effect: data.unti set from storage effect: data.content[0][0]
 
 execute if data storage effect: data.content[0] run function effects:system/gain/stats with storage effect: data
