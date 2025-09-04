@@ -179,6 +179,7 @@ scoreboard objectives add absorption dummy
 execute as @a unless score @s absorption matches -2147483648..2147483647 run scoreboard players set @s absorption 0
 execute as @a unless score @s maxeng matches -2147483648..2147483647 run scoreboard players set @s maxeng 0
 scoreboard objectives add eye minecraft.used:minecraft.ender_eye
+scoreboard objectives add ctreduction dummy
 #後から移動
 scoreboard players set @a eng 0
 

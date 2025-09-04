@@ -16,6 +16,7 @@ execute if entity @s[tag=meleedamage] run tag @s add meleedamagetmp
 execute if entity @s[tag=rangedamage] run tag @s add rangedamagetmp
 execute if entity @s[tag=nodamagesound] run tag @s add nodamagesoundtmp
 execute if entity @s[tag=truedamage] run tag @s add truedamagetmp
+
 tag @s remove physicaldamage
 tag @s remove magicdamage
 tag @s remove meleedamage

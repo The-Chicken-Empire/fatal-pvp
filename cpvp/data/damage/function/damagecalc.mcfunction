@@ -6,6 +6,9 @@ scoreboard players set $damagecalcdef damagecalc 0
 
 scoreboard players set $damagecalc2 damagecalc 0
 scoreboard players set $damageadd damagecalc 100
+
+execute if entity @e[tag=victim,limit=1,tag=truedamagetmp] run return run function damage:truedamagecalc
+
 #damage1trigger とにかくhitした時
 execute as @e[tag=atker] run function items:triggers/attack1/check
 execute as @e[tag=victim] run function items:triggers/attacked1/check
