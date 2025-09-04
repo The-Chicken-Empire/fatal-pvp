@@ -1,0 +1,10 @@
+{
+  "function": "minecraft:set_name",
+  "name": [
+    {
+      "text": "草縫いの腰蓑",
+      "color": "white",
+      "italic": false
+    }
+  ]
+}

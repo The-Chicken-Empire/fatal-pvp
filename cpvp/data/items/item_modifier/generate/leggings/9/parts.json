@@ -1,0 +1,29 @@
+{
+  "function": "minecraft:set_lore",
+  "lore": [
+    [
+      ""
+    ],
+    [
+      {
+        "text": "使用可能部位",
+        "color": "dark_green",
+        "italic": false
+      },
+      {
+        "text": " : ",
+        "color": "white",
+        "italic": false
+      },
+      {
+        "text": "レギンス",
+        "color": "dark_green",
+        "italic": false
+      }
+    ],
+    [
+      ""
+    ]
+  ],
+  "mode": "append"
+}
