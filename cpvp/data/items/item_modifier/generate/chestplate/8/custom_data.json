@@ -7,7 +7,7 @@
       "chestplate": {
         "stats": {
           "magicdmg": 35,
-          "maxhp": 30
+          "maxhp": 40
         },
         "triggers": [
         ]

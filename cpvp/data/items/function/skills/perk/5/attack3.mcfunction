@@ -1,2 +1,0 @@
-execute if score @s eng matches 10.. run scoreboard players add @e[tag=victim,limit=1] damagetaken 10
-execute if score @s eng matches 20.. run scoreboard players add @e[tag=victim,limit=1] damagetaken 10
