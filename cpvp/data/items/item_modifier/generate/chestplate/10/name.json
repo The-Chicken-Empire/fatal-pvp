@@ -1,0 +1,10 @@
+{
+  "function": "minecraft:set_name",
+  "name": [
+    {
+      "text": "青鉱の鎧",
+      "color": "white",
+      "italic": false
+    }
+  ]
+}
