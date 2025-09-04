@@ -12,7 +12,7 @@ data modify storage effect: data.content set value []
 #回心率:cc 回避力:agi 充電最大値:maxeng 攻撃力:damage 防御力:defense
 #リストには[増やすstats,1レベルごとの増加量,レベルに関係ない増加量]をつっこむ。
 #初期値なし
-data modify storage effect: data.isbuff set value 1b
+data modify storage effect: data.isbuff set value 0b
 #1bならバフ 0bならデバフ それ以外なら-1b(????)にしといてください。初期値-1b
 data modify storage effect: data.invisible set value 0b
 #1bだとアイコンが表示されなくなります。初期値0b

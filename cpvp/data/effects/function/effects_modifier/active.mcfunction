@@ -1,0 +1,2 @@
+data modify storage effect: effect_modifier.tmp.active append from storage effect: effect_modifier.tmp2
+$data modify storage effect: player[{id:$(UUID)}].effect_modifier.active set from storage effect: effect_modifier.tmp.active

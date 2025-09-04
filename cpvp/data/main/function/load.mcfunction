@@ -83,6 +83,11 @@ scoreboard players set @a hpcost 0
 scoreboard players set @a engcost 0
 scoreboard objectives add attackerdata dummy
 scoreboard objectives add getdamage dummy
+scoreboard objectives add allydeathcount dummy
+scoreboard objectives add playerdeathcount dummy
+scoreboard players set @a allydeathcount 0
+scoreboard players set @a playerdeathcount 0
+
 #銃system
 scoreboard objectives add bulletspeed dummy
 scoreboard objectives add bulletspeedtmp dummy
@@ -227,6 +232,8 @@ scoreboard objectives add magic13-3 dummy
 scoreboard objectives add magic13-4 dummy
 scoreboard objectives add magic13markID1 dummy
 scoreboard objectives add magic13markID2 dummy
+scoreboard objectives add offhand6 dummy
+scoreboard players set @e offhand6 0
 
 scoreboard objectives add weapon4 dummy
 

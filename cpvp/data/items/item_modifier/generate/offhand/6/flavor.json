@@ -1,0 +1,21 @@
+{
+  "function": "minecraft:set_lore",
+  "lore": [
+    [
+      {
+        "text": "教祖Cが信者に持たせていた盾のようなもの",
+        "color": "dark_gray",
+        "italic": true,
+        "obfuscated": false
+      }
+    ],
+    [
+      {
+        "text": "使われた形跡はないが、使われた記録は存在している",
+        "color": "dark_gray",
+        "italic": true
+      }
+    ]
+  ],
+  "mode": "append"
+}

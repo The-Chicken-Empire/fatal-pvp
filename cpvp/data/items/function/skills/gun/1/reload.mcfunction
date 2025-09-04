@@ -6,7 +6,7 @@ scoreboard players operation @s mp -= @s mpcost
 data modify storage tmp gundata set from entity @s SelectedItem.components."minecraft:custom_data"
 data modify storage tmp gundata.cpvp merge from storage tmp bullet
 data modify storage tmp gundata.cpvp.bullets set value 1b
-item modify entity @s weapon.mainhand items:gun/gundata
+item modify entity @s weapon.mainhand items:skills/gun/gundata
 #item replace
 item replace block 0 0 0 container.0 from entity @s weapon.mainhand
 data modify block 0 0 0 Items.[0].components."minecraft:custom_data" set from storage tmp gundata
@@ -21,7 +21,7 @@ function items:skills/bullet/bulletcheck
 #銃種をstorageに保存
 data modify storage name gun set value {"bold":true,"color":"white","italic":false,"text":"ハンドガン"}
 #こっからはitem modifyでどうにかする
-item modify entity @s weapon.mainhand items:gun/g1/gunname
+item modify entity @s weapon.mainhand items:skills/gun/g1/gunname
 #音
 execute at @s run playsound block.shulker_box.close player @s ~ ~ ~ 1 2 0
 #reset

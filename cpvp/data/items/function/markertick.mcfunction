@@ -31,6 +31,7 @@ execute if entity @s[tag=magic14item] run function items:skills/magic/14/markert
 #15
 execute if entity @s[tag=magic15] run function items:skills/magic/15/markertick
 execute if entity @s[tag=magic15-2] run function items:skills/magic/15/markertick2
+execute if entity @s[tag=magic15-3] run function items:skills/magic/15/markertick3
 #17
 execute if entity @s[tag=seraph_overload] run function items:skills/magic/17/skill1/tick
 execute if entity @s[tag=seraph_feather2] run function items:skills/magic/17/skill1/feather/tick
@@ -54,6 +55,8 @@ execute if entity @s[tag=weapon6] run function items:skills/weapon/6/markertick
 execute if entity @s[tag=seraph_kabuto] at @s run function items:skills/weapon/9/skill1/kabuto/tick
 execute if entity @s[tag=seraph_jajaja] at @s run function items:skills/weapon/9/skill1/kabuto/tick2
 ##offhand
+#6
+execute if entity @s[tag=offhand6] run function items:skills/offhand/6/markertick
 #7
 execute if entity @s[tag=offhand7-2] run function items:skills/offhand/7/markertick
 execute if entity @s[tag=offhand7-3] run function items:skills/offhand/7/markertick2

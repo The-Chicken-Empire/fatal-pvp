@@ -46,5 +46,5 @@ data remove storage cpvp:tmp tmp
 tag @s remove meleevictim
 
 scoreboard players set $tmp tmp 0
-execute as @e[tag=meleevictim] if score @s attackerdata = @e[tag=atker,limit=1] playerdata run scoreboard players add $tmmp tmp 1
+execute as @e[tag=meleevictim] if score @s attackerdata = @e[tag=atker,limit=1] playerdata run scoreboard players add $tmp tmp 1
 execute if score $tmp tmp matches 0 run tag @s remove meleeatker

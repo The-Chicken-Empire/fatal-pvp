@@ -1,0 +1,19 @@
+{
+  "function": "minecraft:set_custom_data",
+  "tag": {
+    "cpvp": {
+      "id": 8,
+      "item_type": "boots",
+      "boots": {
+        "stats": {
+          "mr": 15,
+          "magicdmg": 10,
+          "cc": 2
+        },
+        "triggers": [
+        ]
+      },
+      "regularitem": 1
+    }
+  }
+}

@@ -69,7 +69,7 @@
         "italic": false
       },
       {
-        "text": "6×8",
+        "text": "6×4",
         "color": "gold",
         "italic": false
       },
@@ -96,7 +96,7 @@
     ],
     [
       {
-        "text": "前方に敵playerを追尾する",
+        "text": "前方に",
         "color": "white",
         "italic": false
       },

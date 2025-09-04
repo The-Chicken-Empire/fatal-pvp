@@ -59,7 +59,7 @@ scoreboard players operation $damagecalc damagecalc -= $damagecalcdef damagecalc
 #特殊ダメージ処理
 execute if entity @s[tag=victim,tag=specialdamagetmp] run scoreboard players operation $damagecalc damagecalc /= $2 main
 
-#effect処理
+#resistance strength weakness invulnerableの処理
 function damage:effects/
 
 #倍率調整

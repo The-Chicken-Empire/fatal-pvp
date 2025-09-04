@@ -10,6 +10,7 @@ tag @s add physicaldamage
 tag @s add meleedamage
 #damage量
 scoreboard players set @s damagetaken 120
-
+#
+data modify storage atktrigger: hage set value {itemtype:weapon,id:5,atktype:1}
 #attackercheck
 function damage:atkercheck

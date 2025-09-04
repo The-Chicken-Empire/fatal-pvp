@@ -10,12 +10,9 @@
         },
         "triggers": [
           "attack1",
-          "notinhotbar"
-        ]
-      },
-      "hotbar":{
-        "triggers":[
-          "tick"
+          "notinhotbar",
+          "tick",
+          "unequip"
         ]
       },
       "regularitem": 1,

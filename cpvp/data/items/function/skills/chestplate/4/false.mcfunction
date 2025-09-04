@@ -1,1 +1,1 @@
-item modify entity @s armor.chest items:chestplate/4/false
+item modify entity @s armor.chest items:skills/chestplate/4/false

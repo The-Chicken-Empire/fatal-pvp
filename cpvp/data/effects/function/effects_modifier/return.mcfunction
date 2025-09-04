@@ -1,0 +1,1 @@
+$data modify storage effect: player[{id:$(UUID)}].effect_modifier set from storage effect: effect_modifier.tmp
