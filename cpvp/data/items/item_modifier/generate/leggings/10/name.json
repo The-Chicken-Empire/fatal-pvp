@@ -1,0 +1,10 @@
+{
+  "function": "minecraft:set_name",
+  "name": [
+    {
+      "text": "金青銅の足鎧",
+      "color": "white",
+      "italic": false
+    }
+  ]
+}
