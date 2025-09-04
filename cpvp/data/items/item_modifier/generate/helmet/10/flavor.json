@@ -3,14 +3,14 @@
   "lore": [
     [
       {
-        "text": "ここにフレーバーテキストを書く",
+        "text": "全鉱石の中でも最高峰の硬さを誇る青鉱が使われた兜",
         "color": "dark_gray",
         "italic": true
       }
     ],
     [
       {
-        "text": "ここは2行目",
+        "text": "何度も打ち直され最適解に近い状態にある",
         "color": "dark_gray",
         "italic": true
       }

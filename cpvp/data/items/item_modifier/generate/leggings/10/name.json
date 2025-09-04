@@ -2,7 +2,17 @@
   "function": "minecraft:set_name",
   "name": [
     {
-      "text": "金青銅の足鎧",
+      "text": "金",
+      "color": "#eeff00",
+      "italic": false
+    },
+    {
+      "text": "青銅",
+      "color": "#007ee6",
+      "italic": false
+    },
+    {
+      "text": "の足鎧",
       "color": "white",
       "italic": false
     }

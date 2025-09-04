@@ -17,11 +17,11 @@ item modify block 0 0 0 container.0 items:generate/leggings/10/cost
 
 item modify block 0 0 0 container.0 items:generate/leggings/10/stats
 
-item modify block 0 0 0 container.0 items:generate/leggings/10/ability
+#item modify block 0 0 0 container.0 items:generate/leggings/10/ability
 
 item modify block 0 0 0 container.0 items:generate/leggings/10/parts
 
 item modify block 0 0 0 container.0 items:generate/leggings/10/flavor
 
 #アトリビュートなどを追加したい場合はコメントをはずしてファイルを作成する
-#item modify block 0 0 0 container.0 items:generate/leggings/10/others
+item modify block 0 0 0 container.0 items:generate/leggings/10/others

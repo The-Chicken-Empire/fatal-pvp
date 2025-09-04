@@ -4,38 +4,38 @@
     "minecraft:attribute_modifiers": [
       {
         "type": "minecraft:armor",
-        "id": "minecraft:leggings",
+        "id": "minecraft:boots",
         "amount": 0,
         "operation": "add_value",
-        "slot": "legs"
+        "slot": "feet"
       },
       {
-        "type": "minecraft:knockback_resistance",
-        "id": "minecraft:leggings",
+        "type": "knockback_resistance",
+        "id": "minecraft:boots",
         "amount": 0,
         "operation": "add_value",
-        "slot": "legs"
+        "slot": "feet"
       },
       {
         "type": "armor_toughness",
-        "id": "minecraft:leggings",
+        "id": "minecraft:boots",
         "amount": 0,
         "operation": "add_value",
-        "slot": "legs"
+        "slot": "feet"
       }
     ],
     "minecraft:unbreakable": {},
     "minecraft:tooltip_display": {
       "hidden_components": [
         "minecraft:unbreakable",
+        "minecraft:dyed_color",
         "minecraft:trim",
-        "minecraft:attribute_modifiers",
-        "dyed_color"
+        "minecraft:attribute_modifiers"
       ]
     },
-    "minecraft:trim": {
-      "material": "minecraft:amethyst",
-      "pattern": "minecraft:silence"
+    "trim": {
+      "pattern": "silence",
+      "material": "iron"
     }
   }
 }

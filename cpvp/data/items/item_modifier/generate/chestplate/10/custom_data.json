@@ -7,7 +7,7 @@
       "item_type": "chestplate",
       "chestplate": {
         "stats": {
-          "physicaldef": 40,
+          "physicaldef": 45,
           "speed": -15
         },
         "triggers": []

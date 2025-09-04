@@ -2,7 +2,17 @@
   "function": "minecraft:set_name",
   "name": [
     {
-      "text": "黒銀の靴",
+      "text": "黒",
+      "color": "dark_gray",
+      "italic": false
+    },
+    {
+      "text": "銀",
+      "color": "gray",
+      "italic": false
+    },
+    {
+      "text": "の靴",
       "color": "white",
       "italic": false
     }

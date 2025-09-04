@@ -3,14 +3,14 @@
   "lore": [
     [
       {
-        "text": "ここにフレーバーテキストを書く",
+        "text": "過去にとある鍛冶師によって考案された足鎧",
         "color": "dark_gray",
         "italic": true
       }
     ],
     [
       {
-        "text": "ここは2行目",
+        "text": "金と青銅の調和により若干の魔法耐性を持っている",
         "color": "dark_gray",
         "italic": true
       }
