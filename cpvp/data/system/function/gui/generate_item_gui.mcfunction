@@ -30,6 +30,14 @@ function items:generate/helmet/7/generate
 data modify storage cpvp:tmp gui.item set from block 0 0 0 Items[0]
 data modify storage cpvp:tmp gui.item.Slot set value 5b
 data modify storage gui_maker: input.addpage_enderchest.Items append from storage cpvp:tmp gui.item
+function items:generate/helmet/8/generate
+data modify storage cpvp:tmp gui.item set from block 0 0 0 Items[0]
+data modify storage cpvp:tmp gui.item.Slot set value 6b
+data modify storage gui_maker: input.addpage_enderchest.Items append from storage cpvp:tmp gui.item
+function items:generate/helmet/9/generate
+data modify storage cpvp:tmp gui.item set from block 0 0 0 Items[0]
+data modify storage cpvp:tmp gui.item.Slot set value 7b
+data modify storage gui_maker: input.addpage_enderchest.Items append from storage cpvp:tmp gui.item
 function gui_maker:general/addpage_enderchest
 
 #weapon1
@@ -99,6 +107,14 @@ data modify storage gui_maker: input.addpage_enderchest.Items append from storag
 function items:generate/boots/5/generate
 data modify storage cpvp:tmp gui.item set from block 0 0 0 Items[0]
 data modify storage cpvp:tmp gui.item.Slot set value 4b
+data modify storage gui_maker: input.addpage_enderchest.Items append from storage cpvp:tmp gui.item
+function items:generate/boots/8/generate
+data modify storage cpvp:tmp gui.item set from block 0 0 0 Items[0]
+data modify storage cpvp:tmp gui.item.Slot set value 5b
+data modify storage gui_maker: input.addpage_enderchest.Items append from storage cpvp:tmp gui.item
+function items:generate/boots/9/generate
+data modify storage cpvp:tmp gui.item set from block 0 0 0 Items[0]
+data modify storage cpvp:tmp gui.item.Slot set value 6b
 data modify storage gui_maker: input.addpage_enderchest.Items append from storage cpvp:tmp gui.item
 function gui_maker:general/addpage_enderchest
 
@@ -266,21 +282,25 @@ function items:generate/offhand/5/generate
 data modify storage cpvp:tmp gui.item set from block 0 0 0 Items[0]
 data modify storage cpvp:tmp gui.item.Slot set value 3b
 data modify storage gui_maker: input.addpage_enderchest.Items append from storage cpvp:tmp gui.item
-function items:generate/offhand/7/generate
+function items:generate/offhand/6/generate
 data modify storage cpvp:tmp gui.item set from block 0 0 0 Items[0]
 data modify storage cpvp:tmp gui.item.Slot set value 4b
 data modify storage gui_maker: input.addpage_enderchest.Items append from storage cpvp:tmp gui.item
-function items:generate/offhand/8/generate
+function items:generate/offhand/7/generate
 data modify storage cpvp:tmp gui.item set from block 0 0 0 Items[0]
 data modify storage cpvp:tmp gui.item.Slot set value 5b
 data modify storage gui_maker: input.addpage_enderchest.Items append from storage cpvp:tmp gui.item
-function items:generate/offhand/9/generate
+function items:generate/offhand/8/generate
 data modify storage cpvp:tmp gui.item set from block 0 0 0 Items[0]
 data modify storage cpvp:tmp gui.item.Slot set value 6b
 data modify storage gui_maker: input.addpage_enderchest.Items append from storage cpvp:tmp gui.item
-function items:generate/offhand/10/generate
+function items:generate/offhand/9/generate
 data modify storage cpvp:tmp gui.item set from block 0 0 0 Items[0]
 data modify storage cpvp:tmp gui.item.Slot set value 7b
+data modify storage gui_maker: input.addpage_enderchest.Items append from storage cpvp:tmp gui.item
+function items:generate/offhand/10/generate
+data modify storage cpvp:tmp gui.item set from block 0 0 0 Items[0]
+data modify storage cpvp:tmp gui.item.Slot set value 8b
 data modify storage gui_maker: input.addpage_enderchest.Items append from storage cpvp:tmp gui.item
 function gui_maker:general/addpage_enderchest
 
@@ -306,6 +326,14 @@ data modify storage gui_maker: input.addpage_enderchest.Items append from storag
 function items:generate/leggings/6/generate
 data modify storage cpvp:tmp gui.item set from block 0 0 0 Items[0]
 data modify storage cpvp:tmp gui.item.Slot set value 4b
+data modify storage gui_maker: input.addpage_enderchest.Items append from storage cpvp:tmp gui.item
+function items:generate/leggings/8/generate
+data modify storage cpvp:tmp gui.item set from block 0 0 0 Items[0]
+data modify storage cpvp:tmp gui.item.Slot set value 5b
+data modify storage gui_maker: input.addpage_enderchest.Items append from storage cpvp:tmp gui.item
+function items:generate/leggings/9/generate
+data modify storage cpvp:tmp gui.item set from block 0 0 0 Items[0]
+data modify storage cpvp:tmp gui.item.Slot set value 6b
 data modify storage gui_maker: input.addpage_enderchest.Items append from storage cpvp:tmp gui.item
 function gui_maker:general/addpage_enderchest
 
@@ -357,5 +385,13 @@ data modify storage gui_maker: input.addpage_enderchest.Items append from storag
 function items:generate/chestplate/6/generate
 data modify storage cpvp:tmp gui.item set from block 0 0 0 Items[0]
 data modify storage cpvp:tmp gui.item.Slot set value 5b
+data modify storage gui_maker: input.addpage_enderchest.Items append from storage cpvp:tmp gui.item
+function items:generate/chestplate/8/generate
+data modify storage cpvp:tmp gui.item set from block 0 0 0 Items[0]
+data modify storage cpvp:tmp gui.item.Slot set value 6b
+data modify storage gui_maker: input.addpage_enderchest.Items append from storage cpvp:tmp gui.item
+function items:generate/chestplate/9/generate
+data modify storage cpvp:tmp gui.item set from block 0 0 0 Items[0]
+data modify storage cpvp:tmp gui.item.Slot set value 7b
 data modify storage gui_maker: input.addpage_enderchest.Items append from storage cpvp:tmp gui.item
 function gui_maker:general/addpage_enderchest
