@@ -3,14 +3,28 @@
   "lore": [
     [
       {
-        "text": "ここにフレーバーテキストを書く",
+        "text": "葉っぱをツルで編んで簡易的に作った腰蓑。",
         "color": "dark_gray",
         "italic": true
       }
     ],
     [
       {
-        "text": "ここは2行目",
+        "text": "作りやすさ故に、汚れたり破損した時にも",
+        "color": "dark_gray",
+        "italic": true
+      }
+    ],
+    [
+      {
+        "text": "すぐ再構築でき、資源不足に悩まされる狩人にとって、",
+        "color": "dark_gray",
+        "italic": true
+      }
+    ],
+    [
+      {
+        "text": "欠かせない存在である。",
         "color": "dark_gray",
         "italic": true
       }

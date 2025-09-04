@@ -2,8 +2,8 @@
   "function": "minecraft:set_name",
   "name": [
     {
-      "text": "",
-      "color": "white",
+      "text": "ホークアイ",
+      "color": "blue",
       "italic": false
     }
   ]

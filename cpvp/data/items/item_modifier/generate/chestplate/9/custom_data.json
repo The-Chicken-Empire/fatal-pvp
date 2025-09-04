@@ -8,7 +8,7 @@
       "chestplate": {
         "stats": {
           "rangedmg": 10,
-          "speed": 10
+          "speed": 15
         },
         "triggers": []
       },

@@ -3,14 +3,28 @@
   "lore": [
     [
       {
-        "text": "ここにフレーバーテキストを書く",
+        "text": "葉っぱをツルで編んで簡易的に作った服。",
         "color": "dark_gray",
         "italic": true
       }
     ],
     [
       {
-        "text": "ここは2行目",
+        "text": "自然環境では迷彩服としても活用できる。",
+        "color": "dark_gray",
+        "italic": true
+      }
+    ],
+    [
+      {
+        "text": "圧倒的な露出のおかげで通気性がよく、",
+        "color": "dark_gray",
+        "italic": true
+      }
+    ],
+    [
+      {
+        "text": "身軽で快適な仕上がりになっている。",
         "color": "dark_gray",
         "italic": true
       }

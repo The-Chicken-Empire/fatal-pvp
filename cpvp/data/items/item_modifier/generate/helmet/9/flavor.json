@@ -3,14 +3,21 @@
   "lore": [
     [
       {
-        "text": "ここにフレーバーテキストを書く",
+        "text": "瞬時に遠距離を見渡すことができるゴーグル。",
         "color": "dark_gray",
         "italic": true
       }
     ],
     [
       {
-        "text": "ここは2行目",
+        "text": "射撃の精度が向上し、瞬時に辺りの状況を把握できるので、",
+        "color": "dark_gray",
+        "italic": true
+      }
+    ],
+    [
+      {
+        "text": "狩人には欠かせないツールとなっている。",
         "color": "dark_gray",
         "italic": true
       }
