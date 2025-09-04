@@ -17,7 +17,7 @@ item modify block 0 0 0 container.0 items:generate/boots/9/cost
 
 item modify block 0 0 0 container.0 items:generate/boots/9/stats
 
-item modify block 0 0 0 container.0 items:generate/boots/9/ability
+#item modify block 0 0 0 container.0 items:generate/boots/9/ability
 
 item modify block 0 0 0 container.0 items:generate/boots/9/parts
 
