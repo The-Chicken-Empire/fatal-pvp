@@ -7,8 +7,6 @@
       "item_type": "chestplate",
       "chestplate": {
         "stats": {
-          "vit": -25,
-          "agi": -10
         },
         "triggers": []
       },
