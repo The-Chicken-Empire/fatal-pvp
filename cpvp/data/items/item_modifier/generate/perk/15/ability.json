@@ -8,8 +8,8 @@
         "italic": false
       },
       {
-        "text": "ここにability名",
-        "color": "white",
+        "text": "ナウいエレクトロニック",
+        "color": "blue",
         "italic": false
       },
       {
@@ -20,21 +20,19 @@
     ],
     [
       {
-        "text": "発動検知",
+        "text": "常時",
         "italic": false,
         "color": "yellow"
       }
     ],
     [
       {
-        "text": "cost",
+        "text": "充電",
         "italic": false,
-        "color": "white"
-      }
-    ],
-    [
+        "color": "yellow"
+      },
       {
-        "text": "内容",
+        "text": "を得る時追加で1得る。",
         "italic": false,
         "color": "white"
       }

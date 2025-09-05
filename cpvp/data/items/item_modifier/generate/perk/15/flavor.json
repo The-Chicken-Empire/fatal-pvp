@@ -3,14 +3,14 @@
   "lore": [
     [
       {
-        "text": "ここにフレーバーテキストを書く",
+        "text": "電圧を短時間で増幅させる回路。",
         "color": "dark_gray",
         "italic": true
       }
     ],
     [
       {
-        "text": "ここは2行目",
+        "text": "従来の真空管と比べると圧倒的な効率を誇る。",
         "color": "dark_gray",
         "italic": true
       }

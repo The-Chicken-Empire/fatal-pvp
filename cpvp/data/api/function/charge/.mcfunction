@@ -1,3 +1,5 @@
+##トランジスタの処理
+execute if entity @s[tag=perk15] run scoreboard players add $eng main 1
 
 
 scoreboard players operation @s eng += $eng main

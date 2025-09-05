@@ -6,7 +6,7 @@
       "id": 15,
       "item_type": "perk",
       "hotbar": {
-        "triggers": []
+        "triggers": ["equip","unequip"]
       },
       "regularitem": 1,
       "classitem": 0
