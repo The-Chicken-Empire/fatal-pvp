@@ -18,8 +18,8 @@
         "italic": false
       }
     ],
-    [{"text":"この武器でダメージを与えた時、","color":"white","italic": false},{"text":"[翼]","color":"yellow","italic": false},{"text":"を4得、","color":"white","italic":false}],
-    [{"text":"与ダメージの40%分だけ体力を回復する。","color":"white","italic": false}],
+    [{"text":"この武器でダメージを与えた時、","color":"white","italic": false},{"text":"[翼]","color":"yellow","italic": false},{"text":"を1得、","color":"white","italic":false}],
+    [{"text":"与ダメージの25%分だけ体力を回復する。","color":"white","italic": false}],
     [{"text":""}],
     [
       {
@@ -57,7 +57,7 @@
         "color":"white"
       },
       {
-        "text": "10 ",
+        "text": "25 ",
         "italic": false,
         "color":"green"
       },
@@ -89,7 +89,7 @@
         "italic": false
       },
       {
-        "text": "3×6",
+        "text": "2×8",
         "color": "gold",
         "italic": false
       },
@@ -131,6 +131,21 @@
     [
       {
         "text": "命中させると、跳躍攻撃に派生する。",
+        "color": "white",
+        "italic": false
+      }
+    ],
+    [
+      {
+        "text": "跳躍攻撃の命中時、",
+        "color": "white",
+        "italic": false
+      },{
+        "text": "MP",
+        "color": "aqua",
+        "italic": false
+      },{
+        "text": "を回復する。",
         "color": "white",
         "italic": false
       }
@@ -202,7 +217,7 @@
         "color":"white"
       },
       {
-        "text": "12",
+        "text": "15",
         "italic": false,
         "color":"green"
       }
