@@ -2,12 +2,13 @@
   "function": "minecraft:set_custom_data",
   "tag": {
     "cpvp": {
-      "cost": 7,
+      "cost": 5,
       "id": 11,
       "item_type": "offhand",
       "offhand": {
         "triggers": [
-          "unequip"
+          "unequip",
+          "attack2"
         ]
       },
       "regularitem": 1,

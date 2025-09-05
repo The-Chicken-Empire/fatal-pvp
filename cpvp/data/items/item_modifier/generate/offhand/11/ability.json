@@ -8,8 +8,8 @@
         "italic": false
       },
       {
-        "text": "ここにability名",
-        "color": "white",
+        "text": "残留因子増幅ユニット",
+        "color": "dark_purple",
         "italic": false
       },
       {
@@ -20,21 +20,21 @@
     ],
     [
       {
-        "text": "発動検知",
+        "text": "攻撃時",
         "italic": false,
         "color": "yellow"
       }
     ],
     [
       {
-        "text": "cost",
+        "text": "今回の攻撃属性が、自身が直前に行った攻撃属性と、",
         "italic": false,
         "color": "white"
       }
     ],
     [
       {
-        "text": "内容",
+        "text": "ひとつ異なるごとに、攻撃の威力が大きく増加する。",
         "italic": false,
         "color": "white"
       }

@@ -84,6 +84,15 @@ scoreboard players operation @s damagetaken *= $damagecalc damagecalc
 scoreboard players operation @s damagetaken *= $damagecalc2 damagecalc
 scoreboard players operation @s damagetaken /= $10000 main
 
+#スキルの処理
+##helm4の効果 1.5倍
+execute as @a[tag=atker] if items entity @s armor.head golden_hoe[minecraft:custom_data~{cpvp:{id:4b}}] at @s if entity @e[tag=victim,distance=15..] run function items:skills/helmet/4/atk
+##offhand11の効果 k倍 (kは0以上の実数)
+execute as @a[tag=atker] if items entity @s weapon.offhand end_crystal[minecraft:custom_data~{cpvp:{id:11b}}] if items entity @s weapon.offhand end_crystal[minecraft:custom_data~{cpvp:{item_type:"offhand"}}] run function items:skills/offhand/11/atk
+
+
+
+
 #damage3trigger
 execute as @e[tag=atker] run function items:triggers/attack3/check
 execute as @e[tag=victim] run function items:triggers/attacked3/check
@@ -91,7 +100,6 @@ execute as @e[tag=atker] run function damage:atktrigger/attack3 with storage atk
 
 #　ほ　か
 execute if entity @s[tag=victim,tag=magic19buff] run function items:skills/magic/19/counter
-execute as @a[tag=atker] if items entity @s armor.head golden_hoe[minecraft:custom_data~{cpvp:{id:4b}}] at @s if entity @e[tag=victim,distance=15..] run function items:skills/helmet/4/atk
 
 
 #ダメージ上限
