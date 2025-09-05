@@ -1,5 +1,5 @@
 #check
-scoreboard players set @s mpcost 1000
+scoreboard players set @s mpcost 2500
 
 
 

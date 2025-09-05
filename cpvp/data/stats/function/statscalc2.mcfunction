@@ -4,7 +4,7 @@ scoreboard players operation @s maxhp += $dummy maxhp
 #maxmp
 execute store result score $dummy maxmp run data get storage cpvp:stats $dummy.maxmp
 scoreboard players operation @s maxmp += $dummy maxmp
-#mr
+$mr
 execute store result score $dummy mr run data get storage cpvp:stats $dummy.mr
 scoreboard players operation @s mr += $dummy mr
 #physicaldef
