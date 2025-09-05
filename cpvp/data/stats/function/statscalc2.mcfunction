@@ -55,3 +55,6 @@ scoreboard players operation @s maxeng += $dummy maxeng
 #bonusattackspeed
 execute store result score $dummy bonusattackspeed run data get storage cpvp:stats $dummy.bonusattackspeed
 scoreboard players operation @s bonusattackspeed += $dummy bonusattackspeed
+#ctreduction
+execute store result score $dummy ctreduction run data get storage cpvp:stats $dummy.ctreduction
+scoreboard players operation @s ctreduction += $dummy ctreduction

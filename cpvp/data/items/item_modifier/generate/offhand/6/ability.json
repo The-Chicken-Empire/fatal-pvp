@@ -25,6 +25,24 @@
         "color":"yellow"
       }
     ],
+    
+    [
+      {
+        "text": "クールタイム",
+        "italic": false,
+        "color":"dark_aqua"
+      },
+      {
+        "text": " : ",
+        "italic": false,
+        "color":"white"
+      },
+      {
+        "text": "15秒",
+        "italic": false,
+        "color":"green"
+      }
+    ],
     [
       {
         "text": "15回",

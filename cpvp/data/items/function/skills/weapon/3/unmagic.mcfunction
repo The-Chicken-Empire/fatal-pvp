@@ -1,6 +1,6 @@
 
 item replace block 0 0 0 container.0 from entity @s weapon.mainhand
-item modify block 0 0 0 container.0 items:weapon/3/unmagiced
+item modify block 0 0 0 container.0 items:skills/weapon/3/unmagiced
 data remove block 0 0 0 Items[0].components."minecraft:custom_data".cpvp.magiced
 item replace entity @s weapon.mainhand from block 0 0 0 container.0
 tag @s add weapon3unmagic
