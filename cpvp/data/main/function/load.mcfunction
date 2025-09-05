@@ -278,5 +278,10 @@ function system:gui/load
 function system:stats_modifier/load
 
 
+
+#適当に使うときの汎用markerの召喚
+kill 0-0-0-0-0
+summon marker 0.0 0.0 0.0 {Tags:["verynicemarker"],UUID:[I;0,0,0,0]}
+
 #仮
 

@@ -1,0 +1,10 @@
+{
+  "function": "minecraft:set_name",
+  "name": [
+    {
+      "text": "稲妻のブーツ",
+      "color": "yellow",
+      "italic": false
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "function": "minecraft:set_components",
+  "components": {
+    "minecraft:attribute_modifiers": [
+      {
+        "type": "minecraft:armor",
+        "id": "minecraft:leggings",
+        "amount": 0,
+        "operation": "add_value",
+        "slot": "legs"
+      },
+      {
+        "type": "minecraft:knockback_resistance",
+        "id": "minecraft:leggings",
+        "amount": 0,
+        "operation": "add_value",
+        "slot": "legs"
+      }
+    ],
+    "minecraft:unbreakable": {},
+    "minecraft:tooltip_display": {
+      "hidden_components": [
+        "minecraft:unbreakable",
+        "minecraft:trim",
+        "minecraft:attribute_modifiers",
+        "dyed_color"
+      ]
+    },
+    "minecraft:trim": {
+      "material": "minecraft:emerald",
+      "pattern": "minecraft:flow"
+    }
+  }
+}
