@@ -15,6 +15,13 @@
         "amount": 0,
         "operation": "add_value",
         "slot": "legs"
+      },
+      {
+        "type": "armor_toughness",
+        "id": "minecraft:leggings",
+        "amount": 0,
+        "operation": "add_value",
+        "slot": "legs"
       }
     ],
     "minecraft:unbreakable": {},

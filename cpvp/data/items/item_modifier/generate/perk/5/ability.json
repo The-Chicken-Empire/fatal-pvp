@@ -47,17 +47,17 @@
         "color":"gold"
       },
       {
-        "text": "以上の時、与えるダメージが固定",
+        "text": "以上の時、与えるダメージが",
         "italic": false,
         "color":"white"
       },
       {
-        "text": "+1",
+        "text": "15%",
         "italic": false,
         "color":"yellow"
       },
       {
-        "text": "される",
+        "text": "上昇する",
         "italic": false,
         "color":"white"
       }
@@ -74,12 +74,12 @@
         "italic": false
       },
       {
-        "text": "+1",
+        "text": "15%",
         "color": "yellow",
         "italic": false
       },
       {
-        "text": "される",
+        "text": "上昇する",
         "color": "white",
         "italic": false
       }

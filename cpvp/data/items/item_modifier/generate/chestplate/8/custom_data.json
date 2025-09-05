@@ -6,8 +6,8 @@
       "item_type": "chestplate",
       "chestplate": {
         "stats": {
-          "magicdmg": 30,
-          "maxhp": 3
+          "magicdmg": 35,
+          "maxhp": 40
         },
         "triggers": [
         ]

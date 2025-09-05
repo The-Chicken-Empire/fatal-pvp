@@ -18,6 +18,7 @@ scoreboard players set @s agi 0
 scoreboard players set @s maxeng 0
 scoreboard players set @s attackspeed 0
 scoreboard players set @s bonusattackspeed 0
+scoreboard players set @s ctreduction 0
 scoreboard players set $dummy statscalc 0
 
 #attackspeed処理
