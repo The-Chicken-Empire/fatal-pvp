@@ -24,13 +24,6 @@
         "italic": false,
         "color": "white"
       }
-    ],
-    [
-      {
-        "text": "回避成功時、ダメージなどを無効化する。",
-        "italic": false,
-        "color": "white"
-      }
     ]
   ],
   "mode": "append"

@@ -3,12 +3,13 @@
   "tag": {
     "cpvp": {
       "cost": 5,
-      "id": 6,
-      "item_type": "chestplate",
-      "chestplate": {
-        "stats": {
-        },
-        "triggers": []
+      "id": 11,
+      "item_type": "offhand",
+      "offhand": {
+        "triggers": [
+          "unequip",
+          "attack2"
+        ]
       },
       "regularitem": 1,
       "classitem": 0

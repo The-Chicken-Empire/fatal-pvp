@@ -1,0 +1,17 @@
+{
+  "function": "minecraft:set_components",
+  "components": {
+    "minecraft:tooltip_display": {
+      "hidden_components": [
+        "minecraft:unbreakable",
+        "minecraft:dyed_color",
+        "minecraft:trim",
+        "minecraft:attribute_modifiers",
+        "dyed_color",
+        "provides_trim_material",
+        "glider",
+        "trim"
+      ]
+    }
+  }
+}

@@ -2,9 +2,12 @@
   "function": "minecraft:set_lore",
   "lore": [
     [
+      ""
+    ],
+    [
       {
-        "text": "アイテムコスト",
-        "color": "light_purple",
+        "text": "使用可能部位",
+        "color": "dark_green",
         "italic": false
       },
       {
@@ -13,8 +16,8 @@
         "italic": false
       },
       {
-        "text": "5",
-        "color": "red",
+        "text": "オフハンド",
+        "color": "dark_green",
         "italic": false
       }
     ],
