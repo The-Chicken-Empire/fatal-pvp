@@ -1,5 +1,5 @@
 execute at @s run playsound entity.player.burp player @s ~ ~ ~ 1 1 1
-scoreboard players set #heal main 200
+scoreboard players set $heal main 200
 function api:heal/
 
 execute store result score $tmp random run random value 1..3

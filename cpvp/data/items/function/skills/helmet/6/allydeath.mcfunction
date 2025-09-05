@@ -1,6 +1,6 @@
-execute store result score #heal main run scoreboard players get @s maxhp
-scoreboard players operation #heal main *= $2 main
-scoreboard players operation #heal main /= $10 main
+execute store result score $heal main run scoreboard players get @s maxhp
+scoreboard players operation $heal main *= $2 main
+scoreboard players operation $heal main /= $10 main
 function api:heal/
 
 playsound minecraft:entity.spider.step hostile @s ~ ~ ~ 0.5 0.6
