@@ -1,0 +1,10 @@
+{
+  "function": "minecraft:set_name",
+  "name": [
+    {
+      "text": "筋肉パワーサンダル",
+      "color": "white",
+      "italic": false
+    }
+  ]
+}
