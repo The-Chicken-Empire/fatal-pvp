@@ -22,7 +22,7 @@ execute if score @s hp matches ..0 run function items:triggers/death/check
 scoreboard players operation $tmp getdamage = @s damagepoint
 scoreboard players set @s damagepoint 0
 #攻撃主取り出し
-execute if score @s hp matches 1.. if entity @a[tag=atker,limit=1] run function damage:getatker
+execute if entity @a[tag=atker,limit=1] run function damage:getatker
 #死亡処理
 execute if score @s[type=player] hp matches ..0 run function system:death
 execute if score @s[type=!player] hp matches ..0 run function system:entitydeath
@@ -33,7 +33,7 @@ execute unless score @s hp matches ..0 run function items:triggers/damaged/check
 execute store result storage cpvp:tmp tmp byte 1 run scoreboard players get @s playerdata
 function system:attackdata/remove with storage cpvp:tmp
 data remove storage cpvp:tmp tmp
-#data remove storage atktrigger: hage
+
 
 #tag解除
 #tag @s remove physicaldamage
@@ -44,6 +44,8 @@ data remove storage cpvp:tmp tmp
 #tag @s remove critical
 #終了
 tag @s remove meleevictim
+
+data remove storage atktrigger: hage
 
 scoreboard players set $tmp tmp 0
 execute as @e[tag=meleevictim] if score @s attackerdata = @e[tag=atker,limit=1] playerdata run scoreboard players add $tmp tmp 1
