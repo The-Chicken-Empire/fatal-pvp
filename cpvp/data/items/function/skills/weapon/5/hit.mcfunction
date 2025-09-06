@@ -1,10 +1,10 @@
 #斬撃に1tick中に1回のみ当たるように
 tag @s add weapon5previctmp
-execute as @e[tag=w5marker-2] if score @s teamscore = @e[tag=weapon5previctmp,limit=1] teamscore as @e[tag=weapon5previctmp] run return run tag @s remove weapon5previctmp
+execute as @e[tag=w5.2marker-2] if score @s teamscore = @e[tag=weapon5previctmp,limit=1] teamscore as @e[tag=weapon5previctmp] run return run tag @s remove weapon5previctmp
 tag @s remove weapon5previctmp
 tag @s add weapon5victmp
 
-scoreboard players operation @s attackerdata = @e[tag=w5marker-2,limit=1] owner
+scoreboard players operation @s attackerdata = @e[tag=w5.2marker-2,limit=1] owner
 #damege種類
 tag @s add physicaldamage
 tag @s add meleedamage
