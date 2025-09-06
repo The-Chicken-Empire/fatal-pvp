@@ -8,7 +8,7 @@
       "leggings": {
         "stats": {
           "magicdef": 30,
-          "magicdmg": 15
+          "magicdmg": 10
         },
         "triggers": []
       },
