@@ -1,0 +1,10 @@
+{
+  "function": "minecraft:set_name",
+  "name": [
+    {
+      "text": "弾魔のローブ",
+      "color": "white",
+      "italic": false
+    }
+  ]
+}
