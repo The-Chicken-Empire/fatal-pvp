@@ -4,6 +4,7 @@ execute store result score #effect-counter4113 counter run data get storage effe
 scoreboard players operation #effect-counter4113 counter *= #effect-counter4113 counter2
 
 $scoreboard players operation @s $(unti)_buff += #effect-counter4113 counter
+$execute if entity @s[type=!player] run scoreboard players operation @s $(unti) += #effect-counter4113 counter
 
 
 

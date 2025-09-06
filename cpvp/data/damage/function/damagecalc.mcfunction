@@ -1,4 +1,3 @@
-
 #reset
 scoreboard players set $damagecalc damagecalc 0
 scoreboard players set $damagecalcatk damagecalc 0
