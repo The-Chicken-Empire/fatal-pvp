@@ -1,0 +1,13 @@
+{
+  "function": "minecraft:set_components",
+  "components": {
+    "equippable":
+      {
+      "slot":"head",
+      "equip_sound":"item.armor.equip_generic",
+      "swappable":true
+      },
+      "max_stack_size": 1,
+      "enchantment_glint_override": true
+  }
+}

@@ -6,7 +6,7 @@
       "item_type": "perk",
       "hotbar": {
         "stats": {
-          "hp": 30
+          "maxhp": 30
         }
       },
       "regularitem": 1

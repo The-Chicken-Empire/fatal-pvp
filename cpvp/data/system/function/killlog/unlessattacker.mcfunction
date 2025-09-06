@@ -7,6 +7,6 @@ execute if score $tmp random matches 5 run tellraw @a [{color:"white",italic:fal
 execute if score $tmp random matches 6 run tellraw @a [{italic:false,selector:"@s"},{color:"white",italic:false,text:"よ、しんでしまうとはなさけない！"}]
 execute if score $tmp random matches 7 run tellraw @a [{italic:false,selector:"@s"},{color:"white",italic:false,text:"...お前は...いい奴だったよ"}]
 execute if score $tmp random matches 8 run tellraw @a [{italic:false,selector:"@s"},{color:"white",italic:false,text:"は救済された"}]
-execute if score $tmp random matches 9 run tellraw @a [{italic:false,selector:"@s"},{color:"white",italic:false,text:"は死んだwwww"}]
+execute if score $tmp random matches 9 run tellraw @a [{italic:false,selector:"@s"},{color:"white",italic:false,text:"は死んだ"}]
 execute if score $tmp random matches 10 run tellraw @a [{italic:false,selector:"@s"},{color:"white",italic:false,text:"...?お前...なぜ死んだ...?"}]
 scoreboard players reset $tmp random

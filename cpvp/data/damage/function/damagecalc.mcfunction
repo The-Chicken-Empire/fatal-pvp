@@ -5,7 +5,7 @@ scoreboard players set $damagecalcatk damagecalc 0
 scoreboard players set $damagecalcdef damagecalc 0
 
 scoreboard players set $damagecalc2 damagecalc 0
-scoreboard players set $damageadd damagecalc 100
+scoreboard players set $damageadd damagecalc 0
 
 execute if entity @e[tag=victim,limit=1,tag=truedamagetmp] run return run function damage:truedamagecalc
 
@@ -80,6 +80,8 @@ scoreboard players operation $damagecalc2 damagecalc += $100 main
 function damage:critical
 
 #ダメージ倍率+%
+execute if entity @s[tag=specialdamagetmp] run scoreboard players operation $damageadd damagecalc /= $2 main
+scoreboard players add $damageadd damagecalc 100
 scoreboard players operation @s[tag=victim] damagetaken *= $damageadd damagecalc
 scoreboard players operation @s[tag=victim] damagetaken /= $100 main
 #100倍*2->1/10000

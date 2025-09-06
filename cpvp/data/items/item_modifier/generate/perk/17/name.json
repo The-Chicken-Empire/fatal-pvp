@@ -1,0 +1,15 @@
+{
+  "function": "minecraft:set_name",
+  "name": [
+    {
+      "text": "Power",
+      "color": "#ff0000",
+      "italic": false
+    },
+    {
+      "text": "Defence",
+      "color": "#1100ff",
+      "italic": false
+    }
+  ]
+}

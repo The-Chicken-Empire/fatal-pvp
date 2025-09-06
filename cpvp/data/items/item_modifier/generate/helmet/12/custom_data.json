@@ -2,13 +2,13 @@
   "function": "minecraft:set_custom_data",
   "tag": {
     "cpvp": {
-      "id": 1,
-      "item_type": "chestplate",
-      "chestplate": {
+      "cost": 2,
+      "id": 12,
+      "item_type": "helmet",
+      "helmet": {
         "stats": {
-          "mr": 5,
-          "magicdef": 10,
-          "maxeng": 10
+          "maxhp": 40,
+          "maxeng": 5
         },
         "triggers": []
       },

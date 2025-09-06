@@ -10,6 +10,7 @@ scoreboard objectives add deathtimer dummy
 scoreboard objectives add deathsentence dummy
 
 #system
+gamerule doWeatherCycle false
 gamerule naturalRegeneration false
 scoreboard objectives add entitydata dummy
 execute unless score $base entitydata matches -2147483648..2147483647 run scoreboard players set $base entitydata 1

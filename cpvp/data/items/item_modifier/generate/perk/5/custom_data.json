@@ -5,9 +5,6 @@
       "id": 5,
       "item_type": "perk",
       "hotbar": {
-        "stats": {
-          "maxeng": 5
-        },
         "triggers": [
           "attack2"
         ]

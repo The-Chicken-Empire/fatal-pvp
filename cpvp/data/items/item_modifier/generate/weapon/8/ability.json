@@ -27,7 +27,7 @@
     ],
     [
       {
-        "text": "八秒間この武器を持ったまま攻撃しなかった場合、",
+        "text": "8秒間この武器を持ったまま攻撃しなかった場合、",
         "color": "white",
         "italic": false
       }
@@ -43,7 +43,7 @@
         "color": "red",
         "italic": false
       },{
-        "text": "を二倍し、",
+        "text": "を2倍し、",
         "color": "white",
         "italic": false
       },
