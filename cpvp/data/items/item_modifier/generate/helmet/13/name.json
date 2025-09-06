@@ -1,0 +1,10 @@
+{
+  "function": "minecraft:set_name",
+  "name": [
+    {
+      "text": "脳みそ筋肉ブレイン",
+      "color": "white",
+      "italic": false
+    }
+  ]
+}
