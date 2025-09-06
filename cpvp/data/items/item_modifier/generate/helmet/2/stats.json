@@ -3,23 +3,6 @@
   "lore": [
     [
       {
-        "text": "最大MP",
-        "color": "blue",
-        "italic": false
-      },
-      {
-        "text": " : ",
-        "color": "white",
-        "italic": false
-      },
-      {
-        "text": "+20",
-        "color": "gold",
-        "italic": false
-      }
-    ],
-    [
-      {
         "text": "最大充電",
         "color": "yellow",
         "italic": false

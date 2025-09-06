@@ -6,8 +6,7 @@
       "item_type": "weapon",
       "mainhand": {
         "stats": {
-          "attackspeed": 140,
-          "magicdmg": 15
+          "attackspeed": 140
         },
         "triggers": [
           "attack1",
