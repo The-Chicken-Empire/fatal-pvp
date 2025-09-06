@@ -10,6 +10,8 @@
           "maxhp": -50,
           "vit": -20,
           "mr": -40,
+          "magicdef": 65,
+          "magicdmg": 30,
           "speed": -10
         },
         "triggers": []
