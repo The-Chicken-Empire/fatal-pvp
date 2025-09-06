@@ -3,40 +3,19 @@
   "lore": [
     [
       {
-        "text": "-- ",
+        "text": "ノックバック耐性",
+        "color": "green",
+        "italic": false
+      },
+      {
+        "text": " : ",
         "color": "white",
         "italic": false
       },
       {
-        "text": "ここにability名",
-        "color": "white",
+        "text": "+1000%",
+        "color": "gold",
         "italic": false
-      },
-      {
-        "text": " --",
-        "color": "white",
-        "italic": false
-      }
-    ],
-    [
-      {
-        "text": "発動検知",
-        "italic": false,
-        "color": "yellow"
-      }
-    ],
-    [
-      {
-        "text": "cost",
-        "italic": false,
-        "color": "white"
-      }
-    ],
-    [
-      {
-        "text": "内容",
-        "italic": false,
-        "color": "white"
       }
     ],
     [
