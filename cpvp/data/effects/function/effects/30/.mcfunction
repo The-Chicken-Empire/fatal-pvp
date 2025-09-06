@@ -4,7 +4,7 @@ data modify storage effect: data.id set value 30
 #idです。他の人と被らないようにしろ。※>>>必須<<<
 data modify storage effect: data.maxlevel set value 1
 #バフの最大レベルです。初期値1
-data modify storage effect: data.content set value []
+data modify storage effect: data.content set value [["damage",0,30],["cc",0,10]]
 #バフにステータス上昇効果がある場合はここに突っ込んでください。
 #最大体力:maxhp 最大mp:maxmp マナリゲネ:mr 物理耐性:phyisicaldef 魔法耐性:magicdef
 #近接耐性:meleedef 遠隔耐性:rangedef 回復量:vit 移動速度:speed

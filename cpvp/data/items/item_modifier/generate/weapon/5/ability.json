@@ -149,7 +149,7 @@
     ],
     [
       {
-        "text":"このスキルで敵討伐時、半径24m以内の最寄りの味方一人に",
+        "text":"スキル的中時、半径24m以内の最寄りの味方一人に",
         "color":"white",
         "italic":false
       }
@@ -176,7 +176,7 @@
         "italic":false
       },
       {
-        "text":"+15%",
+        "text":"+20%",
         "color":"gold",
         "italic":false
       },
@@ -193,7 +193,7 @@
         "italic":false
       },
       {
-        "text":"赤嵐旋風",
+        "text":"赤春一閃",
         "color":"red",
         "italic":false
       },
@@ -257,23 +257,6 @@
         "text":"薙刀を構え、道を拒むものを全て薙ぎ払いながら前方に進撃する。",
         "color":"white",
         "italic":false
-      }
-    ],
-    [
-      {
-        "text":"スキル的中時、対象に",
-        "color":"white",
-        "italic":false
-      },
-      {
-        "text":"出血3",
-        "color":"dark_red",
-        "italic":false
-      },
-      {
-        "text":"を10秒付与する。",
-        "italic":false,
-        "color":"white"
       }
     ]
   ],
