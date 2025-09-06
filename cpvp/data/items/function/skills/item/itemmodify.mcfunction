@@ -8,7 +8,7 @@ execute store result storage dummy durability int 1 run scoreboard players get $
 #data replace
 item replace block 0 0 0 container.0 from entity @s weapon.mainhand
 data modify block 0 0 0 Items.[0].components."minecraft:custom_data".cpvp.durability set from storage dummy durability
-item replace entity @s weapon.mainhand from block 0 250 0 container.0
+item replace entity @s weapon.mainhand from block 0 0 0 container.0
 #最大耐久を参照
 execute store result storage dummy maxdurability int 1 run data get storage dummy item.cpvp.maxdurability
 #rename
