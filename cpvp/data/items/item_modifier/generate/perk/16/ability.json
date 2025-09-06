@@ -8,8 +8,8 @@
         "italic": false
       },
       {
-        "text": "ここにability名",
-        "color": "white",
+        "text": "まだ燃えている",
+        "color": "red",
         "italic": false
       },
       {
@@ -20,21 +20,56 @@
     ],
     [
       {
-        "text": "発動検知",
+        "text": "攻撃時、被攻撃時",
         "italic": false,
         "color": "yellow"
       }
     ],
     [
       {
-        "text": "cost",
+        "text": "HP",
+        "italic": false,
+        "color": "red"
+      },
+      {
+        "text": "が",
+        "italic": false,
+        "color": "white"
+      },
+      {
+        "text": "25%",
+        "italic": false,
+        "color": "yellow"
+      },
+      {
+        "text": "未満の時、",
         "italic": false,
         "color": "white"
       }
     ],
     [
       {
-        "text": "内容",
+        "text": "与ダメージを",
+        "italic": false,
+        "color": "white"
+      },
+      {
+        "text": "+30%",
+        "italic": false,
+        "color": "yellow"
+      },
+      {
+        "text": "、被ダメージを",
+        "italic": false,
+        "color": "white"
+      },
+      {
+        "text": "-30%",
+        "italic": false,
+        "color": "yellow"
+      },
+      {
+        "text": "する",
         "italic": false,
         "color": "white"
       }

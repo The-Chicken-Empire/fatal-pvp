@@ -3,14 +3,14 @@
   "lore": [
     [
       {
-        "text": "ここにフレーバーテキストを書く",
+        "text": "ある時は英雄であった、ある時は恐怖であった、ある時は...",
         "color": "dark_gray",
         "italic": true
       }
     ],
     [
       {
-        "text": "ここは2行目",
+        "text": "それは名前を変え、何処にだってある",
         "color": "dark_gray",
         "italic": true
       }

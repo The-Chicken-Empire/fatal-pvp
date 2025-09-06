@@ -15,7 +15,7 @@ item modify block 0 0 0 container.0 items:generate/perk/16/custom_data
 
 item modify block 0 0 0 container.0 items:generate/perk/16/cost
 
-item modify block 0 0 0 container.0 items:generate/perk/16/stats
+#item modify block 0 0 0 container.0 items:generate/perk/16/stats
 
 item modify block 0 0 0 container.0 items:generate/perk/16/ability
 
@@ -24,4 +24,4 @@ item modify block 0 0 0 container.0 items:generate/perk/16/parts
 item modify block 0 0 0 container.0 items:generate/perk/16/flavor
 
 #アトリビュートなどを追加したい場合はコメントをはずしてファイルを作成する
-#item modify block 0 0 0 container.0 items:generate/perk/16/others
+item modify block 0 0 0 container.0 items:generate/perk/16/others
