@@ -13,7 +13,7 @@
         "italic": false
       },
       {
-        "text": "+4",
+        "text": "+3.5",
         "color": "gold",
         "italic": false
       },
@@ -60,23 +60,6 @@
       },
       {
         "text": "+5%",
-        "color": "gold",
-        "italic": false
-      }
-    ],
-    [
-      {
-        "text":"防御貫通率",
-        "color":"aqua",
-        "italic":false
-      },
-      {
-        "text": " : ",
-        "color": "white",
-        "italic": false
-      },
-      {
-        "text": "+50%",
         "color": "gold",
         "italic": false
       }

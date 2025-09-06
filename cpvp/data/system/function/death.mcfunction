@@ -26,5 +26,5 @@ scoreboard players add @a playerdeathcount 1
 
 #味方プレイヤーに味方死亡回数(allydeathcount)を1加算
 tag @s add deathcounttmp
-execute as @a if score @a[tag=deathcounttmp,limit=1] teamscore = @s teamscore run function system:allydeath
+execute as @a[tag=!deathcounttmp] if score @a[tag=deathcounttmp,limit=1] teamscore = @s teamscore run function system:allydeath
 tag @s remove deathcounttmp
