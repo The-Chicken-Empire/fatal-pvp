@@ -1,9 +1,9 @@
 scoreboard players set @s offhand9 0
 
-scoreboard players operation #mr main = @s maxhp
-scoreboard players operation #mr main -= @s hp
+scoreboard players operation $mr main = @s maxhp
+scoreboard players operation $mr main -= @s hp
 
-execute unless score #mr main matches 1.. run return fail
+execute unless score $mr main matches 1.. run return fail
 
 scoreboard players operation $mr main *= $10 main
 function api:mr/

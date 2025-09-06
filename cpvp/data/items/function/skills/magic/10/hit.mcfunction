@@ -22,7 +22,7 @@ execute if score @s mp matches 500.. run scoreboard players set $tmp2 tmp 1
 execute if score $tmp2 tmp matches 0 run scoreboard players operation $tmp3 tmp = @s mp
 execute if score $tmp2 tmp matches 1 run scoreboard players set $tmp3 tmp 500
 execute if entity @s[type=!player] run scoreboard players set $tmp3 tmp 500
-scoreboard players operation #mr main = $tmp3 tmp
+scoreboard players operation $mr main = $tmp3 tmp
 execute as @a if score @s playerdata = @e[tag=magic10tmp,limit=1] owner run function api:mr/
 scoreboard players reset $tmp2 tmp
 scoreboard players reset $tmp3 tmp

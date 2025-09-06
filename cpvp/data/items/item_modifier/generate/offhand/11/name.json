@@ -1,0 +1,10 @@
+{
+  "function": "minecraft:set_name",
+  "name": [
+    {
+      "text": "残留因子収集増幅機関",
+      "color": "dark_purple",
+      "italic": false
+    }
+  ]
+}

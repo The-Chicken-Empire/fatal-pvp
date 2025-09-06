@@ -1,0 +1,10 @@
+{
+  "function": "minecraft:set_name",
+  "name": [
+    {
+      "text": "パッシブトランジスタ",
+      "color": "aqua",
+      "italic": false
+    }
+  ]
+}

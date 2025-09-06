@@ -7,7 +7,7 @@
       "item_type": "boots",
       "boots": {
         "stats": {
-          "maxhp": 6,
+          "maxhp": 60,
           "defence": 3,
           "physicaldef": 10
         },
