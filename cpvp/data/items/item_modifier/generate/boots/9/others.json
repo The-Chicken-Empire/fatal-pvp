@@ -10,9 +10,16 @@
         "slot": "feet"
       },
       {
-        "type": "minecraft:knockback_resistance",
+        "type": "knockback_resistance",
         "id": "minecraft:boots",
-        "amount": 5,
+        "amount": 0,
+        "operation": "add_value",
+        "slot": "feet"
+      },
+      {
+        "type": "armor_toughness",
+        "id": "minecraft:boots",
+        "amount": 0,
         "operation": "add_value",
         "slot": "feet"
       }

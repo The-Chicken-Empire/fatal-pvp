@@ -4,24 +4,24 @@
     "minecraft:attribute_modifiers": [
       {
         "type": "minecraft:armor",
-        "id": "minecraft:boots",
+        "id": "minecraft:helmet",
         "amount": 0,
         "operation": "add_value",
-        "slot": "feet"
+        "slot": "head"
       },
       {
-        "type": "knockback_resistance",
-        "id": "minecraft:boots",
+        "type": "minecraft:armor_toughness",
+        "id": "minecraft:helmet",
         "amount": 0,
         "operation": "add_value",
-        "slot": "feet"
+        "slot": "head"
       },
       {
-        "type": "armor_toughness",
-        "id": "minecraft:boots",
+        "type": "minecraft:knockback_resistance",
+        "id": "minecraft:helmet",
         "amount": 0,
         "operation": "add_value",
-        "slot": "feet"
+        "slot": "head"
       }
     ],
     "minecraft:unbreakable": {},
@@ -33,6 +33,10 @@
         "minecraft:attribute_modifiers"
       ]
     },
-    "minecraft:dyed_color":15883544
+    "equippable": {
+      "slot": "head",
+      "equip_sound": "minecraft:entity.generic.explode",
+      "swappable": true
+    }
   }
 }

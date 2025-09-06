@@ -3,14 +3,14 @@
   "lore": [
     [
       {
-        "text": "ここにフレーバーテキストを書く",
+        "text": "絵に描いたようなあまりにもムキムキな筋肉。",
         "color": "dark_gray",
         "italic": true
       }
     ],
     [
       {
-        "text": "ここは2行目",
+        "text": "これをつけるとめっちゃムキムキになる。",
         "color": "dark_gray",
         "italic": true
       }

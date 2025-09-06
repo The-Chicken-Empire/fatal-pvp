@@ -8,6 +8,20 @@
         "amount": 0,
         "operation": "add_value",
         "slot": "head"
+      },
+      {
+        "type": "minecraft:armor_toughness",
+        "id": "minecraft:helmet",
+        "amount": 0,
+        "operation": "add_value",
+        "slot": "head"
+      },
+      {
+        "type": "minecraft:knockback_resistance",
+        "id": "minecraft:helmet",
+        "amount": 0,
+        "operation": "add_value",
+        "slot": "head"
       }
     ],
     "minecraft:unbreakable": {},

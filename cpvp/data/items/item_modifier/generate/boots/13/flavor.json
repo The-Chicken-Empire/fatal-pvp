@@ -3,14 +3,14 @@
   "lore": [
     [
       {
-        "text": "ここにフレーバーテキストを書く",
+        "text": "ギチギチの小さいサンダル。",
         "color": "dark_gray",
         "italic": true
       }
     ],
     [
-      {
-        "text": "ここは2行目",
+      { 
+        "text": "これを履くと実質足がムキムキになる。",
         "color": "dark_gray",
         "italic": true
       }

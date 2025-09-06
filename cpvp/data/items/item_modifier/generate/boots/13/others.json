@@ -32,7 +32,6 @@
         "minecraft:trim",
         "minecraft:attribute_modifiers"
       ]
-    },
-    "minecraft:dyed_color":15883544
+    }
   }
 }

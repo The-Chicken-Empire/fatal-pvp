@@ -2,8 +2,48 @@
   "function": "minecraft:set_name",
   "name": [
     {
-      "text": "脳みそ筋肉ブレイン",
-      "color": "white",
+      "text": "脳",
+      "color": "dark_red",
+      "italic": false
+    },
+    {
+      "text": "み",
+      "color": "red",
+      "italic": false
+    },
+    {
+      "text": "そ",
+      "color": "gold",
+      "italic": false
+    },
+    {
+      "text": "筋",
+      "color": "yellow",
+      "italic": false
+    },
+    {
+      "text": "肉",
+      "color": "green",
+      "italic": false
+    },
+    {
+      "text": "ブ",
+      "color": "blue",
+      "italic": false
+    },
+    {
+      "text": "レ",
+      "color": "dark_blue",
+      "italic": false
+    },
+    {
+      "text": "イ",
+      "color": "light_purple",
+      "italic": false
+    },
+    {
+      "text": "ン",
+      "color": "dark_purple",
       "italic": false
     }
   ]

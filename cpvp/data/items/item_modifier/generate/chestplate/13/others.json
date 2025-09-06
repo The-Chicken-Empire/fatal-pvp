@@ -4,24 +4,17 @@
     "minecraft:attribute_modifiers": [
       {
         "type": "minecraft:armor",
-        "id": "minecraft:boots",
+        "id": "minecraft:chestplate",
         "amount": 0,
         "operation": "add_value",
-        "slot": "feet"
-      },
-      {
-        "type": "knockback_resistance",
-        "id": "minecraft:boots",
-        "amount": 0,
-        "operation": "add_value",
-        "slot": "feet"
+        "slot": "chest"
       },
       {
         "type": "armor_toughness",
-        "id": "minecraft:boots",
+        "id": "minecraft:chestplate",
         "amount": 0,
         "operation": "add_value",
-        "slot": "feet"
+        "slot": "chest"
       }
     ],
     "minecraft:unbreakable": {},
@@ -32,7 +25,6 @@
         "minecraft:trim",
         "minecraft:attribute_modifiers"
       ]
-    },
-    "minecraft:dyed_color":15883544
+    }
   }
 }
