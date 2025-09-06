@@ -51,6 +51,18 @@
         "italic": false,
         "color":"white"
       }
+    ],
+    [
+      {
+        "text": "緩衝体力",
+        "italic": false,
+        "color":"gold"
+      },
+      {
+        "text": "が1以上ある時この効果は発動しない",
+        "italic": false,
+        "color":"white"
+      }
     ]
   ],
   "mode": "append"
