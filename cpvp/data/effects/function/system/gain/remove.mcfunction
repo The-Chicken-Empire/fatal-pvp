@@ -7,7 +7,7 @@ execute if data storage effect: data.content[0] run function effects:system/remo
 
 $data remove storage effect: tmp[{id:$(id)}]
 function effects:system/operation/return with entity @s
-function stats:statscalc
+execute if entity @s[type=player] run function stats:statscalc
 function effects:system/operation/please with entity @s
 
 

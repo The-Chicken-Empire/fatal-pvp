@@ -6,4 +6,4 @@ execute if data storage effect: data.content[0] run data modify storage effect: 
 execute if data storage effect: data.content[0] run function effects:system/remove/stats with storage effect: data
 
 $data remove storage effect: tmp[{id:$(id)}]
-function stats:statscalc
+execute if entity @s[type=player] run function stats:statscalc
