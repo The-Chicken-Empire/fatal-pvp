@@ -3,14 +3,49 @@
   "lore": [
     [
       {
-        "text": "ここにフレーバーテキストを書く",
+        "text": "地脈から魔力を吸い上げる装置。",
         "color": "dark_gray",
         "italic": true
       }
     ],
     [
       {
-        "text": "ここは2行目",
+        "text": "その効果は絶大で、人力の魔力吸収効率を",
+        "color": "dark_gray",
+        "italic": true
+      }
+    ],
+    [
+      {
+        "text": "凌駕する性能を誇る。",
+        "color": "dark_gray",
+        "italic": true
+      }
+    ],
+    [
+      {
+        "text": "かつて、このポンプに頼りきりになった人間たちは、",
+        "color": "dark_gray",
+        "italic": true
+      }
+    ],
+    [
+      {
+        "text": "このポンプが破壊されたとたんに",
+        "color": "dark_gray",
+        "italic": true
+      }
+    ],
+    [
+      {
+        "text": "魔力を回復できなくなり、",
+        "color": "dark_gray",
+        "italic": true
+      }
+    ],
+    [
+      {
+        "text": "そのまま破滅に追い込まれたという話がある。",
         "color": "dark_gray",
         "italic": true
       }

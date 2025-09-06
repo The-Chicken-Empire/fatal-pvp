@@ -8,7 +8,7 @@
         "italic": false
       },
       {
-        "text": "ここにability名",
+        "text": "アップグレード",
         "color": "white",
         "italic": false
       },
@@ -20,21 +20,216 @@
     ],
     [
       {
-        "text": "発動検知",
+        "text": "右クリック長押し",
         "italic": false,
         "color": "yellow"
       }
     ],
     [
       {
-        "text": "cost",
+        "text": "自身の3m以内にある",
+        "italic": false,
+        "color": "white"
+      },
+      {
+        "text": "<エリクサーポンプ>",
+        "italic": false,
+        "color": "light_purple"
+      },
+      {
+        "text": "を強化する。",
         "italic": false,
         "color": "white"
       }
     ],
     [
       {
-        "text": "内容",
+        "text": "8秒間強化するとレベルが1上昇する。",
+        "italic": false,
+        "color": "white"
+      }
+    ],
+    [
+      ""
+    ],
+    [
+      {
+        "text": "-- ",
+        "color": "white",
+        "italic": false
+      },
+      {
+        "text": "ジェネレート",
+        "color": "white",
+        "italic": false
+      },
+      {
+        "text": " --",
+        "color": "white",
+        "italic": false
+      }
+    ],
+    [
+      {
+        "text": "スニーク+右クリック",
+        "italic": false,
+        "color": "yellow"
+      }
+    ],
+    [
+      {
+        "text": "消費MP",
+        "italic": false,
+        "color":"blue"
+      },
+      {
+        "text": " : ",
+        "italic": false,
+        "color":"white"
+      },
+      {
+        "text": "30 ",
+        "italic": false,
+        "color":"green"
+      },
+      {
+        "text": "クールタイム",
+        "italic": false,
+        "color":"dark_aqua"
+      },
+      {
+        "text": " : ",
+        "italic": false,
+        "color":"white"
+      },
+      {
+        "text": "15秒",
+        "italic": false,
+        "color":"green"
+      }
+    ],
+    [
+      {
+        "text": "<エリクサーポンプ>",
+        "italic": false,
+        "color": "light_purple"
+      },
+      {
+        "text": "をレベル1で設置する。",
+        "italic": false,
+        "color": "white"
+      }
+    ],
+    [
+      {
+        "text": "自身の他の",
+        "italic": false,
+        "color": "white"
+      },
+      {
+        "text": "<エリクサーポンプ>",
+        "italic": false,
+        "color": "light_purple"
+      },
+      {
+        "text": "は破壊される。",
+        "italic": false,
+        "color": "white"
+      }
+    ],
+    [
+      ""
+    ],
+    [
+      {
+        "text": "<エリクサーポンプ>",
+        "color": "light_purple",
+        "italic": false
+      }
+    ],
+    [
+      {
+        "text": "HP",
+        "italic": false,
+        "color":"red"
+      },
+      {
+        "text": " : ",
+        "italic": false,
+        "color":"white"
+      },
+      {
+        "text": "50 ",
+        "italic": false,
+        "color":"gold"
+      }
+    ],
+    [
+      {
+        "text": "5秒ごとに、周囲30ブロック以内の味方の",
+        "italic": false,
+        "color": "white"
+      }
+    ],
+    [
+      {
+        "text": "MP",
+        "italic": false,
+        "color": "blue"
+      },
+      {
+        "text": "をレベル×3だけ回復する。",
+        "italic": false,
+        "color": "white"
+      }
+    ],
+    [
+      {
+        "text": "レベル3以上の時、追加で",
+        "italic": false,
+        "color": "white"
+      },
+      {
+        "text": "HP",
+        "italic": false,
+        "color": "red"
+      },
+      {
+        "text": "を4回復する。",
+        "italic": false,
+        "color": "white"
+      }
+    ],
+    [
+      {
+        "text": "破壊された時、全味方の",
+        "italic": false,
+        "color": "white"
+      },
+      {
+        "text": "MP",
+        "italic": false,
+        "color": "blue"
+      },
+      {
+        "text": "を30回復する。",
+        "italic": false,
+        "color": "white"
+      }
+    ],
+    [
+      {
+        "text": "レベル3になった時、",
+        "italic": false,
+        "color": "white"
+      },
+      {
+        "text": "緩衝体力",
+        "italic": false,
+        "color": "gold"
+      },
+      {
+        "text": "を50得る。",
         "italic": false,
         "color": "white"
       }
