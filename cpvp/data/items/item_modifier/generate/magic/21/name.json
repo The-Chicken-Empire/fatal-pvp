@@ -1,0 +1,10 @@
+{
+  "function": "minecraft:set_name",
+  "name": [
+    {
+      "text": "エリクサーポンプ",
+      "color": "white",
+      "italic": false
+    }
+  ]
+}
