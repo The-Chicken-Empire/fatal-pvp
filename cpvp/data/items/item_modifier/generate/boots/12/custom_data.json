@@ -2,13 +2,15 @@
   "function": "minecraft:set_custom_data",
   "tag": {
     "cpvp": {
-      "cost": 3,
+      "cost": 4,
       "id": 12,
-      "item_type": "chestplate",
-      "chestplate": {
+      "item_type": "boots",
+      "boots": {
         "stats": {
-          "magicdef": 10,
-          "maxeng": 10
+          "physicaldef": 7,
+          "magicdef": 7,
+          "agi": 4,
+          "maxeng": 12
         },
         "triggers": []
       },

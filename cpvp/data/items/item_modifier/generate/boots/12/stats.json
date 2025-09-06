@@ -1,0 +1,77 @@
+{
+  "function": "minecraft:set_lore",
+  "lore": [
+    [
+      {
+        "text": "物理防御力",
+        "color": "gold",
+        "italic": false
+      },
+      {
+        "text": " : ",
+        "color": "white",
+        "italic": false
+      },
+      {
+        "text": "+7%",
+        "color": "gold",
+        "italic": false
+      }
+    ],
+    [
+      {
+        "text": "魔法防御力",
+        "color": "dark_purple",
+        "italic": false
+      },
+      {
+        "text": " : ",
+        "color": "white",
+        "italic": false
+      },
+      {
+        "text": "+7%",
+        "color": "gold",
+        "italic": false
+      }
+    ],
+    [
+      {
+        "text": "回避率",
+        "color": "white",
+        "italic": false
+      },
+      {
+        "text": " : ",
+        "color": "white",
+        "italic": false
+      },
+      {
+        "text": "+4%",
+        "color": "gold",
+        "italic": false
+      }
+    ],
+    [
+      {
+        "text": "最大充電",
+        "color": "yellow",
+        "italic": false
+      },
+      {
+        "text": " : ",
+        "color": "white",
+        "italic": false
+      },
+      {
+        "text": "+12",
+        "color": "gold",
+        "italic": false
+      }
+    ],
+    [
+      ""
+    ]
+  ],
+  "mode": "append"
+}

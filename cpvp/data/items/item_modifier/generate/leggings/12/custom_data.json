@@ -2,13 +2,13 @@
   "function": "minecraft:set_custom_data",
   "tag": {
     "cpvp": {
-      "cost": 3,
+      "cost": 6,
       "id": 12,
-      "item_type": "chestplate",
-      "chestplate": {
+      "item_type": "leggings",
+      "leggings": {
         "stats": {
-          "magicdef": 10,
-          "maxeng": 10
+          "maxmp": 3000,
+          "maxeng": 15
         },
         "triggers": []
       },

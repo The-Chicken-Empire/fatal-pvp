@@ -1,11 +1,6 @@
 {
   "function": "minecraft:set_lore",
   "lore": [
-<<<<<<< HEAD
-    [""]
-    ,
-=======
->>>>>>> 8e8ee83e4d298c05907b0acb3362b74e31cc2a06
     [
       {
         "text": "-- ",
@@ -27,17 +22,13 @@
       {
         "text": "発動検知",
         "italic": false,
-        "color":"yellow"
+        "color": "yellow"
       }
     ],
     [
       {
         "text": "cost",
         "italic": false,
-<<<<<<< HEAD
-        "color":"white"
-      }
-=======
         "color": "white"
       }
     ],
@@ -50,7 +41,6 @@
     ],
     [
       ""
->>>>>>> 8e8ee83e4d298c05907b0acb3362b74e31cc2a06
     ]
   ],
   "mode": "append"

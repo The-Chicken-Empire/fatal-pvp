@@ -1,0 +1,10 @@
+{
+  "function": "minecraft:set_name",
+  "name": [
+    {
+      "text": "極写電動式戦闘用機靴改II",
+      "color": "white",
+      "italic": false
+    }
+  ]
+}
