@@ -7,8 +7,8 @@
       "item_type": "boots",
       "boots": {
         "stats": {
-          "maxmp": -500,
-          "mr": -5,
+          "maxmp": -1000,
+          "mr": -10,
           "physicaldef": 15,
           "magicdef": 15
         },
