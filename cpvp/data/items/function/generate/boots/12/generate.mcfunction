@@ -17,11 +17,11 @@ item modify block 0 0 0 container.0 items:generate/boots/12/cost
 
 item modify block 0 0 0 container.0 items:generate/boots/12/stats
 
-item modify block 0 0 0 container.0 items:generate/boots/12/ability
+#item modify block 0 0 0 container.0 items:generate/boots/12/ability
 
 item modify block 0 0 0 container.0 items:generate/boots/12/parts
 
 item modify block 0 0 0 container.0 items:generate/boots/12/flavor
 
 #アトリビュートなどを追加したい場合はコメントをはずしてファイルを作成する
-#item modify block 0 0 0 container.0 items:generate/boots/12/others
+item modify block 0 0 0 container.0 items:generate/boots/12/others

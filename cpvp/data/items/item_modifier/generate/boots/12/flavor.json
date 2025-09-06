@@ -3,14 +3,14 @@
   "lore": [
     [
       {
-        "text": "ここにフレーバーテキストを書く",
+        "text": "局所的な戦闘を想定して作られた耐久性の高い靴",
         "color": "dark_gray",
         "italic": true
       }
     ],
     [
       {
-        "text": "ここは2行目",
+        "text": "試作段階のためあまり高い効果は得られないようだ",
         "color": "dark_gray",
         "italic": true
       }

@@ -8,8 +8,8 @@
         "italic": false
       },
       {
-        "text": "ここにability名",
-        "color": "white",
+        "text": "レクタルゼクスメント",
+        "color": "#4c00ff",
         "italic": false
       },
       {
@@ -20,21 +20,51 @@
     ],
     [
       {
-        "text": "発動検知",
+        "text": "被攻撃時",
         "italic": false,
         "color": "yellow"
       }
     ],
     [
       {
-        "text": "cost",
+        "text": "クールタイム",
         "italic": false,
-        "color": "white"
+        "color":"dark_aqua"
+      },
+      {
+        "text": " : ",
+        "italic": false,
+        "color":"white"
+      },
+      {
+        "text": "8秒",
+        "italic": false,
+        "color":"green"
       }
     ],
     [
       {
-        "text": "内容",
+        "text": "受けたダメージの属性が",
+        "italic": false,
+        "color": "white"
+      },
+      {
+        "text": "魔法",
+        "italic": false,
+        "color": "dark_purple"
+      },
+      {
+        "text": "だった場合、",
+        "italic": false,
+        "color": "white"
+      },
+      {
+        "text": "充電",
+        "italic": false,
+        "color": "yellow"
+      },
+      {
+        "text": "を2得る",
         "italic": false,
         "color": "white"
       }

@@ -3,14 +3,21 @@
   "lore": [
     [
       {
-        "text": "ここにフレーバーテキストを書く",
+        "text": "XXX",
         "color": "dark_gray",
-        "italic": true
+        "italic": true,
+        "obfuscated": true
+      },
+      {
+        "text": "Sの世界で作られた水晶で出来たヘルメット",
+        "color": "dark_gray",
+        "italic": true,
+        "obfuscated": false
       }
     ],
     [
       {
-        "text": "ここは2行目",
+        "text": "Sが余計な機能を追加したため計り知れない価値となっている",
         "color": "dark_gray",
         "italic": true
       }

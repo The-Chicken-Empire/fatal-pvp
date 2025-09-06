@@ -20,6 +20,23 @@
     ],
     [
       {
+        "text": "防御力",
+        "color": "dark_blue",
+        "italic": false
+      },
+      {
+        "text": " : ",
+        "color": "white",
+        "italic": false
+      },
+      {
+        "text": "+5%",
+        "color": "gold",
+        "italic": false
+      }
+    ],
+    [
+      {
         "text": "最大充電",
         "color": "yellow",
         "italic": false
