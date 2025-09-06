@@ -6,7 +6,6 @@
       "item_type": "helmet",
       "helmet": {
         "stats": {
-          "maxmp": 2000,
           "maxeng": 5
         },
         "triggers": [
