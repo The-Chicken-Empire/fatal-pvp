@@ -2,7 +2,7 @@
   "function": "minecraft:set_custom_data",
   "tag": {
     "cpvp": {
-      "cost": 2,
+      "cost": 3,
       "id": 14,
       "item_type": "boots",
       "boots": {
