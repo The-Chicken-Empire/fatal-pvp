@@ -8,8 +8,8 @@
         "italic": false
       },
       {
-        "text": "ここにability名",
-        "color": "white",
+        "text": "特攻は最大の防御",
+        "color": "dark_red",
         "italic": false
       },
       {
@@ -20,21 +20,41 @@
     ],
     [
       {
-        "text": "発動検知",
+        "text": "被攻撃時",
         "italic": false,
         "color": "yellow"
       }
     ],
     [
       {
-        "text": "cost",
+        "text": "受けたダメージに対応する",
+        "italic": false,
+        "color": "white"
+      },
+      {
+        "text": "攻撃力",
+        "italic": false,
+        "color": "dark_red"
+      },
+      {
+        "text": "ステータスの合計値が",
         "italic": false,
         "color": "white"
       }
     ],
     [
       {
-        "text": "内容",
+        "text": "相手よりも高かった場合、受けるダメージを",
+        "italic": false,
+        "color": "white"
+      },
+      {
+        "text": "0.8倍",
+        "italic": false,
+        "color": "yellow"
+      },
+      {
+        "text": "する",
         "italic": false,
         "color": "white"
       }
