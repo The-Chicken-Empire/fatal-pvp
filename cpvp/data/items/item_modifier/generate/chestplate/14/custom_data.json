@@ -7,11 +7,11 @@
       "item_type": "chestplate",
       "chestplate": {
         "stats": {
-          "maxhp": -50,
+          "maxhp": -100,
           "vit": -20,
           "mr": -40,
-          "magicdef": 65,
-          "magicdmg": 30,
+          "magicdef": 60,
+          "magicdmg": 20,
           "speed": -10
         },
         "triggers": []
