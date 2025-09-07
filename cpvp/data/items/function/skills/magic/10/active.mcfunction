@@ -6,4 +6,5 @@ execute at @s run playsound entity.wither.spawn hostile @s ~ ~ ~ 1 1.5 1
 execute at @s run playsound entity.warden.sonic_boom hostile @s ~ ~ ~ 1 1.5 1
 
 tag @s remove magic10player
-function system:cooltime/general/set_ct_mainhand {cooltime:400}
+scoreboard players set $ct main 400
+function api:ct/mainhand

@@ -17,4 +17,5 @@ execute as @e[tag=magic6victim] run function items:skills/magic/6/hit
 tag @s remove magic6player
 tag @e remove magic6victim
 kill @e[type=marker,tag=magic6,tag=skillmarker,limit=1]
-function system:cooltime/general/set_ct_mainhand {cooltime:60}
+scoreboard players set $ct main 60
+function api:ct/mainhand
