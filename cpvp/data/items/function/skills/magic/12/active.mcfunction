@@ -7,4 +7,5 @@ execute if score $tmp tmp matches 0 run return run function items:skills/magic/1
 execute as @e[distance=..35,tag=playing] unless score @s teamscore = @a[tag=magic12tmp,limit=1] teamscore run function items:skills/magic/12/call
 execute at @s run playsound block.end_portal.spawn player @s ~ ~ ~ 0.5 2 0.5
 tag @s remove magic12tmp
-function system:cooltime/general/set_ct_mainhand {cooltime:80}
+scoreboard players set $ct main 80
+function api:ct/mainhand

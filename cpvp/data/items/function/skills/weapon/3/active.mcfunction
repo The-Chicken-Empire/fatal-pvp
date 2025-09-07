@@ -17,5 +17,6 @@ item replace entity @s weapon.mainhand from block 0 0 0 container.0
 scoreboard players set @s weapon3-2 5
 
 
-function system:cooltime/general/set_ct_mainhand {cooltime:600}
+scoreboard players set $ct main 600
+function api:ct/mainhand
 tag @s remove weapon3

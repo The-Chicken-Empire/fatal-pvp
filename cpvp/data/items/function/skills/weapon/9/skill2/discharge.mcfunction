@@ -1,7 +1,8 @@
 scoreboard players reset #counter
 scoreboard players operation @s mp -= @s mpcost
 
-function system:cooltime/general/set_ct_mainhand {cooltime:240}
+scoreboard players set $ct main 240
+function api:ct/mainhand
 function effects:modify {id:23,level:-15,duration:0}
 
 playsound minecraft:block.end_portal.spawn player @s ~ ~ ~ 1 2
