@@ -1,0 +1,1 @@
+function api:motion/rotation_and_y {power:10,y:10}

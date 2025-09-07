@@ -1,6 +1,7 @@
 #殺した人取り出し
 execute if entity @a[tag=atker,limit=1] as @a[tag=atker,limit=1] run function system:kill
 #関連mob消去
+execute as @e if score @s owner = @a[tag=victim,limit=1] playerdata on passengers run kill @s
 execute as @e if score @s owner = @a[tag=victim,limit=1] playerdata run kill @s
 #関節キル取り出し
 tag @s add tmpdied
@@ -26,5 +27,5 @@ scoreboard players add @a playerdeathcount 1
 
 #味方プレイヤーに味方死亡回数(allydeathcount)を1加算
 tag @s add deathcounttmp
-execute as @a if score @a[tag=deathcounttmp,limit=1] teamscore = @s teamscore run function system:allydeath
+execute as @a[tag=!deathcounttmp] if score @a[tag=deathcounttmp,limit=1] teamscore = @s teamscore run function system:allydeath
 tag @s remove deathcounttmp

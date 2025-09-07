@@ -114,6 +114,43 @@
     ],
     [
       {
+        "text":" - ",
+        "color":"white",
+        "italic":false
+      },
+      {
+        "text":"攻撃力",
+        "color":"red",
+        "italic":false
+      },
+      {
+        "text":"+30%",
+        "color":"gold",
+        "italic":false
+      },
+      {
+        "text":"、",
+        "color":"white",
+        "italic":false
+      },
+      {
+        "text":"会心率",
+        "color":"yellow",
+        "italic":false
+      },
+      {
+        "text":"+10%",
+        "color":"gold",
+        "italic":false
+      },
+      {
+        "text":"。",
+        "color":"white",
+        "italic":false
+      }
+    ],
+    [
+      {
         "text":" - スキル",
         "color":"white",
         "italic":false
@@ -129,7 +166,7 @@
         "italic":false
       },
       {
-        "text":"[春嵐旋風]",
+        "text":"[赤春一閃]",
         "color":"red",
         "italic":false
       },

@@ -1,0 +1,17 @@
+{
+  "function": "minecraft:set_custom_data",
+  "tag": {
+    "cpvp": {
+      "cost": 6,
+      "id": 21,
+      "item_type": "magic",
+      "mainhand": {
+        "triggers": [
+          "using"
+        ]
+      },
+      "regularitem": 1,
+      "classitem": 0
+    }
+  }
+}

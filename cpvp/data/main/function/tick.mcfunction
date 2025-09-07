@@ -16,7 +16,13 @@ effect give @a saturation 5 10 true
 
 #時間
 execute store result score $daytime main run time query daytime
-time add 10
+#time add 10
+
+
+#えんちちの死亡処理
+
+
+execute as @e[tag=playing] if entity @s[type=!player] if score @s hp matches ..0 at @s run function damage:entity_death
 
 #tick始めdamage処理
 execute if entity @a[scores={damageresist=1..},tag=!meleevictimtmp2] as @a[scores={damageresist=1..},tag=!meleevictimtmp2] run function damage:naturaldamage

@@ -1,0 +1,42 @@
+{
+  "function": "minecraft:set_components",
+  "components": {
+    "minecraft:attribute_modifiers": [
+      {
+        "type": "minecraft:armor",
+        "id": "minecraft:helmet",
+        "amount": 0,
+        "operation": "add_value",
+        "slot": "head"
+      },
+      {
+        "type": "minecraft:armor_toughness",
+        "id": "minecraft:helmet",
+        "amount": 0,
+        "operation": "add_value",
+        "slot": "head"
+      },
+      {
+        "type": "minecraft:knockback_resistance",
+        "id": "minecraft:helmet",
+        "amount": 0,
+        "operation": "add_value",
+        "slot": "head"
+      }
+    ],
+    "minecraft:unbreakable": {},
+    "minecraft:tooltip_display": {
+      "hidden_components": [
+        "minecraft:unbreakable",
+        "minecraft:dyed_color",
+        "minecraft:trim",
+        "minecraft:attribute_modifiers"
+      ]
+    },
+    "equippable": {
+      "slot": "head",
+      "equip_sound": "minecraft:entity.generic.explode",
+      "swappable": true
+    }
+  }
+}

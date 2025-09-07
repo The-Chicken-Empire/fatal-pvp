@@ -38,6 +38,6 @@ $execute store result storage effect: tmp[{id:$(id)}].duration int 1 run scorebo
 
 
 function effects:system/operation/return with entity @s
-function stats:statscalc
+execute if entity @s[type=player] run function stats:statscalc
 data remove storage effect: q[0]
 function effects:q/s
