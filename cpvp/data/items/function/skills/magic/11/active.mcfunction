@@ -7,4 +7,5 @@ execute at @s run playsound entity.warden.heartbeat block @a ~ ~ ~ 1 0.9 1
 execute at @s run playsound entity.warden.heartbeat block @a ~ ~ ~ 1 0.9 1
 
 tag @s remove magic11tmp
-function system:cooltime/general/set_ct_mainhand {cooltime:200}
+scoreboard players set $ct main 200
+function api:ct/mainhand

@@ -8,6 +8,7 @@ tellraw @s {text:"----------------------------------------"}
 execute at @s run playsound block.amethyst_block.break block @s ~ ~ ~ 2 1 1
 execute at @s run playsound block.amethyst_block.break block @s ~ ~ ~ 2 1 1
 execute at @s run playsound block.amethyst_block.break block @s ~ ~ ~ 2 1 1
-function system:cooltime/general/set_ct_mainhand {cooltime:600}
+scoreboard players set $ct main 600
+function api:ct/mainhand
 data modify storage dummy rename set value {"color":"dark_blue","italic":false,"text":"Information"}
 function items:skills/item/itemmodify

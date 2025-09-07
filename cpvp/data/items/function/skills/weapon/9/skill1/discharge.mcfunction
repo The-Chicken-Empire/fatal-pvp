@@ -12,4 +12,5 @@ execute rotated ~ 0 run playsound minecraft:item.axe.scrape master @s ^ ^ ^10 1 
 execute rotated ~ 0 run playsound minecraft:item.axe.scrape master @s ^ ^ ^15 1 1 1
 
 
-function system:cooltime/general/set_ct_mainhand {cooltime:240}
+scoreboard players set $ct main 240
+function api:ct/mainhand

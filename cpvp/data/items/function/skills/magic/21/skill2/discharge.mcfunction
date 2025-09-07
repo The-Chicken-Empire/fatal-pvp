@@ -1,5 +1,6 @@
 scoreboard players operation @s mp -= @s mpcost
-function system:cooltime/general/set_ct_mainhand {cooltime:300}
+scoreboard players set $ct main 300
+function api:ct/mainhand
 
 tag @s add cp.owner
 

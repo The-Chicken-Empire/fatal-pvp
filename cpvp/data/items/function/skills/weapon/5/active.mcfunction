@@ -9,4 +9,5 @@ playsound minecraft:entity.blaze.ambient hostile @a ~ ~ ~ 1 0
 particle dust{color:[0.500,0.000,0.000],scale:2} ~ ~ ~ 1 1 1 1 100 force
 function effects:system/modify/ {id:"21",duration:12,level:1}
 
-function system:cooltime/general/set_ct_mainhand {cooltime:400}
+scoreboard players set $ct main 400
+function api:ct/mainhand

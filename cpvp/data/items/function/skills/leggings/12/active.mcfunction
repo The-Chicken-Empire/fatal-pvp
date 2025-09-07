@@ -3,4 +3,5 @@ execute at @s run particle electric_spark ~ ~ ~ 0.3 0.6 0.3 0.1 15
 scoreboard players set $eng main 2
 function api:charge/
 
-function system:cooltime/general/set_ct_leggings {cooltime:160}
+scoreboard players set $ct main 160
+function api:ct/leggings
