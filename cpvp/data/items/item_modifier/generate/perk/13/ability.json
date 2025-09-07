@@ -54,12 +54,12 @@
         "color":"white"
       },
       {
-        "text": "(自身の現在充電×1.5)%",
+        "text": "(自身の現在充電)%",
         "italic": false,
         "color":"yellow"
       },
       {
-        "text": "増加する",
+        "text": "増加する(最大20%)",
         "italic": false,
         "color":"white"
       }
