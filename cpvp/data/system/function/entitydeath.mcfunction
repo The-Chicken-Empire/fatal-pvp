@@ -6,4 +6,4 @@ execute if score @s attacker matches 0.. as @a if score @s playerdata = @a[tag=t
 scoreboard players set @s afterdamage -1
 scoreboard players set @s attacker -1
 tag @s remove tmpdied
-
+tag @s add entity_death
