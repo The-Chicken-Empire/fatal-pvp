@@ -8,5 +8,5 @@ data modify entity @s Size set value 3
 function system:initialize
 scoreboard players operation @s owner = @a[tag=cp.owner] playerdata
 scoreboard players operation @s teamscore = @a[tag=cp.owner] teamscore
-scoreboard players set @s hp 10
-scoreboard players set @s maxhp 10
+scoreboard players set @s hp 500
+scoreboard players set @s maxhp 500

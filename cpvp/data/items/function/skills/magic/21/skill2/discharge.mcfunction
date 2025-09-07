@@ -8,7 +8,7 @@ tag @s add cp.owner
 
 
 
-execute summon husk run function items:skills/magic/21/skill2/summon
+execute summon slime run function items:skills/magic/21/skill2/summon
 
 
 tag @s remove cp.owner
