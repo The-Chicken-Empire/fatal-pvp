@@ -1,0 +1,10 @@
+{
+  "function": "minecraft:set_name",
+  "name": [
+    {
+      "text": "天水晶の靴",
+      "color": "white",
+      "italic": false
+    }
+  ]
+}
