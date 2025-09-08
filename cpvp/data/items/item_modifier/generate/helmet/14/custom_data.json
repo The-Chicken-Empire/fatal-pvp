@@ -2,14 +2,14 @@
   "function": "minecraft:set_custom_data",
   "tag": {
     "cpvp": {
-      "cost": 4,
+      "cost": 3,
       "id": 14,
       "item_type": "helmet",
       "helmet": {
         "stats": {
           "vit": -10,
-          "physicaldef": 10,
-          "magicdef": 30
+          "physicaldef": 5,
+          "magicdef": 20
         },
         "triggers": []
       },
