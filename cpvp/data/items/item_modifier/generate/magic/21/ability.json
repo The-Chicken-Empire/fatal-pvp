@@ -1,57 +1,7 @@
 {
   "function": "minecraft:set_lore",
   "lore": [
-    [
-      {
-        "text": "-- ",
-        "color": "white",
-        "italic": false
-      },
-      {
-        "text": "アップグレード",
-        "color": "aqua",
-        "italic": false
-      },
-      {
-        "text": " --",
-        "color": "white",
-        "italic": false
-      }
-    ],
-    [
-      {
-        "text": "右クリック長押し",
-        "italic": false,
-        "color": "yellow"
-      }
-    ],
-    [
-      {
-        "text": "自身の3m以内にある",
-        "italic": false,
-        "color": "white"
-      },
-      {
-        "text": "<エリクサーポンプ>",
-        "italic": false,
-        "color": "light_purple"
-      },
-      {
-        "text": "を強化する。",
-        "italic": false,
-        "color": "white"
-      }
-    ],
-    [
-      {
-        "text": "8秒間強化するとレベルが1上昇する。",
-        "italic": false,
-        "color": "white"
-      }
-    ],
-    [
-      ""
-    ],
+    
     [
       {
         "text": "-- ",
@@ -133,6 +83,64 @@
       },
       {
         "text": "は破壊される。",
+        "italic": false,
+        "color": "white"
+      }
+    ],
+    [
+      ""
+    ],
+    [
+      {
+        "text": "-- ",
+        "color": "white",
+        "italic": false
+      },
+      {
+        "text": "アップグレード",
+        "color": "aqua",
+        "italic": false
+      },
+      {
+        "text": " --",
+        "color": "white",
+        "italic": false
+      }
+    ],
+    [
+      {
+        "text": "スニークせずに右クリック長押し",
+        "italic": false,
+        "color": "yellow"
+      }
+    ],
+    [
+      {
+        "text": "自身の5m以内にある",
+        "italic": false,
+        "color": "white"
+      },
+      {
+        "text": "<エリクサーポンプ>",
+        "italic": false,
+        "color": "light_purple"
+      },
+      {
+        "text": "を強化する。",
+        "italic": false,
+        "color": "white"
+      }
+    ],
+    [
+      {
+        "text": "8秒間強化するとレベルが1上昇する。",
+        "italic": false,
+        "color": "white"
+      }
+    ],
+    [
+      {
+        "text": "強化はレベルが5になるまで実行できる。",
         "italic": false,
         "color": "white"
       }

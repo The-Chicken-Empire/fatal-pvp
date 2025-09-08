@@ -4,6 +4,7 @@ data modify entity @s Silent set value 1b
 tag @s add playing
 tag @s add skillmarker
 tag @s add magic21
+tag @s add construction
 data modify entity @s Size set value 3
 #effect give @s invisibility infinite 1 true
 function system:initialize
