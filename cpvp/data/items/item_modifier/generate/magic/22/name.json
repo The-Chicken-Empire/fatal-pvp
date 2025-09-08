@@ -1,0 +1,10 @@
+{
+  "function": "minecraft:set_name",
+  "name": [
+    {
+      "text": "水晶の呪杖",
+      "color": "white",
+      "italic": false
+    }
+  ]
+}
