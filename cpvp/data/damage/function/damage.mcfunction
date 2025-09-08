@@ -1,5 +1,5 @@
 #音
-execute unless entity @s[tag=nodamagesoundtmp] at @s run playsound entity.player.hurt player @s ~ ~ ~ 1 1 1
+execute unless entity @s[tag=nodamagesoundtmp] at @s run playsound entity.player.hurt player @a ~ ~ ~ 1 1 0
 #攻撃主取り消し
 scoreboard players reset @s attacker
 scoreboard players set @s afterdamage -1
