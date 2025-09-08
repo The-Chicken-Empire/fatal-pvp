@@ -9,9 +9,8 @@
         "stats": {
           "maxhp": 300,
           "vit": 25,
-          "ctreduction": -10,
           "magicdef": 25,
-          "meleedmg": -15,
+          "meleedmg": -40,
           "agi": -65
         },
         "triggers": []

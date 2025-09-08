@@ -37,23 +37,6 @@
     ],
     [
       {
-        "text": "クールタイム短縮",
-        "color": "green",
-        "italic": false
-      },
-      {
-        "text": " : ",
-        "color": "white",
-        "italic": false
-      },
-      {
-        "text": "-10%",
-        "color": "gold",
-        "italic": false
-      }
-    ],
-    [
-      {
         "text": "魔法防御力",
         "color": "dark_purple",
         "italic": false
@@ -81,7 +64,7 @@
         "italic": false
       },
       {
-        "text": "-15%",
+        "text": "-40%",
         "color": "gold",
         "italic": false
       }
