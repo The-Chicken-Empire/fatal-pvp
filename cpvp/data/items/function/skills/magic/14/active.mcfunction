@@ -5,4 +5,5 @@ tag @s add magic14tmp
 execute at @s summon marker run function items:skills/magic/14/markersummoned
 tag @s remove magic14tmp
 
-function system:cooltime/general/set_ct_mainhand {cooltime:320}
+scoreboard players set $ct main 320
+function api:ct/mainhand

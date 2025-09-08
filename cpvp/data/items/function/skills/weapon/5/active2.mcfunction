@@ -9,4 +9,5 @@ playsound minecraft:block.respawn_anchor.set_spawn hostile @a ~ ~ ~ 2 2
 particle dust{color:[1.000,0.000,0.000],scale:2} ~ ~ ~ 1 1 1 1 100 force
 function effects:system/modify/ {id:"21",duration:8,level:1}
 
-function system:cooltime/general/set_ct_mainhand {cooltime:320}
+scoreboard players set $ct main 320
+function api:ct/mainhand

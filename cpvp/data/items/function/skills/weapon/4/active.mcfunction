@@ -9,4 +9,5 @@ execute if entity @e[tag=weapon4] as @e[tag=weapon4] if score @s owner = @e[tag=
 tag @s add weapon4-2
 tag @s remove weapon4tmp
 
-function system:cooltime/general/set_ct_mainhand {cooltime:240}
+scoreboard players set $ct main 240
+function api:ct/mainhand

@@ -1,0 +1,10 @@
+{
+  "function": "minecraft:set_name",
+  "name": [
+    {
+      "text": "スーパー美脚ズボン",
+      "color": "gold",
+      "italic": false
+    }
+  ]
+}

@@ -10,4 +10,5 @@ function effects:system/gain/ {id:29,level:1,duration:60}
 
 
 tag @s remove magic19tmp
-function system:cooltime/general/set_ct_mainhand {cooltime:400}
+scoreboard players set $ct main 400
+function api:ct/mainhand

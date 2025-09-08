@@ -1,6 +1,7 @@
 #殺した人取り出し
 execute if entity @a[tag=atker,limit=1] as @a[tag=atker,limit=1] run function system:kill
 #関連mob消去
+execute as @e if score @s owner = @a[tag=victim,limit=1] playerdata on passengers run kill @s
 execute as @e if score @s owner = @a[tag=victim,limit=1] playerdata run kill @s
 #関節キル取り出し
 tag @s add tmpdied

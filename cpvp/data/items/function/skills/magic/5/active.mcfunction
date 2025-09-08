@@ -5,4 +5,5 @@ execute at @s run summon marker ~ ~ ~ {Tags:["skillmarker","magic5"]}
 execute as @e[type=marker,tag=magic5,limit=1,sort=nearest,tag=!tagged] run scoreboard players operation @s owner = @a[tag=magic5,limit=1] playerdata
 execute as @e[type=marker,tag=magic5,limit=1,sort=nearest] run tag @s add tagged
 tag @s remove magic5
-function system:cooltime/general/set_ct_mainhand {cooltime:160}
+scoreboard players set $ct main 160
+function api:ct/mainhand

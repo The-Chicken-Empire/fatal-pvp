@@ -7,4 +7,5 @@ execute at @s run playsound block.conduit.activate player @a ~ ~ ~ 1 2 0
 execute at @s summon item_display run function items:skills/magic/9/summonitemdisplay
 
 tag @s remove magic9tmp
-function system:cooltime/general/set_ct_mainhand {cooltime:440}
+scoreboard players set $ct main 440
+function api:ct/mainhand
