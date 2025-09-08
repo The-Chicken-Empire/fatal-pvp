@@ -7,3 +7,4 @@ scoreboard players operation $heal main /= $100 main
 scoreboard players operation @s hp += $heal main
 scoreboard players reset $heal
 execute if score @s hp > @s maxhp run scoreboard players operation @s hp = @s maxhp
+tag @a[tag=healer] remove healer
