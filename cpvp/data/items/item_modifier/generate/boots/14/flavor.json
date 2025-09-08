@@ -3,14 +3,28 @@
   "lore": [
     [
       {
-        "text": "ここにフレーバーテキストを書く",
+        "text": "金と紫の生地を組み合わせ、凪のような静かな",
         "color": "dark_gray",
         "italic": true
       }
     ],
     [
       {
-        "text": "ここは2行目",
+        "text": "魔力を示す静寂織りで編まれた靴。",
+        "color": "dark_gray",
+        "italic": true
+      }
+    ],
+    [
+      {
+        "text": "自身の魔力をセーブする代わりに、物魔両方に",
+        "color": "dark_gray",
+        "italic": true
+      }
+    ],
+    [
+      {
+        "text": "対してバランス良く耐性を得ることができる。",
         "color": "dark_gray",
         "italic": true
       }
