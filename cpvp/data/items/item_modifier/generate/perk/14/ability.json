@@ -39,7 +39,7 @@
         "color":"white"
       },
       {
-        "text": "(対象との移動速度の差÷2)%",
+        "text": "(対象との移動速度の差÷4)%",
         "color": "yellow",
         "italic": false
       },
