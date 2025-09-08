@@ -27,6 +27,23 @@
     ],
     [
       {
+        "text": "クールタイム",
+        "italic": false,
+        "color":"dark_aqua"
+      },
+      {
+        "text": " : ",
+        "italic": false,
+        "color":"white"
+      },
+      {
+        "text": "6秒",
+        "italic": false,
+        "color":"green"
+      }
+    ],
+    [
+      {
         "text": "残り時間を1~3秒短縮する",
         "color": "white",
         "italic": false
