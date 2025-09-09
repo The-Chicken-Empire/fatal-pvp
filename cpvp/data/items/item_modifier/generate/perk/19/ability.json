@@ -8,8 +8,8 @@
         "italic": false
       },
       {
-        "text": "ここにability名",
-        "color": "white",
+        "text": "守護の祈り",
+        "color": "blue",
         "italic": false
       },
       {
@@ -20,21 +20,28 @@
     ],
     [
       {
-        "text": "発動検知",
+        "text": "被攻撃時",
         "italic": false,
         "color": "yellow"
       }
     ],
     [
       {
-        "text": "cost",
+        "text": "15以上のダメージを受ける時、",
         "italic": false,
         "color": "white"
       }
     ],
     [
       {
-        "text": "内容",
+        "text": "被ダメージを3減らす。",
+        "italic": false,
+        "color": "white"
+      }
+    ],
+    [
+      {
+        "text": "20以上の時、さらに3減らす。",
         "italic": false,
         "color": "white"
       }

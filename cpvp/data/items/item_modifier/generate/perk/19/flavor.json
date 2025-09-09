@@ -3,14 +3,28 @@
   "lore": [
     [
       {
-        "text": "ここにフレーバーテキストを書く",
+        "text": "碧色で透き通る、燦然と輝く蒼の宝石。",
         "color": "dark_gray",
         "italic": true
       }
     ],
     [
       {
-        "text": "ここは2行目",
+        "text": "幾年もの時を重ねて悠々と宝石に",
+        "color": "dark_gray",
+        "italic": true
+      }
+    ],
+    [
+      {
+        "text": "込められた守護の祈りは、盤石な結界を作り、",
+        "color": "dark_gray",
+        "italic": true
+      }
+    ],
+    [
+      {
+        "text": "持ち主を護りぬくだろう。",
         "color": "dark_gray",
         "italic": true
       }
