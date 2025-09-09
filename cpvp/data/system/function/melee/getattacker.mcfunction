@@ -11,17 +11,16 @@ execute as @a[tag=meleeatkertmp2] if score @s playerdata = @a[tag=victimtmp,limi
 #ダメージ種
 execute if entity @e[tag=meleeatkertmp3,tag=magicweapon,limit=1] run tag @s add magicdamage
 execute unless entity @e[tag=meleeatkertmp3,tag=magicweapon,limit=1] run tag @s add physicaldamage
-execute if entity @e[tag=meleeatkertmp3,advancements={system:projectile=false}] run tag @s add meleedamage
-execute if entity @e[tag=meleeatkertmp3,advancements={system:projectile=true}] run tag @s add rangedamage
+execute if entity @a[tag=meleeatkertmp3,advancements={system:projectile=false}] run tag @s add meleedamage
+execute if entity @a[tag=meleeatkertmp3,advancements={system:projectile=true}] run tag @s add rangedamage
 tag @e[tag=atker,tag=magicweapon] remove magicweapon
-advancement revoke @a[tag=victimtmp] only system:projectile
-advancement revoke @a[tag=victimtmp] only system:ehpprojectile
+advancement revoke @s only system:ehpprojectile
 
 execute store result storage cpvp:tmp player byte 1 run scoreboard players get @s playerdata
 function damage:atktrigger/melee/p with storage cpvp:tmp
 data remove storage cpvp:tmp player
 
-
+tag @s remove victimtmp
 
 #ダメージ計算
 scoreboard players operation @s damagetaken = @s damageresist
