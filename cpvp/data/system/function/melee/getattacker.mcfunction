@@ -17,7 +17,7 @@ tag @e[tag=atker,tag=magicweapon] remove magicweapon
 advancement revoke @a[tag=victimtmp] only system:projectile
 advancement revoke @a[tag=victimtmp] only system:ehpprojectile
 
-execute store result storage cpvp:tmp player byte 1 run scoreboard players get @s attackerdata
+execute store result storage cpvp:tmp player byte 1 run scoreboard players get @s playerdata
 function damage:atktrigger/melee/p with storage cpvp:tmp
 data remove storage cpvp:tmp player
 
