@@ -3,7 +3,8 @@ summon item ~ ~ ~ {Tags:["cp.tmp","skillmarker","seraph_feather2"],Item:{id:gold
 summon item ~ ~ ~ {Tags:["cp.tmp","skillmarker","seraph_feather2"],Item:{id:golden_hoe,components:{custom_model_data:{strings:["seraph_feather2"]}}},Invulnerable:1b,PickupDelay:32767,Motion:[-0.1f,0.4f,0.1f]}
 summon item ~ ~ ~ {Tags:["cp.tmp","skillmarker","seraph_feather2"],Item:{id:golden_hoe,components:{custom_model_data:{strings:["seraph_feather2"]}}},Invulnerable:1b,PickupDelay:32767,Motion:[-0.1f,0.4f,-0.1f]}
 
-
+tag @s remove cp.this
+tag @e[tag=cp.what] remove cp.what
 
 scoreboard players operation @e[tag=cp.tmp] owner = @s owner
 scoreboard players operation @e[tag=cp.tmp] ownerteam = @s ownerteam
