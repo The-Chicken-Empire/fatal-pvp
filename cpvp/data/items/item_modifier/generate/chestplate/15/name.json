@@ -1,0 +1,10 @@
+{
+  "function": "minecraft:set_name",
+  "name": [
+    {
+      "text": "感嘆の翼",
+      "color": "gray",
+      "italic": false
+    }
+  ]
+}

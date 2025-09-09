@@ -1,0 +1,10 @@
+{
+  "function": "minecraft:set_name",
+  "name": [
+    {
+      "text": "ヘイロー",
+      "color": "yellow",
+      "italic": false
+    }
+  ]
+}
