@@ -97,7 +97,8 @@ execute as @a[tag=atker] if items entity @s armor.head golden_hoe[minecraft:cust
 execute as @a[tag=atker] if items entity @s weapon.offhand end_crystal[minecraft:custom_data~{cpvp:{id:11b}}] if items entity @s weapon.offhand end_crystal[minecraft:custom_data~{cpvp:{item_type:"offhand"}}] run function items:skills/offhand/11/atk
 
 
-
+##perk19の火力を固定で下げる効果(結構下の方に置いといてね...)
+execute if score @s damagetaken matches 150.. if entity @s[tag=perk19] at @s run function items:skills/perk/19/active
 
 #damage3trigger
 execute as @e[tag=atker] run function items:triggers/attack3/check
