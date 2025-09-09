@@ -3,14 +3,28 @@
   "lore": [
     [
       {
-        "text": "ここにフレーバーテキストを書く",
+        "text": "羽が剥がれ落ち、破れ、その飛ぶ能力は廃れ、",
         "color": "dark_gray",
         "italic": true
       }
     ],
     [
       {
-        "text": "ここは2行目",
+        "text": "塵屑となってしまった悲しき産物。",
+        "color": "dark_gray",
+        "italic": true
+      }
+    ],
+    [
+      {
+        "text": "まだ原型をとどめている部分の包容力だけが、",
+        "color": "dark_gray",
+        "italic": true
+      }
+    ],
+    [
+      {
+        "text": "その役割を全うしようとしている。",
         "color": "dark_gray",
         "italic": true
       }

@@ -3,14 +3,21 @@
   "lore": [
     [
       {
-        "text": "ここにフレーバーテキストを書く",
+        "text": "雲の上に群生している鉱物でできた靴。",
         "color": "dark_gray",
         "italic": true
       }
     ],
     [
       {
-        "text": "ここは2行目",
+        "text": "結晶そのものは脆いが、接触している生命体",
+        "color": "dark_gray",
+        "italic": true
+      }
+    ],
+    [
+      {
+        "text": "の生命力を感化する能力を持っている。",
         "color": "dark_gray",
         "italic": true
       }

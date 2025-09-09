@@ -3,14 +3,28 @@
   "lore": [
     [
       {
-        "text": "ここにフレーバーテキストを書く",
+        "text": "天使達には、その抜け落ちた翼の羽で、",
         "color": "dark_gray",
         "italic": true
       }
     ],
     [
       {
-        "text": "ここは2行目",
+        "text": "衣服を織る仕来りがある。",
+        "color": "dark_gray",
+        "italic": true
+      }
+    ],
+    [
+      {
+        "text": "この羽衣はそんな天使たちのお古であり、",
+        "color": "dark_gray",
+        "italic": true
+      }
+    ],
+    [
+      {
+        "text": "未だに微かにその祝福がにじみ出ている。",
         "color": "dark_gray",
         "italic": true
       }
