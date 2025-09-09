@@ -1,0 +1,10 @@
+{
+  "function": "minecraft:set_name",
+  "name": [
+    {
+      "text": "サファイアのお守り",
+      "color": "white",
+      "italic": false
+    }
+  ]
+}
