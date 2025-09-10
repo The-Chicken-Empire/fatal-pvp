@@ -236,9 +236,7 @@ scoreboard objectives add magic13markID1 dummy
 scoreboard objectives add magic13markID2 dummy
 scoreboard objectives add offhand6 dummy
 scoreboard players set @e offhand6 0
-
 scoreboard objectives add weapon4 dummy
-
 scoreboard objectives add weapon8 dummy
 scoreboard players set @a weapon8 0
 scoreboard objectives add weapon7 dummy
@@ -251,7 +249,8 @@ scoreboard objectives add perk13 dummy
 scoreboard players set @a perk13 0
 scoreboard objectives add offhand7 dummy
 scoreboard objectives add offhand7-2 dummy
-
+scoreboard objectives add perk18 dummy
+scoreboard players set @a perk18 0
 
 
 #buff用

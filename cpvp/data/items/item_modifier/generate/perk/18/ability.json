@@ -8,8 +8,8 @@
         "italic": false
       },
       {
-        "text": "ここにability名",
-        "color": "white",
+        "text": "遠方からの守護",
+        "color": "#65edff",
         "italic": false
       },
       {
@@ -20,21 +20,51 @@
     ],
     [
       {
-        "text": "発動検知",
+        "text": "常時、被攻撃時",
         "italic": false,
         "color": "yellow"
       }
     ],
     [
       {
-        "text": "cost",
+        "text": "1秒毎に",
+        "italic": false,
+        "color": "white"
+      },
+      {
+        "text": "魔法防御力",
+        "italic": false,
+        "color": "dark_purple"
+      },
+      {
+        "text": "が",
+        "italic": false,
+        "color": "white"
+      },
+      {
+        "text": "2",
+        "italic": false,
+        "color": "gold"
+      },
+      {
+        "text": "上昇する(最大60)",
         "italic": false,
         "color": "white"
       }
     ],
     [
       {
-        "text": "内容",
+        "text": "この効果は",
+        "italic": false,
+        "color": "white"
+      },
+      {
+        "text": "魔法攻撃",
+        "italic": false,
+        "color": "dark_purple"
+      },
+      {
+        "text": "を受けた時リセットされる",
         "italic": false,
         "color": "white"
       }
