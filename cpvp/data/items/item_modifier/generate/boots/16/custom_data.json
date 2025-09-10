@@ -7,10 +7,10 @@
       "item_type": "boots",
       "boots": {
         "stats": {
-          "maxmp": 3000,
+          "maxmp": 2500,
           "vit": 15,
-          "damage": 5,
-          "defence": 15
+          "magicdef": 10,
+          "magicdmg": 5
         },
         "triggers": []
       },
