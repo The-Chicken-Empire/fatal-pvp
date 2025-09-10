@@ -8,8 +8,8 @@
         "italic": false
       },
       {
-        "text": "ここにability名",
-        "color": "white",
+        "text": "世界の意思",
+        "color": "#ff5252",
         "italic": false
       },
       {
@@ -20,21 +20,36 @@
     ],
     [
       {
-        "text": "発動検知",
+        "text": "被攻撃時",
         "italic": false,
         "color": "yellow"
       }
     ],
     [
       {
-        "text": "cost",
+        "text": "クールタイム",
         "italic": false,
-        "color": "white"
+        "color":"dark_aqua"
+      },
+      {
+        "text": " : ",
+        "italic": false,
+        "color":"white"
+      },
+      {
+        "text": "3秒",
+        "italic": false,
+        "color":"green"
       }
     ],
     [
       {
-        "text": "内容",
+        "text": "5%",
+        "italic": false,
+        "color": "yellow"
+      },
+      {
+        "text": "の確率で攻撃対象を自分以外の誰かに移す",
         "italic": false,
         "color": "white"
       }

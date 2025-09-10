@@ -6,6 +6,8 @@ scoreboard players set $damagecalcdef damagecalc 0
 scoreboard players set $damagecalc2 damagecalc 0
 scoreboard players set $damageadd damagecalc 0
 
+execute if items entity @s[tag=victim] hotbar.* *[custom_data~{cpvp:{id:20b,item_type:"perk"}}] run function items:skills/perk/20/check
+
 execute if entity @e[tag=victim,limit=1,tag=truedamagetmp] run return run function damage:truedamagecalc
 
 #damage1trigger とにかくhitした時
