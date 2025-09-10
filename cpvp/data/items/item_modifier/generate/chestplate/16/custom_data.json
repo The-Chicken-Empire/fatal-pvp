@@ -1,0 +1,21 @@
+{
+  "function": "minecraft:set_custom_data",
+  "tag": {
+    "cpvp": {
+      "cost": 4,
+      "id": 16,
+      "item_type": "chestplate",
+      "chestplate": {
+        "stats": {
+          "maxmp": 3000,
+          "vit": 15,
+          "mr": 20,
+          "magicdef": 10
+        },
+        "triggers": []
+      },
+      "regularitem": 1,
+      "classitem": 0
+    }
+  }
+}
