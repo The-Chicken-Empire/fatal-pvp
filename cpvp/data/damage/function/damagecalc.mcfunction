@@ -16,7 +16,6 @@ execute as @e[tag=atker] run function damage:atktrigger/attack1 with storage atk
 #agi処理
 execute store result score $dummy random run random value 1..100
 
-
 execute if entity @e[tag=victim,tag=unavoidable] run scoreboard players set $dummy random 10000
 ###身躱しの装衣の処理をここに挟む
 execute if items entity @s armor.chest *[custom_data~{cpvp:{id:6}}] run function items:skills/chestplate/6/
