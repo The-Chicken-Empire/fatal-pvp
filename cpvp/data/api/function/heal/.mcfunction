@@ -1,5 +1,6 @@
 scoreboard players operation $heal counter = @s vit
 scoreboard players operation $heal counter += $100 main
+execute if score $heal counter matches ..-1 run scoreboard players set $heal counter 0
 scoreboard players operation $heal main *= $heal counter
 scoreboard players operation $heal main /= $100 main
 
