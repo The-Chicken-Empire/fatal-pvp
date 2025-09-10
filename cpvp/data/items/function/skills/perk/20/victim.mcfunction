@@ -6,6 +6,7 @@ execute if entity @a[tag=perk20tmp,tag=rangedamagetmp] run tag @s add rangedamag
 execute if entity @a[tag=perk20tmp,tag=specialdamagetmp] run tag @s add specialdamagetmp
 execute if entity @a[tag=perk20tmp,tag=unavoidable] run tag @s add unavoidable
 execute if entity @a[tag=perk20tmp,tag=truedamagetmp] run tag @s add truedamagetmp
+scoreboard players operation @s damagetaken = @a[tag=perk20tmp,limit=1] damagetaken
 
 tellraw @s [{"text":"[運命改変]","color":"yellow"},{"selector":"@a[tag=perk20tmp,limit=1]"},{"text":"からダメージを押し付けられた！","color":"white"}]
 
