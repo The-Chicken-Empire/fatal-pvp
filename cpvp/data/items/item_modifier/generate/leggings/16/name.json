@@ -1,0 +1,10 @@
+{
+  "function": "minecraft:set_name",
+  "name": [
+    {
+      "text": "白魔導士のヴェール",
+      "color": "white",
+      "italic": false
+    }
+  ]
+}
