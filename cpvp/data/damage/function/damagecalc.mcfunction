@@ -6,7 +6,10 @@ scoreboard players set $damagecalcdef damagecalc 0
 scoreboard players set $damagecalc2 damagecalc 0
 scoreboard players set $damageadd damagecalc 0
 
+#perk20の効果 攻撃対象変更
 execute if items entity @s[tag=victim] hotbar.* *[custom_data~{cpvp:{id:20b,item_type:"perk"}}] run function items:skills/perk/20/check
+execute if score $perk20 main matches 1 run return run execute as @a[tag=perk20victim,limit=1] run function items:skills/perk/20/recalc
+
 
 execute if entity @e[tag=victim,limit=1,tag=truedamagetmp] run return run function damage:truedamagecalc
 
