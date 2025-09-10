@@ -1,0 +1,10 @@
+{
+  "function": "minecraft:set_name",
+  "name": [
+    {
+      "text": "聖銀のチョーカー",
+      "color": "white",
+      "italic": false
+    }
+  ]
+}
