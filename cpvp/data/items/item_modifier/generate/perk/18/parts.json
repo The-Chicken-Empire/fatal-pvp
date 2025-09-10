@@ -3,8 +3,8 @@
   "lore": [
     [
       {
-        "text": "最大HP",
-        "color": "red",
+        "text": "使用可能部位",
+        "color": "dark_green",
         "italic": false
       },
       {
@@ -13,8 +13,8 @@
         "italic": false
       },
       {
-        "text": "+5",
-        "color": "gold",
+        "text": "ホットバー",
+        "color": "dark_green",
         "italic": false
       }
     ],

@@ -3,8 +3,8 @@
   "lore": [
     [
       {
-        "text": "最大HP",
-        "color": "red",
+        "text": "アイテムコスト",
+        "color": "light_purple",
         "italic": false
       },
       {
@@ -13,8 +13,8 @@
         "italic": false
       },
       {
-        "text": "+5",
-        "color": "gold",
+        "text": "2",
+        "color": "green",
         "italic": false
       }
     ],

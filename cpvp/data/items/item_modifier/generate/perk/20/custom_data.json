@@ -2,16 +2,14 @@
   "function": "minecraft:set_custom_data",
   "tag": {
     "cpvp": {
-      "id": 8,
+      "cost": 5,
+      "id": 20,
       "item_type": "perk",
       "hotbar": {
-        "stats": {
-          "maxhp": -50
-        },
-        "triggers": [
-        ]
+        "triggers": []
       },
-      "regularitem": 1
+      "regularitem": 1,
+      "classitem": 0
     }
   }
 }

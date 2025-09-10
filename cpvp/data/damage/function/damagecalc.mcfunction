@@ -6,6 +6,8 @@ scoreboard players set $damagecalcdef damagecalc 0
 scoreboard players set $damagecalc2 damagecalc 0
 scoreboard players set $damageadd damagecalc 0
 
+execute if items entity @s[tag=victim] hotbar.* *[custom_data~{cpvp:{id:20b,item_type:"perk"}}] run function items:skills/perk/20/check
+
 execute if entity @e[tag=victim,limit=1,tag=truedamagetmp] run return run function damage:truedamagecalc
 
 #damage1trigger とにかくhitした時
@@ -15,7 +17,6 @@ execute as @e[tag=atker] run function damage:atktrigger/attack1 with storage atk
 
 #agi処理
 execute store result score $dummy random run random value 1..100
-
 
 execute if entity @e[tag=victim,tag=unavoidable] run scoreboard players set $dummy random 10000
 ###身躱しの装衣の処理をここに挟む
@@ -95,19 +96,23 @@ scoreboard players operation @s damagetaken /= $10000 main
 execute as @a[tag=atker] if items entity @s armor.head golden_hoe[minecraft:custom_data~{cpvp:{id:4b}}] at @s if entity @e[tag=victim,distance=15..] run function items:skills/helmet/4/atk
 ##offhand11の効果 k倍 (kは0以上の実数)
 execute as @a[tag=atker] if items entity @s weapon.offhand end_crystal[minecraft:custom_data~{cpvp:{id:11b}}] if items entity @s weapon.offhand end_crystal[minecraft:custom_data~{cpvp:{item_type:"offhand"}}] run function items:skills/offhand/11/atk
-
-
 ##perk19の火力を固定で下げる効果(結構下の方に置いといてね...)
 execute if score @s damagetaken matches 150.. if entity @s[tag=perk19] at @s run function items:skills/perk/19/active
+##perk8の効果 ダメージ上限5
+execute as @a[tag=atker] if items entity @s hotbar.* *[minecraft:custom_data~{cpvp:{id:8b,item_type:"perk"}}] run function items:skills/perk/8/attacked
+##weapon1の効果 ダメージをMP減少に変換
+execute as @a[tag=atker] if items entity @s weapon.mainhand *[minecraft:custom_data~{cpvp:{id:1b,item_type:"weapon"}}] run function items:skills/weapon/1/attack
+
+
 
 #damage3trigger
 execute as @e[tag=atker] run function items:triggers/attack3/check
 execute as @e[tag=victim] run function items:triggers/attacked3/check
 execute as @e[tag=atker] run function damage:atktrigger/attack3 with storage atktrigger: hage
 
-#　ほ　か
+#ダメージと関係ないスキル処理
+##magic19の反撃デバフ
 execute if entity @s[tag=victim,tag=magic19buff] run function items:skills/magic/19/counter
-
 
 #ダメージ上限
 execute if score $maxdamage damagecalc matches -2147483648..2147483647 if score @s damagetaken > $maxdamage damagecalc run scoreboard players operation @s damagetaken = $maxdamage damagecalc

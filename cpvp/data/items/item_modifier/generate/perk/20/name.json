@@ -1,0 +1,10 @@
+{
+  "function": "minecraft:set_name",
+  "name": [
+    {
+      "text": "運命改変",
+      "color": "#fbff00",
+      "italic": false
+    }
+  ]
+}
