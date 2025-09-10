@@ -15,10 +15,12 @@ execute as @e[tag=atker] run function damage:atktrigger/attack1 with storage atk
 
 #agi処理
 execute store result score $dummy random run random value 1..100
+
+
+execute if entity @e[tag=victim,tag=unavoidable] run scoreboard players set $dummy random 10000
 ###身躱しの装衣の処理をここに挟む
 execute if items entity @s armor.chest *[custom_data~{cpvp:{id:6}}] run function items:skills/chestplate/6/
 ###
-execute if entity @e[tag=victim,tag=unavoidable] run scoreboard players set $dummy random 10000
 execute as @a[tag=unavoidable,tag=victim] at @s run playsound block.trial_spawner.ambient_ominous block @s ~ ~ ~ 1 2 1
 execute if score $dummy random <= @s agi at @s run playsound entity.breeze.wind_burst master @a ~ ~ ~ 1 1.5
 execute if score $dummy random <= @s agi run particle minecraft:white_smoke ~ ~1 ~ 0.1 0.8 0.1 0.2 20
@@ -93,10 +95,14 @@ scoreboard players operation @s damagetaken /= $10000 main
 execute as @a[tag=atker] if items entity @s armor.head golden_hoe[minecraft:custom_data~{cpvp:{id:4b}}] at @s if entity @e[tag=victim,distance=15..] run function items:skills/helmet/4/atk
 ##offhand11の効果 k倍 (kは0以上の実数)
 execute as @a[tag=atker] if items entity @s weapon.offhand end_crystal[minecraft:custom_data~{cpvp:{id:11b}}] if items entity @s weapon.offhand end_crystal[minecraft:custom_data~{cpvp:{item_type:"offhand"}}] run function items:skills/offhand/11/atk
+##perk19の火力を固定で下げる効果(結構下の方に置いといてね...)
+execute if score @s damagetaken matches 150.. if entity @s[tag=perk19] at @s run function items:skills/perk/19/active
 ##perk8の効果 ダメージ上限5
 execute as @a[tag=atker] if items entity @s hotbar.* *[minecraft:custom_data~{cpvp:{id:8b,item_type:"perk"}}] run function items:skills/perk/8/attacked
 ##weapon1の効果 ダメージをMP減少に変換
 execute as @a[tag=atker] if items entity @s weapon.mainhand *[minecraft:custom_data~{cpvp:{id:1b,item_type:"weapon"}}] run function items:skills/weapon/1/attack
+
+
 
 #damage3trigger
 execute as @e[tag=atker] run function items:triggers/attack3/check

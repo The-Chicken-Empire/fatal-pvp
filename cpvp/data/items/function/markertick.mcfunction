@@ -41,6 +41,8 @@ execute if entity @s[tag=magic16-2] run function items:skills/magic/16/markertic
 execute if entity @s[tag=magic16-3] run function items:skills/magic/16/markertick3
 #19
 execute if entity @s[tag=magic19] run function items:skills/magic/19/markertick
+#21
+execute if entity @s[tag=magic21] at @s run function items:skills/magic/21/skill2/tick
 ##weapon
 #3
 execute if entity @s[tag=weapon3] run function items:skills/weapon/3/markertick

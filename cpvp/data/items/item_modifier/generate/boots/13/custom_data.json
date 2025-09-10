@@ -7,7 +7,7 @@
       "item_type": "boots",
       "boots": {
         "stats": {
-          "physicaldmg": 20
+          "physicaldmg": 12
         },
         "triggers": []
       },

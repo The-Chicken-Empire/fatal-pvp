@@ -6,4 +6,4 @@ tag @s add tmpdied
 scoreboard players set @s afterdamage -1
 scoreboard players set @s attacker -1
 tag @s remove tmpdied
-
+tag @s add entity_death
