@@ -3,14 +3,28 @@
   "lore": [
     [
       {
-        "text": "ここにフレーバーテキストを書く",
+        "text": "神の洗礼と加護を授かる聖銀のチョーカー。",
         "color": "dark_gray",
         "italic": true
       }
     ],
     [
       {
-        "text": "ここは2行目",
+        "text": "これを携えることは、神への永遠の忠誠を意味し、",
+        "color": "dark_gray",
+        "italic": true
+      }
+    ],
+    [
+      {
+        "text": "白魔導士としてその天寿を全うすると",
+        "color": "dark_gray",
+        "italic": true
+      }
+    ],
+    [
+      {
+        "text": "誓った者にのみ与えられる。",
         "color": "dark_gray",
         "italic": true
       }

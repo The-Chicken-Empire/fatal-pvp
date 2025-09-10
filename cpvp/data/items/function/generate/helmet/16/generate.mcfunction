@@ -17,11 +17,11 @@ item modify block 0 0 0 container.0 items:generate/helmet/16/cost
 
 item modify block 0 0 0 container.0 items:generate/helmet/16/stats
 
-item modify block 0 0 0 container.0 items:generate/helmet/16/ability
+#item modify block 0 0 0 container.0 items:generate/helmet/16/ability
 
 item modify block 0 0 0 container.0 items:generate/helmet/16/parts
 
 item modify block 0 0 0 container.0 items:generate/helmet/16/flavor
 
 #アトリビュートなどを追加したい場合はコメントをはずしてファイルを作成する
-#item modify block 0 0 0 container.0 items:generate/helmet/16/others
+item modify block 0 0 0 container.0 items:generate/helmet/16/others
