@@ -15,6 +15,7 @@ tag @s remove rangedamagetmp
 tag @s remove meleedamagetmp
 tag @s remove specialdamagetmp
 tag @s remove truedamagetmp
+scoreboard players reset @s damagetaken
 
 tag @s remove perk20tmp
 
