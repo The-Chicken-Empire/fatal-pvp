@@ -1,0 +1,19 @@
+{
+  "function": "minecraft:set_custom_data",
+  "tag": {
+    "cpvp": {
+      "cost": 5,
+      "id": 16,
+      "item_type": "leggings",
+      "leggings": {
+        "stats": {
+          "maxmp": 7000,
+          "mr": 70
+        },
+        "triggers": []
+      },
+      "regularitem": 1,
+      "classitem": 0
+    }
+  }
+}
