@@ -6,7 +6,7 @@
       "item_type": "helmet",
       "helmet": {
         "stats": {
-          "maxhp": 100
+          "maxhp": 50
         },
         "triggers": [
           "attack2",

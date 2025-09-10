@@ -93,9 +93,10 @@ scoreboard players operation @s damagetaken /= $10000 main
 execute as @a[tag=atker] if items entity @s armor.head golden_hoe[minecraft:custom_data~{cpvp:{id:4b}}] at @s if entity @e[tag=victim,distance=15..] run function items:skills/helmet/4/atk
 ##offhand11の効果 k倍 (kは0以上の実数)
 execute as @a[tag=atker] if items entity @s weapon.offhand end_crystal[minecraft:custom_data~{cpvp:{id:11b}}] if items entity @s weapon.offhand end_crystal[minecraft:custom_data~{cpvp:{item_type:"offhand"}}] run function items:skills/offhand/11/atk
-
-
-
+##perk8の効果 ダメージ上限5
+execute as @a[tag=atker] if items entity @s hotbar.* *[minecraft:custom_data~{cpvp:{id:8b,item_type:"perk"}}] run function items:skills/perk/8/attacked
+##weapon1の効果 ダメージをMP減少に変換
+execute as @a[tag=atker] if items entity @s weapon.mainhand *[minecraft:custom_data~{cpvp:{id:1b,item_type:"weapon"}}] run function items:skills/weapon/1/attack
 
 #damage3trigger
 execute as @e[tag=atker] run function items:triggers/attack3/check

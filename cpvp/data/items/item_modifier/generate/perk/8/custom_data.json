@@ -9,7 +9,6 @@
           "maxhp": -50
         },
         "triggers": [
-          "attacked3"
         ]
       },
       "regularitem": 1
