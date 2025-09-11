@@ -9,7 +9,7 @@
         "stats": {
           "bonusattackspeed": 20
         },
-        "triggers": []
+        "triggers": ["tick","unequip"]
       },
       "regularitem": 1,
       "classitem": 0

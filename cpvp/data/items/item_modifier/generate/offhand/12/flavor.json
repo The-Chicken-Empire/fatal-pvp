@@ -3,14 +3,28 @@
   "lore": [
     [
       {
-        "text": "ここにフレーバーテキストを書く",
+        "text": "奇怪なデザインをしたアンクレット。",
         "color": "dark_gray",
         "italic": true
       }
     ],
     [
       {
-        "text": "ここは2行目",
+        "text": "アンクレットのくせにサイズが小さすぎるので、",
+        "color": "dark_gray",
+        "italic": true
+      }
+    ],
+    [
+      {
+        "text": "巷ではこいつを腕につけてブレスレットとして使うのが",
+        "color": "dark_gray",
+        "italic": true
+      }
+    ],
+    [
+      {
+        "text": "流行りらしい。",
         "color": "dark_gray",
         "italic": true
       }
