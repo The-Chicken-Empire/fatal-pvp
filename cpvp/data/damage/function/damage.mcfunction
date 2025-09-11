@@ -23,7 +23,6 @@ execute if score @s hp matches ..0 run function items:triggers/death/check
 scoreboard players operation $tmp getdamage = @s damagepoint
 scoreboard players set @s damagepoint 0
 #攻撃主取り出し
-say a
 execute if entity @a[tag=atker,limit=1] run function damage:getatker
 #死亡処理
 execute if score @s[type=player] hp matches ..0 run function system:death

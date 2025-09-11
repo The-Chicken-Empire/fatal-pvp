@@ -5,7 +5,7 @@ tag @r[tag=!perk20tmp] add perk20victim
 
 execute at @s run playsound block.trial_spawner.ominous_activate block @s ~ ~ ~ 1 2 1
 execute at @s run particle totem_of_undying ~ ~ ~ 0 0 0 0.2 15
-tellraw @s [{"text":"[運命改変]","color":"yellow"},{"selector":"@a[tag=perk20victim,limit=1]"},{"text":"にダメージを押し付けた！","color":"white"}]
+tellraw @s [{"text":"[運命改変] ","color":"yellow"},{"selector":"@a[tag=perk20victim,limit=1]"},{"text":"にダメージを押し付けた！","color":"white"}]
 
 execute as @a[tag=perk20victim] run function items:skills/perk/20/victim
 
