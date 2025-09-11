@@ -1,0 +1,10 @@
+{
+  "function": "minecraft:set_name",
+  "name": [
+    {
+      "text": "レレラーズアンクレット",
+      "color": "white",
+      "italic": false
+    }
+  ]
+}
