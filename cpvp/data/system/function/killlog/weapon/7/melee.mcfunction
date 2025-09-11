@@ -1,0 +1,1 @@
+tellraw @a [{italic:false,selector:"@s"},{color:"white",italic:false,text:"は"},{italic:false,selector:"@a[tag=tmpkiller,limit=1]"},{color:"white",italic:false,text:"の"},{color:"yellow",italic:false,text:"Avarice"},{color:"white",italic:false,text:"の糧となった"}]
