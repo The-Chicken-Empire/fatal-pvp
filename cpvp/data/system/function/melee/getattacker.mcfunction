@@ -32,4 +32,5 @@ execute as @e[tag=meleeatkertmp3] run tag @s add meleeatker
 tag @a remove meleeatkertmp3
  
 tag @s add nodamagesound
+scoreboard players operation @s attackerdata = @a[tag=meleeatker,limit=1] playerdata
 function damage:atkercheck
