@@ -3,14 +3,14 @@
   "lore": [
     [
       {
-        "text": "ここにフレーバーテキストを書く",
+        "text": "例え一撃で殺せずとも、",
         "color": "dark_gray",
         "italic": true
       }
     ],
     [
       {
-        "text": "ここは2行目",
+        "text": "致命傷でさえ有ればで十分である",
         "color": "dark_gray",
         "italic": true
       }

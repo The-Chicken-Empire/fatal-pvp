@@ -8,8 +8,8 @@
         "italic": false
       },
       {
-        "text": "ここにability名",
-        "color": "white",
+        "text": "Bloody Reality",
+        "color": "dark_red",
         "italic": false
       },
       {
@@ -20,21 +20,61 @@
     ],
     [
       {
-        "text": "発動検知",
+        "text": "攻撃的中時",
         "italic": false,
         "color": "yellow"
       }
     ],
     [
       {
-        "text": "cost",
+        "text": "一撃で相手の",
+        "italic": false,
+        "color": "white"
+      },
+      {
+        "text": "最大HP",
+        "italic": false,
+        "color": "red"
+      },
+      {
+        "text": "の",
+        "italic": false,
+        "color": "white"
+      },
+      {
+        "text": "60%",
+        "italic": false,
+        "color": "yellow"
+      },
+      {
+        "text": "以上のダメージを与えた時、",
         "italic": false,
         "color": "white"
       }
     ],
     [
       {
-        "text": "内容",
+        "text": "相手に",
+        "italic": false,
+        "color": "white"
+      },
+      {
+        "text": "[盲目]",
+        "italic": false,
+        "color": "dark_gray"
+      },
+      {
+        "text": "と",
+        "italic": false,
+        "color": "white"
+      },
+      {
+        "text": "[ウィザー:lv3]",
+        "italic": false,
+        "color": "dark_gray"
+      },
+      {
+        "text": "を6秒与える",
         "italic": false,
         "color": "white"
       }
