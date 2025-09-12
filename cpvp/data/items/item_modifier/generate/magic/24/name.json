@@ -1,0 +1,10 @@
+{
+  "function": "minecraft:set_name",
+  "name": [
+    {
+      "text": "生体補完マシンβ",
+      "color": "white",
+      "italic": false
+    }
+  ]
+}
