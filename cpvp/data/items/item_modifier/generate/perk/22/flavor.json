@@ -3,14 +3,14 @@
   "lore": [
     [
       {
-        "text": "ここにフレーバーテキストを書く",
+        "text": "自身のマナを纏い魔法攻撃を軽減する技術",
         "color": "dark_gray",
         "italic": true
       }
     ],
     [
       {
-        "text": "ここは2行目",
+        "text": "習得者が広める気が無い為認知度が低い",
         "color": "dark_gray",
         "italic": true
       }

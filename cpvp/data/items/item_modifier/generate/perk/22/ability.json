@@ -8,8 +8,8 @@
         "italic": false
       },
       {
-        "text": "ここにability名",
-        "color": "white",
+        "text": "魔纏装術",
+        "color": "aqua",
         "italic": false
       },
       {
@@ -20,21 +20,54 @@
     ],
     [
       {
-        "text": "発動検知",
+        "text": "常時",
         "italic": false,
         "color": "yellow"
       }
     ],
     [
       {
-        "text": "cost",
+        "text": "自身の",
         "italic": false,
         "color": "white"
-      }
-    ],
-    [
+      },
       {
-        "text": "内容",
+        "text": "現在MP",
+        "italic": false,
+        "color": "blue"
+      },
+      {
+        "text": "が",
+        "italic": false,
+        "color": "white"
+      },
+      {
+        "text": "80%",
+        "italic": false,
+        "color": "yellow"
+      },
+      {
+        "text": "以上の時、",
+        "italic": false,
+        "color": "white"
+      },
+      {
+        "text": "魔法防御力",
+        "italic": false,
+        "color": "dark_purple"
+      },
+      {
+        "text": "を",
+        "italic": false,
+        "color": "white"
+      },
+      {
+        "text": "+20%",
+        "italic": false,
+        "color": "gold"
+      },
+      {
+        "text": "する",
         "italic": false,
         "color": "white"
       }
