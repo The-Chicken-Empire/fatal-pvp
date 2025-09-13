@@ -18,6 +18,8 @@ effect give @a saturation 5 10 true
 execute store result score $daytime main run time query daytime
 #time add 10
 
+#player死亡時のowner追加
+execute as @a[tag=death] run function system:delete
 
 #えんちちの死亡処理
 
