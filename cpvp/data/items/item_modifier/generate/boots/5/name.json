@@ -1,0 +1,10 @@
+{
+  "function": "minecraft:set_name",
+  "name": [
+    {
+      "text": "ジャンパーΣ",
+      "color": "white",
+      "italic": false
+    }
+  ]
+}
