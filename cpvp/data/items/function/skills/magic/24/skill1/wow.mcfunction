@@ -10,11 +10,11 @@ scoreboard players operation @s counter3 = @s counter
 scoreboard players operation @s counter3 *= $100 main
 scoreboard players operation @s counter3 /= @a[tag=cp.owner,limit=1] maxhp
 
-execute if score @s counter3 matches ..65 run tellraw @a[tag=cp.owner,limit=1] [{"text":"<生体補完マシンβ>","color":"dark_purple"},{"text":":","color":"white"},{"text":"身体損傷率","color":"blue"},{"score":{"name":"@s","objective":"counter3"},"color":"gold"},{"text":"%","color":"gold"}]
-execute if score @s counter3 matches ..65 run tellraw @a[tag=cp.owner,limit=1] [{"text":"<生体補完マシンβ>","color":"dark_purple"},{"text":":","color":"white"},{"text":"損傷ヲ復元シマス","color":"blue"}]
+execute if score @s counter3 matches ..65 run tellraw @a[tag=cp.owner,limit=1] [{"text":"<生体補完マシンβ>","color":"dark_purple"},{"text":":","color":"white"},{"text":"身体損傷率","color":"aqua"},{"score":{"name":"@s","objective":"counter3"},"color":"gold"},{"text":"%","color":"gold"}]
+execute if score @s counter3 matches ..65 run tellraw @a[tag=cp.owner,limit=1] [{"text":"<生体補完マシンβ>","color":"dark_purple"},{"text":":","color":"white"},{"text":"損傷ヲ復元シマス","color":"aqua"}]
 
-execute if score @s counter3 matches 66.. run tellraw @a[tag=cp.owner,limit=1] [{"text":"<生体補完マシンβ>","color":"dark_purple"},{"text":":","color":"white"},{"text":"身体損傷率","color":"blue"},{"score":{"name":"@s","objective":"counter3"},"color":"gold"},{"text":"%","color":"gold"}]
-execute if score @s counter3 matches 66.. run tellraw @a[tag=cp.owner,limit=1] [{"text":"<生体補完マシンβ>","color":"dark_purple"},{"text":":","color":"white"},{"text":"モウチョット被弾ヲオサエテクダサイヘタクソ","color":"blue"}]
+execute if score @s counter3 matches 66.. run tellraw @a[tag=cp.owner,limit=1] [{"text":"<生体補完マシンβ>","color":"dark_purple"},{"text":":","color":"white"},{"text":"身体損傷率","color":"aqua"},{"score":{"name":"@s","objective":"counter3"},"color":"red","bold":true},{"text":"%","color":"red","bold":true}]
+execute if score @s counter3 matches 66.. run tellraw @a[tag=cp.owner,limit=1] [{"text":"<生体補完マシンβ>","color":"dark_purple"},{"text":":","color":"white"},{"text":"モウチョット被弾ヲオサエテクダサイヘタクソ","color":"aqua"}]
 
 
 
