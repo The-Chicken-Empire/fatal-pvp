@@ -8,8 +8,8 @@
         "italic": false
       },
       {
-        "text": "ここにability名",
-        "color": "white",
+        "text": "エンドレスインプロージョン",
+        "color": "dark_red",
         "italic": false
       },
       {
@@ -20,21 +20,111 @@
     ],
     [
       {
-        "text": "発動検知",
+        "text": "右クリック",
         "italic": false,
         "color": "yellow"
       }
     ],
     [
       {
-        "text": "cost",
+        "text": "消費MP",
         "italic": false,
-        "color": "white"
+        "color":"blue"
+      },
+      {
+        "text": " : ",
+        "italic": false,
+        "color":"white"
+      },
+      {
+        "text": "15 ",
+        "italic": false,
+        "color":"green"
+      },
+      {
+        "text": "クールタイム",
+        "italic": false,
+        "color":"dark_aqua"
+      },
+      {
+        "text": " : ",
+        "italic": false,
+        "color":"white"
+      },
+      {
+        "text": "15秒",
+        "italic": false,
+        "color":"green"
       }
     ],
     [
       {
-        "text": "内容",
+        "text": "ダメージ",
+        "color": "red",
+        "italic": false
+      },
+      {
+        "text": " : ",
+        "color": "white",
+        "italic": false
+      },
+      {
+        "text": "7.5~",
+        "color": "gold",
+        "italic": false
+      },
+      {
+        "text": " - ",
+        "color": "white",
+        "italic": false
+      },
+      {
+        "text": "物理",
+        "color": "gold",
+        "italic": false
+      },
+      {
+        "text": "/",
+        "color": "white",
+        "italic": false
+      },
+      {
+        "text": "近距離",
+        "color": "red",
+        "italic": false
+      }
+    ],
+    [
+      {
+        "text": "爆散して後方に飛翔する。",
+        "italic": false,
+        "color": "white"
+      }
+    ],
+        [
+      {
+        "text": "その後、2秒の受付時間中に再使用すると、",
+        "italic": false,
+        "color": "white"
+      }
+    ],
+        [
+      {
+        "text": "前方に突撃して着地時に爆散する。",
+        "italic": false,
+        "color": "white"
+      }
+    ],
+        [
+      {
+        "text": "着地後後方に飛翔し、再度再使用の受付時間を得る。",
+        "italic": false,
+        "color": "white"
+      }
+    ],
+        [
+      {
+        "text": "再使用するたびにクールタイムが5秒増える。",
         "italic": false,
         "color": "white"
       }
