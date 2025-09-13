@@ -1,0 +1,175 @@
+{
+  "function": "minecraft:set_lore",
+  "lore": [
+    [
+      {
+        "text": "-- ",
+        "color": "white",
+        "italic": false
+      },
+      {
+        "text": "ただ底に存在する魂幻",
+        "color": "#006321",
+        "italic": false
+      },
+      {
+        "text": " --",
+        "color": "white",
+        "italic": false
+      }
+    ],
+    [
+      {
+        "text": "右クリック",
+        "italic": false,
+        "color": "yellow"
+      }
+    ],
+    [
+      {
+        "text": "消費MP",
+        "italic": false,
+        "color":"blue"
+      },
+      {
+        "text": " : ",
+        "italic": false,
+        "color":"white"
+      },
+      {
+        "text": "20 ",
+        "italic": false,
+        "color":"green"
+      },
+      {
+        "text": "クールタイム",
+        "italic": false,
+        "color":"dark_aqua"
+      },
+      {
+        "text": " : ",
+        "italic": false,
+        "color":"white"
+      },
+      {
+        "text": "16秒",
+        "italic": false,
+        "color":"green"
+      }
+    ],
+    [
+      {
+        "text": "視点先6.5m以内の敵1体に対して、",
+        "italic": false,
+        "color": "white"
+      },
+      {
+        "text": "[水晶呪:lv1]",
+        "italic": false,
+        "color":"#37d7ff"
+      },
+      {
+        "text": "を8秒付与し、追加で",
+        "italic": false,
+        "color": "white"
+      }
+    ],
+    [
+      {
+        "text": "[毒:lv2]",
+        "italic": false,
+        "color": "dark_green"
+      },
+      {
+        "text": "[移動速度低下:lv2]",
+        "italic": false,
+        "color": "dark_aqua"
+      },
+      {
+        "text": "[弱体化:lv2]",
+        "italic": false,
+        "color": "blue"
+      },
+      {
+        "text": "[脆弱:lv1]",
+        "italic": false,
+        "color": "dark_purple"
+      },
+      {
+        "text": "[発光]",
+        "italic": false,
+        "color": "white"
+      }
+    ],
+    [
+      {
+        "text": "[最大MP減少:lv2]",
+        "italic": false,
+        "color": "dark_blue"
+      },
+      {
+        "text": "[回復力低下:lv3]",
+        "italic": false,
+        "color": "dark_purple"
+      },
+      {
+        "text": "[最大体力減少:lv2]",
+        "italic": false,
+        "color": "dark_red"
+      },
+      {
+        "text": "[MP回復力低下:lv2]",
+        "italic": false,
+        "color": "dark_aqua"
+      }
+    ],
+    [
+      {
+        "text": "をそれぞれ",
+        "italic": false,
+        "color": "white"
+      },
+      {
+        "text": "15%",
+        "italic": false,
+        "color":"yellow"
+      },
+      {
+        "text": "の確率で10秒付与する",
+        "italic": false,
+        "color": "white"
+      }
+    ],
+    [
+      {
+        "text": "この魔法は的中する対象が居ない場合発動せず、",
+        "italic": false,
+        "color": "white"
+      },
+      {
+        "text": "MP",
+        "italic": false,
+        "color": "blue"
+      },
+      {
+        "text": "も",
+        "italic": false,
+        "color": "white"
+      },
+      {
+        "text": "CT",
+        "italic": false,
+        "color": "dark_aqua"
+      },
+      {
+        "text": "も使用しない",
+        "italic": false,
+        "color": "white"
+      }
+    ],
+    [
+      ""
+    ]
+  ],
+  "mode": "append"
+}

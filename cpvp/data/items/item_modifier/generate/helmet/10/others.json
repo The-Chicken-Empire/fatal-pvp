@@ -25,6 +25,12 @@
         "minecraft:trim",
         "minecraft:attribute_modifiers"
       ]
-    }
+    },
+    "equippable": {
+      "slot": "head",
+      "swappable": true,
+      "equip_sound": "item.armor.equip_diamond"
+    },
+    "custom_model_data": {"strings": ["helmet10"]}
   }
 }

@@ -7,7 +7,6 @@ execute unless score $check tmp matches 1 run return run scoreboard players set 
 scoreboard players set $check tmp 0
 
 scoreboard players operation $tmp tmp = @s eng
-scoreboard players operation $tmp tmp *= $3 main
-scoreboard players operation $tmp tmp /= $2 main
+execute if score $tmp tmp matches 21.. run scoreboard players set $tmp tmp 20
 scoreboard players operation $damageadd damagecalc += $tmp tmp
 scoreboard players set $tmp tmp 0
