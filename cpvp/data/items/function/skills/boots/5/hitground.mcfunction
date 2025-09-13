@@ -8,7 +8,7 @@ execute if score $tmp2 tmp matches 10.. run playsound entity.generic.explode blo
 
 tag @s add boots5tmp3
 
-execute at @s as @e[distance=..5,tag=playing] at @a[tag=boots5tmp3] positioned ~-5 ~-0.5 ~-5 if entity @s[dx=10,dy=1,dz=10] unless score @s teamscore = @a[tag=boots5tmp3,limit=1] teamscore run function items:skills/boots/5/hit
+execute at @s as @e[distance=..5,tag=playing] at @a[tag=boots5tmp3,limit=1] positioned ~-5 ~-0.5 ~-5 if entity @s[dx=10,dy=1,dz=10] unless score @s teamscore = @a[tag=boots5tmp3,limit=1] teamscore run function items:skills/boots/5/hit
 
 tag @s remove boots5tmp3
 
