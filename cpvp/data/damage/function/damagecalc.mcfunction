@@ -102,7 +102,7 @@ execute as @a[tag=atker] if items entity @s weapon.offhand end_crystal[minecraft
 ##perk19の火力を固定で下げる効果(結構下の方に置いといてね...)
 execute if score @s damagetaken matches 150.. if entity @s[tag=perk19] at @s run function items:skills/perk/19/active
 ##perk8の効果 ダメージ上限5
-execute as @a[tag=atker] if items entity @s hotbar.* *[minecraft:custom_data~{cpvp:{id:8b,item_type:"perk"}}] run function items:skills/perk/8/attacked
+execute as @a[tag=victim] if items entity @s hotbar.* *[minecraft:custom_data~{cpvp:{id:8b,item_type:"perk"}}] run function items:skills/perk/8/attacked
 ##weapon1の効果 ダメージをMP減少に変換
 execute as @a[tag=atker] if items entity @s weapon.mainhand *[minecraft:custom_data~{cpvp:{id:1b,item_type:"weapon"}}] run function items:skills/weapon/1/attack
 
