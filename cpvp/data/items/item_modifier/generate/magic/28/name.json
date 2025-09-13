@@ -1,0 +1,10 @@
+{
+  "function": "minecraft:set_name",
+  "name": [
+    {
+      "text": "ブラッドトリニトロ",
+      "color": "white",
+      "italic": false
+    }
+  ]
+}
