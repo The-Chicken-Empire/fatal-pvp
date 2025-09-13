@@ -24,4 +24,4 @@ item modify block 0 0 0 container.0 items:generate/boots/5/parts
 item modify block 0 0 0 container.0 items:generate/boots/5/flavor
 
 #アトリビュートなどを追加したい場合はコメントをはずしてファイルを作成する
-#item modify block 0 0 0 container.0 items:generate/boots/5/others
+item modify block 0 0 0 container.0 items:generate/boots/5/others
