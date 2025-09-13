@@ -1,0 +1,10 @@
+{
+  "function": "minecraft:set_name",
+  "name": [
+    {
+      "text": "スネアニードル",
+      "color": "white",
+      "italic": false
+    }
+  ]
+}
