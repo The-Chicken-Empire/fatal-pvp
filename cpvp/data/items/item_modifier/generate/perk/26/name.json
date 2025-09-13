@@ -2,8 +2,8 @@
   "function": "minecraft:set_name",
   "name": [
     {
-      "text": "ショベルカー",
-      "color": "white",
+      "text": "ダンプカー",
+      "color": "red",
       "italic": false
     }
   ]

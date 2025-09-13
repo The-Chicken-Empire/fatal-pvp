@@ -8,8 +8,8 @@
         "italic": false
       },
       {
-        "text": "ここにability名",
-        "color": "white",
+        "text": "ロードローラー",
+        "color": "red",
         "italic": false
       },
       {
@@ -20,21 +20,19 @@
     ],
     [
       {
-        "text": "発動検知",
+        "text": "敵討伐時",
         "italic": false,
         "color": "yellow"
       }
     ],
     [
       {
-        "text": "cost",
+        "text": "[攻撃力上昇:lv10]",
         "italic": false,
-        "color": "white"
-      }
-    ],
-    [
+        "color": "red"
+      },
       {
-        "text": "内容",
+        "text": "を8秒間得る",
         "italic": false,
         "color": "white"
       }
