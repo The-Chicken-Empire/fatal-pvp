@@ -13,7 +13,7 @@
         "italic": false
       },
       {
-        "text": "+15",
+        "text": "+20",
         "color": "gold",
         "italic": false
       }
@@ -30,7 +30,7 @@
         "italic": false
       },
       {
-        "text": "+15%",
+        "text": "+20%",
         "color": "gold",
         "italic": false
       }
@@ -47,7 +47,7 @@
         "italic": false
       },
       {
-        "text": "+15%",
+        "text": "+20%",
         "color": "gold",
         "italic": false
       }
@@ -64,13 +64,10 @@
         "italic": false
       },
       {
-        "text": "+15%",
+        "text": "+20%",
         "color": "gold",
         "italic": false
       }
-    ],
-    [
-      ""
     ]
   ],
   "mode": "append"

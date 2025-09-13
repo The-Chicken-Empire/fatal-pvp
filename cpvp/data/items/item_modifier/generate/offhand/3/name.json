@@ -2,8 +2,13 @@
   "function": "minecraft:set_name",
   "name": [
     {
-      "text": "幻想",
-      "color": "white",
+      "text": "幻",
+      "color": "#f2ff39",
+      "italic": false
+    },
+    {
+      "text": "想",
+      "color": "#6f00ff",
       "italic": false
     }
   ]

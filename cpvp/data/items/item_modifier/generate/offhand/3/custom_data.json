@@ -7,10 +7,10 @@
       "item_type": "offhand",
       "offhand": {
         "stats": {
-          "maxmp": 1500,
-          "mr": 15,
-          "ctreduction": 15,
-          "magicdmg": 15
+          "maxmp": 2000,
+          "mr": 20,
+          "ctreduction": 20,
+          "magicdmg": 20
         },
         "triggers": []
       },
