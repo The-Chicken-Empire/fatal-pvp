@@ -24,7 +24,7 @@ execute if score $tmp random matches ..15 run function effects:system/gain/ {id:
 execute if score $tmp random matches ..15 run tellraw @a[tag=magic22tmp,limit=1] [{"text":"発光","color":"white"},{"text":"を付与した！","color":"white"}]
 execute store result score $tmp random run random value 1..150
 execute if score $tmp random matches ..15 run tag @a[tag=magic22tmp] add buffer
-execute if score $tmp random matches ..15 run function effects:system/gain/ {id:35,level:3,duration:200}
+execute if score $tmp random matches ..15 run function effects:system/gain/ {id:35,level:2,duration:200}
 execute if score $tmp random matches ..15 run tellraw @a[tag=magic22tmp,limit=1] [{"text":"回復力低下","color":"dark_purple"},{"text":"を付与した！","color":"white"}]
 execute store result score $tmp random run random value 1..150
 execute if score $tmp random matches ..15 run tag @a[tag=magic22tmp] add buffer
