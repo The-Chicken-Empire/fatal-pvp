@@ -8,8 +8,8 @@
         "italic": false
       },
       {
-        "text": "Warden's Pride",
-        "color": "dark_red",
+        "text": "明日へ墜ちる",
+        "color": "#ff4800",
         "italic": false
       },
       {
@@ -20,59 +20,103 @@
     ],
     [
       {
-        "text": "常時",
+        "text": "スニーク時",
         "italic": false,
-        "color":"yellow"
+        "color": "yellow"
       }
     ],
     [
       {
-        "text": "移動速度が半減する代わりに",
-        "color": "white",
-        "italic": false
+        "text": "消費MP",
+        "italic": false,
+        "color":"blue"
+      },
+      {
+        "text": " : ",
+        "italic": false,
+        "color":"white"
+      },
+      {
+        "text": "12 ",
+        "italic": false,
+        "color":"green"
+      },
+      {
+        "text": "クールタイム",
+        "italic": false,
+        "color":"dark_aqua"
+      },
+      {
+        "text": " : ",
+        "italic": false,
+        "color":"white"
+      },
+      {
+        "text": "10秒",
+        "italic": false,
+        "color":"green"
       }
     ],
     [
-      {
-        "text": "移動速度",
-        "color": "white",
-        "italic": false
-      },
-      {
-        "text": "5%",
-        "color": "gold",
-        "italic": false
-      },
-      {
-        "text": "毎に",
-        "color": "white",
-        "italic": false
-      },
-      {
-        "text": "与える",
-        "color": "white",
-        "italic": false
-      },
       {
         "text": "ダメージ",
         "color": "red",
         "italic": false
       },
       {
-        "text":"が",
+        "text": " : ",
         "color": "white",
         "italic": false
       },
       {
-        "text":"1%",
-        "color": "yellow",
+        "text": "0~20",
+        "color": "gold",
         "italic": false
       },
       {
-        "text":"増加する",
+        "text": " - ",
         "color": "white",
+        "italic": false
+      },
+      {
+        "text": "物理",
+        "color": "gold",
+        "italic": false
+      },
+      {
+        "text": "/",
+        "color": "white",
+        "italic": false
+      },
+      {
+        "text": "近距離",
+        "color": "red",
         "italic": false
       }
+    ],
+    [
+      {
+        "text": "上に飛び上がった後、勢い良く落下する",
+        "italic": false,
+        "color": "white"
+      }
+    ],
+    [
+      {
+        "text": "着地時周囲に居る敵にダメージを与える",
+        "italic": false,
+        "color": "white"
+      }
+    ],
+    [
+      {
+        "text": "ダメージは落下時間に比例して上昇する",
+        "italic": false,
+        "color": "white"
+      }
+    ],
+    [
+      ""
     ]
   ],
   "mode": "append"

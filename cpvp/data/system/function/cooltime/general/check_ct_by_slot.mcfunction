@@ -9,6 +9,7 @@
 
 # スロット番号を取ってくるデータに変換
 $data modify storage cpvp:system tmp.path set from storage cpvp:system slotnum_to_datapath.$(slot)
+data remove storage cpvp: ctcheck
 
 # 指定したスロットのデータをストレージに入れてくる
 function system:cooltime/general/helper/check_ct_by_slot with storage cpvp:system tmp

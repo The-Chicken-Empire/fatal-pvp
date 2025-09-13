@@ -5,3 +5,4 @@ execute if score $tmp random matches 3 run tellraw @a [{italic:false,selector:"@
 execute if score $tmp random matches 4 run tellraw @a [{italic:false,selector:"@s"},{color:"white",italic:false,text:"は"},{italic:false,selector:"@a[tag=tmpkiller,limit=1]"},{color:"white",italic:false,text:"によって東京湾の一部になった"}]
 execute if score $tmp random matches 5 run tellraw @a [{italic:false,selector:"@s"},{color:"white",italic:false,text:"は"},{italic:false,selector:"@a[tag=tmpkiller,limit=1]"},{color:"white",italic:false,text:"から逃れられなかった"}]
 scoreboard players reset $tmp random
+tag @a remove tmpkiller

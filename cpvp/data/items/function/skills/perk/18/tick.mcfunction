@@ -1,0 +1,1 @@
+execute if score @s perk18 matches ..599 run scoreboard players add @s perk18 1

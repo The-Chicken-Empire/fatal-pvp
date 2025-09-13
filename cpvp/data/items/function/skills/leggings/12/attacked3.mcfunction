@@ -1,3 +1,4 @@
+execute unless entity @s[tag=magicdamagetmp] run return fail
 data modify storage cpvp:system unfail set value {unfail:1b}
 data modify storage cpvp:system skillslot set value {slot:"leggings"}
 execute store result score $check main run function items:skills/allcheck

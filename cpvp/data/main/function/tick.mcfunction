@@ -18,16 +18,22 @@ effect give @a saturation 5 10 true
 execute store result score $daytime main run time query daytime
 #time add 10
 
+#player死亡時のowner追加
+execute as @a[tag=death] run function system:delete
 
 #えんちちの死亡処理
 
 
-execute as @e[tag=playing] if entity @s[type=!player] if score @s hp matches ..0 at @s run function damage:entity_death
+execute as @e[tag=entity_death] at @s run function damage:entity_death
 
 #tick始めdamage処理
 execute if entity @a[scores={damageresist=1..},tag=!meleevictimtmp2] as @a[scores={damageresist=1..},tag=!meleevictimtmp2] run function damage:naturaldamage
 execute if entity @a[scores={damageresist=1..},tag=meleevictimtmp2] as @a[scores={damageresist=1..},tag=meleevictimtmp2] run function system:melee/getattacker
 tag @e remove meleeatkertmp2
+#えんちちの死亡処理
+
+
+execute as @e[tag=entity_death] at @s run function damage:entity_death
 #bullet
 execute if entity @e[tag=bullet] as @e[tag=bullet] at @s run function items:skills/bullet/bullettick
 
@@ -101,3 +107,7 @@ item replace entity @a player.crafting.0 with air 1
 item replace entity @a player.crafting.1 with air 1
 item replace entity @a player.crafting.2 with air 1
 item replace entity @a player.crafting.3 with air 1
+
+
+#reset系
+advancement revoke @a[advancements={system:projectile=true}] only system:projectile

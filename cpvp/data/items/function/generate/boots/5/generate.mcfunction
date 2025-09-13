@@ -1,6 +1,6 @@
-#> items:generate/helmet/1/generate
+#> items:generate/boots/5/generate
 #
-# アイテム名 : Warden Helmet
+# アイテム名 : ジャンパーΣ
 # 0 0 0のブロックのcontainer.0に生成します
 # 
 # @within items:*
@@ -17,12 +17,10 @@ item modify block 0 0 0 container.0 items:generate/boots/5/cost
 
 item modify block 0 0 0 container.0 items:generate/boots/5/stats
 
-#abilityがある時はここにコメントを外してファイルをいじる(消して作ったほうが早いかも。その場合は最初の一行を空ける。)
-#item modify block 0 0 0 container.0 items:generate/boots/5/ability
+item modify block 0 0 0 container.0 items:generate/boots/5/ability
 
 item modify block 0 0 0 container.0 items:generate/boots/5/parts
 
-#フレーバー無ければコメントをつけるなりなんなり
 item modify block 0 0 0 container.0 items:generate/boots/5/flavor
 
 #アトリビュートなどを追加したい場合はコメントをはずしてファイルを作成する

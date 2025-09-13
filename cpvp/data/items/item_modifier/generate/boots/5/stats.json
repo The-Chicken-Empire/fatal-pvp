@@ -3,7 +3,7 @@
   "lore": [
     [
       {
-        "text": "最大HP",
+        "text": "近距離防御力",
         "color": "red",
         "italic": false
       },
@@ -13,14 +13,14 @@
         "italic": false
       },
       {
-        "text": "+3",
+        "text": "+8%",
         "color": "gold",
         "italic": false
       }
     ],
     [
       {
-        "text": "最大MP",
+        "text": "遠距離防御力",
         "color": "blue",
         "italic": false
       },
@@ -30,109 +30,7 @@
         "italic": false
       },
       {
-        "text": "+3",
-        "color": "gold",
-        "italic": false
-      }
-    ],
-    [
-      {
-        "text": "移動速度",
-        "color": "white",
-        "italic": false
-      },
-      {
-        "text": " : ",
-        "color": "white",
-        "italic": false
-      },
-      {
-        "text": "+3%",
-        "color": "gold",
-        "italic": false
-      }
-    ],
-    [
-      {
-        "text": "回復力",
-        "color": "light_purple",
-        "italic": false
-      },
-      {
-        "text": " : ",
-        "color": "white",
-        "italic": false
-      },
-      {
-        "text": "+3%",
-        "color": "gold",
-        "italic": false
-      }
-    ],
-    [
-      {
-        "text": "会心率",
-        "color": "yellow",
-        "italic": false
-      },
-      {
-        "text": " : ",
-        "color": "white",
-        "italic": false
-      },
-      {
-        "text": "+3%",
-        "color": "gold",
-        "italic": false
-      }
-    ],
-    [
-      {
-        "text": "攻撃力",
-        "color": "dark_red",
-        "italic": false
-      },
-      {
-        "text": " : ",
-        "color": "white",
-        "italic": false
-      },
-      {
-        "text": "+3%",
-        "color": "gold",
-        "italic": false
-      }
-    ],
-    [
-      {
-        "text": "防御力",
-        "color": "dark_blue",
-        "italic": false
-      },
-      {
-        "text": " : ",
-        "color": "white",
-        "italic": false
-      },
-      {
-        "text": "+3%",
-        "color": "gold",
-        "italic": false
-      }
-    ],
-    [
-      {
-        "text": "回避力",
-        "color": "white",
-        "italic": false
-      },
-      {
-        "text": " : ",
-        "color": "white",
-        "italic": false
-      },
-      {
-        "text": "+3%",
+        "text": "+4%",
         "color": "gold",
         "italic": false
       }

@@ -7,32 +7,22 @@
         "id": "minecraft:boots",
         "amount": 0,
         "operation": "add_value",
-        "slot": "feet"
-      },
-      {
-        "type": "knockback_resistance",
-        "id": "minecraft:boots",
-        "amount": 0,
-        "operation": "add_value",
-        "slot": "feet"
-      },
-      {
-        "type": "armor_toughness",
-        "id": "minecraft:boots",
-        "amount": 0,
-        "operation": "add_value",
-        "slot": "feet"
+        "slot": "legs"
       }
     ],
     "minecraft:unbreakable": {},
     "minecraft:tooltip_display": {
       "hidden_components": [
         "minecraft:unbreakable",
-        "minecraft:dyed_color",
         "minecraft:trim",
-        "minecraft:attribute_modifiers"
+        "minecraft:attribute_modifiers",
+        "dyed_color"
       ]
     },
-    "minecraft:dyed_color":15883544
+    "minecraft:dyed_color": 16728128 ,
+    "trim": {
+      "pattern": "coast",
+      "material": "gold"
+    }
   }
 }

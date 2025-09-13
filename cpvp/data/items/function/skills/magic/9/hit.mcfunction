@@ -7,7 +7,7 @@ tag @s add magicdamage
 tag @s add rangedamage
 scoreboard players operation $tmp tmp = @a[tag=magic9tmp4,limit=1] hp
 scoreboard players operation $tmp tmp += @a[tag=magic9tmp4,limit=1] absorption
-scoreboard players operation $tmp tmp /= $3 main
+scoreboard players operation $tmp tmp /= $5 main
 scoreboard players operation @s damagetaken = $tmp tmp
 scoreboard players operation @s attackerdata = @a[tag=magic9tmp4,limit=1] playerdata
 tag @a remove magic9tmp4

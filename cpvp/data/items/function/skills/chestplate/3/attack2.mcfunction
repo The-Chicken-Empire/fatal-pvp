@@ -6,7 +6,7 @@ scoreboard players reset $tmp random
 tag @s add cp3tmp2
 
 execute as @e[tag=victim] at @s summon item_display run function items:skills/chestplate/3/summonitemdisplay
-execute at @s run playsound entity.blaze.hurt hostile @s ~ ~ ~ 1 1 1
+execute at @s run playsound entity.blaze.hurt hostile @s ~ ~ ~ 0.7 1 0.7
 execute as @a[tag=victim] run playsound block.portal.travel block @s ~ ~ ~ 0.8 2 0.8
 
 tag @s remove cp3tmp2

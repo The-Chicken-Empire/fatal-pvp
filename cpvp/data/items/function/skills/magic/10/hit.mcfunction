@@ -26,6 +26,8 @@ scoreboard players operation $mr main = $tmp3 tmp
 execute as @a if score @s playerdata = @e[tag=magic10tmp,limit=1] owner run function api:mr/
 scoreboard players reset $tmp2 tmp
 scoreboard players reset $tmp3 tmp
+scoreboard players remove @s mp 500
+execute if score @s mp matches ..0 run scoreboard players set @s mp 0
 
 function damage:atkercheck
 

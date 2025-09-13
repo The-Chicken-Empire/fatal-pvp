@@ -1,0 +1,10 @@
+{
+  "function": "minecraft:set_name",
+  "name": [
+    {
+      "text": "願いが込められた魔法石",
+      "color": "#91bdff",
+      "italic": false
+    }
+  ]
+}

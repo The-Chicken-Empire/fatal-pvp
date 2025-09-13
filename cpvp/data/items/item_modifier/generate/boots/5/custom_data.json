@@ -2,20 +2,16 @@
   "function": "minecraft:set_custom_data",
   "tag": {
     "cpvp": {
+      "cost": 4,
       "id": 5,
       "item_type": "boots",
       "boots": {
         "stats": {
-          "maxhp": 30,
-          "maxmp": 300,
-          "speed": 3,
-          "vit": 3,
-          "cc": 3,
-          "damage": 3,
-          "defence": 3,
-          "agi": 3
+          "meleedef": 8,
+          "rangedef": 4
         },
         "triggers": [
+          "tick"
         ]
       },
       "regularitem": 1,

@@ -2,8 +2,8 @@
   "function": "minecraft:set_name",
   "name": [
     {
-      "text": "名誉ない上龍脚",
-      "color": "gold",
+      "text": "ジャンパーΣ",
+      "color": "#ff9100",
       "italic": false
     }
   ]

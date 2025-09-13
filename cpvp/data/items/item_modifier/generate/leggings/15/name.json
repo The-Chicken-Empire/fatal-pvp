@@ -1,0 +1,10 @@
+{
+  "function": "minecraft:set_name",
+  "name": [
+    {
+      "text": "白妙の羽衣",
+      "color": "white",
+      "italic": false
+    }
+  ]
+}

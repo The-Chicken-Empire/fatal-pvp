@@ -1,15 +1,14 @@
 #殺した人取り出し
-execute if entity @a[tag=atker,limit=1] as @a[tag=atker,limit=1] run function system:kill
+#execute if entity @a[tag=atker,limit=1] as @a[tag=atker,limit=1] run function system:kill
 #関連mob消去
-execute as @e if score @s owner = @a[tag=victim,limit=1] playerdata on passengers run kill @s
-execute as @e if score @s owner = @a[tag=victim,limit=1] playerdata run kill @s
+tag @s add death
+
 #関節キル取り出し
 tag @s add tmpdied
 execute if score @s attacker matches 0.. as @a if score @s playerdata = @a[tag=tmpdied,limit=1] attacker run function system:kill
 
 #killlog
-execute store result storage cpvp:tmp tmp byte 1 run scoreboard players get @s playerdata
-function system:killlog/check1 with storage cpvp:tmp
+function system:killlog/check1
 
 scoreboard players set @s afterdamage -1
 scoreboard players set @s attacker -1

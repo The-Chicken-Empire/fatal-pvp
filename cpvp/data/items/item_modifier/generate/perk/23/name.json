@@ -1,0 +1,15 @@
+{
+  "function": "minecraft:set_name",
+  "name": [
+    {
+      "text": "Fatal ",
+      "color": "#a70000",
+      "italic": false
+    },
+    {
+      "text": "blow",
+      "color": "#6b0000",
+      "italic": false
+    }
+  ]
+}
