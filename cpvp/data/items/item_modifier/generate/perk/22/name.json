@@ -1,0 +1,10 @@
+{
+  "function": "minecraft:set_name",
+  "name": [
+    {
+      "text": "マナドライブ",
+      "color": "#0053a0",
+      "italic": false
+    }
+  ]
+}

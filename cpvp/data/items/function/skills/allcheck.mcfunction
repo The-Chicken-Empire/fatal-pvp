@@ -17,7 +17,6 @@ execute if data storage cpvp:system skillslot{slot:"perk"} store result score $c
 execute unless score $check tmp matches 1 run function system:cooltime/general/ct_fail
 data remove storage cpvp:system skillslot
 execute unless score $check tmp matches 1 run return 0
-execute if data storage cpvp:system unfail run return run data remove storage cpvp:system unfail
 scoreboard players reset $check tmp
 #durability
 execute if data storage durabilitycheck trigger store result score $check main run function items:skills/item/durabilitycheck with storage durabilitycheck
@@ -43,4 +42,5 @@ execute unless score $check tmp matches 1 run function system:skillcostcheck/eng
 execute unless score $check tmp matches 1 run return 0
 scoreboard players reset $check tmp
 #終わり
+execute if data storage cpvp:system unfail run data remove storage cpvp:system unfail
 return 1
