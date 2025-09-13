@@ -15,6 +15,7 @@ execute if entity @s[type=!player,tag=!meleeentity] run data modify entity @s He
 execute if entity @s[type=!player,tag=!meleeentity] run damage @s 1 cactus
 execute if entity @s[type=!player,tag=!meleeentity] store result entity @s Health float 1 run scoreboard players get @s tmp
 execute if entity @s[type=player,tag=!meleevictim] if entity @s[tag=!nodamagehop] run damage @s 0.00000001 magic
+tag @s remove nodamagehop
 scoreboard players reset @s tmp
 tag @s remove meleeentity
 #この辺りに死亡回避処理とか
