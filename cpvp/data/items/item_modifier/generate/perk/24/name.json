@@ -1,0 +1,10 @@
+{
+  "function": "minecraft:set_name",
+  "name": [
+    {
+      "text": "環境適応能力",
+      "color": "white",
+      "italic": false
+    }
+  ]
+}
