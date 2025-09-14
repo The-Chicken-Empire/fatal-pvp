@@ -8,8 +8,8 @@
         "italic": false
       },
       {
-        "text": "ここにability名",
-        "color": "white",
+        "text": "学習",
+        "color": "#889700",
         "italic": false
       },
       {
@@ -20,21 +20,77 @@
     ],
     [
       {
-        "text": "発動検知",
+        "text": "被攻撃時",
         "italic": false,
         "color": "yellow"
       }
     ],
     [
       {
-        "text": "cost",
+        "text": "クールタイム",
+        "italic": false,
+        "color":"dark_aqua"
+      },
+      {
+        "text": " : ",
+        "italic": false,
+        "color":"white"
+      },
+      {
+        "text": "2秒",
+        "italic": false,
+        "color":"green"
+      }
+    ],
+    [
+      {
+        "text": "受けたダメージに対応する属性/種類の",
+        "italic": false,
+        "color": "white"
+      },
+      {
+        "text": "防御力",
+        "italic": false,
+        "color": "dark_blue"
+      },
+      {
+        "text": "が",
         "italic": false,
         "color": "white"
       }
     ],
     [
       {
-        "text": "内容",
+        "text": "1%",
+        "italic": false,
+        "color": "yellow"
+      },
+      {
+        "text": "上昇する(",
+        "italic": false,
+        "color": "white"
+      }
+      ,
+      {
+        "text": "特殊",
+        "italic": false,
+        "color": "aqua"
+      }
+      ,
+      {
+        "text": "/",
+        "italic": false,
+        "color": "white"
+      }
+      ,
+      {
+        "text": "固定",
+        "italic": false,
+        "color": "gray"
+      }
+      ,
+      {
+        "text": "ダメージを除く)(最大30%)",
         "italic": false,
         "color": "white"
       }

@@ -252,6 +252,10 @@ scoreboard objectives add offhand7-2 dummy
 scoreboard objectives add perk18 dummy
 scoreboard players set @a perk18 0
 scoreboard players set $perk20 main 0
+scoreboard objectives add perk24melee dummy
+scoreboard objectives add perk24range dummy
+scoreboard objectives add perk24magic dummy
+scoreboard objectives add perk24physical dummy
 
 
 #buff用
