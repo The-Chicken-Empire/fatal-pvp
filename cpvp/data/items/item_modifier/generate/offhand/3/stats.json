@@ -68,7 +68,8 @@
         "color": "gold",
         "italic": false
       }
-    ]
+    ],
+    [{"text":""}]
   ],
   "mode": "append"
 }
