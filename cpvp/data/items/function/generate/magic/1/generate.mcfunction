@@ -1,6 +1,6 @@
 #> items:generate/magic/1/generate
 #
-# アイテム名 : スプラッシュボム
+# アイテム名 : 天罰
 # 0 0 0のブロックのcontainer.0に生成します
 # 
 # @within items:*
@@ -16,6 +16,10 @@ item modify block 0 0 0 container.0 items:generate/magic/1/custom_data
 item modify block 0 0 0 container.0 items:generate/magic/1/cost
 
 item modify block 0 0 0 container.0 items:generate/magic/1/stats
+
+item modify block 0 0 0 container.0 items:generate/magic/1/ability
+
+item modify block 0 0 0 container.0 items:generate/magic/1/parts
 
 item modify block 0 0 0 container.0 items:generate/magic/1/flavor
 
