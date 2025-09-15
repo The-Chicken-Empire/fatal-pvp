@@ -1,0 +1,10 @@
+{
+  "function": "minecraft:set_name",
+  "name": [
+    {
+      "text": "乱数信者",
+      "color": "white",
+      "italic": false
+    }
+  ]
+}
