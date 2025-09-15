@@ -1,6 +1,7 @@
 #最大mp1/200を回復
-scoreboard players operation $dummy mr = @s maxmp
-scoreboard players operation $dummy mr /= $200 main
+#scoreboard players set $dummy mr 100
+scoreboard players operation $dummy mr = @s mr
+
 scoreboard players operation @s mp += $dummy mr
 #mpが最大値を超えないようにする
 execute if score @s mp > @s maxmp run scoreboard players operation @s mp = @s maxmp

@@ -1,0 +1,1 @@
+execute if entity @s[tag=magicdamagetmp] run function items:skills/perk/18/reset

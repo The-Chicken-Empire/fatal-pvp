@@ -1,6 +1,6 @@
 tag @s add magic15tmp3
 
-execute unless entity @a[distance=..4,tag=magic15tmp4] at @s run tp @s ^ ^ ^2
+execute unless entity @a[distance=..4,tag=magic15tmp4] at @s run tp @s ^ ^ ^2.5
 
 
 tag @a remove magic15tmp4

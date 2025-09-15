@@ -2,7 +2,7 @@ tag @s add magic10tmp
 
 execute at @s run tp @s ~ ~ ~ ~10 ~
 
-execute if score @s skills matches 2 run data merge entity @s {transformation:{scale:[10f,10f,10f]},start_interpolation:0}
+execute if score @s skills matches 2 run data merge entity @s {transformation:{scale:[10f,10f,3f]},start_interpolation:0}
 execute if score @s skills matches 9..14 at @s positioned ~-5 ~-1 ~-5 as @a[dx=10,dy=1,dz=10] positioned ~ ~0.5 ~ if entity @s[dx=10,dy=1,dz=10] positioned ~5 ~0.5 ~5 if entity @s[distance=..1] unless score @s teamscore = @e[tag=magic10tmp,limit=1,tag=!magic10player] ownerteam run function items:skills/magic/10/hit
 execute if score @s skills matches 9..14 at @s positioned ~-5 ~-1 ~-5 as @e[type=#main:non_player,tag=entity,dx=10,dy=1,dz=10] positioned ~ ~0.5 ~ if entity @s[dx=10,dy=1,dz=10] positioned ~5 ~0.5 ~5 if entity @s[distance=..1] unless score @s teamscore = @e[tag=magic10tmp,limit=1,tag=!magic10player] ownerteam run function items:skills/magic/10/hit
 execute if score @s skills matches 15..20 at @s positioned ~-5 ~-1 ~-5 as @a[dx=10,dy=1,dz=10] positioned ~ ~0.5 ~ if entity @s[dx=10,dy=1,dz=10] positioned ~5 ~0.5 ~5 if entity @s[distance=..2] unless score @s teamscore = @e[tag=magic10tmp,limit=1,tag=!magic10player] ownerteam run function items:skills/magic/10/hit

@@ -1,0 +1,21 @@
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "equipment": {
+      "legs": {
+        "predicates": {
+          "minecraft:custom_data": {
+            "cpvp": {
+              "leggings": {
+                "triggers":[
+                  "gamestart"
+                ]
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
