@@ -39,10 +39,10 @@
       {
         "text": "1d100",
         "italic": false,
-        "color": "yellow"
+        "color": "gold"
       },
       {
-        "text": "に設定する",
+        "text": "にする",
         "italic": false,
         "color": "white"
       }
