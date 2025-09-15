@@ -5,7 +5,7 @@ execute if data storage cpvp:triggers/right_click {slot:"mainhand"} store result
 
 tag @s add magic3
 scoreboard players reset $tmp tmp
-execute as @e[distance=..10] unless score @s teamscore = @a[tag=magic3,limit=1] teamscore run scoreboard players add $tmp tmp 1
+execute as @e[distance=..25] unless score @s teamscore = @a[tag=magic3,limit=1] teamscore run scoreboard players add $tmp tmp 1
 
 #起動/失敗
 execute if score $check main matches 1 if score $tmp tmp matches 1.. run function items:skills/magic/3/active
