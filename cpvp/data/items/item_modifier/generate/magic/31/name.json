@@ -2,8 +2,8 @@
   "function": "minecraft:set_name",
   "name": [
     {
-      "text": "Tay",
-      "color": "white",
+      "text": "T-Ray",
+      "color": "gold",
       "italic": false
     }
   ]
