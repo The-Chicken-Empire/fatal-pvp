@@ -1,10 +1,10 @@
 scoreboard players operation @s mp -= @s mpcost
-scoreboard players set $ct main 300
+scoreboard players set $ct main 480
 function api:ct/mainhand
-
+execute at @s run function items:skills/magic/28/skill2/down/particle
 execute at @s run tp @s @s
 execute at @s run tp @s ~ ~0.0001 ~
-function api:motion/rotation_usiro {power:12}
+function api:motion/rotation_usiro {power:13}
 
 tag @s add cp.owner
 execute summon marker run function items:skills/magic/28/skill1/summon
