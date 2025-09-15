@@ -6,9 +6,7 @@
       "id": 27,
       "item_type": "perk",
       "hotbar": {
-        "triggers": [
-          "attacked2"
-        ]
+        "triggers": []
       },
       "regularitem": 1,
       "classitem": 0
