@@ -46,6 +46,14 @@
         "italic": false,
         "color":"white"
       }
+    ],
+    [
+      {
+        "text": "この効果はインベントリ内に存在するだけで発動する",
+        "italic": false,
+        "color":"yellow",
+        "bold": true
+      }
     ]
   ],
   "mode": "append"
