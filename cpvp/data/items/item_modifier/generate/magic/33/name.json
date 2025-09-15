@@ -1,0 +1,10 @@
+{
+  "function": "minecraft:set_name",
+  "name": [
+    {
+      "text": "お人形",
+      "color": "white",
+      "italic": false
+    }
+  ]
+}
