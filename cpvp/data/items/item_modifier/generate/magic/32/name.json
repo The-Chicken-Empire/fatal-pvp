@@ -1,0 +1,10 @@
+{
+  "function": "minecraft:set_name",
+  "name": [
+    {
+      "text": "雷光刹火",
+      "color": "white",
+      "italic": false
+    }
+  ]
+}
