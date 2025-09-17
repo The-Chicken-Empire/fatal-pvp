@@ -1,1 +1,0 @@
-scoreboard players operation @s maxmp *= $0 main

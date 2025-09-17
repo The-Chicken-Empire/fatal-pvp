@@ -108,7 +108,7 @@
         "color": "dark_blue"
       },
       {
-        "text": "[回復力低下:lv3]",
+        "text": "[回復力低下:lv2]",
         "italic": false,
         "color": "dark_purple"
       },
@@ -130,7 +130,7 @@
         "color": "white"
       },
       {
-        "text": "15%",
+        "text": "20%",
         "italic": false,
         "color":"yellow"
       },

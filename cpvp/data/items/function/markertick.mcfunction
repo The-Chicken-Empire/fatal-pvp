@@ -1,6 +1,9 @@
 ##magic
 #1
-#execute if entity @s[tag=magic1] run function items:skills/magic/1/markertick
+execute if entity @s[tag=magic1] run function items:skills/magic/1/markertick
+execute if entity @s[tag=magic1-2] run function items:skills/magic/1/markertick2
+execute if entity @s[tag=magic1-3] run function items:skills/magic/1/markertick3
+execute if entity @s[tag=magic1ct] run function items:skills/magic/1/markertick4
 #5
 execute if entity @s[tag=magic5] run function items:skills/magic/5/markertick
 #9
