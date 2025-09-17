@@ -2,8 +2,13 @@
   "function": "minecraft:set_name",
   "name": [
     {
-      "text": "雷光刹火",
-      "color": "white",
+      "text": "雷光",
+      "color": "yellow",
+      "italic": false
+    },
+    {
+      "text": "刹火",
+      "color": "red",
       "italic": false
     }
   ]

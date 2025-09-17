@@ -12,6 +12,56 @@ scoreboard objectives add deathsentence dummy
 #system
 gamerule doWeatherCycle false
 gamerule naturalRegeneration false
+gamerule doMobSpawning false
+gamerule disableRaids true
+gamerule doMobLoot false
+gamerule doTileDrops false
+gamerule allowFireTicksAwayFromPlayer false
+gamerule blockExplosionDropDecay false
+gamerule commandBlockOutput false
+gamerule commandModificationBlockLimit 1000000000
+gamerule disableElytraMovementCheck true
+gamerule disablePlayerMovementCheck true
+gamerule doDaylightCycle false
+gamerule doFireTick false
+gamerule doImmediateRespawn true
+gamerule doInsomnia false
+gamerule doLimitedCrafting false
+gamerule doPatrolSpawning false
+gamerule doTraderSpawning false
+gamerule doVinesSpread false
+gamerule doWardenSpawning false
+gamerule drowningDamage true
+gamerule enderPearlsVanishOnDeath true
+gamerule fallDamage true
+gamerule fireDamage false 
+gamerule forgiveDeadPlayers false
+gamerule freezeDamage true
+gamerule globalSoundEvents false
+gamerule keepInventory true
+gamerule lavaSourceConversion false
+#gamerule logAdminCommands true
+#gamerule maxCommandChainLength 1000000000
+#gamerule maxCommandForkCount 1000000000
+gamerule maxEntityCramming 30
+gamerule mobExplosionDropDecay false
+gamerule mobGriefing false
+gamerule playersNetherPortalCreativeDelay 100
+gamerule playersNetherPortalDefaultDelay 100
+gamerule playersSleepingPercentage 1
+gamerule projectilesCanBreakBlocks false
+gamerule randomTickSpeed 3
+gamerule reducedDebugInfo false
+gamerule sendCommandFeedback false
+gamerule showDeathMessages false
+gamerule snowAccumulationHeight 8
+gamerule spawnChunkRadius 32
+gamerule spectatorsGenerateChunks true
+gamerule tntExplodes false
+gamerule tntExplosionDropDecay false
+gamerule universalAnger false
+gamerule waterSourceConversion false
+
 scoreboard objectives add entitydata dummy
 execute unless score $base entitydata matches -2147483648..2147483647 run scoreboard players set $base entitydata 1
 scoreboard objectives add tmp dummy
