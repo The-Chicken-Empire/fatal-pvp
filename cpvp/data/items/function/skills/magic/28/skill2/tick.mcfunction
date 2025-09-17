@@ -1,0 +1,2 @@
+execute if score @s counter matches 0 at @s run return run function items:skills/magic/28/skill2/up/tick
+execute if score @s counter matches 1 at @s run return run function items:skills/magic/28/skill2/down/tick

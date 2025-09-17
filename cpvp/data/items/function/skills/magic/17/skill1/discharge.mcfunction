@@ -19,12 +19,10 @@ tag @s remove cp.this
 
 
 
-function effects:system/pick/ {id:23}
-execute store result score #counter counter run data get storage effect: targeteffect.level
 
 
-execute if score #counter counter matches ..30 run scoreboard players set $ct main 60
-execute if score #counter counter matches 31.. run scoreboard players set $ct main 120
+
+scoreboard players set $ct main 120
 
 function api:ct/mainhand
 

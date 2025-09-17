@@ -88,7 +88,8 @@ scoreboard players set @a using 0
 execute if entity @e[tag=skillmarker,limit=1] as @e[tag=skillmarker] run scoreboard players add @s skills 1
 # スキルmarker用tickファイル
 execute if entity @e[tag=skillmarker,limit=1] as @e[tag=skillmarker] at @s run function items:markertick
-
+# スキルtick
+function items:skills/tick
 
 #actionbar
 execute as @a run function system:actionbar/
