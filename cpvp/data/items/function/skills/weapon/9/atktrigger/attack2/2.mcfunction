@@ -1,1 +1,1 @@
-function effects:system/modify/ {id:23,duration:-1,level:1}
+execute if score @e[tag=victim,limit=1] absorption matches 1.. run scoreboard players operation @e[tag=victim,limit=1] damagetaken *= $2 main

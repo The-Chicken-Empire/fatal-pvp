@@ -1,1 +1,0 @@
-function effects:system/modify/ {id:23,duration:-1,level:1}
