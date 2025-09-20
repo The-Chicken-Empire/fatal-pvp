@@ -1,4 +1,4 @@
-execute at @s positioned ~-0.5 ~ ~-0.5 as @e[tag=playing,dx=1,dy=2,dz=1] unless score @s teamscore = @e[tag=weapon6tmp7,limit=1] teamscore run tag @s add weapon6victim2
+execute at @s positioned ~-0.5 ~ ~-0.5 as @e[tag=playing,dx=0,dy=1,dz=0] unless score @s teamscore = @e[tag=weapon6tmp7,limit=1] teamscore run tag @s add weapon6victim2
 scoreboard players remove @s counting 1
 execute at @s anchored feet positioned ^ ^ ^0.1 unless block ~ ~ ~ #main:air run scoreboard players set @s counting 0
 execute at @s run particle dust{color:7667712,scale:1} ~ ~ ~ 0.2 0.2 0.2 0 1 normal

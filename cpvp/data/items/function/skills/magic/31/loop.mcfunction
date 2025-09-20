@@ -1,5 +1,5 @@
 
-execute at @s positioned ~-0.01 ~-0.01 ~-0.01 as @e[tag=playing,dx=1,dy=1,dz=1] positioned ~-0.98 ~-0.98 ~-0.98 if entity @s[dx=1,dy=1,dz=1] unless score @s teamscore = @a[tag=magic31tmp,limit=1] teamscore run tag @s add magic31victimtmp
+execute at @s positioned ~-0.01 ~-0.01 ~-0.01 as @e[tag=playing,dx=0] positioned ~-0.98 ~-0.98 ~-0.98 if entity @s[dx=0] unless score @s teamscore = @a[tag=magic31tmp,limit=1] teamscore run tag @s add magic31victimtmp
 execute at @s unless block ~ ~ ~ #main:air run scoreboard players set @s counting 0
 execute at @s unless block ~ ~ ~ #main:air run scoreboard players set @s counting2 0
 scoreboard players remove @s counting 1

@@ -52,7 +52,7 @@ gamerule playersSleepingPercentage 1
 gamerule projectilesCanBreakBlocks false
 gamerule randomTickSpeed 3
 gamerule reducedDebugInfo false
-gamerule sendCommandFeedback false
+gamerule sendCommandFeedback true
 gamerule showDeathMessages false
 gamerule snowAccumulationHeight 8
 gamerule spawnChunkRadius 32
