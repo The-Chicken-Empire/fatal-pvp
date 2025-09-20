@@ -1,0 +1,137 @@
+{
+  "function": "minecraft:set_lore",
+  "lore": [
+    [
+      {
+        "text": "-- ",
+        "color": "white",
+        "italic": false
+      },
+      {
+        "text": "エンドレスインプロージョン",
+        "color": "dark_red",
+        "italic": false
+      },
+      {
+        "text": " --",
+        "color": "white",
+        "italic": false
+      }
+    ],
+    [
+      {
+        "text": "右クリック",
+        "italic": false,
+        "color": "yellow"
+      }
+    ],
+    [
+      {
+        "text": "消費MP",
+        "italic": false,
+        "color":"blue"
+      },
+      {
+        "text": " : ",
+        "italic": false,
+        "color":"white"
+      },
+      {
+        "text": "30 ",
+        "italic": false,
+        "color":"green"
+      },
+      {
+        "text": "クールタイム",
+        "italic": false,
+        "color":"dark_aqua"
+      },
+      {
+        "text": " : ",
+        "italic": false,
+        "color":"white"
+      },
+      {
+        "text": "24秒",
+        "italic": false,
+        "color":"green"
+      }
+    ],
+    [
+      {
+        "text": "ダメージ",
+        "color": "red",
+        "italic": false
+      },
+      {
+        "text": " : ",
+        "color": "white",
+        "italic": false
+      },
+      {
+        "text": "7.5+",
+        "color": "gold",
+        "italic": false
+      },
+      {
+        "text": " - ",
+        "color": "white",
+        "italic": false
+      },
+      {
+        "text": "物理",
+        "color": "gold",
+        "italic": false
+      },
+      {
+        "text": "/",
+        "color": "white",
+        "italic": false
+      },
+      {
+        "text": "近距離",
+        "color": "red",
+        "italic": false
+      }
+    ],
+    [
+      {
+        "text": "爆散して後方に飛翔する。",
+        "italic": false,
+        "color": "white"
+      }
+    ],
+        [
+      {
+        "text": "その1秒後、1秒間の受付時間中に再使用すると、",
+        "italic": false,
+        "color": "white"
+      }
+    ],
+        [
+      {
+        "text": "前方に突撃して着地時に爆散する。",
+        "italic": false,
+        "color": "white"
+      }
+    ],
+        [
+      {
+        "text": "着地後後方に飛翔し、再度再使用の受付時間を得る。",
+        "italic": false,
+        "color": "white"
+      }
+    ],
+        [
+      {
+        "text": "再使用するたびに威力が増加する。",
+        "italic": false,
+        "color": "white"
+      }
+    ],
+    [
+      ""
+    ]
+  ],
+  "mode": "append"
+}

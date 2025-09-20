@@ -1,0 +1,47 @@
+{
+  "function": "minecraft:set_lore",
+  "lore": [
+    [
+      {
+        "text": "-- ",
+        "color": "white",
+        "italic": false
+      },
+      {
+        "text": "ファンタズマグラビチア",
+        "color": "yellow",
+        "italic": false
+      },
+      {
+        "text": " --",
+        "color": "white",
+        "italic": false
+      }
+    ],
+    [
+      {
+        "text": "常時",
+        "italic": false,
+        "color": "yellow"
+      }
+    ],
+    [
+      {
+        "text": "ダッシュ中の移動速度が0.7倍になり、",
+        "italic": false,
+        "color": "white"
+      }
+    ],
+    [
+      {
+        "text": "歩行中の移動速度が1.3倍になる。",
+        "italic": false,
+        "color": "white"
+      }
+    ],
+    [
+      ""
+    ]
+  ],
+  "mode": "append"
+}

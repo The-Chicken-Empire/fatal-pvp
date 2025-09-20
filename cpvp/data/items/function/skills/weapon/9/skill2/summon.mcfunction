@@ -7,3 +7,4 @@ data modify entity @s interpolation_duration set value 1
 data modify entity @s teleport_duration set value 1
 data modify entity @s transformation set value {right_rotation:{axis:[1f,0f,0f],angle:90f},scale:[1f,1f,1f],left_rotation:{axis:[0f,0f,1f],angle:0f},translation:[0f,0f,0f]}
 scoreboard players operation @s owner = @a[tag=cp.owner,limit=1] playerdata
+scoreboard players operation @s ownerteam = @a[tag=cp.owner,limit=1] teamscore
