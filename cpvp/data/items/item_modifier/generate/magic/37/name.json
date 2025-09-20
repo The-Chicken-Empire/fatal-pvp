@@ -1,0 +1,10 @@
+{
+  "function": "minecraft:set_name",
+  "name": [
+    {
+      "text": "希望の感情",
+      "color": "white",
+      "italic": false
+    }
+  ]
+}
