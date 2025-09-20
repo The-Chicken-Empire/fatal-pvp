@@ -271,7 +271,6 @@ scoreboard objectives add offhand4-2 dummy
 scoreboard objectives add offhand4-3 dummy
 scoreboard objectives add magic10 dummy
 execute unless score $number magic10 matches -2147483648..2147483647 run scoreboard players set $number magic10 0
-scoreboard objectives add magic10-2 dummy
 scoreboard objectives add magic10-4 dummy
 scoreboard objectives add magic11 dummy
 scoreboard objectives add magic12 dummy
