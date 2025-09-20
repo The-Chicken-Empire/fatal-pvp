@@ -8,8 +8,8 @@
         "italic": false
       },
       {
-        "text": "ここにability名",
-        "color": "white",
+        "text": "栄枯盛衰",
+        "color": "aqua",
         "italic": false
       },
       {
@@ -20,23 +20,262 @@
     ],
     [
       {
-        "text": "発動検知",
+        "text": "死亡時",
         "italic": false,
         "color": "yellow"
       }
     ],
     [
       {
-        "text": "cost",
+        "text": "[穢血]",
+        "italic": false,
+        "color": "light_purple"
+      },
+      {
+        "text":"を1だけ、15秒間得る。",
+        "italic":false,
+        "color":"white"
+      }
+    ],
+        [
+      {
+        "text": "穢血",
+        "italic": false,
+        "color": "light_purple"
+      },
+      {
+        "text": ":",
         "italic": false,
         "color": "white"
       }
     ],
     [
       {
-        "text": "内容",
+        "text": " - ",
+        "italic":false,
+        "color":"white"
+      },
+      {
+        "text": "最大値 : 5",
+        "italic": false,
+        "color": "gold"
+      }
+    ],
+    [
+      {
+        "text": " - ",
+        "italic":false,
+        "color":"white"
+      },
+      {
+        "text": "最大体力",
+        "italic": false,
+        "color": "red"
+      },
+      {
+        "text": "と",
         "italic": false,
         "color": "white"
+      },
+      {
+        "text": "回復力",
+        "italic": false,
+        "color": "light_purple"
+      },
+      {
+        "text": "が",
+        "italic": false,
+        "color": "white"
+      },
+      {
+        "text": "(",
+        "italic": false,
+        "color": "gold"
+      },
+      {
+        "text":"[穢血]",
+        "italic":false,
+        "color":"light_purple"
+      },
+      {
+        "text":"×15)%",
+        "italic":false,
+        "color":"gold"
+      },
+      {
+        "text":"減少。",
+        "italic":false,
+        "color":"white"
+      }
+    ],
+    [
+      {
+        "text":" - ",
+        "italic":false,
+        "color":"white"
+      },
+      {
+        "text":"効果時間終了時、数値が",
+        "italic":false,
+        "color":"white"
+      },
+      {
+        "text":"1",
+        "italic":false,
+        "color":"white"
+      },
+      {
+        "text":"増加し、再度得る。",
+        "italic":false,
+        "color":"white"
+      }
+    ],
+    [
+      {
+        "text":" - ",
+        "italic":false,
+        "color":"white"
+      },
+      {
+        "text":"効果時間中に",
+        "italic":false,
+        "color":"white"
+      },
+      {
+        "text":"死亡時",
+        "italic":false,
+        "color":"yellow"
+      },
+      {
+        "text":"、",
+        "italic":false,
+        "color":"white"
+      },
+      {
+        "text":"[花が散る様に。]",
+        "italic":false,
+        "color":"#ffcaca"
+      },
+      {
+        "text":"を発動。",
+        "italic":false,
+        "color":"white"
+      }
+    ],
+    [
+      {
+        "text":"-- ",
+        "italic":false,
+        "color":"white"
+      },
+      {
+        "text":"花が散る様に。",
+        "italic":false,
+        "color":"#ffcaca"
+      },
+      {
+        "text":" --",
+        "italic":false,
+        "color":"white"
+      }
+    ],
+    [
+      {
+        "text":" - このスキル発動中、死亡しない。",
+        "italic":false,
+        "color":"white"
+      } 
+    ],
+    [
+      {
+        "text":"空から巨大な剣を落とす。",
+        "italic":false,
+        "color":"white"
+      }
+    ],
+    [
+      {
+        "text":"的中時",
+        "italic":false,
+        "color":"yellow"
+      },
+      {
+        "text":"、",
+        "italic":false,
+        "color":"white"
+      },
+      {
+        "text":"[出血:lv6]",
+        "italic":false,
+        "color":"dark_red"
+      },
+      {
+        "text":"を20秒付与。",
+        "italic":false,
+        "color":"white"
+      }
+    ],
+    [
+      {
+        "text":"[穢血]",
+        "italic":false,
+        "color":"light_purple"
+      },
+      {
+        "text":"1",
+        "italic":false,
+        "color":"gold"
+      },
+      {
+        "text":"につき、",
+        "italic":false,
+        "color":"white"
+      },
+      {
+        "text":"ダメージ量",
+        "italic":false,
+        "color":"red"
+      },
+      {
+        "text":"+10%(最大+50%)",
+        "italic":false,
+        "color":"gold"
+      }
+    ],
+    [
+      {
+        "text":"[穢血]",
+        "italic":false,
+        "color":"light_purple"
+      },
+      {
+        "text":"5",
+        "italic":false,
+        "color":"gold"
+      },
+      {
+        "text":"の時に発動すると、",
+        "italic":false,
+        "color":"white"
+      }
+    ],
+    [
+      {
+        "text":"より巨大な剣を1本追加で落とす。",
+        "italic":false,
+        "color":"white"
+      }
+    ],
+    [
+      {
+        "text":"スキル終了時、",
+        "italic":false,
+        "color":"white"
+      },
+      {
+        "text":"死亡する。",
+        "italic":false,
+        "color":"dark_red"
       }
     ],
     [
