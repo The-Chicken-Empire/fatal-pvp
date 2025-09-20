@@ -3,14 +3,7 @@
   "lore": [
     [
       {
-        "text": "ここにフレーバーテキストを書く",
-        "color": "dark_gray",
-        "italic": true
-      }
-    ],
-    [
-      {
-        "text": "ここは2行目",
+        "text": "生じたしがらみが私を縛り付けて、離してくれない。",
         "color": "dark_gray",
         "italic": true
       }

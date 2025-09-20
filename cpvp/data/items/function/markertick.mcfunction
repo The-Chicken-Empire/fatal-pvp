@@ -28,6 +28,8 @@ execute if entity @s[tag=magic13deletemark] run function items:skills/magic/13/m
 #14
 execute if entity @s[tag=magic14,scores={skills=15..}] run function items:skills/magic/14/markertick
 execute if entity @s[tag=magic14item] run function items:skills/magic/14/markertick2
+execute if entity @s[tag=m14bullet] run function items:skills/magic/14/markertick3
+
 #15
 execute if entity @s[tag=magic15] run function items:skills/magic/15/markertick
 execute if entity @s[tag=magic15-2] run function items:skills/magic/15/markertick2

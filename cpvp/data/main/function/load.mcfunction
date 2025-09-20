@@ -252,6 +252,7 @@ scoreboard objectives add offhand7-2 dummy
 scoreboard objectives add perk18 dummy
 scoreboard players set @a perk18 0
 scoreboard players set $perk20 main 0
+scoreboard objectives add tarnished_blood_stage dummy
 
 
 #buff用
