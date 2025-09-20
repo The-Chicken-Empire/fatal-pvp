@@ -2,8 +2,23 @@
   "function": "minecraft:set_name",
   "name": [
     {
-      "text": "I.F.ヨーヨー",
+      "text": "I.",
       "color": "aqua",
+      "italic": false
+    },
+    {
+      "text": "F.",
+      "color": "gold",
+      "italic": false
+    },
+    {
+      "text": "ヨー",
+      "color": "aqua",
+      "italic": false
+    },
+    {
+      "text": "ヨー",
+      "color": "gold",
       "italic": false
     }
   ]

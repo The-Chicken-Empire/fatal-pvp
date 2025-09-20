@@ -13,7 +13,7 @@
         "italic": false
       },
       {
-        "text": "=",
+        "text": "=>",
         "color": "white",
         "italic": false
       },
@@ -159,7 +159,7 @@
       {
         "text": "『F.ヨーヨー』",
         "italic": false,
-        "color": "aqua"
+        "color": "gold"
       },
       {
         "text": "に変化し、自身の下に戻る",
@@ -195,7 +195,7 @@
       {
         "text": "『F.ヨーヨー』",
         "italic": false,
-        "color": "aqua"
+        "color": "gold"
       },
       {
         "text": "的中時、対象に",

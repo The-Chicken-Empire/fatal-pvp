@@ -8,8 +8,18 @@
         "italic": false
       },
       {
-        "text": "ここにability名",
+        "text": "展開",
+        "color": "yellow",
+        "italic": false
+      },
+      {
+        "text": ":",
         "color": "white",
+        "italic": false
+      },
+      {
+        "text": "アンチマジックフィールド",
+        "color": "dark_purple",
         "italic": false
       },
       {
@@ -20,25 +30,80 @@
     ],
     [
       {
-        "text": "発動検知",
+        "text": "右クリック",
         "italic": false,
         "color": "yellow"
       }
+    ],[
+      {
+        "text": "消費MP",
+        "italic": false,
+        "color":"blue"
+      },
+      {
+        "text": " : ",
+        "italic": false,
+        "color":"white"
+      },
+      {
+        "text": "20 ",
+        "italic": false,
+        "color":"green"
+      },
+      {
+        "text": "クールタイム",
+        "italic": false,
+        "color":"dark_aqua"
+      },
+      {
+        "text": " : ",
+        "italic": false,
+        "color":"white"
+      },
+      {
+        "text": "40秒",
+        "italic": false,
+        "color":"green"
+      }
     ],
     [
       {
-        "text": "cost",
+        "text": "『アンチマジックフィールド』",
+        "italic": false,
+        "color": "dark_purple"
+      },
+      {
+        "text": "を召喚する",
         "italic": false,
         "color": "white"
       }
     ],
     [
       {
-        "text": "内容",
+        "text": "シンボルを召喚し、範囲内のentityの受ける",
         "italic": false,
         "color": "white"
       }
     ],
+    [
+      {
+        "text": "魔法ダメージ",
+        "italic": false,
+        "color": "dark_purple"
+      },
+      {
+        "text": "が40%減少する",
+        "italic": false,
+        "color": "white"
+      }
+    ],
+    [
+      {
+        "text": "シンボルは一定ダメージを受けるか20秒経過で消滅する",
+        "italic": false,
+        "color": "white"
+      }
+    ], 
     [
       ""
     ]
