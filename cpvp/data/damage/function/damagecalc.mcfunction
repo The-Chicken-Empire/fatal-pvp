@@ -37,6 +37,9 @@ execute as @e[tag=atker] run function items:triggers/attack2/check
 execute as @e[tag=victim] run function items:triggers/attacked2/check
 execute as @e[tag=atker] run function damage:atktrigger/attack2 with storage atktrigger: hage
 
+##magic27の処理 magicdamage-40%
+execute at @s if entity @e[tag=magic27totem,distance=..15] if entity @s[tag=magicdamagetmp] run scoreboard players remove $damageadd damagecalc 40
+
 #与ダメージ者damage処理
 execute if entity @s[tag=victim,tag=magicdamagetmp] run scoreboard players operation $damagecalcatk damagecalc += @a[tag=atker,limit=1] magicdmg
 execute if entity @s[tag=victim,tag=physicaldamagetmp] run scoreboard players operation $damagecalcatk damagecalc += @a[tag=atker,limit=1] physicaldmg
