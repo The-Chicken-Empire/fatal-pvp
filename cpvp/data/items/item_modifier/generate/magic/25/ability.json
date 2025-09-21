@@ -8,8 +8,8 @@
         "italic": false
       },
       {
-        "text": "ここにability名",
-        "color": "white",
+        "text": "Lycanthropy",
+        "color": "yellow",
         "italic": false
       },
       {
@@ -20,21 +20,88 @@
     ],
     [
       {
-        "text": "発動検知",
+        "text": "右クリック",
         "italic": false,
         "color": "yellow"
       }
     ],
     [
       {
-        "text": "cost",
+        "text": "消費MP",
+        "italic": false,
+        "color":"blue"
+      },
+      {
+        "text": " : ",
+        "italic": false,
+        "color":"white"
+      },
+      {
+        "text": "11 ",
+        "italic": false,
+        "color":"green"
+      },
+      {
+        "text": "クールタイム",
+        "italic": false,
+        "color":"dark_aqua"
+      },
+      {
+        "text": " : ",
+        "italic": false,
+        "color":"white"
+      },
+      {
+        "text": "16秒",
+        "italic": false,
+        "color":"green"
+      }
+    ],
+    [
+      {
+        "text": "10秒間、近接攻撃時に",
         "italic": false,
         "color": "white"
       }
     ],
     [
       {
-        "text": "内容",
+        "text": "与えるダメージが",
+        "italic": false,
+        "color": "white"
+      },
+      {
+        "text": "1",
+        "italic": false,
+        "color": "yellow"
+      },
+      {
+        "text": "増加し、",
+        "italic": false,
+        "color": "white"
+      },
+      {
+        "text": "HP",
+        "italic": false,
+        "color": "red"
+      },
+      {
+        "text": "を",
+        "italic": false,
+        "color": "white"
+      },
+      {
+        "text": "1",
+        "italic": false,
+        "color": "gold"
+      },
+      {
+        "text": "回復",
+        "italic": false,
+        "color": "light_purple"
+      },
+      {
+        "text": "する",
         "italic": false,
         "color": "white"
       }

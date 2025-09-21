@@ -32,6 +32,9 @@ execute if score $dummy random <= @s agi run function damage:avoid
 execute if score $dummy random <= @s agi run return fail
 tag @s remove unavoidable
 
+##magic25の処理 近接攻撃時の追加
+execute if entity @e[tag=magic25] if entity @e[tag=victim,tag=meleevictim,limit=1] as @e[tag=magic25] if score @s owner = @a[tag=atker,limit=1] playerdata as @e[tag=victim,limit=1] run function items:skills/magic/25/call
+
 #damage2trigger 軽減とか上昇とか
 execute as @e[tag=atker] run function items:triggers/attack2/check
 execute as @e[tag=victim] run function items:triggers/attacked2/check
