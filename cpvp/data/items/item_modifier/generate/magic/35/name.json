@@ -1,0 +1,10 @@
+{
+  "function": "minecraft:set_name",
+  "name": [
+    {
+      "text": "機動杖スピデル",
+      "color": "white",
+      "italic": false
+    }
+  ]
+}
