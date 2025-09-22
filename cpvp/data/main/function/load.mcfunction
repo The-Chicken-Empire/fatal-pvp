@@ -306,6 +306,7 @@ scoreboard objectives add perk24range dummy
 scoreboard objectives add perk24magic dummy
 scoreboard objectives add perk24physical dummy
 scoreboard objectives add boots5 dummy
+scoreboard objectives add magic35ct dummy
 
 
 #buff用

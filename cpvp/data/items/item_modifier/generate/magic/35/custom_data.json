@@ -6,9 +6,6 @@
       "id": 35,
       "item_type": "magic",
       "mainhand": {
-        "stats": {
-          "speed": 25
-        },
         "triggers": [
           "right_click"
         ]

@@ -3,14 +3,21 @@
   "lore": [
     [
       {
-        "text": "ここにフレーバーテキストを書く",
+        "text": "もう何度目かも分からないが",
         "color": "dark_gray",
         "italic": true
       }
     ],
     [
       {
-        "text": "ここは2行目",
+        "text": "元は味方だったものを尻目に",
+        "color": "dark_gray",
+        "italic": true
+      }
+    ],
+    [
+      {
+        "text": "私は今日も生き残った",
         "color": "dark_gray",
         "italic": true
       }
