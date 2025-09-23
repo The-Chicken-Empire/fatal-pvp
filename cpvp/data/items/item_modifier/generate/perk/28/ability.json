@@ -8,8 +8,8 @@
         "italic": false
       },
       {
-        "text": "ここにability名",
-        "color": "white",
+        "text": "トゥルーエンドのその先へ",
+        "color": "#00ff22",
         "italic": false
       },
       {
@@ -20,21 +20,40 @@
     ],
     [
       {
-        "text": "発動検知",
+        "text": "攻撃的中時",
         "italic": false,
         "color": "yellow"
       }
     ],
     [
       {
-        "text": "cost",
+        "text": "ダメージ上限が4になる代わりに、",
         "italic": false,
         "color": "white"
       }
     ],
     [
       {
-        "text": "内容",
+        "text": "30%",
+        "italic": false,
+        "color": "yellow"
+      },
+      {
+        "text": "の確率でもう一度ダメージが発生する",
+        "italic": false,
+        "color": "white"
+      }
+    ],
+    [
+      {
+        "text": "この追加攻撃は被ダメージ時以外のトリガーが発動せず、",
+        "italic": false,
+        "color": "white"
+      }
+    ],
+    [
+      {
+        "text": "一度の攻撃で最大2回まで発動する",
         "italic": false,
         "color": "white"
       }

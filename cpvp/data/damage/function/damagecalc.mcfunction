@@ -111,6 +111,8 @@ execute if score @s damagetaken matches 150.. if entity @s[tag=perk19] at @s run
 execute as @a[tag=victim] if items entity @s hotbar.* *[minecraft:custom_data~{cpvp:{id:27b,item_type:"perk"}}] run function items:skills/perk/27/active
 ##perk8の効果 ダメージ上限5
 execute as @a[tag=victim] if items entity @s hotbar.* *[minecraft:custom_data~{cpvp:{id:8b,item_type:"perk"}}] run function items:skills/perk/8/attacked
+##perk28の効果 ダメージ上限4
+execute as @a[tag=atker] if items entity @s hotbar.* *[minecraft:custom_data~{cpvp:{id:28b,item_type:"perk"}}] run function items:skills/perk/28/attack
 ##weapon1の効果 ダメージをMP減少に変換
 execute as @a[tag=atker] if items entity @s weapon.mainhand *[minecraft:custom_data~{cpvp:{id:1b,item_type:"weapon"}}] run function items:skills/weapon/1/attack
 
