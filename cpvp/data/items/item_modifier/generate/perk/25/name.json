@@ -1,0 +1,10 @@
+{
+  "function": "minecraft:set_name",
+  "name": [
+    {
+      "text": "星の導き",
+      "color": "white",
+      "italic": false
+    }
+  ]
+}
