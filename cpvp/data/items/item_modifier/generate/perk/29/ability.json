@@ -27,12 +27,7 @@
     ],
     [
       {
-        "text": "物理ダメージ",
-        "italic": false,
-        "color": "gold"
-      },
-      {
-        "text": "を受けた時、受けたダメージ分",
+        "text": "ダメージを受けた時、受けたダメージ分",
         "italic": false,
         "color": "white"
       }
@@ -71,17 +66,29 @@
         "color": "yellow"
       },
       {
-        "text": "以上の時に",
+        "text": "以上貯まっている時に",
         "italic": false,
         "color": "white"
-      },
+      }
+    ],
+    [
       {
         "text": "10",
         "italic": false,
         "color": "gold"
       },
       {
-        "text": "以上のダメージを受けた時",
+        "text": "以上の",
+        "italic": false,
+        "color": "white"
+      },
+      {
+        "text": "物理ダメージ",
+        "italic": false,
+        "color": "gold"
+      },
+      {
+        "text": "を受けた時",
         "italic": false,
         "color": "white"
       }

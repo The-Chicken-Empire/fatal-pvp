@@ -106,7 +106,7 @@ execute as @a[tag=atker] if items entity @s armor.head golden_hoe[minecraft:cust
 ##offhand11の効果 k倍 (kは0以上の実数)
 execute as @a[tag=atker] if items entity @s weapon.offhand end_crystal[minecraft:custom_data~{cpvp:{id:11b}}] if items entity @s weapon.offhand end_crystal[minecraft:custom_data~{cpvp:{item_type:"offhand"}}] run function items:skills/offhand/11/atk
 ##perk29の効果 ダメージ10以上の時0.1倍
-execute as @a[tag=victim] if score @s damagetaken matches 100.. if items entity @s hotbar.* *[minecraft:custom_data~{cpvp:{id:29b,item_type:"perk"}}] run function items:skills/perk/29/check
+execute as @a[tag=victim] if score @s damagetaken matches 100.. if entity @s[tag=physicaldamagetmp] if items entity @s hotbar.* *[minecraft:custom_data~{cpvp:{id:29b,item_type:"perk"}}] run function items:skills/perk/29/check
 ##perk19の火力を固定で下げる効果(結構下の方に置いといてね...)
 execute if score @s damagetaken matches 150.. if entity @s[tag=perk19] at @s run function items:skills/perk/19/active
 ##perk27の効果 ダメージ上限1d100
