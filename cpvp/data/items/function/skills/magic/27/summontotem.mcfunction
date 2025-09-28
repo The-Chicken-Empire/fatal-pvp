@@ -8,6 +8,7 @@ execute at @s run tp @s ~ ~ ~ 0 0
 effect give @s minecraft:invisibility infinite 1 true
 data modify entity @s NoAI set value 1b
 data modify entity @s Silent set value 1b
+data modify entity @s IsBaby set value 0b
 
 attribute @s max_health base set 15
 
