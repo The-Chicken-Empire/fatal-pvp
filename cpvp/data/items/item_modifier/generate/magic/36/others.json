@@ -1,0 +1,17 @@
+{
+  "function": "minecraft:set_components",
+  "components": {
+    "minecraft:attribute_modifiers": [],
+    "minecraft:unbreakable": {},
+    "minecraft:tooltip_display": {
+      "hidden_components": [
+        "minecraft:unbreakable",
+        "minecraft:dyed_color",
+        "minecraft:trim",
+        "minecraft:attribute_modifiers"
+      ]
+    },
+    "minecraft:custom_model_data": 
+    {"strings":["perk36"]}
+  }
+}

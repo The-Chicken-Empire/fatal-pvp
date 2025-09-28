@@ -1,0 +1,23 @@
+{
+  "function": "minecraft:set_components",
+  "components": {
+    "minecraft:attribute_modifiers": [],
+    "minecraft:unbreakable": {},
+    "minecraft:tooltip_display": {
+      "hidden_components": [
+        "minecraft:unbreakable",
+        "minecraft:dyed_color",
+        "minecraft:trim",
+        "minecraft:attribute_modifiers"
+      ]
+    },
+    "minecraft:custom_model_data": 
+    {"strings":["magic37"]},
+    "minecraft:consumable": {
+      "consume_seconds": 2147483647,
+      "animation": "block",
+      "sound": "minecraft:intentionally_empty",
+      "has_consume_particles": false
+    }
+  }
+}

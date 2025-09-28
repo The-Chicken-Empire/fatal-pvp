@@ -50,6 +50,11 @@ execute if entity @s[tag=magic21] at @s run function items:skills/magic/21/skill
 execute if entity @s[tag=magic24] at @s run function items:skills/magic/24/skill1/tick
 #28
 execute if entity @s[tag=magic28] at @s run function items:skills/magic/28/skill2/tick
+#36
+execute if entity @s[tag=magic36meteor] at @s run function items:skills/magic/36/tick/
+execute if entity @s[tag=magic36mahoujin] at @s run function items:skills/magic/36/tick2/
+#37
+execute if entity @s[tag=magic37-1] at @s run function items:skills/magic/37/particle/mahoujin/1/tick
 ##weapon
 #3
 execute if entity @s[tag=weapon3] run function items:skills/weapon/3/markertick
@@ -89,3 +94,5 @@ execute if entity @s[tag=boots5marker] run function items:skills/boots/5/markert
 execute if entity @s[tag=perk11] run function items:skills/perk/11/markertick
 #perk13
 execute if entity @s[tag=perk13] run function items:skills/perk/13/markertick
+#30
+execute if entity @s[tag=perk30marker] run function items:skills/perk/30/s2/tick

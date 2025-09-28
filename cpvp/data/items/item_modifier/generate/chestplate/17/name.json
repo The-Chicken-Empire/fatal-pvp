@@ -2,8 +2,18 @@
   "function": "minecraft:set_name",
   "name": [
     {
-      "text": "黒色の白衣",
+      "text": "黒色",
       "color": "white",
+      "italic": false
+    },
+    {
+      "text": "の",
+      "color": "gray",
+      "italic": false
+    },
+    {
+      "text": "白衣",
+      "color": "dark_gray",
       "italic": false
     }
   ]

@@ -3,14 +3,42 @@
   "lore": [
     [
       {
-        "text": "ここにフレーバーテキストを書く",
+        "text": "生きとし生ける者の人生には、等しく価値があり、",
         "color": "dark_gray",
         "italic": true
       }
     ],
     [
       {
-        "text": "ここは2行目",
+        "text": "誰しもが無意味にその生命を奪われるべきではない。",
+        "color": "dark_gray",
+        "italic": true
+      }
+    ],
+    [
+      {
+        "text": "窮地の原を駆け巡り安寧を求める生者を救済し、",
+        "color": "dark_gray",
+        "italic": true
+      }
+    ],
+    [
+      {
+        "text": "闇夜をさまよい嘆き続ける死者を弔うために、",
+        "color": "dark_gray",
+        "italic": true
+      }
+    ],
+    [
+      {
+        "text": "己が欲のために邪知暴虐を働くような者を",
+        "color": "dark_gray",
+        "italic": true
+      }
+    ],
+    [
+      {
+        "text": "悪と定義し、その内に眠る禍根を取り除かんと誓う。",
         "color": "dark_gray",
         "italic": true
       }

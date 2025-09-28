@@ -257,6 +257,7 @@ scoreboard objectives add perk24range dummy
 scoreboard objectives add perk24magic dummy
 scoreboard objectives add perk24physical dummy
 scoreboard objectives add boots5 dummy
+scoreboard objectives add magic37 dummy
 
 
 #buff用
@@ -279,6 +280,7 @@ scoreboard objectives add maxeng_buff dummy
 scoreboard objectives add defence_buff dummy
 scoreboard objectives add damage_buff dummy
 scoreboard objectives add bonusattackspeed_buff dummy
+scoreboard objectives add ctreduction_buff dummy
 
 function system:cooltime/load
 function system:gui/load

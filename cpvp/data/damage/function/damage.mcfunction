@@ -20,6 +20,8 @@ scoreboard players reset @s tmp
 tag @s remove meleeentity
 #この辺りに死亡回避処理とか
 execute if score @s hp matches ..0 run function items:triggers/death/check
+#perk30の死亡回避処理
+execute if score @s hp matches ..0 as @a[tag=playing] if score @s teamscore = @e[tag=victim,limit=1] teamscore if items entity @s hotbar.* *[minecraft:custom_data~{cpvp:{id:30b,item_type:"perk"}}] at @s run function items:skills/perk/30/allydeath
 #reset
 scoreboard players operation $tmp getdamage = @s damagepoint
 scoreboard players set @s damagepoint 0
