@@ -1,0 +1,10 @@
+{
+  "function": "minecraft:set_name",
+  "name": [
+    {
+      "text": "シンドリオン",
+      "color": "dark_aqua",
+      "italic": false
+    }
+  ]
+}

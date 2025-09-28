@@ -1,0 +1,69 @@
+{
+  "function": "minecraft:set_lore",
+  "lore": [
+    [
+      {
+        "text": "一つの世界は救われた、誰も文句などない。",
+        "color": "dark_gray",
+        "italic": true
+      }
+    ],
+    [
+      {
+        "text": "『本当に？』",
+        "color": "dark_gray",
+        "italic": true
+      }
+    ],
+    [
+      {
+        "text": "観測者Sの誕生と共に物語は次の世",
+        "color": "dark_gray",
+        "italic": true
+      },
+      {
+        "text": "X",
+        "color": "dark_gray",
+        "italic": true,
+        "obfuscated": true
+      },
+      {
+        "text": "∀",
+        "color": "dark_gray",
+        "italic": true
+      },
+      {
+        "text": "X",
+        "color": "dark_gray",
+        "italic": true,
+        "obfuscated": true
+      },
+      {
+        "text": "tΦ",
+        "color": "dark_gray",
+        "italic": true
+      },
+      {
+        "text": "XX",
+        "color": "dark_gray",
+        "italic": true,
+        "obfuscated": true
+      }
+    ],
+    [
+      {
+        "text": "『勝手に終わらせないでよ』",
+        "color": "dark_gray",
+        "italic": true
+      }
+    ],
+    [
+      {
+        "text": "『まだあの人との約束を果たしてないんだ』",
+        "color": "dark_gray",
+        "italic": true
+      }
+    ]
+  ],
+  "mode": "append"
+}

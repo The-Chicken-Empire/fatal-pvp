@@ -110,4 +110,5 @@ item replace entity @a player.crafting.3 with air 1
 
 #reset系
 advancement revoke @a[advancements={system:projectile=true}] only system:projectile
+
 scoreboard players set @a using 0

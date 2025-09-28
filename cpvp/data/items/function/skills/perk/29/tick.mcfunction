@@ -1,0 +1,1 @@
+execute if score @s perk29 matches 77.. at @s run particle happy_villager ~ ~0.2 ~ 0.3 0 0.3 0 2 normal
