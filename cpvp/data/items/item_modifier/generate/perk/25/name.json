@@ -2,8 +2,23 @@
   "function": "minecraft:set_name",
   "name": [
     {
-      "text": "星の導き",
-      "color": "white",
+      "text": "星",
+      "color": "#ffc400",
+      "italic": false
+    },
+    {
+      "text": "の",
+      "color": "#ffee00",
+      "italic": false
+    },
+    {
+      "text": "導",
+      "color": "#fffb00",
+      "italic": false
+    },
+    {
+      "text": "き",
+      "color": "#e5ff00",
       "italic": false
     }
   ]

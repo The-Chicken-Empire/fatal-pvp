@@ -5,7 +5,7 @@ tag @s add construction
 scoreboard players operation @s owner = @a[tag=magic27tmp,limit=1] playerdata
 scoreboard players operation @s teamscore = @a[tag=magic27tmp,limit=1] teamscore
 execute at @s run tp @s ~ ~ ~ 0 0
-data modify entity @s Invisible set value 1b
+effect give @s minecraft:invisibility infinite 1 true
 data modify entity @s NoAI set value 1b
 data modify entity @s Silent set value 1b
 

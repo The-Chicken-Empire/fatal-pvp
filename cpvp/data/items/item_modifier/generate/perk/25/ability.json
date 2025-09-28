@@ -8,8 +8,8 @@
         "italic": false
       },
       {
-        "text": "ここにability名",
-        "color": "white",
+        "text": "Force of Star",
+        "color": "yellow",
         "italic": false
       },
       {
@@ -20,21 +20,99 @@
     ],
     [
       {
-        "text": "発動検知",
+        "text": "常時",
         "italic": false,
         "color": "yellow"
       }
     ],
     [
       {
-        "text": "cost",
+        "text": "20秒に一度、下記の中からランダムで1つのバフを得る",
         "italic": false,
         "color": "white"
       }
     ],
     [
       {
-        "text": "内容",
+        "text": " -",
+        "italic": false,
+        "color": "white"
+      },
+      {
+        "text": "[攻撃力上昇:lv5]",
+        "italic": false,
+        "color": "red"
+      },
+      {
+        "text": " 5秒",
+        "italic": false,
+        "color": "white"
+      }
+    ],
+    [
+      {
+        "text": " -",
+        "italic": false,
+        "color": "white"
+      },
+      {
+        "text": "[耐性:lv3]",
+        "italic": false,
+        "color": "gray"
+      },
+      {
+        "text": " 7秒",
+        "italic": false,
+        "color": "white"
+      }
+    ],
+    [
+      {
+        "text": " -",
+        "italic": false,
+        "color": "white"
+      },
+      {
+        "text": "[移動速度上昇:lv2]",
+        "italic": false,
+        "color": "white"
+      },
+      {
+        "text": " 8秒",
+        "italic": false,
+        "color": "white"
+      }
+    ],
+    [
+      {
+        "text": " -",
+        "italic": false,
+        "color": "white"
+      },
+      {
+        "text": "[攻撃速度上昇:lv5]",
+        "italic": false,
+        "color": "yellow"
+      },
+      {
+        "text": " 10秒",
+        "italic": false,
+        "color": "white"
+      }
+    ],
+    [
+      {
+        "text": " -",
+        "italic": false,
+        "color": "white"
+      },
+      {
+        "text": "[再生:lv1]",
+        "italic": false,
+        "color": "light_purple"
+      },
+      {
+        "text": " 15秒",
         "italic": false,
         "color": "white"
       }

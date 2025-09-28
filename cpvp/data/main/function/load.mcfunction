@@ -311,6 +311,8 @@ scoreboard objectives add perk28 dummy
 scoreboard players set $tmp perk28 0
 scoreboard objectives add perk29 dummy
 scoreboard players set @a perk29 0
+scoreboard objectives add perk25 dummy
+scoreboard players set @a perk25 0
 
 #buff用
 scoreboard objectives add maxhp_buff dummy
