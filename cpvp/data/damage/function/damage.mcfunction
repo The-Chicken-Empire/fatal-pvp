@@ -36,15 +36,6 @@ execute store result storage cpvp:tmp tmp byte 1 run scoreboard players get @s p
 function system:attackdata/remove with storage cpvp:tmp
 data remove storage cpvp:tmp tmp
 
-
-#tag解除
-#tag @s remove physicaldamage
-#tag @s remove magicdamage
-#tag @s remove meleedamage
-#tag @s remove rangedamage
-#tag @s remove specialdamage
-#tag @s remove critical
-#終了
 tag @s remove meleevictim
 
 data remove storage atktrigger: hage
@@ -52,7 +43,6 @@ data remove storage atktrigger: hage
 scoreboard players set $tmp tmp 0
 execute as @e[tag=meleevictim] if score @s attackerdata = @e[tag=atker,limit=1] playerdata run scoreboard players add $tmp tmp 1
 execute if score $tmp tmp matches 0 run tag @s remove meleeatker
-
-
-
-
+#perk28処理 30%で追加攻撃
+execute unless score $tmp perk28 matches 2.. as @a[tag=atker,limit=1] if items entity @s hotbar.* *[custom_data~{cpvp:{id:28b,item_type:"perk"}}] run function items:skills/perk/28/extra
+scoreboard players set $tmp perk28 0

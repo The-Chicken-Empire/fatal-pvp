@@ -82,7 +82,6 @@ execute as @a run function effects:system/tick/
 
 # アイテム系
 function items:tick
-scoreboard players set @a using 0
 # スキル用marker用score
 execute if entity @e[tag=skillmarker,limit=1] as @e[tag=skillmarker] run scoreboard players add @s skills 1
 # スキルmarker用tickファイル
@@ -111,3 +110,4 @@ item replace entity @a player.crafting.3 with air 1
 
 #reset系
 advancement revoke @a[advancements={system:projectile=true}] only system:projectile
+scoreboard players set @a using 0

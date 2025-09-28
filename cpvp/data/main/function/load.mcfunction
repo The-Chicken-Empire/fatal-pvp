@@ -306,7 +306,13 @@ scoreboard objectives add perk24range dummy
 scoreboard objectives add perk24magic dummy
 scoreboard objectives add perk24physical dummy
 scoreboard objectives add boots5 dummy
-
+scoreboard objectives add magic35ct dummy
+scoreboard objectives add perk28 dummy
+scoreboard players set $tmp perk28 0
+scoreboard objectives add perk29 dummy
+scoreboard players set @a perk29 0
+scoreboard objectives add perk25 dummy
+scoreboard players set @a perk25 0
 
 #buff用
 scoreboard objectives add maxhp_buff dummy

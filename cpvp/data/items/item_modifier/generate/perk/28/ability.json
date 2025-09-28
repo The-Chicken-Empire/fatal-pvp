@@ -1,0 +1,66 @@
+{
+  "function": "minecraft:set_lore",
+  "lore": [
+    [
+      {
+        "text": "-- ",
+        "color": "white",
+        "italic": false
+      },
+      {
+        "text": "トゥルーエンドのその先へ",
+        "color": "#00ff22",
+        "italic": false
+      },
+      {
+        "text": " --",
+        "color": "white",
+        "italic": false
+      }
+    ],
+    [
+      {
+        "text": "攻撃的中時",
+        "italic": false,
+        "color": "yellow"
+      }
+    ],
+    [
+      {
+        "text": "ダメージ上限が4になる代わりに、",
+        "italic": false,
+        "color": "white"
+      }
+    ],
+    [
+      {
+        "text": "30%",
+        "italic": false,
+        "color": "yellow"
+      },
+      {
+        "text": "の確率でもう一度ダメージが発生する",
+        "italic": false,
+        "color": "white"
+      }
+    ],
+    [
+      {
+        "text": "この追加攻撃は被ダメージ時以外のトリガーが発動せず、",
+        "italic": false,
+        "color": "white"
+      }
+    ],
+    [
+      {
+        "text": "一度の攻撃で最大2回まで発動する",
+        "italic": false,
+        "color": "white"
+      }
+    ],
+    [
+      ""
+    ]
+  ],
+  "mode": "append"
+}

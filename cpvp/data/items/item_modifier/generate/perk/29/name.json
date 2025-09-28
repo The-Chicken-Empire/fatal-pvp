@@ -1,0 +1,10 @@
+{
+  "function": "minecraft:set_name",
+  "name": [
+    {
+      "text": "壊れる定めのロケット",
+      "color": "#ffd900",
+      "italic": false
+    }
+  ]
+}
