@@ -1,1 +1,0 @@
-execute if score @s skills matches 60.. run kill @s 

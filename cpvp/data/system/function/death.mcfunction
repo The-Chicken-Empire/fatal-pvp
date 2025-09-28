@@ -2,6 +2,9 @@
 #execute if entity @a[tag=atker,limit=1] as @a[tag=atker,limit=1] run function system:kill
 #関連mob消去
 tag @s add death
+##固有item
+#magic32
+execute if entity @s[tag=magic32dashing] run function items:skills/magic/32/deactive
 
 #関節キル取り出し
 tag @s add tmpdied

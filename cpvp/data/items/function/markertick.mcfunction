@@ -2,8 +2,7 @@
 #1
 execute if entity @s[tag=magic1] run function items:skills/magic/1/markertick
 execute if entity @s[tag=magic1-2] run function items:skills/magic/1/markertick2
-execute if entity @s[tag=magic1-3] run function items:skills/magic/1/markertick3
-execute if entity @s[tag=magic1ct] run function items:skills/magic/1/markertick4
+execute if entity @s[tag=magic1ct] if score @s skills matches 40.. run kill @s
 #5
 execute if entity @s[tag=magic5] run function items:skills/magic/5/markertick
 #9
@@ -12,14 +11,13 @@ execute if entity @s[tag=magic9-2] run function items:skills/magic/9/markertick2
 execute if entity @s[tag=magic9-3] run function items:skills/magic/9/markertick3
 #10
 execute if entity @s[tag=magic10] run function items:skills/magic/10/markertick
-execute if entity @s[tag=magic10ctplayer] run function items:skills/magic/10/markertick2
-execute if entity @s[tag=magic10ctentity] run function items:skills/magic/10/markertick2
+execute if entity @s[tag=magic10ct] if score @s skills matches 12.. run kill @s
 #11
 execute if entity @s[tag=magic11] run function items:skills/magic/11/markertick
 execute if entity @s[tag=magic11-2] run function items:skills/magic/11/markertick2
 #12
 execute if entity @s[tag=magic12] run function items:skills/magic/12/markertick
-execute if entity @s[tag=magic12ct] run function items:skills/magic/12/markertick2
+execute if entity @s[tag=magic12ct] if score @s skills matches 60.. run kill @s
 #13
 execute if entity @s[tag=magic13] run function items:skills/magic/13/markertick
 execute if entity @s[tag=magic13marker] if score @s skills matches 20.. run function items:skills/magic/13/markertick3
@@ -48,8 +46,15 @@ execute if entity @s[tag=magic19] run function items:skills/magic/19/markertick
 execute if entity @s[tag=magic21] at @s run function items:skills/magic/21/skill2/tick
 #24
 execute if entity @s[tag=magic24] at @s run function items:skills/magic/24/skill1/tick
+#26
+execute if entity @s[tag=magic26i] at @s run function items:skills/magic/26/markerticki
+execute if entity @s[tag=magic26f] at @s run function items:skills/magic/26/markertickf
+execute if entity @s[tag=magic26ict] if score @s skills matches 60.. run kill @s
+execute if entity @s[tag=magic26fct] if score @s skills matches 100.. run kill @s
 #28
 execute if entity @s[tag=magic28] at @s run function items:skills/magic/28/skill2/tick
+#32
+execute if entity @s[tag=magic32dash] at @s run function items:skills/magic/32/markertick
 #36
 execute if entity @s[tag=magic36meteor] at @s run function items:skills/magic/36/tick/
 execute if entity @s[tag=magic36mahoujin] at @s run function items:skills/magic/36/tick2/

@@ -1,0 +1,223 @@
+{
+  "function": "minecraft:set_lore",
+  "lore": [
+    [
+      {
+        "text": "-- ",
+        "color": "white",
+        "italic": false
+      },
+      {
+        "text": "射出",
+        "color": "gold",
+        "italic": false
+      },
+      {
+        "text": "=>",
+        "color": "white",
+        "italic": false
+      },
+      {
+        "text": "反転",
+        "color": "aqua",
+        "italic": false
+      },
+      {
+        "text": " --",
+        "color": "white",
+        "italic": false
+      }
+    ],
+    [
+      {
+        "text": "右クリック",
+        "italic": false,
+        "color": "yellow"
+      }
+    ],
+    [
+      {
+        "text": "消費MP",
+        "italic": false,
+        "color":"blue"
+      },
+      {
+        "text": " : ",
+        "italic": false,
+        "color":"white"
+      },
+      {
+        "text": "12 ",
+        "italic": false,
+        "color":"green"
+      },
+      {
+        "text": "クールタイム",
+        "italic": false,
+        "color":"dark_aqua"
+      },
+      {
+        "text": " : ",
+        "italic": false,
+        "color":"white"
+      },
+      {
+        "text": "7秒",
+        "italic": false,
+        "color":"green"
+      }
+    ],
+    [
+      {
+        "text": "ダメージ",
+        "color": "red",
+        "italic": false
+      },
+      {
+        "text": " : ",
+        "color": "white",
+        "italic": false
+      },
+      {
+        "text": "5×2",
+        "color": "gold",
+        "italic": false
+      },
+      {
+        "text": " - ",
+        "color": "white",
+        "italic": false
+      },
+      {
+        "text": "魔法",
+        "color": "dark_purple",
+        "italic": false
+      },
+      {
+        "text": "/",
+        "color": "white",
+        "italic": false
+      },
+      {
+        "text": "遠距離",
+        "color": "blue",
+        "italic": false
+      }
+    ],
+    [
+      {
+        "text": "前方に",
+        "italic": false,
+        "color": "white"
+      },
+      {
+        "text": "『I.ヨーヨー』",
+        "italic": false,
+        "color": "aqua"
+      },
+      {
+        "text": "を射出する",
+        "italic": false,
+        "color": "white"
+      }
+    ],
+    [
+      {
+        "text": "『I.ヨーヨー』",
+        "italic": false,
+        "color": "aqua"
+      },
+      {
+        "text": "は射出された後",
+        "italic": false,
+        "color": "white"
+      }
+    ],
+    [
+      {
+        "text": "『右クリック追加入力』 ",
+        "italic": false,
+        "color": "yellow"
+      },
+      {
+        "text": "又は",
+        "italic": false,
+        "color": "white"
+      },
+      {
+        "text": "『3秒経過』 ",
+        "italic": false,
+        "color": "yellow"
+      },
+      {
+        "text": "時、",
+        "italic": false,
+        "color": "white"
+      }
+    ],
+    [
+      {
+        "text": "『F.ヨーヨー』",
+        "italic": false,
+        "color": "gold"
+      },
+      {
+        "text": "に変化し、自身の下に戻る",
+        "italic": false,
+        "color": "white"
+      }
+    ],
+    [
+      {
+        "text": "『I.ヨーヨー』",
+        "italic": false,
+        "color": "aqua"
+      },
+      {
+        "text": "的中時、対象に",
+        "italic": false,
+        "color": "white"
+      }
+    ],
+    [
+      {
+        "text": "[凍結:lv2]",
+        "italic": false,
+        "color": "aqua"
+      },
+      {
+        "text": "を5秒付与する",
+        "italic": false,
+        "color": "white"
+      }
+    ],
+    [
+      {
+        "text": "『F.ヨーヨー』",
+        "italic": false,
+        "color": "gold"
+      },
+      {
+        "text": "的中時、対象に",
+        "italic": false,
+        "color": "white"
+      }
+    ],
+    [
+      {
+        "text": "[火傷:lv1]",
+        "italic": false,
+        "color": "gold"
+      },
+      {
+        "text": "を5秒付与する",
+        "italic": false,
+        "color": "white"
+      }
+    ],
+    [
+      ""
+    ]
+  ],
+  "mode": "append"
+}

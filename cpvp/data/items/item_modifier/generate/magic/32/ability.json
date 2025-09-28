@@ -1,0 +1,244 @@
+{
+  "function": "minecraft:set_lore",
+  "lore": [
+    [
+      {
+        "text": "-- ",
+        "color": "white",
+        "italic": false
+      },
+      {
+        "text": "雷走",
+        "color": "yellow",
+        "italic": false
+      },
+      {
+        "text": " --",
+        "color": "white",
+        "italic": false
+      }
+    ],
+    [
+      {
+        "text": "右クリック",
+        "italic": false,
+        "color": "yellow"
+      }
+    ],
+    [
+      {
+        "text": "消費MP",
+        "italic": false,
+        "color":"blue"
+      },
+      {
+        "text": " : ",
+        "italic": false,
+        "color":"white"
+      },
+      {
+        "text": "15 ",
+        "italic": false,
+        "color":"green"
+      },
+      {
+        "text": "クールタイム",
+        "italic": false,
+        "color":"dark_aqua"
+      },
+      {
+        "text": " : ",
+        "italic": false,
+        "color":"white"
+      },
+      {
+        "text": "13秒",
+        "italic": false,
+        "color":"green"
+      }
+    ],
+    [
+      {
+        "text": "[電光石火]",
+        "italic": false,
+        "color": "red"
+      },
+      {
+        "text": "状態になる",
+        "italic": false,
+        "color": "white"
+      }
+    ],
+    [
+      {
+        "text": "-- ",
+        "color": "white",
+        "italic": false
+      },
+      {
+        "text": "朱炎",
+        "color": "red",
+        "italic": false
+      },
+      {
+        "text": " --",
+        "color": "white",
+        "italic": false
+      }
+    ],
+    [
+      {
+        "text": "[電光石火]",
+        "italic": false,
+        "color": "red"
+      },
+      {
+        "text": "状態の時に右クリック",
+        "italic": false,
+        "color": "yellow"
+      }
+    ],
+    [
+      {
+        "text": "ダメージ",
+        "color": "red",
+        "italic": false
+      },
+      {
+        "text": " : ",
+        "color": "white",
+        "italic": false
+      },
+      {
+        "text": "9",
+        "color": "gold",
+        "italic": false
+      },
+      {
+        "text": " - ",
+        "color": "white",
+        "italic": false
+      },
+      {
+        "text": "魔法",
+        "color": "dark_purple",
+        "italic": false
+      },
+      {
+        "text": "/",
+        "color": "white",
+        "italic": false
+      },
+      {
+        "text": "近距離",
+        "color": "red",
+        "italic": false
+      }
+    ],
+    [
+      {
+        "text": "[電光石火]",
+        "italic": false,
+        "color": "red"
+      },
+      {
+        "text": "状態を解除し、",
+        "italic": false,
+        "color": "white"
+      }
+    ],
+    [
+      {
+        "text": "自身を中心とした",
+        "italic": false,
+        "color": "white"
+      },
+      {
+        "text": "とても狭い範囲",
+        "italic": false,
+        "color": "white",
+        "bold": true
+      },
+      {
+        "text": "の敵にダメージを与え",
+        "italic": false,
+        "color": "white"
+      }
+    ],
+    [
+      {
+        "text": "的中時、",
+        "italic": false,
+        "color": "white"
+      },
+      {
+        "text": "[火傷:lv1]",
+        "italic": false,
+        "color": "gold"
+      },
+      {
+        "text": "を5秒与える",
+        "italic": false,
+        "color": "white"
+      }
+    ],
+    [
+      ""
+    ],
+    [
+      {
+        "text": "電光石火",
+        "italic": false,
+        "color": "red"
+      },
+      {
+        "text": " :",
+        "italic": false,
+        "color": "white",
+        "bold": true
+      }
+    ],
+    [
+      {
+        "text": "- 移動速度が大幅に上昇する",
+        "italic": false,
+        "color": "white"
+      }
+    ],
+    [
+      {
+        "text": "- この移動速度上昇はステータスに反映されない",
+        "italic": false,
+        "color": "white"
+      }
+    ],
+    [
+      {
+        "text": "- 落下ダメージを無効化する",
+        "italic": false,
+        "color": "white"
+      }
+    ],
+    [
+      {
+        "text": "- ",
+        "italic": false,
+        "color": "white"
+      },
+      {
+        "text": "MP",
+        "italic": false,
+        "color": "blue"
+      },
+      {
+        "text": "が継続的に減少する",
+        "italic": false,
+        "color": "white"
+      }
+    ],
+    [
+      ""
+    ]
+  ],
+  "mode": "append"
+}

@@ -5,8 +5,7 @@ tag @s add magic10victim
 #magic10 ct用markerのvictimとのidの紐づけ用
 #magic10-4 ct用markerのitemdisplayとのidの紐づけ用
 scoreboard players set $tmp tmp 0
-execute if entity @s[type=player] as @e[type=marker,tag=magic10ctplayer] if score @s magic10 = @e[tag=magic10victim,limit=1] playerdata if score @s magic10-4 = @e[tag=magic10tmp,limit=1] markerid run scoreboard players set $tmp tmp 1
-execute if entity @s[type=!player] as @e[type=marker,tag=magic10ctentity] if score @s magic10 = @e[tag=magic10victim,limit=1] ID if score @s magic10-4 = @e[tag=magic10tmp,limit=1] markerid run scoreboard players set $tmp tmp 1
+execute as @e[type=marker,tag=magic10ct] if score @s target = @e[tag=magic10victim,limit=1] entitydata if score @s owner = @e[tag=magic10tmp,limit=1] markerid run scoreboard players set $tmp tmp 1
 execute if score $tmp tmp matches 1 run return run tag @s remove magic10victim
 
 #ここからHIT判定
@@ -32,6 +31,5 @@ execute if score @s mp matches ..0 run scoreboard players set @s mp 0
 function damage:atkercheck
 
 #ダメージct召喚
-execute if entity @s[type=player] summon marker run function items:skills/magic/10/damagectplayer
-execute if entity @s[type=!player] summon marker run function items:skills/magic/10/damagectentity
+execute summon marker run function items:skills/magic/10/damagect
 tag @s remove magic10victim
