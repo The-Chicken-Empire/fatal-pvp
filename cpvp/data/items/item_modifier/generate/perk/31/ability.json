@@ -2,6 +2,9 @@
   "function": "minecraft:set_lore",
   "lore": [
     [
+      ""
+    ],
+    [
       {
         "text": "-- ",
         "color": "white",
@@ -23,6 +26,28 @@
         "text": "死亡時",
         "italic": false,
         "color": "yellow"
+      }
+    ],
+    [
+      {
+        "text":"体力",
+        "italic":false,
+        "color":"red"
+      },
+      {
+        "text":"を最大値の",
+        "italic":false,
+        "color":"white"
+      },
+      {
+        "text":"50%",
+        "italic":false,
+        "color":"gold"
+      },
+      {
+        "text":"だけ回復し、",
+        "italic":false,
+        "color":"white"
       }
     ],
     [
@@ -68,6 +93,38 @@
         "color":"white"
       },
       {
+        "text": "攻撃力",
+        "italic": false,
+        "color": "red"
+      },
+      {
+        "text": "が",
+        "italic": false,
+        "color": "white"
+      },
+      {
+        "text":"[穢血]の値",
+        "italic":false,
+        "color":"light_purple"
+      },
+      {
+        "text":"×5%",
+        "italic":false,
+        "color":"gold"
+      },
+      {
+        "text":"だけ増加。",
+        "italic":false,
+        "color":"white"
+      }
+    ],
+    [
+      {
+        "text": " - ",
+        "italic":false,
+        "color":"white"
+      },
+      {
         "text": "最大体力",
         "italic": false,
         "color": "red"
@@ -88,22 +145,17 @@
         "color": "white"
       },
       {
-        "text": "(",
-        "italic": false,
-        "color": "gold"
-      },
-      {
-        "text":"[穢血]",
+        "text":"[穢血]の値",
         "italic":false,
         "color":"light_purple"
       },
       {
-        "text":"×15)%",
+        "text":"×5",
         "italic":false,
         "color":"gold"
       },
       {
-        "text":"減少。",
+        "text":"だけ減少。",
         "italic":false,
         "color":"white"
       }
@@ -164,6 +216,46 @@
     ],
     [
       {
+        "text":" - ",
+        "italic":false,
+        "color":"white"
+      },
+      {
+        "text":"[穢血]",
+        "italic":false,
+        "color":"light_purple"
+      },
+      {
+        "text":"が",
+        "italic":false,
+        "color":"white"
+      },
+      {
+        "text":"5",
+        "italic":false,
+        "color":"gold"
+      },
+      {
+        "text":"の時、",
+        "italic":false,
+        "color":"white"
+      },
+      {
+        "text":"[花が散る様に。]",
+        "italic":false,
+        "color":"#ffcaca"
+      },
+      {
+        "text":"を発動。",
+        "italic":false,
+        "color":"white"
+      }
+    ],
+    [
+      ""
+    ],
+    [
+      {
         "text":"-- ",
         "italic":false,
         "color":"white"
@@ -181,7 +273,7 @@
     ],
     [
       {
-        "text":" - このスキル発動中、死亡しない。",
+        "text":"このスキル発動中、死亡しない。",
         "italic":false,
         "color":"white"
       } 
@@ -244,30 +336,6 @@
     ],
     [
       {
-        "text":"[穢血]",
-        "italic":false,
-        "color":"light_purple"
-      },
-      {
-        "text":"5",
-        "italic":false,
-        "color":"gold"
-      },
-      {
-        "text":"の時に発動すると、",
-        "italic":false,
-        "color":"white"
-      }
-    ],
-    [
-      {
-        "text":"より巨大な剣を1本追加で落とす。",
-        "italic":false,
-        "color":"white"
-      }
-    ],
-    [
-      {
         "text":"スキル終了時、",
         "italic":false,
         "color":"white"
@@ -275,7 +343,8 @@
       {
         "text":"死亡する。",
         "italic":false,
-        "color":"dark_red"
+        "color":"dark_red",
+        "bold":true
       }
     ],
     [

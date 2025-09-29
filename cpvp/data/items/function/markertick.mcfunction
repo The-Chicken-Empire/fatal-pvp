@@ -84,3 +84,5 @@ execute if entity @s[tag=boots5marker] run function items:skills/boots/5/markert
 execute if entity @s[tag=perk11] run function items:skills/perk/11/markertick
 #perk13
 execute if entity @s[tag=perk13] run function items:skills/perk/13/markertick
+#perk31
+execute if entity @s[tag=perk31.mk1] run function items:skills/perk/31/markertick
