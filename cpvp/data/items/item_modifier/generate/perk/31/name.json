@@ -1,0 +1,10 @@
+{
+  "function": "minecraft:set_name",
+  "name": [
+    {
+      "text": "碧い宝玉",
+      "color": "#00ffea",
+      "italic": false
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+execute at @s run particle minecraft:cherry_leaves ~ ~1 ~ 0.4 0.65 0.4 0 1 force

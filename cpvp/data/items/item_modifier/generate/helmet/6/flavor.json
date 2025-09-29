@@ -3,14 +3,28 @@
   "lore": [
     [
       {
-        "text": "もしかしたら、いつかは感情というものがあったかもしれないですね。",
+        "text": "もしかしたら、いつかは感情というものが",
         "color": "dark_gray",
         "italic": true
       }
     ],
     [
       {
-        "text":"でも、いつの間にか枯れ果てて、目から吐き気を催すような穢れた血が流れ始めたんです。",
+        "text": "あったかもしれないですね。",
+        "color": "dark_gray",
+        "italic": true
+      }
+    ],
+    [
+      {
+        "text":"でも、いつの間にか枯れ果てて、吐き気を",
+        "color":"dark_gray",
+        "italic":true
+      }
+    ],
+    [
+      {
+        "text":"催すような穢れた血が流れ始めたんです。",
         "color":"dark_gray",
         "italic":true
       }
