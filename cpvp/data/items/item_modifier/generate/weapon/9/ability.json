@@ -18,8 +18,9 @@
         "italic": false
       }
     ],
-    [{"text":"この武器でダメージを与えた時、","color":"white","italic": false},{"text":"[翼]","color":"yellow","italic": false},{"text":"を1得、","color":"white","italic":false}],
-    [{"text":"与ダメージの25%分だけ体力を回復する。","color":"white","italic": false}],
+    [{"text":"この武器でダメージを与える時、","color":"white","italic": false}],
+    [{"text":"緩衝体力","color":"gold","italic": false},{"text":"を保持する相手に2倍のダメージを与え、","color":"white","italic": false}],
+    [{"text":"与ダメージの25%分だけ","color":"white","italic": false},{"text":"HP","color":"red","italic": false},{"text":"を回復する。","color":"white","italic": false}],
     [{"text":""}],
     [
       {
@@ -89,7 +90,7 @@
         "italic": false
       },
       {
-        "text": "2×8",
+        "text": "2.5×8",
         "color": "gold",
         "italic": false
       },
@@ -149,137 +150,8 @@
         "color": "white",
         "italic": false
       }
-    ],
-        [{"text":""}],
-    [
-      {
-        "text": "-- ",
-        "color": "white",
-        "italic": false
-      },
-      {
-        "text": "迅円槍・オービタル",
-        "color": "red",
-        "italic": false
-      },
-      {
-        "text": " --",
-        "color": "white",
-        "italic": false
-      }
-    ],
-    [
-      {
-        "text": "スニーク＋右クリック",
-        "italic": false,
-        "color":"yellow"
-      }
-    ],
-    [
-      {
-        "text": "消費MP",
-        "italic": false,
-        "color":"blue"
-      },
-      {
-        "text": " : ",
-        "italic": false,
-        "color":"white"
-      },
-      {
-        "text": "10 ",
-        "italic": false,
-        "color":"green"
-      },
-      {
-        "text": "クールタイム",
-        "italic": false,
-        "color":"dark_aqua"
-      },
-      {
-        "text": " : ",
-        "italic": false,
-        "color":"white"
-      },
-      {
-        "text": "12秒",
-        "italic": false,
-        "color":"green"
-      },
-      {
-        "text": " [翼]",
-        "italic": false,
-        "color":"yellow"
-      },
-      {
-        "text": " : ",
-        "italic": false,
-        "color":"white"
-      },
-      {
-        "text": "15",
-        "italic": false,
-        "color":"green"
-      }
-    ],
-    [
-      {
-        "text": "ダメージ",
-        "color": "red",
-        "italic": false
-      },
-      {
-        "text": " : ",
-        "color": "white",
-        "italic": false
-      },
-      {
-        "text": "5",
-        "color": "gold",
-        "italic": false
-      },
-      {
-        "text": " - ",
-        "color": "white",
-        "italic": false
-      },
-      {
-        "text": "物理",
-        "color": "gold",
-        "italic": false
-      },
-      {
-        "text": "/",
-        "color": "white",
-        "italic": false
-      },
-      {
-        "text": "遠距離",
-        "color": "blue",
-        "italic": false
-      }
-    ],
-    [
-      {
-        "text": "槍を複製して投擲する。",
-        "color": "white",
-        "italic": false
-      }
-    ],
-    [
-      {
-        "text": "槍は自身の周囲を周回し、接触したものを裁断する。",
-        "color": "white",
-        "italic": false
-      }
-    ],
-    [
-      {
-        "text": "5回攻撃した時、消滅する。",
-        "color": "white",
-        "italic": false
-      }
     ]
+
   ],
   "mode": "append"
 }

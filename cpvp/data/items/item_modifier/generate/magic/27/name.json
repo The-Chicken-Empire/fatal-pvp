@@ -1,0 +1,10 @@
+{
+  "function": "minecraft:set_name",
+  "name": [
+    {
+      "text": "アンチマジックフィールド",
+      "color": "light_purple",
+      "italic": false
+    }
+  ]
+}

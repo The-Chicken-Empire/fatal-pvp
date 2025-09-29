@@ -2,8 +2,8 @@
   "function": "minecraft:set_name",
   "name": [
     {
-      "text": "スプラッシュボム",
-      "color": "white",
+      "text": "天罰",
+      "color": "yellow",
       "italic": false
     }
   ]

@@ -114,6 +114,12 @@ execute if score @s stats_modifier.multexist matches 1 run function system:stats
 #statscalc2trigger
 function items:triggers/statscalc2/check
 
+##固有item処理
+#perk3MP固定0
+execute if items entity @s hotbar.* *[custom_data~{cpvp:{id:3b,item_type:"perk"}}] run scoreboard players operation @s maxmp *= $0 main
+execute if items entity @s inventory.* *[custom_data~{cpvp:{id:3b,item_type:"perk"}}] run scoreboard players operation @s maxmp *= $0 main
+execute if items entity @s weapon.offhand *[custom_data~{cpvp:{id:3b,item_type:"perk"}}] run scoreboard players operation @s maxmp *= $0 main
+
 #speed処理
 execute store result storage cpvp:stats speed float 0.001 run scoreboard players get @s speed
 function stats:speed with storage cpvp:stats

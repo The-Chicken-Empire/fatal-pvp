@@ -1,4 +1,5 @@
 summon minecraft:armor_stand 0 -60 0 {Tags:[border_marker]}
+scoreboard players set $timer main -1
 spreadplayers 0 0 0 55 true @e[tag=border_marker]
 execute at @e[tag=border_marker] run worldborder center ~ ~
 worldborder set 150 0

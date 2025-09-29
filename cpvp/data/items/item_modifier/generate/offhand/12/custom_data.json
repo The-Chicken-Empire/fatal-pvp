@@ -1,0 +1,18 @@
+{
+  "function": "minecraft:set_custom_data",
+  "tag": {
+    "cpvp": {
+      "cost": 4,
+      "id": 12,
+      "item_type": "offhand",
+      "offhand": {
+        "stats": {
+          "bonusattackspeed": 20
+        },
+        "triggers": ["tick","unequip"]
+      },
+      "regularitem": 1,
+      "classitem": 0
+    }
+  }
+}

@@ -43,7 +43,6 @@ execute if score $phase main matches 1..3 run function system:timer/timer
 execute if score $phase main matches 1 run function system:phase/phase1/phase1
 execute if score $phase main matches 2 run function system:phase/phase2/phase2
 execute if score $phase main matches 3 run function system:phase/phase3/phase3
-execute if score $phase main matches 3 if score $ifstar settings matches 1 if score $nostar main matches 0 run function system:phase/phase3/startimer
 
 #criticalstar使用中
 execute as @a[predicate=cstar:cstarcharge] run function cstar:cstarcharge
@@ -83,12 +82,12 @@ execute as @a run function effects:system/tick/
 
 # アイテム系
 function items:tick
-scoreboard players set @a using 0
 # スキル用marker用score
 execute if entity @e[tag=skillmarker,limit=1] as @e[tag=skillmarker] run scoreboard players add @s skills 1
 # スキルmarker用tickファイル
 execute if entity @e[tag=skillmarker,limit=1] as @e[tag=skillmarker] at @s run function items:markertick
-
+# スキルtick
+function items:skills/tick
 
 #actionbar
 execute as @a run function system:actionbar/
@@ -111,3 +110,4 @@ item replace entity @a player.crafting.3 with air 1
 
 #reset系
 advancement revoke @a[advancements={system:projectile=true}] only system:projectile
+scoreboard players set @a using 0

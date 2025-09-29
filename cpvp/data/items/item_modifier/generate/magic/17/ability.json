@@ -8,7 +8,7 @@
         "italic": false
       },
       {
-        "text": "オーバーロードエグゼキューション",
+        "text": "イグザルテッドセラフィエル",
         "color": "red",
         "italic": false
       },
@@ -37,7 +37,7 @@
         "color":"white"
       },
       {
-        "text": "3/6 ",
+        "text": "6 ",
         "italic": false,
         "color":"green"
       },
@@ -52,7 +52,7 @@
         "color":"white"
       },
       {
-        "text": "3/6秒",
+        "text": "6秒",
         "italic": false,
         "color":"green"
       }
@@ -69,7 +69,7 @@
         "italic": false
       },
       {
-        "text": "2.3×3/2×4",
+        "text": "2×3/2×4",
         "color": "gold",
         "italic": false
       },
@@ -91,14 +91,6 @@
       {
         "text": "遠距離",
         "color": "blue",
-        "italic": false
-      }
-    ],
-    [
-      {"text":"[翼]","color":"yellow","italic": false},
-      {
-        "text": "が30以下の時、消費MPとCTが大きく減少する。",
-        "color": "white",
         "italic": false
       }
     ],
@@ -122,161 +114,8 @@
         "color": "white",
         "italic": false
       }
-    ],
-    [
-      {
-        "text": "このスキルでダメージを与えた時、",
-        "color": "white",
-        "italic": false
-      },
-      {
-        "text": "翼",
-        "color": "yellow",
-        "italic": false
-      },
-      {
-        "text": "を得る。",
-        "color": "white",
-        "italic": false
-      }
-    ],
-    
-    [
-      {
-        "text": "",
-        "color": "white",
-        "italic": false
-      }
-    ],
-    [
-      {
-        "text": "-- ",
-        "color": "white",
-        "italic": false
-      },
-      {
-        "text": "イグザルテッドセラフィエル・エンボヂメントオブジエンドオブアポカリプス",
-        "color": "dark_red",
-        "italic": false
-      },
-      {
-        "text": " --",
-        "color": "white",
-        "italic": false
-      }
-    ],
-    [
-      {
-        "text": "スニーク+右クリック",
-        "italic": false,
-        "color":"yellow"
-      }
-    ],
-    [
-      {
-        "text": "消費MP",
-        "italic": false,
-        "color":"blue"
-      },
-      {
-        "text": " : ",
-        "italic": false,
-        "color":"white"
-      },
-      {
-        "text": "15 ",
-        "italic": false,
-        "color":"green"
-      },
-      {
-        "text": "クールタイム",
-        "italic": false,
-        "color":"dark_aqua"
-      },
-      {
-        "text": " : ",
-        "italic": false,
-        "color":"white"
-      },
-      {
-        "text": "15秒",
-        "italic": false,
-        "color":"green"
-      }
-    ],
-    [
-      {
-        "text": "ダメージ",
-        "color": "red",
-        "italic": false
-      },
-      {
-        "text": " : ",
-        "color": "white",
-        "italic": false
-      },
-      {
-        "text": "0.25~4x10~160",
-        "color": "gold",
-        "italic": false
-      },
-      {
-        "text": " - ",
-        "color": "white",
-        "italic": false
-      },
-      {
-        "text": "物理",
-        "color": "gold",
-        "italic": false
-      },
-      {
-        "text": "/",
-        "color": "white",
-        "italic": false
-      },
-      {
-        "text": "遠距離",
-        "color": "blue",
-        "italic": false
-      }
-    ],
-    [
-      {
-        "text": "翼",
-        "color": "yellow",
-        "italic": false
-      },
-      {
-        "text": "を全消費し、銃身をキャノンに変化させ、",
-        "color": "white",
-        "italic": false
-      }
-    ],
-    [
-      {
-        "text": "軌跡の上にあるものを焼身へと帰す光線を放つ。",
-        "color": "white",
-        "italic": false
-      }
-    ],
-    [
-      {
-        "text": "消費した",
-        "color": "white",
-        "italic": false
-      },
-      {
-        "text": "翼",
-        "color": "yellow",
-        "italic": false
-      },
-      {
-        "text": "の4乗に比例して攻撃力と持続時間が延びる。",
-        "color": "white",
-        "italic": false
-      }
     ]
+
   ],
   "mode": "append"
 }

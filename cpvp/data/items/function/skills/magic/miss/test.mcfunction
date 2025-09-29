@@ -1,0 +1,1 @@
+data modify entity @s block_state set value {Name:"fire"}
