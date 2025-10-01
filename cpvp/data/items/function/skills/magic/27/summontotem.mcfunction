@@ -10,7 +10,7 @@ data modify entity @s NoAI set value 1b
 data modify entity @s Silent set value 1b
 data modify entity @s IsBaby set value 0b
 
-attribute @s max_health base set 15
+attribute @s max_health base set 25
 
 function system:initialize
 
