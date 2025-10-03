@@ -46,6 +46,12 @@ execute if entity @s[tag=magic16-3] run function items:skills/magic/16/markertic
 execute if entity @s[tag=magic19] run function items:skills/magic/19/markertick
 #21
 execute if entity @s[tag=magic21] at @s run function items:skills/magic/21/skill2/tick
+#23
+execute if entity @s[tag=magic23center] if score @s skills matches 25.. run kill @s
+execute if entity @s[tag=magic23core] run function items:skills/magic/23/markertick
+execute if entity @s[tag=magic23fp] run function items:skills/magic/23/markertick2
+execute if entity @s[tag=magic23sfcore] run function items:skills/magic/23/markertick3
+execute if entity @s[tag=magic23sf] run function items:skills/magic/23/markertick4
 #24
 execute if entity @s[tag=magic24] at @s run function items:skills/magic/24/skill1/tick
 #25
