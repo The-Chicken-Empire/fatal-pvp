@@ -8,8 +8,8 @@
         "italic": false
       },
       {
-        "text": "ここにability名",
-        "color": "white",
+        "text": "Absolute-0",
+        "color": "#77faff",
         "italic": false
       },
       {
@@ -20,23 +20,185 @@
     ],
     [
       {
-        "text": "発動検知",
+        "text": "右クリック",
         "italic": false,
         "color": "yellow"
       }
     ],
     [
       {
-        "text": "cost",
+        "text": "消費MP",
         "italic": false,
-        "color": "white"
+        "color":"blue"
+      },
+      {
+        "text": " : ",
+        "italic": false,
+        "color":"white"
+      },
+      {
+        "text": "16 ",
+        "italic": false,
+        "color":"green"
+      },
+      {
+        "text": "クールタイム",
+        "italic": false,
+        "color":"dark_aqua"
+      },
+      {
+        "text": " : ",
+        "italic": false,
+        "color":"white"
+      },
+      {
+        "text": "14秒",
+        "italic": false,
+        "color":"green"
       }
     ],
     [
       {
-        "text": "内容",
-        "italic": false,
-        "color": "white"
+        "text": "ダメージ",
+        "color": "red",
+        "italic": false
+      },
+      {
+        "text": " : ",
+        "color": "white",
+        "italic": false
+      },
+      {
+        "text": "0",
+        "color": "gold",
+        "italic": false
+      },
+      {
+        "text": " - ",
+        "color": "white",
+        "italic": false
+      },
+      {
+        "text": "魔法",
+        "color": "dark_purple",
+        "italic": false
+      },
+      {
+        "text": "/",
+        "color": "white",
+        "italic": false
+      },
+      {
+        "text": "近距離",
+        "color": "red",
+        "italic": false
+      }
+    ],
+    [
+      {
+        "text": "自身の周囲10m以内の敵に",
+        "color": "white",
+        "italic": false
+      }
+    ],
+    [
+      {
+        "text": "[凍結:lv2]",
+        "color": "aqua",
+        "italic": false
+      },
+      {
+        "text": "を",
+        "color": "white",
+        "italic": false
+      },
+      {
+        "text": "8秒付与する",
+        "color": "white",
+        "italic": false
+      }
+    ],
+    [
+      {
+        "text": "対象が",
+        "color": "white",
+        "italic": false
+      },
+      {
+        "text": "[火傷]",
+        "color": "gold",
+        "italic": false
+      },
+      {
+        "text": "デバフを受けている場合的中しない",
+        "color": "white",
+        "italic": false
+      }
+    ],
+    [
+      {
+        "text": "対象が",
+        "color": "white",
+        "italic": false
+      },
+      {
+        "text": "[凍結]",
+        "color": "aqua",
+        "italic": false
+      },
+      {
+        "text": "デバフを受けている場合",
+        "color": "white",
+        "italic": false
+      }
+    ],
+    [
+      {
+        "text": "1lv毎にダメージが",
+        "color": "white",
+        "italic": false
+      },
+      {
+        "text": "5",
+        "color": "gold",
+        "italic": false
+      },
+      {
+        "text": "増加し、",
+        "color": "white",
+        "italic": false
+      }
+    ],
+    [
+      {
+        "text": "(凍結lv×4)%",
+        "color": "yellow",
+        "italic": false
+      },
+      {
+        "text": "の確率で対象の",
+        "color": "white",
+        "italic": false
+      },
+      {
+        "text": "体力",
+        "color": "red",
+        "italic": false
+      },
+      {
+        "text": "を",
+        "color": "white",
+        "italic": false
+      },
+      {
+        "text": "0",
+        "color": "gold",
+        "italic": false
+      },
+      {
+        "text": "にする",
+        "color": "white",
+        "italic": false
       }
     ],
     [

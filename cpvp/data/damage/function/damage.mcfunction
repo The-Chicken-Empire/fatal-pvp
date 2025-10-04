@@ -7,6 +7,10 @@ scoreboard players set @s afterdamage -1
 execute if score @s absorption matches 1.. run function damage:absorption
 #体力減少
 scoreboard players operation @s hp -= @s damagepoint
+
+##特殊処理 magic39 体力を0にする
+execute if entity @s[tag=magic39frostbite] run function items:skills/magic/39/frostbite
+
 #テキスト表示
 execute at @s summon text_display run function damage:damagetext/summontext
 #デコイ処理

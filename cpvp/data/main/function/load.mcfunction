@@ -89,6 +89,7 @@ scoreboard players set $9 main 9
 scoreboard players set $10 main 10
 scoreboard players set $20 main 20
 scoreboard players set $23 main 23
+scoreboard players set $50 main 50
 scoreboard players set $200 main 200
 scoreboard players set $400 main 400
 scoreboard players set $100 main 100
