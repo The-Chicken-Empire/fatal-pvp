@@ -8,8 +8,8 @@
         "italic": false
       },
       {
-        "text": "ここにability名",
-        "color": "white",
+        "text": "さようなら、さようなら",
+        "color": "dark_red",
         "italic": false
       },
       {
@@ -20,21 +20,76 @@
     ],
     [
       {
-        "text": "発動検知",
+        "text": "右クリック",
         "italic": false,
         "color": "yellow"
       }
     ],
     [
       {
-        "text": "cost",
+        "text": "消費MP",
         "italic": false,
-        "color": "white"
+        "color":"blue"
+      },
+      {
+        "text": " : ",
+        "italic": false,
+        "color":"white"
+      },
+      {
+        "text": "7 ",
+        "italic": false,
+        "color":"green"
+      },
+      {
+        "text": "クールタイム",
+        "italic": false,
+        "color":"dark_aqua"
+      },
+      {
+        "text": " : ",
+        "italic": false,
+        "color":"white"
+      },
+      {
+        "text": "8秒",
+        "italic": false,
+        "color":"green"
       }
     ],
     [
       {
-        "text": "内容",
+        "text": "自身の",
+        "italic": false,
+        "color": "white"
+      },
+      {
+        "text": "緩衝体力",
+        "italic": false,
+        "color": "gold"
+      },
+      {
+        "text": "を削除し、",
+        "italic": false,
+        "color": "white"
+      },
+      {
+        "text": "HP",
+        "italic": false,
+        "color": "red"
+      },
+      {
+        "text": "を",
+        "italic": false,
+        "color": "white"
+      },
+      {
+        "text": "0.1",
+        "italic": false,
+        "color": "gold"
+      },
+      {
+        "text": "にする",
         "italic": false,
         "color": "white"
       }
