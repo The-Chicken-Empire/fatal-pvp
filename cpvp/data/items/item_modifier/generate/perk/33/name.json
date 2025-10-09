@@ -2,8 +2,8 @@
   "function": "minecraft:set_name",
   "name": [
     {
-      "text": "ツァルグナハト",
-      "color": "white",
+      "text": "ツァルグライザ",
+      "color": "#004ddd",
       "italic": false
     }
   ]

@@ -65,6 +65,7 @@ gamerule waterSourceConversion false
 scoreboard objectives add entitydata dummy
 execute unless score $base entitydata matches -2147483648..2147483647 run scoreboard players set $base entitydata 1
 scoreboard objectives add tmp dummy
+scoreboard objectives add tmp2 dummy
 scoreboard objectives add ID dummy
 execute unless score $init ID matches -2147483648..2147483647 run scoreboard players set $init ID 0
 scoreboard objectives add settings dummy

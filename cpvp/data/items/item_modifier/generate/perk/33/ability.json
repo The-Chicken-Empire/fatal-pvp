@@ -8,8 +8,8 @@
         "italic": false
       },
       {
-        "text": "ここにability名",
-        "color": "white",
+        "text": "夢を諦めない為に",
+        "color": "#006ec9",
         "italic": false
       },
       {
@@ -20,21 +20,78 @@
     ],
     [
       {
-        "text": "発動検知",
+        "text": "攻撃的中時",
         "italic": false,
         "color": "yellow"
       }
     ],
     [
       {
-        "text": "cost",
+        "text": "近距離攻撃時",
+        "italic": false,
+        "color": "red"
+      },
+      {
+        "text": "、攻撃対象の",
+        "italic": false,
+        "color": "white"
+      },
+      {
+        "text": "HP",
+        "italic": false,
+        "color": "red"
+      },
+      {
+        "text": "が",
+        "italic": false,
+        "color": "white"
+      },
+      {
+        "text": "70%",
+        "italic": false,
+        "color": "yellow"
+      },
+      {
+        "text": "以上の場合、",
         "italic": false,
         "color": "white"
       }
     ],
     [
       {
-        "text": "内容",
+        "text": "与えるダメージが",
+        "italic": false,
+        "color": "white"
+      },
+      {
+        "text": "30%",
+        "italic": false,
+        "color": "yellow"
+      },
+      {
+        "text": "上昇し、",
+        "italic": false,
+        "color": "white"
+      }
+    ],
+    [
+      {
+        "text": "緩衝体力",
+        "italic": false,
+        "color": "gold"
+      },
+      {
+        "text": "を",
+        "italic": false,
+        "color": "white"
+      },
+      {
+        "text": "2",
+        "italic": false,
+        "color": "gold"
+      },
+      {
+        "text": "追加する。(最大20)",
         "italic": false,
         "color": "white"
       }
