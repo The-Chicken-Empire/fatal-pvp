@@ -1,0 +1,10 @@
+{
+  "function": "minecraft:set_name",
+  "name": [
+    {
+      "text": "ヘルスデリーター",
+      "color": "white",
+      "italic": false
+    }
+  ]
+}
