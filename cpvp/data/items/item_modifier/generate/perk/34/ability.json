@@ -8,8 +8,8 @@
         "italic": false
       },
       {
-        "text": "ここにability名",
-        "color": "white",
+        "text": "『禁忌』",
+        "color": "#83001c",
         "italic": false
       },
       {
@@ -20,21 +20,41 @@
     ],
     [
       {
-        "text": "発動検知",
+        "text": "被攻撃時",
         "italic": false,
         "color": "yellow"
       }
     ],
     [
       {
-        "text": "cost",
+        "text": "受けたダメージが",
+        "italic": false,
+        "color": "white"
+      },
+      {
+        "text": "10",
+        "italic": false,
+        "color": "yellow"
+      },
+      {
+        "text": "以上だった場合、",
         "italic": false,
         "color": "white"
       }
     ],
     [
       {
-        "text": "内容",
+        "text": "攻撃主に",
+        "italic": false,
+        "color": "white"
+      },
+      {
+        "text": "[破滅:lv3]",
+        "italic": false,
+        "color": "dark_purple"
+      },
+      {
+        "text": "を15秒付与する。",
         "italic": false,
         "color": "white"
       }

@@ -3,14 +3,77 @@
   "lore": [
     [
       {
-        "text": "ここにフレーバーテキストを書く",
+        "text": "「流石に..気になるんだが、運んでるこれはなんなんだ？」",
         "color": "dark_gray",
         "italic": true
       }
     ],
     [
       {
-        "text": "ここは2行目",
+        "text": "「聞いた話だと石板らしいぜ？何が書いてあるかは知らねえがな」",
+        "color": "dark_gray",
+        "italic": true
+      }
+    ],
+    [
+      {
+        "text": "「気にならないのか？」",
+        "color": "dark_gray",
+        "italic": true
+      }
+    ],
+    [
+      {
+        "text": "「別に。俺はあまり興味がねえ...見たいのか？」",
+        "color": "dark_gray",
+        "italic": true
+      }
+    ],
+    [
+      {
+        "text": "「ただ運ぶだけでこんなにも金が貰える物なんだぞ？...気になるだろ」",
+        "color": "dark_gray",
+        "italic": true
+      }
+    ],
+    [
+      {
+        "text": "「見たいなら一人で見ろよ。俺は知らねえ」",
+        "color": "dark_gray",
+        "italic": true
+      }
+    ],
+    [
+      {
+        "text": "「...」",
+        "color": "dark_gray",
+        "italic": true
+      }
+    ],
+    [
+      {
+        "text": "「...あァ..a? ...■■kA..?.. ... . . .■■■■」",
+        "color": "dark_gray",
+        "italic": true
+      }
+    ],
+    [
+      {
+        "text": "「おいどうした？何が",
+        "color": "dark_gray",
+        "italic": true
+      }
+    ],
+    [
+      {
+        "text": "「■■■■■■■ ■■■■ ■■■■ ■■■■■■■■■■」",
+        "color": "#■■■■■■■■",
+        "italic": true
+      }
+    ],
+    [
+      {
+        "text": "[記録終了]",
         "color": "dark_gray",
         "italic": true
       }
