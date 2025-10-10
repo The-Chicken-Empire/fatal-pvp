@@ -4,7 +4,7 @@
 #
 # @within damage:damage
 
-#『滅亡』デバフによるトリガー無視処理
+#『破滅』デバフによるトリガー無視処理
 function effects:system/pick/ {id:44}
 execute store result score $tmpeffect44 tmp run data get storage effect: targeteffect.level
 scoreboard players operation $tmpeffect44 tmp *= $20 main
