@@ -46,5 +46,5 @@ execute if score $tmp random matches 1.. run scoreboard players remove $tmp rand
 scoreboard players reset $tmp random
 
 execute at @s unless block ~ ~ ~ #main:air run return run function items:skills/magic/23/callfirepiller
-
+scoreboard players reset $magic23tmp tmp
 execute at @s positioned ~ ~4 ~ summon item_display run function items:skills/magic/23/summonsoulpiller
