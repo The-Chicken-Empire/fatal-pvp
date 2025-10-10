@@ -3,14 +3,21 @@
   "lore": [
     [
       {
-        "text": "ここにフレーバーテキストを書く",
+        "text": "こ、こんなのお侍さんの戦い方じゃない！！",
         "color": "dark_gray",
         "italic": true
       }
     ],
     [
       {
-        "text": "ここは2行目",
+        "text": "フフ...私はお侍ではありませんからね",
+        "color": "dark_gray",
+        "italic": true
+      }
+    ],
+    [
+      {
+        "text": "ドーモ、オサムライ=サン、ニンジャ......です",
         "color": "dark_gray",
         "italic": true
       }
