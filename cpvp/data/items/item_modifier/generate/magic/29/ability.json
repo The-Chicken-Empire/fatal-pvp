@@ -1,0 +1,89 @@
+{
+  "function": "minecraft:set_lore",
+  "lore": [
+    [
+      {
+        "text": "-- ",
+        "color": "white",
+        "italic": false
+      },
+      {
+        "text": "絡みゆく茨",
+        "color": "dark_green",
+        "italic": false
+      },
+      {
+        "text": " --",
+        "color": "white",
+        "italic": false
+      }
+    ],
+    [
+      {
+        "text": "右クリック",
+        "italic": false,
+        "color": "yellow"
+      }
+    ],
+    [
+      {
+        "text": "消費MP",
+        "italic": false,
+        "color": "blue"
+      },
+      {
+        "text": " : ",
+        "italic": false,
+        "color": "white"
+      },
+      {
+        "text": "8",
+        "italic": false,
+        "color": "green"
+      },
+      {
+        "text":" クールタイム",
+        "italic": false,
+        "color": "dark_aqua"
+      },
+      {
+        "text": " : ",
+        "italic": false,
+        "color": "white"
+      },
+      {
+        "text": "11秒",
+        "italic": false,
+        "color": "green"
+      }
+    ],
+    [
+      {
+        "text": "前方三方向に、高速で成長する茨を放つ。",
+        "italic": false,
+        "color": "white"
+      }
+    ],
+    [
+      {
+        "text": "的中時、対象に",
+        "italic": false,
+        "color": "white"
+      },
+      {
+        "text": "[移動速度低下:lv3]",
+        "italic": false,
+        "color": "dark_aqua"
+      },
+      {
+        "text": "を4秒付与する。",
+        "italic":false,
+        "color": "white"
+      }
+    ],
+    [
+      ""
+    ]
+  ],
+  "mode": "append"
+}

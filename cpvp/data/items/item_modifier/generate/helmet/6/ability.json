@@ -23,17 +23,12 @@
     ],
     [
       {
-        "text": "常時発動",
+        "text": "味方死亡時",
         "italic": false,
         "color":"yellow"
       }
     ],
     [
-      {
-        "text": "味方死亡時、",
-        "color": "white",
-        "italic": false
-      },
       {
         "text": "最大体力",
         "color": "red",
@@ -67,7 +62,7 @@
     ],
     [
       {
-        "text":" - この時、最後の味方が死亡した場合",
+        "text":" - 最後の味方が死亡した場合",
         "color":"white",
         "italic":false
       },
@@ -80,23 +75,6 @@
         "text":"を得る。",
         "color":"white",
         "italic":false
-      }
-    ],
-    [
-      {
-        "text": "戦闘していない状態が続くと、自身が",
-        "color": "white",
-        "italic": false
-      },
-      {
-        "text": "流れ出る汚血",
-        "color": "dark_red",
-        "italic": false
-      },
-      {
-        "text": "を2ずつ得る。",
-        "color": "white",
-        "italic": false
       }
     ],
     [""],
@@ -171,7 +149,7 @@
         "italic":false
       },
       {
-        "text":"に変化する。",
+        "text":"に変化。",
         "color":"white",
         "italic":false
       }
@@ -188,65 +166,7 @@
         "italic":false
       },
       {
-        "text":"の味方死亡時回復効果の条件が、敵討伐時となる。",
-        "color":"white",
-        "italic":false
-      }
-    ],
-    [
-      {
-        "text":"流れ出る汚血",
-        "color":"dark_red",
-        "italic":false
-      },
-      {
-        "text":"：",
-        "color":"white",
-        "italic":false
-      }
-    ],
-    [
-      {
-        "text":" - ",
-        "color":"white",
-        "italic":false
-      },
-      {
-        "text":"最大値：20",
-        "color":"gold",
-        "italic":false
-      }
-    ],
-    [
-      {
-        "text":" - 次に攻撃をする、もしくはスキルを使用すると、数値だけ",
-        "color":"white",
-        "italic":false
-      },
-      {
-        "text":"ダメージ",
-        "color":"red",
-        "italic":false
-      },
-      {
-        "text":"を受ける。",
-        "color":"white",
-        "italic":false
-      }
-    ],
-    [
-      {
-        "text":" - ",
-        "color":"white",
-        "italic":false
-      },
-      {
-        "text":"この効果はバフ、及びデバフとして扱われない",
-        "color":"red",
-        "italic":false
-      },
-      {
-        "text":"。",
+        "text":"の回復効果が、敵討伐時発動。",
         "color":"white",
         "italic":false
       }
