@@ -55,7 +55,7 @@ gamerule reducedDebugInfo false
 gamerule sendCommandFeedback true
 gamerule showDeathMessages false
 gamerule snowAccumulationHeight 8
-gamerule spawnChunkRadius 0
+#gamerule spawnChunkRadius 0
 gamerule spectatorsGenerateChunks true
 gamerule tntExplodes false
 gamerule tntExplosionDropDecay false
@@ -301,7 +301,6 @@ scoreboard objectives add offhand7-2 dummy
 scoreboard objectives add perk18 dummy
 scoreboard players set @a perk18 0
 scoreboard players set $perk20 main 0
-
 #perk31用
 scoreboard objectives add tarnished_blood_stage dummy
 
