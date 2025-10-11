@@ -7,6 +7,8 @@ scoreboard players set @s afterdamage -1
 execute if score @s absorption matches 1.. run function damage:absorption
 #体力減少
 scoreboard players operation @s hp -= @s damagepoint
+#テキスト表示
+execute at @s summon text_display run function damage:damagetext/summontext
 #デコイ処理
 execute if entity @s[tag=combatdummy] run function damage:combat_dummy
 #攻撃判定

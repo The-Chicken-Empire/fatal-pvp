@@ -106,6 +106,8 @@ item replace entity @a player.crafting.1 with air 1
 item replace entity @a player.crafting.2 with air 1
 item replace entity @a player.crafting.3 with air 1
 
+#damagetext
+execute as @e[tag=damagetext] at @s run function damage:damagetext/tick
 
 #reset系
 advancement revoke @a[advancements={system:projectile=true}] only system:projectile
