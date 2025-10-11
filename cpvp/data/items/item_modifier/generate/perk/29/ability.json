@@ -1,0 +1,133 @@
+{
+  "function": "minecraft:set_lore",
+  "lore": [
+    [
+      {
+        "text": "-- ",
+        "color": "white",
+        "italic": false
+      },
+      {
+        "text": "備えは万全以上に",
+        "color": "#ff7300",
+        "italic": false
+      },
+      {
+        "text": " --",
+        "color": "white",
+        "italic": false
+      }
+    ],
+    [
+      {
+        "text": "被攻撃時",
+        "italic": false,
+        "color": "yellow"
+      }
+    ],
+    [
+      {
+        "text": "ダメージを受けた時、受けたダメージ分",
+        "italic": false,
+        "color": "white"
+      }
+    ],
+    [
+      {
+        "text": "このアイテムに",
+        "italic": false,
+        "color": "white"
+      },
+      {
+        "text": "[願い]",
+        "italic": false,
+        "color": "light_purple"
+      },
+      {
+        "text": "が貯まる",
+        "italic": false,
+        "color": "white"
+      }
+    ],
+    [
+      {
+        "text": "[願い]",
+        "italic": false,
+        "color": "light_purple"
+      },
+      {
+        "text": "が",
+        "italic": false,
+        "color": "white"
+      },
+      {
+        "text": "77",
+        "italic": false,
+        "color": "yellow"
+      },
+      {
+        "text": "以上貯まっている時に",
+        "italic": false,
+        "color": "white"
+      }
+    ],
+    [
+      {
+        "text": "10",
+        "italic": false,
+        "color": "gold"
+      },
+      {
+        "text": "以上の",
+        "italic": false,
+        "color": "white"
+      },
+      {
+        "text": "物理ダメージ",
+        "italic": false,
+        "color": "gold"
+      },
+      {
+        "text": "を受けた時",
+        "italic": false,
+        "color": "white"
+      }
+    ],
+    [
+      {
+        "text": "[願い]",
+        "italic": false,
+        "color": "light_purple"
+      },
+      {
+        "text": "を",
+        "italic": false,
+        "color": "white"
+      },
+      {
+        "text": "77",
+        "italic": false,
+        "color": "yellow"
+      },
+      {
+        "text": "消費し、ダメージを",
+        "italic": false,
+        "color": "white"
+      },
+      {
+        "text": "0.1倍",
+        "italic": false,
+        "color": "yellow"
+      },
+      {
+        "text": "にする",
+        "italic": false,
+        "color": "white"
+      }
+    ],
+    [
+      ""
+    ]
+  ],
+  "mode": "append"
+}

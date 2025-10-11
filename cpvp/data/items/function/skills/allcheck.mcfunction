@@ -19,12 +19,12 @@ data remove storage cpvp:system skillslot
 execute unless score $check tmp matches 1 run return 0
 scoreboard players reset $check tmp
 #durability
-execute if data storage durabilitycheck trigger store result score $check main run function items:skills/item/durabilitycheck with storage durabilitycheck
-execute unless data storage durabilitycheck trigger run scoreboard players set $check main 1
-execute unless score $check main matches 1 run function items:skills/item/durability0
+execute if data storage durabilitycheck trigger store result score $check tmp run function items:skills/item/durabilitycheck with storage durabilitycheck
+execute unless data storage durabilitycheck trigger run scoreboard players set $check tmp 1
+execute unless score $check tmp matches 1 run function items:skills/item/durability0
 data remove storage durabilitycheck trigger
-execute unless score $check main matches 1 run return 0
-scoreboard players reset $check main
+execute unless score $check tmp matches 1 run return 0
+scoreboard players reset $check tmp
 #MPcheck
 execute store result score $check tmp run function system:skillcostcheck/mpcheck
 execute unless score $check tmp matches 1 run function system:skillcostcheck/mpless

@@ -32,10 +32,16 @@ execute if score $dummy random <= @s agi run function damage:avoid
 execute if score $dummy random <= @s agi run return fail
 tag @s remove unavoidable
 
+##magic25の処理 近接攻撃時の追加
+execute if entity @e[tag=magic25] if entity @e[tag=victim,tag=meleevictim,limit=1] as @e[tag=magic25] if score @s owner = @a[tag=atker,limit=1] playerdata as @e[tag=victim,limit=1] run function items:skills/magic/25/call
+
 #damage2trigger 軽減とか上昇とか
 execute as @e[tag=atker] run function items:triggers/attack2/check
 execute as @e[tag=victim] run function items:triggers/attacked2/check
 execute as @e[tag=atker] run function damage:atktrigger/attack2 with storage atktrigger: hage
+
+##magic27の処理 magicdamage-40%
+execute at @s if entity @e[tag=magic27totem,distance=..15] if entity @s[tag=magicdamagetmp] run scoreboard players remove $damageadd damagecalc 40
 
 #与ダメージ者damage処理
 execute if entity @s[tag=victim,tag=magicdamagetmp] run scoreboard players operation $damagecalcatk damagecalc += @a[tag=atker,limit=1] magicdmg
@@ -99,10 +105,16 @@ scoreboard players operation @s damagetaken /= $10000 main
 execute as @a[tag=atker] if items entity @s armor.head golden_hoe[minecraft:custom_data~{cpvp:{id:4b}}] at @s if entity @e[tag=victim,distance=15..] run function items:skills/helmet/4/atk
 ##offhand11の効果 k倍 (kは0以上の実数)
 execute as @a[tag=atker] if items entity @s weapon.offhand end_crystal[minecraft:custom_data~{cpvp:{id:11b}}] if items entity @s weapon.offhand end_crystal[minecraft:custom_data~{cpvp:{item_type:"offhand"}}] run function items:skills/offhand/11/atk
+##perk29の効果 ダメージ10以上の時0.1倍
+execute as @a[tag=victim] if score @s damagetaken matches 100.. if entity @s[tag=physicaldamagetmp] if items entity @s hotbar.* *[minecraft:custom_data~{cpvp:{id:29b,item_type:"perk"}}] run function items:skills/perk/29/check
 ##perk19の火力を固定で下げる効果(結構下の方に置いといてね...)
 execute if score @s damagetaken matches 150.. if entity @s[tag=perk19] at @s run function items:skills/perk/19/active
+##perk27の効果 ダメージ上限1d100
+execute as @a[tag=victim] if items entity @s hotbar.* *[minecraft:custom_data~{cpvp:{id:27b,item_type:"perk"}}] run function items:skills/perk/27/active
 ##perk8の効果 ダメージ上限5
 execute as @a[tag=atker] if items entity @s hotbar.* *[minecraft:custom_data~{cpvp:{id:8b,item_type:"perk"}}] run function items:skills/perk/8/attacked
+##perk28の効果 ダメージ上限4
+execute as @a[tag=atker] if items entity @s hotbar.* *[minecraft:custom_data~{cpvp:{id:28b,item_type:"perk"}}] run function items:skills/perk/28/attack
 ##weapon1の効果 ダメージをMP減少に変換
 execute as @a[tag=atker] if items entity @s weapon.mainhand *[minecraft:custom_data~{cpvp:{id:1b,item_type:"weapon"}}] run function items:skills/weapon/1/attack
 
