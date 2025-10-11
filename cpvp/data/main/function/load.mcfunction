@@ -55,7 +55,7 @@ gamerule reducedDebugInfo false
 gamerule sendCommandFeedback true
 gamerule showDeathMessages false
 gamerule snowAccumulationHeight 8
-gamerule spawnChunkRadius 0
+#gamerule spawnChunkRadius 0
 gamerule spectatorsGenerateChunks true
 gamerule tntExplodes false
 gamerule tntExplosionDropDecay false
