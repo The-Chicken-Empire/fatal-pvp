@@ -1,0 +1,10 @@
+{
+  "function": "minecraft:set_name",
+  "name": [
+    {
+      "text": "砕ける定めの火砲",
+      "color": "white",
+      "italic": false
+    }
+  ]
+}
