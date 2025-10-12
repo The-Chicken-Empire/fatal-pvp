@@ -317,6 +317,8 @@ scoreboard objectives add perk29 dummy
 scoreboard players set @a perk29 0
 scoreboard objectives add perk25 dummy
 scoreboard players set @a perk25 0
+scoreboard objectives add perk36 dummy
+scoreboard objectives add perk36ct dummy
 
 
 #buff用

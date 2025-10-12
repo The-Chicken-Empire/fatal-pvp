@@ -23,7 +23,9 @@ tag @s remove meleeentity
 #この辺りに死亡回避処理とか
 execute if score @s hp matches ..0 run function items:triggers/death/check
 #perk30の死亡回避処理
-execute if score @s hp matches ..0 as @a[tag=playing] if score @s teamscore = @e[tag=victim,limit=1] teamscore if items entity @s hotbar.* *[minecraft:custom_data~{cpvp:{id:30b,item_type:"perk"}}] at @s run function items:skills/perk/30/allydeath
+execute if entity @s[type=player] if score @s hp matches ..0 as @a[tag=playing] if score @s teamscore = @e[tag=victim,limit=1] teamscore if items entity @s hotbar.* *[minecraft:custom_data~{cpvp:{id:30b,item_type:"perk"}}] at @s run function items:skills/perk/30/allydeath
+#perk36の死亡回避処理
+execute if entity @s[type=player] if score @s hp matches ..0 as @a[tag=playing,tag=alive] unless score @s perk36ct matches 1.. if score @s perk36 = @e[tag=victim,limit=1] playerdata unless score @s playerdata = @e[tag=victim,limit=1] perk36 if items entity @s hotbar.* *[minecraft:custom_data~{cpvp:{id:36b,item_type:"perk"}}] at @s run function items:skills/perk/36/s2/
 #reset
 scoreboard players operation $tmp getdamage = @s damagepoint
 scoreboard players set @s damagepoint 0

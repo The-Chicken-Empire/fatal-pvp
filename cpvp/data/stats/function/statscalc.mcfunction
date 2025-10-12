@@ -121,6 +121,11 @@ function items:triggers/statscalc2/check
 execute if items entity @s hotbar.* *[custom_data~{cpvp:{id:3b,item_type:"perk"}}] run scoreboard players operation @s maxmp *= $0 main
 execute if items entity @s inventory.* *[custom_data~{cpvp:{id:3b,item_type:"perk"}}] run scoreboard players operation @s maxmp *= $0 main
 execute if items entity @s weapon.offhand *[custom_data~{cpvp:{id:3b,item_type:"perk"}}] run scoreboard players operation @s maxmp *= $0 main
+#perk36のバフとMP0固定
+execute if items entity @s hotbar.* *[custom_data~{cpvp:{id:36b,item_type:"perk"}}] run function items:skills/perk/36/s3/
+execute if items entity @s inventory.* *[custom_data~{cpvp:{id:36b,item_type:"perk"}}] run function items:skills/perk/36/s3/
+execute if items entity @s weapon.offhand *[custom_data~{cpvp:{id:36b,item_type:"perk"}}] run function items:skills/perk/36/s3/
+
 
 #speed処理
 execute store result storage cpvp:stats speed float 0.001 run scoreboard players get @s speed
