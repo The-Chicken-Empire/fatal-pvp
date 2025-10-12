@@ -105,6 +105,7 @@ function items:triggers/statscalc1/check
 scoreboard players operation @s maxhp += $400 main
 scoreboard players operation @s maxmp += $10000 main
 scoreboard players operation @s mr += $100 main
+scoreboard players operation @s vit += $100 main
 scoreboard players operation @s speed += $100 main
 scoreboard players operation @s bonusattackspeed += $100 main
 
