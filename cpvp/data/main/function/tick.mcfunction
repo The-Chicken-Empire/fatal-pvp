@@ -112,4 +112,5 @@ execute as @e[tag=damagetext] at @s run function damage:damagetext/tick
 
 #reset系
 advancement revoke @a[advancements={system:projectile=true}] only system:projectile
+
 scoreboard players set @a using 0

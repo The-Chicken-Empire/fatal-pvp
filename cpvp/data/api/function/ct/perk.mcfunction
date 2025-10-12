@@ -2,7 +2,7 @@
 
 
 
-data remove storage cpvp: ctcalc 
+
 #statsのCT軽減
 scoreboard players set $tmp tmp 100
 

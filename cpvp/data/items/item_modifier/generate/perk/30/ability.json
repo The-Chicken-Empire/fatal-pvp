@@ -1,0 +1,110 @@
+{
+  "function": "minecraft:set_lore",
+  "lore": [
+    [
+      {
+        "text": "-- ",
+        "color": "white",
+        "italic": false
+      },
+      {
+        "text": "イモータリゼーション",
+        "color": "#c992e9",
+        "italic": false
+      },
+      {
+        "text": " --",
+        "color": "white",
+        "italic": false
+      }
+    ],
+    [
+      {
+        "text": "死亡時/味方死亡時",
+        "italic": false,
+        "color": "yellow"
+      }
+    ],
+    [
+      {
+        "text": "一試合に一度だけ、味方プレイヤーが死亡した時、",
+        "italic": false,
+        "color": "white"
+      }
+    ],
+        [
+      {
+        "text": "その",
+        "italic": false,
+        "color": "white"
+      },
+      {
+        "text": "最大HP",
+        "italic": false,
+        "color": "red"
+      },
+      {
+        "text": "の1/4を回復して復活させる。",
+        "italic": false,
+        "color": "white"
+      }
+    ],
+    [
+      ""
+    ],
+    [
+      {
+        "text": "-- ",
+        "color": "white",
+        "italic": false
+      },
+      {
+        "text": "モータリゼーション",
+        "color": "#ec70dc",
+        "italic": false
+      },
+      {
+        "text": " --",
+        "color": "white",
+        "italic": false
+      }
+    ],
+    [
+      {
+        "text": "被攻撃時",
+        "italic": false,
+        "color": "yellow"
+      }
+    ],
+    [
+      {
+        "text": "クールタイム",
+        "italic": false,
+        "color":"dark_aqua"
+      },
+      {
+        "text": " : ",
+        "italic": false,
+        "color":"white"
+      },
+      {
+        "text": "5秒",
+        "italic": false,
+        "color":"green"
+      }
+    ],
+    [
+      {
+        "text": "HP",
+        "italic": false,
+        "color":"red"
+      },
+      {
+        "text": "を1.5回復する。",
+        "italic": false,
+        "color":"white"
+      }
+    ]
+  ],
+  "mode": "append"
+}

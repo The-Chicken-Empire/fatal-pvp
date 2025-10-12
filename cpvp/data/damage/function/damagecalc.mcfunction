@@ -23,7 +23,7 @@ execute store result score $dummy random run random value 1..100
 
 execute if entity @e[tag=victim,tag=unavoidable] run scoreboard players set $dummy random 10000
 ###身躱しの装衣の処理をここに挟む
-execute if items entity @s armor.chest *[custom_data~{cpvp:{id:6}}] run function items:skills/chestplate/6/
+execute if items entity @s armor.chest *[custom_data~{cpvp:{id:6b}}] run function items:skills/chestplate/6/
 ###
 execute as @a[tag=unavoidable,tag=victim] at @s run playsound block.trial_spawner.ambient_ominous block @s ~ ~ ~ 1 2 1
 execute if score $dummy random <= @s agi at @s run playsound entity.breeze.wind_burst master @a ~ ~ ~ 1 1.5

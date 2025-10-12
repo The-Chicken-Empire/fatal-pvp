@@ -1,4 +1,4 @@
-scoreboard players operation $mr counter = @s mr
+scoreboard players operation $mr counter = @a[tag=healer,limit=1] mr
 #scoreboard players operation $mr counter += $100 main
 execute if score $mr counter matches ..-1 run scoreboard players set $mr counter 0
 scoreboard players operation $mr main *= $mr counter

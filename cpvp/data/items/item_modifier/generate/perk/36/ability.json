@@ -1,0 +1,132 @@
+{
+  "function": "minecraft:set_lore",
+  "lore": [
+    [
+      {
+        "text": "-- ",
+        "color": "white",
+        "italic": false
+      },
+      {
+        "text": "依存",
+        "color": "#eb3d77",
+        "italic": false
+      },
+      {
+        "text": " --",
+        "color": "white",
+        "italic": false
+      }
+    ],
+    [
+      {
+        "text": "ゲーム開始時にランダムな味方一名を対象として指定する。",
+        "italic": false,
+        "color": "white"
+      }
+    ],
+    [
+      ""
+    ],
+    [
+      {
+        "text": "-- ",
+        "color": "white",
+        "italic": false
+      },
+      {
+        "text": "ぼくにかまってよ...",
+        "color": "#eb3d77",
+        "italic": false
+      },
+      {
+        "text": " --",
+        "color": "white",
+        "italic": false
+      }
+    ],
+    [
+      {
+        "text": "対象の死亡時",
+        "italic": false,
+        "color": "yellow"
+      }
+    ],
+    [
+      {
+        "text": "自身から25m以内で対象が死亡する時、超過分だけ自身が固定ダメージを受け、",
+        "italic": false,
+        "color": "white"
+      }
+    ],
+    [
+      {
+        "text": "死亡をなかったことにする。",
+        "italic": false,
+        "color": "white"
+      }
+    ],
+    [
+      {
+        "text": "相互にこの効果は発動しない。",
+        "italic": false,
+        "color": "white"
+      }
+    ],
+    [
+      ""
+    ],
+    [
+      {
+        "text": "-- ",
+        "color": "white",
+        "italic": false
+      },
+      {
+        "text": "あ...ああぁ...あぁあああぁあああ",
+        "color": "#eb3d77",
+        "italic": false
+      },
+      {
+        "text": " --",
+        "color": "white",
+        "italic": false
+      }
+    ],
+    [
+      {
+        "text": "対象がいない場合、",
+        "italic": false,
+        "color": "white"
+      },
+      {
+        "text": "最大MP",
+        "italic": false,
+        "color": "blue"
+      },
+      {
+        "text": "が0になり、",
+        "italic": false,
+        "color": "white"
+      },
+      {
+        "text": "視界が閉ざされ狂暴化する。",
+        "italic": false,
+        "color": "white"
+      }
+    ],
+    [
+      {
+        "text": "この効果は、インベントリ内に存在するだけで発動する。",
+        "italic": false,
+        "bold": true,
+        "color": "yellow"
+      }
+    ],
+    [
+      ""
+    ]
+  ],
+  
+  "mode": "append"
+}
