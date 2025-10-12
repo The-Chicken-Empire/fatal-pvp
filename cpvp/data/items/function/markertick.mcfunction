@@ -29,6 +29,8 @@ execute if entity @s[tag=magic13deletemark] run function items:skills/magic/13/m
 #14
 execute if entity @s[tag=magic14,scores={skills=15..}] run function items:skills/magic/14/markertick
 execute if entity @s[tag=magic14item] run function items:skills/magic/14/markertick2
+execute if entity @s[tag=m14bullet] run function items:skills/magic/14/markertick3
+
 #15
 execute if entity @s[tag=magic15] run function items:skills/magic/15/markertick
 execute if entity @s[tag=magic15-2] run function items:skills/magic/15/markertick2
@@ -44,6 +46,12 @@ execute if entity @s[tag=magic16-3] run function items:skills/magic/16/markertic
 execute if entity @s[tag=magic19] run function items:skills/magic/19/markertick
 #21
 execute if entity @s[tag=magic21] at @s run function items:skills/magic/21/skill2/tick
+#23
+execute if entity @s[tag=magic23center] if score @s skills matches 25.. run kill @s
+execute if entity @s[tag=magic23core] run function items:skills/magic/23/markertick
+execute if entity @s[tag=magic23fp] run function items:skills/magic/23/markertick2
+execute if entity @s[tag=magic23sfcore] run function items:skills/magic/23/markertick3
+execute if entity @s[tag=magic23sf] run function items:skills/magic/23/markertick4
 #24
 execute if entity @s[tag=magic24] at @s run function items:skills/magic/24/skill1/tick
 #25
@@ -105,3 +113,6 @@ execute if entity @s[tag=perk11] run function items:skills/perk/11/markertick
 execute if entity @s[tag=perk13] run function items:skills/perk/13/markertick
 #30
 execute if entity @s[tag=perk30marker] run function items:skills/perk/30/s2/tick
+#perk31
+execute if entity @s[tag=perk31.mk1] run function items:skills/perk/31/markertick
+

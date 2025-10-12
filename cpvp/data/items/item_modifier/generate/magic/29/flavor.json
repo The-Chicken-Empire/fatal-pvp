@@ -1,0 +1,13 @@
+{
+  "function": "minecraft:set_lore",
+  "lore": [
+    [
+      {
+        "text": "生じたしがらみが私を縛り付けて、離してくれない。",
+        "color": "dark_gray",
+        "italic": true
+      }
+    ]
+  ],
+  "mode": "append"
+}

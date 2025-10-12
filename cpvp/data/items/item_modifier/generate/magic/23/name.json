@@ -1,0 +1,10 @@
+{
+  "function": "minecraft:set_name",
+  "name": [
+    {
+      "text": "守護者の炎場",
+      "color": "aqua",
+      "italic": false
+    }
+  ]
+}
