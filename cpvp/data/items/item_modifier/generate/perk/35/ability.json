@@ -8,8 +8,8 @@
         "italic": false
       },
       {
-        "text": "ここにability名",
-        "color": "white",
+        "text": "玉砕の構え",
+        "color": "red",
         "italic": false
       },
       {
@@ -20,23 +20,131 @@
     ],
     [
       {
-        "text": "発動検知",
+        "text": "ゲーム開始時",
         "italic": false,
         "color": "yellow"
       }
     ],
     [
       {
-        "text": "cost",
+        "text": "[玉砕の構え:lv1]",
+        "italic": false,
+        "color": "red"
+      },
+      {
+        "text": "を20秒得る。",
         "italic": false,
         "color": "white"
       }
     ],
+    [""],
     [
       {
-        "text": "内容",
+        "text": "玉砕の構え",
+        "italic": false,
+        "color": "red"
+      }
+    ],
+    [
+      {
+        "text": " - ",
         "italic": false,
         "color": "white"
+      },
+      {
+        "text": "最大値 : 10",
+        "italic": false,
+        "color": "gold"
+      }
+    ],
+    [
+      {
+        "text": " - ",
+        "italic": false,
+        "color": "white"
+      },
+      {
+        "text": "[玉砕の構え]の値",
+        "italic": false,
+        "color": "red"
+      },
+      {
+        "text": "×10%",
+        "italic": false,
+        "color": "gold"
+      },
+      {
+        "text": "だけ",
+        "italic": false,
+        "color": "white"
+      },
+      {
+        "text": "攻撃力",
+        "italic": false,
+        "color": "red"
+      },
+      {
+        "text": "が上昇する。"
+      }
+    ],
+    [
+      {
+        "text": " - ",
+        "italic": false,
+        "color": "white"
+      },
+      {
+        "text": "[玉砕の構え]の値",
+        "italic": false,
+        "color": "red"
+      },
+      {
+        "text": "×10%",
+        "italic": false,
+        "color": "gold"
+      },
+      {
+        "text": "だけ",
+        "italic": false,
+        "color": "white"
+      },
+      {
+        "text": "防御力",
+        "italic": false,
+        "color": "dark_blue"
+      },
+      {
+        "text": "が",
+        "italic": false,
+        "color": "white"
+      },
+      {
+        "text": "減少する",
+        "italic": false,
+        "color": "red",
+        "bold": true
+      }
+    ],
+    [
+      {
+        "text": " - ",
+        "italic":false,
+        "color":"white"
+      },
+      {
+        "text": "効果終了時、レベルを1上げて再度20秒得る。"
+      }
+    ],
+    [
+      {
+        "text": " - ",
+        "italic":false,
+        "color":"white"
+      },
+      {
+        "text": "この効果は解除できない。",
+        "italic":false,
+        "color":"white"
       }
     ],
     [

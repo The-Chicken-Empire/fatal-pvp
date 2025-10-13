@@ -3,14 +3,14 @@
   "lore": [
     [
       {
-        "text": "ここにフレーバーテキストを書く",
+        "text": "彼は進むことしか考えていなかった",
         "color": "dark_gray",
         "italic": true
       }
     ],
     [
       {
-        "text": "ここは2行目",
+        "text": "その果てに何があるかも知らずに。",
         "color": "dark_gray",
         "italic": true
       }
