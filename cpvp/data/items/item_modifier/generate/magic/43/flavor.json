@@ -3,14 +3,41 @@
   "lore": [
     [
       {
-        "text": "ここにフレーバーテキストを書く",
+        "text": "存在してはならない物を無かったことにする",
         "color": "dark_gray",
         "italic": true
       }
     ],
     [
       {
-        "text": "ここは2行目",
+        "text": "為に管理者Eによって作られた[",
+        "color": "dark_gray",
+        "italic": true,
+        "obfuscated": false
+      },
+      {
+        "text": "fectas",
+        "color": "dark_gray",
+        "italic": true,
+        "obfuscated": true
+      },
+      {
+        "text": "]の補助機械",
+        "color": "dark_gray",
+        "italic": true,
+        "obfuscated": false
+      }
+    ],
+    [
+      {
+        "text": "...だったもの。",
+        "color": "dark_gray",
+        "italic": true
+      }
+    ],
+    [
+      {
+        "text": "現在は必要なくなったため、旅人Fが持ち歩いている",
         "color": "dark_gray",
         "italic": true
       }
