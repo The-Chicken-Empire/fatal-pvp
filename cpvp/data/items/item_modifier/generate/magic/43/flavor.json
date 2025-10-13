@@ -3,14 +3,14 @@
   "lore": [
     [
       {
-        "text": "存在してはならない物を無かったことにする",
+        "text": "存在すべきではない物を無かったことにする為に、",
         "color": "dark_gray",
         "italic": true
       }
     ],
     [
       {
-        "text": "為に管理者Eによって作られた[",
+        "text": "管理者Eによって作られた[",
         "color": "dark_gray",
         "italic": true,
         "obfuscated": false
