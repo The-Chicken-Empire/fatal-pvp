@@ -32,7 +32,7 @@
         "color": "red"
       },
       {
-        "text": "を20秒得る。",
+        "text": "を30秒得る。",
         "italic": false,
         "color": "white"
       }
@@ -52,7 +52,7 @@
         "color": "white"
       },
       {
-        "text": "最大値 : 10",
+        "text": "最大値 : 5",
         "italic": false,
         "color": "gold"
       }
@@ -69,7 +69,7 @@
         "color": "red"
       },
       {
-        "text": "×10%",
+        "text": "×5%",
         "italic": false,
         "color": "gold"
       },
@@ -79,9 +79,9 @@
         "color": "white"
       },
       {
-        "text": "攻撃力",
+        "text": "会心率",
         "italic": false,
-        "color": "red"
+        "color": "yellow"
       },
       {
         "text": "が上昇する。"
@@ -99,7 +99,7 @@
         "color": "red"
       },
       {
-        "text": "×10%",
+        "text": "×15%",
         "italic": false,
         "color": "gold"
       },
@@ -123,6 +123,11 @@
         "italic": false,
         "color": "red",
         "bold": true
+      },
+      {
+        "text": "。",
+        "italic": false,
+        "color": "white"
       }
     ],
     [
@@ -132,7 +137,7 @@
         "color":"white"
       },
       {
-        "text": "効果終了時、レベルを1上げて再度20秒得る。"
+        "text": "効果終了時、レベルを1上げて再び30秒得る。"
       }
     ],
     [

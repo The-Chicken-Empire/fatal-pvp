@@ -301,9 +301,9 @@ scoreboard objectives add offhand7-2 dummy
 scoreboard objectives add perk18 dummy
 scoreboard players set @a perk18 0
 scoreboard players set $perk20 main 0
-#perk31用
-scoreboard objectives add tarnished_blood_stage dummy
 
+scoreboard objectives add tarnished_blood_stage dummy
+scoreboard objectives add effect45.count dummy
 scoreboard objectives add perk24melee dummy
 scoreboard objectives add perk24range dummy
 scoreboard objectives add perk24magic dummy
@@ -319,7 +319,7 @@ scoreboard objectives add perk25 dummy
 scoreboard players set @a perk25 0
 scoreboard objectives add perk36 dummy
 scoreboard objectives add perk36ct dummy
-
+scoreboard objectives add magic29hitct dummy
 
 #buff用
 scoreboard objectives add maxhp_buff dummy
