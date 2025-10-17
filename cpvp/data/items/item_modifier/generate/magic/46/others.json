@@ -1,0 +1,16 @@
+{
+  "function": "minecraft:set_components",
+  "components": {
+    "minecraft:tooltip_display": {
+      "hidden_components": [
+        "minecraft:attribute_modifiers"
+      ]
+    },
+    "minecraft:consumable": {
+      "consume_seconds": 2147483647,
+      "animation": "bow",
+      "sound": "minecraft:intentionally_empty",
+      "has_consume_particles": false
+    }
+  }
+}
