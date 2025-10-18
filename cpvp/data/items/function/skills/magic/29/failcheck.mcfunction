@@ -1,0 +1,1 @@
+execute at @s if block ~ ~-1 ~ #main:air run execute if block ~ ~-1.5 ~ #main:air run function items:skills/magic/29/failed

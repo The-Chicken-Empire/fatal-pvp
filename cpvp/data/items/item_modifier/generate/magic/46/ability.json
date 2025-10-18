@@ -1,0 +1,209 @@
+{
+  "function": "minecraft:set_lore",
+  "lore": [
+    [""],
+    [
+      {
+        "text": "-- ",
+        "color": "white",
+        "italic": false
+      },
+      {
+        "text": "召集の構え",
+        "color": "#dfd159",
+        "italic": false
+      },
+      {
+        "text": " --",
+        "color": "white",
+        "italic": false
+      }
+    ],
+    [
+      {
+        "text": "右クリック長押し",
+        "italic": false,
+        "color": "yellow"
+      }
+    ],
+    [
+      {
+        "text": "味方を召集する準備を行う。",
+        "italic": false,
+        "color": "white"
+      }
+    ],
+    [""],
+    [
+      {
+        "text": "-- ",
+        "italic": false,
+        "color": "white"
+      },
+      {
+        "text": "共に往かん。",
+        "italic": false,
+        "color": "red"
+      },
+      {
+        "text": "--",
+        "italic": false,
+        "color": "white"
+      }
+    ],
+    [
+      {
+        "text": "2秒間右クリックを長押しした後、放す。",
+        "italic": false,
+        "color": "yellow"
+      }
+    ],
+    [
+      {
+        "text": "消費MP",
+        "italic": false,
+        "color": "blue"
+      },
+      {
+        "text": " : ",
+        "italic": false,
+        "color": "white"
+      },
+      {
+        "text": "30",
+        "italic": false,
+        "color": "green"
+      },
+            {
+        "text": " クールタイム",
+        "italic": false,
+        "color": "dark_aqua"
+      },
+      {
+        "text": " : ",
+        "italic": false,
+        "color": "white"
+      },
+      {
+        "text": "30秒",
+        "italic": false,
+        "color": "green"
+      }
+    ],
+    [
+      {
+        "text": "現在の",
+        "italic": false,
+        "color": "white"
+      },
+      {
+        "text": "体力",
+        "italic": false,
+        "color": "red"
+      },
+      {
+        "text": "が",
+        "italic": false,
+        "color": "white"
+      },
+      {
+        "text": "最も高い",
+        "italic": false,
+        "color": "red"
+      },
+      {
+        "text":"味方一名を呼び寄せる。",
+        "italic": false,
+        "color": "white"
+      }
+    ],
+    [""],
+    [
+      {
+        "text": "-- ",
+        "italic": false,
+        "color": "white"
+      },
+      {
+        "text": "戻り、再び備えよ。",
+        "italic": false,
+        "color": "blue"
+      },
+      {
+        "text": "--",
+        "italic": false,
+        "color": "white"
+      }
+    ],
+    [
+      {
+        "text": "2秒間右クリックを長押しした後、シフト中に放す。",
+        "italic": false,
+        "color": "yellow"
+      }
+    ],
+    [
+      {
+        "text": "消費MP",
+        "italic": false,
+        "color": "blue"
+      },
+      {
+        "text": " : ",
+        "italic": false,
+        "color": "white"
+      },
+      {
+        "text": "30",
+        "italic": false,
+        "color": "green"
+      },
+            {
+        "text": " クールタイム",
+        "italic": false,
+        "color": "dark_aqua"
+      },
+      {
+        "text": " : ",
+        "italic": false,
+        "color": "white"
+      },
+      {
+        "text": "30秒",
+        "italic": false,
+        "color": "green"
+      }
+    ],
+    [
+      {
+        "text": "現在の",
+        "italic": false,
+        "color": "white"
+      },
+      {
+        "text": "体力",
+        "italic": false,
+        "color": "red"
+      },
+      {
+        "text": "が",
+        "italic": false,
+        "color": "white"
+      },
+      {
+        "text": "最も低い",
+        "italic": false,
+        "color": "blue"
+      },
+      {
+        "text":"味方一名を呼び寄せる。",
+        "italic": false,
+        "color": "white"
+      }
+    ],
+    [
+      ""
+    ]
+  ],
+  "mode": "append"
+}
