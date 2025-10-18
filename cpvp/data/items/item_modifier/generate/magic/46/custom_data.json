@@ -8,6 +8,8 @@
       "mainhand": {
         "triggers": [
           "tick",
+          "equip",
+          "unequip",
           "using"
         ]
       },

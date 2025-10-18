@@ -320,6 +320,8 @@ scoreboard players set @a perk25 0
 scoreboard objectives add perk36 dummy
 scoreboard objectives add perk36ct dummy
 scoreboard objectives add magic29hitct dummy
+scoreboard objectives add magic46using dummy
+scoreboard objectives add magic46usingprev dummy
 
 #buff用
 scoreboard objectives add maxhp_buff dummy
