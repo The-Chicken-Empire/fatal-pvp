@@ -3,14 +3,21 @@
   "lore": [
     [
       {
-        "text": "ここにフレーバーテキストを書く",
+        "text": "ハロー！こんな時間にごめんね！君にお届け物だよー！",
         "color": "dark_gray",
         "italic": true
       }
     ],
     [
       {
-        "text": "ここは2行目",
+        "text": "ああ、間違えた！君「が」お届け物だよ！",
+        "color": "dark_gray",
+        "italic": true
+      }
+    ],
+    [
+      {
+        "text": "行先は～...天国と地獄、どっちがいい？",
         "color": "dark_gray",
         "italic": true
       }
