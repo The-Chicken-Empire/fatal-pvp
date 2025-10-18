@@ -1,0 +1,10 @@
+{
+  "function": "minecraft:set_name",
+  "name": [
+    {
+      "text": "救済と弔いの印章  ",
+      "color": "#99eed9",
+      "italic": false
+    }
+  ]
+}

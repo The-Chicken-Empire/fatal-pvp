@@ -65,8 +65,16 @@ execute if entity @s[tag=magic26fct] if score @s skills matches 100.. run kill @
 execute if entity @s[tag=magic27totem] at @s run function items:skills/magic/27/markertick
 #28
 execute if entity @s[tag=magic28] at @s run function items:skills/magic/28/skill2/tick
+#29
+execute if entity @s[tag=m29marker] at @s run function items:skills/magic/29/markertick
+execute if entity @s[tag=m29display] at @s run function items:skills/magic/29/markertick2
 #32
 execute if entity @s[tag=magic32dash] at @s run function items:skills/magic/32/markertick
+#36
+execute if entity @s[tag=magic36meteor] at @s run function items:skills/magic/36/tick/
+execute if entity @s[tag=magic36mahoujin] at @s run function items:skills/magic/36/tick2/
+#37
+execute if entity @s[tag=magic37-1] at @s run function items:skills/magic/37/particle/mahoujin/1/tick
 #39
 execute if entity @s[tag=magic39] at @s run function items:skills/magic/39/markertick
 #40
@@ -79,6 +87,7 @@ execute if entity @s[tag=magic41cord] at @s run function items:skills/magic/41/m
 #43
 execute if entity @s[tag=magic43] at @s run function items:skills/magic/43/markertick
 execute if entity @s[tag=magic43-2] at @s run function items:skills/magic/43/markertick2
+
 ##weapon
 #3
 execute if entity @s[tag=weapon3] run function items:skills/weapon/3/markertick
@@ -118,5 +127,8 @@ execute if entity @s[tag=boots5marker] run function items:skills/boots/5/markert
 execute if entity @s[tag=perk11] run function items:skills/perk/11/markertick
 #perk13
 execute if entity @s[tag=perk13] run function items:skills/perk/13/markertick
+#30
+execute if entity @s[tag=perk30marker] run function items:skills/perk/30/s2/tick
 #perk31
 execute if entity @s[tag=perk31.mk1] run function items:skills/perk/31/markertick
+

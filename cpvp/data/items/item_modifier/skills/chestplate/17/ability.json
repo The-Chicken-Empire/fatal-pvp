@@ -1,0 +1,54 @@
+{
+  "function": "minecraft:set_lore",
+  "lore": [
+    [
+      {
+        "text": "-- ",
+        "color": "white",
+        "italic": false
+      },
+      {
+        "text": "テオクラシー",
+        "color": "dark_gray",
+        "italic": false
+      },
+      {
+        "text": " --",
+        "color": "white",
+        "italic": false
+      }
+    ],
+    [
+      {
+        "text": "常時",
+        "italic": false,
+        "color": "yellow"
+      }
+    ],
+    [
+      {
+        "text": "このクラスのアイテムのスキルの回復効果を、",
+        "italic": false,
+        "color": "white"
+      }
+    ],
+    [
+      {
+        "text": "そのスキルで関与した全ての敵に",
+        "italic": false,
+        "color": "white"
+      }
+    ],
+    [
+      {
+        "text": "固定ダメージを与える効果に変更する。",
+        "italic": false,
+        "color": "white"
+      }
+    ],
+    [
+      ""
+    ]
+  ],
+  "mode": "append"
+}

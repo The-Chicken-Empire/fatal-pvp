@@ -93,6 +93,7 @@ scoreboard players operation @s maxeng += @s maxeng_buff
 scoreboard players operation @s damage += @s damage_buff
 scoreboard players operation @s defence += @s defence_buff
 scoreboard players operation @s bonusattackspeed += @s bonusattackspeed_buff
+scoreboard players operation @s ctreduction += @s ctreduction_buff
 
 # stats_modifierの処理。modifierのうち数値増加部分のみ
 execute if score @s stats_modifier.addexist matches 1 run function system:stats_modifier/statscalc/add
@@ -104,6 +105,7 @@ function items:triggers/statscalc1/check
 scoreboard players operation @s maxhp += $400 main
 scoreboard players operation @s maxmp += $10000 main
 scoreboard players operation @s mr += $100 main
+scoreboard players operation @s vit += $100 main
 scoreboard players operation @s speed += $100 main
 scoreboard players operation @s bonusattackspeed += $100 main
 
@@ -119,6 +121,11 @@ function items:triggers/statscalc2/check
 execute if items entity @s hotbar.* *[custom_data~{cpvp:{id:3b,item_type:"perk"}}] run scoreboard players operation @s maxmp *= $0 main
 execute if items entity @s inventory.* *[custom_data~{cpvp:{id:3b,item_type:"perk"}}] run scoreboard players operation @s maxmp *= $0 main
 execute if items entity @s weapon.offhand *[custom_data~{cpvp:{id:3b,item_type:"perk"}}] run scoreboard players operation @s maxmp *= $0 main
+#perk36のバフとMP0固定
+execute if items entity @s hotbar.* *[custom_data~{cpvp:{id:36b,item_type:"perk"}}] run function items:skills/perk/36/s3/
+execute if items entity @s inventory.* *[custom_data~{cpvp:{id:36b,item_type:"perk"}}] run function items:skills/perk/36/s3/
+execute if items entity @s weapon.offhand *[custom_data~{cpvp:{id:36b,item_type:"perk"}}] run function items:skills/perk/36/s3/
+
 
 #speed処理
 execute store result storage cpvp:stats speed float 0.001 run scoreboard players get @s speed

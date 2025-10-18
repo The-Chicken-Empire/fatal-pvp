@@ -1,5 +1,15 @@
-scoreboard players operation $heal counter = @s vit
-scoreboard players operation $heal counter += $100 main
+#cp17の処理
+execute if items entity @a[tag=healer,limit=1,tag=!cp17activated] armor.chest *[custom_data~{cpvp:{id:17b}}] run function items:skills/chestplate/17/s1/
+
+
+
+
+
+
+
+
+scoreboard players operation $heal counter = @a[tag=healer,limit=1] vit
+#scoreboard players operation $heal counter += $100 main
 execute if score $heal counter matches ..-1 run scoreboard players set $heal counter 0
 scoreboard players operation $heal main *= $heal counter
 scoreboard players operation $heal main /= $100 main

@@ -1,0 +1,120 @@
+{
+  "function": "minecraft:set_lore",
+  "lore": [
+    [
+      {
+        "text": "-- ",
+        "color": "white",
+        "italic": false
+      },
+      {
+        "text": "リード",
+        "color": "white",
+        "italic": false
+      },
+      {
+        "text": " --",
+        "color": "white",
+        "italic": false
+      }
+    ],
+    [
+      {
+        "text": "常時",
+        "italic": false,
+        "color": "yellow"
+      }
+    ],
+    [
+      {
+        "text": "自身が回復した対象の",
+        "italic": false,
+        "color": "white"
+      },{
+        "text": "CT短縮",
+        "italic": false,
+        "color": "green"
+      },
+      {
+        "text": "を、",
+        "italic": false,
+        "color": "white"
+      }
+    ],
+    [
+      {
+        "text": "10秒間+20%する。",
+        "italic": false,
+        "color": "white"
+      }
+    ],
+    [
+      {
+        "text": "--",
+        "italic": false,
+        "color": "white"
+      },
+      {
+        "text": "オ",
+        "italic": false,
+        "color": "#e94886"
+      },
+      {
+        "text": "ー",
+        "italic": false,
+        "color": "#f35b95"
+      },
+      {
+        "text": "バ",
+        "italic": false,
+        "color": "#f76aa0"
+      },
+      {
+        "text": "ー",
+        "italic": false,
+        "color": "#f76aa0"
+      },
+      {
+        "text": "ド",
+        "italic": false,
+        "color": "#f76da2"
+      },
+      {
+        "text": "ラ",
+        "italic": false,
+        "color": "#fa86b2"
+      },
+      {
+        "text": "イ",
+        "italic": false,
+        "color": "#fdaaca"
+      },
+      {
+        "text": "ブ",
+        "italic": false,
+        "color": "#ffc6dc"
+      },
+      {
+        "text": "--",
+        "italic": false,
+        "color": "white"
+      },
+      {
+        "text": "で味方プレイヤーを殺害した時、",
+        "italic": false,
+        "color": "white"
+      }
+    ],
+    [
+      {
+        "text": "このアイテムのスキルが変化する。",
+        "italic": false,
+        "color": "white"
+      }
+    ],
+    [
+      ""
+    ]
+  ],
+  "mode": "append"
+}
