@@ -160,21 +160,31 @@ scoreboard objectives modify alives displayautoupdate true
 scoreboard objectives modify alives displayname {"color":"white","text":"生存者数"}
 scoreboard objectives add teamrule dummy
 scoreboard objectives add teamscore dummy
-scoreboard players display name $red alives {"color":"red","text":red}
-scoreboard players display name $blue alives {"color":"blue","text":blue}
-scoreboard players display name $green alives {"color":"green","text":green}
-scoreboard players display name $yellow alives {"color":"yellow","text":yellow}
 team add solo
 team add red
 team add blue
 team add green
 team add yellow
+team add entitysolo
+team add entityred
+team add entityblue
+team add entitygreen
+team add entityyellow
 team add kansen
+scoreboard players display name $red alives {"color":"red","text":red}
+scoreboard players display name $blue alives {"color":"blue","text":blue}
+scoreboard players display name $green alives {"color":"green","text":green}
+scoreboard players display name $yellow alives {"color":"yellow","text":yellow}
 team modify solo color dark_purple
 team modify red color red
 team modify blue color blue
 team modify green color green
 team modify yellow color yellow
+team modify entitysolo color dark_purple
+team modify entityred color red
+team modify entityblue color blue
+team modify entitygreen color green
+team modify entityyellow color yellow
 team modify kansen color white
 team modify solo friendlyFire true
 team modify red friendlyFire false
@@ -250,6 +260,7 @@ execute unless score $number markerid matches -2147483648..2147483647 run scoreb
 scoreboard objectives add target dummy
 scoreboard objectives add counting dummy
 scoreboard objectives add counting2 dummy
+scoreboard objectives add counting3 dummy
 
 scoreboard objectives add perk2 dummy
 scoreboard players set @a perk2 0
@@ -303,6 +314,7 @@ scoreboard objectives add offhand7-2 dummy
 scoreboard objectives add perk18 dummy
 scoreboard players set @a perk18 0
 scoreboard players set $perk20 main 0
+scoreboard objectives add magic41ct dummy
 #perk31用
 scoreboard objectives add tarnished_blood_stage dummy
 
