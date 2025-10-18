@@ -1,0 +1,15 @@
+{
+  "function": "minecraft:set_name",
+  "name": [
+    {
+      "text": "新",
+      "color": "#ff1100",
+      "italic": false
+    },
+    {
+      "text": "約",
+      "color": "#ff9100",
+      "italic": false
+    }
+  ]
+}

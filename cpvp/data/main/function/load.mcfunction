@@ -65,6 +65,7 @@ gamerule waterSourceConversion false
 scoreboard objectives add entitydata dummy
 execute unless score $base entitydata matches -2147483648..2147483647 run scoreboard players set $base entitydata 1
 scoreboard objectives add tmp dummy
+scoreboard objectives add tmp2 dummy
 scoreboard objectives add ID dummy
 execute unless score $init ID matches -2147483648..2147483647 run scoreboard players set $init ID 0
 scoreboard objectives add settings dummy
@@ -89,6 +90,7 @@ scoreboard players set $9 main 9
 scoreboard players set $10 main 10
 scoreboard players set $20 main 20
 scoreboard players set $23 main 23
+scoreboard players set $50 main 50
 scoreboard players set $200 main 200
 scoreboard players set $400 main 400
 scoreboard players set $100 main 100
@@ -158,21 +160,31 @@ scoreboard objectives modify alives displayautoupdate true
 scoreboard objectives modify alives displayname {"color":"white","text":"生存者数"}
 scoreboard objectives add teamrule dummy
 scoreboard objectives add teamscore dummy
-scoreboard players display name $red alives {"color":"red","text":red}
-scoreboard players display name $blue alives {"color":"blue","text":blue}
-scoreboard players display name $green alives {"color":"green","text":green}
-scoreboard players display name $yellow alives {"color":"yellow","text":yellow}
 team add solo
 team add red
 team add blue
 team add green
 team add yellow
+team add entitysolo
+team add entityred
+team add entityblue
+team add entitygreen
+team add entityyellow
 team add kansen
+scoreboard players display name $red alives {"color":"red","text":red}
+scoreboard players display name $blue alives {"color":"blue","text":blue}
+scoreboard players display name $green alives {"color":"green","text":green}
+scoreboard players display name $yellow alives {"color":"yellow","text":yellow}
 team modify solo color dark_purple
 team modify red color red
 team modify blue color blue
 team modify green color green
 team modify yellow color yellow
+team modify entitysolo color dark_purple
+team modify entityred color red
+team modify entityblue color blue
+team modify entitygreen color green
+team modify entityyellow color yellow
 team modify kansen color white
 team modify solo friendlyFire true
 team modify red friendlyFire false
@@ -248,6 +260,7 @@ execute unless score $number markerid matches -2147483648..2147483647 run scoreb
 scoreboard objectives add target dummy
 scoreboard objectives add counting dummy
 scoreboard objectives add counting2 dummy
+scoreboard objectives add counting3 dummy
 
 scoreboard objectives add perk2 dummy
 scoreboard players set @a perk2 0
@@ -301,6 +314,9 @@ scoreboard objectives add offhand7-2 dummy
 scoreboard objectives add perk18 dummy
 scoreboard players set @a perk18 0
 scoreboard players set $perk20 main 0
+scoreboard objectives add magic41ct dummy
+#perk31用
+scoreboard objectives add tarnished_blood_stage dummy
 
 scoreboard objectives add tarnished_blood_stage dummy
 scoreboard objectives add effect45.count dummy

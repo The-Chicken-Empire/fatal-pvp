@@ -1,0 +1,47 @@
+{
+  "function": "minecraft:set_lore",
+  "lore": [
+    [
+      {
+        "text": "存在すべきではない物を無かったことにする為に、",
+        "color": "dark_gray",
+        "italic": true
+      }
+    ],
+    [
+      {
+        "text": "管理者Eによって作られた[",
+        "color": "dark_gray",
+        "italic": true,
+        "obfuscated": false
+      },
+      {
+        "text": "fectas",
+        "color": "dark_gray",
+        "italic": true,
+        "obfuscated": true
+      },
+      {
+        "text": "]の補助機械",
+        "color": "dark_gray",
+        "italic": true,
+        "obfuscated": false
+      }
+    ],
+    [
+      {
+        "text": "...だったもの。",
+        "color": "dark_gray",
+        "italic": true
+      }
+    ],
+    [
+      {
+        "text": "現在は必要なくなったため、旅人Fが持ち歩いている",
+        "color": "dark_gray",
+        "italic": true
+      }
+    ]
+  ],
+  "mode": "append"
+}

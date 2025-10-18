@@ -10,4 +10,3 @@ data modify entity @s transformation set value {right_rotation:[0f,0f,0f,1f],sca
 
 execute unless block ~ ~-1 ~ #main:air run scoreboard players set @s counting 10
 execute unless block ~ ~-1 ~ #main:air run function items:skills/magic/23/ifblock
-
