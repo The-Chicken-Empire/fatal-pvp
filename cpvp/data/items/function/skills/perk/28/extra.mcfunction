@@ -6,7 +6,7 @@ execute if score $tmp random matches 31.. run return run scoreboard players rese
 
 execute as @e[tag=victim] at @s run playsound entity.warden.hurt hostile @s ~ ~ ~ 1 1 1
 execute as @e[tag=atker] at @s run playsound entity.warden.attack_impact hostile @s ~ ~ ~ 1 1 1
-tellraw @a[tag=atker,limit=1] [{"text":"[シンドリオン] ","color":"dark_aqua","italic":false},{"text":"追撃が発動した！","color":"white","italic":false}]
+tellraw @a[tag=atker,limit=1] [{"text":"[","color":"yellow"},{"text":"シンドリオン","color":"dark_aqua","italic":false},{"text":"] ","color":yellow},{"text":"追撃が発動した！","color":"white","italic":false}]
 execute as @e[tag=victim] run scoreboard players operation @s damagepoint = $tmp getdamage
 data modify storage atktrigger: hage set value {itemtype:perk,id:28,atktype:1}
 execute as @e[tag=victim] run function damage:damage

@@ -4,6 +4,14 @@
 #
 # @within damage:damage
 
+#『破滅』デバフによるトリガー無視処理
+function effects:system/pick/ {id:44}
+execute store result score $tmpeffect44 tmp run data get storage effect: targeteffect.level
+scoreboard players operation $tmpeffect44 tmp *= $20 main
+execute store result score $tmpeffect44 random run random value 1..100
+execute if score $tmpeffect44 tmp >= $tmpeffect44 random run return run scoreboard players reset $tmpeffect44
+scoreboard players reset $tmpeffect44
+
 execute if predicate items:triggers/death/mainhand run function items:triggers/death/run with entity @s SelectedItem.components.minecraft:custom_data.cpvp
 execute if predicate items:triggers/death/offhand run function items:triggers/death/run with entity @s equipment.offhand.components.minecraft:custom_data.cpvp
 execute if predicate items:triggers/death/helmet run function items:triggers/death/run with entity @s equipment.head.components.minecraft:custom_data.cpvp

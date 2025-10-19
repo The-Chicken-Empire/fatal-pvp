@@ -1,0 +1,10 @@
+{
+  "function": "minecraft:set_name",
+  "name": [
+    {
+      "text": "■■が刻まれた石板",
+      "color": "dark_gray",
+      "italic": false
+    }
+  ]
+}
