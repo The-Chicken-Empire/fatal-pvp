@@ -11,6 +11,7 @@
       "animation": "bow",
       "sound": "minecraft:intentionally_empty",
       "has_consume_particles": false
-    }
+    },
+    "custom_model_data":{"strings":["magic46"]}
   }
 }
