@@ -7,6 +7,6 @@ data modify entity @s item set value {components:{"minecraft:custom_model_data":
 data modify entity @s teleport_duration set value 1
 data modify entity @s interpolation_duration set value 10
 data modify entity @s transformation set value {right_rotation:[0f,0f,0f,1f],scale:[0.5f,2f,0.5f],left_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f]}
-
+data modify entity @s brightness set value {block:15,sky:15}
 execute unless block ~ ~-1 ~ #main:air run scoreboard players set @s counting 10
 execute unless block ~ ~-1 ~ #main:air run function items:skills/magic/23/ifblock
