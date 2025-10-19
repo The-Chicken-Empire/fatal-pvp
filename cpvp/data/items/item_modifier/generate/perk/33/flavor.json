@@ -1,0 +1,69 @@
+{
+  "function": "minecraft:set_lore",
+  "lore": [
+    [
+      {
+        "text": "本当にこれが最善だったかは分からないけれども",
+        "color": "dark_gray",
+        "italic": true
+      }
+    ],
+    [
+      {
+        "text": "かつて見た景色がそこにある",
+        "color": "dark_gray",
+        "italic": true
+      },
+      {
+        "text": " ああ、そうだ",
+        "color": "black",
+        "italic": true
+      }
+    ],
+    [
+      {
+        "text": "かつての仲間もそこにいる",
+        "color": "dark_gray",
+        "italic": true
+      },
+      {
+        "text": " ...それでいい",
+        "color": "black",
+        "italic": true
+      }
+    ],
+    [
+      {
+        "text": "そこに居ないのは二人だけ",
+        "color": "dark_gray",
+        "italic": true
+      },
+      {
+        "text": " 何も問題はない",
+        "color": "black",
+        "italic": true
+      }
+    ],
+    [
+      {
+        "text": "それでも世界は回り続ける",
+        "color": "dark_gray",
+        "italic": true
+      },
+      {
+        "text": " 『......■■■■■■?』",
+        "color": "black",
+        "italic": true
+      }
+    ],
+    [
+      {
+        "text": "違う、これは俺が見たかった未来じゃない",
+        "color": "black",
+        "italic": true,
+        "bold": true
+      }
+    ]
+  ],
+  "mode": "append"
+}

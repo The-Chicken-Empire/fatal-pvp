@@ -1,0 +1,159 @@
+{
+  "function": "minecraft:set_lore",
+  "lore": [
+    [
+      {
+        "text": "-- ",
+        "color": "white",
+        "italic": false
+      },
+      {
+        "text": "空間改竄砲",
+        "color": "#91ff00",
+        "italic": false
+      },
+      {
+        "text": " --",
+        "color": "white",
+        "italic": false
+      }
+    ],
+    [
+      {
+        "text": "右クリック",
+        "italic": false,
+        "color": "yellow"
+      }
+    ],
+    [
+      {
+        "text": "消費MP",
+        "italic": false,
+        "color":"blue"
+      },
+      {
+        "text": " : ",
+        "italic": false,
+        "color":"white"
+      },
+      {
+        "text": "8 ",
+        "italic": false,
+        "color":"green"
+      },
+      {
+        "text": "クールタイム",
+        "italic": false,
+        "color":"dark_aqua"
+      },
+      {
+        "text": " : ",
+        "italic": false,
+        "color":"white"
+      },
+      {
+        "text": "9秒",
+        "italic": false,
+        "color":"green"
+      }
+    ],
+    [
+      {
+        "text": "ダメージ",
+        "color": "red",
+        "italic": false
+      },
+      {
+        "text": " : ",
+        "color": "white",
+        "italic": false
+      },
+      {
+        "text": "5~15",
+        "color": "gold",
+        "italic": false
+      },
+      {
+        "text": " - ",
+        "color": "white",
+        "italic": false
+      },
+      {
+        "text": "魔法",
+        "color": "dark_purple",
+        "italic": false
+      },
+      {
+        "text": "/",
+        "color": "white",
+        "italic": false
+      },
+      {
+        "text": "遠距離",
+        "color": "blue",
+        "italic": false
+      }
+    ],
+    [
+      {
+        "text": "視点の3m先に不可視の弾を生成する。",
+        "italic": false,
+        "color": "white"
+      }
+    ],
+    [
+      {
+        "text": "弾は壁に触れるか0.7秒経つと爆発し、",
+        "italic": false,
+        "color": "white"
+      }
+    ],
+    [
+      {
+        "text": "周囲の敵にダメージを与える",
+        "italic": false,
+        "color": "white"
+      }
+    ],
+    [
+      {
+        "text": " -",
+        "italic": false,
+        "color": "white"
+      },
+      {
+        "text": "追加入力 弾が爆発する前に右クリック",
+        "italic": false,
+        "color": "yellow"
+      }
+    ],
+    [
+      
+      {
+        "text": "弾を視点方向に2m移動させ、",
+        "italic": false,
+        "color": "white"
+      }
+    ],
+    [
+      
+      {
+        "text": "ダメージを1増加させ(最大10)、",
+        "italic": false,
+        "color": "white"
+      }
+    ],
+    [
+      
+      {
+        "text": "爆発までの時間をリセットする。(最大20回)",
+        "italic": false,
+        "color": "white"
+      }
+    ],
+    [
+      ""
+    ]
+  ],
+  "mode": "append"
+}
