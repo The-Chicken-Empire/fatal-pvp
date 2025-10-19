@@ -75,6 +75,8 @@ execute if entity @s[tag=magic36meteor] at @s run function items:skills/magic/36
 execute if entity @s[tag=magic36mahoujin] at @s run function items:skills/magic/36/tick2/
 #37
 execute if entity @s[tag=magic37-1] at @s run function items:skills/magic/37/particle/mahoujin/1/tick
+#47
+execute if entity @s[tag=m47mark] at @s run function items:skills/magic/47/markertick
 ##weapon
 #3
 execute if entity @s[tag=weapon3] run function items:skills/weapon/3/markertick

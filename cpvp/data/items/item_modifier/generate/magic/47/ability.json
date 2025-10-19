@@ -8,8 +8,8 @@
         "italic": false
       },
       {
-        "text": "ここにability名",
-        "color": "white",
+        "text": "変則急襲斬り",
+        "color": "aqua",
         "italic": false
       },
       {
@@ -20,21 +20,58 @@
     ],
     [
       {
-        "text": "発動検知",
+        "text": "右クリック",
         "italic": false,
         "color": "yellow"
       }
     ],
     [
       {
-        "text": "cost",
+        "text": "消費MP",
+        "italic": false,
+        "color": "blue"
+      },
+      {
+        "text": " : ",
+        "italic": false,
+        "color": "white"
+      },
+      {
+        "text": "17",
+        "italic": false,
+        "color": "green"
+      },
+      {
+        "text": " クールダウン",
+        "italic": false,
+        "color": "dark_aqua"
+      },
+      {
+        "text": " : ",
+        "italic": false,
+        "color": "white"
+      },
+      {
+        "text": "20秒",
+        "italic": false,
+        "color": "green"
+      }
+    ],
+    [
+      {
+        "text": "斬り裂くような風を纏いながら前方に突撃する。",
         "italic": false,
         "color": "white"
       }
     ],
     [
       {
-        "text": "内容",
+        "text": "攻撃発動時",
+        "italic": false,
+        "color": "yellow"
+      },
+      {
+        "text": "、自身は大きく後ろに吹っ飛ぶ。",
         "italic": false,
         "color": "white"
       }
