@@ -3,14 +3,28 @@
   "lore": [
     [
       {
-        "text": "ここにフレーバーテキストを書く",
+        "text": "誰からも知られていなくとも、",
         "color": "dark_gray",
         "italic": true
       }
     ],
     [
       {
-        "text": "ここは2行目",
+        "text": "その体で人と関われなくとも、",
+        "color": "dark_gray",
+        "italic": true
+      }
+    ],
+    [
+      {
+        "text": "その龍は、人間を愛していた。",
+        "color": "dark_gray",
+        "italic": true
+      }
+    ],
+    [
+      {
+        "text": "その龍は、ただ”いつか”を夢見て現在を生きる。",
         "color": "dark_gray",
         "italic": true
       }

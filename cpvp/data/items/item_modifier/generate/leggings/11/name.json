@@ -2,8 +2,13 @@
   "function": "minecraft:set_name",
   "name": [
     {
-      "text": "龍装『炎国』",
-      "color": "white",
+      "text": "龍装",
+      "color": "#ffa530",
+      "italic": false
+    },
+    {
+      "text": "「炎国」",
+      "color": "#fc1100",
       "italic": false
     }
   ]

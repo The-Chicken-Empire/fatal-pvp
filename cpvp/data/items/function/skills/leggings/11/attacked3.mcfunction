@@ -1,0 +1,1 @@
+execute at @s if entity @e[tag=atker,distance=..8] run function items:skills/leggings/11/attacked3active

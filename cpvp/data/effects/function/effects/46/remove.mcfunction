@@ -1,0 +1,1 @@
+scoreboard players set @s effect46timer 0
