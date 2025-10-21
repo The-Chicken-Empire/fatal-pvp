@@ -12,7 +12,7 @@ execute as @n[tag=m47caster.tmp] at @s run tp @s ^ ^ ^-0.2
 #scoreboard players add $tmp tmp 1800000
 #execute store result entity @n[tag=m47mark.tmp] Rotation[0] float 0.0001 run scoreboard players get $tmp tmp
 #scoreboard players reset $tmp tmp
-execute as @n[tag=m47caster.tmp] at @s run function api:motion/rotation_usiro {power:5}
+execute as @n[tag=m47caster.tmp] at @s run function api:motion/rotation_usiro {power:8}
 kill @n[tag=m47mark.tmp]
 
 execute as @n[tag=m47caster.tmp] run function items:skills/magic/47/removetag
