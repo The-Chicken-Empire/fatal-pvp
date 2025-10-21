@@ -247,7 +247,7 @@
       }],
       [
       {
-        "text": "10",
+        "text": "15",
         "italic": false,
         "color": "gold"
       },
@@ -295,33 +295,6 @@
         "text": "-50%",
         "italic": false,
         "color": "gold"
-      }
-    ],
-    [
-      {
-        "text": " - ",
-        "italic": false,
-        "color": "white"
-      },
-      {
-        "text": "[火傷]",
-        "italic": false,
-        "color": "gold"
-      },
-      {
-        "text": "デバフで受けるダメージが",
-        "italic": false,
-        "color": "white"
-      },
-      {
-        "text": "2倍",
-        "italic": false,
-        "color": "yellow"
-      },
-      {
-        "text": "になる。",
-        "italic": false,
-        "color": "white"
       }
     ],
     [

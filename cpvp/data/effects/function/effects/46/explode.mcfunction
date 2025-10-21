@@ -11,7 +11,7 @@ function effects:system/gain/ {id:47,duration:300,level:1}
 execute store result score @s attackerdata run data get storage effect: tmp2.buffer
 data modify storage atktrigger: hage set value {itemtype:none,id:none,atktype:heatcore}
 tag @s add truedamage
-scoreboard players set @s damagetaken 100
+scoreboard players set @s damagetaken 150
 function damage:atkercheck
 
 execute at @s run playsound entity.player.hurt_on_fire player @a ~ ~ ~ 1 1.5 0
