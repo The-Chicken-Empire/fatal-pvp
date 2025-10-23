@@ -87,6 +87,9 @@ execute if entity @s[tag=magic41cord] at @s run function items:skills/magic/41/m
 #43
 execute if entity @s[tag=magic43] at @s run function items:skills/magic/43/markertick
 execute if entity @s[tag=magic43-2] at @s run function items:skills/magic/43/markertick2
+#48
+execute if entity @s[tag=magic48] at @s run function items:skills/magic/48/markertick2
+execute if entity @s[tag=magic48core] at @s run function items:skills/magic/48/markertick
 
 ##weapon
 #3

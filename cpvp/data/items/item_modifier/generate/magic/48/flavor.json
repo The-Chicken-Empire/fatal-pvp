@@ -3,14 +3,35 @@
   "lore": [
     [
       {
-        "text": "ここにフレーバーテキストを書く",
+        "text": "「やあ、龍さん。暖かい火が恋しい季節だね。」",
         "color": "dark_gray",
         "italic": true
       }
     ],
     [
       {
-        "text": "ここは2行目",
+        "text": "『...色々疑問は有るが...何故此処に？』",
+        "color": "dark_gray",
+        "italic": true
+      }
+    ],
+    [
+      {
+        "text": "「寂しそうに見えたから。手助けしてあげようか？」",
+        "color": "dark_gray",
+        "italic": true
+      }
+    ],
+    [
+      {
+        "text": "『貴女は何だ？貴女から...何も感じない。』",
+        "color": "dark_gray",
+        "italic": true
+      }
+    ],
+    [
+      {
+        "text": "「すぐ分かるよ。中に入れてよ、長く話そう？」",
         "color": "dark_gray",
         "italic": true
       }

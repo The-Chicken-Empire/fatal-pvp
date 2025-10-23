@@ -2,8 +2,8 @@
   "function": "minecraft:set_name",
   "name": [
     {
-      "text": "炉辺暖心",
-      "color": "white",
+      "text": "炉辺誘焔",
+      "color": "#ff0800",
       "italic": false
     }
   ]
