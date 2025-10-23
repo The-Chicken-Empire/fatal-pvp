@@ -8,5 +8,5 @@ execute if entity @s[tag=effect46explode] run return run tag @s remove effect46e
 
 
 
-scoreboard players add @s effect46timer 1
-execute if score @s effect46timer matches 200 run function effects:effects/46/reducelevel
+#scoreboard players add @s effect46timer 1
+#execute if score @s effect46timer matches 200 run function effects:effects/46/reducelevel
