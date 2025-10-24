@@ -1,4 +1,4 @@
-execute as @e[tag=victim,limit=1] run function effects:system/pick/ {id:46}
+execute as @e[tag=victim,limit=1] run function effects:system/pick/ {id:47}
 scoreboard players set $tmp tmp 0
 execute store result score $tmp tmp run data get storage effect: targeteffect.level
 
