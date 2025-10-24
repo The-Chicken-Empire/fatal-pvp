@@ -1,6 +1,7 @@
 {
   "function": "minecraft:set_lore",
   "lore": [
+    [""],
     [
       {
         "text": "回復力",
@@ -13,7 +14,7 @@
         "italic": false
       },
       {
-        "text": "-30%",
+        "text": "-20%",
         "color": "gold",
         "italic": false
       }

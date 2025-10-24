@@ -8,8 +8,8 @@
         "italic": false
       },
       {
-        "text": "ここにability名",
-        "color": "white",
+        "text": "我が心は炎と共に在り",
+        "color": "#ff3c00",
         "italic": false
       },
       {
@@ -20,21 +20,112 @@
     ],
     [
       {
-        "text": "発動検知",
+        "text": "攻撃時/被攻撃時",
         "italic": false,
         "color": "yellow"
       }
     ],
     [
       {
-        "text": "cost",
+        "text": "対象がデバフ",
+        "italic": false,
+        "color": "white"
+      },
+      {
+        "text": "[灼熱損傷]",
+        "italic": false,
+        "color": "dark_red"
+      },
+      {
+        "text": "を受けていた時、",
         "italic": false,
         "color": "white"
       }
     ],
     [
       {
-        "text": "内容",
+        "text": "受けるダメージを",
+        "italic": false,
+        "color": "white"
+      },
+      {
+        "text": "0.5倍",
+        "italic": false,
+        "color": "yellow"
+      },
+      {
+        "text": "、与えるダメージを",
+        "italic": false,
+        "color": "white"
+      },
+      {
+        "text": "1.5倍",
+        "italic": false,
+        "color": "yellow"
+      },
+      {
+        "text": "する。",
+        "italic": false,
+        "color": "white"
+      }
+    ],
+    [
+      ""
+    ],
+    [
+      {
+        "text": "-- ",
+        "color": "white",
+        "italic": false
+      },
+      {
+        "text": "永久に燃ゆる魂の炎",
+        "color": "#ac0000",
+        "italic": false
+      },
+      {
+        "text": " --",
+        "color": "white",
+        "italic": false
+      }
+    ],
+    [
+      {
+        "text": "常時",
+        "italic": false,
+        "color": "yellow"
+      }
+    ],
+    [
+      {
+        "text": "自身の周囲10m以内の味方または自身の攻撃的中時、",
+        "italic": false,
+        "color": "white"
+      }
+    ],
+    [
+      {
+        "text": "対象に",
+        "italic": false,
+        "color": "white"
+      },
+      {
+        "text": "与ダメージの150%",
+        "italic": false,
+        "color": "yellow"
+      },
+      {
+        "text": "分の",
+        "italic": false,
+        "color": "white"
+      },
+      {
+        "text": "[灼熱]",
+        "italic": false,
+        "color": "red"
+      },
+      {
+        "text": "を付与する。",
         "italic": false,
         "color": "white"
       }

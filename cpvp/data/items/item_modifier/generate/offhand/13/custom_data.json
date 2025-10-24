@@ -7,10 +7,13 @@
       "item_type": "offhand",
       "offhand": {
         "stats": {
-          "vit": -30,
+          "vit": -20,
           "defence": 10
         },
-        "triggers": []
+        "triggers": [
+          "attacked2",
+          "attack2"
+        ]
       },
       "regularitem": 1,
       "classitem": 1

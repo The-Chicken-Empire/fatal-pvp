@@ -3,14 +3,28 @@
   "lore": [
     [
       {
-        "text": "ここにフレーバーテキストを書く",
+        "text": "観測者Sが作った籠手。炎国の龍の力が宿っている。",
         "color": "dark_gray",
         "italic": true
       }
     ],
     [
       {
-        "text": "ここは2行目",
+        "text": "「これを貸してあげる。君の力を奪う籠手だよ。",
+        "color": "dark_gray",
+        "italic": true
+      }
+    ],
+    [
+      {
+        "text": "千年後に返しに来て。私はいつでもそこにいるよ。",
+        "color": "dark_gray",
+        "italic": true
+      }
+    ],
+    [
+      {
+        "text": "その頃にはそれはもう必要ないはずだから。」",
         "color": "dark_gray",
         "italic": true
       }
