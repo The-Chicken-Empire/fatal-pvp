@@ -20,14 +20,14 @@
     ],
     [
       {
-        "text": "攻撃時/被攻撃時",
+        "text": "常時",
         "italic": false,
         "color": "yellow"
       }
     ],
     [
       {
-        "text": "対象がデバフ",
+        "text": "自身が",
         "italic": false,
         "color": "white"
       },
@@ -37,31 +37,29 @@
         "color": "dark_red"
       },
       {
-        "text": "を受けていた時、",
-        "italic": false,
-        "color": "white"
-      }
-    ],
-    [
-      {
-        "text": "受けるダメージを",
+        "text": "を敵に与えた時、",
         "italic": false,
         "color": "white"
       },
       {
-        "text": "0.5倍",
+        "text": "HP",
         "italic": false,
-        "color": "yellow"
+        "color": "red"
       },
       {
-        "text": "、与えるダメージを",
+        "text": "を",
         "italic": false,
         "color": "white"
       },
       {
-        "text": "1.5倍",
+        "text": "4",
         "italic": false,
-        "color": "yellow"
+        "color": "gold"
+      },
+      {
+        "text": "回復",
+        "italic": false,
+        "color": "light_purple"
       },
       {
         "text": "する。",

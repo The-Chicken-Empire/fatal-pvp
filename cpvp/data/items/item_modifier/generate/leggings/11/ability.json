@@ -74,6 +74,7 @@
         "color": "white"
       }
     ],
+    [""],
     [
       {
         "text": "-- ",
@@ -105,7 +106,7 @@
     ],
     [
       {
-        "text": "自身が与える",
+        "text": "自身がデバフ",
         "italic": false,
         "color": "white"
       },
@@ -115,44 +116,33 @@
         "color": "gold"
       },
       {
-        "text": "のレベルが",
+        "text": "を受けている時、",
+        "italic": false,
+        "color": "white"
+      }],
+      [
+      {
+        "text": "与える",
         "italic": false,
         "color": "white"
       },
       {
-        "text": "1",
+        "text": "[灼熱]",
+        "italic": false,
+        "color": "red"
+      },
+      {
+        "text": "が",
+        "italic": false,
+        "color": "white"
+      },
+      {
+        "text": "5",
         "italic": false,
         "color": "yellow"
       },
       {
-        "text": "上昇し、",
-        "italic": false,
-        "color": "white"
-      }
-    ],
-    [
-      {
-        "text": "自身が受ける",
-        "italic": false,
-        "color": "white"
-      },
-      {
-        "text": "[火傷]",
-        "italic": false,
-        "color": "gold"
-      },
-      {
-        "text": "のダメージが",
-        "italic": false,
-        "color": "white"
-      },
-      {
-        "text": "0.5倍",
-        "italic": false,
-        "color": "yellow"
-      },
-      {
-        "text": "になる。",
+        "text": "増加する",
         "italic": false,
         "color": "white"
       }
@@ -191,45 +181,22 @@
         "color": "white"
       },
       {
-        "text": "10秒に一度、スタックが",
-        "italic": false,
-        "color": "white"
-      },
-      {
-        "text": "15",
-        "italic": false,
-        "color": "gold"
-      },
-      {
-        "text": "減少する",
-        "italic": false,
-        "color": "white"
-      }
-    ],
-    [
-      {
-        "text": " - ",
-        "italic": false,
-        "color": "white"
-      },
-      {
         "text": "スタックが",
         "italic": false,
         "color": "white"
       },
       {
-        "text": "400",
+        "text": "200",
         "italic": false,
         "color": "gold"
-      }
-      ],
-    [
+      },
       {
         "text": "を超えた時、",
         "italic": false,
         "color": "white"
-      },
-    
+      }
+    ]
+    ,[
       {
         "text": "このエフェクトを削除し、15秒の",
         "italic": false,

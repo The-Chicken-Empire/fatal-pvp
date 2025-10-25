@@ -10,6 +10,12 @@ scoreboard players operation $tmp2 tmp /= $2 main
 
 scoreboard players operation $tmp tmp += $tmp2 tmp
 
+execute as @e[tag=atker] run function effects:system/pick/ {id:40}
+scoreboard players set $tmp3 tmp 0
+execute store result score $tmp3 tmp run data get storage effect: targeteffect.level
+execute if score $tmp3 tmp matches 1.. run scoreboard players add $tmp tmp 5
+scoreboard players reset $tmp3 tmp
+
 execute store result storage cpvp:effect46 level int 1 run scoreboard players get $tmp tmp
 
 tag @a[tag=m48atker] add buffer

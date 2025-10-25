@@ -5,6 +5,7 @@ function effects:system/remove/ {id:46}
 
 execute store result score $tmp tmp run data get storage effect: tmp2.buffer
 
+execute as @a if score @s playerdata = $tmp tmp if items entity @s weapon.offhand *[custom_data~{item_type:offhand,id:13b}] run function items:skills/offhand/13/explode
 execute as @a if score @s playerdata = $tmp tmp run tag @s add buffer
 function effects:system/gain/ {id:47,duration:300,level:1}
 
@@ -21,3 +22,4 @@ execute at @s run particle flame ~ ~1 ~ 1.2 1 1.2 0.3 35
 execute at @s run particle ash ~ ~1 ~ 1.2 1 1.2 0.25 35
 execute at @s run particle smoke ~ ~1 ~ 1.2 1 1.2 0.25 35
 execute at @s run particle explosion ~ ~1 ~ 0.8 1 0.8 0.1 8
+scoreboard players reset $tmp tmp

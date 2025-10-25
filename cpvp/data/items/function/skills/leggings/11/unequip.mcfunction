@@ -1,1 +1,0 @@
-function effects:effect_modifier_remove {id:1}

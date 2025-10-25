@@ -11,8 +11,6 @@
           "defence": 10
         },
         "triggers": [
-          "attacked2",
-          "attack2"
         ]
       },
       "regularitem": 1,
