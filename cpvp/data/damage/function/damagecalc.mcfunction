@@ -118,8 +118,6 @@ execute as @a[tag=atker] if items entity @s hotbar.* *[minecraft:custom_data~{cp
 ##weapon1の効果 ダメージをMP減少に変換
 execute as @a[tag=atker] if items entity @s weapon.mainhand *[minecraft:custom_data~{cpvp:{id:1b,item_type:"weapon"}}] run function items:skills/weapon/1/attack
 
-
-
 #damage3trigger
 execute as @e[tag=atker] run function items:triggers/attack3/check
 execute as @e[tag=victim] run function items:triggers/attacked3/check
@@ -128,6 +126,8 @@ execute as @e[tag=atker] run function damage:atktrigger/attack3 with storage atk
 #ダメージと関係ないスキル処理
 ##magic19の反撃デバフ
 execute if entity @s[tag=victim,tag=magic19buff] run function items:skills/magic/19/counter
+##offhand13の灼熱付与
+execute as @e[tag=atker] run function items:skills/offhand/13/teamattackcheck
 
 #ダメージ上限
 execute if score $maxdamage damagecalc matches -2147483648..2147483647 if score @s damagetaken > $maxdamage damagecalc run scoreboard players operation @s damagetaken = $maxdamage damagecalc

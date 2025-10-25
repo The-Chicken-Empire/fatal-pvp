@@ -365,7 +365,10 @@ function system:cooltime/load
 function system:gui/load
 function system:stats_modifier/load
 
-
+#エフェクト
+data modify storage cpvp:effect46 id set value 46
+data modify storage cpvp:effect46 duration set value -1
+scoreboard objectives add effect46timer dummy
 
 #適当に使うときの汎用markerの召喚
 kill 0-0-0-0-0

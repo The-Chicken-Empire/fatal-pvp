@@ -1,0 +1,13 @@
+{
+  "function": "minecraft:set_custom_data",
+  "tag": {
+    "cpvp": {
+      "cost": 3,
+      "id": 3,
+      "item_type": "food",
+      "mainhand": {
+      },
+      "regularitem": 1
+    }
+  }
+}

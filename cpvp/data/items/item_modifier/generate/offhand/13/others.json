@@ -1,0 +1,23 @@
+{
+  "function": "minecraft:set_components",
+  "components": {
+    "max_stack_size": 1,
+    "attribute_modifiers": [
+      {
+        "type": "attack_damage",
+        "id": "offhand",
+        "amount": 0,
+        "operation": "add_value",
+        "slot": "mainhand"
+      }
+    ],
+    "minecraft:tooltip_display": {
+      "hidden_components": [
+        "minecraft:attribute_modifiers",
+        "unbreakable"
+      ]
+    },
+    "unbreakable": {},
+    "enchantment_glint_override": true
+  }
+}

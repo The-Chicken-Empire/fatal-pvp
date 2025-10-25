@@ -1,0 +1,1 @@
+execute at @s if entity @e[tag=victim,limit=1,distance=20..] run function items:skills/perk/37/active
