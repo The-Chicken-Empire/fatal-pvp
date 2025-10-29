@@ -1,0 +1,289 @@
+{
+  "function": "minecraft:set_lore",
+  "lore": [
+    [
+      {
+        "text": "-- ",
+        "color": "white",
+        "italic": false
+      },
+      {
+        "text": "龍鱗",
+        "color": "#b60037",
+        "italic": false
+      },
+      {
+        "text": "「復讐の焔」",
+        "color": "#f10000",
+        "italic": false
+      },
+      {
+        "text": " --",
+        "color": "white",
+        "italic": false
+      }
+    ],
+    [
+      {
+        "text": "被攻撃時",
+        "italic": false,
+        "color": "yellow"
+      }
+    ],
+    [
+      {
+        "text": "攻撃主と自身の距離が8m以下の場合、",
+        "italic": false,
+        "color": "white"
+      }
+    ],
+    [
+      {
+        "text": "攻撃主に自身の",
+        "italic": false,
+        "color": "white"
+      },
+      {
+        "text": "魔法攻撃力",
+        "italic": false,
+        "color": "dark_purple"
+      },
+      {
+        "text": "の",
+        "italic": false,
+        "color": "white"
+      },
+      {
+        "text": "50%",
+        "italic": false,
+        "color": "yellow"
+      },
+      {
+        "text": "の",
+        "italic": false,
+        "color": "white"
+      },
+      {
+        "text": "[灼熱]",
+        "italic": false,
+        "color": "red"
+      },
+      {
+        "text": "を与える",
+        "italic": false,
+        "color": "white"
+      }
+    ],
+    [""],
+    [
+      {
+        "text": "-- ",
+        "color": "white",
+        "italic": false
+      },
+      {
+        "text": "龍鱗",
+        "color": "#b60037",
+        "italic": false
+      },
+      {
+        "text": "「熾炎の焚獄」",
+        "color": "#fa004b",
+        "italic": false
+      },
+      {
+        "text": " --",
+        "color": "white",
+        "italic": false
+      }
+    ],
+    [
+      {
+        "text": "常時",
+        "italic": false,
+        "color": "yellow"
+      }
+    ],
+    [
+      {
+        "text": "自身がデバフ",
+        "italic": false,
+        "color": "white"
+      },
+      {
+        "text": "[火傷]",
+        "italic": false,
+        "color": "gold"
+      },
+      {
+        "text": "を受けている時、",
+        "italic": false,
+        "color": "white"
+      }],
+      [
+      {
+        "text": "与える",
+        "italic": false,
+        "color": "white"
+      },
+      {
+        "text": "[灼熱]",
+        "italic": false,
+        "color": "red"
+      },
+      {
+        "text": "が",
+        "italic": false,
+        "color": "white"
+      },
+      {
+        "text": "5",
+        "italic": false,
+        "color": "yellow"
+      },
+      {
+        "text": "増加する",
+        "italic": false,
+        "color": "white"
+      }
+    ],
+    [
+      ""
+    ],
+    [
+      {
+        "text": "灼熱",
+        "italic": false,
+        "color": "red"
+      },
+      {
+        "text": " :",
+        "italic": false,
+        "color": "white"
+      }
+    ],
+    [
+      {
+        "text": " - ",
+        "italic": false,
+        "color": "white"
+      },
+      {
+        "text": "スタックエフェクト",
+        "italic": false,
+        "color": "white"
+      }
+    ],
+    [
+      {
+        "text": " - ",
+        "italic": false,
+        "color": "white"
+      },
+      {
+        "text": "スタックが",
+        "italic": false,
+        "color": "white"
+      },
+      {
+        "text": "200",
+        "italic": false,
+        "color": "gold"
+      },
+      {
+        "text": "を超えた時、",
+        "italic": false,
+        "color": "white"
+      }
+    ]
+    ,[
+      {
+        "text": "このエフェクトを削除し、15秒の",
+        "italic": false,
+        "color": "white"
+      },
+      {
+        "text": "[灼熱損傷]",
+        "italic": false,
+        "color": "dark_red"
+      },
+      {
+        "text": "と、",
+        "italic": false,
+        "color": "white"
+      }],
+      [
+      {
+        "text": "15",
+        "italic": false,
+        "color": "gold"
+      },
+      {
+        "text": "の",
+        "italic": false,
+        "color": "white"
+      },
+      {
+        "text": "固定ダメージ",
+        "italic": false,
+        "color": "white"
+      },
+      {
+        "text": "を受ける",
+        "italic": false,
+        "color": "white"
+      }
+    ],
+    [""],
+    [
+      {
+        "text": "灼熱損傷",
+        "italic": false,
+        "color": "dark_red"
+      },
+      {
+        "text": " :",
+        "italic": false,
+        "color": "white"
+      }
+    ],
+    [
+      {
+        "text": " - ",
+        "italic": false,
+        "color": "white"
+      },
+      {
+        "text": "魔法耐性",
+        "italic": false,
+        "color": "dark_purple"
+      },
+      {
+        "text": "-50%",
+        "italic": false,
+        "color": "gold"
+      }
+    ],
+    [
+      {
+        "text": " - ",
+        "italic": false,
+        "color": "white"
+      },
+      {
+        "text": "[灼熱]",
+        "italic": false,
+        "color": "red"
+      },
+      {
+        "text": "を受けない",
+        "italic": false,
+        "color": "white"
+      }
+    ],
+    [
+      ""
+    ]
+  ],
+  "mode": "append"
+}

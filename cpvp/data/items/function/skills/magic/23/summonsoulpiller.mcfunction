@@ -10,6 +10,6 @@ data modify entity @s item set value {components:{"minecraft:custom_model_data":
 data modify entity @s teleport_duration set value 1
 data modify entity @s interpolation_duration set value 5
 data modify entity @s transformation set value {right_rotation:[0f,0f,0f,1f],scale:[0f,8f,0f],left_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f]}
-
+data modify entity @s brightness set value {block:15,sky:15}
 execute at @s run playsound item.flintandsteel.use block @a[distance=..12] ~ ~ ~ 1 0.5 0
 #execute at @s run particle lava ~ ~-3 ~ 0.3 0.3 0.3 0 25 normal

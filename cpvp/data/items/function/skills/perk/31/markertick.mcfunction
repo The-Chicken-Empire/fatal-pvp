@@ -1,5 +1,6 @@
 tag @s add perk31.mk1.tmp
 execute as @a[tag=perk31.skillacting] if score @s playerdata = @e[tag=perk31.mk1.tmp,limit=1] owner run tag @s add perk31.skillacting.tmp
+scoreboard players set @e[tag=perk31.skillacting.tmp,limit=1] mp 0
 execute if score @s skills matches 40.. as @a[tag=perk31.skillacting.tmp] at @s run tp @s @s
 execute if score @s skills matches 40.. as @a[tag=perk31.skillacting.tmp] run attribute @s gravity base set 0
 execute unless score @s skills matches ..0 as @a[tag=perk31.skillacting.tmp] run attribute @s minecraft:camera_distance base set 12

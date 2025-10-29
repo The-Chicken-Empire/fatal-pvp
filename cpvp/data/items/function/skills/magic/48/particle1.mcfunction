@@ -1,0 +1,17 @@
+particle flame ~1.5 ~ ~1.5 0 1 0 0.05 0 normal
+particle flame ~1.5 ~ ~0.75 0 1 0 0.05 0 normal
+particle flame ~1.5 ~ ~ 0 1 0 0.05 0 normal
+particle flame ~1.5 ~ ~-0.75 0 1 0 0.05 0 normal
+particle flame ~1.5 ~ ~-1.5 0 1 0 0.05 0 normal
+particle flame ~0.75 ~ ~-1.5 0 1 0 0.05 0 normal
+particle flame ~0 ~ ~-1.5 0 1 0 0.05 0 normal
+particle flame ~-0.75 ~ ~-1.5 0 1 0 0.05 0 normal
+particle flame ~-1.5 ~ ~-1.5 0 1 0 0.05 0 normal
+particle flame ~-1.5 ~ ~-0.75 0 1 0 0.05 0 normal
+particle flame ~-1.5 ~ ~ 0 1 0 0.05 0 normal
+particle flame ~-1.5 ~ ~0.75 0 1 0 0.05 0 normal
+particle flame ~-1.5 ~ ~1.5 0 1 0 0.05 0 normal
+particle flame ~-0.75 ~ ~1.5 0 1 0 0.05 0 normal
+particle flame ~ ~ ~1.5 0 1 0 0.05 0 normal
+particle flame ~0.75 ~ ~1.5 0 1 0 0.05 0 normal
+particle flame ~1.5 ~ ~1.5 0 1 0 0.05 0 normal

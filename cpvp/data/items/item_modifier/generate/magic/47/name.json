@@ -1,0 +1,10 @@
+{
+  "function": "minecraft:set_name",
+  "name": [
+    {
+      "text": "つむじ風の欠片",
+      "color": "white",
+      "italic": false
+    }
+  ]
+}

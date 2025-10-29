@@ -1,0 +1,10 @@
+{
+  "function": "minecraft:set_name",
+  "name": [
+    {
+      "text": "ツァルタナ・アルティエーター",
+      "color": "yellow",
+      "italic": false
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "function": "minecraft:set_components",
+  "components": {
+    "minecraft:attribute_modifiers": [
+      {
+        "type": "minecraft:armor",
+        "id": "minecraft:leggings",
+        "amount": 0,
+        "operation": "add_value",
+        "slot": "legs"
+      }
+    ],
+    "minecraft:unbreakable": {},
+    "minecraft:tooltip_display": {
+      "hidden_components": [
+        "minecraft:unbreakable",
+        "minecraft:dyed_color",
+        "minecraft:trim",
+        "minecraft:attribute_modifiers"
+      ]
+    },
+    "trim": {
+      "pattern": "sentry",
+      "material": "amethyst"
+    },
+    "dyed_color": 11730944,
+    "enchantment_glint_override": true
+  }
+}

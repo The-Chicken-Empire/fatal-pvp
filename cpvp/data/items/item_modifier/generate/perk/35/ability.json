@@ -1,0 +1,160 @@
+{
+  "function": "minecraft:set_lore",
+  "lore": [
+    [
+      {
+        "text": "-- ",
+        "color": "white",
+        "italic": false
+      },
+      {
+        "text": "玉砕の構え",
+        "color": "red",
+        "italic": false
+      },
+      {
+        "text": " --",
+        "color": "white",
+        "italic": false
+      }
+    ],
+    [
+      {
+        "text": "ゲーム開始時",
+        "italic": false,
+        "color": "yellow"
+      }
+    ],
+    [
+      {
+        "text": "[玉砕の構え:lv1]",
+        "italic": false,
+        "color": "red"
+      },
+      {
+        "text": "を30秒得る。",
+        "italic": false,
+        "color": "white"
+      }
+    ],
+    [""],
+    [
+      {
+        "text": "玉砕の構え",
+        "italic": false,
+        "color": "red"
+      }
+    ],
+    [
+      {
+        "text": " - ",
+        "italic": false,
+        "color": "white"
+      },
+      {
+        "text": "最大値 : 5",
+        "italic": false,
+        "color": "gold"
+      }
+    ],
+    [
+      {
+        "text": " - ",
+        "italic": false,
+        "color": "white"
+      },
+      {
+        "text": "[玉砕の構え]の値",
+        "italic": false,
+        "color": "red"
+      },
+      {
+        "text": "×5%",
+        "italic": false,
+        "color": "gold"
+      },
+      {
+        "text": "だけ",
+        "italic": false,
+        "color": "white"
+      },
+      {
+        "text": "会心率",
+        "italic": false,
+        "color": "yellow"
+      },
+      {
+        "text": "が上昇する。"
+      }
+    ],
+    [
+      {
+        "text": " - ",
+        "italic": false,
+        "color": "white"
+      },
+      {
+        "text": "[玉砕の構え]の値",
+        "italic": false,
+        "color": "red"
+      },
+      {
+        "text": "×15%",
+        "italic": false,
+        "color": "gold"
+      },
+      {
+        "text": "だけ",
+        "italic": false,
+        "color": "white"
+      },
+      {
+        "text": "防御力",
+        "italic": false,
+        "color": "dark_blue"
+      },
+      {
+        "text": "が",
+        "italic": false,
+        "color": "white"
+      },
+      {
+        "text": "減少する",
+        "italic": false,
+        "color": "red",
+        "bold": true
+      },
+      {
+        "text": "。",
+        "italic": false,
+        "color": "white"
+      }
+    ],
+    [
+      {
+        "text": " - ",
+        "italic":false,
+        "color":"white"
+      },
+      {
+        "text": "効果終了時、レベルを1上げて再び30秒得る。"
+      }
+    ],
+    [
+      {
+        "text": " - ",
+        "italic":false,
+        "color":"white"
+      },
+      {
+        "text": "この効果は解除できない。",
+        "italic":false,
+        "color":"white"
+      }
+    ],
+    [
+      ""
+    ]
+  ],
+  "mode": "append"
+}
