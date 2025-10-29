@@ -3,14 +3,21 @@
   "lore": [
     [
       {
-        "text": "ここにフレーバーテキストを書く",
+        "text": "返してもらおうか、私から奪った全てを。",
         "color": "dark_gray",
         "italic": true
       }
     ],
     [
       {
-        "text": "ここは2行目",
+        "text": "私の記憶も、私の苦しみも、私の夢も...",
+        "color": "dark_gray",
+        "italic": true
+      }
+    ],
+    [
+      {
+        "text": "全て、私のものだ。",
         "color": "dark_gray",
         "italic": true
       }

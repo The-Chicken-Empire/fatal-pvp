@@ -8,8 +8,8 @@
         "italic": false
       },
       {
-        "text": "ここにability名",
-        "color": "white",
+        "text": "逃がしはしない",
+        "color": "#505050",
         "italic": false
       },
       {
@@ -20,21 +20,24 @@
     ],
     [
       {
-        "text": "発動検知",
+        "text": "攻撃時",
         "italic": false,
         "color": "yellow"
       }
     ],
     [
       {
-        "text": "cost",
+        "text": "近接攻撃時対象に",
         "italic": false,
         "color": "white"
-      }
-    ],
-    [
+      },
       {
-        "text": "内容",
+        "text": "[移動速度低下:lv2]",
+        "italic": false,
+        "color": "dark_aqua"
+      },
+      {
+        "text": "を4秒付与する。",
         "italic": false,
         "color": "white"
       }
