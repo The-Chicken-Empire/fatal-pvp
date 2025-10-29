@@ -1,0 +1,19 @@
+{
+  "function": "minecraft:set_custom_data",
+  "tag": {
+    "cpvp": {
+      "cost": 0,
+      "id": 32,
+      "item_type": "perk",
+      "hotbar": {
+        "triggers": [
+          "attack1",
+          "attack2",
+          "attack3"
+        ]
+      },
+      "regularitem": 1,
+      "classitem": 1
+    }
+  }
+}
