@@ -3,16 +3,31 @@
   "lore": [
     [
       {
-        "text": "ここにフレーバーテキストを書く",
+        "text": "『神』の存在しない世界を求めた。",
         "color": "dark_gray",
         "italic": true
       }
     ],
     [
       {
-        "text": "ここは2行目",
+        "text": "その為には世界を遮断する他ないだろう。",
         "color": "dark_gray",
         "italic": true
+      }
+    ],
+    [
+      {
+        "text": "故に...そこに感情が在ってはならない。",
+        "color": "dark_gray",
+        "italic": true
+      }
+    ],
+    [
+      {
+        "text": "貴方はどう思う？",
+        "color": "dark_gray",
+        "italic": true,
+        "bold": true
       }
     ]
   ],

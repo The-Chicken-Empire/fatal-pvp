@@ -8,8 +8,8 @@
         "italic": false
       },
       {
-        "text": "ここにability名",
-        "color": "white",
+        "text": "想い無き世界へ",
+        "color": "#470b80",
         "italic": false
       },
       {
@@ -20,21 +20,24 @@
     ],
     [
       {
-        "text": "発動検知",
+        "text": "常時",
         "italic": false,
         "color": "yellow"
       }
     ],
     [
       {
-        "text": "cost",
+        "text": "自身が与えるデバフの時間を",
         "italic": false,
         "color": "white"
-      }
-    ],
-    [
+      },
       {
-        "text": "内容",
+        "text": "25%",
+        "italic": false,
+        "color": "yellow"
+      },
+      {
+        "text": "延長する。",
         "italic": false,
         "color": "white"
       }

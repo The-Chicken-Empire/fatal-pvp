@@ -9,7 +9,10 @@
         "stats": {
           "ctreduction": 10
         },
-        "triggers": []
+        "triggers": [
+          "equip",
+          "unequip"
+        ]
       },
       "regularitem": 1,
       "classitem": 0
