@@ -3,8 +3,8 @@
   "lore": [
     [
       {
-        "text": "アイテムコスト",
-        "color": "light_purple",
+        "text": "使用可能部位",
+        "color": "dark_green",
         "italic": false
       },
       {
@@ -13,8 +13,8 @@
         "italic": false
       },
       {
-        "text": "4",
-        "color": "gold",
+        "text": "ブーツ",
+        "color": "dark_green",
         "italic": false
       }
     ],
