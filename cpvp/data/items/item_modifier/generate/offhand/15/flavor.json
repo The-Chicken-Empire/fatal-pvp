@@ -17,7 +17,14 @@
     ],
     [
       {
-        "text": "故に...そこに感情が在ってはならない。",
+        "text": "...そこに感情が在ってはならない。",
+        "color": "dark_gray",
+        "italic": true
+      }
+    ],
+    [
+      {
+        "text": "強い心は『扉』となり得る故に",
         "color": "dark_gray",
         "italic": true
       }
