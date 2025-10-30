@@ -3,28 +3,21 @@
   "lore": [
     [
       {
-        "text": "生体信号",
+        "text": "未読の通知 二件",
         "color": "dark_gray",
         "italic": true
       }
     ],
     [
       {
-        "text": "-ツァルグレア  N/A",
+        "text": "件名-依頼終了 from-Alfix",
         "color": "dark_gray",
         "italic": true
       }
     ],
     [
       {
-        "text": "-アルフィックス  N/A",
-        "color": "dark_gray",
-        "italic": true
-      }
-    ],
-    [
-      {
-        "text": "...依頼は完遂されました。システムを終了します。",
+        "text": "件名-世界の終了を告げる:) from-N/A",
         "color": "dark_gray",
         "italic": true
       }
