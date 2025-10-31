@@ -1,0 +1,10 @@
+{
+  "function": "minecraft:set_name",
+  "name": [
+    {
+      "text": "破戒僧の法衣",
+      "color": "white",
+      "italic": false
+    }
+  ]
+}
