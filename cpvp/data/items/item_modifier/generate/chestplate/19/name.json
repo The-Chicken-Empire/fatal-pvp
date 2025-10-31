@@ -1,0 +1,10 @@
+{
+  "function": "minecraft:set_name",
+  "name": [
+    {
+      "text": "軽蔑の眼差し",
+      "color": "white",
+      "italic": false
+    }
+  ]
+}
