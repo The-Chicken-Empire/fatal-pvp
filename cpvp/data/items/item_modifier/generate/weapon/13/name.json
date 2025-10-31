@@ -1,0 +1,10 @@
+{
+  "function": "minecraft:set_name",
+  "name": [
+    {
+      "text": "殺戮の薙鎌",
+      "color": "white",
+      "italic": false
+    }
+  ]
+}
