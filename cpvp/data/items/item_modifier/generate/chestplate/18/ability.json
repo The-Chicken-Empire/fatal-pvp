@@ -8,8 +8,8 @@
         "italic": false
       },
       {
-        "text": "ここにability名",
-        "color": "white",
+        "text": "殴れば大体解決じゃね？",
+        "color": "#ff3be5",
         "italic": false
       },
       {
@@ -20,21 +20,48 @@
     ],
     [
       {
-        "text": "発動検知",
+        "text": "攻撃的中時",
         "italic": false,
         "color": "yellow"
       }
     ],
     [
       {
-        "text": "cost",
+        "text": "攻撃対象がプレイヤーだった場合、",
         "italic": false,
         "color": "white"
       }
     ],
     [
       {
-        "text": "内容",
+        "text": "対象に一番近い味方(最大8m)の",
+        "italic": false,
+        "color": "white"
+      },
+      {
+        "text": "HP",
+        "italic": false,
+        "color": "red"
+      },
+      {
+        "text": "を、",
+        "italic": false,
+        "color": "white"
+      }
+    ],
+    [
+      {
+        "text": "与えたダメージの20%分",
+        "italic": false,
+        "color": "yellow"
+      },
+      {
+        "text": "回復",
+        "italic": false,
+        "color": "light_purple"
+      },
+      {
+        "text": "する。",
         "italic": false,
         "color": "white"
       }

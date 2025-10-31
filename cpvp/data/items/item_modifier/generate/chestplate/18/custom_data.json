@@ -2,12 +2,12 @@
   "function": "minecraft:set_custom_data",
   "tag": {
     "cpvp": {
-      "cost": 2,
+      "cost": 3,
       "id": 18,
       "item_type": "chestplate",
       "chestplate": {
         "stats": {
-          "vit": -20,
+          "vit": -25,
           "damage": 5,
           "physicaldef": 5,
           "magicdef": 5

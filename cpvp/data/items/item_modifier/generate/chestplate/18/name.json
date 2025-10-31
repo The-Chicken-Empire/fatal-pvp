@@ -2,8 +2,18 @@
   "function": "minecraft:set_name",
   "name": [
     {
-      "text": "破戒僧の法衣",
+      "text": "破戒僧",
+      "color": "#ad0f8b",
+      "italic": false
+    },
+    {
+      "text": "の",
       "color": "white",
+      "italic": false
+    },
+    {
+      "text": "法衣",
+      "color": "#fcff59",
       "italic": false
     }
   ]
