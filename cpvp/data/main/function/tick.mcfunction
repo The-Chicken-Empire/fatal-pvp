@@ -2,6 +2,9 @@
 function system:cooltime/tick
 function system:stats_modifier/tick
 
+#void
+execute as @e run function system:void
+
 #インベントリ、selecteditem変更時の処理
 execute as @a[advancements={system:invchange=true}] run function system:invchange
 execute as @a store result score @s selecteditemA run data get entity @s SelectedItemSlot

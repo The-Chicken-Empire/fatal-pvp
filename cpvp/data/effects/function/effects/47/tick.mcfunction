@@ -1,0 +1,1 @@
+execute at @s run particle block{block_state:fire} ~ ~1.5 ~ 0.3 0.5 0.3 1 2 normal

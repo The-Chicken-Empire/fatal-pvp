@@ -20,6 +20,23 @@
     ],
     [
       {
+        "text": "食事時間",
+        "italic": false,
+        "color":"green"
+      },
+      {
+        "text": " : ",
+        "italic": false,
+        "color":"white"
+      },
+      {
+        "text": "2秒",
+        "italic": false,
+        "color":"yellow"
+      }
+    ],
+    [
+      {
         "text": "",
         "italic": false,
         "color":"green"
@@ -37,7 +54,7 @@
         "color":"white"
       },
       {
-        "text": "+10 ",
+        "text": "+8 ",
         "italic": false,
         "color":"green"
       }
@@ -54,7 +71,7 @@
         "color":"white"
       },
       {
-        "text": "+8",
+        "text": "+6",
         "italic": false,
         "color":"green"
       }
