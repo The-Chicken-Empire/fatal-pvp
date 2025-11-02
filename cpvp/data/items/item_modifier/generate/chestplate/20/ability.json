@@ -8,8 +8,8 @@
         "italic": false
       },
       {
-        "text": "ここにability名",
-        "color": "white",
+        "text": "視線の軽蔑",
+        "color": "#8d7b4d",
         "italic": false
       },
       {
@@ -20,22 +20,75 @@
     ],
     [
       {
-        "text": "発動検知",
+        "text": "攻撃的中時/被攻撃時",
         "italic": false,
         "color": "yellow"
       }
     ],
     [
       {
-        "text": "cost",
+        "text": "対象の",
+        "italic": false,
+        "color": "white"
+      },
+      {
+        "text": "[視線]",
+        "italic": false,
+        "color": "#fff1a0"
+      },
+      {
+        "text": "1",
+        "italic": false,
+        "color": "gold"
+      },
+      {
+        "text": "につき、",
+        "italic": false,
+        "color": "white"
+      },
+      {
+        "text": "与/被ダメージ量",
+        "italic": false,
+        "color": "red"
+      },
+      {
+        "text": "-10%。",
+        "italic": false,
+        "color": "gold"
+      }
+    ],
+    [""],
+    [
+      {
+        "text": "視線",
+        "italic": false,
+        "color": "#fff1a0"
+      },
+      {
+        "text": ":",
         "italic": false,
         "color": "white"
       }
     ],
     [
       {
-        "text": "内容",
+        "text": " - ",
         "italic": false,
+        "color": "white"
+      },
+      {
+        "text": "最大値 : 7",
+        "color": "gold"
+      }
+    ],
+    [
+      {
+        "text": " - ",
+        "italic": false,
+        "color": "white"
+      },
+      {
+        "text": "この効果は解除できない。",
         "color": "white"
       }
     ],

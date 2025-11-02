@@ -22,4 +22,4 @@ item modify block 0 0 0 container.0 items:generate/chestplate/20/parts
 item modify block 0 0 0 container.0 items:generate/chestplate/20/flavor
 
 #アトリビュートなどを追加したい場合はコメントをはずしてファイルを作成する
-#item modify block 0 0 0 container.0 items:generate/chestplate/20/others
+item modify block 0 0 0 container.0 items:generate/chestplate/20/others

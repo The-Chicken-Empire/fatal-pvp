@@ -3,14 +3,14 @@
   "lore": [
     [
       {
-        "text": "ここにフレーバーテキストを書く",
+        "text": "畏敬せよ。あるいは刮目すればいい。",
         "color": "dark_gray",
         "italic": true
       }
     ],
     [
       {
-        "text": "ここは2行目",
+        "text": "平凡と非凡は、これほどまでに大きな差を見せるもんさ。",
         "color": "dark_gray",
         "italic": true
       }
