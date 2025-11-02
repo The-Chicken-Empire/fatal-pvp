@@ -10,7 +10,7 @@
           "maxeng": 20
         },
         "triggers": [
-          "attacked3",
+          "attack3",
           "kill"
         ]
       },

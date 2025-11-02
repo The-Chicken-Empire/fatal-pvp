@@ -3,14 +3,14 @@
   "lore": [
     [
       {
-        "text": "ここにフレーバーテキストを書く",
+        "text": "満天の星空、虹の橋。",
         "color": "dark_gray",
         "italic": true
       }
     ],
     [
       {
-        "text": "ここは2行目",
+        "text": "何も無い、夜は暗く、暗く...",
         "color": "dark_gray",
         "italic": true
       }
