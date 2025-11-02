@@ -1,0 +1,43 @@
+{
+  "function": "minecraft:set_lore",
+  "lore": [
+    [
+      {
+        "text": "攻撃速度",
+        "color": "yellow",
+        "italic": false
+      },
+      {
+        "text": " : ",
+        "color": "white",
+        "italic": false
+      },
+      {
+        "text": "180",
+        "color": "gold",
+        "italic": false
+      }
+    ],
+    [
+      {
+        "text": "会心率",
+        "color": "yellow",
+        "italic": false
+      },
+      {
+        "text": " : ",
+        "color": "white",
+        "italic": false
+      },
+      {
+        "text": "+7%",
+        "color": "gold",
+        "italic": false
+      }
+    ],
+    [
+      ""
+    ]
+  ],
+  "mode": "append"
+}
