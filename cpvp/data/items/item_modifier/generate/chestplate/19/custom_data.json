@@ -10,8 +10,7 @@
           "maxhp": 70,
           "ctreduction": 7,
           "damage": 7,
-          "defence": -7,
-          "speed": 7
+          "defence": -7
         },
         "triggers": [
           "tick",

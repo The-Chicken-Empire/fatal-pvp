@@ -304,6 +304,7 @@ scoreboard players set @a weapon8 0
 scoreboard objectives add weapon7 dummy
 scoreboard players reset @a weapon7
 scoreboard players set @a weapon8 0
+scoreboard objectives add weapon17ct dummy
 scoreboard objectives add offhand9 dummy
 scoreboard objectives add perk11 dummy
 scoreboard players set @a perk11 0

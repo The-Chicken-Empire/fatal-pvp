@@ -70,23 +70,6 @@
       }
     ],
     [
-      {
-        "text": "回避率",
-        "color": "white",
-        "italic": false
-      },
-      {
-        "text": " : ",
-        "color": "white",
-        "italic": false
-      },
-      {
-        "text": "+7%",
-        "color": "gold",
-        "italic": false
-      }
-    ],
-    [
       ""
     ]
   ],

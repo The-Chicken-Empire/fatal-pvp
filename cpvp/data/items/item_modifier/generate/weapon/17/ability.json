@@ -8,8 +8,8 @@
         "italic": false
       },
       {
-        "text": "ここにability名",
-        "color": "white",
+        "text": "貫く視線",
+        "color": "#fff1a0",
         "italic": false
       },
       {
@@ -20,28 +20,185 @@
     ],
     [
       {
-        "text": "発動検知",
+        "text": "最大チャージで近接攻撃的中時",
         "italic": false,
         "color": "yellow"
       }
     ],
     [
       {
-        "text": "cost",
+        "text": "クールダウン",
         "italic": false,
+        "color": "dark_aqua"
+      },
+      {
+        "text": " : ",
+        "color": "white"
+      },
+      {
+        "text": "2秒",
+        "color": "green"
+      },
+      {
+        "text": "(短縮/延長不可)",
+        "color": "blue"
+      }
+    ],
+    [
+      {
+        "text": "対象に",
+        "italic": false,
+        "color": "white"
+      },
+      {
+        "text": "[視線]",
+        "color": "#fff1a0"
+      },
+      {
+        "text": "1",
+        "color": "gold"
+      },
+      {
+        "text": "を付与する。",
+        "color": "white"
+      }
+    ],
+    [""],
+    [
+      {
+        "text": "-- ",
+        "italic": false,
+        "color": "white"
+      },
+      {
+        "text": "注がれる視線",
+        "color": "#fff1a0"
+      },
+      {
+        "text": "/",
+        "color": "white"
+      },
+      {
+        "text": "握らん",
+        "color": "#8d7b4d"
+      },
+      {
+        "text": " --",
         "color": "white"
       }
     ],
     [
       {
-        "text": "内容",
+        "text": "右クリック",
+        "italic": false,
+        "color": "yellow"
+      }
+    ],
+    [
+      {
+        "text": "クールタイム",
+        "italic": false,
+        "color": "dark_aqua"
+      },
+      {
+        "text": " : ",
+        "color": "white"
+      },
+      {
+        "text": "28秒",
+        "color": "green"
+      }
+    ],
+    [
+      {
+        "text": "装備の特性を切り替える。",
         "italic": false,
         "color": "white"
       }
     ],
     [
       ""
-    ]
+    ],
+    [
+      {
+        "text": "-- ",
+        "italic": false,
+        "color": "white"
+      },
+      {
+        "text": "抜刀",
+        "color": "#ff3c00"
+      },
+      {
+        "text": " --",
+        "color": "white"
+      }
+    ],
+    [
+      {
+        "text": "スニーク時右クリック",
+        "italic": false,
+        "color": "yellow"
+      }
+    ],
+    [
+      {
+        "text": "敵全体の持つ",
+        "italic": false,
+        "color": "white"
+      },
+      {
+        "text": "[視線]",
+        "color": "#fff1a0"
+      },
+      {
+        "text": "の合計が",
+        "color": "white"
+      },
+      {
+        "text": "7以上",
+        "color": "gold"
+      },
+      {
+        "text": "の時発動可能。",
+        "color": "white"
+      }
+    ],
+    [
+      {
+        "text": "剣を抜き、攻めの構えをとる。",
+        "italic": false,
+        "color": "white"
+      }
+    ],
+    [
+      {
+        "text": "この時、胸部防具は",
+        "italic": false,
+        "color": "white"
+      },
+      {
+        "text": "[",
+        "color": "gold"
+      },
+      {
+        "text": "軽蔑",
+        "color": "#ffd359"
+      },
+      {
+        "text": "の眼差し",
+        "color": "#fff1a0"
+      },
+      {
+        "text": "]",
+        "color": "gold"
+      },
+      {
+        "text": "に変化する。",
+        "color": "white"
+      }
+    ],
+    [""]
   ],
   "mode": "append"
 }

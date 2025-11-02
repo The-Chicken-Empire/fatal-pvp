@@ -4,6 +4,77 @@
     [
       {
         "text": "-- ",
+        "italic": false,
+        "color": "white"
+      },
+      {
+        "text": "逃した",
+        "color": "gray"
+      },
+      {
+        "text": "@#$",
+        "color": "red",
+        "obfuscated": true
+      },
+      {
+        "text": "の手",
+        "color": "gray"
+      },
+      {
+        "text": " --",
+        "color": "white"
+      }
+    ],
+    [
+      {
+        "text": "被攻撃時",
+        "italic": false,
+        "color": "yellow"
+      }
+    ],
+    [
+      {
+        "text": "クールダウン",
+        "italic": false,
+        "color": "dark_aqua"
+      },
+      {
+        "text": " : ",
+        "italic": false,
+        "color": "white"
+      },
+      {
+        "text": "5秒",
+        "italic": false,
+        "color": "green"
+      }
+    ],
+    [
+      {
+        "text": "対象に",
+        "italic": false,
+        "color": "white"
+      },
+      {
+        "text": "[視線]",
+        "italic": false,
+        "color": "#fff1a0"
+      },
+      {
+        "text": "1",
+        "italic": false,
+        "color": "gold"
+      },
+      {
+        "text": "を付与する。",
+        "italic": false,
+        "color": "white"
+      }
+    ],
+    [""],
+    [
+      {
+        "text": "-- ",
         "color": "white",
         "italic": false
       },
@@ -52,7 +123,7 @@
         "color": "red"
       },
       {
-        "text": "-10%。",
+        "text": "-7%。",
         "italic": false,
         "color": "gold"
       }
