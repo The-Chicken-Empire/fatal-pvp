@@ -20,8 +20,8 @@
     ],
     [
       {
-        "text": "会心率",
-        "color": "yellow",
+        "text": "防御力",
+        "color": "dark_blue",
         "italic": false
       },
       {
@@ -30,7 +30,7 @@
         "italic": false
       },
       {
-        "text": "-50%",
+        "text": "-10%",
         "color": "gold",
         "italic": false
       }

@@ -339,6 +339,7 @@ scoreboard objectives add perk36ct dummy
 scoreboard objectives add magic29hitct dummy
 scoreboard objectives add magic46using dummy
 scoreboard objectives add magic46usingprev dummy
+scoreboard objectives add offhand19 dummy
 
 #buff用
 scoreboard objectives add maxhp_buff dummy

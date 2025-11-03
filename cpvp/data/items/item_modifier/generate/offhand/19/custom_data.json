@@ -8,11 +8,12 @@
       "offhand": {
         "stats": {
           "vit": 50,
-          "cc": -50,
+          "defence": -10,
           "agi": -50
         },
         "triggers": [
-          "kill"
+          "tick",
+          "unequip"
         ]
       },
       "regularitem": 1,
