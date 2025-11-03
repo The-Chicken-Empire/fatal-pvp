@@ -8,8 +8,8 @@
         "italic": false
       },
       {
-        "text": "ここにability名",
-        "color": "white",
+        "text": "貴方ではないのだよ",
+        "color": "#8728b3",
         "italic": false
       },
       {
@@ -20,21 +20,77 @@
     ],
     [
       {
-        "text": "発動検知",
+        "text": "右クリック",
         "italic": false,
         "color": "yellow"
       }
     ],
     [
       {
-        "text": "cost",
+        "text": "消費MP",
+        "italic": false,
+        "color":"blue"
+      },
+      {
+        "text": " : ",
+        "italic": false,
+        "color":"white"
+      },
+      {
+        "text": "18 ",
+        "italic": false,
+        "color":"green"
+      },
+      {
+        "text": "クールタイム",
+        "italic": false,
+        "color":"dark_aqua"
+      },
+      {
+        "text": " : ",
+        "italic": false,
+        "color":"white"
+      },
+      {
+        "text": "14秒",
+        "italic": false,
+        "color":"green"
+      }
+    ],
+    [
+      {
+        "text": "視線方向に高速の光線を放ち、",
         "italic": false,
         "color": "white"
       }
     ],
     [
       {
-        "text": "内容",
+        "text": "最初に敵に的中した時、対象の周囲8m以内の味方に、",
+        "italic": false,
+        "color": "white"
+      }
+    ],
+    [
+      {
+        "text": "[回復力低下:lv4]",
+        "italic": false,
+        "color": "dark_purple"
+      },
+      {
+        "text": "[脆弱:lv2]",
+        "italic": false,
+        "color": "dark_purple"
+      },
+      {
+        "text": "[最大体力減少:lv2]",
+        "italic": false,
+        "color": "dark_red"
+      }
+    ],
+    [
+      {
+        "text": "を7秒付与する。",
         "italic": false,
         "color": "white"
       }

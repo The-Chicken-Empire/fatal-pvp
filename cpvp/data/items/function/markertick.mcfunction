@@ -94,7 +94,8 @@ execute if entity @s[tag=magic48] at @s run function items:skills/magic/48/marke
 execute if entity @s[tag=magic48core] at @s run function items:skills/magic/48/markertick
 #50
 execute if entity @s[tag=magic50] at @s run function items:skills/magic/50/markertick
-
+#50
+execute if entity @s[tag=magic51] at @s run function items:skills/magic/51/markertick
 ##weapon
 #3
 execute if entity @s[tag=weapon3] run function items:skills/weapon/3/markertick
