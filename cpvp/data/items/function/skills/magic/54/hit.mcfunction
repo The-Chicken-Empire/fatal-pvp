@@ -1,0 +1,1 @@
+execute at @s anchored eyes facing entity @a[tag=magic54tmp,limit=1] eyes facing ^ ^ ^-1 run tp @s ~ ~ ~ ~ ~
