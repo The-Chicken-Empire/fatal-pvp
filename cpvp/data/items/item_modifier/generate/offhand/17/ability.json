@@ -97,6 +97,23 @@
       }
     ],
     [
+      {
+        "text": "既に",
+        "italic": false,
+        "color": "white"
+      },
+      {
+        "text": "[ウィザー]",
+        "italic": false,
+        "color": "dark_gray"
+      },
+      {
+        "text": "付与されていた場合、3秒延長する。",
+        "italic": false,
+        "color": "white"
+      }
+    ],
+    [
       ""
     ],
     [
