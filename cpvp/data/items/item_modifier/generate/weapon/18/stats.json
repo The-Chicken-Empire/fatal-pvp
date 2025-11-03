@@ -4,31 +4,32 @@
     [
       {
         "text": "ダメージ",
-        "color": "red",
-        "italic": false
+        "italic": false,
+        "color": "red"
       },
       {
         "text": " : ",
-        "color": "white",
-        "italic": false
+        "color": "white"
       },
       {
-        "text": "+5.5",
-        "color": "gold",
-        "italic": false
+        "text": "+6.0",
+        "color": "gold"
       },
       {
         "text": " - ",
-        "color": "white",
-        "italic": false
+        "color": "white"
       },
       {
         "text": "物理",
-        "color": "gold",
-        "italic": false
+        "color": "gold"
       },
-      {"text":"/","color":"white","italic":false},
-      {"text":"近距離","color":"red","italic":false}
+      {
+        "text": "/",
+        "color": "white"
+      },
+      {
+        "text": "近距離"
+      }
     ],
     [
       {
@@ -42,15 +43,15 @@
         "italic": false
       },
       {
-        "text": "1.2",
+        "text": "1.7",
         "color": "gold",
         "italic": false
       }
     ],
     [
       {
-        "text": "リーチ",
-        "color": "aqua",
+        "text": "会心率",
+        "color": "yellow",
         "italic": false
       },
       {
@@ -59,10 +60,13 @@
         "italic": false
       },
       {
-        "text": "4",
+        "text": "+7%",
         "color": "gold",
         "italic": false
       }
+    ],
+    [
+      ""
     ]
   ],
   "mode": "append"

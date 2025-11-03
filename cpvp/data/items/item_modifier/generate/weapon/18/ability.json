@@ -1,0 +1,162 @@
+{
+  "function": "minecraft:set_lore",
+  "lore": [
+    [
+      {
+        "text": "-- ",
+        "color": "white",
+        "italic": false
+      },
+      {
+        "text": "視線",
+        "color": "#ffee00",
+        "italic": false
+      },
+      {
+        "text": " --",
+        "color": "white",
+        "italic": false
+      }
+    ],
+    [
+      {
+        "text": "常時発動",
+        "italic": false,
+        "color": "yellow"
+      }
+    ],
+    [
+      {
+        "text": "[視線]",
+        "italic": false,
+        "color": "#fff1a0"
+      },
+      {
+        "text": "を持つ敵の頭上に",
+        "color": "white"
+      },
+      {
+        "text": "橙色に",
+        "color": "gold"
+      },
+      {
+        "text": "表示が現れる。"
+      }
+    ],
+    [
+      {
+        "text": "保有する値が",
+        "italic": false,
+        "color": "white"
+      },
+      {
+        "text": "7",
+        "color": "gold"
+      },
+      {
+        "text": "以上の場合、"
+      },
+      {
+        "text": "赤色",
+        "color": "red"
+      },
+      {
+        "text": "になる。"
+      }
+    ],
+    [
+      ""
+    ],
+    [
+      {
+        "text": "-- ",
+        "italic": false,
+        "color": "white"
+      },
+      {
+        "text": "醜悪なオマエを見つめる嫌悪の視線",
+        "color": "#ff0000"
+      },
+      {
+        "text": " --"
+      }
+    ],
+    [
+      {
+        "text": "スニーク時右クリック長押しの後、放す",
+        "italic": false,
+        "color": "yellow"
+      }
+    ],
+    [
+      {
+        "text": "自身の周囲の敵をすべて切り刻む。",
+        "italic": false,
+        "color": "white"
+      }
+    ],
+    [
+      {
+        "text": "的中時",
+        "italic": false,
+        "color": "yellow"
+      },
+      {
+        "text": "、対象の保有する",
+        "color": "white"
+      },
+      {
+        "text": "[視線]",
+        "color": "#fff1a0"
+      },
+      {
+        "text": "1",
+        "color": "gold"
+      },
+      {
+        "text": "につき、",
+        "color": "white"
+      }
+    ],
+    [
+      {
+        "text": "対象への",
+        "italic": false,
+        "color": "white"
+      },
+      {
+        "text": "基礎ダメージ量",
+        "color": "red"
+      },
+      {
+        "text": "+1.0",
+        "color": "gold"
+      },
+      {
+        "text": "。",
+        "color": "white"
+      }
+    ],
+    [
+      {
+        "text": "攻撃後",
+        "italic": false,
+        "color": "yellow"
+      },
+      {
+        "text": "、全プレイヤーの",
+        "color": "white"
+      },
+      {
+        "text": "[視線]",
+        "color": "#fff1a0"
+      },
+      {
+        "text": "を除去する。",
+        "color": "white"
+      }
+    ],
+    [""]
+  ],
+  "mode": "append"
+}
