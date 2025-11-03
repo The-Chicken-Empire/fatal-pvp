@@ -8,7 +8,7 @@ scoreboard players operation @s attackerdata = @s meleeattacker
 execute as @a[tag=meleeatkertmp2] if score @s playerdata = @a[tag=victimtmp,limit=1] meleeattacker run tag @s add meleeatkertmp3
 #meleeatkertmp2はtickで消す
 #ダメージ種
-execute if entity @e[tag=meleeatkertmp3,tag=magicweapon,limit=1] run tag @s add magicdamage
+execute if entity @a[tag=meleeatkertmp3,tag=magicweapon,limit=1] run tag @s add magicdamage
 execute unless entity @e[tag=meleeatkertmp3,tag=magicweapon,limit=1] run tag @s add physicaldamage
 execute if entity @a[tag=meleeatkertmp3,advancements={system:projectile=false}] run tag @s add meleedamage
 execute if entity @a[tag=meleeatkertmp3,advancements={system:projectile=true}] run tag @s add rangedamage
@@ -30,7 +30,7 @@ tag @s add meleevictim
 tag @s remove meleevictimtmp2
 execute as @e[tag=meleeatkertmp3] run tag @s add meleeatker
 tag @a remove meleeatkertmp3
- 
+
 tag @s add nodamagesound
-scoreboard players operation @s attackerdata = @a[tag=meleeatker,limit=1] playerdata
+#scoreboard players operation @s attackerdata = @a[tag=meleeatker,limit=1] playerdata
 function damage:atkercheck
