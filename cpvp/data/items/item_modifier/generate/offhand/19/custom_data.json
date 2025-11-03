@@ -1,0 +1,22 @@
+{
+  "function": "minecraft:set_custom_data",
+  "tag": {
+    "cpvp": {
+      "cost": 6,
+      "id": 19,
+      "item_type": "offhand",
+      "offhand": {
+        "stats": {
+          "vit": 50,
+          "cc": -50,
+          "agi": -50
+        },
+        "triggers": [
+          "kill"
+        ]
+      },
+      "regularitem": 1,
+      "classitem": 0
+    }
+  }
+}
