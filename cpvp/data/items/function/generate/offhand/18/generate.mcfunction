@@ -17,11 +17,11 @@ item modify block 0 0 0 container.0 items:generate/offhand/18/cost
 
 item modify block 0 0 0 container.0 items:generate/offhand/18/stats
 
-item modify block 0 0 0 container.0 items:generate/offhand/18/ability
+#item modify block 0 0 0 container.0 items:generate/offhand/18/ability
 
 item modify block 0 0 0 container.0 items:generate/offhand/18/parts
 
 item modify block 0 0 0 container.0 items:generate/offhand/18/flavor
 
 #アトリビュートなどを追加したい場合はコメントをはずしてファイルを作成する
-#item modify block 0 0 0 container.0 items:generate/offhand/18/others
+item modify block 0 0 0 container.0 items:generate/offhand/18/others
