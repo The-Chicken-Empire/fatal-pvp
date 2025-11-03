@@ -1,6 +1,6 @@
 #演出
 function effects:system/modify/ {id:21,duration:10,level:1}
-particle minecraft:dripping_lava ~ ~ ~ 7 7 7 0 5000 force
+particle minecraft:dripping_lava ~ ~ ~ 4 4 4 0 3000 force
 playsound block.anvil.place block @a ~ ~ ~ 2 1.7
 playsound minecraft:entity.phantom.bite hostile @a ~ ~ ~ 2 0.7
 
