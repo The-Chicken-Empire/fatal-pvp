@@ -34,6 +34,9 @@ tag @s remove unavoidable
 ##magic25の処理 近接攻撃時の追加
 execute if entity @e[tag=magic25] if entity @e[tag=victim,tag=meleevictim,limit=1] as @e[tag=magic25] if score @s owner = @a[tag=atker,limit=1] playerdata as @e[tag=victim,limit=1] run function items:skills/magic/25/call
 
+##weapon17
+execute if items entity @n[tag=atker] weapon.mainhand *[custom_data~{cpvp:{id:17b,item_type:"weapon"}}] if score @s damagetaken matches 50.. run tag @n[tag=atker] add w17melee
+
 #damage2trigger 軽減とか上昇とか
 execute as @e[tag=atker] run function items:triggers/attack2/check
 execute as @e[tag=victim] run function items:triggers/attacked2/check
@@ -101,6 +104,8 @@ execute as @a[tag=atker] if items entity @s weapon.offhand end_crystal[minecraft
 execute as @a[tag=victim] if score @s damagetaken matches 100.. if entity @s[tag=physicaldamagetmp] if items entity @s hotbar.* *[minecraft:custom_data~{cpvp:{id:29b,item_type:"perk"}}] run function items:skills/perk/29/check
 ##perk19の火力を固定で下げる効果(結構下の方に置いといてね...)
 execute if score @s damagetaken matches 150.. if entity @s[tag=perk19] at @s run function items:skills/perk/19/active
+##offhand16の効果 被ダメージを前回のそれと平均化
+execute if entity @s[tag=victim,type=player] if items entity @s weapon.offhand *[minecraft:custom_data~{cpvp:{id:16b,item_type:"offhand"}}] at @s run function items:skills/offhand/16/
 ##perk27の効果 ダメージ上限1d100
 execute as @a[tag=victim] if items entity @s hotbar.* *[minecraft:custom_data~{cpvp:{id:27b,item_type:"perk"}}] run function items:skills/perk/27/active
 ##perk8の効果 ダメージ上限5

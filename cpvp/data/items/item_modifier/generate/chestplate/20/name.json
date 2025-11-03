@@ -1,0 +1,10 @@
+{
+  "function": "minecraft:set_name",
+  "name": [
+    {
+      "text": "握る掌",
+      "color": "#8d7b4d",
+      "italic": false
+    }
+  ]
+}

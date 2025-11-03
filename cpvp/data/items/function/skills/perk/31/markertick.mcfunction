@@ -10,6 +10,6 @@ execute if score @s skills matches 55..67 at @a[tag=perk31.skillacting.tmp] run 
 execute if score @s skills matches 70 run function items:skills/perk/31/displaysummon
 execute if score @s skills matches 90 as @e[tag=perk31.mk2] if score @s owner = @e[tag=perk31.mk1.tmp,limit=1] owner run function items:skills/perk/31/swordactivate1
 execute if score @s skills matches 100 as @e[tag=perk31.mk2] if score @s owner = @e[tag=perk31.mk1.tmp,limit=1] owner run function items:skills/perk/31/swordactivate2
-execute if score @s skills matches 160 as @a[tag=perk31.skillacting.tmp] run function items:skills/perk/31/truedeath
+execute if score @s skills matches 150 as @a[tag=perk31.skillacting.tmp] run function items:skills/perk/31/truedeath
 tag @e[tag=perk31.skillacting.tmp] remove perk31.skillacting.tmp
 tag @s remove perk31.mk1.tmp

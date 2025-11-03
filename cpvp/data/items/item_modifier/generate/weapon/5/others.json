@@ -5,7 +5,7 @@
       {
         "type": "minecraft:attack_damage",
         "id": "weapon5",
-        "amount": 5.0,
+        "amount": 5.5,
         "operation": "add_value",
         "slot": "mainhand"
       },

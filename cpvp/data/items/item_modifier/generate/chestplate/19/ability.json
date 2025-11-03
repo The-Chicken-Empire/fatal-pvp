@@ -1,0 +1,181 @@
+{
+  "function": "minecraft:set_lore",
+  "lore": [
+    [
+      {
+        "text": "この翼で飛ぶことはできない。",
+        "italic": false,
+        "color": "red"
+      }
+    ],
+    [""],
+    [
+      {
+        "text": "-- ",
+        "color": "white",
+        "italic": false
+      },
+      {
+        "text": "軽蔑の視線",
+        "color": "#ff9d00",
+        "italic": false
+      },
+      {
+        "text": " --",
+        "color": "white",
+        "italic": false
+      }
+    ],
+    [
+      {
+        "text": "攻撃的中時",
+        "italic": false,
+        "color": "yellow"
+      }
+    ],
+    [
+      {
+        "text": "クールダウン",
+        "italic": false,
+        "color": "dark_aqua"
+      },
+      {
+        "text": " : ",
+        "italic": false,
+        "color": "white"
+      },
+      {
+        "text": "5秒",
+        "italic": false,
+        "color": "green"
+      }
+    ],
+    [
+      {
+        "text": "対象が自身から14m以内にいた場合、",
+        "italic": false,
+        "color": "white"
+      }
+    ],
+    [
+      {
+        "text": "対象に",
+        "italic": false,
+        "color": "white"
+      },
+      {
+        "text": "[視線]",
+        "italic": false,
+        "color": "#fff1a0"
+      },
+      {
+        "text": "1",
+        "italic": false,
+        "color": "gold"
+      },
+      {
+        "text": "を付与する。",
+        "italic": false,
+        "color": "white"
+      }
+    ],
+    [
+      ""
+    ],
+    [
+      {
+        "text": "-- ",
+        "color": "white",
+        "italic": false
+      },
+      {
+        "text": "畏敬",
+        "color": "#ffee00",
+        "italic": false
+      },
+      {
+        "text": " --",
+        "color": "white",
+        "italic": false
+      }
+    ],
+    [
+      {
+        "text": "攻撃的中時/被攻撃時",
+        "italic": false,
+        "color": "yellow"
+      }
+    ],
+    [
+      {
+        "text": "対象の",
+        "italic": false,
+        "color": "white"
+      },
+      {
+        "text": "[視線]",
+        "italic": false,
+        "color": "#fff1a0"
+      },
+      {
+        "text": "1",
+        "italic": false,
+        "color": "gold"
+      },
+      {
+        "text": "につき、",
+        "italic": false,
+        "color": "white"
+      },
+      {
+        "text": "与/被ダメージ量",
+        "italic": false,
+        "color": "red"
+      },
+      {
+        "text": "+10%。",
+        "italic": false,
+        "color": "gold"
+      }
+    ],
+    [""],
+    [
+      {
+        "text": "視線",
+        "italic": false,
+        "color": "#fff1a0"
+      },
+      {
+        "text": ":",
+        "italic": false,
+        "color": "white"
+      }
+    ],
+    [
+      {
+        "text": " - ",
+        "italic": false,
+        "color": "white"
+      },
+      {
+        "text": "最大値 : 7",
+        "color": "gold"
+      }
+    ],
+    [
+      {
+        "text": " - ",
+        "italic": false,
+        "color": "white"
+      },
+      {
+        "text": "この効果は解除できない。",
+        "color": "white"
+      }
+    ],
+    [
+      ""
+    ]
+  ],
+  "mode": "append"
+}

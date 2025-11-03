@@ -105,6 +105,8 @@ execute if entity @s[tag=weapon4-5] run function items:skills/weapon/4/markertic
 #5
 execute if entity @s[tag=w5marker] run function items:skills/weapon/5/markertick
 execute if entity @s[tag=w5.2marker] run function items:skills/weapon/5/markertick2
+#18
+execute if entity @s[tag=weapon18] run function items:skills/weapon/18/markertick
 
 #6
 execute if entity @s[tag=weapon6] run function items:skills/weapon/6/markertick

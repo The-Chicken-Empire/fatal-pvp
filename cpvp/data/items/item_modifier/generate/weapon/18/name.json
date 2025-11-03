@@ -1,0 +1,10 @@
+{
+  "function": "minecraft:set_name",
+  "name": [
+    {
+      "text": "畏敬",
+      "color": "#ff3c00",
+      "italic": false
+    }
+  ]
+}
