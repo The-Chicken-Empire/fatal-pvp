@@ -1,6 +1,7 @@
 tag @s add w17tmp
-execute as @a[tag=playing,tag=!w17tmp] unless score @s teamscore = @n[tag=w17tmp] teamscore run function items:skills/weapon/17/gazecount
-execute if score $weapon17 tmp matches 7.. run function items:skills/weapon/17/replace
+execute as @e[tag=playing,tag=!w17tmp] unless score @s teamscore = @n[tag=w17tmp] teamscore run function items:skills/weapon/17/gazecount
+execute if score $weapon17 tmp matches 7.. unless entity @s[tag=weapon18] run function items:skills/weapon/17/replace
+scoreboard players reset $weapon17 tmp
 tag @s remove w17tmp
 #使用後処理
 scoreboard players reset $check main

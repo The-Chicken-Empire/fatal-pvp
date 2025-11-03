@@ -55,11 +55,22 @@
         "color": "#fff1a0"
       },
       {
-        "text": "1",
+        "text": "2",
         "color": "gold"
       },
       {
         "text": "を付与する。",
+        "color": "white"
+      }
+    ],
+    [
+      {
+        "text": "[握る掌]",
+        "italic": false,
+        "color": "#8d7b4d"
+      },
+      {
+        "text": "状態だった場合、付与量は半減する。",
         "color": "white"
       }
     ],

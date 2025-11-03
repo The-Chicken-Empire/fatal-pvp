@@ -7,10 +7,12 @@
       "item_type": "weapon",
       "mainhand": {
         "stats": {
-          "attackspeed": 180,
+          "attackspeed": 170,
           "cc": 7
         },
         "triggers": [
+          "tick",
+          "unequip",
           "using"
         ]
       },
