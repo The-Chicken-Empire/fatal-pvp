@@ -27,7 +27,17 @@
     ],
     [
       {
-        "text": "1000mm以内にいる敵プレイヤーに盲目を付与する。",
+        "text": "1000mm以内にいる敵プレイヤーに",
+        "italic": false,
+        "color": "white"
+      },
+      {
+        "text": "[盲目]",
+        "italic": false,
+        "color": "dark_gray"
+      },
+      {
+        "text": "を付与する。",
         "italic": false,
         "color": "white"
       }
