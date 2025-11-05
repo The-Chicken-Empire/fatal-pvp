@@ -8,8 +8,8 @@
         "italic": false
       },
       {
-        "text": "ここにability名",
-        "color": "white",
+        "text": "さらだばー",
+        "color": "blue",
         "italic": false
       },
       {
@@ -20,21 +20,21 @@
     ],
     [
       {
-        "text": "発動検知",
+        "text": "敵討伐時",
         "italic": false,
         "color": "yellow"
       }
     ],
     [
       {
-        "text": "cost",
+        "text": "4秒間エリトラが展開可能になり、",
         "italic": false,
         "color": "white"
       }
     ],
-    [
+        [
       {
-        "text": "内容",
+        "text": "展開中にスニークすると前方へ加速する。",
         "italic": false,
         "color": "white"
       }
