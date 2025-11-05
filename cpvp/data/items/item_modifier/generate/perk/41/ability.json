@@ -8,8 +8,8 @@
         "italic": false
       },
       {
-        "text": "ここにability名",
-        "color": "white",
+        "text": "透視？",
+        "color": "yellow",
         "italic": false
       },
       {
@@ -20,21 +20,14 @@
     ],
     [
       {
-        "text": "発動検知",
+        "text": "常時",
         "italic": false,
         "color": "yellow"
       }
     ],
     [
       {
-        "text": "cost",
-        "italic": false,
-        "color": "white"
-      }
-    ],
-    [
-      {
-        "text": "内容",
+        "text": "1000mm以内にいる敵プレイヤーに盲目を付与する。",
         "italic": false,
         "color": "white"
       }
