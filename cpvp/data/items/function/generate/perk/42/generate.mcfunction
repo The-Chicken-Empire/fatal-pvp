@@ -24,4 +24,4 @@ item modify block 0 0 0 container.0 items:generate/perk/42/parts
 item modify block 0 0 0 container.0 items:generate/perk/42/flavor
 
 #アトリビュートなどを追加したい場合はコメントをはずしてファイルを作成する
-#item modify block 0 0 0 container.0 items:generate/perk/42/others
+item modify block 0 0 0 container.0 items:generate/perk/42/others

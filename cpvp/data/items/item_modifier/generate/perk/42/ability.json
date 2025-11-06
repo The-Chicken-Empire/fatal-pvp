@@ -8,8 +8,8 @@
         "italic": false
       },
       {
-        "text": "ここにability名",
-        "color": "white",
+        "text": "セカンドプラン",
+        "color": "#fff458",
         "italic": false
       },
       {
@@ -20,21 +20,24 @@
     ],
     [
       {
-        "text": "発動検知",
+        "text": "敵討伐時",
         "italic": false,
         "color": "yellow"
       }
     ],
     [
       {
-        "text": "cost",
+        "text": "ホットバーにある全てのアイテムの",
         "italic": false,
         "color": "white"
-      }
-    ],
-    [
+      },
       {
-        "text": "内容",
+        "text": "CT",
+        "italic": false,
+        "color": "dark_aqua"
+      },
+      {
+        "text": "をリセットする。",
         "italic": false,
         "color": "white"
       }
