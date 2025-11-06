@@ -3,7 +3,14 @@
   "lore": [
     [
       {
-        "text": "食らえ！ニンニクブレス！",
+        "text": "ここにフレーバーテキストを書く",
+        "color": "dark_gray",
+        "italic": true
+      }
+    ],
+    [
+      {
+        "text": "ここは2行目",
         "color": "dark_gray",
         "italic": true
       }
