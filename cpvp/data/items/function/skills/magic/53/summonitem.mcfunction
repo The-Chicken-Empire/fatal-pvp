@@ -8,7 +8,6 @@ data modify entity @s Motion.[0] set from storage cpvp:magic53 x
 data modify entity @s Motion.[1] set from storage cpvp:magic53 y
 data modify entity @s Motion.[2] set from storage cpvp:magic53 z
 data modify entity @s Item set value {id:"minecraft:firework_star",count:1}
-say a
 
 
 tag @s remove magic53tmp2

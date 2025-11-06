@@ -1,4 +1,5 @@
 tag @s add magic53tmp3
+data modify entity @s PickupDelay set value 10000000
 
 execute if score @s skills matches 45 at @s run playsound block.stone_button.click_on block @a ~ ~ ~ 1 1.3 0
 execute if score @s skills matches 35 at @s run playsound block.stone_button.click_on block @a ~ ~ ~ 1 1.3 0
