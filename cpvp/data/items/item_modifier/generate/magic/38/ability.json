@@ -8,8 +8,8 @@
         "italic": false
       },
       {
-        "text": "ここにability名",
-        "color": "white",
+        "text": "ワールドシュレッダー",
+        "color": "#949ad8",
         "italic": false
       },
       {
@@ -20,21 +20,123 @@
     ],
     [
       {
-        "text": "発動検知",
+        "text": "右クリック",
         "italic": false,
         "color": "yellow"
       }
     ],
     [
       {
-        "text": "cost",
+        "text": "消費MP",
+        "italic": false,
+        "color":"blue"
+      },
+      {
+        "text": " : ",
+        "italic": false,
+        "color":"white"
+      },
+      {
+        "text": "10 ",
+        "italic": false,
+        "color":"green"
+      },
+      {
+        "text": "消費HP",
+        "italic": false,
+        "color":"red"
+      },
+      {
+        "text": " : ",
+        "italic": false,
+        "color":"white"
+      },
+      {
+        "text": "20 ",
+        "italic": false,
+        "color":"green"
+      },
+      {
+        "text": "クールタイム",
+        "italic": false,
+        "color":"dark_aqua"
+      },
+      {
+        "text": " : ",
+        "italic": false,
+        "color":"white"
+      },
+      {
+        "text": "18秒",
+        "italic": false,
+        "color":"green"
+      }
+    ],
+        [
+      {
+        "text": "6秒間、",
+        "italic": false,
+        "color": "white"
+      },
+      {
+        "text": "攻撃速度",
+        "italic": false,
+        "color": "yellow"
+      },
+      {
+        "text": "を+30%し、",
+        "italic": false,
+        "color": "white"
+      }
+      
+    ],
+    [
+      {
+        "text": "-",
+        "italic": false,
+        "color": "white"
+      },
+      {
+        "text": "ソニックスラッシュ",
+        "italic": false,
+        "color": "#bbffd5"
+      },
+      {
+        "text": "-の発動率が倍になる。",
         "italic": false,
         "color": "white"
       }
     ],
     [
       {
-        "text": "内容",
+        "text": "さらに攻撃後、相手の",
+        "italic": false,
+        "color": "white"
+      },
+      {
+        "text": "HP",
+        "italic": false,
+        "color": "red"
+      },
+      {
+        "text": "が",
+        "italic": false,
+        "color": "white"
+      },
+      {
+        "text": "最大HP",
+        "italic": false,
+        "color": "red"
+      },
+      {
+        "text": "の20%以下なら",
+        "italic": false,
+        "color": "white"
+      }
+    ],
+    [
+      {
+        "text": "即死させる。",
         "italic": false,
         "color": "white"
       }

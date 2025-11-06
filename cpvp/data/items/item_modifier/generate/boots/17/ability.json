@@ -8,8 +8,8 @@
         "italic": false
       },
       {
-        "text": "ここにability名",
-        "color": "white",
+        "text": "クロノハート",
+        "color": "dark_purple",
         "italic": false
       },
       {
@@ -20,21 +20,70 @@
     ],
     [
       {
-        "text": "発動検知",
+        "text": "回復力",
         "italic": false,
-        "color": "yellow"
-      }
-    ],
-    [
+        "color": "light_purple"
+      },
       {
-        "text": "cost",
+        "text": "が0に固定される。",
         "italic": false,
         "color": "white"
       }
     ],
     [
       {
-        "text": "内容",
+        "text": "味方からの回復を受け付けない。",
+        "italic": false,
+        "color": "white"
+      }
+    ],
+    [
+      ""
+    ],
+        [
+      {
+        "text": "-- ",
+        "color": "white",
+        "italic": false
+      },
+      {
+        "text": "レーヴァテイン",
+        "color": "red",
+        "italic": false
+      },
+      {
+        "text": " --",
+        "color": "white",
+        "italic": false
+      }
+    ],
+        [
+      {
+        "text": "攻撃時",
+        "italic": false,
+        "color": "yellow"
+      }
+    ],
+        [
+      {
+        "text": "与ダメージの25%を回復する。",
+        "italic": false,
+        "color": "white"
+      }
+    ],
+    [
+      {
+        "text": "この効果は",
+        "italic": false,
+        "color": "white"
+      },
+      {
+        "text": "回復力",
+        "italic": false,
+        "color": "light_purple"
+      },
+      {
+        "text": "の影響を受けない。",
         "italic": false,
         "color": "white"
       }

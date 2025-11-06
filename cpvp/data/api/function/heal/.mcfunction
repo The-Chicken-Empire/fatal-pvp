@@ -11,6 +11,8 @@ execute if items entity @a[tag=healer,limit=1,tag=!cp17activated] armor.chest *[
 scoreboard players operation $heal counter = @a[tag=healer,limit=1] vit
 #scoreboard players operation $heal counter += $100 main
 execute if score $heal counter matches ..-1 run scoreboard players set $heal counter 0
+#boots17の処理
+execute if items entity @s armor.feet *[custom_data~{cpvp:{id:17b,item_type:"boots"}}] run scoreboard players set $heal main 0
 scoreboard players operation $heal main *= $heal counter
 scoreboard players operation $heal main /= $100 main
 

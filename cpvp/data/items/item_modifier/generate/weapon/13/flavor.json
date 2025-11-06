@@ -3,14 +3,21 @@
   "lore": [
     [
       {
-        "text": "ここにフレーバーテキストを書く",
+        "text": "溢れ出る重厚感とは裏腹に、この鎌の操者は",
         "color": "dark_gray",
         "italic": true
       }
     ],
     [
       {
-        "text": "ここは2行目",
+        "text": "その重量をものともしずに高速で斬撃を放ち続け、",
+        "color": "dark_gray",
+        "italic": true
+      }
+    ],
+    [
+      {
+        "text": "目の前に立ちはだかるあらゆるものを裁断する。",
         "color": "dark_gray",
         "italic": true
       }
