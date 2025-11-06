@@ -10,6 +10,9 @@ scoreboard players operation @s hp -= @s damagepoint
 
 ##特殊処理 magic39 体力を0にする
 execute if entity @s[tag=magic39frostbite] run function items:skills/magic/39/frostbite
+##magic38
+execute as @a[tag=atker] at @s run function items:skills/magic/38/s1/sokusi
+
 
 #テキスト表示
 execute at @s summon text_display run function damage:damagetext/summontext

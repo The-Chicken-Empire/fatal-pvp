@@ -117,3 +117,4 @@ advancement revoke @a[advancements={system:projectile=true}] only system:project
 
 scoreboard players set @a using 0
 scoreboard players set @a sneak 0
+scoreboard players set @a jump 0

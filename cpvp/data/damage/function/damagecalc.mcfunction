@@ -9,7 +9,9 @@ scoreboard players set $damageadd damagecalc 0
 #perk20の効果 攻撃対象変更
 execute if items entity @s[tag=victim] hotbar.* *[custom_data~{cpvp:{id:20b,item_type:"perk"}}] run function items:skills/perk/20/check
 execute if score $perk20 main matches 1 run return run execute as @a[tag=perk20victim,limit=1] run function items:skills/perk/20/recalc
-
+##weapom13
+execute if items entity @n[tag=atker] weapon.mainhand *[custom_data~{cpvp:{id:13b,item_type:"weapon"}}] if score @s damagetaken matches 24..25 run tag @n[tag=atker] add w13melee
+execute if items entity @n[tag=atker] weapon.mainhand *[custom_data~{cpvp:{id:13b,item_type:"weapon"}}] if score @s damagetaken matches 37.. run tag @n[tag=atker] add w13melee
 
 execute if entity @e[tag=victim,limit=1,tag=truedamagetmp] run return run function damage:truedamagecalc
 
@@ -37,6 +39,7 @@ execute if entity @e[tag=magic25] if entity @e[tag=victim,tag=meleevictim,limit=
 
 ##weapon17
 execute if items entity @n[tag=atker] weapon.mainhand *[custom_data~{cpvp:{id:17b,item_type:"weapon"}}] if score @s damagetaken matches 50.. run tag @n[tag=atker] add w17melee
+
 
 #damage2trigger 軽減とか上昇とか
 execute as @e[tag=atker] run function items:triggers/attack2/check

@@ -1,0 +1,10 @@
+{
+  "function": "minecraft:set_name",
+  "name": [
+    {
+      "text": "無垢と謀殺の翼",
+      "color": "dark_aqua",
+      "italic": false
+    }
+  ]
+}

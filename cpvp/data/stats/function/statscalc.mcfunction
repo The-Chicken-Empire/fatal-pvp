@@ -125,7 +125,8 @@ execute if items entity @s weapon.offhand *[custom_data~{cpvp:{id:3b,item_type:"
 execute if items entity @s hotbar.* *[custom_data~{cpvp:{id:36b,item_type:"perk"}}] run function items:skills/perk/36/s3/
 execute if items entity @s inventory.* *[custom_data~{cpvp:{id:36b,item_type:"perk"}}] run function items:skills/perk/36/s3/
 execute if items entity @s weapon.offhand *[custom_data~{cpvp:{id:36b,item_type:"perk"}}] run function items:skills/perk/36/s3/
-
+#boots17の回復力0固定
+execute if items entity @s armor.feet *[custom_data~{cpvp:{id:17b,item_type:"boots"}}] run scoreboard players set @s vit 0
 
 #speed処理
 execute store result storage cpvp:stats speed float 0.001 run scoreboard players get @s speed
