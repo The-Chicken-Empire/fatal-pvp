@@ -1,0 +1,10 @@
+{
+  "function": "minecraft:set_name",
+  "name": [
+    {
+      "text": "誘う刃",
+      "color": "white",
+      "italic": false
+    }
+  ]
+}
