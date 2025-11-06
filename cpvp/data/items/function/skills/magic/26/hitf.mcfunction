@@ -1,6 +1,6 @@
 tag @s add magicdamage
 tag @s add rangedamage
-scoreboard players set @s damagetaken 50
+scoreboard players set @s damagetaken 30
 scoreboard players operation @s attackerdata = @e[tag=magic26ftmp,limit=1] owner
 execute at @s run playsound block.lava.pop hostile @a[distance=..10] ~ ~ ~ 1 1 0
 execute at @s run playsound block.lava.pop hostile @a[distance=..10] ~ ~ ~ 1 1 0
