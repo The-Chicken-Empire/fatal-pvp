@@ -9,7 +9,8 @@
         "triggers": [
           "attack1",
           "attack2",
-          "attack3"
+          "attack3",
+          "tick"
         ]
       },
       "regularitem": 1,

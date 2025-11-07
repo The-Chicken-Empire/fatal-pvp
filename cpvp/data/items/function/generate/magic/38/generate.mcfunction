@@ -1,6 +1,6 @@
 #> items:generate/magic/38/generate
 #
-# アイテム名 : 無情の刃
+# アイテム名 : 誘う刃
 # 0 0 0のブロックのcontainer.0に生成します
 # 
 # @within items:*

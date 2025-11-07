@@ -1,0 +1,18 @@
+{
+  "function": "minecraft:set_custom_data",
+  "tag": {
+    "cpvp": {
+      "cost": 0,
+      "id": 13,
+      "item_type": "weapon",
+      "mainhand": {
+        "stats": {
+          "attackspeed": 90
+        },
+        "triggers": []
+      },
+      "regularitem": 1,
+      "classitem": 1
+    }
+  }
+}

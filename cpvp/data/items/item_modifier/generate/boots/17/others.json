@@ -1,0 +1,23 @@
+{
+  "function": "minecraft:set_components",
+  "components": {
+    "minecraft:attribute_modifiers": [
+      {
+        "type": "minecraft:armor",
+        "id": "minecraft:boots",
+        "amount": 0,
+        "operation": "add_value",
+        "slot": "feet"
+      }
+    ],
+    "minecraft:unbreakable": {},
+    "minecraft:tooltip_display": {
+      "hidden_components": [
+        "minecraft:unbreakable",
+        "minecraft:trim",
+        "minecraft:attribute_modifiers"
+      ]
+    },
+    "minecraft:enchantment_glint_override": true
+  }
+}

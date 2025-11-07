@@ -8,8 +8,8 @@
         "italic": false
       },
       {
-        "text": "ここにability名",
-        "color": "white",
+        "text": "ブラッドウィング",
+        "color": "dark_red",
         "italic": false
       },
       {
@@ -20,21 +20,14 @@
     ],
     [
       {
-        "text": "発動検知",
+        "text": "近接攻撃を命中させた直後にジャンプ",
         "italic": false,
         "color": "yellow"
       }
     ],
     [
       {
-        "text": "cost",
-        "italic": false,
-        "color": "white"
-      }
-    ],
-    [
-      {
-        "text": "内容",
+        "text": "前方にブリンクする。",
         "italic": false,
         "color": "white"
       }

@@ -2,8 +2,8 @@
   "function": "minecraft:set_name",
   "name": [
     {
-      "text": "無情の刃",
-      "color": "white",
+      "text": "誘いの刃",
+      "color": "#93ec9f",
       "italic": false
     }
   ]

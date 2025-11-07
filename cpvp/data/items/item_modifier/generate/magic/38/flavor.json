@@ -3,14 +3,7 @@
   "lore": [
     [
       {
-        "text": "ここにフレーバーテキストを書く",
-        "color": "dark_gray",
-        "italic": true
-      }
-    ],
-    [
-      {
-        "text": "ここは2行目",
+        "text": "ちょっとズキッとするけど...耐えられる?",
         "color": "dark_gray",
         "italic": true
       }
