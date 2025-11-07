@@ -3,14 +3,14 @@
   "lore": [
     [
       {
-        "text": "ここにフレーバーテキストを書く",
+        "text": "これ急所補正でダメージ上がったりしない？",
         "color": "dark_gray",
         "italic": true
       }
     ],
     [
       {
-        "text": "ここは2行目",
+        "text": "あ、だめ？...そうですか。",
         "color": "dark_gray",
         "italic": true
       }
