@@ -1,0 +1,10 @@
+{
+  "function": "minecraft:set_name",
+  "name": [
+    {
+      "text": "SAC充電機構",
+      "color": "#ffc400",
+      "italic": false
+    }
+  ]
+}

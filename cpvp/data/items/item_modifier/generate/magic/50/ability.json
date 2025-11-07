@@ -1,0 +1,226 @@
+{
+  "function": "minecraft:set_lore",
+  "lore": [
+    [
+      {
+        "text": "-- ",
+        "color": "white",
+        "italic": false
+      },
+      {
+        "text": "SCDS Type-ManaDeleter v0.8",
+        "color": "#3f10ad",
+        "italic": false
+      },
+      {
+        "text": " --",
+        "color": "white",
+        "italic": false
+      }
+    ],
+    [
+      {
+        "text": "右クリック",
+        "italic": false,
+        "color": "yellow"
+      }
+    ],
+    [
+      {
+        "text": "消費MP",
+        "italic": false,
+        "color":"blue"
+      },
+      {
+        "text": " : ",
+        "italic": false,
+        "color":"white"
+      },
+      {
+        "text": "24 ",
+        "italic": false,
+        "color":"green"
+      },
+      {
+        "text": "クールタイム",
+        "italic": false,
+        "color":"dark_aqua"
+      },
+      {
+        "text": " : ",
+        "italic": false,
+        "color":"white"
+      },
+      {
+        "text": "25秒",
+        "italic": false,
+        "color":"green"
+      }
+    ],
+    [
+      {
+        "text": "前方に",
+        "italic": false,
+        "color": "white"
+      },
+      {
+        "text": "『夢の水晶』",
+        "italic": false,
+        "color": "#611ffc"
+      },
+      {
+        "text": "を射出する。",
+        "italic": false,
+        "color": "white"
+      }
+    ],
+    [
+      {
+        "text": "『夢の水晶』",
+        "italic": false,
+        "color": "#611ffc"
+      },
+      {
+        "text": "はブロックをすり抜ける。",
+        "italic": false,
+        "color": "white"
+      }
+    ],
+    [
+      {
+        "text": "『夢の水晶』",
+        "italic": false,
+        "color": "#611ffc"
+      },
+      {
+        "text": "2秒後から5回活性化し、周囲の敵に",
+        "italic": false,
+        "color": "white"
+      }
+    ],
+    [
+      {
+        "text": "[MP回復力減少:lv3]",
+        "italic": false,
+        "color": "dark_aqua"
+      },
+      {
+        "text": "[最大MP減少:lv3]",
+        "italic": false,
+        "color": "dark_blue"
+      },
+      {
+        "text": "を6秒付与する。",
+        "italic": false,
+        "color": "white"
+      }
+    ],
+    [
+      {
+        "text": "既にそれぞれのデバフが付与されていた場合、",
+        "italic": false,
+        "color": "white"
+      }
+    ],
+    [
+      {
+        "text": "各デバフのレベルを1上昇させ、時間を6秒延長する。",
+        "italic": false,
+        "color": "white"
+      }
+    ],
+    [
+      {
+        "text": "『夢の水晶』",
+        "italic": false,
+        "color": "#611ffc"
+      },
+      {
+        "text": "は活性化する度に効果範囲が0.5m増え、",
+        "italic": false,
+        "color": "white"
+      }
+    ],
+    [
+      {
+        "text": "移動速度が少し遅くなる。",
+        "italic": false,
+        "color": "white"
+      }
+    ],
+    [
+      {
+        "text": "追加効果",
+        "italic": false,
+        "color": "yellow"
+      }
+    ],[
+      {
+        "text": "充電",
+        "italic": false,
+        "color": "yellow"
+      },
+      {
+        "text": "が",
+        "italic": false,
+        "color": "white"
+      },
+      {
+        "text": "10",
+        "italic": false,
+        "color": "gold"
+      },
+      {
+        "text": "以上の場合、",
+        "italic": false,
+        "color": "white"
+      },
+      {
+        "text": "充電",
+        "italic": false,
+        "color": "yellow"
+      },
+      {
+        "text": "を",
+        "italic": false,
+        "color": "white"
+      },
+      {
+        "text": "10",
+        "italic": false,
+        "color": "gold"
+      },
+      {
+        "text": "消費し、",
+        "italic": false,
+        "color": "white"
+      }
+    ],
+    [
+      {
+        "text": "『夢の水晶』",
+        "italic": false,
+        "color": "#611ffc"
+      },
+      {
+        "text": "の活性化回数が",
+        "italic": false,
+        "color": "white"
+      },
+      {
+        "text": "3回",
+        "italic": false,
+        "color": "yellow"
+      },
+      {
+        "text": "増加する。",
+        "italic": false,
+        "color": "white"
+      }
+    ],
+    [
+      ""
+    ]
+  ],
+  "mode": "append"
+}

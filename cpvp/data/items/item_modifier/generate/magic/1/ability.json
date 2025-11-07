@@ -37,7 +37,7 @@
         "color":"white"
       },
       {
-        "text": "7 ",
+        "text": "11 ",
         "italic": false,
         "color":"green"
       },
@@ -52,7 +52,7 @@
         "color":"white"
       },
       {
-        "text": "6秒",
+        "text": "10秒",
         "italic": false,
         "color":"green"
       }
@@ -69,7 +69,7 @@
         "italic": false
       },
       {
-        "text": "5",
+        "text": "8",
         "color": "gold",
         "italic": false
       },
@@ -96,7 +96,24 @@
     ],
     [
       {
-        "text": "視点先のブロックから天へ光を降らせる",
+        "text": "視点先のブロックに光の柱を立て、",
+        "italic": false,
+        "color": "white"
+      }
+    ],
+    [
+      {
+        "text": "的中時対象に",
+        "italic": false,
+        "color": "white"
+      },
+      {
+        "text": "[発光]",
+        "italic": false,
+        "color": "white"
+      },
+      {
+        "text": "を8秒間付与する。",
         "italic": false,
         "color": "white"
       }

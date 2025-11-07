@@ -1,0 +1,185 @@
+{
+  "function": "minecraft:set_lore",
+  "lore": [
+    [
+      {
+        "text": "-- ",
+        "color": "white",
+        "italic": false
+      },
+      {
+        "text": "迸",
+        "color": "#ff7220",
+        "italic": false
+      },
+      {
+        "text": "る",
+        "color": "#fffb1c",
+        "italic": false
+      },
+
+      {
+        "text": "虹",
+        "color": "#95ff1c",
+        "italic": false
+      },
+      {
+        "text": "、",
+        "color": "#00ffaa",
+        "italic": false
+      },
+      {
+        "text": "轟",
+        "color": "#00ccff",
+        "italic": false
+      },
+      {
+        "text": "く",
+        "color": "#0044ff",
+        "italic": false
+      },
+      {
+        "text": "黒",
+        "color": "#313131",
+        "italic": false
+      },
+      {
+        "text": "。",
+        "color": "#969696",
+        "italic": false
+      },
+      {
+        "text": " --",
+        "color": "white",
+        "italic": false
+      }
+    ],
+    [
+      {
+        "text": "攻撃時",
+        "italic": false,
+        "color": "yellow"
+      }
+    ],
+    [
+      
+      {
+        "text": "消費充電",
+        "italic": false,
+        "color":"yellow"
+      },
+      {
+        "text": " : ",
+        "italic": false,
+        "color": "white"
+      },
+      {
+        "text": "3",
+        "italic": false,
+        "color":"green"
+      }
+    ],
+    [
+      {
+        "text": "近接攻撃時、対象に",
+        "italic": false,
+        "color": "white"
+      },
+      {
+        "text": "[ウィザー:lv2]",
+        "italic": false,
+        "color": "dark_gray"
+      },
+      {
+        "text": "を3秒付与する。",
+        "italic": false,
+        "color": "white"
+      }
+    ],
+    [
+      {
+        "text": "既に",
+        "italic": false,
+        "color": "white"
+      },
+      {
+        "text": "[ウィザー]",
+        "italic": false,
+        "color": "dark_gray"
+      },
+      {
+        "text": "付与されていた場合、3秒延長する。",
+        "italic": false,
+        "color": "white"
+      }
+    ],
+    [
+      ""
+    ],
+    [
+      {
+        "text": "-- ",
+        "color": "white",
+        "italic": false
+      },
+      {
+        "text": "散る星雲",
+        "color": "#fffb00",
+        "italic": false
+      },
+      {
+        "text": " --",
+        "color": "white",
+        "italic": false
+      }
+    ],
+    [
+      {
+        "text": "敵討伐時",
+        "italic": false,
+        "color": "yellow"
+      }
+    ],
+    [
+      {
+        "text": "対象の残り",
+        "italic": false,
+        "color": "white"
+      },
+      {
+        "text": "MP",
+        "italic": false,
+        "color": "blue"
+      },
+      {
+        "text": "の",
+        "italic": false,
+        "color": "white"
+      },
+      {
+        "text": "10%",
+        "italic": false,
+        "color": "yellow"
+      },
+      {
+        "text": "分の",
+        "italic": false,
+        "color": "white"
+      },
+      {
+        "text": "充電",
+        "italic": false,
+        "color": "yellow"
+      },
+      {
+        "text": "を得る。",
+        "italic": false,
+        "color": "white"
+      }
+    ],
+    [""]
+
+
+  ],
+  "mode": "append"
+}

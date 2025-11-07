@@ -92,7 +92,17 @@ execute if entity @s[tag=m47mark] at @s run function items:skills/magic/47/marke
 #48
 execute if entity @s[tag=magic48] at @s run function items:skills/magic/48/markertick2
 execute if entity @s[tag=magic48core] at @s run function items:skills/magic/48/markertick
-
+#50
+execute if entity @s[tag=magic50] at @s run function items:skills/magic/50/markertick
+#51
+execute if entity @s[tag=magic51] at @s run function items:skills/magic/51/markertick
+#52
+execute if entity @s[tag=magic52core] at @s run function items:skills/magic/52/markertick
+execute if entity @s[tag=magic52id1] at @s run function items:skills/magic/52/idtick1
+execute if entity @s[tag=magic52id2] at @s run function items:skills/magic/52/idtick2
+execute if entity @s[tag=magic52id3] at @s run function items:skills/magic/52/idtick3
+#53
+execute if entity @s[tag=magic53] at @s run function items:skills/magic/53/markertick
 ##weapon
 #3
 execute if entity @s[tag=weapon3] run function items:skills/weapon/3/markertick

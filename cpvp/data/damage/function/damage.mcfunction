@@ -15,7 +15,7 @@ execute as @a[tag=atker] at @s run function items:skills/magic/38/s1/sokusi
 
 
 #テキスト表示
-execute at @s summon text_display run function damage:damagetext/summontext
+execute if entity @s[tag=!perk39] at @s summon text_display run function damage:damagetext/summontext
 #デコイ処理
 execute if entity @s[tag=combatdummy] run function damage:combat_dummy
 #攻撃判定

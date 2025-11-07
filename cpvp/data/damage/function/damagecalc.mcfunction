@@ -3,7 +3,6 @@ scoreboard players set $damagecalc damagecalc 0
 scoreboard players set $damagecalcatk damagecalc 0
 scoreboard players set $damagecalcdef damagecalc 0
 
-scoreboard players set $damagecalc2 damagecalc 0
 scoreboard players set $damageadd damagecalc 0
 
 #perk20の効果 攻撃対象変更
@@ -87,24 +86,17 @@ scoreboard players operation $damagecalc damagecalc += $100 main
 
 #最大def処理
 execute if score $damagecalc damagecalc matches ..20 run scoreboard players set $damagecalc damagecalc 20
-
-scoreboard players operation $damagecalc2 damagecalc *= $10 main
-#特殊ダメージのeffect半減処理
-execute if entity @s[tag=victim,tag=specialdamagetmp] run scoreboard players operation $damagecalc2 damagecalc /= $2 main
-scoreboard players operation $damagecalc2 damagecalc += $100 main
-
 #crit処理
 function damage:critical
 
 #ダメージ倍率+%
 execute if entity @s[tag=specialdamagetmp] run scoreboard players operation $damageadd damagecalc /= $2 main
 scoreboard players add $damageadd damagecalc 100
-scoreboard players operation @s[tag=victim] damagetaken *= $damageadd damagecalc
-scoreboard players operation @s[tag=victim] damagetaken /= $100 main
+scoreboard players operation @s damagetaken *= $damageadd damagecalc
+scoreboard players operation @s damagetaken /= $100 main
 #100倍*2->1/10000
 scoreboard players operation @s damagetaken *= $damagecalc damagecalc
-scoreboard players operation @s damagetaken *= $damagecalc2 damagecalc
-scoreboard players operation @s damagetaken /= $10000 main
+scoreboard players operation @s damagetaken /= $100 main
 
 #スキルの処理
 ##helm4の効果 1.5倍

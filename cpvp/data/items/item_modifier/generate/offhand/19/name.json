@@ -1,0 +1,10 @@
+{
+  "function": "minecraft:set_name",
+  "name": [
+    {
+      "text": "『ヴィアール』",
+      "color": "#ff163d",
+      "italic": false
+    }
+  ]
+}

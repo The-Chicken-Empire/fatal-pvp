@@ -1,3 +1,8 @@
+function effects:system/pick/ {id:6}
+scoreboard players set $tmp tmp 0
+execute store result score $tmp tmp run data get storage effect: targeteffect.level
+execute if score $tmp tmp matches 1.. run return run scoreboard players reset $tmp tmp
+
 execute store result score @s damagetaken run data get storage effect: tmp2.level
 scoreboard players operation @s damagetaken *= $10 main
 

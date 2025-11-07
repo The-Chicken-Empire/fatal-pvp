@@ -1,7 +1,8 @@
 #itemset
 data modify entity @s item set value {components:{"minecraft:custom_model_data":{strings:["magic1id2"]},"enchantment_glint_override":true},id:"minecraft:barrier"}
 data modify entity @s teleport_duration set value 1
-data modify entity @s transformation set value {right_rotation:[0f,0f,0f,1f],scale:[4,0.1f,4f],left_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f]}
+data modify entity @s interpolation_duration set value 4
+data modify entity @s transformation set value {right_rotation:[0f,0f,0f,1f],scale:[0f,20f,0f],left_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f]}
 #number
 function items:skills/markerid
 #owner

@@ -1,0 +1,163 @@
+{
+  "function": "minecraft:set_lore",
+  "lore": [
+    [
+      {
+        "text": "-- ",
+        "color": "white",
+        "italic": false
+      },
+      {
+        "text": "三人寄らば文句の元",
+        "color": "#80ff2c",
+        "italic": false
+      },
+      {
+        "text": " --",
+        "color": "white",
+        "italic": false
+      }
+    ],
+    [
+      {
+        "text": "クリティカル/回避/敵討伐/死亡時",
+        "italic": false,
+        "color": "yellow"
+      }
+    ],
+    [""
+    ],
+    [
+      {
+        "text": "クリティカル時",
+        "italic": false,
+        "color": "yellow"
+      },
+      {
+        "text": " : ",
+        "italic": false,
+        "color": "white"
+      },
+      {
+        "text": "充電",
+        "italic": false,
+        "color": "yellow"
+      },
+      {
+        "text": "を",
+        "italic": false,
+        "color": "white"
+      },
+      {
+        "text": "2",
+        "italic": false,
+        "color": "yellow"
+      },
+      {
+        "text": "得る",
+        "italic": false,
+        "color": "white"
+      }
+    ],
+    [
+      {
+        "text": "回避時",
+        "italic": false,
+        "color": "yellow"
+      },
+      {
+        "text": " : ",
+        "italic": false,
+        "color": "white"
+      },
+      {
+        "text": "充電",
+        "italic": false,
+        "color": "yellow"
+      },
+      {
+        "text": "を",
+        "italic": false,
+        "color": "white"
+      },
+      {
+        "text": "2",
+        "italic": false,
+        "color": "yellow"
+      },
+      {
+        "text": "得る",
+        "italic": false,
+        "color": "white"
+      }
+    ],
+    [
+      {
+        "text": "敵討伐時",
+        "italic": false,
+        "color": "yellow"
+      },
+      {
+        "text": " : ",
+        "italic": false,
+        "color": "white"
+      },
+      {
+        "text": "充電",
+        "italic": false,
+        "color": "yellow"
+      },
+      {
+        "text": "を",
+        "italic": false,
+        "color": "white"
+      },
+      {
+        "text": "10",
+        "italic": false,
+        "color": "yellow"
+      },
+      {
+        "text": "得る",
+        "italic": false,
+        "color": "white"
+      }
+    ],
+[
+      {
+        "text": "死亡時",
+        "italic": false,
+        "color": "yellow"
+      },
+      {
+        "text": " : ",
+        "italic": false,
+        "color": "white"
+      },
+      {
+        "text": "充電",
+        "italic": false,
+        "color": "yellow"
+      },
+      {
+        "text": "を",
+        "italic": false,
+        "color": "white"
+      },
+      {
+        "text": "10",
+        "italic": false,
+        "color": "yellow"
+      },
+      {
+        "text": "得る",
+        "italic": false,
+        "color": "white"
+      }
+    ],
+    [
+      ""
+    ]
+  ],
+  "mode": "append"
+}

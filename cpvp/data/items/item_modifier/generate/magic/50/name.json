@@ -1,0 +1,50 @@
+{
+  "function": "minecraft:set_name",
+  "name": [
+    {
+      "text": "ク",
+      "color": "#00f7f7",
+      "italic": false
+    },
+    {
+      "text": "リ",
+      "color": "#00d2f7",
+      "italic": false
+    },
+    {
+      "text": "ス",
+      "color": "#00b1f7",
+      "italic": false
+    },
+    {
+      "text": "タ",
+      "color": "#0073f7",
+      "italic": false
+    },
+    {
+      "text": "ル",
+      "color": "#0056f7",
+      "italic": false
+    },
+    {
+      "text": "プ",
+      "color": "#002df7",
+      "italic": false
+    },
+    {
+      "text": "リ",
+      "color": "#1900f7",
+      "italic": false
+    },
+    {
+      "text": "ズ",
+      "color": "#4200f7",
+      "italic": false
+    },
+    {
+      "text": "ム",
+      "color": "#6b00f7",
+      "italic": false
+    }
+  ]
+}

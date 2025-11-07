@@ -1,0 +1,7 @@
+{
+  "function": "minecraft:set_components",
+  "components": {
+    "!minecraft:jukebox_playable": {},
+    "enchantment_glint_override": true
+  }
+}

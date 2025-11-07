@@ -27,7 +27,7 @@ tag @s remove nodamagesound
 tag @s remove truedamage
 
 tag @s add getatker
-execute as @e if score @s playerdata = @e[tag=getatker,limit=1] attackerdata run tag @s add atker
+execute as @a if score @s playerdata = @e[tag=getatker,limit=1] attackerdata run tag @s add atker
 scoreboard players reset @s attackerdata
 tag @s remove getatker
 tag @s add victim

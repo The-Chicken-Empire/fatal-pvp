@@ -1,0 +1,25 @@
+{
+  "function": "minecraft:set_name",
+  "name": [
+    {
+      "text": "星",
+      "color": "#dcff13",
+      "italic": false
+    },
+    {
+      "text": "の",
+      "color": "#22fff4",
+      "italic": false
+    },
+    {
+      "text": "黒",
+      "color": "#444444",
+      "italic": false
+    },
+    {
+      "text": "拳",
+      "color": "#444444",
+      "italic": false
+    }
+  ]
+}

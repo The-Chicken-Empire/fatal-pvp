@@ -1,0 +1,60 @@
+{
+  "function": "minecraft:set_lore",
+  "lore": [
+    [
+      {
+        "text": "物理攻撃力",
+        "color": "gold",
+        "italic": false
+      },
+      {
+        "text": " : ",
+        "color": "white",
+        "italic": false
+      },
+      {
+        "text": "+10%",
+        "color": "gold",
+        "italic": false
+      }
+    ],
+    [
+      {
+        "text": "近距離攻撃力",
+        "color": "red",
+        "italic": false
+      },
+      {
+        "text": " : ",
+        "color": "white",
+        "italic": false
+      },
+      {
+        "text": "+10%",
+        "color": "gold",
+        "italic": false
+      }
+    ],
+    [
+      {
+        "text": "攻撃速度",
+        "color": "yellow",
+        "italic": false
+      },
+      {
+        "text": " : ",
+        "color": "white",
+        "italic": false
+      },
+      {
+        "text": "+15%",
+        "color": "gold",
+        "italic": false
+      }
+    ],
+    [
+      ""
+    ]
+  ],
+  "mode": "append"
+}

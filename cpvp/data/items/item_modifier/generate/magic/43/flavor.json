@@ -10,7 +10,7 @@
     ],
     [
       {
-        "text": "管理者Eによって作られた[",
+        "text": "『管理者』によって作られた[",
         "color": "dark_gray",
         "italic": true,
         "obfuscated": false
@@ -37,7 +37,7 @@
     ],
     [
       {
-        "text": "現在は必要なくなったため、旅人Fが持ち歩いている",
+        "text": "現在は必要なくなったため、『旅人』が持ち歩いている",
         "color": "dark_gray",
         "italic": true
       }
