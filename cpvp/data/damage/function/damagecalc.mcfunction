@@ -68,7 +68,7 @@ scoreboard players operation $damagecalcdef damagecalc += @s defence
 
 scoreboard players set $penetrate damagecalc 100
 scoreboard players operation $penetrate damagecalc -= @s penetrate
-execute if score $penetrate damagecalc matches ..0 run scoreboard players set $penetrate damagecalc 0
+#execute if score $penetrate damagecalc matches ..0 run scoreboard players set $penetrate damagecalc 0
 scoreboard players operation $damagecalcdef damagecalc *= $penetrate damagecalc
 scoreboard players operation $damagecalcdef damagecalc /= $100 main
 
@@ -124,8 +124,6 @@ execute as @e[tag=victim] run function items:triggers/attacked3/check
 execute as @e[tag=atker] run function damage:atktrigger/attack3 with storage atktrigger: hage
 
 #ダメージと関係ないスキル処理
-##magic19の反撃デバフ
-execute if entity @s[tag=victim,tag=magic19buff] run function items:skills/magic/19/counter
 ##offhand13の灼熱付与
 execute as @e[tag=atker] run function items:skills/offhand/13/teamattackcheck
 
