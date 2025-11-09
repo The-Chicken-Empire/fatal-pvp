@@ -11,6 +11,6 @@ execute unless score @s teamscore = @a[tag=!helm6tmp,tag=alive,limit=1] teamscor
 tag @s remove helm6tmp
 execute store result score $tmp tmp run random value 0..2
 execute if score $tmp tmp matches 0 run tellraw @s [{text:"[",color:"dark_red"},{selector:"@s",color:"red"},{text:"] ",color:"dark_red"},{text:"また一つ、血が遺るのだな。",color:"red"}]
-execute if score $tmp tmp matches 1 run tellraw @s [{text:"[",color:"dark_red"},{selector:"@s",color:"red"},{text:"] ",color:"dark_red"},{text:"これもまた、道であるが故。",color:"red"}]
+execute if score $tmp tmp matches 1 run tellraw @s [{text:"[",color:"dark_red"},{selector:"@s",color:"red"},{text:"] ",color:"dark_red"},{text:"これも又、欠くことは出来ぬ犠牲で在る故。",color:"red"}]
 execute if score $tmp tmp matches 2 run tellraw @s [{text:"[",color:"dark_red"},{selector:"@s",color:"red"},{text:"] ",color:"dark_red"},{text:"...果てに道を拓く事が出来ればよいのだが。",color:"red"}]
 scoreboard players reset $tmp tmp

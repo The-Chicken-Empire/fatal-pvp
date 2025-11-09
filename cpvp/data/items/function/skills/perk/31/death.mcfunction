@@ -14,3 +14,5 @@ execute if entity @s[tag=perk31.skillact,tag=!perk31.skillacting] run function i
 
 #スキル発動中の食いしばり
 execute if entity @s[tag=perk31.skillacting] if score @s hp matches ..0 run scoreboard players set @s hp 1
+
+tag @s remove perk31.skillact
