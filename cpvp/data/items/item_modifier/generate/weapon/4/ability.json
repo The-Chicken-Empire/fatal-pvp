@@ -117,6 +117,36 @@
     ],
     [
       {
+        "text": "ダメージ",
+        "italic": false,
+        "color": "red"
+      },
+      {
+        "text": " : ",
+        "color": "white"
+      },
+      {
+        "text": "3.0×3",
+        "color": "gold"
+      },
+      {
+        "text": " - ",
+        "color": "white"
+      },
+      {
+        "text": "物理",
+        "color": "gold"
+      },
+      {
+        "text": "/",
+        "color": "white"
+      },
+      {
+        "text": "近距離"
+      }
+    ],
+    [
+      {
         "text":"前方に駆け抜け、素早く三連続の突きを繰り出す。",
         "color":"white",
         "italic":false

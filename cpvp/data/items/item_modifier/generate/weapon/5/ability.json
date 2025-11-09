@@ -142,6 +142,36 @@
     ],
     [
       {
+        "text": "ダメージ",
+        "italic": false,
+        "color": "red"
+      },
+      {
+        "text": " : ",
+        "color": "white"
+      },
+      {
+        "text": "12",
+        "color": "gold"
+      },
+      {
+        "text": " - ",
+        "color": "white"
+      },
+      {
+        "text": "物理",
+        "color": "gold"
+      },
+      {
+        "text": "/",
+        "color": "white"
+      },
+      {
+        "text": "近距離"
+      }
+    ],
+    [
+      {
         "text":"薙刀を振るい、周囲の敵を巻き込んで攻撃する。",
         "color":"white",
         "italic":false
@@ -250,6 +280,36 @@
         "text": "16秒",
         "italic": false,
         "color":"green"
+      }
+    ],
+    [
+      {
+        "text": "ダメージ",
+        "italic": false,
+        "color": "red"
+      },
+      {
+        "text": " : ",
+        "color": "white"
+      },
+      {
+        "text": "12",
+        "color": "gold"
+      },
+      {
+        "text": " - ",
+        "color": "white"
+      },
+      {
+        "text": "物理",
+        "color": "gold"
+      },
+      {
+        "text": "/",
+        "color": "white"
+      },
+      {
+        "text": "近距離"
       }
     ],
     [
