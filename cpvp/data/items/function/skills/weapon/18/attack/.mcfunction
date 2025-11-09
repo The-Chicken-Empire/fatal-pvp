@@ -1,6 +1,6 @@
 tag @s add weapon18playertmp
 
-execute positioned ~ ~1 ~ as @e[tag=playing,distance=..7] unless score @s teamscore = @n[tag=weapon18playertmp] teamscore run function items:skills/weapon/18/attack/hit
+execute positioned ~ ~1 ~ as @e[tag=playing,distance=..10.5] unless score @s teamscore = @n[tag=weapon18playertmp] teamscore run function items:skills/weapon/18/attack/hit
 #ここから演出関連
 execute as @n[tag=weapon18tmp] run tp @s @n[tag=weapon18playertmp]
 #particle

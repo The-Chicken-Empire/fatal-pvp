@@ -8,7 +8,7 @@
         "italic": false
       },
       {
-        "text": "貫く閃光",
+        "text": "急所突き",
         "color": "gray",
         "italic": false
       },
@@ -43,20 +43,17 @@
       }
     ],
     [
-      {
-        "text": "敵の",
-        "color": "white",
-        "italic": false
-      },
+      {"text": "敵の","color": "white","italic": false},
       {"text":"物理防御力","color":"gold","italic":false},
       {"text":"3%","color":"gold","italic":false},
-      {"text":"毎にこの武器の","color":"white","italic":false},
+      {"text":"毎に、","color":"white","italic":false},
       {"text":"会心率","color":"yellow","italic":false},
       {"text":"+1%","color":"gold","italic":false},
       {"text":"(最大","color":"white","italic":false},
       {"text":"+20%","color":"gold","italic":false},
       {"text":")","color":"white","italic":false}
     ],
+    [""],
     [
       {
         "text": "-- ",
@@ -64,7 +61,7 @@
         "italic": false
       },
       {
-        "text": "三日月、弦月",
+        "text": "貫く閃光",
         "color": "gray",
         "italic": false
       },
@@ -93,7 +90,7 @@
         "color":"white"
       },
       {
-        "text": "6",
+        "text": "7",
         "italic": false,
         "color":"green"
       },
@@ -113,76 +110,103 @@
         "color":"white"
       },
       {
-        "text": "14秒",
+        "text": "10秒",
         "italic": false,
         "color":"green"
       }
     ],
     [
       {
-        "text":"二連の斬撃で前方の敵を斬り裂く。",
-        "color":"white",
-        "italic":false
-      }
-    ],
-    [
-      {
-        "text": "-- ",
-        "color": "white",
-        "italic": false
-      },
-      {
-        "text": "満月、新月。",
-        "color": "gray",
-        "italic": false
-      },
-      {
-        "text": " --",
-        "color": "white",
-        "italic": false
-      }
-    ],
-    [
-      {
-        "text": "[三日月、弦月]使用後、3秒以内に右クリック",
-        "color":"yellow",
-        "italic": false
-      }
-    ],
-    [
-      {
-        "text": "消費MP",
+        "text": "ダメージ",
         "italic": false,
-        "color":"blue"
+        "color": "red"
       },
       {
         "text": " : ",
-        "italic": false,
-        "color":"white"
+        "color": "white"
       },
       {
-        "text": "8",
-        "italic": false,
-        "color":"green"
+        "text": "3.0×3",
+        "color": "gold"
       },
       {
-        "text":" ",
+        "text": " - ",
+        "color": "white"
+      },
+      {
+        "text": "物理",
+        "color": "gold"
+      },
+      {
+        "text": "/",
+        "color": "white"
+      },
+      {
+        "text": "近距離"
+      }
+    ],
+    [
+      {
+        "text":"前方に駆け抜け、素早く三連続の突きを繰り出す。",
         "color":"white",
         "italic":false
       }
     ],
     [
       {
-        "text":"円形に連続で斬撃を出す。この間、足が速くなる。",
-        "color":"white",
-        "italic":false
+        "text": "的中時",
+        "color": "yellow",
+        "italic": false
+      },
+      {
+        "text": "、このスキルのクールタイムがリセットされ、",
+        "color": "white"
       }
     ],
     [
       {
-        "text":"また、自身に暗闇を5秒間を付与する。",
-        "color":"white",
-        "italic":false
+        "text": "次に発動するときに強化される。",
+        "italic": false,
+        "color": "white"
+      }
+    ],
+    [
+      {
+        "text": " - 強化スキルではクールタイムはリセットされない。",
+        "italic": false,
+        "color": "white"
+      }
+    ],
+    [
+      {
+        "text": "対象の",
+        "italic": false,
+        "color": "white"
+      },
+      {
+        "text": "体力",
+        "color": "red"
+      },
+      {
+        "text": "が"
+      },
+      {
+        "text": "20%",
+        "color": "gold"
+      },
+      {
+        "text": "以下だった場合、"
+      },
+      {
+        "text": "ダメージ量",
+        "color": "red"
+      },
+      {
+        "text": "+50%",
+        "color": "gold"
+      },
+      {
+        "text": "。"
       }
     ]
   ],

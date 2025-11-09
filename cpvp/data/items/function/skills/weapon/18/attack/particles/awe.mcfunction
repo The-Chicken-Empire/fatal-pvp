@@ -19,6 +19,21 @@ particle dust{color:16711680,scale:2} ^ ^ ^6.25 0 0 0 0 0 force
 particle dust{color:16711680,scale:2} ^ ^ ^6.5 0 0 0 0 0 force
 particle dust{color:16711680,scale:2} ^ ^ ^6.75 0 0 0 0 0 force
 particle dust{color:16711680,scale:2} ^ ^ ^7 0 0 0 0 0 force
+particle dust{color:16711680,scale:2} ^ ^ ^7.25 0 0 0 0 0 force
+particle dust{color:16711680,scale:2} ^ ^ ^7.5 0 0 0 0 0 force
+particle dust{color:16711680,scale:2} ^ ^ ^7.75 0 0 0 0 0 force
+particle dust{color:16711680,scale:2} ^ ^ ^8 0 0 0 0 0 force
+particle dust{color:16711680,scale:2} ^ ^ ^8.25 0 0 0 0 0 force
+particle dust{color:16711680,scale:2} ^ ^ ^8.5 0 0 0 0 0 force
+particle dust{color:16711680,scale:2} ^ ^ ^8.75 0 0 0 0 0 force
+particle dust{color:16711680,scale:2} ^ ^ ^9 0 0 0 0 0 force
+particle dust{color:16711680,scale:2} ^ ^ ^9.25 0 0 0 0 0 force
+particle dust{color:16711680,scale:2} ^ ^ ^9.5 0 0 0 0 0 force
+particle dust{color:16711680,scale:2} ^ ^ ^9.75 0 0 0 0 0 force
+particle dust{color:16711680,scale:2} ^ ^ ^10 0 0 0 0 0 force
+particle dust{color:16711680,scale:2} ^ ^ ^10.25 0 0 0 0 0 force
+particle dust{color:16711680,scale:2} ^ ^ ^10.5 0 0 0 0 0 force
+
 
 particle dust{color:16711680,scale:2} ^ ^ ^-2 0 0 0 0 0 force
 particle dust{color:16711680,scale:2} ^ ^ ^-2.25 0 0 0 0 0 force
@@ -41,3 +56,17 @@ particle dust{color:16711680,scale:2} ^ ^ ^-6.25 0 0 0 0 0 force
 particle dust{color:16711680,scale:2} ^ ^ ^-6.5 0 0 0 0 0 force
 particle dust{color:16711680,scale:2} ^ ^ ^-6.75 0 0 0 0 0 force
 particle dust{color:16711680,scale:2} ^ ^ ^-7 0 0 0 0 0 force
+particle dust{color:16711680,scale:2} ^ ^ ^-7.25 0 0 0 0 0 force
+particle dust{color:16711680,scale:2} ^ ^ ^-7.5 0 0 0 0 0 force
+particle dust{color:16711680,scale:2} ^ ^ ^-7.75 0 0 0 0 0 force
+particle dust{color:16711680,scale:2} ^ ^ ^-8 0 0 0 0 0 force
+particle dust{color:16711680,scale:2} ^ ^ ^-8.25 0 0 0 0 0 force
+particle dust{color:16711680,scale:2} ^ ^ ^-8.5 0 0 0 0 0 force
+particle dust{color:16711680,scale:2} ^ ^ ^-8.75 0 0 0 0 0 force
+particle dust{color:16711680,scale:2} ^ ^ ^-9 0 0 0 0 0 force
+particle dust{color:16711680,scale:2} ^ ^ ^-9.25 0 0 0 0 0 force
+particle dust{color:16711680,scale:2} ^ ^ ^-9.5 0 0 0 0 0 force
+particle dust{color:16711680,scale:2} ^ ^ ^-9.75 0 0 0 0 0 force
+particle dust{color:16711680,scale:2} ^ ^ ^-10 0 0 0 0 0 force
+particle dust{color:16711680,scale:2} ^ ^ ^-10.25 0 0 0 0 0 force
+particle dust{color:16711680,scale:2} ^ ^ ^-10.5 0 0 0 0 0 force
