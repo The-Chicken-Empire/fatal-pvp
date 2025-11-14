@@ -8,8 +8,8 @@
         "italic": false
       },
       {
-        "text": "ここにability名",
-        "color": "white",
+        "text": "何者にもなれない",
+        "color": "gray",
         "italic": false
       },
       {
@@ -20,21 +20,24 @@
     ],
     [
       {
-        "text": "発動検知",
+        "text": "常時",
         "italic": false,
         "color": "yellow"
       }
     ],
     [
       {
-        "text": "cost",
+        "text": "自身の受けるバフ/デバフの時間を",
         "italic": false,
         "color": "white"
-      }
-    ],
-    [
+      },
       {
-        "text": "内容",
+        "text": "0.3倍",
+        "italic": false,
+        "color": "yellow"
+      },
+      {
+        "text": "にする。",
         "italic": false,
         "color": "white"
       }
