@@ -35,6 +35,11 @@ execute if entity @s[type=player] if score @s hp matches ..0 as @a[tag=playing] 
 execute if entity @s[type=player] if score @s hp matches ..0 as @a[tag=playing,tag=alive] unless score @s perk36ct matches 1.. if score @s perk36 = @e[tag=victim,limit=1] playerdata unless score @s playerdata = @e[tag=victim,limit=1] perk36 if items entity @s hotbar.* *[minecraft:custom_data~{cpvp:{id:36b,item_type:"perk"}}] at @s run function items:skills/perk/36/s2/
 #reset
 scoreboard players operation $tmp getdamage = @s damagepoint
+
+##perk11ねじこみ
+execute unless score @s hp matches ..0 if items entity @s hotbar.* *[minecraft:custom_data~{cpvp:{id:11b,item_type:"perk"}}] run function items:skills/perk/11/damaged
+
+#reset
 scoreboard players set @s damagepoint 0
 #攻撃主取り出し
 execute if entity @a[tag=atker,limit=1] run function damage:getatker

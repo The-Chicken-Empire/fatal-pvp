@@ -4,6 +4,10 @@ execute if score @s absorption matches 1.. run function damage:absorption
 tag @s add naturaldamagetmp
 execute if entity @s[tag=!perk39] at @s summon text_display run function damage:damagetext/summontext
 tag @s remove naturaldamagetmp
+
+##perk11ねじこみ
+execute unless score @s hp matches ..0 if items entity @s hotbar.* *[minecraft:custom_data~{cpvp:{id:11b,item_type:"perk"}}] run function items:skills/perk/11/damaged
+
 #体力減少
 scoreboard players operation @s hp -= @s damagepoint
 #reset
