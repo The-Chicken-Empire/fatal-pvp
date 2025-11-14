@@ -1,6 +1,6 @@
 tag @s add perk11tmp
 
-scoreboard players reset @s perk11
+scoreboard players remove @s perk11 200
 
 execute at @s run playsound entity.elder_guardian.hurt hostile @a ~ ~ ~ 1 0.5 0
 execute at @s run playsound entity.elder_guardian.hurt hostile @a ~ ~ ~ 1 0.5 0
@@ -44,3 +44,5 @@ particle soul_fire_flame ~ ~ ~ -2 0 -1 0.4 0 normal @a
 particle soul_fire_flame ~ ~ ~ -1 0 -2 0.4 0 normal @a
 
 tag @s remove perk11tmp
+
+execute if score @s perk11 matches 200.. at @s run function items:skills/perk/11/active
