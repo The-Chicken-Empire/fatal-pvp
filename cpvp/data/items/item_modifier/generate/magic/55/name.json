@@ -1,0 +1,10 @@
+{
+  "function": "minecraft:set_name",
+  "name": [
+    {
+      "text": "眼に留まる存在",
+      "color": "white",
+      "italic": false
+    }
+  ]
+}
