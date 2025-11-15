@@ -3,14 +3,7 @@
   "lore": [
     [
       {
-        "text": "ここにフレーバーテキストを書く",
-        "color": "dark_gray",
-        "italic": true
-      }
-    ],
-    [
-      {
-        "text": "ここは2行目",
+        "text": "飛び交う翼は、夜空に浮かぶ星の如く輝きを放つ。",
         "color": "dark_gray",
         "italic": true
       }

@@ -1,6 +1,7 @@
 {
   "function": "minecraft:set_lore",
   "lore": [
+
     [
       {
         "text": "-- ",
@@ -69,7 +70,7 @@
         "italic": false
       },
       {
-        "text": "2×3/2×4",
+        "text": "1.2×3/1.2×4",
         "color": "gold",
         "italic": false
       },
@@ -114,7 +115,8 @@
         "color": "white",
         "italic": false
       }
-    ]
+    ],
+        [{"text":"緩衝体力","color":"gold","italic": false},{"text":"を保持する相手に2倍のダメージを与える。","color":"white","italic": false}]
 
   ],
   "mode": "append"

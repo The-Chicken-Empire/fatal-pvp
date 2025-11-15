@@ -7,7 +7,9 @@
       "item_type": "perk",
       "hotbar": {
         "triggers": [
-          "attack3"
+          "attack3",
+          "equip",
+          "unequip"
         ]
       },
       "regularitem": 1,

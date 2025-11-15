@@ -8,8 +8,8 @@
         "italic": false
       },
       {
-        "text": "ここにability名",
-        "color": "white",
+        "text": "ウィングレゾナンス",
+        "color": "#ece6b0",
         "italic": false
       },
       {
@@ -20,24 +20,13 @@
     ],
     [
       {
-        "text": "発動検知",
+        "text": "攻撃時",
         "italic": false,
         "color": "yellow"
       }
     ],
     [
-      {
-        "text": "cost",
-        "italic": false,
-        "color": "white"
-      }
-    ],
-    [
-      {
-        "text": "内容",
-        "italic": false,
-        "color": "white"
-      }
+      {"text": "与ダメージ","italic": false,"color": "red"},{"text": "+0.5。対象の[発光]を1.5秒延長する。","italic": false,"color": "white"}
     ],
     [
       ""
