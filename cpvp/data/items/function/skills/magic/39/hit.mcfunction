@@ -28,5 +28,5 @@ scoreboard players reset $tmp random
 
 tag @a[tag=magic39tmp3,limit=1] add buffer
 function effects:system/gain/ {id:39,level:2,duration:160}
-
+tag @a[tag=magic39tmp3] remove magic39tmp3
 function damage:atkercheck
