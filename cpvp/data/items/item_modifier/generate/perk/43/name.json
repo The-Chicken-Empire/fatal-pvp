@@ -1,0 +1,10 @@
+{
+  "function": "minecraft:set_name",
+  "name": [
+    {
+      "text": "光の杭",
+      "color": "yellow",
+      "italic": false
+    }
+  ]
+}
