@@ -1,4 +1,4 @@
-scoreboard players set @s damagetaken 25
+scoreboard players set @s damagetaken 15
 data modify storage atktrigger: hage set value {itemtype:weapon,id:9,atktype:1}
 tag @s add physicaldamage
 tag @s add meleedamage

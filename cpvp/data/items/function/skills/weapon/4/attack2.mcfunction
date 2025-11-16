@@ -1,1 +1,0 @@
-execute if entity @s[tag=meleevictim,tag=victim] run function items:skills/weapon/4/ccincrease

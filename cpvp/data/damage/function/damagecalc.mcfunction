@@ -105,6 +105,10 @@ execute as @a[tag=atker] if items entity @s armor.head golden_hoe[minecraft:cust
 execute as @a[tag=atker] if items entity @s weapon.offhand end_crystal[minecraft:custom_data~{cpvp:{id:11b,item_type:"offhand"}}] run function items:skills/offhand/11/atk
 ##perk29の効果 ダメージ10以上の時0.1倍
 execute as @a[tag=victim] if score @s damagetaken matches 100.. if entity @s[tag=physicaldamagetmp] if items entity @s hotbar.* *[minecraft:custom_data~{cpvp:{id:29b,item_type:"perk"}}] run function items:skills/perk/29/check
+##perk43の効果 +0.5
+execute if entity @a[tag=atker,tag=perk43,limit=1] run scoreboard players add @s damagetaken 5
+##helm4の効果 +0.7
+execute as @a[tag=atker] if items entity @s armor.head golden_hoe[minecraft:custom_data~{cpvp:{id:4b}}] at @s if entity @e[tag=victim,distance=15..] run scoreboard players add @e[tag=victim,limit=1] damagetaken 7
 ##perk19の火力を固定で下げる効果(結構下の方に置いといてね...)
 execute if score @s damagetaken matches 150.. if entity @s[tag=perk19] at @s run function items:skills/perk/19/active
 ##offhand16の効果 被ダメージを前回のそれと平均化

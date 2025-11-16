@@ -108,8 +108,12 @@ execute if entity @s[tag=magic53] at @s run function items:skills/magic/53/marke
 #3
 execute if entity @s[tag=weapon3] run function items:skills/weapon/3/markertick
 #4
-execute if entity @s[tag=weapon4] run function items:skills/weapon/4/markertick
-execute if entity @s[tag=weapon4-5] run function items:skills/weapon/4/markertick2
+execute if entity @s[tag=weapon4marker] run function items:skills/weapon/4/markertick
+execute if entity @s[tag=weapon4marker2] run function items:skills/weapon/4/markertick2
+
+#4_old
+execute if entity @s[tag=weapon4] run function items:skills/weapon/4_old/markertick
+execute if entity @s[tag=weapon4-5] run function items:skills/weapon/4_old/markertick2
 #5
 execute if entity @s[tag=w5marker] run function items:skills/weapon/5/markertick
 execute if entity @s[tag=w5.2marker] run function items:skills/weapon/5/markertick2

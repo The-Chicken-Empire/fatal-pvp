@@ -18,9 +18,9 @@
         "italic": false
       }
     ],
-    [{"text":"この武器でダメージを与える時、","color":"white","italic": false}],
-    [{"text":"緩衝体力","color":"gold","italic": false},{"text":"を保持する相手に2倍のダメージを与え、","color":"white","italic": false}],
-    [{"text":"与ダメージの25%分だけ","color":"white","italic": false},{"text":"HP","color":"red","italic": false},{"text":"を回復する。","color":"white","italic": false}],
+    [{"text":"攻撃時","color":"yellow","italic": false}],
+    [{"text":"HP","color":"red","italic": false},{"text":"が","color":"white","italic": false},{"text":"最大HP","color":"red"},{"text":"が22%以下の相手を攻撃する時、","color":"white"}],
+    [{"text":"与ダメージが上昇する。","color":"white","italic": false}],
     [{"text":""}],
     [
       {
@@ -90,7 +90,7 @@
         "italic": false
       },
       {
-        "text": "2.5×8",
+        "text": "1.5×8",
         "color": "gold",
         "italic": false
       },

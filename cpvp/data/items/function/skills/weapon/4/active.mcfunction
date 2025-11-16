@@ -1,13 +1,14 @@
 #mp減少
 scoreboard players operation @s mp -= @s mpcost
-
-tag @s add weapon4tmp
-execute positioned ~ ~1 ~ run function items:skills/weapon/4/particles
-summon marker ~ ~ ~ {Tags:["weapon4","skillmarker"]}
-execute if entity @e[tag=weapon4] as @e[tag=weapon4] unless score @s owner matches -2147483648..2147483647 store result score @s owner run scoreboard players get @e[tag=weapon4tmp,limit=1] playerdata
-execute if entity @e[tag=weapon4] as @e[tag=weapon4] if score @s owner = @e[tag=weapon4tmp,limit=1] playerdata store result score @s teamscore run scoreboard players get @e[tag=weapon4tmp,limit=1] teamscore
-tag @s add weapon4-2
-tag @s remove weapon4tmp
-
-scoreboard players set $ct main 240
+#接地してたら強いモーション、そうでないなら弱いモーション
+execute if entity @s[nbt={OnGround:true}] run function api:motion/rotation_and_y {power:7,y:5}
+execute if entity @s[nbt={OnGround:false}] run function api:motion/rotation_and_y {power:5,y:10}
+#自分がweapon4を使っているという情報
+tag @s add weapon4player
+#マーカーを準備
+summon marker ~ ~ ~ {Tags:["skillmarker","weapon4marker","tmp"]}
+function items:skills/insert_playerdata
+tag @n[tag=weapon4marker,tag=tmp] remove tmp
+#CT付与
+scoreboard players set $ct main 200
 function api:ct/mainhand
