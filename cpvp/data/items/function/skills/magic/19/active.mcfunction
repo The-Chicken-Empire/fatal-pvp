@@ -1,14 +1,18 @@
-scoreboard players operation @s mp -= @s mpcost
+scoreboard players operation @s eng -= @s engcost
 tag @s add magic19tmp
 
-execute at @s run playsound block.anvil.place block @a ~ ~ ~ 1 0.8 0
-execute at @s run playsound block.bell.resonate block @a ~ ~ ~ 1 2 0
+execute at @s anchored eyes positioned ^ ^ ^ summon item_display run function items:skills/magic/19/summonitemdisplay
 
-execute at @s summon item_display run function items:skills/magic/19/summonitemdisplay
-
-function effects:system/gain/ {id:29,level:1,duration:60}
-
+#execute at @s run playsound block.bell.resonate block @a ~ ~ ~ 1 0.8 0
+#execute at @s run playsound block.bell.resonate block @a ~ ~ ~ 1 0.4 0
+#execute at @s run playsound block.bell.resonate block @a ~ ~ ~ 1 0 0
+#execute at @s run playsound block.bell.resonate block @a ~ ~ ~ 1 0.8 0
+#execute at @s run playsound block.bell.resonate block @a ~ ~ ~ 1 0.4 0
+#execute at @s run playsound block.bell.resonate block @a ~ ~ ~ 1 0 0
+#execute at @s run playsound block.bell.resonate block @a ~ ~ ~ 1 0.8 0
+#execute at @s run playsound block.bell.resonate block @a ~ ~ ~ 1 0.4 0
+#execute at @s run playsound block.bell.resonate block @a ~ ~ ~ 1 0 0
 
 tag @s remove magic19tmp
-scoreboard players set $ct main 400
+scoreboard players set $ct main 500
 function api:ct/mainhand

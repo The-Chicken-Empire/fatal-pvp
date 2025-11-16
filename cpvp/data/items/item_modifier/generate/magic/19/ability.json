@@ -28,9 +28,9 @@
     ],
     [
       {
-        "text": "消費MP",
+        "text": "消費充電",
         "italic": false,
-        "color":"blue"
+        "color":"yellow"
       },
       {
         "text": " : ",
@@ -38,7 +38,7 @@
         "color":"white"
       },
       {
-        "text": "13 ",
+        "text": "10 ",
         "italic": false,
         "color":"green"
       },
@@ -53,90 +53,128 @@
         "color":"white"
       },
       {
-        "text": "20秒",
+        "text": "25秒",
         "italic": false,
         "color":"green"
       }
     ],
     [
       {
-        "text": "三秒間、",
-        "color": "white",
-        "italic": false
-      },
-      {
-        "text": "防御力",
-        "color": "dark_blue",
-        "italic": false
-      },
-      {
-        "text": ":",
-        "color": "white",
-        "italic": false
-      },
-      {
-        "text": "+100% ",
-        "color": "gold",
-        "italic": false
-      },
-      {
-        "text": "攻撃力",
-        "color": "dark_red",
-        "italic": false
-      },
-      {
-        "text": ":",
-        "color": "white",
-        "italic": false
-      },
-      {
-        "text": "-100% ",
-        "color": "gold",
-        "italic": false
-      },
-      {
-        "text": "移動速度",
-        "color": "white",
-        "italic": false
-      },
-      {
-        "text": ":",
-        "color": "white",
-        "italic": false
-      },
-      {
-        "text": "-300% ",
-        "color": "gold",
-        "italic": false
-      },
-      {
-        "text": "ジャンプ不可",
-        "color": "gray",
-        "italic": false
-      },
-      {
-        "text": "を得る",
+        "text": "2秒のチャージ後視線方向に3秒間レーザーを発射し、",
         "color": "white",
         "italic": false
       }
     ],
     [
       {
-        "text": "その間に攻撃を受けた場合、攻撃主に",
+        "text": "的中時対象に",
         "color": "white",
         "italic": false
       },
       {
         "text": "[水晶呪:lv2]",
-        "color": "#37d7ff",
-        "italic": false
+        "italic": false,
+        "color":"#37d7ff"
       },
       {
-        "text": "を5秒付与する",
+        "text": "[脆弱:lv3]",
+        "italic": false,
+        "color":"dark_purple"
+      },
+      {
+        "text": "[弱体化:lv3]",
+        "italic": false,
+        "color":"blue"
+      }
+    ],
+    [
+      {
+        "text": "を3秒付与する。",
+        "italic": false,
+        "color": "white"
+      }
+    ],
+    [
+      {
+        "text": "もし既に付与されていた場合、0.5秒延長する。",
         "color": "white",
         "italic": false
       }
-      
+    ],
+    [
+      {
+        "text": "チャージ中に右クリック追加入力時、",
+        "color": "white",
+        "italic": false
+      }
+    ],
+    [
+      {
+        "text": "最大3回まで、",
+        "color": "white",
+        "italic": false
+      },
+      {
+        "text": "MP",
+        "color": "blue",
+        "italic": false
+      },
+      {
+        "text": "を",
+        "color": "white",
+        "italic": false
+      },
+      {
+        "text": "10",
+        "color": "gold",
+        "italic": false
+      },
+      {
+        "text": "、",
+        "color": "white",
+        "italic": false
+      },
+      {
+        "text": "充電",
+        "color": "yellow",
+        "italic": false
+      },
+      {
+        "text": "を",
+        "color": "white",
+        "italic": false
+      },
+      {
+        "text": "3",
+        "color": "gold",
+        "italic": false
+      },
+      {
+        "text": "消費し、",
+        "color": "white",
+        "italic": false
+      }
+    ],
+    [
+      {
+        "text": "レーザーの時間を1秒延長させ、",
+        "color": "white",
+        "italic": false
+      }
+    ],
+    [
+      {
+        "text": "的中判定を僅かに拡大する。",
+        "color": "white",
+        "italic": false
+      }
+    ],
+    [
+      {
+        "text": "使用中にこのアイテムを手放した時、即座に終了する。",
+        "color": "white",
+        "italic": false
+      }
     ]
   ],
   "mode": "append"
