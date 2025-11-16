@@ -68,7 +68,7 @@ scoreboard players operation $damagecalcdef damagecalc += @s defence
 
 scoreboard players set $penetrate damagecalc 100
 scoreboard players operation $penetrate damagecalc -= @s penetrate
-execute if score $penetrate damagecalc matches ..0 run scoreboard players set $penetrate damagecalc 0
+#execute if score $penetrate damagecalc matches ..0 run scoreboard players set $penetrate damagecalc 0
 scoreboard players operation $damagecalcdef damagecalc *= $penetrate damagecalc
 scoreboard players operation $damagecalcdef damagecalc /= $100 main
 
@@ -100,9 +100,9 @@ scoreboard players operation @s damagetaken /= $100 main
 
 #スキルの処理
 ##helm4の効果 1.5倍
-execute as @a[tag=atker] if items entity @s armor.head golden_hoe[minecraft:custom_data~{cpvp:{id:4b}}] at @s if entity @e[tag=victim,distance=15..] run function items:skills/helmet/4/atk
+execute as @a[tag=atker] if items entity @s armor.head golden_hoe[minecraft:custom_data~{cpvp:{id:4b,item_type:"helmet"}}] at @s if entity @e[tag=victim,distance=15..] run function items:skills/helmet/4/atk
 ##offhand11の効果 k倍 (kは0以上の実数)
-execute as @a[tag=atker] if items entity @s weapon.offhand end_crystal[minecraft:custom_data~{cpvp:{id:11b}}] if items entity @s weapon.offhand end_crystal[minecraft:custom_data~{cpvp:{item_type:"offhand"}}] run function items:skills/offhand/11/atk
+execute as @a[tag=atker] if items entity @s weapon.offhand end_crystal[minecraft:custom_data~{cpvp:{id:11b,item_type:"offhand"}}] run function items:skills/offhand/11/atk
 ##perk29の効果 ダメージ10以上の時0.1倍
 execute as @a[tag=victim] if score @s damagetaken matches 100.. if entity @s[tag=physicaldamagetmp] if items entity @s hotbar.* *[minecraft:custom_data~{cpvp:{id:29b,item_type:"perk"}}] run function items:skills/perk/29/check
 ##perk43の効果 +0.5
@@ -128,8 +128,6 @@ execute as @e[tag=victim] run function items:triggers/attacked3/check
 execute as @e[tag=atker] run function damage:atktrigger/attack3 with storage atktrigger: hage
 
 #ダメージと関係ないスキル処理
-##magic19の反撃デバフ
-execute if entity @s[tag=victim,tag=magic19buff] run function items:skills/magic/19/counter
 ##offhand13の灼熱付与
 execute as @e[tag=atker] run function items:skills/offhand/13/teamattackcheck
 

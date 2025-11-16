@@ -2,17 +2,17 @@
   "function": "minecraft:set_custom_data",
   "tag": {
     "cpvp": {
-      "id": 11,
-      "item_type": "perk",
-      "hotbar": {
-        "stats": {
-        },
+      "cost": 2,
+      "id": 20,
+      "item_type": "offhand",
+      "offhand": {
         "triggers": [
+          "equip",
           "unequip"
         ]
       },
       "regularitem": 1,
-      "classitem": 1
+      "classitem": 0
     }
   }
 }

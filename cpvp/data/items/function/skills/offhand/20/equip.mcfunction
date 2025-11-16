@@ -1,0 +1,2 @@
+function effects:effect_modifier_gain {id:3,target:buff,duration_add:0,duration_multiply:0.3,level:1,type:passive}
+function effects:effect_modifier_gain {id:4,target:debuff,duration_add:0,duration_multiply:0.3,level:1,type:passive}

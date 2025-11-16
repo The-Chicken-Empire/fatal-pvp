@@ -8,8 +8,8 @@
         "italic": false
       },
       {
-        "text": "想い無き世界へ",
-        "color": "#470b80",
+        "text": "何者にもなれない",
+        "color": "gray",
         "italic": false
       },
       {
@@ -27,12 +27,12 @@
     ],
     [
       {
-        "text": "自身が与えるデバフの時間を",
+        "text": "自身の受けるバフ/デバフの時間を",
         "italic": false,
         "color": "white"
       },
       {
-        "text": "1.25倍",
+        "text": "0.3倍",
         "italic": false,
         "color": "yellow"
       },
