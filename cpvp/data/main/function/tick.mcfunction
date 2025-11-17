@@ -43,9 +43,6 @@ execute if entity @e[tag=bullet] as @e[tag=bullet] at @s run function items:skil
 #タイマー処理
 #phase 0-lobby 1-lobby.timer起動 2-start.開始前 3-開始 3.5-star配布 4-収縮開始 5-終了
 execute if score $phase main matches 1..3 run function system:timer/timer
-execute if score $phase main matches 1 run function system:phase/phase1/phase1
-execute if score $phase main matches 2 run function system:phase/phase2/phase2
-execute if score $phase main matches 3 run function system:phase/phase3/phase3
 
 #criticalstar使用中
 execute as @a[predicate=cstar:cstarcharge] run function cstar:cstarcharge

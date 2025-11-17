@@ -1,5 +1,5 @@
 bossbar set minecraft:timer visible true
-scoreboard players set $timer main 600
+scoreboard players set $starttimer main 600
 scoreboard players set $phase main 1
 bossbar set minecraft:timer players @a
 bossbar set minecraft:timer color white

@@ -5,8 +5,9 @@ execute if score $check main matches 0 run return run scoreboard players reset $
 scoreboard players reset $check main
 
 execute store result score $tmp tmp run random value 1..3
-scoreboard players operation $tmp tmp /= $20 main
-execute if score $phase main matches 3 run scoreboard players operation $timer main -= $tmp tmp
+scoreboard players operation $tmp tmp *= $20 main
+scoreboard players operation $time main -= $tmp tmp
+function api:time/
 scoreboard players reset $tmp tmp
 scoreboard players set $ct main 120
 function api:ct/boots

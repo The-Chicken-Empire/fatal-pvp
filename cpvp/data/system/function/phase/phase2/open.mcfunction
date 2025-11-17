@@ -1,3 +1,4 @@
+scoreboard players operation $gametimer main = $timelimit settings
 bossbar set minecraft:gametimer players @a
 bossbar set minecraft:gametimer visible true
 execute store result bossbar minecraft:gametimer max run scoreboard players get $timelimit settings
