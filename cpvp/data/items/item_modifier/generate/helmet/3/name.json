@@ -1,0 +1,25 @@
+{
+  "function": "minecraft:set_name",
+  "name": [
+    {
+      "text": "水",
+      "color": "#8121ff",
+      "italic": false
+    },
+    {
+      "text": "晶",
+      "color": "#5f33ff",
+      "italic": false
+    },
+    {
+      "text": "の",
+      "color": "#3246ff",
+      "italic": false
+    },
+    {
+      "text": "冠",
+      "color": "#32b4ff",
+      "italic": false
+    }
+  ]
+}
