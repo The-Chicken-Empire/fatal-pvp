@@ -91,7 +91,8 @@ execute if entity @e[tag=skillmarker,limit=1] as @e[tag=skillmarker] run scorebo
 execute if entity @e[tag=skillmarker,limit=1] as @e[tag=skillmarker] at @s run function items:markertick
 # スキルtick
 function items:skills/tick
-
+#ここにperk44に必要なコマンドを無断で挿入
+tag @e remove perk44enemytmp
 #actionbar
 execute as @a run function system:actionbar/
 

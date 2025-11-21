@@ -1,0 +1,13 @@
+{
+  "function": "minecraft:set_lore",
+  "lore": [
+    [
+      {
+        "text": "醜悪な存在...",
+        "color": "dark_gray",
+        "italic": true
+      }
+    ]
+  ],
+  "mode": "append"
+}

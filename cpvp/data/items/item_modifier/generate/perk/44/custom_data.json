@@ -3,12 +3,12 @@
   "tag": {
     "cpvp": {
       "cost": 0,
-      "id": 55,
-      "item_type": "magic",
-      "mainhand": {
+      "id": 44,
+      "item_type": "perk",
+      "hotbar": {
         "triggers": [
           "tick",
-          "using"
+          "kill"
         ]
       },
       "regularitem": 1,

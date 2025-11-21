@@ -139,21 +139,16 @@
     ],
     [
       {
-        "text": "攻撃後",
+        "text": "21m以内の全ての存在が保有する",
         "italic": false,
-        "color": "yellow"
-      },
-      {
-        "text": "、全プレイヤーの",
-        "color": "white"
+        "color": "red"
       },
       {
         "text": "[視線]",
         "color": "#fff1a0"
       },
       {
-        "text": "を除去する。",
-        "color": "white"
+        "text": "を除去する。"
       }
     ],
     [""]

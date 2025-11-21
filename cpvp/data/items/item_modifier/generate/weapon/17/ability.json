@@ -143,7 +143,7 @@
     ],
     [
       {
-        "text": "敵全体の持つ",
+        "text": "周囲の敵プレイヤーが保有する",
         "italic": false,
         "color": "white"
       },
@@ -152,21 +152,29 @@
         "color": "#fff1a0"
       },
       {
-        "text": "の合計が",
+        "text": "の"
+      }
+    ],
+    [
+      {
+        "text": "合計が",
+        "italic": false,
         "color": "white"
       },
       {
         "text": "7以上",
+        "italic": false,
         "color": "gold"
       },
       {
-        "text": "の時発動可能。",
+        "text": "の場合のみ発動可能。",
+        "italic": false,
         "color": "white"
       }
     ],
     [
       {
-        "text": "剣を抜き、攻めの構えをとる。",
+        "text": "刀を抜き、攻めの姿勢をとる。",
         "italic": false,
         "color": "white"
       }

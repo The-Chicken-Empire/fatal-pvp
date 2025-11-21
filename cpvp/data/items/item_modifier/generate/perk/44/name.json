@@ -2,8 +2,8 @@
   "function": "minecraft:set_name",
   "name": [
     {
-      "text": "眼に留まる存在",
-      "color": "white",
+      "text": "眼に残る存在",
+      "color": "#ff9900",
       "italic": false
     }
   ]
