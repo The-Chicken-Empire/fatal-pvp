@@ -1,0 +1,10 @@
+{
+  "function": "minecraft:set_name",
+  "name": [
+    {
+      "text": "崩壊への歩み",
+      "color": "white",
+      "italic": false
+    }
+  ]
+}
