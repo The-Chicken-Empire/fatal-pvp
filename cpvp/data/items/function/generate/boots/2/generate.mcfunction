@@ -23,7 +23,7 @@ item modify block 0 0 0 container.0 items:generate/boots/2/stats
 item modify block 0 0 0 container.0 items:generate/boots/2/parts
 
 #フレーバー無ければコメントをつけるなりなんなり
-item modify block 0 0 0 container.0 items:generate/boots/2/flavor
+#item modify block 0 0 0 container.0 items:generate/boots/2/flavor
 
 #アトリビュートなどを追加したい場合はコメントをはずしてファイルを作成する
 item modify block 0 0 0 container.0 items:generate/boots/2/others

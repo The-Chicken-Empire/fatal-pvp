@@ -23,7 +23,7 @@ item modify block 0 0 0 container.0 items:generate/chestplate/12/stats
 item modify block 0 0 0 container.0 items:generate/chestplate/12/parts
 
 #フレーバー無ければコメントをつけるなりなんなり
-item modify block 0 0 0 container.0 items:generate/chestplate/12/flavor
+#item modify block 0 0 0 container.0 items:generate/chestplate/12/flavor
 
 #アトリビュートなどを追加したい場合はコメントをはずしてファイルを作成する
 item modify block 0 0 0 container.0 items:generate/chestplate/12/others

@@ -22,7 +22,7 @@ item modify block 0 0 0 container.0 items:generate/offhand/9/ability
 
 item modify block 0 0 0 container.0 items:generate/offhand/9/parts
 
-item modify block 0 0 0 container.0 items:generate/offhand/9/flavor
+#item modify block 0 0 0 container.0 items:generate/offhand/9/flavor
 
 #アトリビュートなどを追加したい場合はコメントをはずしてファイルを作成する
 item modify block 0 0 0 container.0 items:generate/offhand/9/others

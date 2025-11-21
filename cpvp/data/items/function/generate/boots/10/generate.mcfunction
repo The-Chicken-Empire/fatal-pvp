@@ -21,7 +21,7 @@ item modify block 0 0 0 container.0 items:generate/boots/10/stats
 
 item modify block 0 0 0 container.0 items:generate/boots/10/parts
 
-item modify block 0 0 0 container.0 items:generate/boots/10/flavor
+#item modify block 0 0 0 container.0 items:generate/boots/10/flavor
 
 #アトリビュートなどを追加したい場合はコメントをはずしてファイルを作成する
 item modify block 0 0 0 container.0 items:generate/boots/10/others

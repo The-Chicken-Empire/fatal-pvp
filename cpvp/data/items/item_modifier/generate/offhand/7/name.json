@@ -2,7 +2,7 @@
   "function": "minecraft:set_name",
   "name": [
     {
-      "text": "Aura",
+      "text": "『Aura』",
       "color": "#003c44" ,
       "italic": false
     }
