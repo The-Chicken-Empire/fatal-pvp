@@ -1,6 +1,9 @@
 tag @s add w17tmp
 execute as @e[tag=weapon18] if score @s owner = @n[tag=w17tmp] playerdata run return run tag @s remove w17tmp
-execute as @e[tag=playing,tag=!w17tmp] unless score @s teamscore = @n[tag=w17tmp] teamscore run function items:skills/weapon/17/gazecount
+#本実装時には、下のコマンドの@eを、@aに変更すること。
+execute as @e[tag=playing,tag=!w17tmp,distance=..7] unless score @s teamscore = @n[tag=w17tmp] teamscore run function items:skills/weapon/17/gazecount
+#execute as @a[tag=playing,tag=!w17tmp,distance=..7] unless score @s teamscore = @n[tag=w17tmp] teamscore run function items:skills/weapon/17/gazecount
+#対象の視線が合計7以上だった場合、実行。
 execute if score $weapon17 tmp matches 7.. unless entity @s[tag=weapon18] run function items:skills/weapon/17/replace
 scoreboard players reset $weapon17 tmp
 tag @s remove w17tmp
