@@ -23,7 +23,7 @@ item modify block 0 0 0 container.0 items:generate/leggings/1/ability
 item modify block 0 0 0 container.0 items:generate/leggings/1/parts
 
 #フレーバー無ければコメントをつけるなりなんなり
-item modify block 0 0 0 container.0 items:generate/leggings/1/flavor
+#item modify block 0 0 0 container.0 items:generate/leggings/1/flavor
 
 #アトリビュートなどを追加したい場合はコメントをはずしてファイルを作成する
 item modify block 0 0 0 container.0 items:generate/leggings/1/others

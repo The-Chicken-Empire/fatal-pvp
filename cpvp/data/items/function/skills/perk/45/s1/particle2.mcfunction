@@ -1,0 +1,4 @@
+execute if entity @a[tag=perk45target,distance=..5] at @s anchored eyes positioned ^ ^ ^ facing entity 0-0-0-0-0 feet run particle dust{color:16711680,scale:0.06} ^ ^ ^0.3 0 0 0 0 1 force @a[tag=perk45this,limit=1]
+execute if entity @a[tag=perk45target,distance=5..10] at @s anchored eyes positioned ^ ^ ^ facing entity 0-0-0-0-0 feet run particle dust{color:16711680,scale:0.03} ^ ^ ^0.3 0 0 0 0 1 force @a[tag=perk45this,limit=1]
+execute if entity @a[tag=perk45target,distance=10..20] at @s anchored eyes positioned ^ ^ ^ facing entity 0-0-0-0-0 feet run particle dust{color:16711680,scale:0.015} ^ ^ ^0.3 0 0 0 0 1 force @a[tag=perk45this,limit=1]
+execute if entity @a[tag=perk45target,distance=20..] at @s anchored eyes positioned ^ ^ ^ facing entity 0-0-0-0-0 feet run particle dust{color:16711680,scale:0.01} ^ ^ ^0.3 0 0 0 0 1 force @a[tag=perk45this,limit=1]

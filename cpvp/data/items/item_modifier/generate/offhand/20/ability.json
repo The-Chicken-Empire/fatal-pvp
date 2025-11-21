@@ -1,0 +1,50 @@
+{
+  "function": "minecraft:set_lore",
+  "lore": [
+    [
+      {
+        "text": "-- ",
+        "color": "white",
+        "italic": false
+      },
+      {
+        "text": "何者にもなれない",
+        "color": "gray",
+        "italic": false
+      },
+      {
+        "text": " --",
+        "color": "white",
+        "italic": false
+      }
+    ],
+    [
+      {
+        "text": "常時",
+        "italic": false,
+        "color": "yellow"
+      }
+    ],
+    [
+      {
+        "text": "自身の受けるバフ/デバフの時間を",
+        "italic": false,
+        "color": "white"
+      },
+      {
+        "text": "0.3倍",
+        "italic": false,
+        "color": "yellow"
+      },
+      {
+        "text": "にする。",
+        "italic": false,
+        "color": "white"
+      }
+    ],
+    [
+      ""
+    ]
+  ],
+  "mode": "append"
+}

@@ -1,2 +1,3 @@
-execute if score $daytime main matches 1..12000 unless items entity @s armor.legs *[custom_data~{cpvp:{leggings:{day:1b}}}] run function items:skills/leggings/3/day
-execute if score $daytime main matches 12001..24000 unless items entity @s armor.legs *[custom_data~{cpvp:{leggings:{night:1b}}}] run function items:skills/leggings/3/night
+execute if score $daytime main matches 0..12000 unless items entity @s armor.legs *[custom_data~{cpvp:{leggings:{day:1b}}}] run function items:skills/leggings/3/day
+execute if score $daytime main matches 23001..24000 unless items entity @s armor.legs *[custom_data~{cpvp:{leggings:{day:1b}}}] run function items:skills/leggings/3/day
+execute if score $daytime main matches 12001..23000 unless items entity @s armor.legs *[custom_data~{cpvp:{leggings:{night:1b}}}] run function items:skills/leggings/3/night

@@ -1,0 +1,10 @@
+{
+  "function": "minecraft:set_name",
+  "name": [
+    {
+      "text": "千ﾐ里眼",
+      "color": "light_purple",
+      "italic": false
+    }
+  ]
+}

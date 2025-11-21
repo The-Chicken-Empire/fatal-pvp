@@ -1,3 +1,6 @@
+##helm3の効果 損傷1につきレベル1
+execute if items entity @a[tag=buffer,limit=1] armor.head *[custom_data~{cpvp:{id:3b,item_type:"helmet"}}] run function items:skills/helmet/3/debuff
+
 data modify storage effect: q append value {gain:1b}
 $data modify storage effect: q[-1].level set value $(level)
 $data modify storage effect: q[-1].duration set value $(duration)
@@ -10,3 +13,5 @@ execute store result storage effect: q[-1].buffer int 1 run scoreboard players g
 tag @a[tag=buffer] remove buffer
 
 execute if data storage effect: {oh:0b} run function effects:q/
+
+execute if entity @a[tag=helm3tmp,limit=1] as @a[tag=helm3tmp] run function items:skills/helmet/3/remove

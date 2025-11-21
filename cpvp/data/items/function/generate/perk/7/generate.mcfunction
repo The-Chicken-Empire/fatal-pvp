@@ -22,7 +22,7 @@ item modify block 0 0 0 container.0 items:generate/perk/7/stats
 
 item modify block 0 0 0 container.0 items:generate/perk/7/parts
 
-item modify block 0 0 0 container.0 items:generate/perk/7/flavor
+#item modify block 0 0 0 container.0 items:generate/perk/7/flavor
 
 #アトリビュートなどを追加したい場合はコメントをはずしてファイルを作成する
 item modify block 0 0 0 container.0 items:generate/perk/7/others

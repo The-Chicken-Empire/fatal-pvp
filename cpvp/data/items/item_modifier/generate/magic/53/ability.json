@@ -1,0 +1,96 @@
+{
+  "function": "minecraft:set_lore",
+  "lore": [
+    [
+      {
+        "text": "-- ",
+        "color": "white",
+        "italic": false
+      },
+      {
+        "text": "その視界も、その未来も。",
+        "color": "#7993c4",
+        "italic": false
+      },
+      {
+        "text": " --",
+        "color": "white",
+        "italic": false
+      }
+    ],
+    [
+      {
+        "text": "右クリック",
+        "italic": false,
+        "color": "yellow"
+      }
+    ],
+    [
+      {
+        "text": "消費MP",
+        "italic": false,
+        "color":"blue"
+      },
+      {
+        "text": " : ",
+        "italic": false,
+        "color":"white"
+      },
+      {
+        "text": "12 ",
+        "italic": false,
+        "color":"green"
+      },
+      {
+        "text": "クールタイム",
+        "italic": false,
+        "color":"dark_aqua"
+      },
+      {
+        "text": " : ",
+        "italic": false,
+        "color":"white"
+      },
+      {
+        "text": "19秒",
+        "italic": false,
+        "color":"green"
+      }
+    ],
+    [
+      {
+        "text": "煙玉を投擲し、範囲内に居る敵に、",
+        "italic": false,
+        "color": "white"
+      }
+    ],
+    [
+      {
+        "text": "[盲目]",
+        "italic": false,
+        "color": "dark_gray"
+      },
+      {
+        "text": "[移動速度低下:lv2]",
+        "italic": false,
+        "color": "dark_aqua"
+      },
+      {
+        "text": "[攻撃速度低下:lv5]",
+        "italic": false,
+        "color": "gray"
+      }
+    ],
+    [
+      {
+        "text": "を1秒与え続ける。",
+        "italic": false,
+        "color": "white"
+      }
+    ],
+    [
+      ""
+    ]
+  ],
+  "mode": "append"
+}

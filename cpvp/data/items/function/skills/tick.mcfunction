@@ -13,3 +13,5 @@ execute as @a[tag=playing] if items entity @s weapon.offhand *[custom_data~{cpvp
 scoreboard players remove @a perk36ct 1
 #weapon17
 execute as @a[scores={weapon17ct=1..}] run scoreboard players remove @s weapon17ct 1
+#boots17
+scoreboard players remove @a[scores={boots17=1..}] boots17 1

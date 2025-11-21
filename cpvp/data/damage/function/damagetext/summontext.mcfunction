@@ -14,6 +14,8 @@ scoreboard players reset $dtz tmp
 
 scoreboard players operation $dttmp tmp = @e[tag=victim,limit=1] damagepoint
 scoreboard players operation $dttmp2 tmp = @e[tag=victim,limit=1] damagepoint
+execute if entity @e[tag=naturaldamagetmp] run scoreboard players operation $dttmp tmp = @e[tag=naturaldamagetmp,limit=1] damagepoint
+execute if entity @e[tag=naturaldamagetmp] run scoreboard players operation $dttmp2 tmp = @e[tag=naturaldamagetmp,limit=1] damagepoint
 scoreboard players operation $dttmp tmp /= $10 main
 scoreboard players operation $dttmp2 tmp %= $10 main
 
@@ -22,6 +24,8 @@ execute if entity @e[tag=victim,tag=magicdamagetmp,tag=!physicaldamagetmp] run f
 execute if entity @e[tag=victim,tag=physicaldamagetmp,tag=magicdamagetmp] run function damage:damagetext/w
 execute if entity @e[tag=victim,tag=specialdamagetmp] run function damage:damagetext/special
 execute if entity @e[tag=victim,tag=truedamagetmp] run data modify entity @s text set value [{"score":{objective:"tmp",name:"$dttmp"},"color":"gray"},{"text":".","color":"gray"},{"score":{objective:"tmp",name:"$dttmp2"},"color":"gray"}]
+execute if entity @e[tag=naturaldamagetmp] run data modify entity @s text set value [{"score":{objective:"tmp",name:"$dttmp"},"color":"green"},{"text":".","color":"green"},{"score":{objective:"tmp",name:"$dttmp2"},"color":"green"}]
+
 
 scoreboard players reset $dttmp tmp
 scoreboard players reset $dttmp2 tmp

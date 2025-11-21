@@ -1,0 +1,10 @@
+{
+  "function": "minecraft:set_name",
+  "name": [
+    {
+      "text": "口臭に気を付けよう",
+      "color": "#9c6600",
+      "italic": false
+    }
+  ]
+}

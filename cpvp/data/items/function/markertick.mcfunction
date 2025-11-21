@@ -43,7 +43,8 @@ execute if entity @s[tag=magic16] run function items:skills/magic/16/markertick
 execute if entity @s[tag=magic16-2] run function items:skills/magic/16/markertick2
 execute if entity @s[tag=magic16-3] run function items:skills/magic/16/markertick3
 #19
-execute if entity @s[tag=magic19] run function items:skills/magic/19/markertick
+execute if entity @s[tag=magic19core] run function items:skills/magic/19/coretick
+execute if entity @s[tag=magic19ray] if score @s skills matches 2 run kill @s
 #21
 execute if entity @s[tag=magic21] at @s run function items:skills/magic/21/skill2/tick
 #23
@@ -92,7 +93,17 @@ execute if entity @s[tag=m47mark] at @s run function items:skills/magic/47/marke
 #48
 execute if entity @s[tag=magic48] at @s run function items:skills/magic/48/markertick2
 execute if entity @s[tag=magic48core] at @s run function items:skills/magic/48/markertick
-
+#50
+execute if entity @s[tag=magic50] at @s run function items:skills/magic/50/markertick
+#51
+execute if entity @s[tag=magic51] at @s run function items:skills/magic/51/markertick
+#52
+execute if entity @s[tag=magic52core] at @s run function items:skills/magic/52/markertick
+execute if entity @s[tag=magic52id1] at @s run function items:skills/magic/52/idtick1
+execute if entity @s[tag=magic52id2] at @s run function items:skills/magic/52/idtick2
+execute if entity @s[tag=magic52id3] at @s run function items:skills/magic/52/idtick3
+#53
+execute if entity @s[tag=magic53] at @s run function items:skills/magic/53/markertick
 ##weapon
 #3
 execute if entity @s[tag=weapon3] run function items:skills/weapon/3/markertick
@@ -115,6 +126,8 @@ execute if entity @s[tag=weapon6] run function items:skills/weapon/6/markertick
 execute if entity @s[tag=seraph_kabuto] at @s run function items:skills/weapon/9/skill1/kabuto/tick
 execute if entity @s[tag=seraph_jajaja] at @s run function items:skills/weapon/9/skill1/kabuto/tick2
 execute if entity @s[tag=seraph_glaive2] at @s run function items:skills/weapon/9/skill2/tick
+#13
+execute if entity @s[tag=w13marker] at @s run function items:skills/weapon/13/s2/tick
 ##offhand
 #6
 execute if entity @s[tag=offhand6] run function items:skills/offhand/6/markertick
@@ -134,8 +147,6 @@ execute if entity @s[tag=leggings1] run function items:skills/leggings/1/markert
 ##boots
 execute if entity @s[tag=boots5marker] run function items:skills/boots/5/markertick
 ##perk
-#perk11
-execute if entity @s[tag=perk11] run function items:skills/perk/11/markertick
 #perk13
 execute if entity @s[tag=perk13] run function items:skills/perk/13/markertick
 #30

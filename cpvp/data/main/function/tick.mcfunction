@@ -43,9 +43,6 @@ execute if entity @e[tag=bullet] as @e[tag=bullet] at @s run function items:skil
 #タイマー処理
 #phase 0-lobby 1-lobby.timer起動 2-start.開始前 3-開始 3.5-star配布 4-収縮開始 5-終了
 execute if score $phase main matches 1..3 run function system:timer/timer
-execute if score $phase main matches 1 run function system:phase/phase1/phase1
-execute if score $phase main matches 2 run function system:phase/phase2/phase2
-execute if score $phase main matches 3 run function system:phase/phase3/phase3
 
 #criticalstar使用中
 execute as @a[predicate=cstar:cstarcharge] run function cstar:cstarcharge
@@ -54,8 +51,7 @@ execute as @a[predicate=cstar:uncstarcharge] run scoreboard players reset @s Cst
 #銃の弾捨て処理
 execute if entity @a[predicate=items:gun/dropbullet,limit=1] as @a[predicate=items:gun/dropbullet] unless data entity @s equipment.offhand.components."minecraft:custom_data".cpvp.bullet run function items:skills/gun/dropbullet with entity @s equipment.offhand.components."minecraft:custom_data".cpvp
 
-#?
-scoreboard players set @a sneak 0
+
 
 #3秒
 scoreboard players add $3s timer 1
@@ -118,3 +114,5 @@ execute as @e[tag=damagetext] at @s run function damage:damagetext/tick
 advancement revoke @a[advancements={system:projectile=true}] only system:projectile
 
 scoreboard players set @a using 0
+scoreboard players set @a sneak 0
+scoreboard players set @a jump 0

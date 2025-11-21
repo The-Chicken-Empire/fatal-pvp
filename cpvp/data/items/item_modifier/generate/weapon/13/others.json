@@ -1,0 +1,22 @@
+{
+  "function": "minecraft:set_components",
+  "components": {
+    "minecraft:attribute_modifiers": [
+      {
+        "type": "minecraft:attack_damage",
+        "id": "aeaeaeauauau",
+        "amount": 1.5,
+        "operation": "add_value",
+        "slot": "mainhand"
+      }
+    ],
+    "minecraft:tooltip_display": {
+      "hidden_components": [
+        "minecraft:attribute_modifiers",
+        "unbreakable"
+      ]
+    },
+    "minecraft:enchantment_glint_override": false,
+    "unbreakable": {}
+  }
+}

@@ -5,7 +5,7 @@ playsound minecraft:entity.generic.hurt master @a ~ ~ ~ 1 0.5
 playsound minecraft:entity.breeze.death master @a ^ ^ ^ 1 1
 
 
-scoreboard players set @s damagetaken 50
+scoreboard players set @s damagetaken 30
 data modify storage atktrigger: hage set value {itemtype:weapon,id:9,atktype:2}
 tag @s add physicaldamage
 tag @s add rangedamage

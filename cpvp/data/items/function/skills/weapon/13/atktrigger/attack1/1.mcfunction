@@ -1,0 +1,1 @@
+execute at @s run function items:skills/weapon/13/s1/

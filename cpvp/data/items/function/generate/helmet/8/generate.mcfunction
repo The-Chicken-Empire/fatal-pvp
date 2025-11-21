@@ -23,7 +23,7 @@ item modify block 0 0 0 container.0 items:generate/helmet/8/stats
 item modify block 0 0 0 container.0 items:generate/helmet/8/parts
 
 #フレーバー無ければコメントをつけるなりなんなり
-item modify block 0 0 0 container.0 items:generate/helmet/8/flavor
+#item modify block 0 0 0 container.0 items:generate/helmet/8/flavor
 
 #アトリビュートなどを追加したい場合はコメントをはずしてファイルを作成する
 item modify block 0 0 0 container.0 items:generate/helmet/8/others

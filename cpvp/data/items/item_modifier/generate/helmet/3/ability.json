@@ -1,0 +1,235 @@
+{
+  "function": "minecraft:set_lore",
+  "lore": [
+    [
+      {
+        "text": "-- ",
+        "color": "white",
+        "italic": false
+      },
+      {
+        "text": "『世界の限界』",
+        "color": "#0086df",
+        "italic": false
+      },
+      {
+        "text": " --",
+        "color": "white",
+        "italic": false
+      }
+    ],
+    [
+      {
+        "text": "回避時",
+        "italic": false,
+        "color": "yellow"
+      }
+    ],
+    [
+      {
+        "text": "クールタイム",
+        "italic": false,
+        "color":"dark_aqua"
+      },
+      {
+        "text": " : ",
+        "italic": false,
+        "color":"white"
+      },
+      {
+        "text": "10秒",
+        "italic": false,
+        "color":"green"
+      }
+    ],
+    [
+      {
+        "text": "このアイテム以外の",
+        "italic": false,
+        "color": "white"
+      },
+      {
+        "text": "回避時",
+        "italic": false,
+        "color": "yellow"
+      },
+      {
+        "text": "トリガーを無視する。",
+        "italic": false,
+        "color": "white"
+      }
+    ],
+    [
+      {
+        "text": "回避時、ダメージを無効化せず、攻撃主に",
+        "italic": false,
+        "color": "white"
+      }
+    ],
+    [
+      {
+        "text": "[水晶呪:lv3]",
+        "italic": false,
+        "color":"#37d7ff"
+      },
+      {
+        "text": "を7秒付与する。",
+        "italic": false,
+        "color": "white"
+      }
+    ],
+    [
+      ""
+    ],
+    [
+      {
+        "text": "-- ",
+        "color": "white",
+        "italic": false
+      },
+      {
+        "text": "『魂の行き着く先』",
+        "color": "#4a2aff",
+        "italic": false
+      },
+      {
+        "text": " --",
+        "color": "white",
+        "italic": false
+      }
+    ],
+    [
+      {
+        "text": "常時",
+        "italic": false,
+        "color": "yellow"
+      }
+    ],
+    [
+      {
+        "text": "デバフ付与時、対象に付与されている",
+        "italic": false,
+        "color": "white"
+      }
+    ],
+    [
+      {
+        "text": "[損傷]",
+        "italic": false,
+        "color": "#585858"
+      },
+      {
+        "text": "系統デバフの1つにつき、",
+        "italic": false,
+        "color": "white"
+      }
+    ],
+    [
+      {
+        "text": "付与するデバフのレベルが1上昇する。",
+        "italic": false,
+        "color": "white"
+      }
+    ],
+    [
+      ""
+    ],
+    [
+      {
+        "text": "水晶呪",
+        "italic": false,
+        "color":"#37d7ff"
+      },
+      {
+        "text": " :",
+        "italic": false,
+        "color":"white"
+      }
+    ],
+    [
+      {
+        "text": " - ",
+        "italic": false,
+        "color":"white"
+      },
+      {
+        "text": "HP",
+        "italic": false,
+        "color":"red"
+      },
+      {
+        "text": "/",
+        "italic": false,
+        "color":"white"
+      },
+      {
+        "text": "MP",
+        "italic": false,
+        "color":"blue"
+      },
+      {
+        "text": "の自然回復量が",
+        "italic": false,
+        "color":"white"
+      },
+      {
+        "text": "(lv×25)%",
+        "italic": false,
+        "color":"yellow"
+      },
+      {
+        "text": "減少する。",
+        "italic": false,
+        "color":"white"
+      }
+    ],
+    [
+      {
+        "text": " - ",
+        "italic": false,
+        "color":"white"
+      },
+      {
+        "text": "与えるダメージが",
+        "italic": false,
+        "color":"white"
+      },
+      {
+        "text": "(lv×0.5)",
+        "italic": false,
+        "color":"yellow"
+      },
+      {
+        "text": "減少する。",
+        "italic": false,
+        "color":"white"
+      }
+    ],
+    [
+      {
+        "text": " - ",
+        "italic": false,
+        "color":"white"
+      },
+      {
+        "text": "回避率が",
+        "italic": false,
+        "color":"white"
+      },
+      {
+        "text": "(lv×4)%",
+        "italic": false,
+        "color":"yellow"
+      },
+      {
+        "text": "減少する。",
+        "italic": false,
+        "color":"white"
+      }
+    ],
+    [
+      ""
+    ]
+  ],
+  "mode": "append"
+}

@@ -1,0 +1,15 @@
+{
+  "function": "minecraft:set_name",
+  "name": [
+    {
+      "text": "遮",
+      "color": "#969696",
+      "italic": false
+    },
+    {
+      "text": "断",
+      "color": "#696969",
+      "italic": false
+    }
+  ]
+}

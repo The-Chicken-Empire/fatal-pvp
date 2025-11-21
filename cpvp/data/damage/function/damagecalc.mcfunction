@@ -3,13 +3,14 @@ scoreboard players set $damagecalc damagecalc 0
 scoreboard players set $damagecalcatk damagecalc 0
 scoreboard players set $damagecalcdef damagecalc 0
 
-scoreboard players set $damagecalc2 damagecalc 0
 scoreboard players set $damageadd damagecalc 0
 
 #perk20の効果 攻撃対象変更
 execute if items entity @s[tag=victim] hotbar.* *[custom_data~{cpvp:{id:20b,item_type:"perk"}}] run function items:skills/perk/20/check
 execute if score $perk20 main matches 1 run return run execute as @a[tag=perk20victim,limit=1] run function items:skills/perk/20/recalc
-
+##weapom13
+execute if items entity @n[tag=atker] weapon.mainhand *[custom_data~{cpvp:{id:13b,item_type:"weapon"}}] if score @s damagetaken matches 24..25 run tag @n[tag=atker] add w13melee
+execute if items entity @n[tag=atker] weapon.mainhand *[custom_data~{cpvp:{id:13b,item_type:"weapon"}}] if score @s damagetaken matches 37.. run tag @n[tag=atker] add w13melee
 
 execute if entity @e[tag=victim,limit=1,tag=truedamagetmp] run return run function damage:truedamagecalc
 
@@ -26,7 +27,9 @@ execute if entity @e[tag=victim,tag=unavoidable] run scoreboard players set $dum
 execute if items entity @s armor.chest *[custom_data~{cpvp:{id:6b}}] run function items:skills/chestplate/6/
 ###
 execute as @a[tag=unavoidable,tag=victim] at @s run playsound block.trial_spawner.ambient_ominous block @s ~ ~ ~ 1 2 1
-execute if score $dummy random <= @s agi at @s run playsound entity.breeze.wind_burst master @a ~ ~ ~ 1 1.5
+###helm3 水晶の冠 回避の代わりにデバフ反撃
+execute if score $dummy random <= @s agi if items entity @s armor.head *[custom_data~{cpvp:{id:3b,item_type:"helmet"}}] run function items:skills/helmet/3/check
+execute if score $dummy random <= @s agi at @s run playsound entity.breeze.deflect master @a ~ ~ ~ 1 2 0
 execute if score $dummy random <= @s agi run particle minecraft:white_smoke ~ ~1 ~ 0.1 0.8 0.1 0.2 20
 execute if score $dummy random <= @s agi run function damage:avoid
 execute if score $dummy random <= @s agi run return fail
@@ -37,6 +40,7 @@ execute if entity @e[tag=magic25] if entity @e[tag=victim,tag=meleevictim,limit=
 
 ##weapon17
 execute if items entity @n[tag=atker] weapon.mainhand *[custom_data~{cpvp:{id:17b,item_type:"weapon"}}] if score @s damagetaken matches 50.. run tag @n[tag=atker] add w17melee
+
 
 #damage2trigger 軽減とか上昇とか
 execute as @e[tag=atker] run function items:triggers/attack2/check
@@ -66,7 +70,7 @@ scoreboard players operation $damagecalcdef damagecalc += @s defence
 
 scoreboard players set $penetrate damagecalc 100
 scoreboard players operation $penetrate damagecalc -= @s penetrate
-execute if score $penetrate damagecalc matches ..0 run scoreboard players set $penetrate damagecalc 0
+#execute if score $penetrate damagecalc matches ..0 run scoreboard players set $penetrate damagecalc 0
 scoreboard players operation $damagecalcdef damagecalc *= $penetrate damagecalc
 scoreboard players operation $damagecalcdef damagecalc /= $100 main
 
@@ -84,32 +88,31 @@ scoreboard players operation $damagecalc damagecalc += $100 main
 
 #最大def処理
 execute if score $damagecalc damagecalc matches ..20 run scoreboard players set $damagecalc damagecalc 20
-
-scoreboard players operation $damagecalc2 damagecalc *= $10 main
-#特殊ダメージのeffect半減処理
-execute if entity @s[tag=victim,tag=specialdamagetmp] run scoreboard players operation $damagecalc2 damagecalc /= $2 main
-scoreboard players operation $damagecalc2 damagecalc += $100 main
-
 #crit処理
 function damage:critical
 
 #ダメージ倍率+%
 execute if entity @s[tag=specialdamagetmp] run scoreboard players operation $damageadd damagecalc /= $2 main
 scoreboard players add $damageadd damagecalc 100
-scoreboard players operation @s[tag=victim] damagetaken *= $damageadd damagecalc
-scoreboard players operation @s[tag=victim] damagetaken /= $100 main
+scoreboard players operation @s damagetaken *= $damageadd damagecalc
+scoreboard players operation @s damagetaken /= $100 main
 #100倍*2->1/10000
 scoreboard players operation @s damagetaken *= $damagecalc damagecalc
-scoreboard players operation @s damagetaken *= $damagecalc2 damagecalc
-scoreboard players operation @s damagetaken /= $10000 main
+scoreboard players operation @s damagetaken /= $100 main
 
 #スキルの処理
 ##helm4の効果 1.5倍
-execute as @a[tag=atker] if items entity @s armor.head golden_hoe[minecraft:custom_data~{cpvp:{id:4b}}] at @s if entity @e[tag=victim,distance=15..] run function items:skills/helmet/4/atk
+execute as @a[tag=atker] if items entity @s armor.head golden_hoe[minecraft:custom_data~{cpvp:{id:4b,item_type:"helmet"}}] at @s if entity @e[tag=victim,distance=15..] run function items:skills/helmet/4/atk
 ##offhand11の効果 k倍 (kは0以上の実数)
-execute as @a[tag=atker] if items entity @s weapon.offhand end_crystal[minecraft:custom_data~{cpvp:{id:11b}}] if items entity @s weapon.offhand end_crystal[minecraft:custom_data~{cpvp:{item_type:"offhand"}}] run function items:skills/offhand/11/atk
+execute as @a[tag=atker] if items entity @s weapon.offhand end_crystal[minecraft:custom_data~{cpvp:{id:11b,item_type:"offhand"}}] run function items:skills/offhand/11/atk
 ##perk29の効果 ダメージ10以上の時0.1倍
 execute as @a[tag=victim] if score @s damagetaken matches 100.. if entity @s[tag=physicaldamagetmp] if items entity @s hotbar.* *[minecraft:custom_data~{cpvp:{id:29b,item_type:"perk"}}] run function items:skills/perk/29/check
+##perk43の効果 +0.5
+execute if entity @a[tag=atker,tag=perk43,limit=1] run scoreboard players add @s damagetaken 5
+##helm4の効果 +0.7
+execute as @a[tag=atker] if items entity @s armor.head golden_hoe[minecraft:custom_data~{cpvp:{id:4b}}] at @s if entity @e[tag=victim,distance=15..] run scoreboard players add @e[tag=victim,limit=1] damagetaken 7
+##effect27 火力固定値減少 -0.5n
+execute as @a[tag=atker,limit=1] run function effects:effects/27/dmgred
 ##perk19の火力を固定で下げる効果(結構下の方に置いといてね...)
 execute if score @s damagetaken matches 150.. if entity @s[tag=perk19] at @s run function items:skills/perk/19/active
 ##offhand16の効果 被ダメージを前回のそれと平均化
@@ -123,14 +126,15 @@ execute as @a[tag=atker] if items entity @s hotbar.* *[minecraft:custom_data~{cp
 ##weapon1の効果 ダメージをMP減少に変換
 execute as @a[tag=atker] if items entity @s weapon.mainhand *[minecraft:custom_data~{cpvp:{id:1b,item_type:"weapon"}}] run function items:skills/weapon/1/attack
 
+#ダメージ下限
+execute if score @s damagetaken matches ..0 run scoreboard players set @s damagetaken 1
+
 #damage3trigger
 execute as @e[tag=atker] run function items:triggers/attack3/check
 execute as @e[tag=victim] run function items:triggers/attacked3/check
 execute as @e[tag=atker] run function damage:atktrigger/attack3 with storage atktrigger: hage
 
 #ダメージと関係ないスキル処理
-##magic19の反撃デバフ
-execute if entity @s[tag=victim,tag=magic19buff] run function items:skills/magic/19/counter
 ##offhand13の灼熱付与
 execute as @e[tag=atker] run function items:skills/offhand/13/teamattackcheck
 

@@ -18,4 +18,4 @@ execute if entity @s[tag=!specialdamagetmp,tag=!rangedamagetmp,tag=!magicdamaget
 execute if entity @s[tag=truedamagetmp] run tellraw @a[tag=atker,limit=1,sort=nearest] [{"color":"yellow","italic":false,"text":"与ダメージ"},{"color":"white","italic":false,"text":" : "},{"color":"red","italic":false,"score":{"name":"@s","objective":"dummydamageA"}},{"color":"red","italic":false,"text":"."},{"color":"red","italic":false,"score":{"name":"@s","objective":"dummydamageB"}},{"color":"white","italic":false,"text":" - "},{"color":"gray","italic":false,"text":"固定"}]
 #クリティカル
 execute if entity @s[tag=critical] run tellraw @a[tag=atker,limit=1,sort=nearest] {"bold":true,"color":"yellow","italic":false,"text":"クリティカル！"}
-scoreboard players set @s hp 1000
+scoreboard players set @s hp 10000

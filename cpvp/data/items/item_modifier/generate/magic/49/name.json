@@ -1,0 +1,10 @@
+{
+  "function": "minecraft:set_name",
+  "name": [
+    {
+      "text": "落ち着け！",
+      "color": "#3b25ff",
+      "italic": false
+    }
+  ]
+}

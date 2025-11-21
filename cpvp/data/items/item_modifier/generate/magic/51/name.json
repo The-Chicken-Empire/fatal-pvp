@@ -1,0 +1,10 @@
+{
+  "function": "minecraft:set_name",
+  "name": [
+    {
+      "text": "ザダヌ・カィエン",
+      "color": "#975eb8",
+      "italic": false
+    }
+  ]
+}

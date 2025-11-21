@@ -9,5 +9,5 @@ execute if score $teammode main matches 0 positioned over motion_blocking_no_lea
 execute as @a[tag=player] run tag @s add alive
 scoreboard objectives setdisplay sidebar alives
 bossbar set minecraft:timer visible false
-scoreboard players set $timer main 300
+scoreboard players set $bstarttimer main 300
 scoreboard players set $phase main 2
