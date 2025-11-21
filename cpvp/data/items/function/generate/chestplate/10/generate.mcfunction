@@ -21,7 +21,7 @@ item modify block 0 0 0 container.0 items:generate/chestplate/10/stats
 
 item modify block 0 0 0 container.0 items:generate/chestplate/10/parts
 
-item modify block 0 0 0 container.0 items:generate/chestplate/10/flavor
+#item modify block 0 0 0 container.0 items:generate/chestplate/10/flavor
 
 #アトリビュートなどを追加したい場合はコメントをはずしてファイルを作成する
 item modify block 0 0 0 container.0 items:generate/chestplate/10/others
