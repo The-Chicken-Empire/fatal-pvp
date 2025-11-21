@@ -1,0 +1,1 @@
+execute at @s run function items:skills/perk/45/s1/

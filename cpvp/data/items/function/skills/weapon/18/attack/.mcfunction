@@ -13,7 +13,7 @@ playsound block.bell.resonate block @a ~ ~ ~ 2 1
 playsound entity.allay.death neutral @a ~ ~ ~ 2 1.7
 
 #視線を除去
-execute as @e[tag=playing] run function effects:remove {id:48}
+execute at @s as @e[distance=..21] run function effects:system/modify/ {id:48,dutartion:-1,level:-7}
 
 tag @s remove weapon18player
 tag @s remove weapon18playertmp
