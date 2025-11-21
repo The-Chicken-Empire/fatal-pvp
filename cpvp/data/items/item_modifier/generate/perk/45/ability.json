@@ -8,8 +8,8 @@
         "italic": false
       },
       {
-        "text": "ここにability名",
-        "color": "white",
+        "text": "予感",
+        "color": "#75ecec",
         "italic": false
       },
       {
@@ -20,21 +20,72 @@
     ],
     [
       {
-        "text": "発動検知",
+        "text": "常時",
         "italic": false,
         "color": "yellow"
       }
     ],
     [
       {
-        "text": "cost",
+        "text": "自身を見ている敵プレイヤーが強調される。",
+        "italic": false,
+        "color": "white"
+      }
+    ],
+        [
+      {
+        "text": "自身が移動すると強調表示がずれる。",
         "italic": false,
         "color": "white"
       }
     ],
     [
       {
-        "text": "内容",
+        "text": "対象に",
+        "italic": false,
+        "color": "white"
+      },
+      {
+        "text": "[透明化]",
+        "italic": false,
+        "color": "gray"
+      },
+      {
+        "text": "がついている場合は効果が半減する。",
+        "italic": false,
+        "color": "white"
+      }
+    ],
+    [
+      {
+        "text": "自身に",
+        "italic": false,
+        "color": "white"
+      },
+      {
+        "text": "[盲目]",
+        "italic": false,
+        "color": "dark_gray"
+      },
+      {
+        "text": "又は",
+        "italic": false,
+        "color": "white"
+      },
+      {
+        "text": "[暗闇]",
+        "italic": false,
+        "color": "dark_gray"
+      },
+      {
+        "text": "がついている場合、",
+        "italic": false,
+        "color": "white"
+      }
+    ],
+    [
+      {
+        "text": "効果が発動しない。",
         "italic": false,
         "color": "white"
       }

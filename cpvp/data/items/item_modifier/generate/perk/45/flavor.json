@@ -3,14 +3,21 @@
   "lore": [
     [
       {
-        "text": "ここにフレーバーテキストを書く",
+        "text": "こっち見てるの丸見えだよ...！ほら！あれだよ！",
         "color": "dark_gray",
         "italic": true
       }
     ],
     [
       {
-        "text": "ここは2行目",
+        "text": "こちらが深淵をのぞく時、深淵もまたこちらを",
+        "color": "dark_gray",
+        "italic": true
+      }
+    ],
+    [
+      {
+        "text": "のぞいているのだってやつだよ！",
         "color": "dark_gray",
         "italic": true
       }
