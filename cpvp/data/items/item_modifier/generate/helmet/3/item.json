@@ -1,4 +1,4 @@
 {
   "function": "minecraft:set_item",
-  "item": "minecraft:barrier"
+  "item": "minecraft:blue_stained_glass_pane"
 }

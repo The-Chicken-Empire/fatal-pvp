@@ -14,8 +14,6 @@
           "maxeng": 10
         },
         "triggers": [
-          "tick",
-          "avoid"
         ]
       },
       "regularitem": 1,

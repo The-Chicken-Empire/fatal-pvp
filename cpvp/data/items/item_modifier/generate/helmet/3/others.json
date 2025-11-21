@@ -1,0 +1,25 @@
+{
+  "function": "minecraft:set_components",
+  "components": {
+    "minecraft:attribute_modifiers": [],
+    "enchantment_glint_override": true,
+    "minecraft:unbreakable": {},
+    "minecraft:tooltip_display": {
+      "hidden_components": [
+        "minecraft:unbreakable",
+        "minecraft:dyed_color",
+        "minecraft:trim",
+        "minecraft:attribute_modifiers"
+      ]
+    },
+    "minecraft:custom_model_data": 
+    {"strings":["helmet3"]},
+    "equippable":
+      {
+      "slot":"head",
+      "equip_sound":"item.armor.equip_chain",
+      "swappable":true
+      }
+  }
+  
+}

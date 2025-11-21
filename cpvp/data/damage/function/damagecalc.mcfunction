@@ -27,7 +27,9 @@ execute if entity @e[tag=victim,tag=unavoidable] run scoreboard players set $dum
 execute if items entity @s armor.chest *[custom_data~{cpvp:{id:6b}}] run function items:skills/chestplate/6/
 ###
 execute as @a[tag=unavoidable,tag=victim] at @s run playsound block.trial_spawner.ambient_ominous block @s ~ ~ ~ 1 2 1
-execute if score $dummy random <= @s agi at @s run playsound entity.breeze.wind_burst master @a ~ ~ ~ 1 1.5
+###helm3 水晶の冠 回避の代わりにデバフ反撃
+execute if score $dummy random <= @s agi if items entity @s armor.head *[custom_data~{cpvp:{id:3b,item_type:"helmet"}}] run function items:skills/helmet/3/check
+execute if score $dummy random <= @s agi at @s run playsound entity.breeze.deflect master @a ~ ~ ~ 1 2 0
 execute if score $dummy random <= @s agi run particle minecraft:white_smoke ~ ~1 ~ 0.1 0.8 0.1 0.2 20
 execute if score $dummy random <= @s agi run function damage:avoid
 execute if score $dummy random <= @s agi run return fail
@@ -109,6 +111,8 @@ execute as @a[tag=victim] if score @s damagetaken matches 100.. if entity @s[tag
 execute if entity @a[tag=atker,tag=perk43,limit=1] run scoreboard players add @s damagetaken 5
 ##helm4の効果 +0.7
 execute as @a[tag=atker] if items entity @s armor.head golden_hoe[minecraft:custom_data~{cpvp:{id:4b}}] at @s if entity @e[tag=victim,distance=15..] run scoreboard players add @e[tag=victim,limit=1] damagetaken 7
+##effect27 火力固定値減少 -0.5n
+execute as @a[tag=atker,limit=1] run function effects:effects/27/dmgred
 ##perk19の火力を固定で下げる効果(結構下の方に置いといてね...)
 execute if score @s damagetaken matches 150.. if entity @s[tag=perk19] at @s run function items:skills/perk/19/active
 ##offhand16の効果 被ダメージを前回のそれと平均化
@@ -121,6 +125,9 @@ execute as @a[tag=victim] if items entity @s hotbar.* *[minecraft:custom_data~{c
 execute as @a[tag=atker] if items entity @s hotbar.* *[minecraft:custom_data~{cpvp:{id:28b,item_type:"perk"}}] run function items:skills/perk/28/attack
 ##weapon1の効果 ダメージをMP減少に変換
 execute as @a[tag=atker] if items entity @s weapon.mainhand *[minecraft:custom_data~{cpvp:{id:1b,item_type:"weapon"}}] run function items:skills/weapon/1/attack
+
+#ダメージ下限
+execute if score @s damagetaken matches ..0 run scoreboard players set @s damagetaken 1
 
 #damage3trigger
 execute as @e[tag=atker] run function items:triggers/attack3/check

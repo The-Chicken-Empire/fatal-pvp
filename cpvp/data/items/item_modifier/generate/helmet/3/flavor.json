@@ -3,14 +3,21 @@
   "lore": [
     [
       {
-        "text": "ここにフレーバーテキストを書く",
+        "text": "永い時を経て、冠は受け継がれる。",
         "color": "dark_gray",
         "italic": true
       }
     ],
     [
       {
-        "text": "ここは2行目",
+        "text": "貴女はどんな景色を見せてくれる？",
+        "color": "dark_gray",
+        "italic": true
+      }
+    ],
+    [
+      {
+        "text": "聴かせてよ、いつか、戻った時に。",
         "color": "dark_gray",
         "italic": true
       }

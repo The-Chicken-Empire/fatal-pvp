@@ -2,6 +2,9 @@
   "function": "minecraft:set_lore",
   "lore": [
     [
+      ""
+    ],
+    [
       {
         "text": "MP回復力",
         "color": "aqua",
