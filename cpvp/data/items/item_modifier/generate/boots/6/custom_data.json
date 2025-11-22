@@ -13,7 +13,8 @@
         "triggers": [
           "tick",
           "attack2",
-          "critical"
+          "critical",
+          "unequip"
         ]
       },
       "regularitem": 1,

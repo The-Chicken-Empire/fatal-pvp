@@ -347,6 +347,7 @@ scoreboard objectives add offhand19 dummy
 scoreboard objectives add offhand16 dummy
 scoreboard objectives add cp21 dummy
 scoreboard objectives add boots17 dummy
+scoreboard objectives add boots6 dummy
 
 #buff用
 scoreboard objectives add maxhp_buff dummy
