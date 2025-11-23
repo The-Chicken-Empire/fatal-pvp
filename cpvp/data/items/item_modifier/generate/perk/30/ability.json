@@ -20,21 +20,14 @@
     ],
     [
       {
-        "text": "死亡時/味方死亡時",
+        "text": "死亡時",
         "italic": false,
         "color": "yellow"
       }
     ],
     [
       {
-        "text": "一試合に一度だけ、味方プレイヤーが死亡した時、",
-        "italic": false,
-        "color": "white"
-      }
-    ],
-        [
-      {
-        "text": "その",
+        "text": "100%の確率で",
         "italic": false,
         "color": "white"
       },
@@ -44,7 +37,26 @@
         "color": "red"
       },
       {
-        "text": "の1/4を回復して復活させる。",
+        "text": "の25%で復活する。",
+        "italic": false,
+        "color": "white"
+      }
+    ],
+        [
+      {
+        "text": "復活するたびに復活する確率が30%減少し、",
+        "italic": false,
+        "color": "white"
+      }
+    ],
+        [
+      {
+        "text": "最大HP",
+        "italic": false,
+        "color": "red"
+      },
+      {
+        "text": "が10減少する。",
         "italic": false,
         "color": "white"
       }
@@ -71,39 +83,28 @@
     ],
     [
       {
-        "text": "被攻撃時",
+        "text": "回復力",
         "italic": false,
-        "color": "yellow"
-      }
-    ],
-    [
-      {
-        "text": "クールタイム",
-        "italic": false,
-        "color":"dark_aqua"
+        "color":"light_purple"
       },
       {
-        "text": " : ",
+        "text": "と",
         "italic": false,
         "color":"white"
       },
       {
-        "text": "5秒",
+        "text": "魔法攻撃力",
         "italic": false,
-        "color":"green"
-      }
-    ],
-    [
-      {
-        "text": "HP",
-        "italic": false,
-        "color":"red"
+        "color":"dark_purple"
       },
       {
-        "text": "を1.5回復する。",
+        "text": "を交換する。",
         "italic": false,
         "color":"white"
       }
+    ],
+        [
+      ""
     ]
   ],
   "mode": "append"

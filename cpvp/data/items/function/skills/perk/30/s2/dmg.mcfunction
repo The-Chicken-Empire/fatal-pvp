@@ -1,1 +1,0 @@
-execute summon marker run function items:skills/perk/30/s2/summon

@@ -8,8 +8,8 @@
         "italic": false
       },
       {
-        "text": "リード",
-        "color": "white",
+        "text": "アクセラ",
+        "color": "green",
         "italic": false
       },
       {
@@ -48,71 +48,67 @@
         "color": "white"
       }
     ],
+
+    [
+      ""
+    ],
+
     [
       {
-        "text": "--",
-        "italic": false,
-        "color": "white"
+        "text": "-- ",
+        "color": "white",
+        "italic": false
       },
       {
-        "text": "オ",
-        "italic": false,
-        "color": "#e94886"
+        "text": "テオクラシー",
+        "color": "#fff387",
+        "italic": false
       },
       {
-        "text": "ー",
-        "italic": false,
-        "color": "#f35b95"
-      },
+        "text": " --",
+        "color": "white",
+        "italic": false
+      }
+    ],
+    [
       {
-        "text": "バ",
+        "text": "常時",
         "italic": false,
-        "color": "#f76aa0"
-      },
+        "color": "yellow"
+      }
+    ],
+    [
       {
-        "text": "ー",
-        "italic": false,
-        "color": "#f76aa0"
-      },
-      {
-        "text": "ド",
-        "italic": false,
-        "color": "#f76da2"
-      },
-      {
-        "text": "ラ",
-        "italic": false,
-        "color": "#fa86b2"
-      },
-      {
-        "text": "イ",
-        "italic": false,
-        "color": "#fdaaca"
-      },
-      {
-        "text": "ブ",
-        "italic": false,
-        "color": "#ffc6dc"
-      },
-      {
-        "text": "--",
-        "italic": false,
-        "color": "white"
-      },
-      {
-        "text": "で味方プレイヤーを殺害した時、",
+        "text": "自身以外の味方が生存していない場合に発動。",
         "italic": false,
         "color": "white"
       }
     ],
     [
       {
-        "text": "このアイテムのスキルが変化する。",
+        "text": "クラスアイテムのスキルの回復効果を",
         "italic": false,
         "color": "white"
       }
     ],
     [
+      {
+        "text": "そのスキルで関与した全ての敵に",
+        "italic": false,
+        "color": "white"
+      }
+    ],
+    [
+      {
+        "text": "固定ダメージを与える効果に変更する。",
+        "italic": false,
+        "color": "white"
+      }
+    ],
+
+
+
+        [
       ""
     ]
   ],

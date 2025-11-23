@@ -6,8 +6,8 @@ execute as @a if score @s playerdata = @e[tag=magic36this,limit=1] owner run tag
 execute at @s positioned ~-2 ~-2 ~-2 as @e[tag=playing,dx=3,dy=3,dz=3] run tag @s add magic36hit
 
 execute as @e[tag=magic36hit] unless score @s teamscore = @a[tag=magic36owner,limit=1] teamscore at @s run function items:skills/magic/36/tick/hit1
-execute if entity @a[tag=magic36owner,tag=cp17activated,limit=1] as @e[tag=magic36hit] unless score @s teamscore = @a[tag=magic36owner,limit=1] teamscore at @s run function items:skills/magic/36/tick/hit2
-execute if entity @a[tag=magic36owner,tag=!cp17activated,limit=1] as @e[tag=magic36hit] if score @s teamscore = @a[tag=magic36owner,limit=1] teamscore at @s run function items:skills/magic/36/tick/heal
+execute if entity @s[tag=magic36canheal] as @e[tag=magic36hit] unless score @s teamscore = @a[tag=magic36owner,limit=1] teamscore at @s run function items:skills/magic/36/tick/hit2
+execute if entity @s[tag=!magic36canheal] as @e[tag=magic36hit] if score @s teamscore = @a[tag=magic36owner,limit=1] teamscore at @s run function items:skills/magic/36/tick/heal
 
 
 

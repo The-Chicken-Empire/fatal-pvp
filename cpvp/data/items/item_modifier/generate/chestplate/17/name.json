@@ -2,18 +2,8 @@
   "function": "minecraft:set_name",
   "name": [
     {
-      "text": "黒色",
+      "text": "無垢の法衣",
       "color": "white",
-      "italic": false
-    },
-    {
-      "text": "の",
-      "color": "gray",
-      "italic": false
-    },
-    {
-      "text": "白衣",
-      "color": "dark_gray",
       "italic": false
     }
   ]
