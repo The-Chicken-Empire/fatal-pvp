@@ -1,0 +1,10 @@
+{
+  "function": "minecraft:set_name",
+  "name": [
+    {
+      "text": "終点への加速",
+      "color": "white",
+      "italic": false
+    }
+  ]
+}
