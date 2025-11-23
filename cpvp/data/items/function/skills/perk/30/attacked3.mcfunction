@@ -1,1 +1,0 @@
-function items:skills/perk/30/s2/use

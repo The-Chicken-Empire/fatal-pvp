@@ -1,0 +1,201 @@
+{
+  "function": "minecraft:set_lore",
+  "lore": [
+    [
+      {
+        "text": "-- ",
+        "color": "white",
+        "italic": false
+      },
+      {
+        "text": "『崩壊者』",
+        "color": "#a10000",
+        "italic": false
+      },
+      {
+        "text": " --",
+        "color": "white",
+        "italic": false
+      }
+    ],
+    [
+      {
+        "text": "常時",
+        "italic": false,
+        "color": "yellow"
+      }
+    ],
+    [
+      {
+        "text": "[破滅:lv5]",
+        "italic": false,
+        "color": "dark_purple"
+      },
+      {
+        "text": "を受け続ける。",
+        "italic": false,
+        "color": "white"
+      }
+    ],
+    [
+      {
+        "text": "5秒毎に",
+        "italic": false,
+        "color": "white"
+      },
+      {
+        "text": "HP",
+        "italic": false,
+        "color": "red"
+      },
+      {
+        "text": "が",
+        "italic": false,
+        "color": "white"
+      },
+      {
+        "text": "2",
+        "italic": false,
+        "color": "gold"
+      },
+      {
+        "text": "減少する。",
+        "italic": false,
+        "color": "white"
+      }
+    ],
+    [
+      {
+        "text": "この効果で",
+        "italic": false,
+        "color": "white"
+      },
+      {
+        "text": "HP",
+        "italic": false,
+        "color": "red"
+      },
+      {
+        "text": "が",
+        "italic": false,
+        "color": "white"
+      },
+      {
+        "text": "0",
+        "italic": false,
+        "color": "gold"
+      },
+      {
+        "text": "以下にならない。",
+        "italic": false,
+        "color": "white"
+      }
+    ],
+    [
+      ""
+    ],
+    [
+      {
+        "text": "-- ",
+        "color": "white",
+        "italic": false
+      },
+      {
+        "text": "沈黙への肯定",
+        "color": "#da23ff",
+        "italic": false
+      },
+      {
+        "text": " --",
+        "color": "white",
+        "italic": false
+      }
+    ],
+    [
+      {
+        "text": "常時",
+        "italic": false,
+        "color": "yellow"
+      }
+    ],
+    [
+      {
+        "text": "3秒毎に",
+        "italic": false,
+        "color": "white"
+      },
+      {
+        "text": "クリティカル率",
+        "italic": false,
+        "color": "yellow"
+      },
+      {
+        "text": "が1%増加する。(最大25%)",
+        "italic": false,
+        "color": "white"
+      }
+    ],
+    [
+      {
+        "text": "攻撃的中時、この効果はリセットされる。",
+        "italic": false,
+        "color": "white"
+      }
+    ],
+    [
+      ""
+    ],
+    [
+      {
+        "text": "-- ",
+        "color": "white",
+        "italic": false
+      },
+      {
+        "text": "未来なき者の覚悟",
+        "color": "#eeff00",
+        "italic": false
+      },
+      {
+        "text": " --",
+        "color": "white",
+        "italic": false
+      }
+    ],
+    [
+      {
+        "text": "クリティカル時",
+        "italic": false,
+        "color": "yellow"
+      }
+    ],
+    [
+      {
+        "text": "対象に",
+        "italic": false,
+        "color": "white"
+      },
+      {
+        "text": "[破滅:lv4]",
+        "italic": false,
+        "color": "dark_purple"
+      },
+      {
+        "text": "を10秒付与し、",
+        "italic": false,
+        "color": "white"
+      }
+    ],
+    [
+      {
+        "text": "その攻撃のみ対象防御力を20%無視する。",
+        "italic": false,
+        "color": "white"
+      }
+    ],
+    [
+      ""
+    ]
+  ],
+  "mode": "append"
+}

@@ -2,8 +2,8 @@
   "function": "minecraft:set_name",
   "name": [
     {
-      "text": "性善の願い",
-      "color": "#99eed9",
+      "text": "崩壊への歩み",
+      "color": "#5e002f",
       "italic": false
     }
   ]
