@@ -107,7 +107,15 @@
         "color": "white"
       },
       {
-        "text": "効果時間中、",
+        "text": "攻撃時/被攻撃時",
+        "color": "yellow"
+      },
+      {
+        "text": "、",
+        "color": "red"
+      },
+      {
+        "text": "自身の",
         "color": "red"
       },
       {
@@ -123,7 +131,14 @@
         "color": "blue"
       },
       {
-        "text": "が",
+        "text": "が、",
+        "color": "red"
+      }
+    ],
+    [
+      {
+        "text": "   ダメージ計算において",
+        "italic": false,
         "color": "red"
       },
       {
@@ -131,8 +146,7 @@
         "color": "gold"
       },
       {
-        "text": "として扱われる。",
-        "color": "red"
+        "text": "として扱われる。"
       }
     ],
     [
