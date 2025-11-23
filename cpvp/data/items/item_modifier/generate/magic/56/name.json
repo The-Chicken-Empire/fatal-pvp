@@ -1,0 +1,10 @@
+{
+  "function": "minecraft:set_name",
+  "name": [
+    {
+      "text": "ランプ",
+      "color": "#99672d",
+      "italic": false
+    }
+  ]
+}
