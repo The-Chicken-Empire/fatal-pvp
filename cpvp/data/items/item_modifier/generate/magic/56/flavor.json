@@ -3,14 +3,14 @@
   "lore": [
     [
       {
-        "text": "ここにフレーバーテキストを書く",
+        "text": "このランプに導かれたのは、幸運でしたね。",
         "color": "dark_gray",
         "italic": true
       }
     ],
     [
       {
-        "text": "ここは2行目",
+        "text": "心配せずとも、もう怖い思いをする事は無いでしょう。",
         "color": "dark_gray",
         "italic": true
       }

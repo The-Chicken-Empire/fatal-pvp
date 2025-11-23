@@ -8,8 +8,8 @@
         "italic": false
       },
       {
-        "text": "ここにability名",
-        "color": "white",
+        "text": "森に灯るランプ",
+        "color": "#99672d",
         "italic": false
       },
       {
@@ -20,23 +20,130 @@
     ],
     [
       {
-        "text": "発動検知",
+        "text": "右クリック",
         "italic": false,
         "color": "yellow"
       }
     ],
     [
       {
-        "text": "cost",
+        "text": "消費MP",
+        "italic": false,
+        "color": "blue"
+      },
+      {
+        "text": " : ",
+        "color": "white"
+      },
+      {
+        "text": "35",
+        "color": "green"
+      },
+      {
+        "text": "クールタイム",
+        "color": "dark_aqua"
+      },
+      {
+        "text": " : ",
+        "color": "white"
+      },
+      {
+        "text": "30秒",
+        "color": "green"
+      }
+    ],
+    [
+      {
+        "text": "自身を含む、自身から20m以内のプレイヤーに、",
         "italic": false,
         "color": "white"
       }
     ],
     [
       {
-        "text": "内容",
+        "text": "15秒間の",
         "italic": false,
         "color": "white"
+      },
+      {
+        "text": "[黄昏]",
+        "color": "#99672d"
+      },
+      {
+        "text": "を付与する。",
+        "color": "white"
+      }
+    ],
+    [
+      {
+        "text": "発動者は[発光]も同じだけ得る。",
+        "italic": false,
+        "color": "white"
+      }
+    ],
+    [""],
+    [
+      {
+        "text": "[黄昏]",
+        "italic": false,
+        "color": "#99672d"
+      },
+      {
+        "text": " :",
+        "color": "white"
+      }
+    ],
+    [
+      {
+        "text": "- 効果時間中は視界が悪くなる。",
+        "italic": false,
+        "color": "white"
+      }
+    ],
+    [
+      {
+        "text": "- ",
+        "italic": false,
+        "color": "white"
+      },
+      {
+        "text": "効果時間中、",
+        "color": "red"
+      },
+      {
+        "text": "攻撃力",
+        "color": "red"
+      },
+      {
+        "text": "と",
+        "color": "red"
+      },
+      {
+        "text": "防御力",
+        "color": "blue"
+      },
+      {
+        "text": "が",
+        "color": "red"
+      },
+      {
+        "text": "0",
+        "color": "gold"
+      },
+      {
+        "text": "として扱われる。",
+        "color": "red"
+      }
+    ],
+    [
+      {
+        "text": "- ",
+        "italic": false,
+        "color": "white"
+      },
+      {
+        "text": "この効果は解除することができない。",
+        "color": "red"
       }
     ],
     [
