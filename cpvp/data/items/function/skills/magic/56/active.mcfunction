@@ -9,7 +9,7 @@ tag @s add buffer
 function effects:system/modify/ {id:18,duration:300,level:1}
 
 tag @s add buffer
-execute at @s as @a[tag=playing,distance=..20] run function effects:system/gain/ {id:52,duration:300,level:1}
+execute at @s as @e[tag=playing,distance=..20] run function effects:system/gain/ {id:52,duration:300,level:1}
 #ct
 scoreboard players set $ct main 600
 function api:ct/mainhand
