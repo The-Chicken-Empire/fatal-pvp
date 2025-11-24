@@ -104,6 +104,7 @@ execute if entity @s[tag=magic52id2] at @s run function items:skills/magic/52/id
 execute if entity @s[tag=magic52id3] at @s run function items:skills/magic/52/idtick3
 #53
 execute if entity @s[tag=magic53] at @s run function items:skills/magic/53/markertick
+
 ##weapon
 #3
 execute if entity @s[tag=weapon3] run function items:skills/weapon/3/markertick
@@ -128,6 +129,7 @@ execute if entity @s[tag=seraph_jajaja] at @s run function items:skills/weapon/9
 execute if entity @s[tag=seraph_glaive2] at @s run function items:skills/weapon/9/skill2/tick
 #13
 execute if entity @s[tag=w13marker] at @s run function items:skills/weapon/13/s2/tick
+
 ##offhand
 #6
 execute if entity @s[tag=offhand6] run function items:skills/offhand/6/markertick
@@ -135,17 +137,22 @@ execute if entity @s[tag=offhand6] run function items:skills/offhand/6/markertic
 execute if entity @s[tag=offhand7-2] run function items:skills/offhand/7/markertick
 execute if entity @s[tag=offhand7-3] run function items:skills/offhand/7/markertick2
 execute if entity @s[tag=offhand7-4] run function items:skills/offhand/7/markertick3
+
 ##helemt
 #4
 execute if entity @s[tag=seraph_wing] run function items:skills/helmet/4/wings/auau
+
 ##chestplate
 execute if entity @s[tag=cp3d] run function items:skills/chestplate/3/markertick
 execute if entity @s[tag=cp3a] run function items:skills/chestplate/3/markertick2
 execute if entity @s[tag=cp3a2] run function items:skills/chestplate/3/markertick3
+
 ##leggings
 execute if entity @s[tag=leggings1] run function items:skills/leggings/1/markertick
+
 ##boots
 execute if entity @s[tag=boots5marker] run function items:skills/boots/5/markertick
+
 ##perk
 #perk13
 execute if entity @s[tag=perk13] run function items:skills/perk/13/markertick
@@ -154,3 +161,5 @@ execute if entity @s[tag=perk30marker] run function items:skills/perk/30/s2/tick
 #perk31
 execute if entity @s[tag=perk31.mk1] run function items:skills/perk/31/markertick
 
+##food
+execute if entity @s[tag=food4marker] if score @s skills matches 400.. run kill @s

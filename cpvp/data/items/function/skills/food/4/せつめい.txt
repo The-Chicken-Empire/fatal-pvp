@@ -1,0 +1,9 @@
+追加必須場所
+#advancement
+items/advancement/foods/(id)
+特になし itemとidとfunctionだけ変えればok
+#item_modifier
+items/item_modifier/foodreplace/(id)
+generateの所から引っ張って来てothersにset_count:2追加しただけ
+
+function側は見たらわかるだろ

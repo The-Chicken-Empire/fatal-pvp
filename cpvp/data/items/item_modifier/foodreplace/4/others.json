@@ -1,0 +1,19 @@
+[{
+  "function": "minecraft:set_components",
+  "components": {
+    "enchantment_glint_override": true,
+    "minecraft:consumable": {
+      "consume_seconds": 2.4,
+      "animation": "drink",
+      "sound": "entity.generic.drink",
+      "has_consume_particles": false
+    },
+    "custom_model_data": {"strings": ["food4"]},
+    "max_stack_size": 2
+  }
+},
+{
+  "function": "set_count",
+  "count": 2
+}
+]
