@@ -2,8 +2,8 @@
   "function": "minecraft:set_name",
   "name": [
     {
-      "text": "終点への加速",
-      "color": "white",
+      "text": "結末の加速",
+      "color": "#1100f8",
       "italic": false
     }
   ]
