@@ -1,0 +1,10 @@
+{
+  "function": "minecraft:set_name",
+  "name": [
+    {
+      "text": "嘘つきの南瓜",
+      "color": "#eea00e",
+      "italic": false
+    }
+  ]
+}

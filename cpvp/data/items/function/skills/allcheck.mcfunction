@@ -29,6 +29,10 @@ scoreboard players reset $check tmp
 execute store result score $check tmp run function system:skillcostcheck/mpcheck
 execute unless score $check tmp matches 1 run function system:skillcostcheck/mpless
 execute unless score $check tmp matches 1 run return 0
+
+#perk46による消費MP書き換え
+execute if items entity @s hotbar.* *[minecraft:custom_data~{cpvp:{id:46b,item_type:"perk"}}] if score $check tmp matches 1 if score @s mpcost matches 100..2200 run function items:skills/perk/46/active
+
 scoreboard players reset $check tmp
 #hp
 #もし体力足りなければ死ぬ設定ならitemのcustomdata.cpvpに
