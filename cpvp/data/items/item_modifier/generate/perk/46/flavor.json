@@ -3,14 +3,14 @@
   "lore": [
     [
       {
-        "text": "ここにフレーバーテキストを書く",
+        "text": "こんな日には、愉快な嘘の歌はどうでしょう。",
         "color": "dark_gray",
         "italic": true
       }
     ],
     [
       {
-        "text": "ここは2行目",
+        "text": "人間らしく見えますか？そうだと良いんですけど。",
         "color": "dark_gray",
         "italic": true
       }

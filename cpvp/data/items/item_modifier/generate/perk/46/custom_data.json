@@ -11,8 +11,6 @@
           "mr": -20
         },
         "triggers": [
-          "equip",
-          "unequip"
         ]
       },
       "regularitem": 1,

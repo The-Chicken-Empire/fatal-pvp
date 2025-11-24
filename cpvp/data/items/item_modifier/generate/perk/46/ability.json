@@ -8,8 +8,8 @@
         "italic": false
       },
       {
-        "text": "ここにability名",
-        "color": "white",
+        "text": "嘘",
+        "color": "#00ffc8",
         "italic": false
       },
       {
@@ -20,23 +20,42 @@
     ],
     [
       {
-        "text": "発動検知",
+        "text": "スキル使用時",
         "italic": false,
         "color": "yellow"
       }
     ],
     [
       {
-        "text": "cost",
+        "text": "1~22",
         "italic": false,
+        "color": "gold"
+      },
+      {
+        "text": "の",
+        "color": "white"
+      },
+      {
+        "text": "MP",
+        "color": "blue"
+      },
+      {
+        "text": "を消費する時、",
         "color": "white"
       }
     ],
     [
       {
-        "text": "内容",
+        "text": "代わりに",
         "italic": false,
         "color": "white"
+      },
+      {
+        "text": "1~30",
+        "color": "gold"
+      },
+      {
+        "text": "の内のランダムな値だけ消費する。"
       }
     ],
     [
