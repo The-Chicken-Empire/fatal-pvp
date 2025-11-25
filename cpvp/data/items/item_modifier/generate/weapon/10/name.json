@@ -1,0 +1,10 @@
+{
+  "function": "minecraft:set_name",
+  "name": [
+    {
+      "text": "魔剣『ゼスト』",
+      "color": "white",
+      "italic": false
+    }
+  ]
+}
