@@ -1,0 +1,10 @@
+{
+  "function": "minecraft:set_name",
+  "name": [
+    {
+      "text": "終末世界の心得",
+      "color": "white",
+      "italic": false
+    }
+  ]
+}
