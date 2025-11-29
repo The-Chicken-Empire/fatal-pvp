@@ -2,8 +2,13 @@
   "function": "minecraft:set_name",
   "name": [
     {
-      "text": "魔剣『ゼスト』",
-      "color": "white",
+      "text": "魔剣",
+      "color": "#7a00df",
+      "italic": false
+    },
+    {
+      "text": "『ゼスト』",
+      "color": "#b60707",
       "italic": false
     }
   ]

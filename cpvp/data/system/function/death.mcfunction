@@ -23,7 +23,9 @@ title @s title {"bold":true,"color":"white","text":"You died!"}
 execute at @s run playsound block.beacon.deactivate master @a ~ ~ ~ 1 0.8 1
 scoreboard players operation @s hp = @s maxhp
 scoreboard players operation @s mp = @s maxmp
-function system:reset/death
+
+#もしかしたら
+#function system:reset/death
 
 #プレイヤーにプレイヤー死亡回数(playerdeathcount)を1加算
 scoreboard players add @a playerdeathcount 1

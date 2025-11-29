@@ -8,8 +8,8 @@
         "italic": false
       },
       {
-        "text": "ここにability名",
-        "color": "white",
+        "text": "『Xest』",
+        "color": "#b60707",
         "italic": false
       },
       {
@@ -20,21 +20,63 @@
     ],
     [
       {
-        "text": "発動検知",
+        "text": "攻撃的中時",
         "italic": false,
         "color": "yellow"
       }
     ],
     [
       {
-        "text": "cost",
+        "text": "対象がプレイヤーの時、対象の",
+        "italic": false,
+        "color": "white"
+      },
+      {
+        "text": "最大HP",
+        "italic": false,
+        "color": "red"
+      },
+      {
+        "text": "を30秒間、",
         "italic": false,
         "color": "white"
       }
     ],
     [
       {
-        "text": "内容",
+        "text": "与えたダメージの50%",
+        "italic": false,
+        "color": "yellow"
+      },
+      {
+        "text": "減少させる。",
+        "italic": false,
+        "color": "white"
+      }
+    ],
+    [
+      {
+        "text": "対象に",
+        "italic": false,
+        "color": "white"
+      },
+      {
+        "text": "[破滅]",
+        "italic": false,
+        "color": "dark_purple"
+      },
+      {
+        "text": "が付与されている時、効果が",
+        "italic": false,
+        "color": "white"
+      },
+      {
+        "text": "2倍",
+        "italic": false,
+        "color": "yellow"
+      },
+      {
+        "text": "になる。",
         "italic": false,
         "color": "white"
       }

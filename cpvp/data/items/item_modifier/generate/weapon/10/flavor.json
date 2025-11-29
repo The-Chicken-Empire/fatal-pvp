@@ -3,16 +3,24 @@
   "lore": [
     [
       {
-        "text": "ここにフレーバーテキストを書く",
+        "text": "『崩壊者』が使用していた存在を削る魔剣。",
         "color": "dark_gray",
         "italic": true
       }
     ],
     [
       {
-        "text": "ここは2行目",
+        "text": "相対したならば、後には何も残らない。",
         "color": "dark_gray",
         "italic": true
+      }
+    ],
+    [
+      {
+        "text": "ならば、消えたその想いの行く先は――",
+        "color": "dark_gray",
+        "italic": true,
+        "bold": true
       }
     ]
   ],

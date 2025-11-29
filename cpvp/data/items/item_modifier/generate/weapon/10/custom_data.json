@@ -7,11 +7,11 @@
       "item_type": "weapon",
       "mainhand": {
         "stats": {
-          "attackspeed": 160,
-          "bonusattackspeed": -100
+          "attackspeed": 140,
+          "bonusattackspeed": -100,
+          "cc": 5
         },
         "triggers": [
-          "attack3"
         ]
       },
       "regularitem": 1,
