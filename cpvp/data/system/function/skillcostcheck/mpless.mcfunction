@@ -10,3 +10,7 @@ execute if score $dummy random matches 2 run title @s subtitle {"bold":true,"col
 execute if score $dummy random matches 3 run title @s subtitle {"bold":true,"color":"red","italic":false,"text":"お前のインテリジェンスが足りない"}
 execute if score $dummy random matches 4 run title @s subtitle {"bold":true,"color":"red","italic":false,"text":"MPとカルシウムが足りない！"}
 execute if score $dummy random matches 5 run title @s subtitle {"bold":true,"color":"red","italic":false,"text":"NOT ENOUGH MANA!!!!"}
+
+scoreboard players reset @s mpcost
+scoreboard players reset @s hpcost
+scoreboard players reset @s engcost

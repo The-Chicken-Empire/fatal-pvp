@@ -1,5 +1,5 @@
 #mp減少
-execute as @e[tag=w4checktmp] run scoreboard players operation @s mp -= @s mpcost
+execute as @e[tag=w4checktmp] run 
 #速度バフ
 execute as @e[tag=w4checktmp] run function effects:system/modify/ {id:"20",duration:10,level:1}
 #暗闇デバフ

@@ -1,0 +1,156 @@
+{
+  "function": "minecraft:set_lore",
+  "lore": [
+    
+    [""],
+      [
+      {
+        "text": "食事CT",
+        "italic": false,
+        "color":"gold"
+      },
+      {
+        "text": " : ",
+        "italic": false,
+        "color":"white"
+      },
+      {
+        "text": "20秒",
+        "italic": false,
+        "color":"yellow"
+      }
+    ],
+    [
+      {
+        "text": "食事時間",
+        "italic": false,
+        "color":"green"
+      },
+      {
+        "text": " : ",
+        "italic": false,
+        "color":"white"
+      },
+      {
+        "text": "2.4秒",
+        "italic": false,
+        "color":"yellow"
+      }
+    ],
+    [
+      {
+        "text": "",
+        "italic": false,
+        "color":"green"
+      }
+    ],
+    [
+      {
+        "text": "HP",
+        "italic": false,
+        "color":"red"
+      },
+      {
+        "text": ":",
+        "italic": false,
+        "color":"white"
+      },
+      {
+        "text": "+18 ",
+        "italic": false,
+        "color":"green"
+      }
+    ],
+    [
+      {
+        "text": "",
+        "italic": false,
+        "color":"red"
+      }
+    ],
+    [
+      {
+        "text": "-- ",
+        "italic": false,
+        "color":"white"
+      },
+      {
+        "text": "終焉の再生",
+        "italic": false,
+        "color":"#a3ff2b"
+      },
+      {
+        "text": " --",
+        "italic": false,
+        "color":"white"
+      }
+    ],
+    [
+      {
+        "text": "20秒間、",
+        "italic": false,
+        "color":"white"
+      },
+      {
+        "text": "『崩壊者』",
+        "italic": false,
+        "color":"#a10000"
+      },
+      {
+        "text": "による",
+        "italic": false,
+        "color":"white"
+      },
+      {
+        "text": "HP減少効果",
+        "italic": false,
+        "color":"yellow"
+      },
+      {
+        "text": "を半減する。",
+        "italic": false,
+        "color":"white"
+      }
+    ],
+    [
+      {
+        "text": "自身の",
+        "italic": false,
+        "color":"white"
+      },
+      {
+        "text": "回復力",
+        "italic": false,
+        "color":"light_purple"
+      },
+      {
+        "text": "を120秒間",
+        "italic": false,
+        "color":"white"
+      },
+      {
+        "text": "25%",
+        "italic": false,
+        "color":"yellow"
+      },
+      {
+        "text": "低下させ、(重複可能)",
+        "italic": false,
+        "color":"white"
+      }
+    ],
+    [
+      {
+        "text": "[脆弱:lv3]",
+        "italic": false,
+        "color":"dark_purple"
+      },
+      {
+        "text": "を10秒間得る。",
+        "italic": false,
+        "color":"white"
+      }
+    ]
+  ],
+  "mode": "append"
+}

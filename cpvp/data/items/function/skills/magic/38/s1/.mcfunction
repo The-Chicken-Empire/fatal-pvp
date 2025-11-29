@@ -1,5 +1,5 @@
-scoreboard players operation @s mp -= @s mpcost
-scoreboard players operation @s hp -= @s hpcost
+
+
 scoreboard players set $ct main 360
 
 function api:ct/mainhand

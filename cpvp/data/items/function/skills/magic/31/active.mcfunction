@@ -1,5 +1,5 @@
 tag @s add magic31tmp
-scoreboard players operation @s mp -= @s mpcost
+
 
 
 execute at @s anchored eyes positioned ^ ^ ^ summon marker run function items:skills/magic/31/summonmarker

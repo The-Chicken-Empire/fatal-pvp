@@ -1,4 +1,4 @@
-scoreboard players operation @s mp -= @s mpcost
+
 tag @s add magic15tmp
 
 execute at @s anchored eyes positioned ^ ^ ^ summon marker run function items:skills/magic/15/summonmarker

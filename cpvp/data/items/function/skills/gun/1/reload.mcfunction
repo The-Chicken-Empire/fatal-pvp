@@ -1,7 +1,7 @@
 #事前
 scoreboard players set @s handgun 0
 #mp減少
-scoreboard players operation @s mp -= @s mpcost
+
 #基礎値↓
 data modify storage tmp gundata set from entity @s SelectedItem.components."minecraft:custom_data"
 data modify storage tmp gundata.cpvp merge from storage tmp bullet

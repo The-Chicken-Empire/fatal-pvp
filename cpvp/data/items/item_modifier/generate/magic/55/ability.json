@@ -1,0 +1,120 @@
+{
+  "function": "minecraft:set_lore",
+  "lore": [
+    [""],
+    [
+      {
+        "text": "-- ",
+        "color": "white",
+        "italic": false
+      },
+      {
+        "text": "歪み続ける存在",
+        "color": "#483bff",
+        "italic": false
+      },
+      {
+        "text": " --",
+        "color": "white",
+        "italic": false
+      }
+    ],
+    [
+      {
+        "text": "右クリック",
+        "italic": false,
+        "color": "yellow"
+      }
+    ],
+    [
+      {
+        "text": "消費MP",
+        "italic": false,
+        "color":"blue"
+      },
+      {
+        "text": " : ",
+        "italic": false,
+        "color":"white"
+      },
+      {
+        "text": "4 ",
+        "italic": false,
+        "color":"green"
+      },
+      {
+        "text": "消費HP",
+        "italic": false,
+        "color":"red"
+      },
+      {
+        "text": " : ",
+        "italic": false,
+        "color":"white"
+      },
+      {
+        "text": "2",
+        "italic": false,
+        "color":"green"
+      }
+    ],
+    [
+      {
+        "text": "15秒間、",
+        "italic": false,
+        "color": "white"
+      },
+      {
+        "text": "攻撃力",
+        "italic": false,
+        "color": "dark_red"
+      },
+      {
+        "text": "を",
+        "italic": false,
+        "color": "white"
+      },
+      {
+        "text": "3%",
+        "italic": false,
+        "color": "yellow"
+      },
+      {
+        "text": "、",
+        "italic": false,
+        "color": "white"
+      },
+      {
+        "text": "攻撃速度",
+        "italic": false,
+        "color": "yellow"
+      },
+      {
+        "text": "を",
+        "italic": false,
+        "color": "white"
+      },
+      {
+        "text": "7%",
+        "italic": false,
+        "color": "yellow"
+      },
+      {
+        "text": "上昇させる。",
+        "italic": false,
+        "color": "white"
+      }
+    ],
+    [
+      {
+        "text": "この効果は重複する。",
+        "italic": false,
+        "color": "white"
+      }
+    ],
+    [
+      ""
+    ]
+  ],
+  "mode": "append"
+}

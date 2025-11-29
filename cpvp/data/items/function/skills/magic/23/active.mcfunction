@@ -1,5 +1,5 @@
 tag @s add magic23tmp
-scoreboard players operation @s mp -= @s mpcost
+
 
 execute at @s summon marker run function items:skills/magic/23/summoncenter
 execute at @s anchored eyes positioned ^ ^ ^ summon marker run function items:skills/magic/23/summonmarker

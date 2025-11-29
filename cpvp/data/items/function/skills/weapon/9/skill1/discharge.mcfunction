@@ -1,4 +1,4 @@
-scoreboard players operation @s mp -= @s mpcost
+
 tp @s @s
 function api:motion/rotation_and_y {power:20,y:5}
 function effects:system/gain/ {level:1,duration:20,id:34}

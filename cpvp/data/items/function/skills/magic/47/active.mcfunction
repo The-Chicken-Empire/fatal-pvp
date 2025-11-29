@@ -1,5 +1,5 @@
 #mp減少
-scoreboard players operation @s mp -= @s mpcost
+
 
 
 tag @s add m47tmp

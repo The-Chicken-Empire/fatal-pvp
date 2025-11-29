@@ -36,7 +36,9 @@ execute if entity @s[type=player] if score @s hp matches ..0 as @a[tag=playing,t
 #reset
 scoreboard players operation $tmp getdamage = @s damagepoint
 
-##perk11ねじこみ
+##weapon10ねじこみ vic最大体力減少
+execute if entity @s[tag=meleevictim,type=player] unless score @s hp matches ..0 if items entity @a[tag=atker,limit=1] weapon.mainhand *[minecraft:custom_data~{cpvp:{id:10b,item_type:"weapon"}}] as @a[tag=atker,limit=1] run function items:skills/weapon/10/attack
+##perk11ねじこみ ほかに干渉なし
 execute unless score @s hp matches ..0 if items entity @s hotbar.* *[minecraft:custom_data~{cpvp:{id:11b,item_type:"perk"}}] run function items:skills/perk/11/damaged
 
 #reset

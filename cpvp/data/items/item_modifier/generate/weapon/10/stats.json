@@ -1,0 +1,115 @@
+{
+  "function": "minecraft:set_lore",
+  "lore": [
+    [""],
+    [
+      {
+        "text": "ダメージ",
+        "color": "red",
+        "italic": false
+      },
+      {
+        "text": " : ",
+        "color": "white",
+        "italic": false
+      },
+      {
+        "text": "+4.5",
+        "color": "gold",
+        "italic": false
+      },
+      {
+        "text": " - ",
+        "color": "white",
+        "italic": false
+      },
+      {
+        "text": "物理",
+        "color": "gold",
+        "italic": false
+      },
+      {
+        "text": "/",
+        "color": "white",
+        "italic": false
+      },
+      {
+        "text": "近距離",
+        "color": "red",
+        "italic": false
+      }
+    ],
+    [
+      {
+        "text": "攻撃速度",
+        "color": "yellow",
+        "italic": false
+      },
+      {
+        "text": " : ",
+        "color": "white",
+        "italic": false
+      },
+      {
+        "text": "1.4",
+        "color": "gold",
+        "italic": false
+      }
+    ],
+    [
+      {
+        "text": "攻撃範囲",
+        "color": "green",
+        "italic": false
+      },
+      {
+        "text": " : ",
+        "color": "white",
+        "italic": false
+      },
+      {
+        "text": "+0.75",
+        "color": "gold",
+        "italic": false
+      }
+    ],
+    [
+      {
+        "text": "攻撃速度",
+        "color": "yellow",
+        "italic": false
+      },
+      {
+        "text": " : ",
+        "color": "white",
+        "italic": false
+      },
+      {
+        "text": "-100%",
+        "color": "gold",
+        "italic": false
+      }
+    ],
+    [
+      {
+        "text": "会心率",
+        "color": "yellow",
+        "italic": false
+      },
+      {
+        "text": " : ",
+        "color": "white",
+        "italic": false
+      },
+      {
+        "text": "+5%",
+        "color": "gold",
+        "italic": false
+      }
+    ],
+    [
+      ""
+    ]
+  ],
+  "mode": "append"
+}

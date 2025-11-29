@@ -1,4 +1,4 @@
-scoreboard players operation @s mp -= @s mpcost
+
 tag @s add magic13tmp
 
 #itemdisplay召喚

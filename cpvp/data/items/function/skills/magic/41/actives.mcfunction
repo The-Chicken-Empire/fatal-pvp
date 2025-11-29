@@ -1,7 +1,7 @@
 execute if score @s magic41ct matches 1.. run return fail
 
 tag @s add magic41stmp
-scoreboard players operation @s mp -= @s mpcost
+
 execute as @e[tag=magic41totem] if score @s owner = @a[tag=magic41stmp,limit=1] playerdata run tag @s add m41delete
 execute as @e[tag=magic41totem] if score @s owner = @a[tag=magic41stmp,limit=1] playerdata run function damage:entity_death
 

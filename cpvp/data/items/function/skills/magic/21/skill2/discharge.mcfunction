@@ -1,4 +1,4 @@
-scoreboard players operation @s mp -= @s mpcost
+
 scoreboard players set $ct main 300
 function api:ct/mainhand
 

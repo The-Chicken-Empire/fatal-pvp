@@ -1,4 +1,4 @@
-scoreboard players operation @s mp -= @s mpcost
+
 
 execute at @s run playsound entity.snowball.throw player @a ~ ~ ~ 1 0.8 0
 

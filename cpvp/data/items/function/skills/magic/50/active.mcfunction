@@ -1,5 +1,5 @@
 tag @s add magic50tmp
-scoreboard players operation @s mp -= @s mpcost
+
 
 execute at @s anchored eyes positioned ^ ^ ^ summon marker run function items:skills/magic/50/summonmarker
 execute at @s anchored eyes positioned ^ ^ ^ summon item_display run function items:skills/magic/50/summonitemdisplay

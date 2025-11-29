@@ -1,4 +1,4 @@
-scoreboard players operation @s mp -= @s mpcost
+
 
 execute at @s run playsound entity.spider.ambient block @s ~ ~ ~ 1 0.9 1
 function api:motion/rotation {power:20}

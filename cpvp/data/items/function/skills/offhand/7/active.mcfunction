@@ -1,4 +1,4 @@
-scoreboard players operation @s mp -= @s mpcost
+
 scoreboard players set @s offhand7 0
 execute at @s run playsound block.trial_spawner.ominous_activate player @a[distance=..15] ~ ~ ~ 1 2 0
 execute at @s run playsound entity.wind_charge.wind_burst player @a[distance=..15] ~ ~ ~ 1 0.5 0

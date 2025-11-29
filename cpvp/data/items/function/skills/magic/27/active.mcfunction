@@ -1,5 +1,5 @@
 tag @s add magic27tmp
-scoreboard players operation @s mp -= @s mpcost
+
 
 execute at @s run playsound entity.elder_guardian.curse hostile @a[distance=..25] ~ ~ ~ 1 0 0
 execute at @s run playsound entity.elder_guardian.hurt hostile @a[distance=..25] ~ ~ ~ 1 0 0

@@ -1,5 +1,5 @@
 #mp減少
-scoreboard players operation @s mp -= @s mpcost
+
 #tag付与
 execute rotated as @s run summon marker ^ ^ ^-2 {Tags:["tmp"]}
 summon armor_stand ~ ~ ~ {Invulnerable:1b,Small:1b,Invisible:1b,Tags:["magic1","skillmarker"],DisabledSlots:4144959}

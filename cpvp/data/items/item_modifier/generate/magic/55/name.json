@@ -1,0 +1,10 @@
+{
+  "function": "minecraft:set_name",
+  "name": [
+    {
+      "text": "結末の加速",
+      "color": "#1100f8",
+      "italic": false
+    }
+  ]
+}

@@ -1,7 +1,7 @@
 #音
 execute at @s run playsound block.enchantment_table.use player @s ~ ~ ~ 1 0.8 1
 #mp
-scoreboard players operation @s mp -= @s mpcost
+
 #timer
 tag @s add weapon3
 execute as @e[type=marker,tag=weapon3] if score @s owner = @a[tag=weapon3,limit=1] playerdata run kill @s
