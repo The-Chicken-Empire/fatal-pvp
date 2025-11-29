@@ -1,4 +1,4 @@
-scoreboard players operation @s mp -= @s mpcost
+
 tag @s add magic5
 execute at @s run playsound block.iron_door.open player @s ~ ~ ~ 1 1 1 
 execute at @s run summon marker ~ ~ ~ {Tags:["skillmarker","magic5"]}

@@ -7,6 +7,6 @@ execute unless entity @e[tag=magic52coretmp] run return run function items:skill
 tag @e[tag=magic52coretmp] remove magic52coretmp
 tag @s remove magic52tmp
 
-scoreboard players operation @s mp -= @s mpcost
+
 scoreboard players set $ct main 240
 function api:ct/mainhand

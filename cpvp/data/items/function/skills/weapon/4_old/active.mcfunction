@@ -1,5 +1,5 @@
 #mp減少
-scoreboard players operation @s mp -= @s mpcost
+
 
 tag @s add weapon4tmp
 execute positioned ~ ~1 ~ run function items:skills/weapon/4_old/particles

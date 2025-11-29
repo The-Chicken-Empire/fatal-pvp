@@ -1,5 +1,5 @@
-scoreboard players operation @s mp -= @s mpcost
-scoreboard players operation @s hp -= @s hpcost
+
+
 
 data modify storage cpvp:stats_modifier input.add_modifier set value {id:"m55dmg", stats: "damage", type: "add", duration:300, value:3}
 function system:stats_modifier/add_modifier

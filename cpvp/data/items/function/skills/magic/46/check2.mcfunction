@@ -1,5 +1,5 @@
 #mp減少
-scoreboard players operation @s mp -= @s mpcost
+
 
 #CT付与
 scoreboard players set $ct main 600

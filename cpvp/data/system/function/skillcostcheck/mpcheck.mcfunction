@@ -6,4 +6,4 @@ execute if score @s mpcost <= @s mp run return 1
 execute if score @s mpcost > @s mp run return 0
 
 
-#execute if score @s mpcost <= @s mp run scoreboard players operation @s mp -= @s mpcost
+#execute if score @s mpcost <= @s mp run 

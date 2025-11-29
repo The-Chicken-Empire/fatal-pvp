@@ -1,5 +1,5 @@
 #mp減少
-scoreboard players operation @s mp -= @s mpcost
+
 #接地してたら強いモーション、そうでないなら弱いモーション
 execute if entity @s[nbt={OnGround:true}] run function api:motion/rotation_and_y {power:7,y:5}
 execute if entity @s[nbt={OnGround:false}] run function api:motion/rotation_and_y {power:5,y:10}

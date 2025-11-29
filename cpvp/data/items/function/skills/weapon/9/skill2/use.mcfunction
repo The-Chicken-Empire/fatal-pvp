@@ -11,4 +11,3 @@ scoreboard players reset #counter
 #つかったよ！
 scoreboard players reset $check main
 scoreboard players set @s carrotuse 0
-scoreboard players reset @s mpcost

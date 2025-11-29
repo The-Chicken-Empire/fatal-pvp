@@ -43,4 +43,16 @@ execute unless score $check tmp matches 1 run return 0
 scoreboard players reset $check tmp
 #終わり
 execute if data storage cpvp:system unfail run data remove storage cpvp:system unfail
+
+execute if score @s mpcost matches 1.. run function items:triggers/getmpuse/
+execute if score @s hpcost matches 1.. run function items:triggers/gethpuse/
+execute if score @s engcost matches 1.. run function items:triggers/getenguse/
+scoreboard players operation @s mp -= @s mpcost
+scoreboard players operation @s hp -= @s hpcost
+scoreboard players operation @s eng -= @s engcost
+
+scoreboard players reset @s mpcost
+scoreboard players reset @s hpcost
+scoreboard players reset @s engcost
+
 return 1

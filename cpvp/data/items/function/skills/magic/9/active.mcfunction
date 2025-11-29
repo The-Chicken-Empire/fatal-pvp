@@ -1,4 +1,4 @@
-scoreboard players operation @s mp -= @s mpcost
+
 tag @s add magic9tmp
 
 execute at @s run playsound entity.puffer_fish.blow_out player @a ~ ~ ~ 1 1 0

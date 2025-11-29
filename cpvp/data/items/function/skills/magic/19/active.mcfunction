@@ -1,4 +1,4 @@
-scoreboard players operation @s eng -= @s engcost
+
 tag @s add magic19tmp
 
 execute at @s anchored eyes positioned ^ ^ ^ summon item_display run function items:skills/magic/19/summonitemdisplay

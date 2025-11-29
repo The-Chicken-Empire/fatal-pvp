@@ -1,4 +1,4 @@
-scoreboard players operation @s mp -= @s mpcost
+
 tellraw @s {text:"----------------------------------------"}
 execute as @a[distance=..25,tag=!magic3,scores={absorption=..0},tag=!perk39] run function items:skills/magic/3/players
 execute as @a[distance=..25,tag=!magic3,scores={absorption=1..},tag=!perk39] run function items:skills/magic/3/players2

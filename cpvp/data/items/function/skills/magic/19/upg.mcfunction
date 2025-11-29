@@ -14,13 +14,17 @@ execute unless score $check tmp matches 1 run return 0
 scoreboard players reset $check tmp
 #終わり
 tag @s add magic19upgtmp
+
+function api:getenguse/
+function api:getmpuse/
 scoreboard players operation @s mp -= @s mpcost
 scoreboard players operation @s eng -= @s engcost
+scoreboard players reset @s mpcost
+scoreboard players reset @s engcost
+
 
 execute as @e[tag=magic19core] if score @s owner = @a[tag=magic19upgtmp,limit=1] playerdata run function items:skills/magic/19/upg2
 tag @s remove magic19upgtmp
 #つかったよ！
 scoreboard players reset $check main
 scoreboard players set @s carrotuse 0
-scoreboard players reset @s engcost
-scoreboard players reset @s mpcost

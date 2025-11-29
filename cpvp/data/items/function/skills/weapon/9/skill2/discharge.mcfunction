@@ -1,5 +1,5 @@
 scoreboard players reset #counter
-scoreboard players operation @s mp -= @s mpcost
+
 
 scoreboard players set $ct main 240
 function api:ct/mainhand

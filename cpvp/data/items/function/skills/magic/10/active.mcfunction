@@ -1,4 +1,4 @@
-scoreboard players operation @s mp -= @s mpcost
+
 tag @s add magic10player
 
 execute summon item_display run function items:skills/magic/10/itemdisplay

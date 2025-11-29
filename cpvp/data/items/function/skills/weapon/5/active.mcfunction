@@ -1,5 +1,5 @@
 #mp減少
-scoreboard players operation @s mp -= @s mpcost
+
 tag @s add weapon5
 tag @s add w5skilltmp
 execute summon marker run function items:skills/weapon/5/markersummon

@@ -1,4 +1,4 @@
-scoreboard players operation @s mp -= @s mpcost
+
 tag @s add magic6player
 execute anchored eyes run summon marker ^ ^ ^ {Tags:["skillmarker","magic6"]}
 execute as @e[type=marker,tag=magic6,limit=1,sort=nearest,tag=!tagged] run scoreboard players operation @s owner = @a[tag=magic6player,limit=1] playerdata

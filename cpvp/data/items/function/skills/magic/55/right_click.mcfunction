@@ -6,5 +6,3 @@ execute if score $check main matches 1 run function items:skills/magic/55/active
 #つかったよ！
 scoreboard players reset $check main
 scoreboard players set @s carrotuse 0
-scoreboard players reset @s mpcost
-scoreboard players reset @s hpcost

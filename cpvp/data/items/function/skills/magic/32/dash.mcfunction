@@ -1,4 +1,4 @@
-scoreboard players operation @s mp -= @s mpcost
+
 
 execute at @s summon marker run function items:skills/magic/32/summonmarker
 execute at @s run particle dust_color_transition{from_color:16773428,scale:1.2,to_color:16715021} ~ ~1 ~ 1 1 1 0.1 25

@@ -1,4 +1,4 @@
-scoreboard players operation @s mp -= @s mpcost
+
 tag @s add magic12tmp
 #marker召喚
 scoreboard players set $tmp tmp 0

@@ -1,4 +1,4 @@
-scoreboard players operation @s mp -= @s mpcost
+
 scoreboard players set $ct main 480
 function api:ct/mainhand
 execute at @s run function items:skills/magic/28/skill2/down/particle
