@@ -56,6 +56,11 @@ execute if entity @s[tag=victim,tag=physicaldamagetmp] run scoreboard players op
 execute if entity @s[tag=victim,tag=meleedamagetmp] run scoreboard players operation $damagecalcatk damagecalc += @a[tag=atker,limit=1] meleedmg
 execute if entity @s[tag=victim,tag=rangedamagetmp] run scoreboard players operation $damagecalcatk damagecalc += @a[tag=atker,limit=1] rangedmg
 scoreboard players operation $damagecalcatk damagecalc += @a[tag=atker,limit=1] damage
+#黄昏(effect52)「よろしくニキーｗｗｗｗｗｗ」
+execute as @n[tag=atker] run function effects:system/pick/ {id:52}
+execute store result score #twilight tmp run data get storage effect: targeteffect.level
+execute if score #twilight tmp matches 1.. run scoreboard players set $damagecalcatk damagecalc 0
+scoreboard players reset #twilight
 
 scoreboard players operation $damagecalc damagecalc += $damagecalcatk damagecalc
 
@@ -65,6 +70,12 @@ execute if entity @s[tag=victim,tag=physicaldamagetmp] run scoreboard players op
 execute if entity @s[tag=victim,tag=meleedamagetmp] run scoreboard players operation $damagecalcdef damagecalc += @s meleedef
 execute if entity @s[tag=victim,tag=rangedamagetmp] run scoreboard players operation $damagecalcdef damagecalc += @s rangedef
 scoreboard players operation $damagecalcdef damagecalc += @s defence
+#黄昏(effect52)「よろしくニキーｗｗｗｗｗｗ」
+execute if entity @s[tag=victim] run function effects:system/pick/ {id:52}
+execute store result score #twilight tmp run data get storage effect: targeteffect.level
+execute if score #twilight tmp matches 1.. run scoreboard players set $damagecalcdef damagecalc 0
+scoreboard players reset #twilight
+
 #防御貫通
 #手前でvictim側に penetrate scoreを突っ込む
 

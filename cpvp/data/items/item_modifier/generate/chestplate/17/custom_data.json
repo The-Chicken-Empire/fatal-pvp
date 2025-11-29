@@ -8,7 +8,8 @@
       "chestplate": {
         "stats": {
           "maxhp": 100,
-          "vit": 25
+          "vit": 15,
+          "magicdmg": 15
         },
         "triggers": []
       },

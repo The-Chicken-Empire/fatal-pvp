@@ -2,8 +2,8 @@
   "function": "minecraft:set_name",
   "name": [
     {
-      "text": "性善の願い",
-      "color": "#99eed9",
+      "text": "ランプ",
+      "color": "#99672d",
       "italic": false
     }
   ]
