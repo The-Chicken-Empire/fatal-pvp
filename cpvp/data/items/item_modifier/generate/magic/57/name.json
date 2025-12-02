@@ -1,0 +1,10 @@
+{
+  "function": "minecraft:set_name",
+  "name": [
+    {
+      "text": "フリージング・チャージャー",
+      "color": "white",
+      "italic": false
+    }
+  ]
+}
