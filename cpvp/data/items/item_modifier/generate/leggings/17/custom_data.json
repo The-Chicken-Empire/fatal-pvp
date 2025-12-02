@@ -7,11 +7,10 @@
       "item_type": "leggings",
       "leggings": {
         "stats": {
-          "maxmp": 5000,
           "mr": 40,
           "defence": 10,
-          "agi": 5,
-          "maxeng": 10
+          "maxeng": 10,
+          "ctreduction": -20
         },
         "triggers": [
           "tick"

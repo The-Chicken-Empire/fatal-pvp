@@ -2,8 +2,13 @@
   "function": "minecraft:set_name",
   "name": [
     {
-      "text": "壊刻『雷電纏』",
-      "color": "white",
+      "text": "壊刻",
+      "color": "#25ff87",
+      "italic": false
+    },
+    {
+      "text": "「雷電纏」",
+      "color": "yellow",
       "italic": false
     }
   ]

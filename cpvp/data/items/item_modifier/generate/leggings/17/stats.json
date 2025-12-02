@@ -1,10 +1,11 @@
 {
   "function": "minecraft:set_lore",
   "lore": [
+    [""],
     [
       {
-        "text": "最大MP",
-        "color": "blue",
+        "text": "クールタイム短縮",
+        "color": "green",
         "italic": false
       },
       {
@@ -13,7 +14,7 @@
         "italic": false
       },
       {
-        "text": "+50",
+        "text": "-20",
         "color": "gold",
         "italic": false
       }
@@ -48,23 +49,6 @@
       },
       {
         "text": "+10%",
-        "color": "gold",
-        "italic": false
-      }
-    ],
-    [
-      {
-        "text": "回避率",
-        "color": "white",
-        "italic": false
-      },
-      {
-        "text": " : ",
-        "color": "white",
-        "italic": false
-      },
-      {
-        "text": "+5%",
         "color": "gold",
         "italic": false
       }

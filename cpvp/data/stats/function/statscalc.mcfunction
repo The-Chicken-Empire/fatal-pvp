@@ -146,3 +146,4 @@ data remove storage cpvp:stats attackspeed
 #最低値
 execute if score @s maxhp matches ..0 run scoreboard players set @s maxhp 10
 execute if score @s maxmp matches ..0 run scoreboard players set @s maxmp 0
+execute if score @s maxeng matches ..0 run scoreboard players set @s maxeng 0

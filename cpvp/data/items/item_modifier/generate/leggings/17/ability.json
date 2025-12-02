@@ -8,8 +8,64 @@
         "italic": false
       },
       {
-        "text": "ここにability名",
+        "text": "無感情な二面性",
+        "color": "#e1ff35",
+        "italic": false
+      },
+      {
+        "text": " --",
         "color": "white",
+        "italic": false
+      }
+    ],
+     [
+      {
+        "text": "常時",
+        "italic": false,
+        "color": "yellow"
+      }
+    ],
+    [
+      {
+        "text": "周囲6m以内の全ての敵に、毎秒",
+        "italic": false,
+        "color": "white"
+      }
+    ],
+    [
+      {
+        "text": "(10+対象の現在充電)",
+        "italic": false,
+        "color": "yellow"
+      },
+      {
+        "text": "の",
+        "italic": false,
+        "color": "white"
+      },
+      {
+        "text": "[麻痺]",
+        "italic": false,
+        "color": "yellow"
+      },
+      {
+        "text": "を与える。",
+        "italic": false,
+        "color": "white"
+      }
+    ],
+    [
+      ""
+    ],
+    [
+      {
+        "text": "-- ",
+        "color": "white",
+        "italic": false
+      },
+      {
+        "text": "壊れたる閃刻",
+        "color": "#86ff36",
         "italic": false
       },
       {
@@ -20,21 +76,215 @@
     ],
     [
       {
-        "text": "発動検知",
+        "text": "充電使用時",
         "italic": false,
         "color": "yellow"
       }
     ],
     [
       {
-        "text": "cost",
+        "text": "周囲20m以内のランダムな敵プレイヤーに、",
         "italic": false,
         "color": "white"
       }
     ],
     [
       {
-        "text": "内容",
+        "text": "使用した充電の",
+        "italic": false,
+        "color": "white"
+      },
+      {
+        "text": "400%",
+        "italic": false,
+        "color": "yellow"
+      },
+      {
+        "text": "の",
+        "italic": false,
+        "color": "white"
+      },
+      {
+        "text": "[麻痺]",
+        "italic": false,
+        "color": "yellow"
+      },
+      {
+        "text": "を与え、",
+        "italic": false,
+        "color": "white"
+      }
+    ],
+    [
+      {
+        "text": "対象の",
+        "italic": false,
+        "color": "white"
+      },
+      {
+        "text": "充電",
+        "italic": false,
+        "color": "yellow"
+      },
+      {
+        "text": "を",
+        "italic": false,
+        "color": "white"
+      },
+      {
+        "text": "5",
+        "italic": false,
+        "color": "yellow"
+      },
+      {
+        "text": "まで奪取する。",
+        "italic": false,
+        "color": "white"
+      }
+    ],
+    [
+      ""
+    ],
+    [
+      {
+        "text": "麻痺",
+        "italic": false,
+        "color": "yellow"
+      },
+      {
+        "text": " :",
+        "italic": false,
+        "color": "white"
+      }
+    ],
+    [
+      {
+        "text": " - ",
+        "italic": false,
+        "color": "white"
+      },
+      {
+        "text": "スタックエフェクト",
+        "italic": false,
+        "color": "white"
+      }
+    ],
+    [
+      {
+        "text": " - ",
+        "italic": false,
+        "color": "white"
+      },
+      {
+        "text": "スタックが",
+        "italic": false,
+        "color": "white"
+      },
+      {
+        "text": "200",
+        "italic": false,
+        "color": "gold"
+      },
+      {
+        "text": "を超えた時、",
+        "italic": false,
+        "color": "white"
+      }
+    ]
+    ,[
+      {
+        "text": "このエフェクトを削除し、20秒の",
+        "italic": false,
+        "color": "white"
+      },
+      {
+        "text": "[麻痺損傷]",
+        "italic": false,
+        "color": "#adff16"
+      },
+      {
+        "text": "と、",
+        "italic": false,
+        "color": "white"
+      }
+    ],
+      [
+      {
+        "text": "8",
+        "italic": false,
+        "color": "gold"
+      },
+      {
+        "text": "の",
+        "italic": false,
+        "color": "white"
+      },
+      {
+        "text": "固定ダメージ",
+        "italic": false,
+        "color": "white"
+      },
+      {
+        "text": "を受ける。",
+        "italic": false,
+        "color": "white"
+      }
+    ],
+    [""],
+    [
+      {
+        "text": "麻痺損傷",
+        "italic": false,
+        "color": "#adff16"
+      },
+      {
+        "text": " :",
+        "italic": false,
+        "color": "white"
+      }
+    ],
+    [
+      {
+        "text": " - ",
+        "italic": false,
+        "color": "white"
+      },
+      {
+        "text": "毎秒確率で視点がランダムに変更される。",
+        "italic": false,
+        "color": "white"
+      }
+    ],
+    [
+      {
+        "text": " - ",
+        "italic": false,
+        "color": "white"
+      },
+      {
+        "text": "最大充電",
+        "italic": false,
+        "color": "yellow"
+      },
+      {
+        "text": "-9999",
+        "italic": false,
+        "color": "gold"
+      }
+    ],
+    [
+      {
+        "text": " - ",
+        "italic": false,
+        "color": "white"
+      },
+      {
+        "text": "[麻痺]",
+        "italic": false,
+        "color": "yellow"
+      },
+      {
+        "text": "を受けない",
         "italic": false,
         "color": "white"
       }

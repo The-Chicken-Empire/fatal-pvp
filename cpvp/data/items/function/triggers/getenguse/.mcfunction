@@ -1,0 +1,1 @@
+execute if items entity @s armor.legs *[minecraft:custom_data~{cpvp:{id:17b,item_type:"leggings"}}] at @s run function items:skills/leggings/17/enguse
