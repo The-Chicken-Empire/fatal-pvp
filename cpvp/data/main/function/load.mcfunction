@@ -379,6 +379,8 @@ function system:stats_modifier/load
 data modify storage cpvp:effect46 id set value 46
 data modify storage cpvp:effect46 duration set value -1
 scoreboard objectives add effect46timer dummy
+data modify storage cpvp:effect53 id set value 53
+data modify storage cpvp:effect53 duration set value -1
 
 #適当に使うときの汎用markerの召喚
 kill 0-0-0-0-0

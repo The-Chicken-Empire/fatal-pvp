@@ -1,0 +1,78 @@
+{
+  "function": "minecraft:set_lore",
+  "lore": [
+    [""],
+    [
+      {
+        "text": "クールタイム短縮",
+        "color": "green",
+        "italic": false
+      },
+      {
+        "text": " : ",
+        "color": "white",
+        "italic": false
+      },
+      {
+        "text": "-20",
+        "color": "gold",
+        "italic": false
+      }
+    ],
+    [
+      {
+        "text": "MP回復力",
+        "color": "aqua",
+        "italic": false
+      },
+      {
+        "text": " : ",
+        "color": "white",
+        "italic": false
+      },
+      {
+        "text": "+40%",
+        "color": "gold",
+        "italic": false
+      }
+    ],
+    [
+      {
+        "text": "防御力",
+        "color": "dark_blue",
+        "italic": false
+      },
+      {
+        "text": " : ",
+        "color": "white",
+        "italic": false
+      },
+      {
+        "text": "+10%",
+        "color": "gold",
+        "italic": false
+      }
+    ],
+    [
+      {
+        "text": "最大充電",
+        "color": "yellow",
+        "italic": false
+      },
+      {
+        "text": " : ",
+        "color": "white",
+        "italic": false
+      },
+      {
+        "text": "+10",
+        "color": "gold",
+        "italic": false
+      }
+    ],
+    [
+      ""
+    ]
+  ],
+  "mode": "append"
+}

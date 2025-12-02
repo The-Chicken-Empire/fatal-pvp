@@ -52,11 +52,13 @@ execute as @a[predicate=cstar:uncstarcharge] run scoreboard players reset @s Cst
 execute if entity @a[predicate=items:gun/dropbullet,limit=1] as @a[predicate=items:gun/dropbullet] unless data entity @s equipment.offhand.components."minecraft:custom_data".cpvp.bullet run function items:skills/gun/dropbullet with entity @s equipment.offhand.components."minecraft:custom_data".cpvp
 
 
-
+#1秒
+scoreboard players add $1s timer 1
+execute if score $1s timer matches 20.. run scoreboard players set $1s timer 0
 #3秒
 scoreboard players add $3s timer 1
 execute if score $3s timer matches 60.. run function system:timer/3s
-#3秒
+#5秒
 scoreboard players add $5s timer 1
 execute if score $5s timer matches 100.. run scoreboard players set $5s timer 0
 #10tick
@@ -119,3 +121,5 @@ advancement revoke @a[advancements={system:projectile=true}] only system:project
 scoreboard players set @a using 0
 scoreboard players set @a sneak 0
 scoreboard players set @a jump 0
+scoreboard players reset $tmp tmp
+scoreboard players reset $tmp2 tmp
