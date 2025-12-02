@@ -751,6 +751,10 @@ function items:generate/leggings/16/generate
 data modify storage cpvp:tmp gui.item set from block 0 0 0 Items[0]
 data modify storage cpvp:tmp gui.item.Slot set value 12b
 data modify storage gui_maker: input.addpage_enderchest.Items append from storage cpvp:tmp gui.item
+function items:generate/leggings/17/generate
+data modify storage cpvp:tmp gui.item set from block 0 0 0 Items[0]
+data modify storage cpvp:tmp gui.item.Slot set value 13b
+data modify storage gui_maker: input.addpage_enderchest.Items append from storage cpvp:tmp gui.item
 function gui_maker:general/addpage_enderchest
 
 #food1
