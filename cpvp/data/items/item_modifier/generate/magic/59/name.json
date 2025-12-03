@@ -1,0 +1,10 @@
+{
+  "function": "minecraft:set_name",
+  "name": [
+    {
+      "text": "ブラッディ・チャージャー",
+      "color": "white",
+      "italic": false
+    }
+  ]
+}
