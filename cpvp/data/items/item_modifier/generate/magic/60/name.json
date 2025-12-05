@@ -1,0 +1,10 @@
+{
+  "function": "minecraft:set_name",
+  "name": [
+    {
+      "text": "クレンジング・チャージャー",
+      "color": "white",
+      "italic": false
+    }
+  ]
+}
