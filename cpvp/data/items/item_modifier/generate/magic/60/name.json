@@ -2,8 +2,18 @@
   "function": "minecraft:set_name",
   "name": [
     {
-      "text": "クレンジング・チャージャー",
+      "text": "クレンジング",
       "color": "white",
+      "italic": false
+    },
+    {
+      "text": "・",
+      "color": "white",
+      "italic": false
+    },
+    {
+      "text": "チャージャー",
+      "color": "yellow",
       "italic": false
     }
   ]

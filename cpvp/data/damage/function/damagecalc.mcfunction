@@ -148,6 +148,11 @@ execute as @e[tag=atker] run function damage:atktrigger/attack3 with storage atk
 #ダメージと関係ないスキル処理
 ##offhand13の灼熱付与
 execute as @e[tag=atker] run function items:skills/offhand/13/teamattackcheck
+##magic57の寒冷付与
+execute if entity @e[tag=magic57marker] as @e[tag=magic57marker] if score @s owner = @a[tag=atker,limit=1] playerdata run function items:skills/magic/57/froz
+##magic58の火傷付与
+execute if entity @e[tag=magic58marker] as @e[tag=magic58marker] if score @s owner = @a[tag=atker,limit=1] playerdata run function items:skills/magic/58/burn
+
 
 #ダメージ上限
 execute if score $maxdamage damagecalc matches -2147483648..2147483647 if score @s damagetaken > $maxdamage damagecalc run scoreboard players operation @s damagetaken = $maxdamage damagecalc

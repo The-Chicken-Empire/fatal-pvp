@@ -348,6 +348,8 @@ scoreboard objectives add offhand16 dummy
 scoreboard objectives add cp21 dummy
 scoreboard objectives add boots17 dummy
 scoreboard objectives add boots6 dummy
+#デバフ数
+data modify storage cpvp:magic60 effectlist set value [{id:11},{id:12},{id:13},{id:14},{id:15},{id:16},{id:17},{id:18},{id:19},{id:22},{id:25},{id:27},{id:31},{id:35},{id:36},{id:37},{id:38},{id:39},{id:40},{id:44},{id:47},{id:49},{id:54}]
 
 #buff用
 scoreboard objectives add maxhp_buff dummy

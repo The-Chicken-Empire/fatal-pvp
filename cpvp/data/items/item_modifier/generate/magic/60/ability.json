@@ -8,7 +8,7 @@
         "italic": false
       },
       {
-        "text": "ここにability名",
+        "text": "解呪エネルギー",
         "color": "white",
         "italic": false
       },
@@ -20,21 +20,53 @@
     ],
     [
       {
-        "text": "発動検知",
+        "text": "右クリック",
         "italic": false,
         "color": "yellow"
       }
     ],
     [
       {
-        "text": "cost",
+        "text": "消費MP",
+        "italic": false,
+        "color": "blue"
+      },
+      {
+        "text": " : ",
+        "color": "white"
+      },
+      {
+        "text": "20",
+        "color": "green"
+      },
+      {
+        "text": "クールタイム",
+        "color": "dark_aqua"
+      },
+      {
+        "text": " : ",
+        "color": "white"
+      },
+      {
+        "text": "16秒",
+        "color": "green"
+      }
+    ],
+    [
+      {
+        "text": "充電",
+        "italic": false,
+        "color": "yellow"
+      },
+      {
+        "text": "を10得る。",
         "italic": false,
         "color": "white"
       }
     ],
     [
       {
-        "text": "内容",
+        "text": "自身に付与されているデバフを2つまで削除する。",
         "italic": false,
         "color": "white"
       }

@@ -8,8 +8,8 @@
         "italic": false
       },
       {
-        "text": "ここにability名",
-        "color": "white",
+        "text": "冷却エネルギー",
+        "color": "#6bffff",
         "italic": false
       },
       {
@@ -20,21 +20,87 @@
     ],
     [
       {
-        "text": "発動検知",
+        "text": "右クリック",
         "italic": false,
         "color": "yellow"
       }
     ],
     [
       {
-        "text": "cost",
+        "text": "消費MP",
+        "italic": false,
+        "color": "blue"
+      },
+      {
+        "text": " : ",
+        "color": "white"
+      },
+      {
+        "text": "11",
+        "color": "green"
+      },
+      {
+        "text": "クールタイム",
+        "color": "dark_aqua"
+      },
+      {
+        "text": " : ",
+        "color": "white"
+      },
+      {
+        "text": "15秒",
+        "color": "green"
+      }
+    ],
+    [
+      {
+        "text": "充電",
+        "italic": false,
+        "color": "yellow"
+      },
+      {
+        "text": "を4得る。",
         "italic": false,
         "color": "white"
       }
     ],
     [
       {
-        "text": "内容",
+        "text": "使用後15秒以内の次の攻撃で、",
+        "italic": false,
+        "color": "white"
+      }
+    ],
+    [
+      {
+        "text": "対象に",
+        "italic": false,
+        "color": "white"
+      },
+      {
+        "text": "[寒冷]",
+        "italic": false,
+        "color": "aqua"
+      },
+      {
+        "text": "が付与されていない場合、",
+        "italic": false,
+        "color": "white"
+      }
+    ],
+    [
+      {
+        "text": "対象に",
+        "italic": false,
+        "color": "white"
+      },
+      {
+        "text": "[寒冷:lv1]",
+        "italic": false,
+        "color": "aqua"
+      },
+      {
+        "text": "を7秒付与する。",
         "italic": false,
         "color": "white"
       }

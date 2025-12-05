@@ -21,7 +21,7 @@ item modify block 0 0 0 container.0 items:generate/magic/59/ability
 
 item modify block 0 0 0 container.0 items:generate/magic/59/parts
 
-item modify block 0 0 0 container.0 items:generate/magic/59/flavor
+#item modify block 0 0 0 container.0 items:generate/magic/59/flavor
 
 #アトリビュートなどを追加したい場合はコメントをはずしてファイルを作成する
 #item modify block 0 0 0 container.0 items:generate/magic/59/others

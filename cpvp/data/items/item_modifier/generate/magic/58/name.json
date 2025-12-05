@@ -2,8 +2,18 @@
   "function": "minecraft:set_name",
   "name": [
     {
-      "text": "ブレイジング・チャージャー",
+      "text": "ブレイジング",
+      "color": "#ff4c1f",
+      "italic": false
+    },
+    {
+      "text": "・",
       "color": "white",
+      "italic": false
+    },
+    {
+      "text": "チャージャー",
+      "color": "yellow",
       "italic": false
     }
   ]

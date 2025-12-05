@@ -2,8 +2,18 @@
   "function": "minecraft:set_name",
   "name": [
     {
-      "text": "ブラッディ・チャージャー",
+      "text": "ブラッディ",
+      "color": "#960000",
+      "italic": false
+    },
+    {
+      "text": "・",
       "color": "white",
+      "italic": false
+    },
+    {
+      "text": "チャージャー",
+      "color": "yellow",
       "italic": false
     }
   ]
