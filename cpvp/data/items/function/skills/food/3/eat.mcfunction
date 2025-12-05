@@ -1,3 +1,5 @@
+tag @s add eat
+
 execute at @s run playsound entity.player.burp player @s ~ ~ ~ 1 1 1
 scoreboard players set $heal main 60
 tag @s add healer
@@ -12,3 +14,5 @@ scoreboard players reset $tmp tmp
 
 #必須項目。食事CT
 function effects:system/gain/ {id:33,level:1,duration:440}
+
+tag @s remove eat
