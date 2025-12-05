@@ -9,7 +9,7 @@ execute unless score $check tmp matches 1 run return run scoreboard players rese
 scoreboard players reset $check tmp
 
 
-function api:getmpuse/
+function items:triggers/getmpuse/
 scoreboard players operation @s mp -= @s mpcost
 scoreboard players reset @s mpcost
 

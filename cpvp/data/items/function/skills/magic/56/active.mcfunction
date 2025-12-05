@@ -1,5 +1,4 @@
-#mp消費
-scoreboard players operation @s mp -= @s mpcost
+
 #演出
 execute at @s run playsound minecraft:block.bell.use block @a ~ ~ ~ 3 1.4
 execute at @s run playsound minecraft:block.bell.resonate block @a ~ ~ ~ 3 1.3

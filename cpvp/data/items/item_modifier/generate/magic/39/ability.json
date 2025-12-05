@@ -103,7 +103,7 @@
     ],
     [
       {
-        "text": "[凍結:lv2]",
+        "text": "[寒冷:lv2]",
         "color": "aqua",
         "italic": false
       },
@@ -142,7 +142,7 @@
         "italic": false
       },
       {
-        "text": "[凍結]",
+        "text": "[寒冷]",
         "color": "aqua",
         "italic": false
       },
@@ -171,7 +171,7 @@
     ],
     [
       {
-        "text": "(凍結lv×4)%",
+        "text": "(寒冷lv×4)%",
         "color": "yellow",
         "italic": false
       },

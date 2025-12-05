@@ -104,7 +104,10 @@ execute if entity @s[tag=magic52id2] at @s run function items:skills/magic/52/id
 execute if entity @s[tag=magic52id3] at @s run function items:skills/magic/52/idtick3
 #53
 execute if entity @s[tag=magic53] at @s run function items:skills/magic/53/markertick
-
+#57
+execute if entity @s[tag=magic57marker] if score @s skills matches 300.. run kill @s
+#58
+execute if entity @s[tag=magic58marker] if score @s skills matches 300.. run kill @s
 ##weapon
 #3
 execute if entity @s[tag=weapon3] run function items:skills/weapon/3/markertick

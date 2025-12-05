@@ -1,0 +1,113 @@
+{
+  "function": "minecraft:set_lore",
+  "lore": [
+    [
+      {
+        "text": "-- ",
+        "color": "white",
+        "italic": false
+      },
+      {
+        "text": "加熱エネルギー",
+        "color": "#ff3b21",
+        "italic": false
+      },
+      {
+        "text": " --",
+        "color": "white",
+        "italic": false
+      }
+    ],
+    [
+      {
+        "text": "右クリック",
+        "italic": false,
+        "color": "yellow"
+      }
+    ],
+    [
+      {
+        "text": "消費MP",
+        "italic": false,
+        "color": "blue"
+      },
+      {
+        "text": " : ",
+        "color": "white"
+      },
+      {
+        "text": "15",
+        "color": "green"
+      },
+      {
+        "text": "クールタイム",
+        "color": "dark_aqua"
+      },
+      {
+        "text": " : ",
+        "color": "white"
+      },
+      {
+        "text": "14秒",
+        "color": "green"
+      }
+    ],
+    [
+      {
+        "text": "充電",
+        "italic": false,
+        "color": "yellow"
+      },
+      {
+        "text": "を5得る。",
+        "italic": false,
+        "color": "white"
+      }
+    ],
+    [
+      {
+        "text": "使用後15秒以内の次の攻撃で、",
+        "italic": false,
+        "color": "white"
+      }
+    ],
+    [
+      {
+        "text": "対象に",
+        "italic": false,
+        "color": "white"
+      },
+      {
+        "text": "[火傷]",
+        "italic": false,
+        "color": "gold"
+      },
+      {
+        "text": "が付与されていない場合、",
+        "italic": false,
+        "color": "white"
+      }
+    ],
+    [
+      {
+        "text": "対象に",
+        "italic": false,
+        "color": "white"
+      },
+      {
+        "text": "[火傷:lv1]",
+        "italic": false,
+        "color": "gold"
+      },
+      {
+        "text": "を5秒付与する。",
+        "italic": false,
+        "color": "white"
+      }
+    ],
+    [
+      ""
+    ]
+  ],
+  "mode": "append"
+}

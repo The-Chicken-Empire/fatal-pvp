@@ -1,3 +1,5 @@
+tag @s add eat
+
 scoreboard players set $heal main 180
 tag @s add healer
 function api:heal/
@@ -13,3 +15,5 @@ execute at @s summon marker run function items:skills/food/4/summonmarker
 tag @s remove food4tmp
 #必須項目。食事CT
 function effects:system/gain/ {id:33,level:1,duration:400}
+
+tag @s remove eat

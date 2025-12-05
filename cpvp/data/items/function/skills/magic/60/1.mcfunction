@@ -1,0 +1,1 @@
+$execute store result storage cpvp:magic60 tgeffect int 1 run random value 0..$(count)

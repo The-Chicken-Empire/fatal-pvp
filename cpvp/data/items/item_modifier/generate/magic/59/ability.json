@@ -1,0 +1,114 @@
+{
+  "function": "minecraft:set_lore",
+  "lore": [
+    [
+      {
+        "text": "-- ",
+        "color": "white",
+        "italic": false
+      },
+      {
+        "text": "生命エネルギー",
+        "color": "#fffb17",
+        "italic": false
+      },
+      {
+        "text": " --",
+        "color": "white",
+        "italic": false
+      }
+    ],
+    [
+      {
+        "text": "右クリック",
+        "italic": false,
+        "color": "yellow"
+      }
+    ],
+    [
+      {
+        "text": "消費MP",
+        "italic": false,
+        "color": "blue"
+      },
+      {
+        "text": " : ",
+        "color": "white"
+      },
+      {
+        "text": "10 ",
+        "color": "green"
+      },
+      {
+        "text": "消費HP",
+        "italic": false,
+        "color": "red"
+      },
+      {
+        "text": " : ",
+        "color": "white"
+      },
+      {
+        "text": "10",
+        "color": "green"
+      },
+      {
+        "text": "クールタイム",
+        "color": "dark_aqua"
+      },
+      {
+        "text": " : ",
+        "color": "white"
+      },
+      {
+        "text": "13",
+        "color": "green"
+      }
+    ],
+    [
+      {
+        "text": "充電",
+        "italic": false,
+        "color": "yellow"
+      },
+      {
+        "text": "を5得る。",
+        "italic": false,
+        "color": "white"
+      }
+    ],
+    [
+      {
+        "text": "充電",
+        "italic": false,
+        "color": "yellow"
+      },
+      {
+        "text": "が上限以上になる場合、",
+        "italic": false,
+        "color": "white"
+      }
+    ],
+    [
+      {
+        "text": "超過分の",
+        "italic": false,
+        "color": "white"
+      },
+      {
+        "text": "緩衝体力",
+        "italic": false,
+        "color": "gold"
+      },
+      {
+        "text": "を得る。(最大10)",
+        "italic": false,
+        "color": "white"
+      }
+    ],
+    [
+      ""
+    ]
+  ],
+  "mode": "append"
+}
