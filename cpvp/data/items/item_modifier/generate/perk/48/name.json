@@ -1,0 +1,10 @@
+{
+  "function": "minecraft:set_name",
+  "name": [
+    {
+      "text": "相反する感情投影",
+      "color": "white",
+      "italic": false
+    }
+  ]
+}
