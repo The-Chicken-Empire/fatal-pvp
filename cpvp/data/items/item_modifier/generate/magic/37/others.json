@@ -12,12 +12,6 @@
       ]
     },
     "minecraft:custom_model_data": 
-    {"strings":["magic37"]},
-    "minecraft:consumable": {
-      "consume_seconds": 2147483647,
-      "animation": "block",
-      "sound": "minecraft:intentionally_empty",
-      "has_consume_particles": false
-    }
+    {"strings":["magic37"]}
   }
 }

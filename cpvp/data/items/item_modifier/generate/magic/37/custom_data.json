@@ -10,7 +10,8 @@
           "tick",
           "equip",
           "unequip",
-          "using"
+          "using",
+          "right_click"
         ]
       },
       "regularitem": 1,
