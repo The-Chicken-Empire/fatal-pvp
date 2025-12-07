@@ -1,0 +1,10 @@
+{
+  "function": "minecraft:set_name",
+  "name": [
+    {
+      "text": "最初の世界の最後の時杖",
+      "color": "white",
+      "italic": false
+    }
+  ]
+}
