@@ -1,6 +1,7 @@
 {
   "function": "minecraft:set_lore",
   "lore": [
+    [""],
     [
       {
         "text": "-- ",
@@ -8,8 +9,8 @@
         "italic": false
       },
       {
-        "text": "ここにability名",
-        "color": "white",
+        "text": "悠久を観る者の刹那",
+        "color": "#578591",
         "italic": false
       },
       {
@@ -20,21 +21,76 @@
     ],
     [
       {
-        "text": "発動検知",
+        "text": "常時",
         "italic": false,
         "color": "yellow"
       }
     ],
     [
       {
-        "text": "cost",
+        "text": "消費する",
+        "italic": false,
+        "color": "white"
+      },
+      {
+        "text": "MP",
+        "italic": false,
+        "color": "blue"
+      },
+      {
+        "text": "が",
+        "italic": false,
+        "color": "white"
+      },
+      {
+        "text": "2倍",
+        "italic": false,
+        "color": "yellow"
+      },
+      {
+        "text": "になる。",
         "italic": false,
         "color": "white"
       }
     ],
     [
       {
-        "text": "内容",
+        "text": "MP",
+        "italic": false,
+        "color": "blue"
+      },
+      {
+        "text": "消費時、消費した",
+        "italic": false,
+        "color": "white"
+      },
+      {
+        "text": "MP",
+        "italic": false,
+        "color": "blue"
+      },
+      {
+        "text": "の",
+        "italic": false,
+        "color": "white"
+      },
+      {
+        "text": "20%",
+        "italic": false,
+        "color": "yellow"
+      },
+      {
+        "text": "の",
+        "italic": false,
+        "color": "white"
+      },
+      {
+        "text": "充電",
+        "italic": false,
+        "color": "yellow"
+      },
+      {
+        "text": "を得る。",
         "italic": false,
         "color": "white"
       }

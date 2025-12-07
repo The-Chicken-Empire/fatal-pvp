@@ -3,14 +3,35 @@
   "lore": [
     [
       {
-        "text": "ここにフレーバーテキストを書く",
+        "text": "悠久を生き、全てを知り、全てを視た。",
         "color": "dark_gray",
         "italic": true
       }
     ],
     [
       {
-        "text": "ここは2行目",
+        "text": "何が正なのか、何が解なのか。",
+        "color": "dark_gray",
+        "italic": true
+      }
+    ],
+    [
+      {
+        "text": "...何も分からなくなった。",
+        "color": "dark_gray",
+        "italic": true
+      }
+    ],
+    [
+      {
+        "text": "私に残ったのはただ一つの使命だけとなった。",
+        "color": "dark_gray",
+        "italic": true
+      }
+    ],
+    [
+      {
+        "text": "全て終わるその時まで、『管理者』として見届けよう。",
         "color": "dark_gray",
         "italic": true
       }
