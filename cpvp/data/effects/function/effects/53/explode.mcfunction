@@ -6,7 +6,7 @@ function effects:system/remove/ {id:53}
 execute store result score $tmp tmp run data get storage effect: tmp2.buffer
 
 execute as @a if score @s playerdata = $tmp tmp run tag @s add buffer
-function effects:system/gain/ {id:54,duration:400,level:1}
+function effects:system/gain/ {id:54,duration:300,level:1}
 
 execute store result score @s attackerdata run data get storage effect: tmp2.buffer
 data modify storage atktrigger: hage set value {itemtype:none,id:none,atktype:paracore}
