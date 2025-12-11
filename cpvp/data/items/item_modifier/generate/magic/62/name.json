@@ -1,0 +1,10 @@
+{
+  "function": "minecraft:set_name",
+  "name": [
+    {
+      "text": "存続の対価",
+      "color": "white",
+      "italic": false
+    }
+  ]
+}
