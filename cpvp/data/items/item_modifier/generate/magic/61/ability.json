@@ -1,6 +1,7 @@
 {
   "function": "minecraft:set_lore",
   "lore": [
+    [""],
     [
       {
         "text": "-- ",
@@ -8,8 +9,18 @@
         "italic": false
       },
       {
-        "text": "ここにability名",
+        "text": "不安定な",
+        "color": "yellow",
+        "italic": false
+      },
+      {
+        "text": "『創始者』",
         "color": "white",
+        "italic": false
+      },
+      {
+        "text": "の記憶",
+        "color": "yellow",
         "italic": false
       },
       {
@@ -20,21 +31,155 @@
     ],
     [
       {
-        "text": "発動検知",
+        "text": "右クリック",
         "italic": false,
         "color": "yellow"
       }
     ],
     [
       {
-        "text": "cost",
+        "text": "消費MP",
+        "italic": false,
+        "color": "blue"
+      },
+      {
+        "text": " : ",
+        "color": "white"
+      },
+      {
+        "text": "12",
+        "color": "green"
+      },
+      {
+        "text": "クールタイム",
+        "color": "dark_aqua"
+      },
+      {
+        "text": " : ",
+        "color": "white"
+      },
+      {
+        "text": "12秒",
+        "color": "green"
+      }
+    ],
+    [
+      {
+        "text": "ダメージ",
+        "color": "red",
+        "italic": false
+      },
+      {
+        "text": " : ",
+        "color": "white",
+        "italic": false
+      },
+      {
+        "text": "6",
+        "color": "gold",
+        "italic": false
+      },
+      {
+        "text": " - ",
+        "color": "white",
+        "italic": false
+      },
+      {
+        "text": "魔法",
+        "color": "dark_purple",
+        "italic": false
+      },
+      {
+        "text": "/",
+        "color": "white",
+        "italic": false
+      },
+      {
+        "text": "遠距離",
+        "color": "blue",
+        "italic": false
+      }
+    ],
+    [
+      {
+        "text": "[耐性:lv1]",
+        "italic": false,
+        "color": "gray"
+      },
+      {
+        "text": "を8秒得る。",
         "italic": false,
         "color": "white"
       }
     ],
     [
       {
-        "text": "内容",
+        "text": "[移動速度上昇:lv2]",
+        "italic": false,
+        "color": "white"
+      },
+      {
+        "text": "を6秒得る。",
+        "italic": false,
+        "color": "white"
+      }
+    ],
+    [
+      {
+        "text": "周囲20m以内の敵プレイヤーの",
+        "italic": false,
+        "color": "white"
+      },
+      {
+        "text": "[透明化]",
+        "italic": false,
+        "color": "gray"
+      }
+    ],
+    [
+      {
+        "text": "を解除する。",
+        "italic": false,
+        "color": "white"
+      }
+    ],
+    [
+      {
+        "text": "大雑把に前方10ヶ所を撃ち抜き、",
+        "italic": false,
+        "color": "white"
+      }
+    ],
+    [
+      {
+        "text": "的中時、",
+        "italic": false,
+        "color": "white"
+      },
+      {
+        "text": "充電",
+        "italic": false,
+        "color": "yellow"
+      },
+      {
+        "text": "を5得て、",
+        "italic": false,
+        "color": "white"
+      }
+    ],
+    [
+      {
+        "text": "対象に",
+        "italic": false,
+        "color": "white"
+      },
+      {
+        "text": "[麻痺]",
+        "italic": false,
+        "color": "yellow"
+      },
+      {
+        "text": "を15付与する。",
         "italic": false,
         "color": "white"
       }

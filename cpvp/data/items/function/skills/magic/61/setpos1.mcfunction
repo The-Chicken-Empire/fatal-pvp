@@ -1,0 +1,1 @@
+$execute at @s rotated as @a[tag=magic61tmp2,limit=1] rotated ~ 0 run tp @s ^$(1) ^ ^$(2) ~ 0

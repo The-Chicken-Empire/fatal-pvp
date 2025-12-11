@@ -3,14 +3,21 @@
   "lore": [
     [
       {
-        "text": "ここにフレーバーテキストを書く",
+        "text": "原初の世界で『創始者』が創った杖。",
         "color": "dark_gray",
         "italic": true
       }
     ],
     [
       {
-        "text": "ここは2行目",
+        "text": "もう彼を知る者は一人しかいないが、",
+        "color": "dark_gray",
+        "italic": true
+      }
+    ],
+    [
+      {
+        "text": "その記憶が失われる事は無いだろう。",
         "color": "dark_gray",
         "italic": true
       }
