@@ -3,14 +3,28 @@
   "lore": [
     [
       {
-        "text": "ここにフレーバーテキストを書く",
+        "text": "...死ぬのは怖いさ。でも、もう戻れないんだ。",
         "color": "dark_gray",
         "italic": true
       }
     ],
     [
       {
-        "text": "ここは2行目",
+        "text": "迷いはない。やっと手が届く処にあるんだ。",
+        "color": "dark_gray",
+        "italic": true
+      }
+    ],
+    [
+      {
+        "text": "遠く...遠くまで来た。終わりはいつもそばにいた。",
+        "color": "dark_gray",
+        "italic": true
+      }
+    ],
+    [
+      {
+        "text": "最後ぐらい...完璧に。",
         "color": "dark_gray",
         "italic": true
       }

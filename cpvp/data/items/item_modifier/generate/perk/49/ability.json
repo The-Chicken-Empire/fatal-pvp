@@ -8,8 +8,8 @@
         "italic": false
       },
       {
-        "text": "ここにability名",
-        "color": "white",
+        "text": "完璧な終わりを求めて",
+        "color": "#ff8b56",
         "italic": false
       },
       {
@@ -20,21 +20,68 @@
     ],
     [
       {
-        "text": "発動検知",
+        "text": "被攻撃時",
         "italic": false,
         "color": "yellow"
       }
     ],
     [
       {
-        "text": "cost",
+        "text": "クールタイム",
+        "italic": false,
+        "color": "dark_aqua"
+      },
+      {
+        "text": " : ",
+        "italic": false,
+        "color": "white"
+      },
+      {
+        "text": "60秒",
+        "italic": false,
+        "color": "green"
+      }
+    ],
+    [
+      {
+        "text": "3秒以内に",
+        "italic": false,
+        "color": "white"
+      },
+      {
+        "text": "HP",
+        "italic": false,
+        "color": "red"
+      },
+      {
+        "text": "が",
+        "italic": false,
+        "color": "white"
+      },
+      {
+        "text": "60%",
+        "italic": false,
+        "color": "yellow"
+      },
+      {
+        "text": "以上減少した時、",
         "italic": false,
         "color": "white"
       }
     ],
     [
       {
-        "text": "内容",
+        "text": "自身に",
+        "italic": false,
+        "color": "white"
+      },
+      {
+        "text": "[再生:lv3]",
+        "italic": false,
+        "color": "light_purple"
+      },
+      {
+        "text": "を10秒間付与する。",
         "italic": false,
         "color": "white"
       }

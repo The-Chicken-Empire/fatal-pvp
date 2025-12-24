@@ -161,12 +161,14 @@ execute if entity @s[tag=leggings1] run function items:skills/leggings/1/markert
 execute if entity @s[tag=boots5marker] run function items:skills/boots/5/markertick
 
 ##perk
-#perk13
+#13
 execute if entity @s[tag=perk13] run function items:skills/perk/13/markertick
 #30
 execute if entity @s[tag=perk30marker] run function items:skills/perk/30/s2/tick
-#perk31
+#31
 execute if entity @s[tag=perk31.mk1] run function items:skills/perk/31/markertick
+#49
+execute if entity @s[tag=perk49marker] if score @s skills matches 60.. run kill @s
 
 ##food
-execute if entity @s[tag=food4marker] if score @s skills matches 400.. run kill @s
+execute if entity @s[tag=food4marker] if score @s skills matches 400.. run function items:skills/perk/49/kill
