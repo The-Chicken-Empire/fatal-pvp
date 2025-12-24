@@ -119,7 +119,9 @@ function items:triggers/statscalc2/check
 ##固有item処理
 #perk30の交換処理
 execute if items entity @s hotbar.* *[custom_data~{cpvp:{id:30b,item_type:"perk"}}] run function items:skills/perk/30/s2/
-
+#perk50HP半減
+execute if items entity @s hotbar.* *[custom_data~{cpvp:{id:50b,item_type:"perk"}}] run scoreboard players operation @s maxhp /= $2 main
+execute if items entity @s inventory.* *[custom_data~{cpvp:{id:50b,item_type:"perk"}}] run scoreboard players operation @s maxhp /= $2 main
 
 #perk3MP固定0
 execute if items entity @s hotbar.* *[custom_data~{cpvp:{id:3b,item_type:"perk"}}] run scoreboard players operation @s maxmp *= $0 main

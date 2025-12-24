@@ -8,8 +8,8 @@
         "italic": false
       },
       {
-        "text": "ここにability名",
-        "color": "white",
+        "text": "私達は何をした？",
+        "color": "#990021",
         "italic": false
       },
       {
@@ -20,23 +20,44 @@
     ],
     [
       {
-        "text": "発動検知",
+        "text": "常時",
         "italic": false,
         "color": "yellow"
       }
     ],
     [
       {
-        "text": "cost",
+        "text": "受けるダメージを",
+        "italic": false,
+        "color": "white"
+      },
+      {
+        "text": "0.6倍",
+        "italic": false,
+        "color": "yellow"
+      },
+      {
+        "text": "にし、",
+        "italic": false,
+        "color": "white"
+      },
+      {
+        "text": "最大HP",
+        "italic": false,
+        "color": "red"
+      },
+      {
+        "text": "を半減する。",
         "italic": false,
         "color": "white"
       }
     ],
     [
       {
-        "text": "内容",
+        "text": "この効果はインベントリ内に存在するだけで発動する",
         "italic": false,
-        "color": "white"
+        "color":"yellow",
+        "bold": true
       }
     ],
     [
