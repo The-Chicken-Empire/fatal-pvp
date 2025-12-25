@@ -112,6 +112,9 @@ execute if entity @s[tag=magic58marker] if score @s skills matches 300.. run kil
 execute if entity @s[tag=m61timer] at @s run function items:skills/magic/61/markertick
 execute if entity @s[tag=m61point] at @s run function items:skills/magic/61/id1tick
 execute if entity @s[tag=m61dmg] at @s run function items:skills/magic/61/id2tick
+#62
+execute if entity @s[tag=magic62timer] at @s run function items:skills/magic/62/timertick
+execute if entity @s[tag=magic62clock] at @s run function items:skills/magic/62/clocktick
 ##weapon
 #3
 execute if entity @s[tag=weapon3] run function items:skills/weapon/3/markertick

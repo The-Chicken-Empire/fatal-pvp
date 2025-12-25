@@ -51,6 +51,10 @@ execute as @a[predicate=cstar:uncstarcharge] run scoreboard players reset @s Cst
 #銃の弾捨て処理
 execute if entity @a[predicate=items:gun/dropbullet,limit=1] as @a[predicate=items:gun/dropbullet] unless data entity @s equipment.offhand.components."minecraft:custom_data".cpvp.bullet run function items:skills/gun/dropbullet with entity @s equipment.offhand.components."minecraft:custom_data".cpvp
 
+scoreboard players add @a mrtime 1
+scoreboard players add @a hprtime 1
+execute as @a run function system:timer/hprtime
+execute as @a run function system:timer/mprtime
 
 #1秒
 scoreboard players add $1s timer 1

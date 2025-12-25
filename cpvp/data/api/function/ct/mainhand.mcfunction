@@ -17,7 +17,10 @@ scoreboard players reset $tmp3 tmp
 scoreboard players operation $ct main *= $tmp tmp
 scoreboard players operation $tmp tmp += @s ctreduction
 scoreboard players operation $ct main /= $tmp tmp
-#ほかなんかあれば
+##ほかなんかあれば
+#magic62clock ct半減
+execute if entity @e[tag=magic62clock,distance=..25] run function items:skills/magic/62/ctred
+
 
 #反映
 execute store result storage cpvp: ctcalc.cooltime int 1 run scoreboard players get $ct main
