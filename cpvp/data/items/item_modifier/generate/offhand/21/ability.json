@@ -8,8 +8,8 @@
         "italic": false
       },
       {
-        "text": "ここにability名",
-        "color": "white",
+        "text": "語りえぬ者の思考",
+        "color": "#00bb6d",
         "italic": false
       },
       {
@@ -20,21 +20,41 @@
     ],
     [
       {
-        "text": "発動検知",
+        "text": "被攻撃時",
         "italic": false,
         "color": "yellow"
       }
     ],
     [
       {
-        "text": "cost",
+        "text": "25%",
+        "italic": false,
+        "color": "yellow"
+      },
+      {
+        "text": "の確率で、対象の",
+        "italic": false,
+        "color": "white"
+      },
+      {
+        "text": "MP",
+        "italic": false,
+        "color": "blue"
+      },
+      {
+        "text": "を",
         "italic": false,
         "color": "white"
       }
     ],
     [
       {
-        "text": "内容",
+        "text": "受けたダメージの400%分",
+        "italic": false,
+        "color": "yellow"
+      },
+      {
+        "text": "減少させる。",
         "italic": false,
         "color": "white"
       }
