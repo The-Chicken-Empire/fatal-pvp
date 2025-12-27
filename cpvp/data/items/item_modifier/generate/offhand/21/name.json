@@ -1,0 +1,10 @@
+{
+  "function": "minecraft:set_name",
+  "name": [
+    {
+      "text": "沈黙するルード・スチュール",
+      "color": "#309900",
+      "italic": false
+    }
+  ]
+}

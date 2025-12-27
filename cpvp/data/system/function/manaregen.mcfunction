@@ -1,3 +1,6 @@
+scoreboard players reset $tmpmr tmp
+scoreboard players set @s mrtime 0
+
 #最大mp1/200を回復
 #scoreboard players set $dummy mr 100
 scoreboard players operation $dummy mr = @s mr

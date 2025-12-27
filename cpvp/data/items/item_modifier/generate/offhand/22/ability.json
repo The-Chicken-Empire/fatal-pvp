@@ -1,0 +1,67 @@
+{
+  "function": "minecraft:set_lore",
+  "lore": [
+    [
+      {
+        "text": "-- ",
+        "color": "white",
+        "italic": false
+      },
+      {
+        "text": "安息無き者の扇動",
+        "color": "#e60000",
+        "italic": false
+      },
+      {
+        "text": " --",
+        "color": "white",
+        "italic": false
+      }
+    ],
+    [
+      {
+        "text": "被攻撃時",
+        "italic": false,
+        "color": "yellow"
+      }
+    ],
+    [
+      {
+        "text": "25%",
+        "italic": false,
+        "color": "yellow"
+      },
+      {
+        "text": "の確率で、自身の",
+        "italic": false,
+        "color": "white"
+      },
+      {
+        "text": "MP",
+        "italic": false,
+        "color": "blue"
+      },
+      {
+        "text": "を",
+        "italic": false,
+        "color": "white"
+      }
+    ],
+    [
+      {
+        "text": "受けたダメージの300%分",
+        "italic": false,
+        "color": "yellow"
+      },
+      {
+        "text": "回復させる。",
+        "italic": false,
+        "color": "white"
+      }
+    ],
+    [
+      ""
+    ]
+  ],
+  "mode": "append"
+}

@@ -68,38 +68,68 @@
     ],
     [
       {
-        "text": "『アンチマジックフィールド』",
+        "text": "<アンチマジックフィールド>",
         "italic": false,
         "color": "dark_purple"
       },
       {
-        "text": "を召喚する",
+        "text": "を召喚する。",
         "italic": false,
         "color": "white"
+      }
+    ],
+    [""],
+    [
+      {
+        "text": "<アンチマジックフィールド>",
+        "italic": false,
+        "color": "dark_purple"
       }
     ],
     [
       {
-        "text": "シンボルを召喚し、範囲内のentityの受ける",
+        "text": "HP",
         "italic": false,
-        "color": "white"
+        "color":"red"
+      },
+      {
+        "text": " : ",
+        "italic": false,
+        "color":"white"
+      },
+      {
+        "text": "25 ",
+        "italic": false,
+        "color":"gold"
       }
     ],
     [
+      {
+        "text": "範囲内のentityの受ける",
+        "italic": false,
+        "color": "white"
+      },
       {
         "text": "魔法ダメージ",
         "italic": false,
         "color": "dark_purple"
       },
       {
-        "text": "が40%減少する",
+        "text": "-40%",
+        "italic": false,
+        "color": "yellow"
+      }
+    ],
+[
+      {
+        "text": "30秒後に自動的に破壊される。",
         "italic": false,
         "color": "white"
       }
     ],
     [
       {
-        "text": "シンボルは一定ダメージを受けるか30秒経過で消滅する",
+        "text": "",
         "italic": false,
         "color": "white"
       }

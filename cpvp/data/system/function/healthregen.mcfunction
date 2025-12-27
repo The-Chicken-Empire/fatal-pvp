@@ -1,3 +1,6 @@
+scoreboard players reset $tmphpr tmp
+scoreboard players set @s hprtime 0
+
 scoreboard players set $heal main 10
 scoreboard players set $tmp tmp 0
 function effects:system/pick/ {id:43}

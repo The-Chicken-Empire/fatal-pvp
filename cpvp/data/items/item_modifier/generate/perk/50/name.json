@@ -1,0 +1,10 @@
+{
+  "function": "minecraft:set_name",
+  "name": [
+    {
+      "text": "Alvador",
+      "color": "#ff0037",
+      "italic": false
+    }
+  ]
+}

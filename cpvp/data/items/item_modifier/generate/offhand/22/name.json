@@ -1,0 +1,10 @@
+{
+  "function": "minecraft:set_name",
+  "name": [
+    {
+      "text": "覚醒するシェルト・サグレス",
+      "color": "#ff3954",
+      "italic": false
+    }
+  ]
+}

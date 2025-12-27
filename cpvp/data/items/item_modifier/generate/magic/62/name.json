@@ -1,0 +1,30 @@
+{
+  "function": "minecraft:set_name",
+  "name": [
+    {
+      "text": "存",
+      "color": "#00ff55",
+      "italic": false
+    },
+    {
+      "text": "続",
+      "color": "#00ffb3",
+      "italic": false
+    },
+    {
+      "text": "の",
+      "color": "#00ffc8",
+      "italic": false
+    },
+    {
+      "text": "対",
+      "color": "#00ffea",
+      "italic": false
+    },
+    {
+      "text": "価",
+      "color": "#00c3ff",
+      "italic": false
+    }
+  ]
+}

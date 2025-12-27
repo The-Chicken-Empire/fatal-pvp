@@ -91,9 +91,11 @@ scoreboard players set $9 main 9
 scoreboard players set $10 main 10
 scoreboard players set $20 main 20
 scoreboard players set $23 main 23
+scoreboard players set $40 main 40
 scoreboard players set $50 main 50
 scoreboard players set $200 main 200
 scoreboard players set $400 main 400
+scoreboard players set $500 main 500
 scoreboard players set $100 main 100
 scoreboard players set $120 main 120
 scoreboard players set $1000 main 1000
@@ -247,6 +249,8 @@ scoreboard objectives add eye minecraft.used:minecraft.ender_eye
 scoreboard objectives add ctreduction dummy
 #後から移動
 scoreboard players set @a eng 0
+scoreboard objectives add mrtime dummy
+scoreboard objectives add hprtime dummy
 
 #items
 #durabilitycheck
@@ -348,6 +352,7 @@ scoreboard objectives add offhand16 dummy
 scoreboard objectives add cp21 dummy
 scoreboard objectives add boots17 dummy
 scoreboard objectives add boots6 dummy
+scoreboard objectives add perk49 dummy
 #デバフ数
 data modify storage cpvp:magic60 effectlist set value [{id:11},{id:12},{id:13},{id:14},{id:15},{id:16},{id:17},{id:18},{id:19},{id:22},{id:25},{id:27},{id:31},{id:35},{id:36},{id:37},{id:38},{id:39},{id:40},{id:44},{id:47},{id:49},{id:54}]
 

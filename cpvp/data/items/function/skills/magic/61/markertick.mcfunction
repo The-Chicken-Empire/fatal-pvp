@@ -1,0 +1,11 @@
+execute if score @s skills matches 2 run function items:skills/magic/61/attack
+execute if score @s skills matches 4 run function items:skills/magic/61/attack
+execute if score @s skills matches 6 run function items:skills/magic/61/attack
+execute if score @s skills matches 8 run function items:skills/magic/61/attack
+execute if score @s skills matches 10 run function items:skills/magic/61/attack
+execute if score @s skills matches 12 run function items:skills/magic/61/attack
+execute if score @s skills matches 14 run function items:skills/magic/61/attack
+execute if score @s skills matches 16 run function items:skills/magic/61/attack
+execute if score @s skills matches 18 run function items:skills/magic/61/attack
+execute if score @s skills matches 20 run function items:skills/magic/61/attack
+execute if score @s skills matches 21.. run kill @s

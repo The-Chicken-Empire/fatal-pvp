@@ -114,6 +114,11 @@ scoreboard players operation @s damagetaken /= $100 main
 #スキルの処理
 ##helm4の効果 1.5倍
 execute as @a[tag=atker] if items entity @s armor.head golden_hoe[minecraft:custom_data~{cpvp:{id:4b,item_type:"helmet"}}] at @s if entity @e[tag=victim,distance=15..] run function items:skills/helmet/4/atk
+##perk50の効果 0.6倍
+execute as @a[tag=victim] if items entity @s hotbar.* *[minecraft:custom_data~{cpvp:{id:50b,item_type:"perk"}}] run scoreboard players operation @s damagetaken *= $6 main
+execute as @a[tag=victim] if items entity @s inventory.* *[minecraft:custom_data~{cpvp:{id:50b,item_type:"perk"}}] run scoreboard players operation @s damagetaken *= $6 main
+execute as @a[tag=victim] if items entity @s hotbar.* *[minecraft:custom_data~{cpvp:{id:50b,item_type:"perk"}}] run scoreboard players operation @s damagetaken /= $10 main
+execute as @a[tag=victim] if items entity @s inventory.* *[minecraft:custom_data~{cpvp:{id:50b,item_type:"perk"}}] run scoreboard players operation @s damagetaken /= $10 main
 ##offhand11の効果 k倍 (kは0以上の実数)
 execute as @a[tag=atker] if items entity @s weapon.offhand end_crystal[minecraft:custom_data~{cpvp:{id:11b,item_type:"offhand"}}] run function items:skills/offhand/11/atk
 ##perk29の効果 ダメージ10以上の時0.1倍

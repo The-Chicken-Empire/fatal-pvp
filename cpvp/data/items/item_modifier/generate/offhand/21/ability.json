@@ -1,0 +1,67 @@
+{
+  "function": "minecraft:set_lore",
+  "lore": [
+    [
+      {
+        "text": "-- ",
+        "color": "white",
+        "italic": false
+      },
+      {
+        "text": "語りえぬ者の思考",
+        "color": "#00bb6d",
+        "italic": false
+      },
+      {
+        "text": " --",
+        "color": "white",
+        "italic": false
+      }
+    ],
+    [
+      {
+        "text": "被攻撃時",
+        "italic": false,
+        "color": "yellow"
+      }
+    ],
+    [
+      {
+        "text": "25%",
+        "italic": false,
+        "color": "yellow"
+      },
+      {
+        "text": "の確率で、対象の",
+        "italic": false,
+        "color": "white"
+      },
+      {
+        "text": "MP",
+        "italic": false,
+        "color": "blue"
+      },
+      {
+        "text": "を",
+        "italic": false,
+        "color": "white"
+      }
+    ],
+    [
+      {
+        "text": "受けたダメージの400%分",
+        "italic": false,
+        "color": "yellow"
+      },
+      {
+        "text": "減少させる。",
+        "italic": false,
+        "color": "white"
+      }
+    ],
+    [
+      ""
+    ]
+  ],
+  "mode": "append"
+}

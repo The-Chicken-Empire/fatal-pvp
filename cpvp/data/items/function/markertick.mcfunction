@@ -108,6 +108,13 @@ execute if entity @s[tag=magic53] at @s run function items:skills/magic/53/marke
 execute if entity @s[tag=magic57marker] if score @s skills matches 300.. run kill @s
 #58
 execute if entity @s[tag=magic58marker] if score @s skills matches 300.. run kill @s
+#61
+execute if entity @s[tag=m61timer] at @s run function items:skills/magic/61/markertick
+execute if entity @s[tag=m61point] at @s run function items:skills/magic/61/id1tick
+execute if entity @s[tag=m61dmg] at @s run function items:skills/magic/61/id2tick
+#62
+execute if entity @s[tag=magic62timer] at @s run function items:skills/magic/62/timertick
+execute if entity @s[tag=magic62clock] at @s run function items:skills/magic/62/clocktick
 ##weapon
 #3
 execute if entity @s[tag=weapon3] run function items:skills/weapon/3/markertick
@@ -157,12 +164,14 @@ execute if entity @s[tag=leggings1] run function items:skills/leggings/1/markert
 execute if entity @s[tag=boots5marker] run function items:skills/boots/5/markertick
 
 ##perk
-#perk13
+#13
 execute if entity @s[tag=perk13] run function items:skills/perk/13/markertick
 #30
 execute if entity @s[tag=perk30marker] run function items:skills/perk/30/s2/tick
-#perk31
+#31
 execute if entity @s[tag=perk31.mk1] run function items:skills/perk/31/markertick
+#49
+execute if entity @s[tag=perk49marker] if score @s skills matches 60.. run kill @s
 
 ##food
-execute if entity @s[tag=food4marker] if score @s skills matches 400.. run kill @s
+execute if entity @s[tag=food4marker] if score @s skills matches 400.. run function items:skills/perk/49/kill
