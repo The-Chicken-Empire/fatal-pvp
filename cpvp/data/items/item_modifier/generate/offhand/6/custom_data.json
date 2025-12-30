@@ -2,6 +2,7 @@
   "function": "minecraft:set_custom_data",
   "tag": {
     "cpvp": {
+      "cost": 3,
       "id": 6,
       "item_type": "offhand",
       "offhand": {
