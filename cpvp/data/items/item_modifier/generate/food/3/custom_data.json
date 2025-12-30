@@ -6,7 +6,8 @@
       "item_type": "food",
       "mainhand": {
       },
-      "regularitem": 1
+      "regularitem": 1,
+      "classitem": 1
     }
   }
 }

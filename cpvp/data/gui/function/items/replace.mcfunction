@@ -1,0 +1,1 @@
+$item replace entity @s $(slot).$(id) from block 0 0 0 container.0
