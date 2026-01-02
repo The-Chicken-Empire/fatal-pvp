@@ -7,12 +7,7 @@
       "item_type": "perk",
       "hotbar": {
         "triggers": [
-          "kill"
-        ]
-      },
-      "mainhand": {
-        "triggers": [
-          "using"
+          "tick"
         ]
       },
       "regularitem": 1,

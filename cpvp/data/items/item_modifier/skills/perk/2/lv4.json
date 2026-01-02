@@ -11,12 +11,7 @@
           "defence": -20
         },
         "triggers": [
-          "kill"
-        ]
-      },
-      "mainhand": {
-        "triggers": [
-          "using"
+          "tick"
         ]
       },
       "regularitem": 1,
