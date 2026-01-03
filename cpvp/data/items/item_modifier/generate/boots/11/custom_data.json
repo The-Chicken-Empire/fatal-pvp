@@ -1,0 +1,15 @@
+{
+  "function": "minecraft:set_custom_data",
+  "tag": {
+    "cpvp": {
+      "cost": 0,
+      "id": 11,
+      "item_type": "boots",
+      "boots": {
+        "triggers": []
+      },
+      "regularitem": 1,
+      "classitem": 1
+    }
+  }
+}
