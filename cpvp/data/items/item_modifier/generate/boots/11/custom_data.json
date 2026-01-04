@@ -6,7 +6,17 @@
       "id": 11,
       "item_type": "boots",
       "boots": {
-        "triggers": []
+        "stats": {
+          "maxhp": -150,
+          "physicaldef": 15,
+          "magicdef": 5,
+          "speed": 25
+        },
+        "triggers": [
+          "attack2",
+          "equip",
+          "unequip"
+        ]
       },
       "regularitem": 1,
       "classitem": 1
