@@ -10,5 +10,5 @@ data modify entity @s transformation set value {right_rotation:[0f,0f,0f,1f],sca
 #number
 function items:skills/markerid
 #owner
-scoreboard players operation @s owner = @a[tag=magic1tmp,limit=1] playerdata
-scoreboard players operation @s teamscore = @a[tag=magic1tmp,limit=1] teamscore
+scoreboard players operation @s owner = @a[tag=magic1tmp2,limit=1] playerdata
+scoreboard players operation @s teamscore = @a[tag=magic1tmp2,limit=1] teamscore

@@ -1,7 +1,5 @@
-tag @s add magic22tmp
-
-execute at @s anchored eyes positioned ^ ^ ^ summon marker run function items:skills/magic/22/summonmarker
-
-execute if entity @e[tag=magic22hittmp] run function items:skills/magic/22/hit2
-
-tag @s remove magic22tmp
+tag @s add magic22tmp2
+execute as @e[tag=magic22hittmp,limit=1] run function items:skills/magic/22/debuff
+tag @s remove magic22tmp2
+scoreboard players set $ct main 320
+function api:ct/mainhand
