@@ -6,7 +6,9 @@
       "id": 63,
       "item_type": "magic",
       "mainhand": {
-        "triggers": []
+        "triggers": [
+          "right_click"
+        ]
       },
       "regularitem": 1,
       "classitem": 1

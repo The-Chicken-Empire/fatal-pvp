@@ -6,7 +6,11 @@
       "id": 51,
       "item_type": "perk",
       "hotbar": {
-        "triggers": []
+        "triggers": [
+          "tick",
+          "equip",
+          "unequip"
+        ]
       },
       "regularitem": 1,
       "classitem": 1

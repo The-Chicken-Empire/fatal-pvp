@@ -13,9 +13,7 @@
           "speed": 25
         },
         "triggers": [
-          "attack2",
-          "equip",
-          "unequip"
+          "attack3"
         ]
       },
       "regularitem": 1,

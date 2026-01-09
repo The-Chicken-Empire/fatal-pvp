@@ -1,6 +1,7 @@
 {
   "function": "minecraft:set_lore",
   "lore": [
+    [""],
     [
       {
         "text": "-- ",
@@ -8,8 +9,8 @@
         "italic": false
       },
       {
-        "text": "ここにability名",
-        "color": "white",
+        "text": "其は現実よ夢となれ",
+        "color": "#cac849",
         "italic": false
       },
       {
@@ -20,21 +21,48 @@
     ],
     [
       {
-        "text": "発動検知",
+        "text": "常時",
         "italic": false,
         "color": "yellow"
       }
     ],
     [
       {
-        "text": "cost",
+        "text": "[移動速度上昇:lv1]を得る。",
         "italic": false,
         "color": "white"
       }
     ],
     [
       {
-        "text": "内容",
+        "text": "移動可能な段差上限が",
+        "italic": false,
+        "color": "white"
+      },
+      {
+        "text": "+1",
+        "italic": false,
+        "color": "yellow"
+      },
+      {
+        "text": "される。",
+        "italic": false,
+        "color": "white"
+      }
+    ],
+    [
+      {
+        "text": "落下ダメージが",
+        "italic": false,
+        "color": "white"
+      },
+      {
+        "text": "4倍",
+        "italic": false,
+        "color": "yellow"
+      },
+      {
+        "text": "になる。",
         "italic": false,
         "color": "white"
       }

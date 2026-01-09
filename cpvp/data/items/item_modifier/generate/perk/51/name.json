@@ -2,8 +2,8 @@
   "function": "minecraft:set_name",
   "name": [
     {
-      "text": "鳥籠を切り裂く翼",
-      "color": "white",
+      "text": "運命を切り裂く翼",
+      "color": "#71ff1f",
       "italic": false
     }
   ]

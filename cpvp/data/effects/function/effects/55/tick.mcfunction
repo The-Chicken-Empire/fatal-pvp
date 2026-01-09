@@ -1,0 +1,1 @@
+execute at @s run particle dust{color:14942022,scale:1} ~ ~1 ~ 0.4 0.6 0.4 1 2 normal

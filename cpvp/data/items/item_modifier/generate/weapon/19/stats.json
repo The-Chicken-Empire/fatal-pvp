@@ -1,6 +1,59 @@
 {
   "function": "minecraft:set_lore",
   "lore": [
+    [""],
+    [
+      {
+        "text": "ダメージ",
+        "color": "red",
+        "italic": false
+      },
+      {
+        "text": " : ",
+        "color": "white",
+        "italic": false
+      },
+      {
+        "text": "+2",
+        "color": "gold",
+        "italic": false
+      },
+      {
+        "text": " - ",
+        "color": "white",
+        "italic": false
+      },
+      {
+        "text": "物理",
+        "color": "gold",
+        "italic": false
+      },
+      {
+        "text": "(",
+        "color": "white",
+        "italic": false
+      },
+      {
+        "text": "特殊",
+        "color": "aqua",
+        "italic": false
+      },
+      {
+        "text": ")",
+        "color": "white",
+        "italic": false
+      },
+      {
+        "text": "/",
+        "color": "white",
+        "italic": false
+      },
+      {
+        "text": "近距離",
+        "color": "red",
+        "italic": false
+      }
+    ],
     [
       {
         "text": "攻撃速度",
@@ -13,13 +66,44 @@
         "italic": false
       },
       {
-        "text": "190",
+        "text": "1.9",
         "color": "gold",
         "italic": false
       }
     ],
     [
-      ""
+      {
+        "text": "防御力",
+        "color": "dark_blue",
+        "italic": false
+      },
+      {
+        "text": " : ",
+        "color": "white",
+        "italic": false
+      },
+      {
+        "text": "-20%",
+        "color": "gold",
+        "italic": false
+      }
+    ],
+    [
+      {
+        "text": "移動速度",
+        "color": "white",
+        "italic": false
+      },
+      {
+        "text": " : ",
+        "color": "white",
+        "italic": false
+      },
+      {
+        "text": "+20%",
+        "color": "gold",
+        "italic": false
+      }
     ]
   ],
   "mode": "append"

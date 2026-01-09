@@ -7,9 +7,14 @@
       "item_type": "weapon",
       "mainhand": {
         "stats": {
-          "attackspeed": 190
+          "attackspeed": 190,
+          "speed": 20,
+          "defence": -20
         },
-        "triggers": []
+        "triggers": [
+          "attack2",
+          "attack1"
+        ]
       },
       "regularitem": 1,
       "classitem": 1

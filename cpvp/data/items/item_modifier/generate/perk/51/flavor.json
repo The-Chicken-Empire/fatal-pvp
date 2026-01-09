@@ -3,14 +3,28 @@
   "lore": [
     [
       {
-        "text": "ここにフレーバーテキストを書く",
+        "text": "君は囚われているね。どうしてだい？",
         "color": "dark_gray",
         "italic": true
       }
     ],
     [
       {
-        "text": "ここは2行目",
+        "text": "君は苦しんでいるね。どうしてだい？",
+        "color": "dark_gray",
+        "italic": true
+      }
+    ],
+    [
+      {
+        "text": "君は何故何もしないんだい？求むべきだ。",
+        "color": "dark_gray",
+        "italic": true
+      }
+    ],
+    [
+      {
+        "text": "ーーその憂鬱なリアルをお前の夢でぶっ壊せよ。",
         "color": "dark_gray",
         "italic": true
       }

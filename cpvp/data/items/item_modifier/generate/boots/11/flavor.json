@@ -3,14 +3,28 @@
   "lore": [
     [
       {
-        "text": "ここにフレーバーテキストを書く",
+        "text": "夢を、過去を、未来を、世界を、異次元を。",
         "color": "dark_gray",
         "italic": true
       }
     ],
     [
       {
-        "text": "ここは2行目",
+        "text": "長い、永い旅路が、今の『旅人』を作り上げる。",
+        "color": "dark_gray",
+        "italic": true
+      }
+    ],
+    [
+      {
+        "text": "『いつまでも...私は私。変わらないよ、ずっと。』",
+        "color": "dark_gray",
+        "italic": true
+      }
+    ],
+    [
+      {
+        "text": "『...それだけ。』",
         "color": "dark_gray",
         "italic": true
       }
