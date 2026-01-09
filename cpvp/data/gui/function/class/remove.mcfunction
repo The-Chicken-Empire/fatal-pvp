@@ -1,0 +1,1 @@
+clear @s *[minecraft:custom_data~{cpvp:{classitem:1b}}]

@@ -1,4 +1,5 @@
 execute unless score $phase main matches 3 unless score $gametimer main matches 1.. run return fail
+execute unless entity @s[tag=alive] run return fail
 
 scoreboard players operation $gamestopwatch main += $time main
 scoreboard players operation $gametimer main -= $time main

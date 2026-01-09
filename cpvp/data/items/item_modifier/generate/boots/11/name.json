@@ -1,0 +1,10 @@
+{
+  "function": "minecraft:set_name",
+  "name": [
+    {
+      "text": "『終わらない旅路』",
+      "color": "#3cff00",
+      "italic": false
+    }
+  ]
+}

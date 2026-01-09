@@ -1,0 +1,10 @@
+{
+  "function": "minecraft:set_name",
+  "name": [
+    {
+      "text": "辿る軌跡",
+      "color": "#14fff3",
+      "italic": false
+    }
+  ]
+}

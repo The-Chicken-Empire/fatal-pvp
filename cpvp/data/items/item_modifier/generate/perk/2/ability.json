@@ -20,54 +20,28 @@
     ],
     [
       {
-        "text": "右クリック",
+        "text": "常時",
         "italic": false,
         "color":"yellow"
       }
     ],
     [
       {
-        "text": "「30m以内に味方playerが居ない」",
-        "italic": false,
-        "color":"yellow"
-      },
-      {
-         "text": "又は",
-        "italic": false,
-        "color":"white"
-      },
-      {
-        "text": "「20m以内に敵playerが居る」",
-        "italic": false,
-        "color":"yellow"
-      }]
-      ,[
-      {
-        "text": "状態で右クリックを押している間(重複可能)",
+        "text": "20m以内の敵playerの数に応じて(最大4人)、",
         "italic": false,
         "color":"white"
       }
     ],
     [
       {
-        "text": "又はホットバーに入れた状態で敵を",
-        "italic": false,
-        "color": "white"
-      },
-      {
-        "text": "キル",
-        "italic": false,
-        "color": "red"
-      },
-      {
-        "text": "した時に",
+        "text": "エネルギーが貯まり、一定量貯まった時、",
         "italic": false,
         "color": "white"
       }
     ],
     [
       {
-        "text": "ゲージが貯まり、一定量貯まるとアイテムの",
+        "text": "このアイテムの",
         "italic": false,
         "color": "white"
       },
@@ -125,13 +99,6 @@
       },
       {
         "text": "される",
-        "italic": false,
-        "color": "white"
-      }
-    ],
-    [
-      {
-        "text": "この効果はホットバーに入れているだけで発動する",
         "italic": false,
         "color": "white"
       }

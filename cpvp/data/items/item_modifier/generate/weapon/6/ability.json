@@ -96,18 +96,7 @@
     ],
     [
       {
-        "text": "1.5秒後に前方に突進し、通った敵にダメージを与え、的中時対象に",
-        "color": "white",
-        "italic": false
-      }
-    ],
-    [
-      {
-        "text": "出血2",
-        "color": "dark_red",
-        "italic": false
-      },{
-        "text": "を10秒付与する",
+        "text": "1.5秒後に前方に突進し、通った敵にダメージを与える。",
         "color": "white",
         "italic": false
       }

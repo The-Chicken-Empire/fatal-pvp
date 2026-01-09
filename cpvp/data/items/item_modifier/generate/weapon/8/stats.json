@@ -1,6 +1,7 @@
 {
   "function": "minecraft:set_lore",
   "lore": [
+    [""],
     [
       {
         "text": "ダメージ",
@@ -56,9 +57,6 @@
       }
     ],
     [
-      ""
-    ],
-    [
       {
         "text": "遠距離防御力",
         "color": "blue",
@@ -78,7 +76,7 @@
     [
       {
         "text": "移動速度",
-        "color": "yellow",
+        "color": "white",
         "italic": false
       },
       {

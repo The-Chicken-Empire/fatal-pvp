@@ -272,8 +272,6 @@ scoreboard objectives add perk2 dummy
 scoreboard players set @a perk2 0
 scoreboard objectives add perk2-2 dummy
 scoreboard players set @a perk2-2 0
-scoreboard objectives add perk2-3 dummy
-scoreboard players set @a perk2-3 0
 scoreboard objectives add weapon3 dummy
 scoreboard players set @a weapon3 0
 scoreboard objectives add weapon3-2 dummy

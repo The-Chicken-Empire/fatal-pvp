@@ -49,7 +49,14 @@
         "color":"#fd3224"
       },
       {
-        "text": "が付与された相手に対し、ダメージが",
+        "text": "が付与された相手に対し、",
+        "italic": false,
+        "color":"white"
+      }
+    ],
+    [
+      {
+        "text": "ダメージが",
         "italic": false,
         "color":"white"
       },

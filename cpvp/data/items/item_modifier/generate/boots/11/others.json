@@ -1,0 +1,56 @@
+{
+  "function": "minecraft:set_components",
+  "components": {
+    "enchantment_glint_override": true,
+    "minecraft:attribute_modifiers": [
+      {
+        "type": "minecraft:armor",
+        "id": "minecraft:boots",
+        "amount": 0,
+        "operation": "add_value",
+        "slot": "feet"
+      },
+      {
+        "type": "knockback_resistance",
+        "id": "minecraft:boots",
+        "amount": 0,
+        "operation": "add_value",
+        "slot": "feet"
+      },
+      {
+        "type": "armor_toughness",
+        "id": "minecraft:boots",
+        "amount": 0,
+        "operation": "add_value",
+        "slot": "feet"
+      },
+      {
+        "type": "step_height",
+        "id": "minecraft:boots",
+        "amount": 0.5,
+        "operation": "add_value",
+        "slot": "feet"
+      },
+      {
+        "type": "jump_strength",
+        "id": "minecraft:boots",
+        "amount": -100,
+        "operation": "add_value",
+        "slot": "feet"
+      }
+    ],
+    "minecraft:unbreakable": {},
+    "minecraft:tooltip_display": {
+      "hidden_components": [
+        "minecraft:unbreakable",
+        "minecraft:dyed_color",
+        "minecraft:trim",
+        "minecraft:attribute_modifiers"
+      ]
+    },
+    "trim": {
+      "pattern": "spire",
+      "material": "amethyst"
+    }
+  }
+}

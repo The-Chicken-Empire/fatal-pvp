@@ -4,3 +4,5 @@ scoreboard players operation @s itemcost += $dummy itemcost
 scoreboard players add $dummy itemcount 1
 data remove storage -dummy costcalc[0]
 execute if score @s itemcount > $dummy itemcount run function system:cost/costcalc2
+scoreboard players reset $dummy itemcount
+scoreboard players reset $dummy itemcost

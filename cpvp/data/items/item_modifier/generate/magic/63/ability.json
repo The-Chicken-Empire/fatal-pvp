@@ -1,0 +1,229 @@
+{
+  "function": "minecraft:set_lore",
+  "lore": [
+    [""],
+    [
+      {
+        "text": "-- ",
+        "color": "white",
+        "italic": false
+      },
+      {
+        "text": "『道",
+        "color": "#fbff00",
+        "italic": false
+      },
+      {
+        "text": "よ開",
+        "color": "#b3ff00",
+        "italic": false
+      },
+      {
+        "text": "け、",
+        "color": "#5eff00",
+        "italic": false
+      },
+      {
+        "text": "我が",
+        "color": "#2bff00",
+        "italic": false
+      },
+      {
+        "text": "意の",
+        "color": "#00ff62",
+        "italic": false
+      },
+      {
+        "text": "まま",
+        "color": "#00ff88",
+        "italic": false
+      },
+      {
+        "text": "に』",
+        "color": "#00fff2",
+        "italic": false
+      },
+      {
+        "text": " --",
+        "color": "white",
+        "italic": false
+      }
+    ],
+    [
+      {
+        "text": "右クリック",
+        "italic": false,
+        "color": "yellow"
+      }
+    ],
+    [
+      {
+        "text": "消費MP",
+        "italic": false,
+        "color": "blue"
+      },
+      {
+        "text": " : ",
+        "color": "white"
+      },
+      {
+        "text": "35",
+        "color": "green"
+      },
+      {
+        "text": "クールタイム",
+        "color": "dark_aqua"
+      },
+      {
+        "text": " : ",
+        "color": "white"
+      },
+      {
+        "text": "45秒",
+        "color": "green"
+      }
+    ],
+    [
+      {
+        "text": "バフ ",
+        "italic": false,
+        "color": "white"
+      },
+      {
+        "text": "[自由]",
+        "italic": false,
+        "color": "#77ff38"
+      },
+      {
+        "text": "を10秒得る。",
+        "italic": false,
+        "color": "white"
+      }
+    ],
+    [
+      {
+        "text": "[脆弱:lv7]",
+        "italic": false,
+        "color": "dark_purple"
+      },
+      {
+        "text": "を20秒得る。",
+        "italic": false,
+        "color": "white"
+      }
+    ],[""],
+    [
+      {
+        "text": "-- ",
+        "color": "white",
+        "italic": false
+      },
+      {
+        "text": "『Nostalgia』",
+        "color": "#ffda37",
+        "italic": false
+      },
+      {
+        "text": "-- ",
+        "color": "white",
+        "italic": false
+      }
+    ],
+    
+    [
+      {
+        "text": "左クリック",
+        "italic": false,
+        "color": "yellow"
+      }
+    ],
+    [
+      {
+        "text": "追加予定",
+        "italic": false,
+        "color": "yellow"
+      }
+    ],
+    [
+      {
+        "text": "",
+        "italic": false,
+        "color": "white"
+      }
+    ],
+    [
+      {
+        "text": "自由",
+        "italic": false,
+        "color": "#77ff38"
+      },
+      {
+        "text": " :",
+        "italic": false,
+        "color": "white"
+      }
+    ],
+    [
+      {
+        "text": " -",
+        "italic": false,
+        "color": "white"
+      },
+      {
+        "text": "移動速度",
+        "italic": false,
+        "color": "white"
+      },
+      {
+        "text": "+150%",
+        "italic": false,
+        "color": "gold"
+      }
+    ],
+    [
+      {
+        "text": " -",
+        "italic": false,
+        "color": "white"
+      },
+      {
+        "text": "移動可能な段差上限",
+        "italic": false,
+        "color": "white"
+      },
+      {
+        "text": "+2",
+        "italic": false,
+        "color": "yellow"
+      }
+    ],
+    [
+      {
+        "text": " -",
+        "italic": false,
+        "color": "white"
+      },
+      {
+        "text": "落下ダメージ無効化",
+        "italic": false,
+        "color": "white"
+      }
+    ],
+    [
+      {
+        "text": " -",
+        "italic": false,
+        "color": "white"
+      },
+      {
+        "text": "重力増加",
+        "italic": false,
+        "color": "white"
+      }
+    ],
+    [
+      ""
+    ]
+  ],
+  "mode": "append"
+}

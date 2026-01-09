@@ -2,6 +2,7 @@
   "function": "minecraft:set_custom_data",
   "tag": {
     "cpvp": {
+      "cost": 1,
       "id": 4,
       "item_type": "magic",
       "mainhand": {
@@ -11,8 +12,8 @@
       },
       "regularitem": 1,
       "classitem": 0,
-      "durability": 1,
-      "max_durability": 1
+      "durability": 10,
+      "max_durability": 10
     }
   }
 }
