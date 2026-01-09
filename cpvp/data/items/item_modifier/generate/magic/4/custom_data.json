@@ -12,8 +12,8 @@
       },
       "regularitem": 1,
       "classitem": 0,
-      "durability": 1,
-      "max_durability": 1
+      "durability": 10,
+      "max_durability": 10
     }
   }
 }

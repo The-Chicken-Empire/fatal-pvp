@@ -8,4 +8,4 @@ function api:ct/mainhand
 
 kill @e[tag=pointed,tag=magic1point]
 
-tag @s remove magic1tmp
+tag @s remove magic1tmp2

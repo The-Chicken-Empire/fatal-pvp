@@ -5,3 +5,6 @@ tellraw @s {text:"----------------------------------------"}
 function system:cooltime/general/set_ct_mainhand {cooltime:600}
 data modify storage dummy rename set value {"color":"dark_blue","italic":false,"text":"Information"}
 function items:skills/item/itemmodify
+scoreboard players reset $tmp tmp
+scoreboard players set @s carrotuse 0
+scoreboard players reset @s mpcost

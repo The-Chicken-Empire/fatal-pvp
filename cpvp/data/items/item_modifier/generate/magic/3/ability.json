@@ -27,26 +27,6 @@
     ],
     [
       {
-        "text": "消費MP",
-        "italic": false,
-        "color":"blue"
-      },
-      {
-        "text": " : ",
-        "italic": false,
-        "color":"white"
-      },
-      {
-        "text": "30",
-        "italic": false,
-        "color":"green"
-      },
-      {
-        "text": " ",
-        "italic": false,
-        "color":"white"
-      },
-      {
         "text": "クールタイム",
         "italic": false,
         "color":"dark_aqua"

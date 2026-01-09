@@ -6,3 +6,4 @@ tag @s remove magic2
 #つかったよ！
 scoreboard players set @s carrotuse 0
 scoreboard players reset @s mpcost
+scoreboard players reset $tmp tmp
