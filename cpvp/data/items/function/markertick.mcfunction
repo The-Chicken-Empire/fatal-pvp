@@ -115,6 +115,8 @@ execute if entity @s[tag=m61dmg] at @s run function items:skills/magic/61/id2tic
 #62
 execute if entity @s[tag=magic62timer] at @s run function items:skills/magic/62/timertick
 execute if entity @s[tag=magic62clock] at @s run function items:skills/magic/62/clocktick
+#63
+execute if entity @s[tag=m63mark] at @s run function items:skills/magic/63/markertick
 ##weapon
 #3
 execute if entity @s[tag=weapon3] run function items:skills/weapon/3/markertick

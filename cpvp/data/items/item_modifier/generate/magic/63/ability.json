@@ -139,9 +139,45 @@
     ],
     [
       {
-        "text": "追加予定",
+        "text": "消費MP",
         "italic": false,
-        "color": "yellow"
+        "color": "blue"
+      },
+      {
+        "text": " : ",
+        "color": "white"
+      },
+      {
+        "text": "7",
+        "color": "green"
+      }
+    ],
+    [
+      {
+        "text": "自身の現在の座標をマークする。",
+        "italic": false,
+        "color": "white"
+      }
+    ],
+    [
+      {
+        "text": "既にマークされた座標が存在する場合、",
+        "italic": false,
+        "color": "white"
+      }
+    ],
+    [
+      {
+        "text": "その場所に移動し、削除する。",
+        "italic": false,
+        "color": "white"
+      }
+    ],
+    [
+      {
+        "text": "マークは10秒後に自動で消滅する。",
+        "italic": false,
+        "color": "white"
       }
     ],
     [
