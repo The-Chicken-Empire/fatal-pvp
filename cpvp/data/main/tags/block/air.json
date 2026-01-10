@@ -182,7 +182,8 @@
     "minecraft:dead_horn_coral_wall_fan",
     "minecraft:structure_void",
     "minecraft:bubble_column",
-    "minecraft:chain",
+    "minecraft:iron_chain",
+    "minecraft:copper_chain",
     "minecraft:crimson_fungus",
     "minecraft:crimson_button",
     "minecraft:crimson_door",
@@ -224,6 +225,15 @@
     "minecraft:jungle_trapdoor",
     "minecraft:acacia_trapdoor",
     "minecraft:dark_oak_trapdoor",
-    "minecraft:sculk_vein"
+    "minecraft:sculk_vein",
+    "copper_torch",
+    "#candles",
+    "#chains",
+    "#banners",
+    "#wool_carpets",
+    "moss_carpet",
+    "pale_moss_carpet",
+    "glow_lichen",
+    "#cave_vines"
   ]
 }
