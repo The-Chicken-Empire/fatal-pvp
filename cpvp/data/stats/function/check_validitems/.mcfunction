@@ -17,6 +17,10 @@ execute if predicate stats:mainhanditem run data modify storage cpvp:stats $vali
 execute if predicate stats:mainhanditem run data modify storage cpvp:stats $validitems[-1] merge from storage cpvp:stats $stats.SelectedItem.components.minecraft:custom_data.cpvp.mainhand
 execute if predicate stats:mainhanditem run data modify storage cpvp:stats $validitems[-1] merge from storage cpvp:stats $stats.SelectedItem.components.minecraft:custom_data.cpvp
 
+execute if predicate stats:mainhanditem2 run data modify storage cpvp:stats $validitems append value {}
+execute if predicate stats:mainhanditem2 run data modify storage cpvp:stats $validitems[-1] merge from storage cpvp:stats $stats.SelectedItem.components.minecraft:custom_data.cpvp.mainhand
+execute if predicate stats:mainhanditem2 run data modify storage cpvp:stats $validitems[-1] merge from storage cpvp:stats $stats.SelectedItem.components.minecraft:custom_data.cpvp
+
 execute if predicate stats:offhanditem run data modify storage cpvp:stats $validitems append value {}
 execute if predicate stats:offhanditem run data modify storage cpvp:stats $validitems[-1] merge from storage cpvp:stats $stats.equipment.offhand.components.minecraft:custom_data.cpvp.offhand
 execute if predicate stats:offhanditem run data modify storage cpvp:stats $validitems[-1] merge from storage cpvp:stats $stats.equipment.offhand.components.minecraft:custom_data.cpvp

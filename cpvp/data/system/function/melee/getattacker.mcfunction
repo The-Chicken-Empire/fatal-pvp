@@ -19,6 +19,7 @@ scoreboard players reset @s meleeattacker
 
 execute store result storage cpvp:tmp player byte 1 run scoreboard players get @s playerdata
 function damage:atktrigger/melee/p with storage cpvp:tmp
+data remove storage cpvp:gun id
 data remove storage cpvp:tmp player
 
 tag @s remove victimtmp

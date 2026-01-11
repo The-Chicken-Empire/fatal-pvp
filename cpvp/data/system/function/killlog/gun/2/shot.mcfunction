@@ -1,0 +1,1 @@
+tellraw @a [{italic:false,selector:"@s"},{color:"white",italic:false,text:"は"},{italic:false,selector:"@a[tag=tmpkiller,limit=1]"},{color:"white",italic:false,text:"の"},{color:"dark_green",italic:false,text:"ニードルシューター"},{color:"white",italic:false,text:"によって体に風穴が空いた。"}]
