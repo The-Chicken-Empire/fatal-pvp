@@ -117,6 +117,11 @@ execute if entity @s[tag=magic62timer] at @s run function items:skills/magic/62/
 execute if entity @s[tag=magic62clock] at @s run function items:skills/magic/62/clocktick
 #63
 execute if entity @s[tag=m63mark] at @s run function items:skills/magic/63/markertick
+
+##range
+execute if entity @s[tag=range2needle] at @s run function items:skills/gun/2/markertick
+execute if entity @s[tag=range2ct] if score @s skills matches 10.. run kill @s
+
 ##weapon
 #3
 execute if entity @s[tag=weapon3] run function items:skills/weapon/3/markertick

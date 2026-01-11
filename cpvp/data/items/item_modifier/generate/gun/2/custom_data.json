@@ -6,7 +6,10 @@
       "id": 2,
       "item_type": "gun",
       "mainhand": {
-        "triggers": []
+        "triggers": [
+          "equip",
+          "unequip"
+        ]
       },
       "regularitem": 1,
       "classitem": 0
