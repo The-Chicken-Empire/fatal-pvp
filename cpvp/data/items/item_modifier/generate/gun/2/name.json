@@ -1,0 +1,10 @@
+{
+  "function": "minecraft:set_name",
+  "name": [
+    {
+      "text": "ニードルシューター",
+      "color": "white",
+      "italic": false
+    }
+  ]
+}
