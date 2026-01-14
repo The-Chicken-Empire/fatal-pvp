@@ -1,12 +1,10 @@
 {
-  "description": "left_click",
+  "description": "stopshot",
   "supported_items": [
-    "minecraft:carrot_on_a_stick",
-    "minecraft:bow",
-    "minecraft:crossbow"
+    "minecraft:bow"
   ],
   "weight": 1,
-  "max_level": 1,
+  "max_level": 10,
   "min_cost": {
     "base": 0,
     "per_level_above_first": 0
@@ -17,15 +15,18 @@
   },
   "anvil_cost": 0,
   "slots": [
-    "mainhand"
+    "mainhand",
+    "offhand"
   ],
   "effects": {
-    "minecraft:post_piercing_attack": [
+    "minecraft:post_attack": [
       {
         "effect": {
           "type": "minecraft:run_function",
-          "function": "items:triggers/left_click/check"
-        }
+          "function": "items:tests/stop"
+        },
+        "enchanted": "attacker",
+        "affected": "victim"
       }
     ]
   }

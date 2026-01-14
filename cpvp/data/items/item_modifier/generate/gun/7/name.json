@@ -1,0 +1,10 @@
+{
+  "function": "minecraft:set_name",
+  "name": [
+    {
+      "text": "『Answer』",
+      "color": "#ff9900",
+      "italic": false
+    }
+  ]
+}

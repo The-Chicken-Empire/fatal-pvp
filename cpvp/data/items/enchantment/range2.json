@@ -43,30 +43,40 @@
       {
         "effect": {
           "type": "minecraft:multiply",
-          "factor": {
-            "type": "minecraft:linear",
-            "base": 0.5,
-            "per_level_above_first": 1
-          }
+          "factor": 0.5
         }
       }
     ],
     "minecraft:post_attack": [
       {
+        "requirements": {
+          "condition": "minecraft:entity_properties",
+          "entity": "direct_attacker",
+          "predicate": {
+            "type": "#minecraft:arrows"
+          }
+        },
         "effect": {
           "type": "minecraft:run_function",
           "function": "items:skills/gun/2/attacker"
         },
         "enchanted": "attacker",
-        "affected": "victim"
+        "affected": "attacker"
       },
       {
+        "requirements": {
+          "condition": "minecraft:entity_properties",
+          "entity": "direct_attacker",
+          "predicate": {
+            "type": "#minecraft:arrows"
+          }
+        },
         "effect": {
           "type": "minecraft:run_function",
           "function": "items:skills/gun/2/victim"
         },
         "enchanted": "attacker",
-        "affected": "attacker"
+        "affected": "victim"
       }
     ]
   }

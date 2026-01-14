@@ -34,4 +34,9 @@ tag @a remove meleeatkertmp3
 
 tag @s add nodamagesound
 #scoreboard players operation @s attackerdata = @a[tag=meleeatker,limit=1] playerdata
+
+#gun7hs
+tag @s[tag=range7hs] add range7hscalc
+tag @s[tag=range7hs] remove range7hs
+
 function damage:atkercheck

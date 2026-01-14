@@ -13,13 +13,8 @@
         "italic": false
       },
       {
-        "text": "×0.5",
+        "text": "×1.25",
         "color": "gold",
-        "italic": false
-      },
-      {
-        "text": " 貫通",
-        "color": "aqua",
         "italic": false
       },
       {
@@ -40,6 +35,38 @@
       {
         "text": "遠距離",
         "color": "blue",
+        "italic": false
+      }
+    ],
+    [
+    {
+        "text": "チャージ時間",
+        "color": "blue",
+        "italic": false
+      },
+      {
+        "text": " : ",
+        "color": "white",
+        "italic": false
+      },
+      {
+        "text": "×1.5",
+        "color": "gold",
+        "italic": false
+      },
+      {
+        "text": " 矢の消費",
+        "color": "green",
+        "italic": false
+      },
+      {
+        "text": " : ",
+        "color": "white",
+        "italic": false
+      },
+      {
+        "text": "×2",
+        "color": "gold",
         "italic": false
       }
     ],

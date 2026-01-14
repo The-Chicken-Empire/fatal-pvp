@@ -1,0 +1,116 @@
+{
+  "function": "minecraft:set_lore",
+  "lore": [
+    [
+      {
+        "text": "-- ",
+        "color": "white",
+        "italic": false
+      },
+      {
+        "text": "Clockwork Plan",
+        "color": "#6442ff",
+        "italic": false
+      },
+      {
+        "text": " --",
+        "color": "white",
+        "italic": false
+      }
+    ],
+    [
+      {
+        "text": "射撃時",
+        "italic": false,
+        "color": "yellow"
+      }
+    ],
+    [
+      {
+        "text": "時間を5秒進める。",
+        "italic": false,
+        "color": "white"
+      }
+    ],
+    [""],
+    [
+      {
+        "text": "-- ",
+        "color": "white",
+        "italic": false
+      },
+      {
+        "text": "クロノトラフ",
+        "color": "#0066ff",
+        "italic": false
+      },
+      {
+        "text": " --",
+        "color": "white",
+        "italic": false
+      }
+    ],
+    [
+      {
+        "text": "的中時",
+        "italic": false,
+        "color": "yellow"
+      }
+    ],
+    [
+      {
+        "text": "対象の手に持っているアイテムの",
+        "italic": false,
+        "color": "white"
+      },
+      {
+        "text": "CT",
+        "italic": false,
+        "color": "dark_aqua"
+      },
+      {
+        "text": "を6秒延長し、",
+        "italic": false,
+        "color": "white"
+      }
+    ],
+    [
+      {
+        "text": "自身の",
+        "italic": false,
+        "color": "white"
+      },
+      {
+        "text": "『タイムバウンドクロスボウ』",
+        "italic": false,
+        "color": "#8417ff"
+      },
+      {
+        "text": "の",
+        "italic": false,
+        "color": "white"
+      }
+    ],
+    [
+      {
+        "text": "左隣にあるアイテムの",
+        "italic": false,
+        "color": "white"
+      },
+      {
+        "text": "CT",
+        "italic": false,
+        "color": "dark_aqua"
+      },
+      {
+        "text": "を6秒短縮する。",
+        "italic": false,
+        "color": "white"
+      }
+    ],
+    [
+      ""
+    ]
+  ],
+  "mode": "append"
+}

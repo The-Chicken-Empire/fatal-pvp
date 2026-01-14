@@ -8,8 +8,8 @@
         "italic": false
       },
       {
-        "text": "ここにability名",
-        "color": "white",
+        "text": "サボテンオブザカクタス",
+        "color": "green",
         "italic": false
       },
       {
@@ -20,21 +20,51 @@
     ],
     [
       {
-        "text": "発動検知",
+        "text": "射撃",
         "italic": false,
         "color": "yellow"
       }
     ],
     [
       {
-        "text": "cost",
-        "italic": false,
-        "color": "white"
+        "text": "ダメージ",
+        "color": "red",
+        "italic": false
+      },
+      {
+        "text": " : ",
+        "color": "white",
+        "italic": false
+      },
+      {
+        "text": "1.5",
+        "color": "gold",
+        "italic": false
+      },
+      {
+        "text": " - ",
+        "color": "white",
+        "italic": false
+      },
+      {
+        "text": "物理",
+        "color": "gold",
+        "italic": false
+      },
+      {
+        "text": "/",
+        "color": "white",
+        "italic": false
+      },
+      {
+        "text": "遠距離",
+        "color": "blue",
+        "italic": false
       }
     ],
     [
       {
-        "text": "内容",
+        "text": "着弾点にサボテンを設置し、ダメージを与える。",
         "italic": false,
         "color": "white"
       }

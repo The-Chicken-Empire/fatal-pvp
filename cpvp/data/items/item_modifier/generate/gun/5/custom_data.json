@@ -1,0 +1,18 @@
+{
+  "function": "minecraft:set_custom_data",
+  "tag": {
+    "cpvp": {
+      "cost": 5,
+      "id": 5,
+      "item_type": "gun",
+      "mainhand": {
+        "triggers": [
+          "equip",
+          "unequip"
+        ]
+      },
+      "regularitem": 1,
+      "classitem": 0
+    }
+  }
+}

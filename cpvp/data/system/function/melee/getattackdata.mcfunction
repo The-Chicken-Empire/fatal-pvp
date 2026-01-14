@@ -8,4 +8,3 @@ $execute if entity @s[advancements={system:ehpprojectile=false}] run data modify
 $execute if entity @s[advancements={system:ehpprojectile=true}] run data modify storage cpvp:attackdata $(player).attacktype set value shot
 $execute if entity @s[advancements={system:ehpprojectile=true}] run data modify storage cpvp:attackdata $(player).id set from storage cpvp:gun id
 $execute if entity @s[advancements={system:ehpprojectile=true}] run data modify storage cpvp:attackdata $(player).itemtype set value gun
-execute if entity @s[advancements={system:ehpprojectile=true}] run say a
