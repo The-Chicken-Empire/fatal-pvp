@@ -1,5 +1,5 @@
 {
-  "description": "range5",
+  "description": "range7",
   "supported_items": [
     "minecraft:crossbow"
   ],
@@ -23,7 +23,7 @@
       {
         "effect": {
           "type": "minecraft:run_function",
-          "function": "items:skills/gun/5/hitblock"
+          "function": "items:skills/gun/7/hitblock"
         }
       }
     ],
@@ -41,6 +41,7 @@
     ],
     "minecraft:post_attack": [
       
+      
       {
         "requirements": {
           "condition": "minecraft:entity_properties",
@@ -51,22 +52,7 @@
         },
         "effect": {
           "type": "minecraft:run_function",
-          "function": "items:skills/gun/5/attacker"
-        },
-        "enchanted": "attacker",
-        "affected": "attacker"
-      },
-      {
-        "requirements": {
-          "condition": "minecraft:entity_properties",
-          "entity": "direct_attacker",
-          "predicate": {
-            "type": "#minecraft:arrows"
-          }
-        },
-        "effect": {
-          "type": "minecraft:run_function",
-          "function": "items:skills/gun/5/victim"
+          "function": "items:skills/gun/7/victim"
         },
         "enchanted": "attacker",
         "affected": "victim"
@@ -81,10 +67,25 @@
         },
         "effect": {
           "type": "minecraft:run_function",
-          "function": "items:skills/gun/5/hitarrow"
+          "function": "items:skills/gun/7/hitarrow"
         },
         "enchanted": "attacker",
         "affected": "damaging_entity"
+      },
+      {
+        "requirements": {
+          "condition": "minecraft:entity_properties",
+          "entity": "direct_attacker",
+          "predicate": {
+            "type": "#minecraft:arrows"
+          }
+        },
+        "effect": {
+          "type": "minecraft:run_function",
+          "function": "items:skills/gun/7/attacker"
+        },
+        "enchanted": "attacker",
+        "affected": "attacker"
       }
     ],
     "minecraft:damage": [
@@ -98,38 +99,35 @@
         },
         "effect": {
           "type": "minecraft:multiply",
-          "factor": 1.25
+          "factor": 0.6
         }
       }
     ],
     "minecraft:crossbow_charge_time": {
       "type": "minecraft:multiply",
-      "factor": 1.5
+      "factor": 0.5
     },
-    "minecraft:crossbow_charging_sounds": [
-      {
-        "end": "minecraft:block.vault.insert_item_fail",
-        "mid": "minecraft:block.chain.break",
-        "start": "minecraft:block.chain.place"
-      }
-    ],
     "minecraft:projectile_spawned": [
       {
         "effect": {
           "type": "minecraft:run_function",
-          "function": "items:skills/gun/5/shot"
+          "function": "items:skills/gun/7/shot"
         }
       }
     ],
-    "minecraft:ammo_use": [
+    "minecraft:projectile_count": [
       {
         "effect": {
           "type": "minecraft:add",
-          "value": {
-            "type": "minecraft:linear",
-            "base": 1,
-            "per_level_above_first": 1
-          }
+          "value": 2
+        }
+      }
+    ],
+    "minecraft:projectile_spread": [
+      {
+        "effect": {
+          "type": "minecraft:add",
+          "value": 8
         }
       }
     ]

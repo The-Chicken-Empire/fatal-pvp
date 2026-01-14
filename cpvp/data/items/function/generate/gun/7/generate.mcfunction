@@ -21,7 +21,7 @@ item modify block 0 0 0 container.0 items:generate/gun/7/ability
 
 item modify block 0 0 0 container.0 items:generate/gun/7/parts
 
-item modify block 0 0 0 container.0 items:generate/gun/7/flavor
+#item modify block 0 0 0 container.0 items:generate/gun/7/flavor
 
 #アトリビュートなどを追加したい場合はコメントをはずしてファイルを作成する
-#item modify block 0 0 0 container.0 items:generate/gun/7/others
+item modify block 0 0 0 container.0 items:generate/gun/7/others

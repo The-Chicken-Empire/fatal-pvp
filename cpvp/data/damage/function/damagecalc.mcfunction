@@ -112,6 +112,10 @@ scoreboard players operation @s damagetaken *= $damagecalc damagecalc
 scoreboard players operation @s damagetaken /= $100 main
 
 #スキルの処理
+##gun7 x1.5
+execute if entity @s[tag=range7hscalc] run scoreboard players operation @s damagetaken *= $3 main
+execute if entity @s[tag=range7hscalc] run scoreboard players operation @s damagetaken /= $2 main
+tag @s[tag=range7hscalc] remove range7hscalc
 ##helm4の効果 1.5倍
 execute as @a[tag=atker] if items entity @s armor.head golden_hoe[minecraft:custom_data~{cpvp:{id:4b,item_type:"helmet"}}] at @s if entity @e[tag=victim,distance=15..] run function items:skills/helmet/4/atk
 ##perk50の効果 0.6倍

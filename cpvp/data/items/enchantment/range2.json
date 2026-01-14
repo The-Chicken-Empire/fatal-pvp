@@ -49,6 +49,13 @@
     ],
     "minecraft:post_attack": [
       {
+        "requirements": {
+          "condition": "minecraft:entity_properties",
+          "entity": "direct_attacker",
+          "predicate": {
+            "type": "#minecraft:arrows"
+          }
+        },
         "effect": {
           "type": "minecraft:run_function",
           "function": "items:skills/gun/2/attacker"
@@ -57,6 +64,13 @@
         "affected": "attacker"
       },
       {
+        "requirements": {
+          "condition": "minecraft:entity_properties",
+          "entity": "direct_attacker",
+          "predicate": {
+            "type": "#minecraft:arrows"
+          }
+        },
         "effect": {
           "type": "minecraft:run_function",
           "function": "items:skills/gun/2/victim"

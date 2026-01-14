@@ -1,7 +1,9 @@
 {
   "description": "left_click",
   "supported_items": [
-    "minecraft:carrot_on_a_stick"
+    "minecraft:carrot_on_a_stick",
+    "minecraft:bow",
+    "minecraft:crossbow"
   ],
   "weight": 1,
   "max_level": 1,
