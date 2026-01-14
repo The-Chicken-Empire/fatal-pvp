@@ -43,11 +43,7 @@
       {
         "effect": {
           "type": "minecraft:multiply",
-          "factor": {
-            "type": "minecraft:linear",
-            "base": 0.5,
-            "per_level_above_first": 1
-          }
+          "factor": 0.5
         }
       }
     ],
@@ -58,7 +54,7 @@
           "function": "items:skills/gun/2/attacker"
         },
         "enchanted": "attacker",
-        "affected": "victim"
+        "affected": "attacker"
       },
       {
         "effect": {
@@ -66,7 +62,7 @@
           "function": "items:skills/gun/2/victim"
         },
         "enchanted": "attacker",
-        "affected": "attacker"
+        "affected": "victim"
       }
     ]
   }

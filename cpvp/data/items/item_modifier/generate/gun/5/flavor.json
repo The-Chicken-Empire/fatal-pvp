@@ -3,14 +3,30 @@
   "lore": [
     [
       {
-        "text": "ここにフレーバーテキストを書く",
+        "text": "これも無駄だ、あれも必要ない。",
         "color": "dark_gray",
         "italic": true
       }
     ],
     [
       {
-        "text": "ここは2行目",
+        "text": "無駄な物を、無駄な時間を、",
+        "color": "dark_gray",
+        "italic": true
+      }
+    ]
+    ,
+    [
+      {
+        "text": "全て削った先に、残されるは貴方一人。",
+        "color": "dark_gray",
+        "italic": true
+      }
+    ]
+    ,
+    [
+      {
+        "text": "其処には未来も過去も等しく存在しない。",
         "color": "dark_gray",
         "italic": true
       }

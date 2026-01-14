@@ -11,7 +11,7 @@
           "unequip"
         ]
       },
-      "regularitem": null,
+      "regularitem": 1,
       "classitem": 0
     }
   }
