@@ -1,0 +1,10 @@
+{
+  "function": "minecraft:set_name",
+  "name": [
+    {
+      "text": "鏃の向かう処",
+      "color": "white",
+      "italic": false
+    }
+  ]
+}
