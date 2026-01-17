@@ -1,0 +1,10 @@
+{
+  "function": "minecraft:set_name",
+  "name": [
+    {
+      "text": "『存在する蜃気楼』",
+      "color": "white",
+      "italic": false
+    }
+  ]
+}
