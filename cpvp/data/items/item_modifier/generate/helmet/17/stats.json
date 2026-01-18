@@ -1,5 +1,77 @@
 {
   "function": "minecraft:set_lore",
-  "lore": [],
+  "lore": [
+    [
+      {
+        "text": "防御力",
+        "color": "dark_blue",
+        "italic": false
+      },
+      {
+        "text": " : ",
+        "color": "white",
+        "italic": false
+      },
+      {
+        "text": "+5%",
+        "color": "gold",
+        "italic": false
+      }
+    ],
+    [
+      {
+        "text": "近距離防御力",
+        "color": "red",
+        "italic": false
+      },
+      {
+        "text": " : ",
+        "color": "white",
+        "italic": false
+      },
+      {
+        "text": "-20%",
+        "color": "gold",
+        "italic": false
+      }
+    ],
+    [
+      {
+        "text": "遠距離攻撃力",
+        "color": "blue",
+        "italic": false
+      },
+      {
+        "text": " : ",
+        "color": "white",
+        "italic": false
+      },
+      {
+        "text": "+8%",
+        "color": "gold",
+        "italic": false
+      }
+    ],
+    [
+      {
+        "text": "移動速度",
+        "color": "white",
+        "italic": false
+      },
+      {
+        "text": " : ",
+        "color": "white",
+        "italic": false
+      },
+      {
+        "text": "+15%",
+        "color": "gold",
+        "italic": false
+      }
+    ],
+    [
+      ""
+    ]
+  ],
   "mode": "append"
 }

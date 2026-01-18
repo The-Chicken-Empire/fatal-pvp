@@ -6,6 +6,12 @@
       "id": 17,
       "item_type": "helmet",
       "helmet": {
+        "stats": {
+          "defence": 5,
+          "meleedef": -20,
+          "rangedmg": 8,
+          "speed": 15
+        },
         "triggers": [
           "attack2"
         ]
