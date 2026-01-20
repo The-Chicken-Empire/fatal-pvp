@@ -23,6 +23,7 @@
       "speed_multiplier": 0
     },
     "enchantments": {
+      "items:all": 1,
       "items:range7": 1
     },
     "minecraft:tooltip_display": {
