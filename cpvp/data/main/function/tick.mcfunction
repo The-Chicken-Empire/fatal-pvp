@@ -31,7 +31,7 @@ execute as @e[tag=entity_death] at @s run function damage:entity_death
 
 #tick始めdamage処理
 execute if entity @a[scores={damageresist=1..},tag=!meleevictimtmp2] as @a[scores={damageresist=1..},tag=!meleevictimtmp2] run function damage:naturaldamage
-execute if entity @a[scores={damageresist=1..},tag=meleevictimtmp2] as @a[scores={damageresist=1..},tag=meleevictimtmp2] run function system:melee/getattacker
+execute if entity @e[scores={damageresist=1..},tag=meleevictimtmp2] as @e[scores={damageresist=1..},tag=meleevictimtmp2] run function system:melee/getattacker
 tag @e remove meleeatkertmp2
 #えんちちの死亡処理
 

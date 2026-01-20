@@ -1,5 +1,6 @@
 #これが弓を受けた時のデータ
-data modify storage cpvp:gun id set value 7
+data modify storage cpvp:getbowdata id set value 7
+function items:skills/gun/arrow/data
 
 execute unless entity @s[type=player] run return fail
 execute at @s run playsound entity.evoker_fangs.attack hostile @s ~ ~ ~ 1 1.4 1

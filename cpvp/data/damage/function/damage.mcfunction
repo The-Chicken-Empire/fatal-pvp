@@ -23,7 +23,7 @@ execute if entity @s[type=!player,tag=!meleeentity] store result score @s tmp ru
 execute if entity @s[type=!player,tag=!meleeentity] run data modify entity @s Health set value 1000
 execute if entity @s[type=!player,tag=!meleeentity] run damage @s 1 cactus
 execute if entity @s[type=!player,tag=!meleeentity] store result entity @s Health float 1 run scoreboard players get @s tmp
-execute if entity @s[type=player,tag=!meleevictim] if entity @s[tag=!nodamagehop] run damage @s 0.00000001 magic
+execute if entity @s[type=player,tag=!meleevictim,tag=!rangevictim] if entity @s[tag=!nodamagehop] run damage @s 0.00000001 magic
 tag @s remove nodamagehop
 scoreboard players reset @s tmp
 tag @s remove meleeentity
@@ -57,11 +57,13 @@ function system:attackdata/remove with storage cpvp:tmp
 data remove storage cpvp:tmp tmp
 
 tag @s remove meleevictim
+tag @s remove rangevictim
 
 data remove storage atktrigger: hage
 
 scoreboard players set $tmp tmp 0
 execute as @e[tag=meleevictim] if score @s attackerdata = @e[tag=atker,limit=1] playerdata run scoreboard players add $tmp tmp 1
+execute as @e[tag=rangevictim] if score @s attackerdata = @e[tag=atker,limit=1] playerdata run scoreboard players add $tmp tmp 1
 execute if score $tmp tmp matches 0 run tag @s remove meleeatker
 #perk28処理 30%で追加攻撃
 execute unless score $tmp perk28 matches 2.. as @a[tag=atker,limit=1] if items entity @s hotbar.* *[custom_data~{cpvp:{id:28b,item_type:"perk"}}] run function items:skills/perk/28/extra

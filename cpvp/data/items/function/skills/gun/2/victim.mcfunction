@@ -1,2 +1,3 @@
 #これが弓を受けた時のデータ
-data modify storage cpvp:gun id set value 2
+data modify storage cpvp:getbowdata id set value 2
+function items:skills/gun/arrow/data
