@@ -1,0 +1,137 @@
+{
+  "function": "minecraft:set_lore",
+  "lore": [
+    [""],
+    [
+      {
+        "text": "-- ",
+        "color": "white",
+        "italic": false
+      },
+      {
+        "text": "存在しないという事実だけが残る",
+        "color": "#cda7ff",
+        "italic": false
+      },
+      {
+        "text": " --",
+        "color": "white",
+        "italic": false
+      }
+    ],
+    [
+      {
+        "text": "死亡時",
+        "italic": false,
+        "color": "yellow"
+      }
+    ],
+    [
+      {
+        "text": "クールタイム",
+        "color": "dark_aqua"
+      },
+      {
+        "text": " : ",
+        "color": "white"
+      },
+      {
+        "text": "600秒",
+        "color": "green"
+      }
+    ],
+    [
+      {
+        "text": "体力を",
+        "italic": false,
+        "color": "white"
+      },
+      {
+        "text": "1",
+        "italic": false,
+        "color": "gold"
+      },
+      {
+        "text": "まで",
+        "italic": false,
+        "color": "white"
+      },
+      {
+        "text": "回復",
+        "italic": false,
+        "color": "light_purple"
+      },
+      {
+        "text": "し、",
+        "italic": false,
+        "color": "white"
+      },
+      {
+        "text": "ランダムな味方に転移する。",
+        "italic": false,
+        "color": "white"
+      }
+    ],
+    [
+      {
+        "text": "味方がいない場合、死亡する。",
+        "italic": false,
+        "color": "white"
+      }
+    ],
+    [""
+    ],
+    [
+      {
+        "text": "-- ",
+        "color": "white",
+        "italic": false
+      },
+      {
+        "text": "Exodus",
+        "color": "#fa66ff",
+        "italic": false
+      },
+      {
+        "text": " --",
+        "color": "white",
+        "italic": false
+      }
+    ],
+    [
+      {
+        "text": "攻撃的中時",
+        "italic": false,
+        "color": "yellow"
+      }
+    ],
+    [
+      {
+        "text": "攻撃方法が弓矢によるものだった時、",
+        "italic": false,
+        "color": "white"
+      }
+    ],
+    [
+      {
+        "text": "[再生:lv1]",
+        "italic": false,
+        "color": "light_purple"
+      },
+      {
+        "text": "[移動速度上昇:lv2]",
+        "italic": false,
+        "color": "white"
+      },
+      {
+        "text": "を5秒得る。",
+        "italic": false,
+        "color": "white"
+      }
+    ],
+    [
+      ""
+    ]
+  ],
+  "mode": "append"
+}

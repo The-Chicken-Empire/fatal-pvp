@@ -18,7 +18,9 @@ advancement revoke @s only system:ehpprojectile
 scoreboard players reset @s meleeattacker
 
 execute store result storage cpvp:tmp player byte 1 run scoreboard players get @s playerdata
-function damage:atktrigger/melee/p with storage cpvp:tmp
+execute if entity @e[tag=meleedamage] run function damage:atktrigger/melee/p with storage cpvp:tmp
+execute if data storage cpvp:gun id as @a[tag=meleeatkertmp3] run tag @s add arrowattack
+
 data remove storage cpvp:gun id
 data remove storage cpvp:tmp player
 

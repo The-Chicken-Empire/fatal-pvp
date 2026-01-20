@@ -1,0 +1,10 @@
+{
+  "function": "minecraft:set_name",
+  "name": [
+    {
+      "text": "レイル工房の圧縮矢 3/3",
+      "color": "white",
+      "italic": false
+    }
+  ]
+}

@@ -2,6 +2,7 @@
   "function": "minecraft:set_components",
   "components": {
     "enchantments": {
+      "items:all": 1,
       "items:range5": 1
     },
     "minecraft:tooltip_display": {

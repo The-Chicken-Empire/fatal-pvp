@@ -1,0 +1,10 @@
+{
+  "function": "minecraft:set_name",
+  "name": [
+    {
+      "text": "主の居ないネックウォーマー",
+      "color": "#1606ff",
+      "italic": false
+    }
+  ]
+}

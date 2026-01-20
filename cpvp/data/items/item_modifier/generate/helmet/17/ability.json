@@ -1,0 +1,123 @@
+{
+  "function": "minecraft:set_lore",
+  "lore": [
+    [
+      {
+        "text": "-- ",
+        "color": "white",
+        "italic": false
+      },
+      {
+        "text": "戦場俯瞰する狙撃手の蒼眼",
+        "color": "#0e33af",
+        "italic": false
+      },
+      {
+        "text": " --",
+        "color": "white",
+        "italic": false
+      }
+    ],
+    [
+      {
+        "text": "攻撃的中時",
+        "italic": false,
+        "color": "yellow"
+      }
+    ],
+    [
+      {
+        "text": "対象との距離5m毎にダメージが",
+        "italic": false,
+        "color": "white"
+      },
+      {
+        "text": "4%",
+        "italic": false,
+        "color": "yellow"
+      },
+      {
+        "text": "増加する。",
+        "italic": false,
+        "color": "white"
+      }
+    ],
+    [
+      {
+        "text": "対象が空中に居る時、ダメージが",
+        "italic": false,
+        "color": "white"
+      },
+      {
+        "text": "20%",
+        "italic": false,
+        "color": "yellow"
+      },
+      {
+        "text": "増加する。",
+        "italic": false,
+        "color": "white"
+      }
+    ],
+    [
+      {
+        "text": "内容",
+        "italic": false,
+        "color": "white"
+      }
+    ],
+    [
+      ""
+    ],
+    [
+      {
+        "text": "-- ",
+        "color": "white",
+        "italic": false
+      },
+      {
+        "text": "劣化した青き統率者の記憶",
+        "color": "#1c7eff",
+        "italic": false
+      },
+      {
+        "text": " --",
+        "color": "white",
+        "italic": false
+      }
+    ],
+    [
+      {
+        "text": "被攻撃時",
+        "italic": false,
+        "color": "yellow"
+      }
+    ],
+    [
+      {
+        "text": "遠距離攻撃",
+        "italic": false,
+        "color": "blue"
+      },
+      {
+        "text": "だった時、",
+        "italic": false,
+        "color": "white"
+      },
+      {
+        "text": "50%",
+        "italic": false,
+        "color": "yellow"
+      },
+      {
+        "text": "の確率で無効化する。",
+        "italic": false,
+        "color": "white"
+      }
+    ],
+    [
+      ""
+    ]
+  ],
+  "mode": "append"
+}
