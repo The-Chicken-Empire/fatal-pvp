@@ -1,6 +1,7 @@
 {
   "function": "minecraft:set_lore",
   "lore": [
+    [""],
     [
       {
         "text": "-- ",
@@ -8,8 +9,8 @@
         "italic": false
       },
       {
-        "text": "ここにability名",
-        "color": "white",
+        "text": "停止",
+        "color": "gray",
         "italic": false
       },
       {
@@ -20,21 +21,14 @@
     ],
     [
       {
-        "text": "発動検知",
+        "text": "的中時",
         "italic": false,
         "color": "yellow"
       }
     ],
     [
       {
-        "text": "cost",
-        "italic": false,
-        "color": "white"
-      }
-    ],
-    [
-      {
-        "text": "内容",
+        "text": "ノックバックさせない。",
         "italic": false,
         "color": "white"
       }
