@@ -40,8 +40,6 @@
       }
     ],
     "minecraft:post_attack": [
-      
-      
       {
         "requirements": {
           "condition": "minecraft:entity_properties",

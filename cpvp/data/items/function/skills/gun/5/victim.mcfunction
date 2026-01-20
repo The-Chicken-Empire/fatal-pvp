@@ -1,5 +1,6 @@
 #これが弓を受けた時のデータ
-data modify storage cpvp:gun id set value 5
+data modify storage cpvp:getbowdata id set value 5
+function items:skills/gun/arrow/data
 
 execute at @s run playsound item.spyglass.use player @s ~ ~ ~ 1 0 1
 execute at @s run playsound item.spyglass.use player @s ~ ~ ~ 1 0 1
