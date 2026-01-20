@@ -29,7 +29,8 @@ tag @s remove victimtmp
 #ダメージ計算
 scoreboard players operation @s damagetaken = @s damageresist
 scoreboard players reset @s damageresist
-tag @s add meleevictim
+execute if entity @e[tag=meleedamage] run tag @s add meleevictim
+execute unless entity @e[tag=meleedamage] run tag @s add rangevictim
 tag @s remove meleevictimtmp2
 execute as @e[tag=meleeatkertmp3] run tag @s add meleeatker
 tag @a remove meleeatkertmp3
