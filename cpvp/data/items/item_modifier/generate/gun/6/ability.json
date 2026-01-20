@@ -8,8 +8,8 @@
         "italic": false
       },
       {
-        "text": "ここにability名",
-        "color": "white",
+        "text": "アンストッパブル",
+        "color": "#2ad4ff",
         "italic": false
       },
       {
@@ -20,21 +20,64 @@
     ],
     [
       {
-        "text": "発動検知",
+        "text": "常時",
         "italic": false,
         "color": "yellow"
       }
     ],
     [
       {
-        "text": "cost",
+        "text": "弓のチャージ中、移動速度が減少しない。",
+        "italic": false,
+        "color": "white"
+      }
+    ],
+    [""
+    ],
+    [
+      {
+        "text": "-- ",
+        "color": "white",
+        "italic": false
+      },
+      {
+        "text": "フォーカス-777",
+        "color": "#f2ff40",
+        "italic": false
+      },
+      {
+        "text": " --",
+        "color": "white",
+        "italic": false
+      }
+    ],
+    [
+      {
+        "text": "弓矢的中時",
+        "italic": false,
+        "color": "yellow"
+      }
+    ],
+    [
+      {
+        "text": "この弓によるダメージが",
+        "italic": false,
+        "color": "white"
+      },
+      {
+        "text": "7%",
+        "italic": false,
+        "color": "yellow"
+      },
+      {
+        "text": "上昇する。(重複可能)",
         "italic": false,
         "color": "white"
       }
     ],
     [
       {
-        "text": "内容",
+        "text": "弓矢が的中しなかった時、この効果はリセットされる。",
         "italic": false,
         "color": "white"
       }

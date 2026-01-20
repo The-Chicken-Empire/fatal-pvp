@@ -3,14 +3,28 @@
   "lore": [
     [
       {
-        "text": "ここにフレーバーテキストを書く",
+        "text": "いつかの戦争にて一人の傭兵が使用した弓。",
         "color": "dark_gray",
         "italic": true
       }
     ],
     [
       {
-        "text": "ここは2行目",
+        "text": "その弓は軽く、誰でも扱える様に作られているが、",
+        "color": "dark_gray",
+        "italic": true
+      }
+    ],
+    [
+      {
+        "text": "一体誰がその力に使われぬ事が出来るのか？",
+        "color": "dark_gray",
+        "italic": true
+      }
+    ],
+    [
+      {
+        "text": "『これは...俺に使われるべきじゃなかったのにな...』",
         "color": "dark_gray",
         "italic": true
       }

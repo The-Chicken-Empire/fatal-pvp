@@ -8,8 +8,8 @@
         "italic": false
       },
       {
-        "text": "ここにability名",
-        "color": "white",
+        "text": "聖矢解砲",
+        "color": "#ddd484",
         "italic": false
       },
       {
@@ -20,21 +20,41 @@
     ],
     [
       {
-        "text": "発動検知",
+        "text": "右クリック",
         "italic": false,
         "color": "yellow"
       }
     ],
     [
       {
-        "text": "cost",
+        "text": "消費MP",
         "italic": false,
+        "color": "blue"
+      },
+      {
+        "text": " : ",
         "color": "white"
+      },
+      {
+        "text": "12",
+        "color": "green"
+      },
+      {
+        "text": "クールタイム",
+        "color": "dark_aqua"
+      },
+      {
+        "text": " : ",
+        "color": "white"
+      },
+      {
+        "text": "10秒",
+        "color": "green"
       }
     ],
     [
       {
-        "text": "内容",
+        "text": "光の矢を10本入手する。",
         "italic": false,
         "color": "white"
       }
