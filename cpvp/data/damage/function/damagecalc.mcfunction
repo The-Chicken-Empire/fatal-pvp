@@ -43,7 +43,7 @@ execute if items entity @n[tag=atker] weapon.mainhand *[custom_data~{cpvp:{id:17
 
 
 #damage2trigger 軽減とか上昇とか
-execute as @a[tag=atker,tag=arrowattack] run function system:melee/hitarrow
+#execute as @a[tag=atker,tag=arrowattack] run function system:melee/hitarrow
 execute as @e[tag=atker] run function items:triggers/attack2/check
 execute as @e[tag=victim] run function items:triggers/attacked2/check
 execute as @e[tag=atker] run function damage:atktrigger/attack2 with storage atktrigger: hage
