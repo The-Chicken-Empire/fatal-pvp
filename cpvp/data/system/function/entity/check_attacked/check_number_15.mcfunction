@@ -9,7 +9,7 @@ execute if entity @a[tag=atkertmp,advancements={system:entity/phe={15-0 = true}}
 execute if entity @a[tag=atkertmp,advancements={system:entity/phe={15-1 = true}}] as @s[tag=ID15.1] run tag @s add victimtmp
 
 #damagecalc
-execute unless entity @s[tag=victimtmp] run return run say なぜこれが映っている？
+execute unless entity @s[tag=victimtmp] run return fail
 
 
 scoreboard players set @s damageresist 10000
@@ -21,7 +21,6 @@ scoreboard players reset $tmp tmp
 execute if entity @e[tag=atkertmp,advancements={system:projectile=false}] run tag @s add meleedamage
 execute if entity @e[tag=atkertmp,advancements={system:projectile=true}] run tag @s add rangedamage
 
-
 ##このへんまじで怪しい
 #data modify storage atktrigger: hage set value {itemtype:magic,id:1,atktype:melee}
 #execute if entity @e[tag=atkertmp,advancements={system:projectile=false}] run data modify storage atktrigger: hage.atktype set value melee
@@ -29,13 +28,15 @@ execute if entity @e[tag=atkertmp,advancements={system:projectile=true}] run tag
 #execute if entity @e[tag=atkertmp,advancements={system:projectile=false}] run data modify storage atktrigger: hage.itemtype set from entity @a[tag=atkertmp,limit=1] SelectedItem.components."minecraft:custom_data".cpvp.item_type
 #execute if entity @e[tag=atkertmp,advancements={system:projectile=true}] run data modify storage atktrigger: hage.atktype set value shot
 
-
-
+#data取得
+execute store result storage cpvp:tmp entity byte 1 run scoreboard players get @s entitydata
+function system:melee/getattackdatae with storage cpvp:tmp
+data remove storage cpvp:tmp entity
 
 
 
 execute if entity @s[tag=victimtmp] run scoreboard players operation @s meleeattacker = @e[tag=atkertmp,limit=1] playerdata
-#execute if entity @s[tag=victimtmp] run tag @s add meleeentity
+execute if entity @s[tag=victimtmp] run tag @s add meleeentity
 
 #わからん
 #xecute if entity @s[tag=victimtmp] if entity @e[tag=atkertmp,advancements={system:projectile=false}] run tag @s add meleevictim
