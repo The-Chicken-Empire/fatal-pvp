@@ -3,14 +3,35 @@
   "lore": [
     [
       {
-        "text": "未完成",
+        "text": "遠い過去にレイル工房で作られていた矢筒。",
         "color": "dark_gray",
         "italic": true
       }
     ],
     [
       {
-        "text": "",
+        "text": "高度の空間歪曲技術が用いられており、",
+        "color": "dark_gray",
+        "italic": true
+      }
+    ],
+    [
+      {
+        "text": "軽量かつ莫大な容量で絶大な人気があったが、",
+        "color": "dark_gray",
+        "italic": true
+      }
+    ],
+    [
+      {
+        "text": "製作者のレイルが失踪した為もう作られることはない。",
+        "color": "dark_gray",
+        "italic": true
+      }
+    ],
+    [
+      {
+        "text": "...なら何故、ここに存在しているんだ？",
         "color": "dark_gray",
         "italic": true
       }

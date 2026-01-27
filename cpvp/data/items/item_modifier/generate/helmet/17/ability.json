@@ -8,7 +8,7 @@
         "italic": false
       },
       {
-        "text": "戦場俯瞰する狙撃手の蒼眼",
+        "text": "戦場俯瞰する射手の蒼眼",
         "color": "#0e33af",
         "italic": false
       },
@@ -32,12 +32,12 @@
         "color": "white"
       },
       {
-        "text": "4%",
+        "text": "5%",
         "italic": false,
         "color": "yellow"
       },
       {
-        "text": "増加する。",
+        "text": "増加する。(最大50%)",
         "italic": false,
         "color": "white"
       }
@@ -55,13 +55,6 @@
       },
       {
         "text": "増加する。",
-        "italic": false,
-        "color": "white"
-      }
-    ],
-    [
-      {
-        "text": "内容",
         "italic": false,
         "color": "white"
       }

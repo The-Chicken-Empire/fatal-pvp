@@ -1,0 +1,1 @@
+execute if entity @s[nbt={item:{components:{"minecraft:custom_data":{cpvp:{arrowid:2b}}}}}] run particle dust{color:5024255,scale:0.7} ~ ~ ~ 0 0 0 1 1 normal

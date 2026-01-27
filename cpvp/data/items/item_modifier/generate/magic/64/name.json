@@ -2,8 +2,8 @@
   "function": "minecraft:set_name",
   "name": [
     {
-      "text": "レイル工房の圧縮矢 3/3",
-      "color": "white",
+      "text": "レイル工房の圧縮矢",
+      "color": "#15f7ff",
       "italic": false
     }
   ]

@@ -2,8 +2,8 @@
   "function": "minecraft:set_name",
   "name": [
     {
-      "text": "聖矢",
-      "color": "white",
+      "text": "光矢",
+      "color": "#f4ff5c",
       "italic": false
     }
   ]
