@@ -1,0 +1,2 @@
+scoreboard players set @s gun6 0
+tellraw @s [{text:"[",color:"yellow","italic":false},{text:"鏃の向かう処",color:"#585eb1",italic:false},{text:"]",color:"yellow","italic":false},{text:" リセット",color:"aqua",italic:false},{text:"(+",color:"yellow","italic":false},{"score":{objective:gun6,name:"@s"},color:"yellow",italic:false},{text:"%)",color:"yellow","italic":false}]

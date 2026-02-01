@@ -11,3 +11,4 @@ execute as @a run function items:skills/perk/24/reset
 execute as @a run function items:skills/perk/29/reset
 execute as @a run function items:skills/magic/55/reset
 execute as @a run function items:skills/food/4/reset
+execute as @a run function items:skills/gun/6/reset
