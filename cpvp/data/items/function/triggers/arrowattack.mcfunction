@@ -1,0 +1,1 @@
+execute if items entity @s weapon.offhand *[custom_data~{cpvp:{item_type:offhand,id:23b}}] run function items:skills/offhand/23/hitarrow

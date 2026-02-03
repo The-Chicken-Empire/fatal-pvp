@@ -3,14 +3,28 @@
   "lore": [
     [
       {
-        "text": "未完成",
+        "text": "とある戦争で『蒼い影』と呼ばれる者が居た。",
         "color": "dark_gray",
         "italic": true
       }
     ],
     [
       {
-        "text": "",
+        "text": "誰もその素顔を見たことはなく、蒼い残影が残るのみ。",
+        "color": "dark_gray",
+        "italic": true
+      }
+    ],
+    [
+      {
+        "text": "誰も覚えていない工房の装備を身に纏う其の者は...",
+        "color": "dark_gray",
+        "italic": true
+      }
+    ],
+    [
+      {
+        "text": "『レイル』と名乗っていた。",
         "color": "dark_gray",
         "italic": true
       }

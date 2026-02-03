@@ -1,0 +1,1 @@
+tellraw @s {"text":"味方が居ない為発動に失敗した！","bold":true,"color":"red"}

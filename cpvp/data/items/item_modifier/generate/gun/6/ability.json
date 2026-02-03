@@ -41,7 +41,7 @@
         "italic": false
       },
       {
-        "text": "フォーカス-777",
+        "text": "フォーカス -777-",
         "color": "#f2ff40",
         "italic": false
       },
@@ -65,12 +65,12 @@
         "color": "white"
       },
       {
-        "text": "7%",
+        "text": "10%",
         "italic": false,
         "color": "yellow"
       },
       {
-        "text": "上昇する。(重複可能)",
+        "text": "上昇する。(上限10回)",
         "italic": false,
         "color": "white"
       }

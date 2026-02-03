@@ -95,6 +95,8 @@ function items:tick
 execute if entity @e[tag=skillmarker,limit=1] as @e[tag=skillmarker] run scoreboard players add @s skills 1
 # スキルmarker用tickファイル
 execute if entity @e[tag=skillmarker,limit=1] as @e[tag=skillmarker] at @s run function items:markertick
+# 矢tick
+execute if entity @e[type=arrow] as @e[type=arrow] at @s run function items:skills/arrow/tick
 # スキルtick
 function items:skills/tick
 #ここにperk44に必要なコマンドを無断で挿入

@@ -1,0 +1,14 @@
+[
+{
+  "function": "minecraft:set_custom_data",
+  "tag": {
+    "cpvp": {
+      "arrowid" : 2
+    }
+  }
+},
+{
+  "function": "set_count",
+  "count": 12
+}
+]

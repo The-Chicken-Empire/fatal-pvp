@@ -9,7 +9,7 @@
         "italic": false
       },
       {
-        "text": "存在しないという事実だけが残る",
+        "text": "過去改変の霧",
         "color": "#cda7ff",
         "italic": false
       },
@@ -29,15 +29,18 @@
     [
       {
         "text": "クールタイム",
-        "color": "dark_aqua"
+        "color": "dark_aqua",
+        "italic": false
       },
       {
         "text": " : ",
-        "color": "white"
+        "color": "white",
+        "italic": false
       },
       {
         "text": "600秒",
-        "color": "green"
+        "color": "green",
+        "italic": false
       }
     ],
     [
@@ -52,14 +55,14 @@
         "color": "gold"
       },
       {
-        "text": "まで",
+        "text": "に",
         "italic": false,
         "color": "white"
       },
       {
-        "text": "回復",
+        "text": "設定",
         "italic": false,
-        "color": "light_purple"
+        "color": "white"
       },
       {
         "text": "し、",
@@ -88,8 +91,8 @@
         "italic": false
       },
       {
-        "text": "Exodus",
-        "color": "#fa66ff",
+        "text": "蒼穹の射手の記憶",
+        "color": "#653aff",
         "italic": false
       },
       {

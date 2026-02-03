@@ -3,14 +3,28 @@
   "lore": [
     [
       {
-        "text": "未完成",
+        "text": "「俺を殺した？...ふむ、君にも記憶は残るのか」",
         "color": "dark_gray",
         "italic": true
       }
     ],
     [
       {
-        "text": "",
+        "text": "若干の不具合だな、まあ...いいだろう。",
+        "color": "dark_gray",
+        "italic": true
+      }
+    ],
+    [
+      {
+        "text": "起動すればそれまでの事象は改変され、無くなる。",
+        "color": "dark_gray",
+        "italic": true
+      }
+    ],
+    [
+      {
+        "text": "さながら蜃気楼の様に...消え去ってしまうんだ。",
         "color": "dark_gray",
         "italic": true
       }

@@ -1,0 +1,93 @@
+{
+  "description": "range7",
+  "supported_items": [
+    "minecraft:bow"
+  ],
+  "weight": 1,
+  "max_level": 10,
+  "min_cost": {
+    "base": 0,
+    "per_level_above_first": 0
+  },
+  "max_cost": {
+    "base": 0,
+    "per_level_above_first": 0
+  },
+  "anvil_cost": 0,
+  "slots": [
+    "mainhand",
+    "offhand"
+  ],
+  "effects": {
+    "minecraft:hit_block": [
+      {
+        "effect": {
+          "type": "minecraft:run_function",
+          "function": "items:skills/gun/6/hitblock"
+        }
+      }
+    ],
+    "minecraft:post_attack": [
+      {
+        "requirements": {
+          "condition": "minecraft:entity_properties",
+          "entity": "direct_attacker",
+          "predicate": {
+            "type": "#minecraft:arrows"
+          }
+        },
+        "effect": {
+          "type": "minecraft:run_function",
+          "function": "items:skills/gun/6/victim"
+        },
+        "enchanted": "attacker",
+        "affected": "victim"
+      },
+      {
+        "requirements": {
+          "condition": "minecraft:entity_properties",
+          "entity": "direct_attacker",
+          "predicate": {
+            "type": "#minecraft:arrows"
+          }
+        },
+        "effect": {
+          "type": "minecraft:run_function",
+          "function": "items:skills/gun/6/hitarrow"
+        },
+        "enchanted": "attacker",
+        "affected": "damaging_entity"
+      },
+      {
+        "requirements": {
+          "condition": "minecraft:entity_properties",
+          "entity": "direct_attacker",
+          "predicate": {
+            "type": "#minecraft:arrows"
+          }
+        },
+        "effect": {
+          "type": "minecraft:run_function",
+          "function": "items:skills/gun/6/attacker"
+        },
+        "enchanted": "attacker",
+        "affected": "attacker"
+      }
+    ],
+    "minecraft:damage": [
+      {
+        "requirements": {
+          "condition": "minecraft:entity_properties",
+          "entity": "direct_attacker",
+          "predicate": {
+            "type": "#minecraft:arrows"
+          }
+        },
+        "effect": {
+          "type": "minecraft:multiply",
+          "factor": 0.6
+        }
+      }
+    ]
+  }
+}

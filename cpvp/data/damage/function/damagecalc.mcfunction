@@ -19,6 +19,10 @@ execute as @e[tag=atker] run function items:triggers/attack1/check
 execute as @e[tag=victim] run function items:triggers/attacked1/check
 execute as @e[tag=atker] run function damage:atktrigger/attack1 with storage atktrigger: hage
 
+#helm17 遠距離50%無視
+execute if items entity @s armor.head *[custom_data~{cpvp:{id:17b,item_type:"helmet"}}] run function items:skills/helmet/17/ignore
+execute if entity @s[tag=helm17ignore] run return run tag @s remove helm17ignore
+
 #agi処理
 execute store result score $dummy random run random value 1..100
 
@@ -43,7 +47,8 @@ execute if items entity @n[tag=atker] weapon.mainhand *[custom_data~{cpvp:{id:17
 
 
 #damage2trigger 軽減とか上昇とか
-#execute as @a[tag=atker,tag=arrowattack] run function system:melee/hitarrow
+execute as @a[tag=atker,tag=arrowattack] run function items:triggers/arrowattack
+tag @s[tag=arrowattack] remove arrowattack
 execute as @e[tag=atker] run function items:triggers/attack2/check
 execute as @e[tag=victim] run function items:triggers/attacked2/check
 execute as @e[tag=atker] run function damage:atktrigger/attack2 with storage atktrigger: hage
