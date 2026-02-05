@@ -8,7 +8,7 @@
         "italic": false
       },
       {
-        "text": "新約の加護",
+        "text": "躊躇は不要",
         "color": "yellow",
         "italic": false
       },
@@ -27,14 +27,7 @@
     ],
     [
       {
-        "text": "攻撃がかなり強化される。",
-        "italic": false,
-        "color":"white"
-      }
-    ],
-    [
-      {
-        "text": "全てのステータスが100倍になる。",
+        "text": "与ダメージが上昇する。",
         "italic": false,
         "color":"white"
       }
@@ -46,7 +39,7 @@
         "italic": false
       },
       {
-        "text": "旧約の烙印",
+        "text": "烙印",
         "color": "dark_purple",
         "italic": false
       },
@@ -59,13 +52,6 @@
     [
       {
         "text": "視界が非常に悪くなる。",
-        "italic": false,
-        "color":"white"
-      }
-    ],
-    [
-      {
-        "text": "全てのステータスが0.01倍になる。",
         "italic": false,
         "color":"white"
       }

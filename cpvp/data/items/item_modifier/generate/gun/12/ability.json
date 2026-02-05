@@ -8,8 +8,8 @@
         "italic": false
       },
       {
-        "text": "ここにability名",
-        "color": "white",
+        "text": "イグザルテッドセラフィエル",
+        "color": "red",
         "italic": false
       },
       {
@@ -20,21 +20,58 @@
     ],
     [
       {
-        "text": "発動検知",
+        "text": "左クリック",
         "italic": false,
         "color": "yellow"
       }
     ],
     [
       {
-        "text": "cost",
-        "italic": false,
-        "color": "white"
+        "text": "ダメージ",
+        "color": "red",
+        "italic": false
+      },
+      {
+        "text": " : ",
+        "color": "white",
+        "italic": false
+      },
+      {
+        "text": "0.4",
+        "color": "gold",
+        "italic": false
+      },
+      {
+        "text": " - ",
+        "color": "white",
+        "italic": false
+      },
+      {
+        "text": "物理",
+        "color": "gold",
+        "italic": false
+      },
+      {
+        "text": "/",
+        "color": "white",
+        "italic": false
+      },
+      {
+        "text": "遠距離",
+        "color": "blue",
+        "italic": false
       }
     ],
     [
       {
-        "text": "内容",
+        "text": "プレイヤーに刺した矢をすべて引き寄せ、",
+        "italic": false,
+        "color": "white"
+      }
+    ],
+        [
+      {
+        "text": "当たった敵にダメージを与える。",
         "italic": false,
         "color": "white"
       }

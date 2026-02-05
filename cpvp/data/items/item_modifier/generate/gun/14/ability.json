@@ -8,8 +8,8 @@
         "italic": false
       },
       {
-        "text": "ここにability名",
-        "color": "white",
+        "text": "レゾナンス",
+        "color": "yellow",
         "italic": false
       },
       {
@@ -20,21 +20,7 @@
     ],
     [
       {
-        "text": "発動検知",
-        "italic": false,
-        "color": "yellow"
-      }
-    ],
-    [
-      {
-        "text": "cost",
-        "italic": false,
-        "color": "white"
-      }
-    ],
-    [
-      {
-        "text": "内容",
+        "text": "[発光]を8秒付与する。",
         "italic": false,
         "color": "white"
       }

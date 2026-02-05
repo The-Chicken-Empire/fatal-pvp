@@ -1,5 +1,44 @@
 {
   "function": "minecraft:set_lore",
-  "lore": [],
+  "lore": [
+    [
+    {
+        "text": "威力",
+        "color": "red",
+        "italic": false
+      },
+      {
+        "text": " : ",
+        "color": "white",
+        "italic": false
+      },
+      {
+        "text": "×1",
+        "color": "gold",
+        "italic": false
+      },
+      {
+        "text": " - ",
+        "color": "white",
+        "italic": false
+      },
+      {
+        "text": "物理",
+        "color": "gold",
+        "italic": false
+      },
+      {
+        "text": "/",
+        "color": "white",
+        "italic": false
+      },
+      {
+        "text": "遠距離",
+        "color": "blue",
+        "italic": false
+      }
+    ],
+    [""]
+  ],
   "mode": "append"
 }
