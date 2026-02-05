@@ -1,0 +1,20 @@
+{
+  "function": "minecraft:set_components",
+  "components": {
+    "enchantments": {
+      "items:all": 1,
+      "items:gun/12/": 1,
+      "items:left_click": 1
+    },
+    "minecraft:tooltip_display": {
+      "hidden_components": [
+        "minecraft:attribute_modifiers",
+        "unbreakable",
+        "enchantments"
+      ]
+    },
+    "minecraft:enchantment_glint_override": true,
+    "unbreakable": {},
+    "piercing_weapon":{}
+  }
+}

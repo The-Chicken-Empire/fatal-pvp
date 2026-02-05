@@ -53,13 +53,13 @@ execute unless score @s hp matches ..0 run function items:triggers/damaged/check
 
 #attackdata削除
 execute store result storage cpvp:tmp tmp byte 1 run scoreboard players get @s playerdata
-function system:attackdata/remove with storage cpvp:tmp
+#function system:attackdata/remove with storage cpvp:tmp
 data remove storage cpvp:tmp tmp
 
 tag @s remove meleevictim
 tag @s remove rangevictim
 
-data remove storage atktrigger: hage
+#data remove storage atktrigger: hage
 
 scoreboard players set $tmp tmp 0
 execute as @e[tag=meleevictim] if score @s attackerdata = @e[tag=atker,limit=1] playerdata run scoreboard players add $tmp tmp 1

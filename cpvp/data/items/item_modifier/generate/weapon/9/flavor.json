@@ -3,28 +3,21 @@
   "lore": [
     [
       {
-        "text": "鍛え抜かれた聖鉄で模られた白銀の刃は、",
+        "text": "周りがよく見えないから天井や壁に",
         "color": "dark_gray",
         "italic": true
       }
     ],
     [
       {
-        "text": "切り裂いた身に宿った魂を意のままに刈り取る。",
+        "text": "頭ごっつんしちゃうことがよくあるんだよね。",
         "color": "dark_gray",
         "italic": true
       }
     ],
     [
       {
-        "text": "刈り取られた魂は、純粋な無意識の塊に精錬され、",
-        "color": "dark_gray",
-        "italic": true
-      }
-    ],
-    [
-      {
-        "text": "新たな輪廻を紡ぐ担い手となる。",
+        "text": "何のためにこの武器に明かりをつけたんだっけ。",
         "color": "dark_gray",
         "italic": true
       }

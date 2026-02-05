@@ -2,8 +2,8 @@
   "function": "minecraft:set_name",
   "name": [
     {
-      "text": "光の翼",
-      "color": "yellow",
+      "text": "緋想天の闇穿ち",
+      "color": "blue",
       "italic": false
     }
   ]

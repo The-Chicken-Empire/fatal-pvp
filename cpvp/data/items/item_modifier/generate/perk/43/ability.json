@@ -8,7 +8,7 @@
         "italic": false
       },
       {
-        "text": "ウィングレゾナンス",
+        "text": "レゾナンス",
         "color": "#ece6b0",
         "italic": false
       },
@@ -19,14 +19,40 @@
       }
     ],
     [
+      {"text": "与ダメージ+0.5。","italic": false,"color": "white"}
+    ],
+    [
+      ""
+    ],
+    [
       {
-        "text": "攻撃時",
+        "text": "-- ",
+        "color": "white",
+        "italic": false
+      },
+      {
+        "text": "羽むしり",
+        "color": "#f7448e",
+        "italic": false
+      },
+      {
+        "text": " --",
+        "color": "white",
+        "italic": false
+      }
+    ],
+    [
+      {
+        "text": "右クリック",
         "italic": false,
         "color": "yellow"
       }
     ],
     [
-      {"text": "与ダメージ","italic": false,"color": "red"},{"text": "+0.5。対象の[発光]を1.5秒延長する。","italic": false,"color": "white"}
+      {"text": "翼の矢を1本入手する。","italic": false,"color": "white"}
+    ],
+        [
+      {"text": "0.1ダメージを受ける。","italic": false,"color": "white"}
     ],
     [
       ""
