@@ -7,7 +7,7 @@ scoreboard players operation $tmp tmp %= $2 main
 
 execute if score $tmp tmp matches 0 if score @s counting matches 1.. as @a if score @s playerdata = @e[tag=magic41tmp4,limit=1] owner at @s run function items:skills/magic/41/shot
 execute if score $tmp tmp matches 0 run scoreboard players remove @s counting 1
-execute if score $tmp tmp matches 0 if score @s counting matches ..0 run return run function items:skills/magic/41/tpcheck
+execute if score $tmp tmp matches 0 if score @s counting matches ..0 run return run function items:skills/magic/41/ctred
 
 scoreboard players reset $tmp tmp
 

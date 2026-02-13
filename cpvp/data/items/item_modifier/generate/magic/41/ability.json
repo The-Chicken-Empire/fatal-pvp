@@ -82,7 +82,7 @@
         "color":"white"
       },
       {
-        "text": "45秒",
+        "text": "30秒",
         "italic": false,
         "color":"green"
       }
@@ -182,57 +182,6 @@
     ],
     [
       {
-        "text": "起動された自身の",
-        "color": "white",
-        "italic": false
-      },
-      {
-        "text": "<到達座標>",
-        "color": "yellow",
-        "italic": false
-      },
-      {
-        "text": "が存在する場合、",
-        "color": "white",
-        "italic": false
-      }
-    ],
-    [
-      {
-        "text": "<到達座標>",
-        "color": "yellow",
-        "italic": false
-      },
-      {
-        "text": "の位置に移動し、周囲の敵に",
-        "color": "white",
-        "italic": false
-      }
-    ],
-    [
-      {
-        "text": "HP最大値の40%",
-        "color": "yellow",
-        "italic": false
-      },
-      {
-        "text": "の",
-        "color": "white",
-        "italic": false
-      },
-      {
-        "text": "固定ダメージ",
-        "color": "gray",
-        "italic": false
-      },
-      {
-        "text": "を与え、",
-        "color": "white",
-        "italic": false
-      }
-    ],
-    [
-      {
         "text": "『",
         "color": "yellow",
         "italic": false
@@ -278,245 +227,16 @@
         "text": "を",
         "color": "white",
         "italic": false
-      },
+      }
+    ],
+    [
       {
-        "text": "0",
+        "text": "(使用した充電の数)×1.5秒",
         "color": "yellow",
         "italic": false
       },
       {
-        "text": "にする",
-        "color": "white",
-        "italic": false
-      }
-    ],
-    [
-      ""
-    ],
-    [
-      {
-        "text": "-- ",
-        "color": "white",
-        "italic": false
-      },
-      {
-        "text": "天界からの使者",
-        "color": "#f5ff68",
-        "italic": false
-      },
-      {
-        "text": " --",
-        "color": "white",
-        "italic": false
-      }
-    ],
-    [
-      {
-        "text": "スニーク+右クリック",
-        "italic": false,
-        "color": "yellow"
-      }
-    ],
-    [
-      {
-        "text": "消費MP",
-        "italic": false,
-        "color":"blue"
-      },
-      {
-        "text": " : ",
-        "italic": false,
-        "color":"white"
-      },
-      {
-        "text": "20 ",
-        "italic": false,
-        "color":"green"
-      },
-      {
-        "text": "クールタイム",
-        "italic": false,
-        "color":"dark_aqua"
-      },
-      {
-        "text": " : ",
-        "italic": false,
-        "color":"white"
-      },
-      {
-        "text": "10秒",
-        "italic": false,
-        "color":"green"
-      },
-      {
-        "text": "(短縮不可)",
-        "italic": false,
-        "color":"white"
-      }
-    ],
-    [
-      {
-        "text": "フィールドにある自身の",
-        "italic": false,
-        "color": "white"
-      },
-      {
-        "text": "<到達座標>",
-        "italic": false,
-        "color": "yellow"
-      },
-      {
-        "text": "を破壊し、",
-        "italic": false,
-        "color": "white"
-      }
-    ],
-    [
-      {
-        "text": "その場に",
-        "italic": false,
-        "color": "white"
-      },
-      {
-        "text": "<到達座標>",
-        "italic": false,
-        "color": "yellow"
-      },
-      {
-        "text": "を設置する。",
-        "italic": false,
-        "color": "white"
-      }
-    ],
-    [
-      {
-        "text": "<到達座標>",
-        "italic": false,
-        "color": "yellow"
-      },
-      {
-        "text": "は設置してから10秒後に起動する。",
-        "italic": false,
-        "color": "white"
-      }
-    ],
-    [
-      {
-        "text": "<到達座標>",
-        "italic": false,
-        "color": "yellow"
-      },
-      {
-        "text": "は破壊された時、",
-        "italic": false,
-        "color": "white"
-      },
-      {
-        "text": "自身の",
-        "italic": false,
-        "color": "white"
-      },
-      {
-        "text": "充電",
-        "italic": false,
-        "color": "yellow"
-      },
-      {
-        "text": "が",
-        "italic": false,
-        "color": "white"
-      },
-      {
-        "text": "10",
-        "italic": false,
-        "color": "gold"
-      },
-      {
-        "text": "減少する",
-        "italic": false,
-        "color": "white"
-      }
-    ],
-    [
-      ""
-    ],
-    [
-      {
-        "text": "<到達座標>",
-        "color": "yellow",
-        "italic": false
-      }
-    ],
-    [
-      {
-        "text": "HP",
-        "color": "red",
-        "italic": false
-      },
-      {
-        "text": " : ",
-        "color": "white",
-        "italic": false
-      },
-      {
-        "text": "30",
-        "color": "gold",
-        "italic": false
-      }
-    ],
-    [
-      {
-        "text": "アビリティ",
-        "color": "white",
-        "italic": false
-      },
-      {
-        "text": "【",
-        "color": "yellow",
-        "italic": false
-      },
-      {
-        "text": "確",
-        "color": "#eeff00",
-        "italic": false
-      },
-      {
-        "text": "定",
-        "color": "#fffb00",
-        "italic": false
-      },
-      {
-        "text": "さ",
-        "color": "#ffe600",
-        "italic": false
-      },
-      {
-        "text": "せ",
-        "color": "#ffc400",
-        "italic": false
-      },
-      {
-        "text": "る",
-        "color": "#ffa600",
-        "italic": false
-      },
-      {
-        "text": "未",
-        "color": "#ff7300",
-        "italic": false
-      },
-      {
-        "text": "来",
-        "color": "#ff5e00",
-        "italic": false
-      },
-      {
-        "text": "】",
-        "color": "yellow",
-        "italic": false
-      },
-      {
-        "text": "で使用する。",
+        "text": "減少させる。",
         "color": "white",
         "italic": false
       }

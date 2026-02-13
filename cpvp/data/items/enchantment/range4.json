@@ -1,5 +1,5 @@
 {
-  "description": "range7",
+  "description": "range4",
   "supported_items": [
     "minecraft:bow"
   ],
@@ -23,7 +23,7 @@
       {
         "effect": {
           "type": "minecraft:run_function",
-          "function": "items:skills/gun/6/hitblock"
+          "function": "items:skills/gun/4/hitblock"
         }
       }
     ],
@@ -38,22 +38,7 @@
         },
         "effect": {
           "type": "minecraft:run_function",
-          "function": "items:skills/gun/6/victim"
-        },
-        "enchanted": "attacker",
-        "affected": "victim"
-      },
-      {
-        "requirements": {
-          "condition": "minecraft:entity_properties",
-          "entity": "direct_attacker",
-          "predicate": {
-            "type": "#minecraft:arrows"
-          }
-        },
-        "effect": {
-          "type": "minecraft:run_function",
-          "function": "items:skills/gun/6/hitarrow"
+          "function": "items:skills/gun/4/hitarrow"
         },
         "enchanted": "attacker",
         "affected": "damaging_entity"
@@ -68,10 +53,25 @@
         },
         "effect": {
           "type": "minecraft:run_function",
-          "function": "items:skills/gun/6/attacker"
+          "function": "items:skills/gun/4/attacker"
         },
         "enchanted": "attacker",
         "affected": "attacker"
+      },
+      {
+        "requirements": {
+          "condition": "minecraft:entity_properties",
+          "entity": "direct_attacker",
+          "predicate": {
+            "type": "#minecraft:arrows"
+          }
+        },
+        "effect": {
+          "type": "minecraft:run_function",
+          "function": "items:skills/gun/4/victim"
+        },
+        "enchanted": "attacker",
+        "affected": "victim"
       }
     ],
     "minecraft:damage": [
@@ -85,7 +85,27 @@
         },
         "effect": {
           "type": "minecraft:multiply",
-          "factor": 0.4
+          "factor": 0.2
+        }
+      }
+    ],
+    "minecraft:ammo_use": [
+      {
+        "effect": {
+          "type": "minecraft:add",
+          "value": {
+            "type": "minecraft:linear",
+            "base": 1,
+            "per_level_above_first": 1
+          }
+        }
+      }
+    ],
+    "minecraft:projectile_spawned": [
+      {
+        "effect": {
+          "type": "minecraft:run_function",
+          "function": "items:skills/gun/4/shot"
         }
       }
     ]

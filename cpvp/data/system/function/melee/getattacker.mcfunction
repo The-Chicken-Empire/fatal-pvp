@@ -26,9 +26,9 @@ execute if entity @s[tag=meleedamage,type=player] run function damage:atktrigger
 execute if entity @s[tag=rangedamage,type=player] run function damage:atktrigger/range/p with storage cpvp:tmp
 execute if entity @s[tag=meleedamage,type=!player] run function damage:atktrigger/meleeentity/p with storage cpvp:tmp
 execute if entity @s[tag=rangedamage,type=!player] run function damage:atktrigger/rangeentity/p with storage cpvp:tmp
-execute if data storage cpvp:gun id as @e[tag=meleeatkertmp3] run tag @s add arrowattack
+execute if entity @s[tag=rangedamage] run tag @e[tag=meleeatkertmp3] add arrowattack
 
-data remove storage cpvp:gun id
+#data remove storage cpvp:gun id
 data remove storage cpvp:tmp player
 
 tag @s remove victimtmp

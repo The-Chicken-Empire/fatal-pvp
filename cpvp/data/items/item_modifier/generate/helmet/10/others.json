@@ -31,6 +31,7 @@
       "swappable": true,
       "equip_sound": "item.armor.equip_diamond"
     },
-    "custom_model_data": {"strings": ["helmet10"]}
+    "custom_model_data": {"strings": ["helmet10"]},
+    "max_stack_size": 1
   }
 }

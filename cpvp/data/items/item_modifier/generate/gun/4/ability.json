@@ -8,8 +8,8 @@
         "italic": false
       },
       {
-        "text": "ここにability名",
-        "color": "white",
+        "text": "その心燃え尽きるまで",
+        "color": "#ff2727",
         "italic": false
       },
       {
@@ -20,21 +20,34 @@
     ],
     [
       {
-        "text": "発動検知",
+        "text": "的中時",
         "italic": false,
         "color": "yellow"
       }
     ],
     [
       {
-        "text": "cost",
+        "text": "対象に",
         "italic": false,
         "color": "white"
-      }
-    ],
-    [
+      },
       {
-        "text": "内容",
+        "text": "50%",
+        "italic": false,
+        "color": "yellow"
+      },
+      {
+        "text": "の確率で",
+        "italic": false,
+        "color": "white"
+      },
+      {
+        "text": "[火傷:lv2]",
+        "italic": false,
+        "color": "gold"
+      },
+      {
+        "text": "を4秒付与する。",
         "italic": false,
         "color": "white"
       }

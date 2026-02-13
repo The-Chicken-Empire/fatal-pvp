@@ -8,8 +8,8 @@
         "italic": false
       },
       {
-        "text": "ここにability名",
-        "color": "white",
+        "text": "不浄な騎士の片鱗",
+        "color": "#00791a",
         "italic": false
       },
       {
@@ -20,21 +20,78 @@
     ],
     [
       {
-        "text": "発動検知",
+        "text": "攻撃的中時",
         "italic": false,
         "color": "yellow"
       }
     ],
     [
       {
-        "text": "cost",
+        "text": "対象に",
+        "italic": false,
+        "color": "white"
+      },
+      {
+        "text": "[毒]",
+        "italic": false,
+        "color": "dark_green"
+      },
+      {
+        "text": "が付与されていた場合、",
+        "italic": false,
+        "color": "white"
+      },
+      {
+        "text": "対象に",
         "italic": false,
         "color": "white"
       }
     ],
     [
       {
-        "text": "内容",
+        "text": "[毒]",
+        "italic": false,
+        "color": "dark_green"
+      },
+      {
+        "text": "の",
+        "italic": false,
+        "color": "white"
+      },
+      {
+        "text": "(残り時間×レベル)",
+        "italic": false,
+        "color": "yellow"
+      },
+      {
+        "text": "の",
+        "italic": false,
+        "color": "white"
+      },
+      {
+        "text": "固定ダメージ",
+        "italic": false,
+        "color": "gray"
+      },
+      {
+        "text": "を与え、",
+        "italic": false,
+        "color": "white"
+      }
+    ],
+    [
+      {
+        "text": "対象の",
+        "italic": false,
+        "color": "white"
+      },
+      {
+        "text": "[毒]",
+        "italic": false,
+        "color": "dark_green"
+      },
+      {
+        "text": "を解除する。",
         "italic": false,
         "color": "white"
       }

@@ -48,7 +48,7 @@ execute if items entity @n[tag=atker] weapon.mainhand *[custom_data~{cpvp:{id:17
 
 #damage2trigger 軽減とか上昇とか
 execute as @a[tag=atker,tag=arrowattack] run function items:triggers/arrowattack
-tag @s[tag=arrowattack] remove arrowattack
+tag @a[tag=atker,tag=arrowattack] remove arrowattack
 execute as @e[tag=atker] run function items:triggers/attack2/check
 execute as @e[tag=victim] run function items:triggers/attacked2/check
 execute as @e[tag=atker] run function damage:atktrigger/attack2 with storage atktrigger: hage
@@ -178,3 +178,6 @@ scoreboard players operation @s damagepoint = @s damagetaken
 scoreboard players reset @s damagetaken
 #damage処理
 function damage:damage
+
+#offhand24の効果 ぺすくろ
+execute if items entity @a[tag=atker,limit=1] weapon.offhand *[custom_data~{cpvp:{id:24b,item_type:"offhand"}}] as @a[tag=atker,limit=1] run function items:skills/offhand/24/attack

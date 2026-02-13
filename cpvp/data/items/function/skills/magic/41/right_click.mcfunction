@@ -1,6 +1,5 @@
 #sneakcheck
-execute if predicate items:sneak run function items:skills/magic/41/sneak_click
-execute unless predicate items:sneak run function items:skills/magic/41/nosneak
+execute unless predicate items:sneak run function items:skills/magic/41/active
 
 #つかったよ！
 scoreboard players reset $check main
