@@ -12,6 +12,7 @@
           "unequip"
         ]
       },
+      "mainhand":{"triggers":["right_click"]},
       "regularitem": 1,
       "classitem": 1
     }
