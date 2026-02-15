@@ -4,6 +4,9 @@ execute if score $timer main matches 1.. run scoreboard players remove $gametime
 scoreboard players operation $gametimersec main = $gametimer main
 scoreboard players operation $gametimersec main /= $20 main
 
+execute if score $teamrule settings matches 1.. run function system:end/teamendcheck
+execute if score $teamrule settings matches 0 run function system:end/batorowaendcheck
+
 bossbar set gametimer name [{"color":"red","italic":false,"text":"範囲収縮"},{"color":"white","italic":false,"text":"まで"},{"bold":true,"italic":false,"score":{"name":"$gametimersec","objective":"main"}},{"color":"white","text":"秒"}]
 execute if score $gametimer main matches 140 run tellraw @a [{"color":"red","italic":false,"text":"範囲収縮開始"},{"color":"white","italic":false,"text":"まで..."}]
 execute if score $gametimer main matches 100 run tellraw @p {"color":"white","italic":false,"text":"5..."}

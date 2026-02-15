@@ -8,11 +8,14 @@ function gui:class/mimi5/invcheck
 function items:generate/leggings/17/generate
 item replace entity @s armor.legs from block 0 0 0 container.0
 function items:generate/magic/61/generate
-function gui:class/mimi5/replace with storage cpvp:class get.[0]
+#function gui:class/mimi5/replace with storage cpvp:class get.[0]
+loot give @s mine 0 0 0 anvil
 function items:generate/magic/62/generate
-function gui:class/mimi5/replace with storage cpvp:class get.[1]
+#function gui:class/mimi5/replace with storage cpvp:class get.[1]
+loot give @s mine 0 0 0 anvil
 function items:generate/perk/48/generate
-function gui:class/mimi5/replace with storage cpvp:class get.[2]
+#function gui:class/mimi5/replace with storage cpvp:class get.[2]
+loot give @s mine 0 0 0 anvil
 data remove storage cpvp:class get
 
 tellraw @s [{"text":"クラス","italic":false,color:"white"},{"text":"[Mimi-5]","italic":false,bold:true,color:"green"},{"text":"の装備・アイテムを配布しました。","italic":false,color:"white"}]

@@ -1,6 +1,7 @@
 tag @a[tag=player] remove teamed
 team leave @a
 scoreboard players set $teamset settings 0
+scoreboard players set $teammode main 1
 function settings:teams/2team2
 scoreboard players set $teamrule settings 1
 scoreboard players add @a[team=red] teamscore 1

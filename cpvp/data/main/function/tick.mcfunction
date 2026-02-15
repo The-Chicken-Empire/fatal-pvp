@@ -43,7 +43,7 @@ execute if entity @e[tag=bullet] as @e[tag=bullet] at @s run function items:skil
 
 #タイマー処理
 #phase 0-lobby 1-lobby.timer起動 2-start.開始前 3-開始 3.5-star配布 4-収縮開始 5-終了
-execute if score $phase main matches 1..3 run function system:timer/timer
+execute if score $phase main matches 1..4 run function system:timer/timer
 
 #criticalstar使用中
 execute as @a[predicate=cstar:cstarcharge] run function cstar:cstarcharge
@@ -106,6 +106,10 @@ execute as @a run function system:actionbar/
 
 #is projectile
 advancement revoke @a only system:projectile
+
+#playercount
+function system:playercount/playercount
+function system:playercount/teamscount
 
 #sth
 execute as @a if score @s absorption matches 1.. run effect give @s absorption 1 0 true

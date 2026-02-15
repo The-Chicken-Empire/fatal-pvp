@@ -10,6 +10,8 @@ scoreboard players reset @s itemcost
 $clear @s *[minecraft:custom_data~{cpvp:{item_type:$(type),id:$(id)}}]
 $function items:generate/$(type)/$(id)/generate
 
-function gui:items/invcheck
-function gui:items/replace with storage cpvp:items get.[0]
+#function gui:items/invcheck
+#function gui:items/replace with storage cpvp:items get.[0]
+
+loot give @s mine 0 0 0 anvil
 data remove storage cpvp:items get

@@ -156,6 +156,18 @@ scoreboard objectives add allydeathcount dummy
 scoreboard objectives add playerdeathcount dummy
 scoreboard players set @a allydeathcount 0
 scoreboard players set @a playerdeathcount 0
+execute unless score $autostart settings matches -2147483648..2147483647 run scoreboard players set $autostart settings 0
+scoreboard objectives add teamscount dummy
+scoreboard objectives modify teamscount displayautoupdate true
+scoreboard objectives modify teamscount displayname {"color":"#ffd95a","text":"プレイ人数"}
+scoreboard players display name $red teamscount {"color":"red","text":red}
+scoreboard players display name $blue teamscount {"color":"blue","text":blue}
+scoreboard players display name $green teamscount {"color":"green","text":green}
+scoreboard players display name $yellow teamscount {"color":"yellow","text":yellow}
+scoreboard objectives add playercount dummy
+scoreboard objectives modify playercount displayautoupdate true
+scoreboard objectives modify playercount displayname {"color":"#ffd95a","text":"プレイ人数"}
+scoreboard players display name $count playercount {"color":"red","text":"人数"}
 
 #銃system
 scoreboard objectives add bulletspeed dummy
@@ -173,7 +185,7 @@ scoreboard objectives add Cstar dummy
 #teams
 scoreboard objectives add alives dummy
 scoreboard objectives modify alives displayautoupdate true
-scoreboard objectives modify alives displayname {"color":"white","text":"生存者数"}
+scoreboard objectives modify alives displayname {"color":"yellow","text":"生存者数"}
 scoreboard objectives add teamrule dummy
 scoreboard objectives add teamscore dummy
 team add solo
@@ -191,6 +203,7 @@ scoreboard players display name $red alives {"color":"red","text":red}
 scoreboard players display name $blue alives {"color":"blue","text":blue}
 scoreboard players display name $green alives {"color":"green","text":green}
 scoreboard players display name $yellow alives {"color":"yellow","text":yellow}
+scoreboard players display name $solo alives {"color":"white","text":"残り人数"}
 team modify solo color dark_purple
 team modify red color red
 team modify blue color blue

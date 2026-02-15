@@ -8,11 +8,14 @@ function gui:class/mimi6/invcheck
 function items:generate/boots/11/generate
 item replace entity @s armor.feet from block 0 0 0 container.0
 function items:generate/weapon/19/generate
-function gui:class/mimi6/replace with storage cpvp:class get.[0]
+#function gui:class/mimi6/replace with storage cpvp:class get.[0]
+loot give @s mine 0 0 0 anvil
 function items:generate/magic/63/generate
-function gui:class/mimi6/replace with storage cpvp:class get.[1]
+#function gui:class/mimi6/replace with storage cpvp:class get.[1]
+loot give @s mine 0 0 0 anvil
 function items:generate/perk/51/generate
-function gui:class/mimi6/replace with storage cpvp:class get.[2]
+#function gui:class/mimi6/replace with storage cpvp:class get.[2]
+loot give @s mine 0 0 0 anvil
 data remove storage cpvp:class get
 
 tellraw @s [{"text":"クラス","italic":false,color:"white"},{"text":"[Mimi-6]","italic":false,bold:true,color:"white"},{"text":"の装備・アイテムを配布しました。","italic":false,color:"white"}]

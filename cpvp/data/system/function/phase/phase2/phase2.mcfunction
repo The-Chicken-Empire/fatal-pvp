@@ -20,4 +20,4 @@ execute if score $bstarttimer main matches 20 as @a at @s run playsound block.no
 
 scoreboard players reset $bstarttimersec main
 
-execute if score $timer main matches ..0 run function system:phase/phase2/open
+execute if score $bstarttimer main matches ..0 run function system:phase/phase2/open

@@ -84,7 +84,7 @@ execute if entity @s[tag=magic40] at @s run function items:skills/magic/40/marke
 execute if entity @s[tag=magic41,tag=!m41charged] at @s run function items:skills/magic/41/markertick
 execute if entity @s[tag=magic41,tag=m41charged] at @s run function items:skills/magic/41/markertick2
 execute if entity @s[tag=magic41bullet] at @s run function items:skills/magic/41/markertick3
-execute if entity @s[tag=magic41cord] at @s run function items:skills/magic/41/markertickcord
+#execute if entity @s[tag=magic41cord] at @s run function items:skills/magic/41/markertickcord
 #43
 execute if entity @s[tag=magic43] at @s run function items:skills/magic/43/markertick
 execute if entity @s[tag=magic43-2] at @s run function items:skills/magic/43/markertick2
@@ -174,7 +174,7 @@ execute if entity @s[tag=boots5marker] run function items:skills/boots/5/markert
 #13
 execute if entity @s[tag=perk13] run function items:skills/perk/13/markertick
 #30
-execute if entity @s[tag=perk30marker] run function items:skills/perk/30/s2/tick
+#execute if entity @s[tag=perk30marker] run function items:skills/perk/30/s2/tick
 #31
 execute if entity @s[tag=perk31.mk1] run function items:skills/perk/31/markertick
 #49
