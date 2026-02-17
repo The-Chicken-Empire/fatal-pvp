@@ -1,0 +1,10 @@
+{
+  "function": "minecraft:set_name",
+  "name": [
+    {
+      "text": "構築同期Sy Mk-III",
+      "color": "white",
+      "italic": false
+    }
+  ]
+}
