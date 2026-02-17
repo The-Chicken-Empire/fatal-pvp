@@ -1,0 +1,10 @@
+{
+  "function": "minecraft:set_name",
+  "name": [
+    {
+      "text": "Dr.Shin's 完全記録抹消装置",
+      "color": "white",
+      "italic": false
+    }
+  ]
+}
