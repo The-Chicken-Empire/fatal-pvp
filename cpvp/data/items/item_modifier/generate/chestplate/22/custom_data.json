@@ -13,6 +13,7 @@
           "magicdef": 25
         },
         "triggers": [
+          "attack2",
           "attacked2"
         ]
       },

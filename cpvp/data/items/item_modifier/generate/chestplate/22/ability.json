@@ -8,8 +8,8 @@
         "italic": false
       },
       {
-        "text": "ここにability名",
-        "color": "white",
+        "text": "非生命体との共依存",
+        "color": "#e65686",
         "italic": false
       },
       {
@@ -20,28 +20,131 @@
     ],
     [
       {
-        "text": "発動検知",
+        "text": "攻撃的中時/被攻撃時",
         "italic": false,
         "color": "yellow"
       }
     ],
     [
       {
-        "text": "cost",
+        "text": "自身の周囲15m以内に存在する自身の",
         "italic": false,
         "color": "white"
       }
     ],
     [
       {
-        "text": "内容",
+        "text": "<タレット>",
+        "italic": false,
+        "color": "aqua"
+      },
+      {
+        "text": "1体につき、",
+        "italic": false,
+        "color": "white"
+      },
+      {
+        "text": "攻撃力",
+        "italic": false,
+        "color": "dark_red"
+      },
+      {
+        "text": "/",
+        "italic": false,
+        "color": "white"
+      },
+      {
+        "text": "防御力",
+        "italic": false,
+        "color": "dark_blue"
+      },
+      {
+        "text": "が",
+        "italic": false,
+        "color": "white"
+      },
+      {
+        "text": "8%",
+        "italic": false,
+        "color": "yellow"
+      },
+      {
+        "text": "上昇する。",
         "italic": false,
         "color": "white"
       }
     ],
     [
       ""
-    ]
+    ],
+    [
+      {
+        "text": "-- ",
+        "color": "white",
+        "italic": false
+      },
+      {
+        "text": "機械生命リンク方程式",
+        "color": "#23c1ff",
+        "italic": false
+      },
+      {
+        "text": " --",
+        "color": "white",
+        "italic": false
+      }
+    ],
+    [
+      {
+        "text": "攻撃的中時",
+        "italic": false,
+        "color": "yellow"
+      }
+    ],
+    [
+      {
+        "text": "自身の全ての",
+        "italic": false,
+        "color": "white"
+      },
+      {
+        "text": "<タレット>",
+        "italic": false,
+        "color": "aqua"
+      },
+      {
+        "text": "の",
+        "italic": false,
+        "color": "white"
+      },
+      {
+        "text": "HP",
+        "italic": false,
+        "color": "red"
+      },
+      {
+        "text": "を",
+        "italic": false,
+        "color": "white"
+      },
+      {
+        "text": "2",
+        "italic": false,
+        "color": "gold"
+      },
+      {
+        "text": "回復",
+        "italic": false,
+        "color": "light_purple"
+      },
+      {
+        "text": "する。",
+        "italic": false,
+        "color": "white"
+      }
+    ],
+    [""]
+    
   ],
   "mode": "append"
 }

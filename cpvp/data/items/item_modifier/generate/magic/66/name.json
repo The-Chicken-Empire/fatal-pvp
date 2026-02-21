@@ -2,8 +2,8 @@
   "function": "minecraft:set_name",
   "name": [
     {
-      "text": "モードチェンジャー3K",
-      "color": "white",
+      "text": "モードチェンジャー3K 未完成",
+      "color": "#bf00c5",
       "italic": false
     }
   ]

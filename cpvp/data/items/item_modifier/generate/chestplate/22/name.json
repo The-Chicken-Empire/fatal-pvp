@@ -2,8 +2,8 @@
   "function": "minecraft:set_name",
   "name": [
     {
-      "text": "『指令灯』",
-      "color": "white",
+      "text": "『指令灯』未完成",
+      "color": "#35ff9a",
       "italic": false
     }
   ]

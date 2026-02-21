@@ -3,14 +3,35 @@
   "lore": [
     [
       {
-        "text": "ここにフレーバーテキストを書く",
+        "text": "やっと完成した、これで終わりだ。",
         "color": "dark_gray",
         "italic": true
       }
     ],
     [
       {
-        "text": "ここは2行目",
+        "text": "..が、この記録も、実物も残ることはない。",
+        "color": "dark_gray",
+        "italic": true
+      }
+    ],
+    [
+      {
+        "text": "この記録によって人々が救われてしまうのなら...",
+        "color": "dark_gray",
+        "italic": true
+      }
+    ],
+    [
+      {
+        "text": "私の今までの研究に意味などないからな。",
+        "color": "dark_gray",
+        "italic": true
+      }
+    ],
+    [
+      {
+        "text": "さあ、全ての文明よ、私の為に滅びてくれ。",
         "color": "dark_gray",
         "italic": true
       }

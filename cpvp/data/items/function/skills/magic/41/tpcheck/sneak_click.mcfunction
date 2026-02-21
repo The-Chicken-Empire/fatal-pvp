@@ -13,4 +13,4 @@ function items:triggers/getmpuse/
 scoreboard players operation @s mp -= @s mpcost
 scoreboard players reset @s mpcost
 
-function items:skills/magic/41/actives
+#function items:skills/magic/41/actives
