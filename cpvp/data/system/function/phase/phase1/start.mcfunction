@@ -1,6 +1,7 @@
 #開始
 title @a title {"color":"white","text":"転送中..."}
 function system:phase/phase1/teamscoreset
+gamemode adventure @a[tag=playing]
 execute if score $teammode main matches 1 run tp @a[team=red,tag=player] @e[tag=redmarker,limit=1]
 execute if score $teammode main matches 1 run tp @a[team=blue,tag=player] @e[tag=bluemarker,limit=1]
 execute if score $teammode main matches 1 run tp @a[team=green,tag=player] @e[tag=greenmarker,limit=1]

@@ -130,6 +130,18 @@ execute as @e[tag=damagetext] at @s run function damage:damagetext/tick
 #reset系
 advancement revoke @a[advancements={system:projectile=true}] only system:projectile
 
+#alives
+execute if score $teammode main matches 1.. run scoreboard players display name $red alives {"color":"red","text":red}
+execute if score $teammode main matches 1.. run scoreboard players display name $blue alives {"color":"blue","text":blue}
+execute if score $teammode main matches 1.. run scoreboard players display name $green alives {"color":"green","text":green}
+execute if score $teammode main matches 1.. run scoreboard players display name $yellow alives {"color":"yellow","text":yellow}
+execute if score $teammode main matches 0 run scoreboard players display name $solo alives {"color":"white","text":"残り人数"}
+execute if score $teammode main matches 1 run scoreboard players reset $solo alives
+execute if score $teammode main matches 0 run scoreboard players reset $red alives
+execute if score $teammode main matches 0 run scoreboard players reset $blue alives
+execute if score $teammode main matches 0 run scoreboard players reset $green alives
+execute if score $teammode main matches 0 run scoreboard players reset $yellow alives
+
 scoreboard players set @a using 0
 scoreboard players set @a sneak 0
 scoreboard players set @a jump 0

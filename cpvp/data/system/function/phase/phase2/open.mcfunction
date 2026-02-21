@@ -8,6 +8,7 @@ bossbar set gametimer name [{"color":"red","italic":false,"text":"範囲収縮"}
 execute as @a[tag=aliveing] run function system:phase/phase2/deletemob
 
 tag @a[tag=aliving] add alive
+tag @a[tag=aliving] remove aliving
 scoreboard players operation $timer main = $timelimit settings
 title @a title [{"color":"red","text":" START! "}]
 execute as @a at @s run playsound block.note_block.harp master @s ~ ~ ~ 1 2

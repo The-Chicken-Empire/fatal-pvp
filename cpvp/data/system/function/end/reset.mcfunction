@@ -13,4 +13,8 @@ execute if score $autostart settings matches 0 run function system:end/reset2
 #tp
 #tp @a lobby
 #title
-title @a title {"bold":false,"color":"white","text":"ロビーに戻ります"}
+tp @a 0 100 0
+gamemode adventure @a
+#worldborder
+worldborder set 1000000 0
+worldborder center 0 0

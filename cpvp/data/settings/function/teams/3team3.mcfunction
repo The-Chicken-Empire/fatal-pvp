@@ -6,3 +6,4 @@ execute if score $teamset settings matches 2 run team join green @s
 execute if score $teamset settings matches 1 run scoreboard players set @s teams 1
 scoreboard players add $teamset settings 1
 execute if score $teamset settings matches 3 run scoreboard players set $teamset settings 0
+tag @s add teamed

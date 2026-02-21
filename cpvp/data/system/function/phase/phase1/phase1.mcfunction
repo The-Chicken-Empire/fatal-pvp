@@ -21,3 +21,4 @@ execute if score $starttimer main matches 20 as @a at @s run playsound ui.button
 execute if score $starttimer main matches ..0 run function system:phase/phase1/start
 
 scoreboard players reset $starttimersec main
+function system:phase/phase1/cage

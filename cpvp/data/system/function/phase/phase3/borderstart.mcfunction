@@ -3,6 +3,6 @@ scoreboard players set $timer main -1
 spreadplayers 0 0 0 55 true @e[tag=border_marker]
 execute at @e[tag=border_marker] run worldborder center ~ ~
 worldborder set 150 0
-worldborder set 15 10
+worldborder set 15 800
 kill @e[tag=border_marker]
 bossbar set gametimer visible false
