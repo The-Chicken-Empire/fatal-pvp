@@ -11,5 +11,6 @@ execute if score $teamrule settings matches 0 run function settings:teams/batoro
 execute if score $autostart settings matches 1.. run function system:end/autostart
 execute if score $autostart settings matches 0 run function system:end/reset2
 #tp
+#tp @a lobby
 #title
 title @a title {"bold":false,"color":"white","text":"ロビーに戻ります"}

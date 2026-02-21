@@ -1,0 +1,1 @@
+execute if score $map main matches 1 run function settings:map/start/ancient_city

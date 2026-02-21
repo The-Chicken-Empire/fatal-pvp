@@ -1,6 +1,7 @@
 #scoreboard players add $timer timer 1
 function system:cooltime/tick
 function system:stats_modifier/tick
+execute as @a if score @s rejoin matches 1.. run function join:rejoin
 
 #void
 execute as @e run function system:void
