@@ -126,6 +126,10 @@ item replace entity @a player.crafting.3 with air 1
 
 #damagetext
 execute as @e[tag=damagetext] at @s run function damage:damagetext/tick
+#lobby
+##後で入れる
+#execute as @a if predicate system:lobby if entity @s[gamemode=!adventure] run gamemode adventure @s
+#execute as @a unless predicate system:lobby if entity @s[gamemode=!spectator,tag=!alive] run gamemode spectator @s
 
 #reset系
 advancement revoke @a[advancements={system:projectile=true}] only system:projectile

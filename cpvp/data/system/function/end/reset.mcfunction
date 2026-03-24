@@ -13,7 +13,7 @@ execute if score $autostart settings matches 0 run function system:end/reset2
 #tp
 #tp @a lobby
 #title
-tp @a 0 100 0
+tp @a 0 104 0
 gamemode adventure @a
 #worldborder
 worldborder set 1000000 0
