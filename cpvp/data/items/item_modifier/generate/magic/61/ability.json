@@ -174,12 +174,12 @@
         "color": "white"
       },
       {
-        "text": "[麻痺]",
+        "text": "[麻痺:lv10]",
         "italic": false,
         "color": "yellow"
       },
       {
-        "text": "を15付与する。",
+        "text": "を5秒間付与する。",
         "italic": false,
         "color": "white"
       }

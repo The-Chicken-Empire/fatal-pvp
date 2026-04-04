@@ -19,3 +19,4 @@ execute if entity @s[tag=truedamagetmp] run tellraw @a[tag=atker,limit=1,sort=ne
 #クリティカル
 execute if entity @s[tag=critical] run tellraw @a[tag=atker,limit=1,sort=nearest] {"bold":true,"color":"yellow","italic":false,"text":"クリティカル！"}
 scoreboard players set @s hp 10000
+execute if entity @s[type=mannequin] at @s run playsound entity.player.hurt player @a ~ ~ ~ 1 1 0

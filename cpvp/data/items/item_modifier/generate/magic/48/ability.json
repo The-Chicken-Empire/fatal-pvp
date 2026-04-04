@@ -111,49 +111,17 @@
     ],
     [
       {
-        "text": "自身の",
-        "italic": false,
-        "color": "white"
-      },
-      {
-        "text": "物理攻撃力",
+        "text": "[火傷:lv3]",
         "italic": false,
         "color": "gold"
       },
-      {
-        "text": "の",
-        "italic": false,
-        "color": "white"
-      },
-      {
-        "text": "150%",
-        "italic": false,
-        "color": "yellow"
-      },
-      {
-        "text": "分の",
-        "italic": false,
-        "color": "white"
-      },
-      {
-        "text": "[灼熱]",
-        "italic": false,
-        "color": "red"
-      },
-      {
-        "text": "と、",
-        "italic": false,
-        "color": "white"
-      }
-    ],
-    [
       {
         "text": "[移動速度低下:lv3]",
         "italic": false,
         "color": "dark_aqua"
       },
       {
-        "text": "を4秒間付与する。",
+        "text": "を5秒間付与する。",
         "italic": false,
         "color": "white"
       }

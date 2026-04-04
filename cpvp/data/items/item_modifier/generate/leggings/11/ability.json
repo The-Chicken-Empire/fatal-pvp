@@ -39,37 +39,17 @@
     ],
     [
       {
-        "text": "攻撃主に自身の",
+        "text": "攻撃主に",
         "italic": false,
         "color": "white"
       },
       {
-        "text": "魔法攻撃力",
+        "text": "[火傷:lv1]",
         "italic": false,
-        "color": "dark_purple"
+        "color": "gold"
       },
       {
-        "text": "の",
-        "italic": false,
-        "color": "white"
-      },
-      {
-        "text": "50%",
-        "italic": false,
-        "color": "yellow"
-      },
-      {
-        "text": "の",
-        "italic": false,
-        "color": "white"
-      },
-      {
-        "text": "[灼熱]",
-        "italic": false,
-        "color": "red"
-      },
-      {
-        "text": "を与える",
+        "text": "を3秒付与する。",
         "italic": false,
         "color": "white"
       }
@@ -106,7 +86,7 @@
     ],
     [
       {
-        "text": "自身がデバフ",
+        "text": "自身が付与する",
         "italic": false,
         "color": "white"
       },
@@ -116,167 +96,24 @@
         "color": "gold"
       },
       {
-        "text": "を受けている時、",
+        "text": "のレベルが1増加する。",
         "italic": false,
         "color": "white"
-      }],
+      }
+    ],
       [
       {
-        "text": "与える",
+        "text": "自身は",
         "italic": false,
         "color": "white"
       },
       {
-        "text": "[灼熱]",
-        "italic": false,
-        "color": "red"
-      },
-      {
-        "text": "が",
-        "italic": false,
-        "color": "white"
-      },
-      {
-        "text": "5",
-        "italic": false,
-        "color": "yellow"
-      },
-      {
-        "text": "増加する",
-        "italic": false,
-        "color": "white"
-      }
-    ],
-    [
-      ""
-    ],
-    [
-      {
-        "text": "灼熱",
-        "italic": false,
-        "color": "red"
-      },
-      {
-        "text": " :",
-        "italic": false,
-        "color": "white"
-      }
-    ],
-    [
-      {
-        "text": " - ",
-        "italic": false,
-        "color": "white"
-      },
-      {
-        "text": "スタックエフェクト",
-        "italic": false,
-        "color": "white"
-      }
-    ],
-    [
-      {
-        "text": " - ",
-        "italic": false,
-        "color": "white"
-      },
-      {
-        "text": "スタックが",
-        "italic": false,
-        "color": "white"
-      },
-      {
-        "text": "200",
+        "text": "[火傷]",
         "italic": false,
         "color": "gold"
       },
       {
-        "text": "を超えた時、",
-        "italic": false,
-        "color": "white"
-      }
-    ]
-    ,[
-      {
-        "text": "このエフェクトを削除し、15秒の",
-        "italic": false,
-        "color": "white"
-      },
-      {
-        "text": "[灼熱損傷]",
-        "italic": false,
-        "color": "dark_red"
-      },
-      {
-        "text": "と、",
-        "italic": false,
-        "color": "white"
-      }],
-      [
-      {
-        "text": "15",
-        "italic": false,
-        "color": "gold"
-      },
-      {
-        "text": "の",
-        "italic": false,
-        "color": "white"
-      },
-      {
-        "text": "固定ダメージ",
-        "italic": false,
-        "color": "white"
-      },
-      {
-        "text": "を受ける",
-        "italic": false,
-        "color": "white"
-      }
-    ],
-    [""],
-    [
-      {
-        "text": "灼熱損傷",
-        "italic": false,
-        "color": "dark_red"
-      },
-      {
-        "text": " :",
-        "italic": false,
-        "color": "white"
-      }
-    ],
-    [
-      {
-        "text": " - ",
-        "italic": false,
-        "color": "white"
-      },
-      {
-        "text": "魔法防御力",
-        "italic": false,
-        "color": "dark_purple"
-      },
-      {
-        "text": "-50%",
-        "italic": false,
-        "color": "gold"
-      }
-    ],
-    [
-      {
-        "text": " - ",
-        "italic": false,
-        "color": "white"
-      },
-      {
-        "text": "[灼熱]",
-        "italic": false,
-        "color": "red"
-      },
-      {
-        "text": "を受けない",
+        "text": "によってダメージを受けない。",
         "italic": false,
         "color": "white"
       }

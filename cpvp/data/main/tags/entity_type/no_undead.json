@@ -64,6 +64,7 @@
     "minecraft:wandering_trader",
     "minecraft:warden",
     "minecraft:witch",
-    "minecraft:wolf"
+    "minecraft:wolf",
+    "minecraft:mannequin"
   ]
 }

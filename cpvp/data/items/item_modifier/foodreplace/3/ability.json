@@ -14,7 +14,7 @@
         "color":"white"
       },
       {
-        "text": "22秒",
+        "text": "25秒",
         "italic": false,
         "color":"yellow"
       }
@@ -31,7 +31,7 @@
         "color":"white"
       },
       {
-        "text": "1.5秒",
+        "text": "2.5秒",
         "italic": false,
         "color":"yellow"
       }
@@ -55,58 +55,26 @@
         "color":"white"
       },
       {
-        "text": "+6 ",
+        "text": "+15 ",
+        "italic": false,
+        "color":"green"
+      },
+      {
+        "text": "MP",
+        "italic": false,
+        "color":"aqua"
+      },
+      {
+        "text": ":",
+        "italic": false,
+        "color":"white"
+      },
+      {
+        "text": "+15",
         "italic": false,
         "color":"green"
       }
-    ],
-    [
-      {
-        "text": "",
-        "italic": false,
-        "color":"red"
-      }
-    ],
-    [
-      {
-        "text": "-- ",
-        "italic": false,
-        "color":"white"
-      },
-      {
-        "text": "”龍”の力の片鱗",
-        "italic": false,
-        "color":"#ff3628"
-      },
-      {
-        "text": " --",
-        "italic": false,
-        "color":"white"
-      }
-    ],
-    [
-      {
-        "text": "自身に付与されている全てのスタックエフェクト",
-        "italic": false,
-        "color":"white"
-      }
-    ],
-    [
-      {
-        "text": "の数値を",
-        "italic": false,
-        "color":"white"
-      },
-      {
-        "text": "30",
-        "italic": false,
-        "color":"yellow"
-      },
-      {
-        "text": "減少させる。",
-        "italic": false,
-        "color":"white"
-      }
+    
     ]
   ],
   "mode": "append"

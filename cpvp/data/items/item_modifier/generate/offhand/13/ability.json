@@ -27,17 +27,31 @@
     ],
     [
       {
-        "text": "自身が",
+        "text": "1秒毎に、周囲10m以内の敵プレイヤーの",
         "italic": false,
         "color": "white"
-      },
+      }
+    ],
+    [
       {
-        "text": "[灼熱損傷]",
+        "text": "[火傷]",
         "italic": false,
-        "color": "dark_red"
+        "color": "gold"
       },
       {
-        "text": "を敵に与えた時、",
+        "text": "のレベルの合計値÷2",
+        "italic": false,
+        "color": "yellow"
+      },
+      {
+        "text": "分、",
+        "italic": false,
+        "color": "white"
+      }
+    ],
+    [
+      {
+        "text": "自身の",
         "italic": false,
         "color": "white"
       },
@@ -50,11 +64,6 @@
         "text": "を",
         "italic": false,
         "color": "white"
-      },
-      {
-        "text": "4",
-        "italic": false,
-        "color": "gold"
       },
       {
         "text": "回復",
@@ -89,41 +98,26 @@
     ],
     [
       {
-        "text": "常時",
+        "text": "敵討伐時",
         "italic": false,
         "color": "yellow"
       }
     ],
     [
       {
-        "text": "自身の周囲10m以内の味方または自身の攻撃的中時、",
+        "text": "自身の周囲10m以内の敵プレイヤー全員に",
         "italic": false,
         "color": "white"
       }
     ],
     [
       {
-        "text": "対象に",
+        "text": "[火傷:lv7]",
         "italic": false,
-        "color": "white"
+        "color": "gold"
       },
       {
-        "text": "与ダメージの150%",
-        "italic": false,
-        "color": "yellow"
-      },
-      {
-        "text": "分の",
-        "italic": false,
-        "color": "white"
-      },
-      {
-        "text": "[灼熱]",
-        "italic": false,
-        "color": "red"
-      },
-      {
-        "text": "を付与する。",
+        "text": "を6秒付与する。",
         "italic": false,
         "color": "white"
       }

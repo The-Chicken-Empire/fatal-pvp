@@ -151,3 +151,4 @@ scoreboard players set @a sneak 0
 scoreboard players set @a jump 0
 scoreboard players reset $tmp tmp
 scoreboard players reset $tmp2 tmp
+

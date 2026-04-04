@@ -20,36 +20,38 @@
     ],
      [
       {
-        "text": "常時",
+        "text": "攻撃的中時",
         "italic": false,
         "color": "yellow"
       }
     ],
     [
       {
-        "text": "周囲6m以内の全ての敵に、毎秒",
+        "text": "与えたダメージと同じ時間の",
+        "italic": false,
+        "color": "white"
+      },
+      {
+        "text": "[麻痺:lv2]",
+        "italic": false,
+        "color": "#adff16"
+      },
+      {
+        "text": "を付与する。",
         "italic": false,
         "color": "white"
       }
     ],
     [
       {
-        "text": "(10+対象の現在充電)",
-        "italic": false,
-        "color": "yellow"
-      },
-      {
-        "text": "の",
+        "text": "既に付与されていた場合、レベルを1上昇させ、",
         "italic": false,
         "color": "white"
-      },
+      }
+    ],
+    [
       {
-        "text": "[麻痺]",
-        "italic": false,
-        "color": "yellow"
-      },
-      {
-        "text": "を与える。",
+        "text": "残り時間を変化させずに付与し直す。",
         "italic": false,
         "color": "white"
       }
@@ -90,27 +92,17 @@
     ],
     [
       {
-        "text": "使用した充電の",
+        "text": "使用した充電と同じ時間の",
         "italic": false,
         "color": "white"
       },
       {
-        "text": "400%",
+        "text": "[麻痺:lv3]",
         "italic": false,
-        "color": "yellow"
+        "color": "#adff16"
       },
       {
-        "text": "の",
-        "italic": false,
-        "color": "white"
-      },
-      {
-        "text": "[麻痺]",
-        "italic": false,
-        "color": "yellow"
-      },
-      {
-        "text": "を与え、",
+        "text": "を付与し、",
         "italic": false,
         "color": "white"
       }
@@ -149,108 +141,44 @@
       {
         "text": "麻痺",
         "italic": false,
+        "color": "#adff16"
+      },
+      {
+        "text": " :",
+        "italic": false,
+        "color": "white"
+      }
+    ],
+    [
+      {
+        "text": " - ",
+        "italic": false,
+        "color": "white"
+      },
+      {
+        "text": "デバフ",
+        "italic": false,
+        "color": "red"
+      }
+    ],
+    [
+      {
+        "text": " - ",
+        "italic": false,
+        "color": "white"
+      },
+      {
+        "text": "毎秒",
+        "italic": false,
+        "color": "white"
+      },
+      {
+        "text": "(lv×5%)",
+        "italic": false,
         "color": "yellow"
       },
       {
-        "text": " :",
-        "italic": false,
-        "color": "white"
-      }
-    ],
-    [
-      {
-        "text": " - ",
-        "italic": false,
-        "color": "white"
-      },
-      {
-        "text": "スタックエフェクト",
-        "italic": false,
-        "color": "white"
-      }
-    ],
-    [
-      {
-        "text": " - ",
-        "italic": false,
-        "color": "white"
-      },
-      {
-        "text": "スタックが",
-        "italic": false,
-        "color": "white"
-      },
-      {
-        "text": "200",
-        "italic": false,
-        "color": "gold"
-      },
-      {
-        "text": "を超えた時、",
-        "italic": false,
-        "color": "white"
-      }
-    ]
-    ,[
-      {
-        "text": "このエフェクトを削除し、15秒の",
-        "italic": false,
-        "color": "white"
-      },
-      {
-        "text": "[麻痺損傷]",
-        "italic": false,
-        "color": "#adff16"
-      },
-      {
-        "text": "と、",
-        "italic": false,
-        "color": "white"
-      }
-    ],
-      [
-      {
-        "text": "8",
-        "italic": false,
-        "color": "gold"
-      },
-      {
-        "text": "の",
-        "italic": false,
-        "color": "white"
-      },
-      {
-        "text": "固定ダメージ",
-        "italic": false,
-        "color": "white"
-      },
-      {
-        "text": "を受ける。",
-        "italic": false,
-        "color": "white"
-      }
-    ],
-    [""],
-    [
-      {
-        "text": "麻痺損傷",
-        "italic": false,
-        "color": "#adff16"
-      },
-      {
-        "text": " :",
-        "italic": false,
-        "color": "white"
-      }
-    ],
-    [
-      {
-        "text": " - ",
-        "italic": false,
-        "color": "white"
-      },
-      {
-        "text": "毎秒確率で視点がランダムに変更される。",
+        "text": "の確率で視点がランダムに変更される。",
         "italic": false,
         "color": "white"
       }
@@ -267,26 +195,9 @@
         "color": "yellow"
       },
       {
-        "text": "-9999",
+        "text": "-(lv×3)",
         "italic": false,
         "color": "gold"
-      }
-    ],
-    [
-      {
-        "text": " - ",
-        "italic": false,
-        "color": "white"
-      },
-      {
-        "text": "[麻痺]",
-        "italic": false,
-        "color": "yellow"
-      },
-      {
-        "text": "を受けない",
-        "italic": false,
-        "color": "white"
       }
     ],
     [

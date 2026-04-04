@@ -1,1 +1,4 @@
-execute at @s run particle dust{color:16777215,scale:1} ~ ~1 ~ 0.5 0.5 0.5 0 1 normal
+execute store result score #effect-39-counter counter run data get storage effect: tmp2.duration
+scoreboard players operation #effect-39-counter counter %= $20 main
+execute if score #effect-39-counter counter matches 0 run function effects:effects/39/tick2
+scoreboard players reset #effect-39-counter

@@ -6,13 +6,13 @@ execute rotated as @e[tag=m48rotate,limit=1] at @s run tp @s ~ ~ ~ ~ ~
 kill @e[tag=m48rotate]
 
 #effect
-function effects:system/pick/ {id:47}
-scoreboard players set $tmp tmp 0
+execute as @a if score @s playerdata = @e[tag=magic48tmp3,limit=1] owner run tag @s add buffer
+function effects:system/pick/ {id:40}
 execute store result score $tmp tmp run data get storage effect: targeteffect.level
-
-execute unless score $tmp tmp matches 1.. run function items:skills/magic/48/effect46
-
-
+execute unless score $tmp tmp matches 4 run function effects:system/gain/ {id:40,level:3,duration:100}
+scoreboard players reset $tmp tmp
+execute as @a if score @s playerdata = @e[tag=magic48tmp3,limit=1] owner run tag @s add buffer
+function effects:system/gain/ {id:11,level:3,duration:100}
 
 scoreboard players set @s damagetaken 50
 tag @s add magicdamage

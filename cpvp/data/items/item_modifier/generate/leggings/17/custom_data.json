@@ -13,7 +13,7 @@
           "ctreduction": -20
         },
         "triggers": [
-          "tick"
+          "attack3"
         ]
       },
       "regularitem": 1,

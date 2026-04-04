@@ -11,6 +11,8 @@
           "defence": 10
         },
         "triggers": [
+          "tick",
+          "kill"
         ]
       },
       "regularitem": 1,
