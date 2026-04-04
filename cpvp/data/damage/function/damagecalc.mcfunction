@@ -161,8 +161,6 @@ execute as @e[tag=victim] run function items:triggers/attacked3/check
 execute as @e[tag=atker] run function damage:atktrigger/attack3 with storage atktrigger: hage
 
 #ダメージと関係ないスキル処理
-##offhand13の灼熱付与
-execute as @e[tag=atker] run function items:skills/offhand/13/teamattackcheck
 ##magic57の寒冷付与
 execute if entity @e[tag=magic57marker] as @e[tag=magic57marker] if score @s owner = @a[tag=atker,limit=1] playerdata run function items:skills/magic/57/froz
 ##magic58の火傷付与
