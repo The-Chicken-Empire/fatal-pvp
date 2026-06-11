@@ -87,21 +87,6 @@
         "affected": "damaging_entity"
       }
     ],
-    "minecraft:damage": [
-      {
-        "requirements": {
-          "condition": "minecraft:entity_properties",
-          "entity": "direct_attacker",
-          "predicate": {
-            "type": "#minecraft:arrows"
-          }
-        },
-        "effect": {
-          "type": "minecraft:multiply",
-          "factor": 1.25
-        }
-      }
-    ],
     "minecraft:crossbow_charge_time": {
       "type": "minecraft:multiply",
       "factor": 1.5

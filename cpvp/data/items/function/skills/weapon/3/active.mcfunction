@@ -1,3 +1,4 @@
+
 #音
 execute at @s run playsound block.enchantment_table.use player @s ~ ~ ~ 1 0.8 1
 #mp

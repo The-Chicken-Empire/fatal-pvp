@@ -86,33 +86,10 @@
         "affected": "attacker"
       }
     ],
-    "minecraft:damage": [
-      {
-        "requirements": {
-          "condition": "minecraft:entity_properties",
-          "entity": "direct_attacker",
-          "predicate": {
-            "type": "#minecraft:arrows"
-          }
-        },
-        "effect": {
-          "type": "minecraft:multiply",
-          "factor": 0.6
-        }
-      }
-    ],
     "minecraft:crossbow_charge_time": {
       "type": "minecraft:multiply",
       "factor": 0.5
     },
-    "minecraft:projectile_spawned": [
-      {
-        "effect": {
-          "type": "minecraft:run_function",
-          "function": "items:skills/gun/7/shot"
-        }
-      }
-    ],
     "minecraft:projectile_count": [
       {
         "effect": {

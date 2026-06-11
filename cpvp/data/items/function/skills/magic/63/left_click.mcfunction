@@ -24,3 +24,4 @@ execute summon marker run function items:skills/magic/63/summonmarker
 execute at @s run playsound block.tripwire.click_on block @s ~ ~ ~ 1 0.8 1
 execute at @s run playsound block.enchantment_table.use block @s ~ ~ ~ 1 0.7 1
 execute at @s run playsound block.enchantment_table.use block @s ~ ~ ~ 1 0.7 1
+tag @s remove magic63tmp

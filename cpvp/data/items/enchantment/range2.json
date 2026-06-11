@@ -39,14 +39,6 @@
         }
       }
     ],
-    "minecraft:damage": [
-      {
-        "effect": {
-          "type": "minecraft:multiply",
-          "factor": 0.5
-        }
-      }
-    ],
     "minecraft:post_attack": [
       {
         "requirements": {

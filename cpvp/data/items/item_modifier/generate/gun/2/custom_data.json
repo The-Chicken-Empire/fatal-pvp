@@ -5,6 +5,7 @@
       "cost": 3,
       "id": 2,
       "item_type": "gun",
+      "damage": 1.0,
       "mainhand": {
         "triggers": [
           "equip",

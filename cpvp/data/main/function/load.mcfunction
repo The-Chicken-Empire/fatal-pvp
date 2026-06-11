@@ -169,6 +169,9 @@ scoreboard objectives modify playercount displayautoupdate true
 scoreboard objectives modify playercount displayname {"color":"#ffd95a","text":"プレイ人数"}
 scoreboard players display name $count playercount {"color":"red","text":"人数"}
 scoreboard objectives add rejoin custom:leave_game
+scoreboard objectives add usedweapon dummy
+scoreboard objectives add rangeattacker dummy
+scoreboard objectives add usedgun dummy
 
 #銃system
 scoreboard objectives add bulletspeed dummy

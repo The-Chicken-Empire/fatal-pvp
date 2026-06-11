@@ -1,0 +1,2 @@
+$execute unless items entity @s weapon.mainhand *[custom_data~{cpvp:{item_type:"weapon",id:$(usedweapon)b}}] run return fail
+execute if predicate items:triggers/attack1/mainhand run function items:triggers/attack1/run with entity @s SelectedItem.components.minecraft:custom_data.cpvp

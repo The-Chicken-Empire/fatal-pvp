@@ -4,7 +4,10 @@
 #
 # @within damage:damage
 
-execute if predicate items:triggers/attack3/mainhand run function items:triggers/attack3/run with entity @s SelectedItem.components.minecraft:custom_data.cpvp
+#weapon only
+execute if data storage cpvp: usedweapon run function items:triggers/attack3/ifweapon with storage cpvp:
+#execute if predicate items:triggers/attack3/mainhand run function items:triggers/attack3/run with entity @s SelectedItem.components.minecraft:custom_data.cpvp
+
 execute if predicate items:triggers/attack3/offhand run function items:triggers/attack3/run with entity @s equipment.offhand.components.minecraft:custom_data.cpvp
 execute if predicate items:triggers/attack3/helmet run function items:triggers/attack3/run with entity @s equipment.head.components.minecraft:custom_data.cpvp
 execute if predicate items:triggers/attack3/chestplate run function items:triggers/attack3/run with entity @s equipment.chest.components.minecraft:custom_data.cpvp

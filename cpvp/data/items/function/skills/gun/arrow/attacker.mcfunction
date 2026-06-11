@@ -1,1 +1,1 @@
-execute if data storage cpvp: arrowtype run tag @s add arrowattackertmp
+execute if data storage cpvp:arrowtype id run tag @s add rangeattackertmp

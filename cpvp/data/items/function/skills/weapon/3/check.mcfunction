@@ -1,3 +1,5 @@
+execute unless items entity @s weapon.mainhand *[custom_data~{cpvp:{magiced:1b,item_type:"weapon",id:3b}}] run return fail
+
 scoreboard players set @s weapon3 0
 #CTcheck
 scoreboard players set @s mpcost 3000

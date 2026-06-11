@@ -74,21 +74,6 @@
         "affected": "victim"
       }
     ],
-    "minecraft:damage": [
-      {
-        "requirements": {
-          "condition": "minecraft:entity_properties",
-          "entity": "direct_attacker",
-          "predicate": {
-            "type": "#minecraft:arrows"
-          }
-        },
-        "effect": {
-          "type": "minecraft:multiply",
-          "factor": 0.2
-        }
-      }
-    ],
     "minecraft:ammo_use": [
       {
         "effect": {

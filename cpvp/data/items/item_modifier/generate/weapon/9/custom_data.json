@@ -4,6 +4,7 @@
     "cpvp": {
       "id": 9,
       "item_type": "weapon",
+      "damage": 45,
       "mainhand": {
         "stats": {
           "attackspeed": 160

@@ -5,6 +5,7 @@
       "cost": 5,
       "id": 3,
       "item_type": "weapon",
+      "damage": 65,
       "mainhand": {
         "stats": {
           "attackspeed": 140

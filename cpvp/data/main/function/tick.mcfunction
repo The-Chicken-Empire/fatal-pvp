@@ -30,11 +30,12 @@ execute as @a[tag=death] run function system:delete
 
 execute as @e[tag=entity_death] at @s run function damage:entity_death
 
-#tick始めdamage処理
-execute if entity @a[scores={damageresist=1..},tag=!meleevictimtmp2] as @a[scores={damageresist=1..},tag=!meleevictimtmp2] run function damage:naturaldamage
-execute if entity @e[scores={damageresist=1..},tag=meleevictimtmp2] as @e[scores={damageresist=1..},tag=meleevictimtmp2] run function system:melee/getattacker
-tag @e[tag=magicweapon] remove magicweapon
-tag @e remove meleeatkertmp2
+##tick始めdamage処理
+execute if entity @a[scores={damageresist=1..},tag=!meleenexttick,tag=!rangenexttick] as @a[scores={damageresist=1..},tag=!meleenexttick] run function damage:naturaldamage
+execute if entity @e[scores={damageresist=1..},tag=meleenexttick] as @e[scores={damageresist=1..},tag=meleenexttick] run function damage:meleesetting
+execute if entity @e[scores={damageresist=1..},tag=rangenexttick] as @e[scores={damageresist=1..},tag=rangenexttick] run function damage:rangesetting
+#tag @e[tag=magicweapon] remove magicweapon
+#tag @e remove meleeatkertmp2
 #えんちちの死亡処理
 
 

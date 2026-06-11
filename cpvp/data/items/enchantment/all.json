@@ -66,6 +66,14 @@
         "enchanted": "attacker",
         "affected": "victim"
       }
+    ],
+    "minecraft:projectile_spawned": [
+      {
+        "effect": {
+          "type": "minecraft:run_function",
+          "function": "items:skills/gun/arrow/spawn"
+        }
+      }
     ]
   }
 }

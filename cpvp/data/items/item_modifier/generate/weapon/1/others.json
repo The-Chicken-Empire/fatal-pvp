@@ -5,8 +5,8 @@
     "minecraft:attribute_modifiers": [
       {
         "type": "minecraft:attack_damage",
-        "id": "weapon8",
-        "amount": 4.5,
+        "id": "weapon",
+        "amount": 5.5,
         "operation": "add_value",
         "slot": "mainhand"
       }
@@ -14,9 +14,14 @@
     "minecraft:tooltip_display": {
       "hidden_components": [
         "minecraft:attribute_modifiers",
-        "unbreakable"
+        "unbreakable",
+        "enchantments"
       ]
     },
-    "unbreakable": {}
+    "unbreakable": {},
+    "enchantments": 
+    {
+      "items:weapon": 1
+    }
   }
 }
