@@ -28,13 +28,6 @@
         "color": "dark_gray",
         "italic": true
       }
-    ],
-    [
-      {
-        "text": "全て終わるその時まで、『管理者』として見届けよう。",
-        "color": "dark_gray",
-        "italic": true
-      }
     ]
   ],
   "mode": "append"

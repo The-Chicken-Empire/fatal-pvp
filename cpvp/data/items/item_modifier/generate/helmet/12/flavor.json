@@ -3,7 +3,7 @@
   "lore": [
     [
       {
-        "text": "『観測者』の世界で作られた水晶で出来たヘルメット",
+        "text": "何処かの世界で作られた水晶で出来たヘルメット",
         "color": "dark_gray",
         "italic": true,
         "obfuscated": false
@@ -11,7 +11,7 @@
     ],
     [
       {
-        "text": "余計な機能を追加したため計り知れない価値となっている",
+        "text": "誰かが余計な機能を追加したため価値が上がっている",
         "color": "dark_gray",
         "italic": true
       }

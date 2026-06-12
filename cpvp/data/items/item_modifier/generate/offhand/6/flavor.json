@@ -3,14 +3,6 @@
   "lore": [
     [
       {
-        "text": "『断罪者』が信者に持たせていた盾のようなもの",
-        "color": "dark_gray",
-        "italic": true,
-        "obfuscated": false
-      }
-    ],
-    [
-      {
         "text": "使われた形跡はないが、使われた記録は存在している",
         "color": "dark_gray",
         "italic": true

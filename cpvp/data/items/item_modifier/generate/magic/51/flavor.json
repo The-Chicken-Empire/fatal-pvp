@@ -21,13 +21,6 @@
         "color": "dark_gray",
         "italic": true
       }
-    ],
-    [
-      {
-        "text": "貴方ではないのだよ...",
-        "color": "dark_gray",
-        "italic": true
-      }
     ]
   ],
   "mode": "append"

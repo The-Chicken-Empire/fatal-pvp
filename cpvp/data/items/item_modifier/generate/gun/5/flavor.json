@@ -23,14 +23,6 @@
         "italic": true
       }
     ]
-    ,
-    [
-      {
-        "text": "其処には未来も過去も等しく存在しない。",
-        "color": "dark_gray",
-        "italic": true
-      }
-    ]
   ],
   "mode": "append"
 }

@@ -10,7 +10,7 @@
     ],
     [
       {
-        "text": "『管理者』によって作られた[",
+        "text": "誰かによって作られた[",
         "color": "dark_gray",
         "italic": true,
         "obfuscated": false
@@ -31,13 +31,6 @@
     [
       {
         "text": "...だったもの。",
-        "color": "dark_gray",
-        "italic": true
-      }
-    ],
-    [
-      {
-        "text": "現在は必要なくなったため、『旅人』が持ち歩いている",
         "color": "dark_gray",
         "italic": true
       }

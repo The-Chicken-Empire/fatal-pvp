@@ -3,21 +3,14 @@
   "lore": [
     [
       {
-        "text": "『崩壊者』が使用していた存在を削る魔剣。",
+        "text": "存在を消し去り、運命を断ち切る魔剣。",
         "color": "dark_gray",
         "italic": true
       }
     ],
     [
       {
-        "text": "相対したならば、後には何も残らない。",
-        "color": "dark_gray",
-        "italic": true
-      }
-    ],
-    [
-      {
-        "text": "ならば、消えたその想いの行く先は――",
+        "text": "跡に何も残らないなら、消えた想いの行く先は――",
         "color": "dark_gray",
         "italic": true,
         "bold": true

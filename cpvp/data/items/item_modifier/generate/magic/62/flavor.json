@@ -21,13 +21,6 @@
         "color": "dark_gray",
         "italic": true
       }
-    ],
-    [
-      {
-        "text": "此処に、一つの世界の終わりを告ぐ。",
-        "color": "dark_gray",
-        "italic": true
-      }
     ]
   ],
   "mode": "append"

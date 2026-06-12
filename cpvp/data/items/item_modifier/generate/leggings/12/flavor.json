@@ -3,14 +3,7 @@
   "lore": [
     [
       {
-        "text": "『旅人』によって作られた最高級のレギンス",
-        "color": "dark_gray",
-        "italic": true
-      }
-    ],
-    [
-      {
-        "text": "『旅人』巡った数多の世界の素材が使われている",
+        "text": "誰かが巡った数多の世界の素材が使われている。",
         "color": "dark_gray",
         "italic": true
       }

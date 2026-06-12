@@ -3,13 +3,6 @@
   "lore": [
     [
       {
-        "text": "遠い過去にレイル工房で作られていた矢筒。",
-        "color": "dark_gray",
-        "italic": true
-      }
-    ],
-    [
-      {
         "text": "高度の空間歪曲技術が用いられており、",
         "color": "dark_gray",
         "italic": true
@@ -24,7 +17,7 @@
     ],
     [
       {
-        "text": "製作者のレイルが失踪した為もう作られることはない。",
+        "text": "製作者が失踪した為もう作られることはない。",
         "color": "dark_gray",
         "italic": true
       }

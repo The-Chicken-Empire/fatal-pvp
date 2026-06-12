@@ -3,13 +3,6 @@
   "lore": [
     [
       {
-        "text": "『管理者』によって作られた特殊な防具。",
-        "color": "dark_gray",
-        "italic": true
-      }
-    ],
-    [
-      {
         "text": "自身へ届くことのない刃を届ける為に。",
         "color": "dark_gray",
         "italic": true

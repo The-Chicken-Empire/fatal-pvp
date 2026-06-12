@@ -14,13 +14,6 @@
         "color": "dark_gray",
         "italic": true
       }
-    ],
-    [
-      {
-        "text": "何で知っている...",
-        "color": "dark_gray",
-        "italic": true
-      }
     ]
   ],
   "mode": "append"
