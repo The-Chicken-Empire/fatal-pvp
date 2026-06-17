@@ -2,13 +2,8 @@
   "function": "minecraft:set_name",
   "name": [
     {
-      "text": "星",
+      "text": "星の",
       "color": "#dcff13",
-      "italic": false
-    },
-    {
-      "text": "の",
-      "color": "#22fff4",
       "italic": false
     },
     {
